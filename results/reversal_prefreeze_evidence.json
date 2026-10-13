@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-13T23:30:41.032180+00:00",
+  "published_commit": "ba5990fd70eb0535c2d82defdbe7ad2d8997943c",
+  "registration_sha256": "5f84e74969bc5100d1eb69c9c825d717c006e385df2d12dacc912f9ef79f9c8a",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/ba5990fd70eb0535c2d82defdbe7ad2d8997943c/results/registration_reversal_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "verified before study execution; private Git publication is not accredited/public preregistration"
+}
