@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "scope": "fresh GitHub clone byte round-trip verification",
+  "registered_source_hashes_match": true,
+  "artifact_hashes_checked": 289,
+  "graph_edges": 1474,
+  "reason": "Validate exact scientific hashes survive Git checkout on Windows"
+}
