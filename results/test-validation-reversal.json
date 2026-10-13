@@ -1,0 +1,15 @@
+{
+  "date_local": "2026-10-14",
+  "timezone": "Asia/Seoul",
+  "scope": "engineering tests, distinct from the scientific diagnostic",
+  "command": "python -m pytest tests -q",
+  "pytest_version": "8.3.5",
+  "passed": 141,
+  "failed": 0,
+  "warnings": 14,
+  "warning_kind": "Matplotlib uses deprecated Pyparsing API; tests passed",
+  "duration_seconds": 51.19,
+  "thread_limits": {"OMP_NUM_THREADS": "1", "OPENBLAS_NUM_THREADS": "1", "MKL_NUM_THREADS": "1"},
+  "coverage_added": ["five matched histories", "shared random streams", "head-only reset", "fixed reset versus fresh identity", "all-seed AUC and gates", "independent full replay", "joint cue crossing", "semantic and byte tampering", "external configuration paths"],
+  "fixtures": "8 trials per phase; final fixtures use seeds31/32 separate from full study; one earlier fixture used2001 without outcome-based tuning, documented in protocol"
+}
