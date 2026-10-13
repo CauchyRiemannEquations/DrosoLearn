@@ -1,5 +1,9 @@
 {
   "local_repository": "DrosoLearn",
-  "github_status": "pending_creation",
+  "github_status": "created_and_pushed",
+  "github_url": "https://github.com/CauchyRiemannEquations/DrosoLearn",
+  "visibility": "private",
+  "default_branch": "main",
+  "study_source_commit": "11195b4e",
   "upstream_drosomem_modified": false
 }
