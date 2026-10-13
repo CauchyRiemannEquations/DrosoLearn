@@ -466,7 +466,7 @@ def test_independent_audit_detects_corruption(small_registered_run, tamper):
         path.write_text(json.dumps(value), encoding="utf-8")
         manifest_path = output / "artifact_hashes.json"
         manifest = json.loads(manifest_path.read_text())
-        manifest["summary.json"] = sha256(path)
+        manifest["summary.json"] = hashlib.sha256(path.read_bytes()).hexdigest()
         manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
     audited = verify(output)
     assert not audited["passed"] and audited["errors"]
