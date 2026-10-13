@@ -18,6 +18,13 @@
 
 ## 설치와 실행
 
+최초 smoke는 `v0.1.0-smoke`에 보존했다. 아래 최초 실험 명령은 그 태그의 **별도 checkout**에서 사용한다. 후속 모듈을 추가한 현재 main에서는 옛 등록의 source file set이 달라져 실행이 거부되는 것이 정상이다. 옛 등록 파일을 수정하지 않는다.
+
+```powershell
+git clone --branch v0.1.0-smoke https://github.com/CauchyRiemannEquations/DrosoLearn.git DrosoLearn-smoke
+Set-Location DrosoLearn-smoke
+```
+
 Python **3.12**에서 저장소 root를 작업 디렉터리로 사용한다. Windows PowerShell:
 
 ```powershell
@@ -42,6 +49,21 @@ Linux/macOS는 `python3.12 -m venv .venv`와 `.venv/bin/python`으로 실행한�
 ```
 
 `configs/confirmatory.json`은 별도 10시드 계획이며 초기 결과를 본 후 수정한 설계의 무조건적 확증으로 사용하지 않는다. 최초 실행 전에 새로운 source/protocol 동결과 수정 내역을 확인한다.
+
+## 후속: 이전 학습과 보상 반전의 비용
+
+쉽게 말하면, 이번에는 **처음부터 작은 쪽을 배우는 모델**과 **큰 쪽을 배운 뒤 작은 쪽으로 바꾸는 모델**을 비교한다. 마지막 선택 담당 가중치만 초기화하는 대조도 두어, 이전 학습이 어디에 영향을 남겼는지 계산적으로 살핀다. 초기화는 컴퓨터 안에서 하는 조작이며 실제 뇌의 기억 삭제가 아니다.
+
+[새 프로토콜](docs/reversal-protocol.md)은 별도10시드·6모델·5학습 이력, 기존과 같은 단계당400시행과 학습률을 사용한다. **옛 실패를 더 오래 훈련해 성공으로 바꾸는 실험이 아니다.** 결과는 [후속 보고서](results/reversal_v1/report.md)에 보존한다. 이 후속 명령은 현재 main의 새 소스 동결 버전에서 실행한다:
+
+```powershell
+python -m drosolearn.reversal run --config configs/reversal_diagnostic.json --registration results/registration_reversal_v1.json --out results/MY_REVERSAL_REPLAY
+python -m drosolearn.reversal verify --out results/MY_REVERSAL_REPLAY
+```
+
+코드·설정·새 프로토콜을 변경했다면 `python -m drosolearn.reversal register --config configs/reversal_diagnostic.json --out results/registration_NEW.json`으로 실행 전에 새 기록을 만든다. 경로가 존재하면 덮어쓰기를 거부한다.
+
+인간 공개 자료의 실제 확보·원본 성적표 구조 검증은 [human-data-readiness.md](docs/human-data-readiness.md)에 있다. 아이56명의 연습 전후 점수 자료를 확보했으나, 연습 한 번씩의 기록이나 보상 반전 기록은 없어 현재 반전 곡선과 직접 비교할 수 없다.
 
 ## 연구 문서
 

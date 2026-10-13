@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "label": "S1 Data: Collection comparison",
+      "doi": "10.1371/journal.pone.0166685.s002",
+      "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0166685.s002&type=supplementary",
+      "download_object_url_without_expiring_signature": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0166685/1/pone.0166685.s002.xlsx",
+      "original_filename": "pone.0166685.s002.xlsx",
+      "byte_size": 20972,
+      "sha256": "215b4df80074370fff7cd30c40cc4d54b092bb889a8b4021e21214e58d22e930",
+      "accessed_at_utc": "2026-10-13T23:17:20.551560+00:00",
+      "accessed_date_asia_seoul": "2026-10-14",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "content_disposition": null,
+      "last_modified": "Mon, 30 Nov 2020 20:18:12 GMT",
+      "etag": "\"735745c423858c44f4e7e44c645222a0\"",
+      "source_version": "Publisher storage object path /1/; no separate author version supplied",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166685 (Copyright; Supporting Information S1/S6 Data)",
+        "https://journals.plos.org/plosone/s/licenses-and-copyright (applies to articles and other published works)"
+      ],
+      "license_scope_note": "Publisher-hosted supporting data; no separate exception found. XLSX has no independent embedded license notice. Attribution retained.",
+      "attribution": "Honore N, Noel M-P (2016). Improving Preschoolers Arithmetic through Number Magnitude Training: The Impact of Non-Symbolic and Symbolic Training. PLOS ONE 11(11):e0166685. doi:10.1371/journal.pone.0166685.",
+      "modified": false
+    },
+    {
+      "label": "S6 Data: Addition",
+      "doi": "10.1371/journal.pone.0166685.s007",
+      "source_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0166685.s007&type=supplementary",
+      "download_object_url_without_expiring_signature": "https://storage.googleapis.com/plos-corpus-prod/10.1371/journal.pone.0166685/1/pone.0166685.s007.xlsx",
+      "original_filename": "pone.0166685.s007.xlsx",
+      "byte_size": 18525,
+      "sha256": "bbda27d0fda7d7a59e04e60fd9815f40284e75dd42612f9f4512ce172e3f6e7e",
+      "accessed_at_utc": "2026-10-13T23:17:21.082310+00:00",
+      "accessed_date_asia_seoul": "2026-10-14",
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "content_disposition": null,
+      "last_modified": "Mon, 30 Nov 2020 20:18:00 GMT",
+      "etag": "\"7b05c785a3819b5faf000c720451d285\"",
+      "source_version": "Publisher storage object path /1/; no separate author version supplied",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_evidence": [
+        "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166685 (Copyright; Supporting Information S1/S6 Data)",
+        "https://journals.plos.org/plosone/s/licenses-and-copyright (applies to articles and other published works)"
+      ],
+      "license_scope_note": "Publisher-hosted supporting data; no separate exception found. XLSX has no independent embedded license notice. Attribution retained.",
+      "attribution": "Honore N, Noel M-P (2016). Improving Preschoolers Arithmetic through Number Magnitude Training: The Impact of Non-Symbolic and Symbolic Training. PLOS ONE 11(11):e0166685. doi:10.1371/journal.pone.0166685.",
+      "modified": false
+    }
+  ]
+}

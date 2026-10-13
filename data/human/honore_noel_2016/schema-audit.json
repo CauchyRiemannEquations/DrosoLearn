@@ -1,0 +1,612 @@
+{
+  "scope": "Source readiness and published exclusion-count check. No cross-species comparison or full ANOVA reproduction.",
+  "audit_script_sha256": "71a4c803e0735ecb4fa5699fa5489c038e240bd524870a8edde707d42dad9df9",
+  "inclusion_for_raw_descriptives": "All 56 source rows; source-coded group labels retained without inferred training-label mapping.",
+  "published_exclusion_rule": "One pass: exclude participant if overall score is below own group mean minus two sample SD at T1 OR T2, separately per task.",
+  "published_exclusion_rule_source": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0166685 (Results, Analyses)",
+  "datasets": [
+    {
+      "original_filename": "pone.0166685.s002.xlsx",
+      "sha256": "215b4df80074370fff7cd30c40cc4d54b092bb889a8b4021e21214e58d22e930",
+      "doi": "10.1371/journal.pone.0166685.s002",
+      "granularity": "participant x measurement time x aggregate condition",
+      "sheets": [
+        {
+          "sheet": "T1",
+          "used_range": "A1:O57",
+          "participants": 56,
+          "group_code_counts": {
+            "1": 19,
+            "2": 19,
+            "3": 18
+          },
+          "column_schema": [
+            {
+              "column": "A",
+              "header": "Sujet",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 101,
+              "maximum": 257,
+              "formula_cells": 0
+            },
+            {
+              "column": "B",
+              "header": "Groupe",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 1,
+              "maximum": 3,
+              "formula_cells": 0
+            },
+            {
+              "column": "C",
+              "header": "Moyenne",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.125,
+              "maximum": 0.84375,
+              "formula_cells": 0
+            },
+            {
+              "column": "D",
+              "header": "1/2 A",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "E",
+              "header": "1/2 B",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "F",
+              "header": "2/3 A",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "G",
+              "header": "2/3 B",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "H",
+              "header": "3/4 A",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "I",
+              "header": "3/4 B",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "J",
+              "header": "4/5 A",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "K",
+              "header": "4/5 B",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "L",
+              "header": null,
+              "missing_values": 56,
+              "numeric_values": 0,
+              "minimum": null,
+              "maximum": null,
+              "formula_cells": 0
+            },
+            {
+              "column": "M",
+              "header": "Z-SCORE",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": -1.8900903393024404,
+              "maximum": 1.776911277068761,
+              "formula_cells": 56
+            },
+            {
+              "column": "N",
+              "header": "MOYENNE",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.5032894736842105,
+              "maximum": 0.5855263157894737,
+              "formula_cells": 56
+            },
+            {
+              "column": "O",
+              "header": "ECART-TYPE",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.15339507828105073,
+              "maximum": 0.23313205996396325,
+              "formula_cells": 56
+            }
+          ],
+          "raw_descriptives": {
+            "1": {
+              "n": 19,
+              "mean_accuracy_all_rows": 0.5032894736842105,
+              "sample_sd_all_rows": 0.23313205996396322
+            },
+            "2": {
+              "n": 19,
+              "mean_accuracy_all_rows": 0.5855263157894737,
+              "sample_sd_all_rows": 0.17764680733943614
+            },
+            "3": {
+              "n": 18,
+              "mean_accuracy_all_rows": 0.5711805555555556,
+              "sample_sd_all_rows": 0.1533950782810507
+            }
+          },
+          "overall_score_condition_mean_max_abs_error": 0.0,
+          "source_formula_mean_max_abs_error": 0.0,
+          "source_formula_sd_max_abs_error": 2.7755575615628914e-17,
+          "source_formula_z_max_abs_error": 4.440892098500626e-16
+        },
+        {
+          "sheet": "T2",
+          "used_range": "A1:O57",
+          "participants": 56,
+          "group_code_counts": {
+            "1": 19,
+            "2": 19,
+            "3": 18
+          },
+          "column_schema": [
+            {
+              "column": "A",
+              "header": "Sujet",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 101,
+              "maximum": 257,
+              "formula_cells": 0
+            },
+            {
+              "column": "B",
+              "header": "Groupe",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 1,
+              "maximum": 3,
+              "formula_cells": 0
+            },
+            {
+              "column": "C",
+              "header": "Moyenne",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.25,
+              "maximum": 0.875,
+              "formula_cells": 0
+            },
+            {
+              "column": "D",
+              "header": "1/2 A",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "E",
+              "header": "1/2 B",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "F",
+              "header": "2/3 A",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "G",
+              "header": "2/3 B",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "H",
+              "header": "3/4 A",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "I",
+              "header": "3/4 B",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "J",
+              "header": "4/5 A",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "K",
+              "header": "4/5 B",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "L",
+              "header": null,
+              "missing_values": 56,
+              "numeric_values": 0,
+              "minimum": null,
+              "maximum": null,
+              "formula_cells": 0
+            },
+            {
+              "column": "M",
+              "header": "Z-SCORE",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": -2.7453858672771023,
+              "maximum": 1.6805089248181042,
+              "formula_cells": 56
+            },
+            {
+              "column": "N",
+              "header": "MOYENNE",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.6128472222222222,
+              "maximum": 0.7088815789473685,
+              "formula_cells": 56
+            },
+            {
+              "column": "O",
+              "header": "ECART-TYPE",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.09885006773802879,
+              "maximum": 0.17714639880470925,
+              "formula_cells": 56
+            }
+          ],
+          "raw_descriptives": {
+            "1": {
+              "n": 19,
+              "mean_accuracy_all_rows": 0.7088815789473685,
+              "sample_sd_all_rows": 0.09885006773802872
+            },
+            "2": {
+              "n": 19,
+              "mean_accuracy_all_rows": 0.6365131578947368,
+              "sample_sd_all_rows": 0.15839175399596447
+            },
+            "3": {
+              "n": 18,
+              "mean_accuracy_all_rows": 0.6128472222222222,
+              "sample_sd_all_rows": 0.17714639880470934
+            }
+          },
+          "overall_score_condition_mean_max_abs_error": 0.0,
+          "source_formula_mean_max_abs_error": 0.0,
+          "source_formula_sd_max_abs_error": 8.326672684688674e-17,
+          "source_formula_z_max_abs_error": 1.7763568394002505e-15
+        }
+      ],
+      "original_rule_excluded_ids": [
+        108,
+        155,
+        225
+      ],
+      "original_rule_excluded_count": 3,
+      "original_rule_excluded_by_source_group_code": {
+        "1": 1,
+        "2": 2
+      },
+      "paper_reported_excluded_count": 3,
+      "excluded_count_matches_paper": true,
+      "original_rule_retained_count": 53
+    },
+    {
+      "original_filename": "pone.0166685.s007.xlsx",
+      "sha256": "bbda27d0fda7d7a59e04e60fd9815f40284e75dd42612f9f4512ce172e3f6e7e",
+      "doi": "10.1371/journal.pone.0166685.s007",
+      "granularity": "participant x measurement time x aggregate condition",
+      "sheets": [
+        {
+          "sheet": "T1",
+          "used_range": "A1:I57",
+          "participants": 56,
+          "group_code_counts": {
+            "1": 19,
+            "2": 19,
+            "3": 18
+          },
+          "column_schema": [
+            {
+              "column": "A",
+              "header": "Sujet",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 101,
+              "maximum": 257,
+              "formula_cells": 0
+            },
+            {
+              "column": "B",
+              "header": "Groupe",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 1,
+              "maximum": 3,
+              "formula_cells": 0
+            },
+            {
+              "column": "C",
+              "header": "MOYENNE",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.25,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "D",
+              "header": "Diff 1",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.3333333333333333,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "E",
+              "header": "Diff 2",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.16666666666666666,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "F",
+              "header": null,
+              "missing_values": 56,
+              "numeric_values": 0,
+              "minimum": null,
+              "maximum": null,
+              "formula_cells": 0
+            },
+            {
+              "column": "G",
+              "header": "Z-score",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": -1.952100431606015,
+              "maximum": 3.0301260430899353,
+              "formula_cells": 56
+            },
+            {
+              "column": "H",
+              "header": "MOYENNE",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.5438596491228069,
+              "maximum": 0.6481481481481483,
+              "formula_cells": 56
+            },
+            {
+              "column": "I",
+              "header": "Ecart-type",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.15053510790991695,
+              "maximum": 0.18646074854510997,
+              "formula_cells": 56
+            }
+          ],
+          "raw_descriptives": {
+            "1": {
+              "n": 19,
+              "mean_accuracy_all_rows": 0.543859649122807,
+              "sample_sd_all_rows": 0.15053510790991678
+            },
+            "2": {
+              "n": 19,
+              "mean_accuracy_all_rows": 0.6140350877192983,
+              "sample_sd_all_rows": 0.15518439429053113
+            },
+            "3": {
+              "n": 18,
+              "mean_accuracy_all_rows": 0.6481481481481481,
+              "sample_sd_all_rows": 0.18646074854511044
+            }
+          },
+          "overall_score_condition_mean_max_abs_error": 1.1102230246251565e-16,
+          "source_formula_mean_max_abs_error": 1.1102230246251565e-16,
+          "source_formula_sd_max_abs_error": 4.718447854656915e-16,
+          "source_formula_z_max_abs_error": 7.549516567451064e-15
+        },
+        {
+          "sheet": "T2",
+          "used_range": "A1:I57",
+          "participants": 56,
+          "group_code_counts": {
+            "1": 19,
+            "2": 19,
+            "3": 18
+          },
+          "column_schema": [
+            {
+              "column": "A",
+              "header": "Sujet",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 101,
+              "maximum": 257,
+              "formula_cells": 0
+            },
+            {
+              "column": "B",
+              "header": "Groupe",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 1,
+              "maximum": 3,
+              "formula_cells": 0
+            },
+            {
+              "column": "C",
+              "header": "MOY ACC",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.3333333333333333,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "D",
+              "header": "Diff 1 ACC",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.3333333333333333,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "E",
+              "header": "Diff 2 ACC",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.16666666666666666,
+              "maximum": 1,
+              "formula_cells": 0
+            },
+            {
+              "column": "F",
+              "header": null,
+              "missing_values": 56,
+              "numeric_values": 0,
+              "minimum": null,
+              "maximum": null,
+              "formula_cells": 0
+            },
+            {
+              "column": "G",
+              "header": "Z-score",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": -2.110839077805834,
+              "maximum": 2.2780608068109762,
+              "formula_cells": 56
+            },
+            {
+              "column": "H",
+              "header": "MOYENNE",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.6096491228070174,
+              "maximum": 0.7456140350877193,
+              "formula_cells": 56
+            },
+            {
+              "column": "I",
+              "header": "Ecart-type",
+              "missing_values": 0,
+              "numeric_values": 56,
+              "minimum": 0.15583725537381343,
+              "maximum": 0.20721376737206854,
+              "formula_cells": 56
+            }
+          ],
+          "raw_descriptives": {
+            "1": {
+              "n": 19,
+              "mean_accuracy_all_rows": 0.6096491228070176,
+              "sample_sd_all_rows": 0.1713522641827233
+            },
+            "2": {
+              "n": 19,
+              "mean_accuracy_all_rows": 0.7456140350877193,
+              "sample_sd_all_rows": 0.15583725537381343
+            },
+            "3": {
+              "n": 18,
+              "mean_accuracy_all_rows": 0.6481481481481481,
+              "sample_sd_all_rows": 0.20721376737206865
+            }
+          },
+          "overall_score_condition_mean_max_abs_error": 1.1102230246251565e-16,
+          "source_formula_mean_max_abs_error": 1.1102230246251565e-16,
+          "source_formula_sd_max_abs_error": 1.3877787807814457e-16,
+          "source_formula_z_max_abs_error": 1.5543122344752192e-15
+        }
+      ],
+      "original_rule_excluded_ids": [
+        225
+      ],
+      "original_rule_excluded_count": 1,
+      "original_rule_excluded_by_source_group_code": {
+        "2": 1
+      },
+      "paper_reported_excluded_count": 1,
+      "excluded_count_matches_paper": true,
+      "original_rule_retained_count": 55
+    }
+  ]
+}

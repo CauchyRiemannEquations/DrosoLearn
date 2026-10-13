@@ -1,0 +1,18 @@
+Source: Honore N, Noel M-P (2016). Improving Preschoolers' Arithmetic through
+Number Magnitude Training: The Impact of Non-Symbolic and Symbolic Training.
+PLOS ONE 11(11): e0166685. doi:10.1371/journal.pone.0166685.
+Authors' names: Nastasya Honoré and Marie-Pascale Noël.
+Article: https://doi.org/10.1371/journal.pone.0166685
+S1 Data: https://doi.org/10.1371/journal.pone.0166685.s002
+S6 Data: https://doi.org/10.1371/journal.pone.0166685.s007
+
+Copyright (c) 2016 Honore, Noel.
+License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+https://creativecommons.org/licenses/by/4.0/
+Publisher license policy: https://journals.plos.org/plosone/s/licenses-and-copyright
+License evidence and scope are recorded in source-manifest.json.
+
+Both original XLSX files are unchanged byte-for-byte publisher downloads.
+schema-audit.json is a DrosoLearn derivative audit, not an original study file.
+The audit does not imply that the authors endorse DrosoLearn.
+The public numeric participant identifiers are not linked to other personal data.

@@ -36,7 +36,7 @@
 
 ## 공개 자료 접근성 및 재사용 결정
 
-이번 최소 실행은 아래 외부 행동 자료나 MATLAB 코드를 가져오지 않는다. 공개 링크 확인과 실제 파일의 해시 검증·스키마 검증·재분석은 구분한다. 사후 인간 비교를 실행할 때에는 파일별 출처, DOI, 내려받은 날짜, SHA-256, 라이선스, 포함·제외 기준을 새 manifest에 고정한다.
+최초 smoke 실행에는 아래 외부 행동 자료나 MATLAB 코드를 사용하지 않았다. 후속 작업에서 Honoré & Noël의 S1/S6 원본 XLSX를 실제 확보하고 해시·스키마·집계·논문 제외 인원 검증을 수행했다. [실제 준비 상태](human-data-readiness.md)를 참조한다. 공개 링크 확인, 구조 검증과 인간/모델 비교를 구분한다. 새 반전 실험도 인간 자료를 학습이나 평가 입력으로 사용하지 않는다.
 
 | 자료 | 확인한 접근성 / 조건 | 현재 상태 |
 |---|---|---|
@@ -44,7 +44,7 @@
 | Huang 신경 전압 trace | [Zenodo 10998457](https://zenodo.org/records/10998457), DOI 10.5281/zenodo.10998457. Figure1–5.zip 공개 metadata 및 CC BY 4.0 확인. 논문의 원시 voltage imaging은 reasonable request 조건이며 공개 trace와 구분된다. | metadata 확인; raw image 공개를 가정하지 않음. |
 | Huang 계산 모델 | [저자 GitHub](https://github.com/schnitzer-lab/Luo_Huang_2024_MB_model). README에 MATLAB v2020b/v2022a, recurrent equation fitting, GPL-3.0-or-later 명시. | 별도 코드 미복사. 재사용 시 commit·원문 라이선스·파생물 조건 보존 필요. |
 | DeWind 자극/모형 | 공개 본문과 supplementary code 참조 확인. 인간 시행별 원자료의 명시적 공개 archive는 이번 확인에서 찾지 못함. | 방법을 인용하며 원자료가 있다고 가정하지 않음. |
-| Honoré & Noël 인간 자료 | 논문 Supporting Information의 S1–S6 Data XLSX 목록 공개: [수량 비교 S1 Data](https://doi.org/10.1371/journal.pone.0166685.s002), [덧셈 S6 Data](https://doi.org/10.1371/journal.pone.0166685.s007). 논문은 CC BY. | 자료 목록 확인; 파일 내부 granularity·결측·정확한 라이선스 재확인은 Phase 4 작업. |
+| Honoré & Noël 인간 자료 | 논문 Supporting Information의 [수량 비교 S1 Data](https://doi.org/10.1371/journal.pone.0166685.s002), [덧셈 S6 Data](https://doi.org/10.1371/journal.pone.0166685.s007). CC BY 4.0 근거·원본 해시 보존. | 실제 두 파일 확보·구조/집계/제외 인원 검증 완료. 각 시점56명의 요약점수이며 시행별 학습·반전 기록은 없다. 집단1/2·A/B 의미는 코드북 추가 확인이 필요하고 비교 연구는 미실행. |
 | Kattner et al. 인간 범주 전이 자료 | [S1 Data ZIP](https://doi.org/10.1371/journal.pone.0165260.s001), CategoryTransfer_RawData.Rdata와 ReadMe.txt가 있다고 논문이 명시. 논문은 CC BY. | 목록 확인; 수량 자료로 오분류하지 않음. |
 
 ## 첫 연구의 선택 근거와 미해결점

@@ -1,0 +1,25 @@
+{
+  "experiment_id": "reversal_history_diagnostic_v1",
+  "scope": "preregistered_diagnostic",
+  "seeds": [2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010],
+  "graph": "data/flywire_783_mb_left_kc512_s701",
+  "pair": [2, 4],
+  "conditions": ["fixed", "plastic", "rewired_fixed", "rewired_plastic", "ann_fixed", "ann_plastic"],
+  "histories": ["high_then_low", "low_then_low", "high_then_high", "fresh_low", "reset_head_after_high"],
+  "trials_per_phase": 400,
+  "checkpoint_every": 100,
+  "eval_trials": 128,
+  "probe_rows": 8,
+  "head_lr": 0.1,
+  "internal_lr": 0.01,
+  "criteria": {
+    "acquisition_accuracy": 0.75,
+    "acquisition_gain": 0.15,
+    "adaptation_accuracy": 0.75,
+    "history_auc_penalty": 0.10,
+    "positive_seed_fraction": 0.8
+  },
+  "analysis": "normalized trapezoid IID p(low) phase2 AUC; primary all seeds; qualified acquisition subset secondary",
+  "stopping": "fixed budgets; no successful seed selection or extension",
+  "input_scope": "explicit oracle n/8, six crossed artificial descriptors; no visual perception"
+}
