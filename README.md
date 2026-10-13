@@ -4,6 +4,18 @@
 
 초파리 커넥톰 제약을 가진 계산 모델에서 수량·기초 규칙을 배우는 과정, 일반화, 보상 수정과 학습 간섭을 조사한다. 인간의 기초 수량 인지·수학 학습에 대해 검증 가능한 가설을 만드는 것이 장기 목표다. 커넥톰의 우수성이나 인간과 동일한 신경 메커니즘을 전제하지 않는다.
 
+쉽게 말하면, 초파리 뇌의 **연결 지도**를 참고해 작은 계산 모델을 만들고, 경험이 선택을 어떻게 바꾸는지 관찰하는 연구다. 지금은 “2와4 중 어떤 쪽을 선택하면 보상을 받는가”를 배우게 한다. 물체 그림에서 개수를 알아내는 단계나 사람의 수학 이해를 재현한 단계는 아직 아니다.
+
+| 용어 | 쉬운 풀이 |
+|---|---|
+| 커넥톰 | 어떤 뉴런이 어떤 뉴런과 연결돼 있는지 나타낸 지도 |
+| 가중치 | 연결을 통해 신호가 전달되는 계산상의 강도. 실제 시냅스 효능과 동일하지 않음 |
+| 내부 학습 | 모델 안쪽 연결의 계산 가중치를 바꾸는 것 |
+| 출력 학습 | 마지막 선택을 정하는 가중치를 바꾸는 것 |
+| 보상 반전 | 처음에는 큰 쪽이 정답이었다가 작은 쪽이 정답으로 바뀌는 실험 |
+| 시드 | 같은 알고리즘을 다른 무작위 초기 조건으로 시작하는 번호. 초파리 개체 수가 아님 |
+| 사전 기준 | 결과를 보기 전에 정한 성공·실패 판정 규칙 |
+
 [DrosoMem](https://github.com/CauchyRiemannEquations/DrosoMem)은 완료된 독립 연구다. 원본 저장소·실험을 변경하지 않고, 특정 커밋의 소규모 데이터를 출처와 함께 재사용한다. 기존 M11 실패 및 이후 제한적 내부 가소성 연구의 부정적 기능 결과를 연구 출발점에 포함했다.
 
 ## 현재 구현
@@ -56,9 +68,13 @@ Linux/macOS는 `python3.12 -m venv .venv`와 `.venv/bin/python`으로 실행한�
 
 [새 프로토콜](docs/reversal-protocol.md)은 별도10시드·6모델·5학습 이력, 기존과 같은 단계당400시행과 학습률을 사용한다. **옛 실패를 더 오래 훈련해 성공으로 바꾸는 실험이 아니다.** 결과는 [후속 보고서](results/reversal_v1/report.md)에 보존한다. 이 후속 명령은 현재 main의 새 소스 동결 버전에서 실행한다:
 
+실행 결과의 쉬운 해석은 [reversal-findings.md](docs/reversal-findings.md)에 있다. 처음부터 새 규칙을 배우는 것은 대부분 성립했지만 반전 기준은 전 조건에서 미달했다. **반전의 낮은 출발점과 학습 속도 자체를 구분**해야 하며, 과정 성적의 비용을 곧바로 느린 학습률이라고 해석하지 않는다. 내부도 학습한 모델에서 선택 부분 초기화 이후 수치상 이득이 나타나, 내부 변화가 무조건 방해한다는 해석도 지지되지 않았다.
+
+후속 실행 버전은 `study-reversal-v1` 태그로 보존한다. 이후 main에 새 코드가 추가되면 그 태그를 별도 checkout하고 Python3.12 환경을 설치해 재현한다. 아래는 Windows PowerShell에서 해당 checkout의 `.venv`를 사용하는 명령이다.
+
 ```powershell
-python -m drosolearn.reversal run --config configs/reversal_diagnostic.json --registration results/registration_reversal_v1.json --out results/MY_REVERSAL_REPLAY
-python -m drosolearn.reversal verify --out results/MY_REVERSAL_REPLAY
+.\.venv\Scripts\python.exe -m drosolearn.reversal run --config configs/reversal_diagnostic.json --registration results/registration_reversal_v1.json --out results/MY_REVERSAL_REPLAY
+.\.venv\Scripts\python.exe -m drosolearn.reversal verify --out results/MY_REVERSAL_REPLAY
 ```
 
 코드·설정·새 프로토콜을 변경했다면 `python -m drosolearn.reversal register --config configs/reversal_diagnostic.json --out results/registration_NEW.json`으로 실행 전에 새 기록을 만든다. 경로가 존재하면 덮어쓰기를 거부한다.

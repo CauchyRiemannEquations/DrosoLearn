@@ -1,0 +1,12 @@
+{
+  "seed": 2002,
+  "condition": "rewired_plastic",
+  "history": "fresh_low",
+  "head_reset_l2": 0.0,
+  "internal_reset_l2": 0.0,
+  "phase1_training_trials": 0,
+  "head_updates_before_phase2": 0,
+  "internal_updates_before_phase2": 0,
+  "final_head_updates": 400,
+  "final_internal_updates": 400
+}

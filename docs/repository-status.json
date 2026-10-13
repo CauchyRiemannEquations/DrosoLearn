@@ -4,6 +4,12 @@
   "github_url": "https://github.com/CauchyRiemannEquations/DrosoLearn",
   "visibility": "private",
   "default_branch": "main",
-  "study_source_commit": "11195b47c57e20532cca0eed80b8dca4589ef92b",
-  "upstream_drosomem_modified": false
+  "upstream_drosomem_modified": false,
+  "initial_study_source_commit": "11195b47c57e20532cca0eed80b8dca4589ef92b",
+  "current_diagnostic_source_commit": "55d95d4ab2830c9b2ff10fe5817dce8f91db0a0d",
+  "study_tags": {
+    "smoke_v1": "v0.1.0-smoke",
+    "reversal_v1": "study-reversal-v1"
+  },
+  "current_diagnostic": "reversal_history_diagnostic_v1"
 }

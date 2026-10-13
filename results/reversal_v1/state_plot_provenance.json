@@ -1,0 +1,9 @@
+{
+  "created_at_utc": "2026-10-13T23:37:08.537026+00:00",
+  "scope": "post-run descriptive plotting of already recorded measures",
+  "script_sha256": "f0408be8cee771b82d5b77b25b3d8ec8bb6a4fe6a980b190fb810b2706a47020",
+  "input_sha256": "703b61ef835cda425425c0a2b2397283c787ec605137712b2100662ac09df7cf",
+  "output_sha256": "51d0c70ca405e6ec2e27072785048188cd639750e4cd76faf4d237347048c683",
+  "reproduce": "python scripts/plot_reversal_state_changes.py results/NEW_VERIFIED_REPLAY",
+  "primary_simulation_or_criteria_changed": false
+}

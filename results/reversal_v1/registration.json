@@ -1,0 +1,84 @@
+{
+  "registered_at_utc": "2026-10-13T23:30:37.126478+00:00",
+  "config": {
+    "experiment_id": "reversal_history_diagnostic_v1",
+    "scope": "preregistered_diagnostic",
+    "seeds": [
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010
+    ],
+    "graph": "data/flywire_783_mb_left_kc512_s701",
+    "pair": [
+      2,
+      4
+    ],
+    "conditions": [
+      "fixed",
+      "plastic",
+      "rewired_fixed",
+      "rewired_plastic",
+      "ann_fixed",
+      "ann_plastic"
+    ],
+    "histories": [
+      "high_then_low",
+      "low_then_low",
+      "high_then_high",
+      "fresh_low",
+      "reset_head_after_high"
+    ],
+    "trials_per_phase": 400,
+    "checkpoint_every": 100,
+    "eval_trials": 128,
+    "probe_rows": 8,
+    "head_lr": 0.1,
+    "internal_lr": 0.01,
+    "criteria": {
+      "acquisition_accuracy": 0.75,
+      "acquisition_gain": 0.15,
+      "adaptation_accuracy": 0.75,
+      "history_auc_penalty": 0.1,
+      "positive_seed_fraction": 0.8
+    },
+    "analysis": "normalized trapezoid IID p(low) phase2 AUC; primary all seeds; qualified acquisition subset secondary",
+    "stopping": "fixed budgets; no successful seed selection or extension",
+    "input_scope": "explicit oracle n/8, six crossed artificial descriptors; no visual perception"
+  },
+  "config_sha256": "26597ec1aca098de600f4739f352dea2477b1e5dbd6e9b1efc7a5308d05a366c",
+  "source_hashes": {
+    "data/flywire_783_mb_left_kc512_s701/annotations.csv": "10f9c9d4db8ee2741bd19cf464e4b46fd6e24f086a5ce1dbb550bcea633cdb16",
+    "data/flywire_783_mb_left_kc512_s701/edges.csv": "d8c47ea1202575994d430f55e5bd8602f939f320ef02f71522fc1bc54b97db51",
+    "data/flywire_783_mb_left_kc512_s701/neurons.json": "05d83a288b1d42337001015be2d54167aed00cdc9fea58b578423d18756aa77b",
+    "data/flywire_783_mb_left_kc512_s701/provenance.json": "e1a50d254628fb0573d7853b8e66926697b353da317bd701b17e60bfd4942061",
+    "data/LICENSE.md": "22ecdbcde7d264ef025101c57a7cf753fba1612002253f93d83071b34bec2381",
+    "data/source-manifest.json": "ce2219987ae991b5e2e41dde6bd811fa51d7a2cd57ecaf01bf90cdf55ba69af9",
+    "docs/reversal-protocol.md": "143edb641153ed9087caa8bab2f2616dc1a08085a38b7f41544a43d0fd83da14",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/analysis.py": "5c70261b6fb8064aef7abfead85f9848e31e4ab7d7bfea300e678bc2204dfe2f",
+    "src/drosolearn/audit.py": "5effe6ba19814adaaf841abfd0fddece77ec31468c5fa8214b78be1d62ee4fea",
+    "src/drosolearn/cli.py": "67ecf0220c61b3257bd03fc7de58f47327f57e3004e82f82f2f9bbfc10199311",
+    "src/drosolearn/data.py": "e2a9f2108b37e0fa1c23607f657133d38bdd8cfbac648afc95d1fac85462d6dc",
+    "src/drosolearn/experiment.py": "b55bbec7b8fe402ac2aa16a28a50b3cde166dc612247a92dc6d727e1ecb58e3e",
+    "src/drosolearn/graph.py": "6c713164943f1e6a4c38c9138ecd9c437b56523d68b58cffb58dc6531ccea2c2",
+    "src/drosolearn/model.py": "21e855ebbddb6190816a8adad130216065a03a6fc2d757e42466bdc7aaca3497",
+    "src/drosolearn/reversal.py": "1b7dc871f0bdff7de977bd7ae153022e1a8b327686fac16a7be92d8745c7f3cb",
+    "src/drosolearn/reversal_analysis.py": "ddc775feebc84db480885f21e9700c4263a9eca1a2e35c6310e56819fa914f8a",
+    "src/drosolearn/reversal_audit.py": "da936d8d7c70233b3af11b9aac95254cc5bea79cff2c9e7e322eeba0c8f5c58b"
+  },
+  "git": {
+    "commit": "55d95d4ab2830c9b2ff10fe5817dce8f91db0a0d",
+    "status": ""
+  },
+  "notice": "prospective private Git/local freeze; not an accredited public preregistration",
+  "previous_study": "v0.1.0-smoke; immutable prior results; this is a separate diagnostic"
+}

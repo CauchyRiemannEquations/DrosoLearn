@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "frozen_source_and_protocol_unchanged": true,
+  "primary_artifact_hashes_verified": 3125,
+  "remote_freeze_checked_before_execution": true,
+  "old_source_and_results_preserved_at": "v0.1.0-smoke",
+  "postprocessing_separate": "state_plot_provenance.json",
+  "diagnostic_source_commit": "55d95d4ab2830c9b2ff10fe5817dce8f91db0a0d"
+}

@@ -1,0 +1,12 @@
+{
+  "seed": 2007,
+  "condition": "rewired_plastic",
+  "history": "reset_head_after_high",
+  "head_reset_l2": 3.6223782568739993,
+  "internal_reset_l2": 0.0,
+  "phase1_training_trials": 400,
+  "head_updates_before_phase2": 400,
+  "internal_updates_before_phase2": 400,
+  "final_head_updates": 800,
+  "final_internal_updates": 800
+}

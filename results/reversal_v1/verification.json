@@ -1,0 +1,36 @@
+{
+  "audited_at_utc": "2026-10-13T23:32:40.236596+00:00",
+  "passed": true,
+  "method": "independent numpy/stdlib replay; no learner/data/experiment/summary helper imports",
+  "input_scope": "oracle quantity n/8 and six crossed artificial descriptors; algorithmic history diagnostic",
+  "counts": {
+    "artifact_hashes": 3125,
+    "seeds": 10,
+    "conditions": 6,
+    "histories": 5,
+    "trials": 216000,
+    "curve_rows": 5400,
+    "evaluation_cases": 276480,
+    "checkpoints": 2760,
+    "canonical_fingerprints": 5280,
+    "boundaries": 300
+  },
+  "checks": [
+    "All required primary artifact hashes, exact design coverage and local registration/run chronology",
+    "Full joint descriptor crossing, single-cue chance and canonical stimulus disjointness across seeds/splits",
+    "All input arrays and shared phase1/phase2 uniform streams regenerated independently from registered seed offsets",
+    "All three raw topologies: duplicate-free, matched incoming count multisets, edge/indegree resources and rewired outdegree",
+    "Independent encoder/bias/head initialization, n/8 oracle encoding, sparse forward activity and evaluation arithmetic",
+    "Every recorded action/reward and policy update replayed without Learner.update or experiment helpers",
+    "Bounded internal changes, fixed zero internal steps, phase-boundary reset and counters verified",
+    "Identical high-rule pretraining prefixes and fixed reset-head/fresh counterfactual at every trial/checkpoint",
+    "Independent checkpoint trapezoid AUC, endpoints, acquisition/reversal gates, paired penalties and all-seed family verdicts"
+  ],
+  "errors": [],
+  "not_verified": [
+    "Biological LC11 perception, DAN dynamics, physiological timescales or shared human/fly mechanisms",
+    "Remote private Git publication authenticity and source identity outside this output; local chronology is self-recorded",
+    "Confirmatory statistical significance, broad mathematical rules or educational implications",
+    "Seeds as independent animals: matched histories are dependent computational repetitions"
+  ]
+}

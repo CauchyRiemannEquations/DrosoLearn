@@ -1,0 +1,270 @@
+{
+  "scope": "preregistered_diagnostic",
+  "aggregate": [
+    {
+      "condition": "fixed",
+      "means": {
+        "high_then_low": {
+          "phase2_before": 0.19253388272144897,
+          "phase2_after": 0.49914080210504486,
+          "phase2_iid_auc": 0.321159805637145
+        },
+        "low_then_low": {
+          "phase2_before": 0.8063404466188817,
+          "phase2_after": 0.9010757232272677,
+          "phase2_iid_auc": 0.8622435670063758
+        },
+        "high_then_high": {
+          "phase2_before": 0.8074661172785511,
+          "phase2_after": 0.9001423357192928,
+          "phase2_iid_auc": 0.8619054041180032
+        },
+        "fresh_low": {
+          "phase2_before": 0.5002250008980077,
+          "phase2_after": 0.8072774777287688,
+          "phase2_iid_auc": 0.6790953258719796
+        },
+        "reset_head_after_high": {
+          "phase2_before": 0.5002250008980077,
+          "phase2_after": 0.8072774777287688,
+          "phase2_iid_auc": 0.6790953258719796
+        }
+      },
+      "history_verdict": {
+        "condition": "fixed",
+        "n_seeds": 10,
+        "mean_history_auc_penalty": 0.35793552023483455,
+        "sd_history_auc_penalty": 0.06305593413897832,
+        "positive_seed_count": 10,
+        "positive_seed_fraction": 1.0,
+        "history_cost_criterion_met": true,
+        "qualified_seed_count": 9,
+        "qualified_mean_auc_penalty": 0.36811563058665653,
+        "note": "all-seed primary; qualified subset secondary; seed is not an animal"
+      },
+      "reversal_endpoint_passes": 0,
+      "qualified_reversal_passes": 0
+    },
+    {
+      "condition": "plastic",
+      "means": {
+        "high_then_low": {
+          "phase2_before": 0.06217971071868518,
+          "phase2_after": 0.5473928633002016,
+          "phase2_iid_auc": 0.36175904891320104
+        },
+        "low_then_low": {
+          "phase2_before": 0.9341387191754296,
+          "phase2_after": 0.9752596659737455,
+          "phase2_iid_auc": 0.9601696334114982
+        },
+        "high_then_high": {
+          "phase2_before": 0.9378202892813148,
+          "phase2_after": 0.9758133270337195,
+          "phase2_iid_auc": 0.9620879833310187
+        },
+        "fresh_low": {
+          "phase2_before": 0.5002250008980077,
+          "phase2_after": 0.9361015270538567,
+          "phase2_iid_auc": 0.7738532235284414
+        },
+        "reset_head_after_high": {
+          "phase2_before": 0.500004912401614,
+          "phase2_after": 0.9504622215854649,
+          "phase2_iid_auc": 0.8311874356126105
+        }
+      },
+      "history_verdict": {
+        "condition": "plastic",
+        "n_seeds": 10,
+        "mean_history_auc_penalty": 0.4120941746152405,
+        "sd_history_auc_penalty": 0.052786629146486824,
+        "positive_seed_count": 10,
+        "positive_seed_fraction": 1.0,
+        "history_cost_criterion_met": true,
+        "qualified_seed_count": 10,
+        "qualified_mean_auc_penalty": 0.4120941746152405,
+        "note": "all-seed primary; qualified subset secondary; seed is not an animal"
+      },
+      "reversal_endpoint_passes": 0,
+      "qualified_reversal_passes": 0
+    },
+    {
+      "condition": "rewired_fixed",
+      "means": {
+        "high_then_low": {
+          "phase2_before": 0.17909697169778743,
+          "phase2_after": 0.4931318819832091,
+          "phase2_iid_auc": 0.3093673096812018
+        },
+        "low_then_low": {
+          "phase2_before": 0.8199646599870114,
+          "phase2_after": 0.9104582449428715,
+          "phase2_iid_auc": 0.8737135111486776
+        },
+        "high_then_high": {
+          "phase2_before": 0.8209030283022125,
+          "phase2_after": 0.9095803982707571,
+          "phase2_iid_auc": 0.8733793051392984
+        },
+        "fresh_low": {
+          "phase2_before": 0.500765523654732,
+          "phase2_after": 0.8204825043411642,
+          "phase2_iid_auc": 0.6886490536376609
+        },
+        "reset_head_after_high": {
+          "phase2_before": 0.500765523654732,
+          "phase2_after": 0.8204825043411642,
+          "phase2_iid_auc": 0.6886490536376609
+        }
+      },
+      "history_verdict": {
+        "condition": "rewired_fixed",
+        "n_seeds": 10,
+        "mean_history_auc_penalty": 0.3792817439564592,
+        "sd_history_auc_penalty": 0.05099374206864906,
+        "positive_seed_count": 10,
+        "positive_seed_fraction": 1.0,
+        "history_cost_criterion_met": true,
+        "qualified_seed_count": 10,
+        "qualified_mean_auc_penalty": 0.3792817439564592,
+        "note": "all-seed primary; qualified subset secondary; seed is not an animal"
+      },
+      "reversal_endpoint_passes": 0,
+      "qualified_reversal_passes": 0
+    },
+    {
+      "condition": "rewired_plastic",
+      "means": {
+        "high_then_low": {
+          "phase2_before": 0.05942011136748844,
+          "phase2_after": 0.558563371963207,
+          "phase2_iid_auc": 0.3587970226745247
+        },
+        "low_then_low": {
+          "phase2_before": 0.9389698198919374,
+          "phase2_after": 0.9773259208742818,
+          "phase2_iid_auc": 0.9634625231557189
+        },
+        "high_then_high": {
+          "phase2_before": 0.9405798886325115,
+          "phase2_after": 0.9777784605711315,
+          "phase2_iid_auc": 0.964605851483219
+        },
+        "fresh_low": {
+          "phase2_before": 0.500765523654732,
+          "phase2_after": 0.9408365814946293,
+          "phase2_iid_auc": 0.7802450156295588
+        },
+        "reset_head_after_high": {
+          "phase2_before": 0.5008096611218991,
+          "phase2_after": 0.9548686306741427,
+          "phase2_iid_auc": 0.8364230104989984
+        }
+      },
+      "history_verdict": {
+        "condition": "rewired_plastic",
+        "n_seeds": 10,
+        "mean_history_auc_penalty": 0.42144799295503416,
+        "sd_history_auc_penalty": 0.03737675422636346,
+        "positive_seed_count": 10,
+        "positive_seed_fraction": 1.0,
+        "history_cost_criterion_met": true,
+        "qualified_seed_count": 10,
+        "qualified_mean_auc_penalty": 0.42144799295503416,
+        "note": "all-seed primary; qualified subset secondary; seed is not an animal"
+      },
+      "reversal_endpoint_passes": 0,
+      "qualified_reversal_passes": 0
+    },
+    {
+      "condition": "ann_fixed",
+      "means": {
+        "high_then_low": {
+          "phase2_before": 0.17703268087698087,
+          "phase2_after": 0.49616578048279436,
+          "phase2_iid_auc": 0.3075920435921765
+        },
+        "low_then_low": {
+          "phase2_before": 0.8217093901105648,
+          "phase2_after": 0.9101170808525383,
+          "phase2_iid_auc": 0.8741634334494212
+        },
+        "high_then_high": {
+          "phase2_before": 0.8229673191230191,
+          "phase2_after": 0.9105825361402922,
+          "phase2_iid_auc": 0.8747706603330269
+        },
+        "fresh_low": {
+          "phase2_before": 0.5005273637433049,
+          "phase2_after": 0.8225320835241835,
+          "phase2_iid_auc": 0.6913149381995158
+        },
+        "reset_head_after_high": {
+          "phase2_before": 0.5005273637433049,
+          "phase2_after": 0.8225320835241835,
+          "phase2_iid_auc": 0.6913149381995158
+        }
+      },
+      "history_verdict": {
+        "condition": "ann_fixed",
+        "n_seeds": 10,
+        "mean_history_auc_penalty": 0.3837228946073394,
+        "sd_history_auc_penalty": 0.06148424082863026,
+        "positive_seed_count": 10,
+        "positive_seed_fraction": 1.0,
+        "history_cost_criterion_met": true,
+        "qualified_seed_count": 10,
+        "qualified_mean_auc_penalty": 0.3837228946073394,
+        "note": "all-seed primary; qualified subset secondary; seed is not an animal"
+      },
+      "reversal_endpoint_passes": 0,
+      "qualified_reversal_passes": 0
+    },
+    {
+      "condition": "ann_plastic",
+      "means": {
+        "high_then_low": {
+          "phase2_before": 0.05873955019534569,
+          "phase2_after": 0.5562138165648424,
+          "phase2_iid_auc": 0.3511939515808066
+        },
+        "low_then_low": {
+          "phase2_before": 0.93991619063254,
+          "phase2_after": 0.9775173206628681,
+          "phase2_iid_auc": 0.9639388116253759
+        },
+        "high_then_high": {
+          "phase2_before": 0.9412604498046543,
+          "phase2_after": 0.9780147250109756,
+          "phase2_iid_auc": 0.9648796884966198
+        },
+        "fresh_low": {
+          "phase2_before": 0.5005273637433049,
+          "phase2_after": 0.9414599022834921,
+          "phase2_iid_auc": 0.7817760167518768
+        },
+        "reset_head_after_high": {
+          "phase2_before": 0.5007192468129376,
+          "phase2_after": 0.9552358431322869,
+          "phase2_iid_auc": 0.8379259725413846
+        }
+      },
+      "history_verdict": {
+        "condition": "ann_plastic",
+        "n_seeds": 10,
+        "mean_history_auc_penalty": 0.4305820651710702,
+        "sd_history_auc_penalty": 0.05160828892232353,
+        "positive_seed_count": 10,
+        "positive_seed_fraction": 1.0,
+        "history_cost_criterion_met": true,
+        "qualified_seed_count": 10,
+        "qualified_mean_auc_penalty": 0.4305820651710702,
+        "note": "all-seed primary; qualified subset secondary; seed is not an animal"
+      },
+      "reversal_endpoint_passes": 0,
+      "qualified_reversal_passes": 0
+    }
+  ],
+  "uncertainty": "seed ranges and descriptive means; no biological sample inference or significance test"
+}
