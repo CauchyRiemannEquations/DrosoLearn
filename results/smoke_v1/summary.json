@@ -1,0 +1,1060 @@
+{
+  "scope": "smoke",
+  "outcomes": [
+    {
+      "seed": 101,
+      "condition": "fixed",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4986764129116671,
+      "after_accuracy": 0.8854047205807714,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.38672830766910427,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 200,
+      "ood_accuracy": 0.8810991615154933,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.867017244197968,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.7379689169595219,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9861469726698513,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.11459527941922874,
+      "reversal_after_accuracy": 0.5266487662034154,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 0,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 0
+    },
+    {
+      "seed": 101,
+      "condition": "plastic",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4986764129116671,
+      "after_accuracy": 0.9585415624217654,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.45986514951009827,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 200,
+      "ood_accuracy": 0.9554310877028779,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9494372970180859,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.8294982226849166,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9984038063591194,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.04145843757823465,
+      "reversal_after_accuracy": 0.5953273013190943,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 800
+    },
+    {
+      "seed": 101,
+      "condition": "rewired_fixed",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4992133180081247,
+      "after_accuracy": 0.8147828804350444,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.31556956242691975,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 300,
+      "ood_accuracy": 0.8107597132525293,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.787005192057455,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.6807757058657601,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.957997247947781,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.18521711956495548,
+      "reversal_after_accuracy": 0.5189438096951969,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 0,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 0
+    },
+    {
+      "seed": 101,
+      "condition": "rewired_plastic",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4992133180081247,
+      "after_accuracy": 0.9473802111755698,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.4481668931674451,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 200,
+      "ood_accuracy": 0.9447365028629756,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9345250756461517,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.81183018119931,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9973091953357037,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.05261978882443019,
+      "reversal_after_accuracy": 0.562248043295539,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 800
+    },
+    {
+      "seed": 101,
+      "condition": "ann_fixed",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.49956896671322226,
+      "after_accuracy": 0.8332195502590948,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.3336505835458725,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 300,
+      "ood_accuracy": 0.8292881604194204,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.8127623622162868,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.6939906978071197,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9670452464007301,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.1667804497409051,
+      "reversal_after_accuracy": 0.5158898633540108,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 0,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 0
+    },
+    {
+      "seed": 101,
+      "condition": "ann_plastic",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.49956896671322226,
+      "after_accuracy": 0.9429666038192064,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.4433976371059841,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 200,
+      "ood_accuracy": 0.9404067112512391,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9316261563966217,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.804960763559462,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9968357069809255,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.05703339618079367,
+      "reversal_after_accuracy": 0.5825628433633583,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 800
+    },
+    {
+      "seed": 101,
+      "condition": "frozen",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4986764129116671,
+      "after_accuracy": 0.4986764129116671,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 0.0,
+      "gain": 0.0,
+      "acquisition_criterion_met": false,
+      "first_threshold_checkpoint": null,
+      "ood_accuracy": 0.4986702312124653,
+      "generalization_criterion_met": false,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 0.0,
+          "expected_reward": 0.49876710539585256,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_3_4": {
+          "accuracy": 0.0,
+          "expected_reward": 0.499306274234843,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_4_8": {
+          "accuracy": 0.0,
+          "expected_reward": 0.49691402316855,
+          "interpretable_after_acquisition": false
+        }
+      },
+      "reversal_before_accuracy": 0.5013235870883329,
+      "reversal_after_accuracy": 0.5013235870883329,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 0,
+      "trainable_readout_parameters": 0,
+      "effective_readout_inputs": 29,
+      "head_updates": 0,
+      "internal_updates": 0
+    },
+    {
+      "seed": 101,
+      "condition": "random_reward",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4986764129116671,
+      "after_accuracy": 0.44633006075182136,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 0.0,
+      "gain": -0.05234635215984573,
+      "acquisition_criterion_met": false,
+      "first_threshold_checkpoint": null,
+      "ood_accuracy": 0.446912725101157,
+      "generalization_criterion_met": false,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 0.0,
+          "expected_reward": 0.45065973586259567,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_3_4": {
+          "accuracy": 0.0,
+          "expected_reward": 0.47269954944501935,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_4_8": {
+          "accuracy": 0.0,
+          "expected_reward": 0.38925772439092576,
+          "interpretable_after_acquisition": false
+        }
+      },
+      "reversal_before_accuracy": 0.5536699392481785,
+      "reversal_after_accuracy": 0.5703181367695621,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 800
+    },
+    {
+      "seed": 101,
+      "condition": "internal_only",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4986764129116671,
+      "after_accuracy": 0.5011021078255269,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.0024256949138597994,
+      "acquisition_criterion_met": false,
+      "first_threshold_checkpoint": null,
+      "ood_accuracy": 0.5010723554563379,
+      "generalization_criterion_met": false,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.5010931341414194,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.5005209478551613,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.5017245900775976,
+          "interpretable_after_acquisition": false
+        }
+      },
+      "reversal_before_accuracy": 0.49889789217447317,
+      "reversal_after_accuracy": 0.5014410547967503,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 0,
+      "effective_readout_inputs": 29,
+      "head_updates": 0,
+      "internal_updates": 800
+    },
+    {
+      "seed": 202,
+      "condition": "fixed",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.49897558439159023,
+      "after_accuracy": 0.795617611893729,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.2966420275021388,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 400,
+      "ood_accuracy": 0.7910583375982362,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.7701573151859961,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.6674461537742824,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9465685575208682,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.20438238810627102,
+      "reversal_after_accuracy": 0.4962058843946659,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 0,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 0
+    },
+    {
+      "seed": 202,
+      "condition": "plastic",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.49897558439159023,
+      "after_accuracy": 0.9383788832990216,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.4394032989074314,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 200,
+      "ood_accuracy": 0.9357157364696522,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9260007293323308,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.7985834488893866,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9962622003059487,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.06162111670097832,
+      "reversal_after_accuracy": 0.5338442317404235,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 800
+    },
+    {
+      "seed": 202,
+      "condition": "rewired_fixed",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.49788489145285086,
+      "after_accuracy": 0.8541600877014655,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.3562751962486146,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 300,
+      "ood_accuracy": 0.850279292737157,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.8381039363566642,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.7106889531510583,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9757257214507751,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.14583991229853444,
+      "reversal_after_accuracy": 0.49692291139362343,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 0,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 0
+    },
+    {
+      "seed": 202,
+      "condition": "rewired_plastic",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.49788489145285086,
+      "after_accuracy": 0.9500260042612861,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.4521411128084353,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 200,
+      "ood_accuracy": 0.947757642526523,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9413558128006271,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.8154907407221603,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9975950997700751,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.04997399573871384,
+      "reversal_after_accuracy": 0.5893159940258063,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 800
+    },
+    {
+      "seed": 202,
+      "condition": "ann_fixed",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4975110623290307,
+      "after_accuracy": 0.832259128611512,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.33474806628248127,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 300,
+      "ood_accuracy": 0.8269007543129467,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.8064706277627676,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.6952779716131526,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9679398682560248,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.16774087138848798,
+      "reversal_after_accuracy": 0.5068016293081513,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 0,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 0
+    },
+    {
+      "seed": 202,
+      "condition": "ann_plastic",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4975110623290307,
+      "after_accuracy": 0.9472902216753408,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.44977915934631013,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 200,
+      "ood_accuracy": 0.9441324891078278,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9343822574226118,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.8127975085231816,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9974502358525749,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.0527097783246591,
+      "reversal_after_accuracy": 0.5406295530769958,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 800
+    },
+    {
+      "seed": 202,
+      "condition": "frozen",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.49897558439159023,
+      "after_accuracy": 0.49897558439159023,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 0.0,
+      "gain": 0.0,
+      "acquisition_criterion_met": false,
+      "first_threshold_checkpoint": null,
+      "ood_accuracy": 0.4990296689514072,
+      "generalization_criterion_met": false,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 0.0,
+          "expected_reward": 0.4992205440243156,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_3_4": {
+          "accuracy": 0.0,
+          "expected_reward": 0.4994764859675064,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_4_8": {
+          "accuracy": 0.0,
+          "expected_reward": 0.4977060028635074,
+          "interpretable_after_acquisition": false
+        }
+      },
+      "reversal_before_accuracy": 0.5010244156084098,
+      "reversal_after_accuracy": 0.5010244156084098,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 0,
+      "trainable_readout_parameters": 0,
+      "effective_readout_inputs": 29,
+      "head_updates": 0,
+      "internal_updates": 0
+    },
+    {
+      "seed": 202,
+      "condition": "random_reward",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.49897558439159023,
+      "after_accuracy": 0.5512167458966071,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.05224116150501684,
+      "acquisition_criterion_met": false,
+      "first_threshold_checkpoint": null,
+      "ood_accuracy": 0.5502892994809323,
+      "generalization_criterion_met": false,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.5460608455012598,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.5262617904216154,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.6063933123979197,
+          "interpretable_after_acquisition": false
+        }
+      },
+      "reversal_before_accuracy": 0.448783254103393,
+      "reversal_after_accuracy": 0.42432511491270847,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 800
+    },
+    {
+      "seed": 202,
+      "condition": "internal_only",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.49897558439159023,
+      "after_accuracy": 0.501478010280767,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.0025024258891767626,
+      "acquisition_criterion_met": false,
+      "first_threshold_checkpoint": null,
+      "ood_accuracy": 0.5015114417909563,
+      "generalization_criterion_met": false,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.5016319926451305,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.5007279643107425,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.5026932052237503,
+          "interpretable_after_acquisition": false
+        }
+      },
+      "reversal_before_accuracy": 0.498521989719233,
+      "reversal_after_accuracy": 0.5013136339151488,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 0,
+      "effective_readout_inputs": 29,
+      "head_updates": 0,
+      "internal_updates": 800
+    },
+    {
+      "seed": 303,
+      "condition": "fixed",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4988363681344998,
+      "after_accuracy": 0.7478610776219288,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.249024709487429,
+      "acquisition_criterion_met": false,
+      "first_threshold_checkpoint": null,
+      "ood_accuracy": 0.745564580176606,
+      "generalization_criterion_met": false,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.7290249881121712,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.6348915240725058,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9161162481612802,
+          "interpretable_after_acquisition": false
+        }
+      },
+      "reversal_before_accuracy": 0.2521389223780713,
+      "reversal_after_accuracy": 0.5003325831487822,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 0,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 0
+    },
+    {
+      "seed": 303,
+      "condition": "plastic",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4988363681344998,
+      "after_accuracy": 0.9143177193088923,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.4154813511743925,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 200,
+      "ood_accuracy": 0.9116700621663409,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9005274044864526,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.7684667520805843,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9929336694027537,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.0856822806911077,
+      "reversal_after_accuracy": 0.5396002038183954,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 800
+    },
+    {
+      "seed": 303,
+      "condition": "rewired_fixed",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.5010132676199881,
+      "after_accuracy": 0.7819715396568125,
+      "before_greedy_accuracy": 1.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.28095827203682444,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 400,
+      "ood_accuracy": 0.7772949557349472,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.7598313229361262,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.6581085218967161,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.940799679438064,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.2180284603431874,
+      "reversal_after_accuracy": 0.5028129923645017,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 0,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 0
+    },
+    {
+      "seed": 303,
+      "condition": "rewired_plastic",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.5010132676199881,
+      "after_accuracy": 0.9321519679639207,
+      "before_greedy_accuracy": 1.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.43113870034393265,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 200,
+      "ood_accuracy": 0.9291819270956362,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.919006990075391,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.7907679259802318,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9957003737029752,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.06784803203607924,
+      "reversal_after_accuracy": 0.5328579230606578,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 800
+    },
+    {
+      "seed": 303,
+      "condition": "ann_fixed",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.5002105196101116,
+      "after_accuracy": 0.8139389563842149,
+      "before_greedy_accuracy": 0.75,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.3137284367741032,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 300,
+      "ood_accuracy": 0.8087477789410455,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.7914075472107387,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.6815751251993188,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9597936572540947,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.18606104361578518,
+      "reversal_after_accuracy": 0.5018226009595312,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 0,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 0
+    },
+    {
+      "seed": 303,
+      "condition": "ann_plastic",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.5002105196101116,
+      "after_accuracy": 0.9426258601530689,
+      "before_greedy_accuracy": 0.75,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.4424153405429573,
+      "acquisition_criterion_met": true,
+      "first_threshold_checkpoint": 200,
+      "ood_accuracy": 0.9393086796111669,
+      "generalization_criterion_met": true,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9306015816920751,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.8065092176372847,
+          "interpretable_after_acquisition": true
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.9970477675965446,
+          "interpretable_after_acquisition": true
+        }
+      },
+      "reversal_before_accuracy": 0.05737413984693103,
+      "reversal_after_accuracy": 0.5430836775769052,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 800
+    },
+    {
+      "seed": 303,
+      "condition": "frozen",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4988363681344998,
+      "after_accuracy": 0.4988363681344998,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 0.0,
+      "gain": 0.0,
+      "acquisition_criterion_met": false,
+      "first_threshold_checkpoint": null,
+      "ood_accuracy": 0.49880477755358965,
+      "generalization_criterion_met": false,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 0.0,
+          "expected_reward": 0.4984753345633393,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_3_4": {
+          "accuracy": 0.0,
+          "expected_reward": 0.4996108801036007,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_4_8": {
+          "accuracy": 0.0,
+          "expected_reward": 0.498404357548757,
+          "interpretable_after_acquisition": false
+        }
+      },
+      "reversal_before_accuracy": 0.5011636318655002,
+      "reversal_after_accuracy": 0.5011636318655002,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 0,
+      "trainable_readout_parameters": 0,
+      "effective_readout_inputs": 29,
+      "head_updates": 0,
+      "internal_updates": 0
+    },
+    {
+      "seed": 303,
+      "condition": "random_reward",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4988363681344998,
+      "after_accuracy": 0.47484927413854633,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 0.0,
+      "gain": -0.023987093995953446,
+      "acquisition_criterion_met": false,
+      "first_threshold_checkpoint": null,
+      "ood_accuracy": 0.47506300447725236,
+      "generalization_criterion_met": false,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 0.0,
+          "expected_reward": 0.47653691723384783,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_3_4": {
+          "accuracy": 0.0,
+          "expected_reward": 0.48743560782351114,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_4_8": {
+          "accuracy": 0.0,
+          "expected_reward": 0.445897197884501,
+          "interpretable_after_acquisition": false
+        }
+      },
+      "reversal_before_accuracy": 0.5251507258614536,
+      "reversal_after_accuracy": 0.5560132514775448,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 48,
+      "effective_readout_inputs": 29,
+      "head_updates": 800,
+      "internal_updates": 800
+    },
+    {
+      "seed": 303,
+      "condition": "internal_only",
+      "primary_metric": "exact stochastic choice accuracy (target probability)",
+      "before_accuracy": 0.4988363681344998,
+      "after_accuracy": 0.5018676027273401,
+      "before_greedy_accuracy": 0.0,
+      "after_greedy_accuracy": 1.0,
+      "gain": 0.003031234592840326,
+      "acquisition_criterion_met": false,
+      "first_threshold_checkpoint": null,
+      "ood_accuracy": 0.5018056712428689,
+      "generalization_criterion_met": false,
+      "transfer": {
+        "transfer_1_3": {
+          "accuracy": 1.0,
+          "expected_reward": 0.5013847779154685,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_3_4": {
+          "accuracy": 1.0,
+          "expected_reward": 0.5011321885229305,
+          "interpretable_after_acquisition": false
+        },
+        "transfer_4_8": {
+          "accuracy": 1.0,
+          "expected_reward": 0.5044249476657681,
+          "interpretable_after_acquisition": false
+        }
+      },
+      "reversal_before_accuracy": 0.49813239727265995,
+      "reversal_after_accuracy": 0.5017689498764446,
+      "reversal_criterion_met": false,
+      "trainable_internal_parameters": 1474,
+      "trainable_readout_parameters": 0,
+      "effective_readout_inputs": 29,
+      "head_updates": 0,
+      "internal_updates": 800
+    }
+  ],
+  "status": "completed",
+  "interpretation": "abstract reward association only; no evidence for visual numerosity, mathematical rule extraction, or shared biological mechanism"
+}

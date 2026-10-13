@@ -1,0 +1,33 @@
+{
+  "audited_at_utc": "2026-10-13T23:09:03.452359+00:00",
+  "passed": true,
+  "method": "independent numpy/stdlib arithmetic; no Learner/evaluate/data helper calls",
+  "input_scope": "oracle quantity n/8 plus six crossed artificial descriptors; abstract reward association",
+  "counts": {
+    "artifact_hashes": 289,
+    "trials": 21600,
+    "curve_rows": 1350,
+    "evaluation_cases": 69120,
+    "seeds": 3,
+    "conditions": 9,
+    "canonical_fingerprints": 2160,
+    "checkpoints": 270
+  },
+  "checks": [
+    "All manifest hashes and required primary artifact coverage",
+    "Exact design coverage and binary trial/evaluation schemas",
+    "Canonical stimulus disjointness across all seeds/splits; exact quantity oracle 1 and single-descriptor baseline 0.5",
+    "Manual n/8 input, ReLU KC, sparse-weight scatter, MBON logits and probabilities for every checkpoint/split",
+    "Recomputed greedy diagnostics and exact stochastic choice accuracy, evaluation cases, activity and parameter changes",
+    "Independent arithmetic replay of all trial updates, action RNG and separate random-reward Bernoulli RNG",
+    "Frozen/internal-fixed zero changes, internal-only zero head updates, bounds and phase continuity",
+    "Summary acquisition gain, generalization/reversal gates, transfer interpretation and update counts"
+  ],
+  "errors": [],
+  "not_verified": [
+    "Biological LC11 perception, DAN dynamics, physiological time constants or shared human/fly learning mechanisms",
+    "Source data identity outside this output, original preregistration authenticity or hashes of external current source files",
+    "Claims of confirmatory significance, broad mathematical rule extraction or educational transfer",
+    "Independence of biological animals: seeds are computational repetitions of one supplied topology"
+  ]
+}

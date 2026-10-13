@@ -1,0 +1,13 @@
+{
+  "date_local": "2026-10-14",
+  "timezone": "Asia/Seoul",
+  "scope": "engineering tests, not experimental learning results",
+  "command": "python -m pytest tests -q",
+  "pytest_version": "8.3.5",
+  "passed": 75,
+  "failed": 0,
+  "warnings": 14,
+  "warning_kind": "Matplotlib uses deprecated Pyparsing API; no test failure",
+  "study_source_commit": "11195b4",
+  "coverage": ["source hashes and IDs", "crossed nuisance controls", "split leaks", "rewiring invariants", "policy-gradient finite differences", "frozen and plastic scopes", "registration drift", "overwrite refusal", "independent full replay", "byte and semantic corruption", "CLI relative paths"]
+}

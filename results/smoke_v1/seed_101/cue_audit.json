@@ -1,0 +1,79 @@
+{
+  "train_acquisition": {
+    "oracle_accuracy": 1.0,
+    "single_nuisance_accuracy": {
+      "object_size": 0.5,
+      "total_area": 0.5,
+      "density": 0.5,
+      "spacing": 0.5,
+      "layout": 0.5,
+      "visual_extent": 0.5
+    }
+  },
+  "train_reversal": {
+    "oracle_accuracy": 1.0,
+    "single_nuisance_accuracy": {
+      "object_size": 0.5,
+      "total_area": 0.5,
+      "density": 0.5,
+      "spacing": 0.5,
+      "layout": 0.5,
+      "visual_extent": 0.5
+    }
+  },
+  "iid": {
+    "oracle_accuracy": 1.0,
+    "single_nuisance_accuracy": {
+      "object_size": 0.5,
+      "total_area": 0.5,
+      "density": 0.5,
+      "spacing": 0.5,
+      "layout": 0.5,
+      "visual_extent": 0.5
+    }
+  },
+  "ood": {
+    "oracle_accuracy": 1.0,
+    "single_nuisance_accuracy": {
+      "object_size": 0.5,
+      "total_area": 0.5,
+      "density": 0.5,
+      "spacing": 0.5,
+      "layout": 0.5,
+      "visual_extent": 0.5
+    }
+  },
+  "transfer_1_3": {
+    "oracle_accuracy": 1.0,
+    "single_nuisance_accuracy": {
+      "object_size": 0.5,
+      "total_area": 0.5,
+      "density": 0.5,
+      "spacing": 0.5,
+      "layout": 0.5,
+      "visual_extent": 0.5
+    }
+  },
+  "transfer_3_4": {
+    "oracle_accuracy": 1.0,
+    "single_nuisance_accuracy": {
+      "object_size": 0.5,
+      "total_area": 0.5,
+      "density": 0.5,
+      "spacing": 0.5,
+      "layout": 0.5,
+      "visual_extent": 0.5
+    }
+  },
+  "transfer_4_8": {
+    "oracle_accuracy": 1.0,
+    "single_nuisance_accuracy": {
+      "object_size": 0.5,
+      "total_area": 0.5,
+      "density": 0.5,
+      "spacing": 0.5,
+      "layout": 0.5,
+      "visual_extent": 0.5
+    }
+  }
+}

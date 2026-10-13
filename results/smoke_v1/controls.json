@@ -1,0 +1,119 @@
+[
+  {
+    "seed": 101,
+    "kind": "rewired",
+    "metadata": {
+      "control": "bipartite degree-preserving swaps",
+      "accepted_swaps": 14740,
+      "attempts": 24577,
+      "checks": {
+        "same_edge_count": true,
+        "same_kc_outdegree": true,
+        "same_mbon_indegree": true,
+        "same_incoming_weight_multisets": true,
+        "duplicate_free": true,
+        "changed_edge_fraction": 0.7564450474898237
+      },
+      "seed": 50101,
+      "not_preserved": [
+        "KC outgoing strength",
+        "type/compartment wiring",
+        "recurrence"
+      ]
+    }
+  },
+  {
+    "seed": 101,
+    "kind": "ann",
+    "metadata": {
+      "control": "ordinary random sparse feedforward network",
+      "seed": 60101,
+      "checks": {
+        "same_edge_count": true,
+        "same_kc_outdegree": false,
+        "same_mbon_indegree": true,
+        "same_incoming_weight_multisets": true,
+        "duplicate_free": true,
+        "changed_edge_fraction": 0.8073270013568521
+      }
+    }
+  },
+  {
+    "seed": 202,
+    "kind": "rewired",
+    "metadata": {
+      "control": "bipartite degree-preserving swaps",
+      "accepted_swaps": 14740,
+      "attempts": 24534,
+      "checks": {
+        "same_edge_count": true,
+        "same_kc_outdegree": true,
+        "same_mbon_indegree": true,
+        "same_incoming_weight_multisets": true,
+        "duplicate_free": true,
+        "changed_edge_fraction": 0.7408412483039348
+      },
+      "seed": 50202,
+      "not_preserved": [
+        "KC outgoing strength",
+        "type/compartment wiring",
+        "recurrence"
+      ]
+    }
+  },
+  {
+    "seed": 202,
+    "kind": "ann",
+    "metadata": {
+      "control": "ordinary random sparse feedforward network",
+      "seed": 60202,
+      "checks": {
+        "same_edge_count": true,
+        "same_kc_outdegree": false,
+        "same_mbon_indegree": true,
+        "same_incoming_weight_multisets": true,
+        "duplicate_free": true,
+        "changed_edge_fraction": 0.7971506105834464
+      }
+    }
+  },
+  {
+    "seed": 303,
+    "kind": "rewired",
+    "metadata": {
+      "control": "bipartite degree-preserving swaps",
+      "accepted_swaps": 14740,
+      "attempts": 24565,
+      "checks": {
+        "same_edge_count": true,
+        "same_kc_outdegree": true,
+        "same_mbon_indegree": true,
+        "same_incoming_weight_multisets": true,
+        "duplicate_free": true,
+        "changed_edge_fraction": 0.7632293080054274
+      },
+      "seed": 50303,
+      "not_preserved": [
+        "KC outgoing strength",
+        "type/compartment wiring",
+        "recurrence"
+      ]
+    }
+  },
+  {
+    "seed": 303,
+    "kind": "ann",
+    "metadata": {
+      "control": "ordinary random sparse feedforward network",
+      "seed": 60303,
+      "checks": {
+        "same_edge_count": true,
+        "same_kc_outdegree": false,
+        "same_mbon_indegree": true,
+        "same_incoming_weight_multisets": true,
+        "duplicate_free": true,
+        "changed_edge_fraction": 0.8215739484396201
+      }
+    }
+  }
+]

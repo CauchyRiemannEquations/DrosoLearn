@@ -1,0 +1,82 @@
+{
+  "registered_at_utc": "2026-10-13T23:08:10.570494+00:00",
+  "config": {
+    "experiment_id": "abstract_quantity_reward_v1",
+    "scope": "smoke",
+    "seeds": [
+      101,
+      202,
+      303
+    ],
+    "graph": "data/flywire_783_mb_left_kc512_s701",
+    "train_pair": [
+      2,
+      4
+    ],
+    "transfer_pairs": [
+      [
+        1,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        8
+      ]
+    ],
+    "trials_per_phase": 400,
+    "eval_trials": 128,
+    "checkpoint_every": 100,
+    "head_lr": 0.1,
+    "internal_lr": 0.01,
+    "conditions": [
+      "fixed",
+      "plastic",
+      "rewired_fixed",
+      "rewired_plastic",
+      "ann_fixed",
+      "ann_plastic",
+      "frozen",
+      "random_reward",
+      "internal_only"
+    ],
+    "criteria": {
+      "acquisition_accuracy": 0.75,
+      "acquisition_gain": 0.15,
+      "generalization_accuracy": 0.7,
+      "reversal_accuracy": 0.75,
+      "confirmatory_seed_fraction": 0.8
+    },
+    "input": "oracle n/8 + six crossed artificial nuisance descriptors; not visual stimuli",
+    "stopping": "fixed budgets, no tuning or early stopping"
+  },
+  "config_sha256": "a0f444fbbe174860bd3187b2e163fbf7e7b93c233a9af5b9bf769ee3b20f3ce2",
+  "source_hashes": {
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/analysis.py": "5c70261b6fb8064aef7abfead85f9848e31e4ab7d7bfea300e678bc2204dfe2f",
+    "src/drosolearn/audit.py": "5effe6ba19814adaaf841abfd0fddece77ec31468c5fa8214b78be1d62ee4fea",
+    "src/drosolearn/cli.py": "67ecf0220c61b3257bd03fc7de58f47327f57e3004e82f82f2f9bbfc10199311",
+    "src/drosolearn/data.py": "e2a9f2108b37e0fa1c23607f657133d38bdd8cfbac648afc95d1fac85462d6dc",
+    "src/drosolearn/experiment.py": "b55bbec7b8fe402ac2aa16a28a50b3cde166dc612247a92dc6d727e1ecb58e3e",
+    "src/drosolearn/graph.py": "6c713164943f1e6a4c38c9138ecd9c437b56523d68b58cffb58dc6531ccea2c2",
+    "src/drosolearn/model.py": "21e855ebbddb6190816a8adad130216065a03a6fc2d757e42466bdc7aaca3497",
+    "data/DROSOMEM_LICENSE.txt": "98302a6d9c9eb2727f93197cc5ba532548f8f40cb4db338fe138093d64e2de5f",
+    "data/flywire_783_mb_left_kc512_s701/annotations.csv": "10f9c9d4db8ee2741bd19cf464e4b46fd6e24f086a5ce1dbb550bcea633cdb16",
+    "data/flywire_783_mb_left_kc512_s701/edges.csv": "d8c47ea1202575994d430f55e5bd8602f939f320ef02f71522fc1bc54b97db51",
+    "data/flywire_783_mb_left_kc512_s701/neurons.json": "05d83a288b1d42337001015be2d54167aed00cdc9fea58b578423d18756aa77b",
+    "data/flywire_783_mb_left_kc512_s701/provenance.json": "e1a50d254628fb0573d7853b8e66926697b353da317bd701b17e60bfd4942061",
+    "data/LICENSE.md": "a7a7b26c731f36e9efeabaf12bcbd0d45e6200d895d8b6d08cc3a8cf7a70a201",
+    "data/source-manifest.json": "ce2219987ae991b5e2e41dde6bd811fa51d7a2cd57ecaf01bf90cdf55ba69af9",
+    "data/UPSTREAM_LICENSE.txt": "3621f6d6476189190e2960fa43f11b275ba4eca848fdac50a1ba2925de6223e8",
+    "docs/experimental-protocol.md": "1f468edcbae775e729b9d55f9c513cef3314d40bce0c130228ec10755daa75d2",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a"
+  },
+  "git": {
+    "commit": "11195b47c57e20532cca0eed80b8dca4589ef92b",
+    "status": ""
+  },
+  "notice": "local prospective freeze; not an externally registered preregistration"
+}

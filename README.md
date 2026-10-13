@@ -14,7 +14,7 @@
 - 원래/재배선 × 고정/가소성, 일반 random sparse ANN, frozen·random reward·internal-only: 9조건.
 - 전향적 로컬 동결, 다중 seed, 원자료·가중치·활동 checkpoint, 자동 그림 및 별도 검증.
 
-초기 결과와 테스트 상태는 [초기 실행 보고서](results/smoke_v1/report.md), [독립 검증](results/smoke_v1/verification.json)에서 확인한다. 3시드 smoke는 확증·생물학적 검증이 아니다.
+초기 결과와 테스트 상태는 [초기 실행 보고서](results/smoke_v1/report.md), [독립 검증](results/smoke_v1/verification.json), [실패를 포함한 해석](docs/initial-findings.md)에서 확인한다. 3시드 smoke에서 original fixed/plastic의 습득은 각각2/3·3/3시드가 기준을 통과했지만 **보상 반전은 모든 조건에서 실패**했다. 일반 ANN에서도 습득이 나타나 원래 배선 우위를 지지하지 않았다. 이 실행은 확증·생물학적 검증이 아니다.
 
 ## 설치와 실행
 
