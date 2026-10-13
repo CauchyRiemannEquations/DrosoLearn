@@ -471,3 +471,19 @@ def test_independent_audit_detects_corruption(small_registered_run, tamper):
         manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
     audited = verify(output)
     assert not audited["passed"] and audited["errors"]
+
+
+def test_cli_relative_paths_resolve_against_root(small_registered_run, monkeypatch):
+    from drosolearn.cli import main
+    import sys
+    root, _, _ = small_registered_run
+    seen = {}
+    def record(root_arg, config_arg, output_arg):
+        seen.update(root=root_arg, config=config_arg, output=output_arg)
+        return {"registered_at_utc": "fixture", "config_sha256": "fixture"}
+    monkeypatch.setattr("drosolearn.cli.register", record)
+    monkeypatch.setattr(sys, "argv", ["drosolearn", "register", "--root", str(root),
+                        "--config", "config.json", "--out", "results/relative.json"])
+    main()
+    assert seen == {"root": root.resolve(), "config": root / "config.json",
+                    "output": root / "results/relative.json"}

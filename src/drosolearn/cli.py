@@ -12,6 +12,11 @@ def main():
     parser.add_argument("--registration", type=Path)
     parser.add_argument("--out", type=Path, required=True)
     args = parser.parse_args()
+    args.root = args.root.resolve()
+    for name in ("config", "registration", "out"):
+        value = getattr(args, name)
+        if value is not None:
+            setattr(args, name, (value if value.is_absolute() else args.root / value).resolve())
     if args.command in ("register", "run") and args.config is None:
         parser.error("--config is required")
     if args.command == "register":

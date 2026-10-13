@@ -4,6 +4,7 @@ import csv
 import hashlib
 import importlib.metadata
 import json
+import os
 import platform
 import subprocess
 from datetime import datetime, timezone
@@ -127,6 +128,7 @@ def run(root, config_path, registration_path, output):
     metadata = {"started_at_utc": datetime.now(timezone.utc).isoformat(), "config": cfg,
                 "registration_sha256": sha256(registration_path), "git": git_state(root),
                 "python": platform.python_version(), "platform": platform.platform(),
+                "thread_environment": {key: os.environ.get(key) for key in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS")},
                 "packages": {p: importlib.metadata.version(p) for p in ("numpy", "matplotlib")},
                 "graph": anatomical.metadata, "seed_unit": "computational repeat, not independent flies",
                 "reproduce": f"python -m drosolearn.cli run --config {Path(config_path).relative_to(root).as_posix()} --registration {Path(registration_path).relative_to(root).as_posix()} --out results/NEW_DIRECTORY"}
