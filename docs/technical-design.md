@@ -30,7 +30,7 @@ original/rewired fixed/plastic 2×2가 구조와 내부 갱신의 요소를 분�
 
 config, 실행 전 source/data/protocol hash, git commit·작업트리 상태, package/platform, source graph provenance, seed mapping, reproduction command를 저장한다. 기존 출력 디렉터리와 등록은 exclusive 생성한다. 실패 시 partial records와 failure metadata를 남긴다. seed별 입력·family ID·topology·checkpoint는 pickle 없이 NPZ로 보존하며 CSV/JSON에는 난수와 모델 조건을 명시한다.
 
-내부 weights, head weights와 동일한16행 probe의 KC/MBON activity는 서로 다른 필드다. checkpoint는100시행 간격이며 전체 신경 vector를 매시행 저장하지 않는다. 매시행 입력과 선택·보상·norm·가중치 step을 보존해 후속 replay의 기반을 만든다. 별도 검증은 독립식으로 저장 checkpoint를 검사하며 원본 생물학 실험이나 전체 optimizer trajectory replay를 대체하지 않는다.
+내부 weights, head weights와 동일한16행 probe의 KC/MBON activity는 서로 다른 필드다. checkpoint는100시행 간격이며 전체 신경 vector를 매시행 저장하지 않는다. 매시행 입력과 선택·보상·norm·가중치 step을 보존해 replay의 기반을 만든다. 별도 검증은 독립식으로 전체 시행 갱신과 저장 checkpoint를 재계산한다. 생물학적 회로·원래 초파리 실험의 재현을 검증한 것은 아니다.
 
 ## 확장 인터페이스
 

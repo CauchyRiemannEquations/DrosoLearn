@@ -70,6 +70,6 @@ smoke seeds는 [101,202,303], 3시드로 구현과 기록을 점검한다. 전�
 
 모든 시행의 행동·보상·선택 확률·활성 norm·내부/출력 step 변화를 CSV로 보존한다. baseline과 100시행마다 같은 IID 16행 고정 probe의 **모든 KC/MBON 활동, 내부/출력 가중치, 입력 encoder와 행동 확률**을 NPZ로 저장한다. 실제 모든 시행의 전체 neuron vector를 저장하지는 않으며 저장 입력·시드·규칙으로 재현 가능하다. split당 평가 개별 사례는 phase 시작/끝을 저장한다. seed별 원본 입력·family ID·재배선도 저장한다.
 
-별도 검증 코드는 학습 클래스와 평가 함수를 호출하지 않고 checkpoint와 입력으로 활성·출력·지표·판정을 다시 계산한다. SHA-256, cue baseline, split 누출, 조건별 갱신 범위, seed/조건/시행 coverage와 행동/보상 stream을 확인한다. 전체 optimizer trajectory의 독립 생리학 재현을 의미하지 않는다.
+별도 검증 코드는 학습 클래스와 평가 함수를 호출하지 않고 checkpoint와 입력으로 활성·출력·지표·판정을 다시 계산한다. SHA-256, cue baseline, split 누출, 조건별 갱신 범위, seed/조건/시행 coverage와 행동/보상 stream을 확인한다. 별도로 작성한 산술식으로 모든 시행의 갱신을 재실행하여 기록 및 checkpoint와 비교한다. 이 계산 검증이 독립 생물학적 재현을 의미하지 않는다.
 
 내부 가중치, 출력층, 동일 입력의 활성 변화는 별도 plot과 필드로 구분한다. 해석은 추상 입력의 Level 1/2 및 습득을 통과한 제한된 Level 3까지다. 인간 데이터 재분석이 없는 Level 4, 생물학적 검증이 없는 Level 5는 주장하지 않는다. 인간 학습의 비교 계획은 [human-learning-comparison.md](human-learning-comparison.md)에 유지한다.

@@ -6,6 +6,7 @@ plasticity, and evaluation-time learning rather than final task success.
 from pathlib import Path
 import copy
 import csv
+import hashlib
 import json
 import shutil
 
