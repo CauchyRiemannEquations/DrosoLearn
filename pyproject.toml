@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drosolearn"
+version = "0.1.0"
+description = "Reproducible abstract quantity reward learning on a FlyWire-derived projection"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy==2.2.6", "matplotlib==3.10.3"]
+
+[project.optional-dependencies]
+test = ["pytest==8.3.5"]
+
+[project.scripts]
+drosolearn = "drosolearn.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

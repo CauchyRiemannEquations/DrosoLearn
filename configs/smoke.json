@@ -1,0 +1,17 @@
+{
+  "experiment_id": "abstract_quantity_reward_v1",
+  "scope": "smoke",
+  "seeds": [101, 202, 303],
+  "graph": "data/flywire_783_mb_left_kc512_s701",
+  "train_pair": [2, 4],
+  "transfer_pairs": [[1, 3], [3, 4], [4, 8]],
+  "trials_per_phase": 400,
+  "eval_trials": 128,
+  "checkpoint_every": 100,
+  "head_lr": 0.1,
+  "internal_lr": 0.01,
+  "conditions": ["fixed", "plastic", "rewired_fixed", "rewired_plastic", "ann_fixed", "ann_plastic", "frozen", "random_reward", "internal_only"],
+  "criteria": {"acquisition_accuracy": 0.75, "acquisition_gain": 0.15, "generalization_accuracy": 0.70, "reversal_accuracy": 0.75, "confirmatory_seed_fraction": 0.8},
+  "input": "oracle n/8 + six crossed artificial nuisance descriptors; not visual stimuli",
+  "stopping": "fixed budgets, no tuning or early stopping"
+}

@@ -1,0 +1,9 @@
+# Data attribution and terms
+
+The bundled `flywire_783_mb_left_kc512_s701` files are an unchanged extract distributed by **DrosoMem**, pinned at `7fb156c193c7a499fc2266a164b705729abbab21`. Exact hashes and original provenance are retained in `source-manifest.json` and the subset's `provenance.json`.
+
+FlyWire public-release data carry **CC BY-NC 4.0**, according to the [official FlyWire citation guidelines](https://home.flywire.ai/guidelines). The MIT license for DrosoLearn software does not relicense these data. Observe attribution and noncommercial terms when using or redistributing the derived subset and derived structural artifacts.
+
+Connectivity: FlyWire FAFB v783, via [Shiu et al.'s processed connectivity](https://github.com/philshiu/Drosophila_brain_model/tree/91bdd1e7dcf193f3e7ca5a8933497fcef63b7960), with original upstream MIT notice in `UPSTREAM_LICENSE.txt`. Annotations: [flyconnectome/flywire_annotations](https://github.com/flyconnectome/flywire_annotations/tree/8587524c1748ce5ef2080822a2fc890fc03bf597). The existence of an MIT notice on preprocessing code does not override the FlyWire public-release data conditions.
+
+Cite [Dorkenwald et al. (2024), Neuronal wiring diagram of an adult brain](https://doi.org/10.1038/s41586-024-07558-y), [Schlegel et al. (2024), Whole-brain annotation and multi-connectome cell typing of Drosophila](https://doi.org/10.1038/s41586-024-07686-5), [Shiu et al. (2024), A Drosophila computational brain model reveals sensorimotor processing](https://doi.org/10.1038/s41586-024-07763-9), and the pinned DrosoMem version. Full historical dataset sources, Buhmann synapse detection and neurotransmitter inference references remain in the DrosoMem audit/upstream source documentation. This extract is incomplete, thresholded at five contacts, left-sided and KC-sampled; it is not the whole connectome.
