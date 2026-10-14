@@ -1,0 +1,16 @@
+{
+  "seed": 8009,
+  "condition": "plastic",
+  "history": "gamma_05",
+  "gamma": 0.5,
+  "shared_prefix_path": "seed_8009/plastic/shared_prefix/phase1_0400.npz",
+  "shared_prefix_sha256": "d24363c83b9592fc662867c4529009be926af7bb47b97f8193cffca7e5b60257",
+  "head_change_l2": 1.3310527382945396,
+  "internal_change_l2": 0.0,
+  "feature_scale_before": 0.42861286450740643,
+  "feature_scale_after": 0.42861286450740643,
+  "head_updates_before": 400,
+  "head_updates_after": 400,
+  "internal_updates_before": 400,
+  "internal_updates_after": 400
+}

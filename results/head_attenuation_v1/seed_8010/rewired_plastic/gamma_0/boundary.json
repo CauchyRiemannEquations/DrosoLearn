@@ -1,0 +1,16 @@
+{
+  "seed": 8010,
+  "condition": "rewired_plastic",
+  "history": "gamma_0",
+  "gamma": 0.0,
+  "shared_prefix_path": "seed_8010/rewired_plastic/shared_prefix/phase1_0400.npz",
+  "shared_prefix_sha256": "f0b2b666f1b0328eecca8cd30b5b9566b31b2fb92c6c31509e350025532e460d",
+  "head_change_l2": 2.9873244326838,
+  "internal_change_l2": 0.0,
+  "feature_scale_before": 0.43563420583467966,
+  "feature_scale_after": 0.43563420583467966,
+  "head_updates_before": 400,
+  "head_updates_after": 400,
+  "internal_updates_before": 400,
+  "internal_updates_after": 400
+}

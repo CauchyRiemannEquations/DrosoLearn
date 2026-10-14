@@ -1,0 +1,16 @@
+{
+  "seed": 8004,
+  "condition": "rewired_fixed",
+  "history": "gamma_025",
+  "gamma": 0.25,
+  "shared_prefix_path": "seed_8004/rewired_fixed/shared_prefix/phase1_0400.npz",
+  "shared_prefix_sha256": "0154dd75254553bf2541ca544bc777b8a44dfe7f236ea7b63a5ad4f41f7eeaf1",
+  "head_change_l2": 2.4284298084253693,
+  "internal_change_l2": 0.0,
+  "feature_scale_before": 0.3492737264577825,
+  "feature_scale_after": 0.3492737264577825,
+  "head_updates_before": 400,
+  "head_updates_after": 400,
+  "internal_updates_before": 0,
+  "internal_updates_after": 0
+}

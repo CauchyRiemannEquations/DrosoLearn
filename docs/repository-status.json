@@ -11,7 +11,7 @@
   "spacing_diagnostic_source_commit": "d4cbe9542c8ec5846b4a877ee36deb47e456ea20",
   "linearity_diagnostic_source_commit": "30323325bc2dc2b8825be7be5cadee153dce8add",
   "reward_linear_diagnostic_source_commit": "cc836c61055ca32a5205f8685a5a4171c43b77e7",
-  "current_diagnostic_source_commit": "fceca94dc6e8137085112ad3a5b75a3cf3894e50",
+  "current_diagnostic_source_commit": "1a5c1341dec8ec36710f8ce4659e2841b8a4e6ac",
   "study_tags": {
     "smoke_v1": "v0.1.0-smoke",
     "reversal_v1": "study-reversal-v1",
@@ -19,7 +19,9 @@
     "spacing_v1": "study-spacing-v1",
     "linearity_v1": "study-linearity-v1",
     "reward_linear_v1": "study-reward-linear-v1",
-    "bandit_reversal_v1": "study-bandit-reversal-v1"
+    "bandit_reversal_v1": "study-bandit-reversal-v1",
+    "head_attenuation_v1": "study-head-attenuation-v1"
   },
-  "current_diagnostic": "independent_bandit_reversal_diagnostic_v1"
+  "current_diagnostic": "head_attenuation_diagnostic_v1",
+  "bandit_reversal_diagnostic_source_commit": "fceca94dc6e8137085112ad3a5b75a3cf3894e50"
 }

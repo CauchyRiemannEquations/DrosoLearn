@@ -1,0 +1,4164 @@
+{
+  "scope": "preregistered_diagnostic",
+  "n_seeds": 10,
+  "all_seeds_included": true,
+  "aggregate": [
+    {
+      "condition": "linear_normalized",
+      "n_seeds": 10,
+      "histories": {
+        "fresh_low": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9695541269975708,
+            "sample_sd": 0.00264338246613603
+          },
+          "phase2_gain": {
+            "mean": 0.4695541269975708,
+            "sample_sd": 0.00264338246613603
+          },
+          "phase2_auc": {
+            "mean": 0.8711772881300066,
+            "sample_sd": 0.0031804030008950393
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.37117728813000656,
+            "sample_sd": 0.0031804030008950393
+          },
+          "phase2_ood_after": {
+            "mean": 0.9695527717582095,
+            "sample_sd": 0.002643315216433007
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.029512620544123996,
+            "sample_sd": 0.002479571816809312
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_0": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9695541269975708,
+            "sample_sd": 0.00264338246613603
+          },
+          "phase2_gain": {
+            "mean": 0.4695541269975708,
+            "sample_sd": 0.00264338246613603
+          },
+          "phase2_auc": {
+            "mean": 0.8711772881300066,
+            "sample_sd": 0.0031804030008950393
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.37117728813000656,
+            "sample_sd": 0.0031804030008950393
+          },
+          "phase2_ood_after": {
+            "mean": 0.9695527717582095,
+            "sample_sd": 0.002643315216433007
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.029512620544123996,
+            "sample_sd": 0.002479571816809312
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_025": {
+          "phase2_before": {
+            "mean": 0.3005149892376707,
+            "sample_sd": 0.005794570390512541
+          },
+          "phase2_after": {
+            "mean": 0.9653877640305799,
+            "sample_sd": 0.0031658000675897574
+          },
+          "phase2_gain": {
+            "mean": 0.6648727747929091,
+            "sample_sd": 0.00734185434153543
+          },
+          "phase2_auc": {
+            "mean": 0.8214309490477933,
+            "sample_sd": 0.0038325900152647147
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.5209159598101227,
+            "sample_sd": 0.007412609027139724
+          },
+          "phase2_ood_after": {
+            "mean": 0.965386312702989,
+            "sample_sd": 0.0031654432994922183
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.210175473547283,
+            "sample_sd": 0.00229542512731404
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.03340519376362666,
+            "sample_sd": 0.002945433652097872
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_05": {
+          "phase2_before": {
+            "mean": 0.15590418150034477,
+            "sample_sd": 0.007300287854500448
+          },
+          "phase2_after": {
+            "mean": 0.9590946011312986,
+            "sample_sd": 0.00301218704214091
+          },
+          "phase2_gain": {
+            "mean": 0.8031904196309541,
+            "sample_sd": 0.0068216159496077506
+          },
+          "phase2_auc": {
+            "mean": 0.7354408618739876,
+            "sample_sd": 0.009830426874835771
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.5795366803736427,
+            "sample_sd": 0.006855224480484054
+          },
+          "phase2_ood_after": {
+            "mean": 0.9590924714838298,
+            "sample_sd": 0.0030113277364221015
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.13155004412535212,
+            "sample_sd": 0.00499693270379414
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.039223951536707054,
+            "sample_sd": 0.0027643801336822375
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 200
+            },
+            {
+              "seed": 8002,
+              "trial": 200
+            },
+            {
+              "seed": 8003,
+              "trial": 200
+            },
+            {
+              "seed": 8004,
+              "trial": 200
+            },
+            {
+              "seed": 8005,
+              "trial": 200
+            },
+            {
+              "seed": 8006,
+              "trial": 200
+            },
+            {
+              "seed": 8007,
+              "trial": 200
+            },
+            {
+              "seed": 8008,
+              "trial": 200
+            },
+            {
+              "seed": 8009,
+              "trial": 200
+            },
+            {
+              "seed": 8010,
+              "trial": 200
+            }
+          ]
+        },
+        "gamma_1": {
+          "phase2_before": {
+            "mean": 0.0330934382653808,
+            "sample_sd": 0.003600923455803697
+          },
+          "phase2_after": {
+            "mean": 0.5951366993433757,
+            "sample_sd": 0.17128773394701038
+          },
+          "phase2_gain": {
+            "mean": 0.562043261077995,
+            "sample_sd": 0.16862673506579684
+          },
+          "phase2_auc": {
+            "mean": 0.16100122302060005,
+            "sample_sd": 0.05111087483166174
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.12790778475521922,
+            "sample_sd": 0.048181896407366
+          },
+          "phase2_ood_after": {
+            "mean": 0.5951339458457424,
+            "sample_sd": 0.1712824792347914
+          },
+          "phase2_greedy_after": {
+            "mean": 0.7,
+            "sample_sd": 0.4830458915396479
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.03198657872161772,
+            "sample_sd": 0.0033554218948604214
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.21454228145087786,
+            "sample_sd": 0.04032350791680566
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 2,
+          "qualified_adaptation_count": 2,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": null
+            },
+            {
+              "seed": 8002,
+              "trial": null
+            },
+            {
+              "seed": 8003,
+              "trial": null
+            },
+            {
+              "seed": 8004,
+              "trial": 400
+            },
+            {
+              "seed": 8005,
+              "trial": null
+            },
+            {
+              "seed": 8006,
+              "trial": null
+            },
+            {
+              "seed": 8007,
+              "trial": null
+            },
+            {
+              "seed": 8008,
+              "trial": 400
+            },
+            {
+              "seed": 8009,
+              "trial": null
+            },
+            {
+              "seed": 8010,
+              "trial": null
+            }
+          ]
+        }
+      },
+      "paired_contrasts": {
+        "endpoint_benefit": {
+          "mean": 0.37025106468720415,
+          "sample_sd": 0.17190698743307892
+        },
+        "initial_advantage": {
+          "mean": 0.26742155097229,
+          "sample_sd": 0.0021980296383762787
+        },
+        "gain_difference": {
+          "mean": 0.10282951371491422,
+          "sample_sd": 0.1735352006435197
+        },
+        "raw_auc_benefit": {
+          "mean": 0.6604297260271934,
+          "sample_sd": 0.05187767031422821
+        },
+        "baseline_adjusted_auc_benefit": {
+          "mean": 0.39300817505490343,
+          "sample_sd": 0.05365099844954064
+        },
+        "ood_endpoint_benefit": {
+          "mean": 0.3702523668572465,
+          "sample_sd": 0.17190160556450884
+        },
+        "zero_minus_fresh_endpoint": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        }
+      },
+      "resources": {
+        "feature_scale": {
+          "mean": 0.25493289907687416,
+          "sample_sd": 0.00027960610926194287
+        },
+        "initial_feature_gap_rms": {
+          "mean": 0.25493289907687416,
+          "sample_sd": 0.00027960610926194287
+        }
+      },
+      "readout_parameters": [
+        7
+      ],
+      "internal_parameters": [
+        0
+      ],
+      "shared_high_prefix": {
+        "before": {
+          "mean": 0.5,
+          "sample_sd": 0.0
+        },
+        "after": {
+          "mean": 0.9669065617346192,
+          "sample_sd": 0.003600923455803697
+        },
+        "acquisition_count": 10
+      },
+      "gamma_descriptions": {
+        "slope": {
+          "mean": -0.3848819755260634,
+          "sample_sd": 0.17672899111294127
+        },
+        "nonincreasing_seed_count": 10,
+        "scope": "descriptive OLS slope across all four fixed gamma levels; no success gate"
+      },
+      "verdict": {
+        "condition": "linear_normalized",
+        "n_seeds": 10,
+        "mean_endpoint_benefit": 0.37025106468720415,
+        "positive_seed_count": 10,
+        "high_prefix_acquisition_count": 10,
+        "criterion_met": true
+      }
+    },
+    {
+      "condition": "fixed",
+      "n_seeds": 10,
+      "histories": {
+        "fresh_low": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9705483437565554,
+            "sample_sd": 0.002639302449953603
+          },
+          "phase2_gain": {
+            "mean": 0.4705483437565555,
+            "sample_sd": 0.0026393024499536026
+          },
+          "phase2_auc": {
+            "mean": 0.8732150596280641,
+            "sample_sd": 0.0033431080861171217
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.37321505962806417,
+            "sample_sd": 0.0033431080861171217
+          },
+          "phase2_ood_after": {
+            "mean": 0.9679029073453318,
+            "sample_sd": 0.003245548132953561
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.028569626072095317,
+            "sample_sd": 0.0024801329315058246
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_0": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9705483437565554,
+            "sample_sd": 0.002639302449953603
+          },
+          "phase2_gain": {
+            "mean": 0.4705483437565555,
+            "sample_sd": 0.0026393024499536026
+          },
+          "phase2_auc": {
+            "mean": 0.8732150596280641,
+            "sample_sd": 0.0033431080861171217
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.37321505962806417,
+            "sample_sd": 0.0033431080861171217
+          },
+          "phase2_ood_after": {
+            "mean": 0.9679029073453318,
+            "sample_sd": 0.003245548132953561
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.028569626072095317,
+            "sample_sd": 0.0024801329315058246
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_025": {
+          "phase2_before": {
+            "mean": 0.2995045543723587,
+            "sample_sd": 0.006411763827994545
+          },
+          "phase2_after": {
+            "mean": 0.966540670342542,
+            "sample_sd": 0.003151318784661316
+          },
+          "phase2_gain": {
+            "mean": 0.6670361159701833,
+            "sample_sd": 0.008066695618696999
+          },
+          "phase2_auc": {
+            "mean": 0.8247864165694351,
+            "sample_sd": 0.0033931548590293804
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.5252818621970764,
+            "sample_sd": 0.007789623782625676
+          },
+          "phase2_ood_after": {
+            "mean": 0.9637199275001267,
+            "sample_sd": 0.003768352060370172
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.2097394711990984,
+            "sample_sd": 0.002529157587674168
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.03232096875842261,
+            "sample_sd": 0.0029339484907961078
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_05": {
+          "phase2_before": {
+            "mean": 0.1547351410828718,
+            "sample_sd": 0.00810988684065545
+          },
+          "phase2_after": {
+            "mean": 0.9601893064675228,
+            "sample_sd": 0.003507487021668465
+          },
+          "phase2_gain": {
+            "mean": 0.805454165384651,
+            "sample_sd": 0.008358015429573405
+          },
+          "phase2_auc": {
+            "mean": 0.741550968104803,
+            "sample_sd": 0.01069610326991399
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.5868158270219314,
+            "sample_sd": 0.007388765126885809
+          },
+          "phase2_ood_after": {
+            "mean": 0.9571359970186128,
+            "sample_sd": 0.003860128819373076
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.13069320307022103,
+            "sample_sd": 0.005527541341631497
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.038202508059205616,
+            "sample_sd": 0.003222493449670637
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 200
+            },
+            {
+              "seed": 8002,
+              "trial": 200
+            },
+            {
+              "seed": 8003,
+              "trial": 200
+            },
+            {
+              "seed": 8004,
+              "trial": 200
+            },
+            {
+              "seed": 8005,
+              "trial": 200
+            },
+            {
+              "seed": 8006,
+              "trial": 200
+            },
+            {
+              "seed": 8007,
+              "trial": 200
+            },
+            {
+              "seed": 8008,
+              "trial": 200
+            },
+            {
+              "seed": 8009,
+              "trial": 200
+            },
+            {
+              "seed": 8010,
+              "trial": 200
+            }
+          ]
+        },
+        "gamma_1": {
+          "phase2_before": {
+            "mean": 0.03264113562841636,
+            "sample_sd": 0.004058624142948149
+          },
+          "phase2_after": {
+            "mean": 0.6181862602215953,
+            "sample_sd": 0.16442372385115686
+          },
+          "phase2_gain": {
+            "mean": 0.585545124593179,
+            "sample_sd": 0.16141705801563141
+          },
+          "phase2_auc": {
+            "mean": 0.16647059019879706,
+            "sample_sd": 0.05841339881887169
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.1338294545703807,
+            "sample_sd": 0.05489448983786736
+          },
+          "phase2_ood_after": {
+            "mean": 0.615933259275548,
+            "sample_sd": 0.1619097090265342
+          },
+          "phase2_greedy_after": {
+            "mean": 0.8,
+            "sample_sd": 0.42163702135578396
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.031550982513671263,
+            "sample_sd": 0.00377188621102277
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.2116798821452896,
+            "sample_sd": 0.0440923810066335
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 2,
+          "qualified_adaptation_count": 2,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": null
+            },
+            {
+              "seed": 8002,
+              "trial": null
+            },
+            {
+              "seed": 8003,
+              "trial": null
+            },
+            {
+              "seed": 8004,
+              "trial": 400
+            },
+            {
+              "seed": 8005,
+              "trial": null
+            },
+            {
+              "seed": 8006,
+              "trial": null
+            },
+            {
+              "seed": 8007,
+              "trial": null
+            },
+            {
+              "seed": 8008,
+              "trial": 400
+            },
+            {
+              "seed": 8009,
+              "trial": null
+            },
+            {
+              "seed": 8010,
+              "trial": null
+            }
+          ]
+        }
+      },
+      "paired_contrasts": {
+        "endpoint_benefit": {
+          "mean": 0.34835441012094653,
+          "sample_sd": 0.16547391936907585
+        },
+        "initial_advantage": {
+          "mean": 0.26686341874394237,
+          "sample_sd": 0.0023670417178474137
+        },
+        "gain_difference": {
+          "mean": 0.08149099137700422,
+          "sample_sd": 0.16724813298212196
+        },
+        "raw_auc_benefit": {
+          "mean": 0.658315826370638,
+          "sample_sd": 0.05914700601603821
+        },
+        "baseline_adjusted_auc_benefit": {
+          "mean": 0.3914524076266957,
+          "sample_sd": 0.06113640321760412
+        },
+        "ood_endpoint_benefit": {
+          "mean": 0.3477866682245787,
+          "sample_sd": 0.1637198031806026
+        },
+        "zero_minus_fresh_endpoint": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        }
+      },
+      "resources": {
+        "feature_scale": {
+          "mean": 0.4619374123651426,
+          "sample_sd": 0.08848609971931821
+        },
+        "initial_feature_gap_rms": {
+          "mean": 0.4619374123651426,
+          "sample_sd": 0.08848609971931821
+        }
+      },
+      "readout_parameters": [
+        48
+      ],
+      "internal_parameters": [
+        0
+      ],
+      "shared_high_prefix": {
+        "before": {
+          "mean": 0.5,
+          "sample_sd": 0.0
+        },
+        "after": {
+          "mean": 0.9673588643715837,
+          "sample_sd": 0.004058624142948148
+        },
+        "acquisition_count": 10
+      },
+      "gamma_descriptions": {
+        "slope": {
+          "mean": -0.3622394021556153,
+          "sample_sd": 0.17018262709533732
+        },
+        "nonincreasing_seed_count": 10,
+        "scope": "descriptive OLS slope across all four fixed gamma levels; no success gate"
+      },
+      "verdict": {
+        "condition": "fixed",
+        "n_seeds": 10,
+        "mean_endpoint_benefit": 0.34835441012094653,
+        "positive_seed_count": 10,
+        "high_prefix_acquisition_count": 10,
+        "criterion_met": true
+      }
+    },
+    {
+      "condition": "plastic",
+      "n_seeds": 10,
+      "histories": {
+        "fresh_low": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9910648628938306,
+            "sample_sd": 0.0026670582936439697
+          },
+          "phase2_gain": {
+            "mean": 0.4910648628938305,
+            "sample_sd": 0.0026670582936439697
+          },
+          "phase2_auc": {
+            "mean": 0.9118442083206414,
+            "sample_sd": 0.006874269367473869
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.4118442083206414,
+            "sample_sd": 0.006874269367473869
+          },
+          "phase2_ood_after": {
+            "mean": 0.9901762454994657,
+            "sample_sd": 0.0028561645267779255
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.008848063892148405,
+            "sample_sd": 0.002608576230334826
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_0": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9921504633797591,
+            "sample_sd": 0.0020557216519463094
+          },
+          "phase2_gain": {
+            "mean": 0.4921504633797592,
+            "sample_sd": 0.0020557216519463094
+          },
+          "phase2_auc": {
+            "mean": 0.9194926683327849,
+            "sample_sd": 0.0038979562798226865
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.4194926683327848,
+            "sample_sd": 0.0038979562798226865
+          },
+          "phase2_ood_after": {
+            "mean": 0.991344947773508,
+            "sample_sd": 0.0021997384720790713
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.0077834289304599446,
+            "sample_sd": 0.002017172089819996
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_025": {
+          "phase2_before": {
+            "mean": 0.24303298887002903,
+            "sample_sd": 0.007992852539442966
+          },
+          "phase2_after": {
+            "mean": 0.991675558086763,
+            "sample_sd": 0.002179748205667008
+          },
+          "phase2_gain": {
+            "mean": 0.748642569216734,
+            "sample_sd": 0.008904093381064737
+          },
+          "phase2_auc": {
+            "mean": 0.8833520851507917,
+            "sample_sd": 0.005292890394043024
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.6403190962807626,
+            "sample_sd": 0.011368560710352424
+          },
+          "phase2_ood_after": {
+            "mean": 0.9908359716687374,
+            "sample_sd": 0.0023238225191371193
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.1838916410812395,
+            "sample_sd": 0.004075515133480793
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.00825011429277025,
+            "sample_sd": 0.002136799869824175
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_05": {
+          "phase2_before": {
+            "mean": 0.09366073187938763,
+            "sample_sd": 0.007458724950295168
+          },
+          "phase2_after": {
+            "mean": 0.9895390814457095,
+            "sample_sd": 0.002566215685399303
+          },
+          "phase2_gain": {
+            "mean": 0.8958783495663217,
+            "sample_sd": 0.008269944283990666
+          },
+          "phase2_auc": {
+            "mean": 0.8359514405311262,
+            "sample_sd": 0.013678505731589725
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.7422907086517387,
+            "sample_sd": 0.017050313683165525
+          },
+          "phase2_ood_after": {
+            "mean": 0.9884312150957555,
+            "sample_sd": 0.0028085163500254245
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.0848219035947699,
+            "sample_sd": 0.0060260973740734036
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.01034419013004668,
+            "sample_sd": 0.0025063907760047555
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_1": {
+          "phase2_before": {
+            "mean": 0.010677592315143258,
+            "sample_sd": 0.001904156182402536
+          },
+          "phase2_after": {
+            "mean": 0.9180618919464918,
+            "sample_sd": 0.037874374783510786
+          },
+          "phase2_gain": {
+            "mean": 0.9073842996313484,
+            "sample_sd": 0.038729246093436205
+          },
+          "phase2_auc": {
+            "mean": 0.375951094159274,
+            "sample_sd": 0.07278422105176828
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.36527350184413077,
+            "sample_sd": 0.0731146143864772
+          },
+          "phase2_ood_after": {
+            "mean": 0.9141657360083546,
+            "sample_sd": 0.03740976454990682
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.010559232197215837,
+            "sample_sd": 0.0018601425419570827
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.0738945184061676,
+            "sample_sd": 0.029905363940746364
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 400
+            },
+            {
+              "seed": 8002,
+              "trial": 400
+            },
+            {
+              "seed": 8003,
+              "trial": 400
+            },
+            {
+              "seed": 8004,
+              "trial": 300
+            },
+            {
+              "seed": 8005,
+              "trial": 300
+            },
+            {
+              "seed": 8006,
+              "trial": 400
+            },
+            {
+              "seed": 8007,
+              "trial": 400
+            },
+            {
+              "seed": 8008,
+              "trial": 300
+            },
+            {
+              "seed": 8009,
+              "trial": 400
+            },
+            {
+              "seed": 8010,
+              "trial": 400
+            }
+          ]
+        }
+      },
+      "paired_contrasts": {
+        "endpoint_benefit": {
+          "mean": 0.07361366614027118,
+          "sample_sd": 0.03681771946985938
+        },
+        "initial_advantage": {
+          "mean": 0.23235539655488577,
+          "sample_sd": 0.006098390117358321
+        },
+        "gain_difference": {
+          "mean": -0.1587417304146146,
+          "sample_sd": 0.03528464851563119
+        },
+        "raw_auc_benefit": {
+          "mean": 0.5074009909915176,
+          "sample_sd": 0.0693491004871168
+        },
+        "baseline_adjusted_auc_benefit": {
+          "mean": 0.27504559443663185,
+          "sample_sd": 0.06936643245353548
+        },
+        "ood_endpoint_benefit": {
+          "mean": 0.0766702356603828,
+          "sample_sd": 0.036359378124074186
+        },
+        "zero_minus_fresh_endpoint": {
+          "mean": 0.001085600485928584,
+          "sample_sd": 0.0012225899222449554
+        }
+      },
+      "resources": {
+        "feature_scale": {
+          "mean": 0.4619374123651426,
+          "sample_sd": 0.08848609971931821
+        },
+        "initial_feature_gap_rms": {
+          "mean": 0.4619374123651426,
+          "sample_sd": 0.08848609971931821
+        }
+      },
+      "readout_parameters": [
+        48
+      ],
+      "internal_parameters": [
+        1474
+      ],
+      "shared_high_prefix": {
+        "before": {
+          "mean": 0.5,
+          "sample_sd": 0.0
+        },
+        "after": {
+          "mean": 0.9893224076848567,
+          "sample_sd": 0.0019041561824025362
+        },
+        "acquisition_count": 10
+      },
+      "gamma_descriptions": {
+        "slope": {
+          "mean": -0.07634100673765334,
+          "sample_sd": 0.038028231480014885
+        },
+        "nonincreasing_seed_count": 9,
+        "scope": "descriptive OLS slope across all four fixed gamma levels; no success gate"
+      },
+      "verdict": {
+        "condition": "plastic",
+        "n_seeds": 10,
+        "mean_endpoint_benefit": 0.07361366614027118,
+        "positive_seed_count": 10,
+        "high_prefix_acquisition_count": 10,
+        "criterion_met": false
+      }
+    },
+    {
+      "condition": "rewired_fixed",
+      "n_seeds": 10,
+      "histories": {
+        "fresh_low": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9703162569565986,
+            "sample_sd": 0.0030376694853608333
+          },
+          "phase2_gain": {
+            "mean": 0.4703162569565985,
+            "sample_sd": 0.0030376694853608333
+          },
+          "phase2_auc": {
+            "mean": 0.8729621199038775,
+            "sample_sd": 0.0034174985630371617
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.3729621199038775,
+            "sample_sd": 0.0034174985630371617
+          },
+          "phase2_ood_after": {
+            "mean": 0.9678022541574529,
+            "sample_sd": 0.00311555895778915
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.028786741795012498,
+            "sample_sd": 0.0028514207945844316
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_0": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9703162569565986,
+            "sample_sd": 0.0030376694853608333
+          },
+          "phase2_gain": {
+            "mean": 0.4703162569565985,
+            "sample_sd": 0.0030376694853608333
+          },
+          "phase2_auc": {
+            "mean": 0.8729621199038775,
+            "sample_sd": 0.0034174985630371617
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.3729621199038775,
+            "sample_sd": 0.0034174985630371617
+          },
+          "phase2_ood_after": {
+            "mean": 0.9678022541574529,
+            "sample_sd": 0.00311555895778915
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.028786741795012498,
+            "sample_sd": 0.0028514207945844316
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_025": {
+          "phase2_before": {
+            "mean": 0.2992005345737887,
+            "sample_sd": 0.005767054545850017
+          },
+          "phase2_after": {
+            "mean": 0.9663927117260357,
+            "sample_sd": 0.003097742285518684
+          },
+          "phase2_gain": {
+            "mean": 0.667192177152247,
+            "sample_sd": 0.0072376852722254555
+          },
+          "phase2_auc": {
+            "mean": 0.8246322231544388,
+            "sample_sd": 0.00370561982614581
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.52543168858065,
+            "sample_sd": 0.007056100312973661
+          },
+          "phase2_ood_after": {
+            "mean": 0.9637021722557151,
+            "sample_sd": 0.003268777598753821
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.20962622480017848,
+            "sample_sd": 0.002304978265086546
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.03246025347901136,
+            "sample_sd": 0.0028818599478092617
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_05": {
+          "phase2_before": {
+            "mean": 0.1543313897632567,
+            "sample_sd": 0.0072061157718932
+          },
+          "phase2_after": {
+            "mean": 0.9601633076408322,
+            "sample_sd": 0.0029960439272996406
+          },
+          "phase2_gain": {
+            "mean": 0.8058319178775756,
+            "sample_sd": 0.00732232755101019
+          },
+          "phase2_auc": {
+            "mean": 0.7403828088673376,
+            "sample_sd": 0.009014805448011722
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.586051419104081,
+            "sample_sd": 0.00658236721450371
+          },
+          "phase2_ood_after": {
+            "mean": 0.957216710275393,
+            "sample_sd": 0.0033873581357007007
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.13043035113700713,
+            "sample_sd": 0.004961903822209606
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.038230581051883795,
+            "sample_sd": 0.0027531012985699222
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 200
+            },
+            {
+              "seed": 8002,
+              "trial": 200
+            },
+            {
+              "seed": 8003,
+              "trial": 200
+            },
+            {
+              "seed": 8004,
+              "trial": 200
+            },
+            {
+              "seed": 8005,
+              "trial": 200
+            },
+            {
+              "seed": 8006,
+              "trial": 200
+            },
+            {
+              "seed": 8007,
+              "trial": 200
+            },
+            {
+              "seed": 8008,
+              "trial": 200
+            },
+            {
+              "seed": 8009,
+              "trial": 200
+            },
+            {
+              "seed": 8010,
+              "trial": 200
+            }
+          ]
+        },
+        "gamma_1": {
+          "phase2_before": {
+            "mean": 0.032410803843948385,
+            "sample_sd": 0.0034923274222491297
+          },
+          "phase2_after": {
+            "mean": 0.6192388472581564,
+            "sample_sd": 0.1752559443814027
+          },
+          "phase2_gain": {
+            "mean": 0.5868280434142079,
+            "sample_sd": 0.1727519462924015
+          },
+          "phase2_auc": {
+            "mean": 0.1648024907591673,
+            "sample_sd": 0.05299701273939613
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.1323916869152189,
+            "sample_sd": 0.05018417558762958
+          },
+          "phase2_ood_after": {
+            "mean": 0.6176799559627864,
+            "sample_sd": 0.17224895248948777
+          },
+          "phase2_greedy_after": {
+            "mean": 0.8,
+            "sample_sd": 0.42163702135578396
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.031341032293273105,
+            "sample_sd": 0.0032597406154563076
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.20812015310638232,
+            "sample_sd": 0.04260726572302932
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 2,
+          "qualified_adaptation_count": 2,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": null
+            },
+            {
+              "seed": 8002,
+              "trial": null
+            },
+            {
+              "seed": 8003,
+              "trial": null
+            },
+            {
+              "seed": 8004,
+              "trial": 400
+            },
+            {
+              "seed": 8005,
+              "trial": null
+            },
+            {
+              "seed": 8006,
+              "trial": null
+            },
+            {
+              "seed": 8007,
+              "trial": null
+            },
+            {
+              "seed": 8008,
+              "trial": 400
+            },
+            {
+              "seed": 8009,
+              "trial": null
+            },
+            {
+              "seed": 8010,
+              "trial": null
+            }
+          ]
+        }
+      },
+      "paired_contrasts": {
+        "endpoint_benefit": {
+          "mean": 0.3471538644678794,
+          "sample_sd": 0.176283687306895
+        },
+        "initial_advantage": {
+          "mean": 0.26678973072984036,
+          "sample_sd": 0.0022794907566973683
+        },
+        "gain_difference": {
+          "mean": 0.0803641337380391,
+          "sample_sd": 0.17793731627950107
+        },
+        "raw_auc_benefit": {
+          "mean": 0.6598297323952715,
+          "sample_sd": 0.05345853748982658
+        },
+        "baseline_adjusted_auc_benefit": {
+          "mean": 0.3930400016654311,
+          "sample_sd": 0.0552900729962593
+        },
+        "ood_endpoint_benefit": {
+          "mean": 0.34602221629292884,
+          "sample_sd": 0.17324615497294374
+        },
+        "zero_minus_fresh_endpoint": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        }
+      },
+      "resources": {
+        "feature_scale": {
+          "mean": 0.43677110663919166,
+          "sample_sd": 0.04128696067698572
+        },
+        "initial_feature_gap_rms": {
+          "mean": 0.43677110663919166,
+          "sample_sd": 0.04128696067698572
+        }
+      },
+      "readout_parameters": [
+        48
+      ],
+      "internal_parameters": [
+        0
+      ],
+      "shared_high_prefix": {
+        "before": {
+          "mean": 0.5,
+          "sample_sd": 0.0
+        },
+        "after": {
+          "mean": 0.9675891961560514,
+          "sample_sd": 0.0034923274222491297
+        },
+        "acquisition_count": 10
+      },
+      "gamma_descriptions": {
+        "slope": {
+          "mean": -0.3609233143897209,
+          "sample_sd": 0.1812716645530326
+        },
+        "nonincreasing_seed_count": 10,
+        "scope": "descriptive OLS slope across all four fixed gamma levels; no success gate"
+      },
+      "verdict": {
+        "condition": "rewired_fixed",
+        "n_seeds": 10,
+        "mean_endpoint_benefit": 0.3471538644678794,
+        "positive_seed_count": 10,
+        "high_prefix_acquisition_count": 10,
+        "criterion_met": true
+      }
+    },
+    {
+      "condition": "rewired_plastic",
+      "n_seeds": 10,
+      "histories": {
+        "fresh_low": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9913583628472533,
+            "sample_sd": 0.0019123745540164958
+          },
+          "phase2_gain": {
+            "mean": 0.49135836284725354,
+            "sample_sd": 0.0019123745540164958
+          },
+          "phase2_auc": {
+            "mean": 0.9125466658104291,
+            "sample_sd": 0.004483565331486291
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.41254666581042904,
+            "sample_sd": 0.004483565331486292
+          },
+          "phase2_ood_after": {
+            "mean": 0.9905489717791444,
+            "sample_sd": 0.0020121076764625326
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.008562964749644925,
+            "sample_sd": 0.0018752647773172357
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_0": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9928446722165493,
+            "sample_sd": 0.0015795286991919203
+          },
+          "phase2_gain": {
+            "mean": 0.4928446722165494,
+            "sample_sd": 0.0015795286991919203
+          },
+          "phase2_auc": {
+            "mean": 0.9207562540144302,
+            "sample_sd": 0.0024840532252005613
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.4207562540144301,
+            "sample_sd": 0.0024840532252005613
+          },
+          "phase2_ood_after": {
+            "mean": 0.9921510431190587,
+            "sample_sd": 0.0016563354441842964
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.007101342861343012,
+            "sample_sd": 0.0015555512878711593
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_025": {
+          "phase2_before": {
+            "mean": 0.23940734679538367,
+            "sample_sd": 0.00915411984146747
+          },
+          "phase2_after": {
+            "mean": 0.992232919152471,
+            "sample_sd": 0.001656193185927992
+          },
+          "phase2_gain": {
+            "mean": 0.7528255723570874,
+            "sample_sd": 0.008730579494691252
+          },
+          "phase2_auc": {
+            "mean": 0.8842196966806606,
+            "sample_sd": 0.003922809599425712
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.6448123498852769,
+            "sample_sd": 0.008127658434802136
+          },
+          "phase2_ood_after": {
+            "mean": 0.9914953879720665,
+            "sample_sd": 0.0017392480210805825
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.1819977072354673,
+            "sample_sd": 0.004815350587949724
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.007703669630614839,
+            "sample_sd": 0.0016276221045632788
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_05": {
+          "phase2_before": {
+            "mean": 0.09040389851186595,
+            "sample_sd": 0.00813439867686508
+          },
+          "phase2_after": {
+            "mean": 0.9895058576174953,
+            "sample_sd": 0.002317008968845983
+          },
+          "phase2_gain": {
+            "mean": 0.8991019591056293,
+            "sample_sd": 0.0074211141192826536
+          },
+          "phase2_auc": {
+            "mean": 0.8364989467397222,
+            "sample_sd": 0.008835486174746584
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.7460950482278563,
+            "sample_sd": 0.006041684166080994
+          },
+          "phase2_ood_after": {
+            "mean": 0.9885065299480033,
+            "sample_sd": 0.0024816305852207537
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.08215629278381217,
+            "sample_sd": 0.0066895349936885165
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.010377868717865998,
+            "sample_sd": 0.002260356203587902
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_1": {
+          "phase2_before": {
+            "mean": 0.009903514067488706,
+            "sample_sd": 0.0018831267552926487
+          },
+          "phase2_after": {
+            "mean": 0.9108080911525777,
+            "sample_sd": 0.05657321064106208
+          },
+          "phase2_gain": {
+            "mean": 0.900904577085089,
+            "sample_sd": 0.055804384165578626
+          },
+          "phase2_auc": {
+            "mean": 0.3725541712859989,
+            "sample_sd": 0.08602987053077228
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.36265065721851014,
+            "sample_sd": 0.08539695656880572
+          },
+          "phase2_ood_after": {
+            "mean": 0.9073556824510028,
+            "sample_sd": 0.057836039769762024
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.009801320919078116,
+            "sample_sd": 0.0018461395183521606
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.0783203753941227,
+            "sample_sd": 0.04068969086918674
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 300
+            },
+            {
+              "seed": 8002,
+              "trial": 400
+            },
+            {
+              "seed": 8003,
+              "trial": 400
+            },
+            {
+              "seed": 8004,
+              "trial": 300
+            },
+            {
+              "seed": 8005,
+              "trial": 300
+            },
+            {
+              "seed": 8006,
+              "trial": 400
+            },
+            {
+              "seed": 8007,
+              "trial": 400
+            },
+            {
+              "seed": 8008,
+              "trial": 400
+            },
+            {
+              "seed": 8009,
+              "trial": 400
+            },
+            {
+              "seed": 8010,
+              "trial": 400
+            }
+          ]
+        }
+      },
+      "paired_contrasts": {
+        "endpoint_benefit": {
+          "mean": 0.08142482799989331,
+          "sample_sd": 0.05663676888843556
+        },
+        "initial_advantage": {
+          "mean": 0.22950383272789496,
+          "sample_sd": 0.007282171624424737
+        },
+        "gain_difference": {
+          "mean": -0.14807900472800162,
+          "sample_sd": 0.06013555685353732
+        },
+        "raw_auc_benefit": {
+          "mean": 0.5116655253946616,
+          "sample_sd": 0.08501467926742402
+        },
+        "baseline_adjusted_auc_benefit": {
+          "mean": 0.2821616926667667,
+          "sample_sd": 0.0878688747272717
+        },
+        "ood_endpoint_benefit": {
+          "mean": 0.08413970552106358,
+          "sample_sd": 0.05791518595940342
+        },
+        "zero_minus_fresh_endpoint": {
+          "mean": 0.0014863093692957796,
+          "sample_sd": 0.0008573713336532289
+        }
+      },
+      "resources": {
+        "feature_scale": {
+          "mean": 0.43677110663919166,
+          "sample_sd": 0.04128696067698572
+        },
+        "initial_feature_gap_rms": {
+          "mean": 0.43677110663919166,
+          "sample_sd": 0.04128696067698572
+        }
+      },
+      "readout_parameters": [
+        48
+      ],
+      "internal_parameters": [
+        1474
+      ],
+      "shared_high_prefix": {
+        "before": {
+          "mean": 0.5,
+          "sample_sd": 0.0
+        },
+        "after": {
+          "mean": 0.9900964859325112,
+          "sample_sd": 0.0018831267552926487
+        },
+        "acquisition_count": 10
+      },
+      "gamma_descriptions": {
+        "slope": {
+          "mean": -0.08455231828372148,
+          "sample_sd": 0.05834312414697739
+        },
+        "nonincreasing_seed_count": 9,
+        "scope": "descriptive OLS slope across all four fixed gamma levels; no success gate"
+      },
+      "verdict": {
+        "condition": "rewired_plastic",
+        "n_seeds": 10,
+        "mean_endpoint_benefit": 0.08142482799989331,
+        "positive_seed_count": 10,
+        "high_prefix_acquisition_count": 10,
+        "criterion_met": false
+      }
+    },
+    {
+      "condition": "ann_fixed",
+      "n_seeds": 10,
+      "histories": {
+        "fresh_low": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9705344311091253,
+            "sample_sd": 0.0027925298446121894
+          },
+          "phase2_gain": {
+            "mean": 0.4705344311091252,
+            "sample_sd": 0.0027925298446121894
+          },
+          "phase2_auc": {
+            "mean": 0.8733781541171417,
+            "sample_sd": 0.0037232280600652833
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.3733781541171418,
+            "sample_sd": 0.0037232280600652833
+          },
+          "phase2_ood_after": {
+            "mean": 0.968171466940112,
+            "sample_sd": 0.0028939183130720766
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.028581280080097,
+            "sample_sd": 0.002624068364682354
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_0": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9705344311091253,
+            "sample_sd": 0.0027925298446121894
+          },
+          "phase2_gain": {
+            "mean": 0.4705344311091252,
+            "sample_sd": 0.0027925298446121894
+          },
+          "phase2_auc": {
+            "mean": 0.8733781541171417,
+            "sample_sd": 0.0037232280600652833
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.3733781541171418,
+            "sample_sd": 0.0037232280600652833
+          },
+          "phase2_ood_after": {
+            "mean": 0.968171466940112,
+            "sample_sd": 0.0028939183130720766
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.028581280080097,
+            "sample_sd": 0.002624068364682354
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_025": {
+          "phase2_before": {
+            "mean": 0.29881896259644875,
+            "sample_sd": 0.005865086144708625
+          },
+          "phase2_after": {
+            "mean": 0.966789764213042,
+            "sample_sd": 0.0029340010690678746
+          },
+          "phase2_gain": {
+            "mean": 0.6679708016165933,
+            "sample_sd": 0.0073588039222954845
+          },
+          "phase2_auc": {
+            "mean": 0.8243756442882002,
+            "sample_sd": 0.003877041187399681
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.5255566816917515,
+            "sample_sd": 0.00711881858425574
+          },
+          "phase2_ood_after": {
+            "mean": 0.9642887824442864,
+            "sample_sd": 0.0028852060437959174
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.20946571868158959,
+            "sample_sd": 0.002354699235042162
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.03208893347607514,
+            "sample_sd": 0.0027349561523886783
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_05": {
+          "phase2_before": {
+            "mean": 0.15387794461161336,
+            "sample_sd": 0.007297820502452572
+          },
+          "phase2_after": {
+            "mean": 0.9602498965106712,
+            "sample_sd": 0.0027798572669630473
+          },
+          "phase2_gain": {
+            "mean": 0.8063719518990577,
+            "sample_sd": 0.007615586434291562
+          },
+          "phase2_auc": {
+            "mean": 0.7388912770804614,
+            "sample_sd": 0.008167927451574008
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.5850133324688482,
+            "sample_sd": 0.0054422779394532736
+          },
+          "phase2_ood_after": {
+            "mean": 0.9575345318826223,
+            "sample_sd": 0.0023350234427130675
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.13010645445979702,
+            "sample_sd": 0.005040909035013484
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.03814967525387776,
+            "sample_sd": 0.002557021231892859
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 200
+            },
+            {
+              "seed": 8002,
+              "trial": 200
+            },
+            {
+              "seed": 8003,
+              "trial": 200
+            },
+            {
+              "seed": 8004,
+              "trial": 200
+            },
+            {
+              "seed": 8005,
+              "trial": 200
+            },
+            {
+              "seed": 8006,
+              "trial": 200
+            },
+            {
+              "seed": 8007,
+              "trial": 200
+            },
+            {
+              "seed": 8008,
+              "trial": 200
+            },
+            {
+              "seed": 8009,
+              "trial": 200
+            },
+            {
+              "seed": 8010,
+              "trial": 200
+            }
+          ]
+        },
+        "gamma_1": {
+          "phase2_before": {
+            "mean": 0.03221588535413246,
+            "sample_sd": 0.00350252928379574
+          },
+          "phase2_after": {
+            "mean": 0.6117482298617308,
+            "sample_sd": 0.17445816380523144
+          },
+          "phase2_gain": {
+            "mean": 0.5795323445075985,
+            "sample_sd": 0.1720463099314419
+          },
+          "phase2_auc": {
+            "mean": 0.1620936429029022,
+            "sample_sd": 0.05079817258153204
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.12987775754876973,
+            "sample_sd": 0.048118682690639014
+          },
+          "phase2_ood_after": {
+            "mean": 0.6101648893273041,
+            "sample_sd": 0.1722519826892074
+          },
+          "phase2_greedy_after": {
+            "mean": 0.7,
+            "sample_sd": 0.4830458915396479
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.03115677546777612,
+            "sample_sd": 0.003272727125957535
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.21010256228711094,
+            "sample_sd": 0.04086336062736263
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 2,
+          "qualified_adaptation_count": 2,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": null
+            },
+            {
+              "seed": 8002,
+              "trial": null
+            },
+            {
+              "seed": 8003,
+              "trial": null
+            },
+            {
+              "seed": 8004,
+              "trial": 400
+            },
+            {
+              "seed": 8005,
+              "trial": null
+            },
+            {
+              "seed": 8006,
+              "trial": null
+            },
+            {
+              "seed": 8007,
+              "trial": null
+            },
+            {
+              "seed": 8008,
+              "trial": 400
+            },
+            {
+              "seed": 8009,
+              "trial": null
+            },
+            {
+              "seed": 8010,
+              "trial": null
+            }
+          ]
+        }
+      },
+      "paired_contrasts": {
+        "endpoint_benefit": {
+          "mean": 0.3550415343513111,
+          "sample_sd": 0.17528350349037694
+        },
+        "initial_advantage": {
+          "mean": 0.2666030772423163,
+          "sample_sd": 0.0023664571866889713
+        },
+        "gain_difference": {
+          "mean": 0.08843845710899478,
+          "sample_sd": 0.1769517578457562
+        },
+        "raw_auc_benefit": {
+          "mean": 0.662282001385298,
+          "sample_sd": 0.05146012131039174
+        },
+        "baseline_adjusted_auc_benefit": {
+          "mean": 0.3956789241429817,
+          "sample_sd": 0.053276909659760535
+        },
+        "ood_endpoint_benefit": {
+          "mean": 0.3541238931169825,
+          "sample_sd": 0.17327328740713627
+        },
+        "zero_minus_fresh_endpoint": {
+          "mean": 0.0,
+          "sample_sd": 0.0
+        }
+      },
+      "resources": {
+        "feature_scale": {
+          "mean": 0.4451632815821557,
+          "sample_sd": 0.04582830086619246
+        },
+        "initial_feature_gap_rms": {
+          "mean": 0.4451632815821557,
+          "sample_sd": 0.04582830086619246
+        }
+      },
+      "readout_parameters": [
+        48
+      ],
+      "internal_parameters": [
+        0
+      ],
+      "shared_high_prefix": {
+        "before": {
+          "mean": 0.5,
+          "sample_sd": 0.0
+        },
+        "after": {
+          "mean": 0.9677841146458676,
+          "sample_sd": 0.0035025292837957394
+        },
+        "acquisition_count": 10
+      },
+      "gamma_descriptions": {
+        "slope": {
+          "mean": -0.3689287251584861,
+          "sample_sd": 0.1800558282812552
+        },
+        "nonincreasing_seed_count": 10,
+        "scope": "descriptive OLS slope across all four fixed gamma levels; no success gate"
+      },
+      "verdict": {
+        "condition": "ann_fixed",
+        "n_seeds": 10,
+        "mean_endpoint_benefit": 0.3550415343513111,
+        "positive_seed_count": 10,
+        "high_prefix_acquisition_count": 10,
+        "criterion_met": true
+      }
+    },
+    {
+      "condition": "ann_plastic",
+      "n_seeds": 10,
+      "histories": {
+        "fresh_low": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9913483077992284,
+            "sample_sd": 0.0014188846447040345
+          },
+          "phase2_gain": {
+            "mean": 0.4913483077992284,
+            "sample_sd": 0.0014188846447040345
+          },
+          "phase2_auc": {
+            "mean": 0.9120023717756816,
+            "sample_sd": 0.0033619911866254893
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.41200237177568155,
+            "sample_sd": 0.0033619911866254893
+          },
+          "phase2_ood_after": {
+            "mean": 0.9905014046530344,
+            "sample_sd": 0.0013818867943994615
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.008574140269919813,
+            "sample_sd": 0.0013936023305510695
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_0": {
+          "phase2_before": {
+            "mean": 0.5,
+            "sample_sd": 0.0
+          },
+          "phase2_after": {
+            "mean": 0.9925406741615752,
+            "sample_sd": 0.0013179234183316
+          },
+          "phase2_gain": {
+            "mean": 0.4925406741615753,
+            "sample_sd": 0.0013179234183316
+          },
+          "phase2_auc": {
+            "mean": 0.920098878456143,
+            "sample_sd": 0.0019355660902800036
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.4200988784561429,
+            "sample_sd": 0.0019355660902800034
+          },
+          "phase2_ood_after": {
+            "mean": 0.9917832593611478,
+            "sample_sd": 0.0013358677162539027
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.25,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.007401437470835831,
+            "sample_sd": 0.0012974677525856074
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_025": {
+          "phase2_before": {
+            "mean": 0.23970815617455027,
+            "sample_sd": 0.010309570293888052
+          },
+          "phase2_after": {
+            "mean": 0.9918919993897664,
+            "sample_sd": 0.0012732696900027908
+          },
+          "phase2_gain": {
+            "mean": 0.7521838432152161,
+            "sample_sd": 0.00992118701269364
+          },
+          "phase2_auc": {
+            "mean": 0.8835174297430562,
+            "sample_sd": 0.0029969523774423697
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.6438092735685059,
+            "sample_sd": 0.009357463463810237
+          },
+          "phase2_ood_after": {
+            "mean": 0.991086255987016,
+            "sample_sd": 0.001294676048808483
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.18212750835353944,
+            "sample_sd": 0.005456304189914571
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.008040004127244175,
+            "sample_sd": 0.0012512139911493754
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_05": {
+          "phase2_before": {
+            "mean": 0.09074871952461819,
+            "sample_sd": 0.009080220757993564
+          },
+          "phase2_after": {
+            "mean": 0.9891958502753804,
+            "sample_sd": 0.0023225279969208666
+          },
+          "phase2_gain": {
+            "mean": 0.8984471307507622,
+            "sample_sd": 0.008949796550295385
+          },
+          "phase2_auc": {
+            "mean": 0.8353096766115742,
+            "sample_sd": 0.007303288031071973
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.744560957086956,
+            "sample_sd": 0.00739152505338343
+          },
+          "phase2_ood_after": {
+            "mean": 0.9881937550468491,
+            "sample_sd": 0.0023303362150685447
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.0824187464150157,
+            "sample_sd": 0.007483160615680173
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.010681019382982193,
+            "sample_sd": 0.002269245033547101
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 10,
+          "qualified_adaptation_count": 10,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 100
+            },
+            {
+              "seed": 8002,
+              "trial": 100
+            },
+            {
+              "seed": 8003,
+              "trial": 100
+            },
+            {
+              "seed": 8004,
+              "trial": 100
+            },
+            {
+              "seed": 8005,
+              "trial": 100
+            },
+            {
+              "seed": 8006,
+              "trial": 100
+            },
+            {
+              "seed": 8007,
+              "trial": 100
+            },
+            {
+              "seed": 8008,
+              "trial": 100
+            },
+            {
+              "seed": 8009,
+              "trial": 100
+            },
+            {
+              "seed": 8010,
+              "trial": 100
+            }
+          ]
+        },
+        "gamma_1": {
+          "phase2_before": {
+            "mean": 0.01001707561924774,
+            "sample_sd": 0.002083339050674169
+          },
+          "phase2_after": {
+            "mean": 0.8820718293445353,
+            "sample_sd": 0.08532577122388596
+          },
+          "phase2_gain": {
+            "mean": 0.8720547537252873,
+            "sample_sd": 0.08369999420121722
+          },
+          "phase2_auc": {
+            "mean": 0.3347967993027869,
+            "sample_sd": 0.10396935788370155
+          },
+          "phase2_baseline_adjusted_auc": {
+            "mean": 0.32477972368353913,
+            "sample_sd": 0.10219052680139264
+          },
+          "phase2_ood_after": {
+            "mean": 0.8793843045404994,
+            "sample_sd": 0.08402154252896965
+          },
+          "phase2_greedy_after": {
+            "mean": 1.0,
+            "sample_sd": 0.0
+          },
+          "policy_sensitivity_before": {
+            "mean": 0.00991163281592162,
+            "sample_sd": 0.002042381103329995
+          },
+          "policy_sensitivity_after": {
+            "mean": 0.09742830198682731,
+            "sample_sd": 0.05356359507375678
+          },
+          "n_seeds": 10,
+          "phase2_target_pass_count": 9,
+          "qualified_adaptation_count": 9,
+          "first_observed_target_checkpoints": [
+            {
+              "seed": 8001,
+              "trial": 400
+            },
+            {
+              "seed": 8002,
+              "trial": 300
+            },
+            {
+              "seed": 8003,
+              "trial": 400
+            },
+            {
+              "seed": 8004,
+              "trial": 300
+            },
+            {
+              "seed": 8005,
+              "trial": 400
+            },
+            {
+              "seed": 8006,
+              "trial": 400
+            },
+            {
+              "seed": 8007,
+              "trial": 400
+            },
+            {
+              "seed": 8008,
+              "trial": 400
+            },
+            {
+              "seed": 8009,
+              "trial": 400
+            },
+            {
+              "seed": 8010,
+              "trial": null
+            }
+          ]
+        }
+      },
+      "paired_contrasts": {
+        "endpoint_benefit": {
+          "mean": 0.10982017004523108,
+          "sample_sd": 0.08465089119325464
+        },
+        "initial_advantage": {
+          "mean": 0.22969108055530252,
+          "sample_sd": 0.008249791236452659
+        },
+        "gain_difference": {
+          "mean": -0.11987091051007148,
+          "sample_sd": 0.09174175571022342
+        },
+        "raw_auc_benefit": {
+          "mean": 0.5487206304402693,
+          "sample_sd": 0.10234073778548308
+        },
+        "baseline_adjusted_auc_benefit": {
+          "mean": 0.31902954988496673,
+          "sample_sd": 0.10921589438224369
+        },
+        "ood_endpoint_benefit": {
+          "mean": 0.11170195144651682,
+          "sample_sd": 0.08346171507613337
+        },
+        "zero_minus_fresh_endpoint": {
+          "mean": 0.0011923663623468195,
+          "sample_sd": 0.0006875800887467959
+        }
+      },
+      "resources": {
+        "feature_scale": {
+          "mean": 0.4451632815821557,
+          "sample_sd": 0.04582830086619246
+        },
+        "initial_feature_gap_rms": {
+          "mean": 0.4451632815821557,
+          "sample_sd": 0.04582830086619246
+        }
+      },
+      "readout_parameters": [
+        48
+      ],
+      "internal_parameters": [
+        1474
+      ],
+      "shared_high_prefix": {
+        "before": {
+          "mean": 0.5,
+          "sample_sd": 0.0
+        },
+        "after": {
+          "mean": 0.9899829243807522,
+          "sample_sd": 0.0020833390506741684
+        },
+        "acquisition_count": 10
+      },
+      "gamma_descriptions": {
+        "slope": {
+          "mean": -0.11378496033418606,
+          "sample_sd": 0.08705823686058488
+        },
+        "nonincreasing_seed_count": 9,
+        "scope": "descriptive OLS slope across all four fixed gamma levels; no success gate"
+      },
+      "verdict": {
+        "condition": "ann_plastic",
+        "n_seeds": 10,
+        "mean_endpoint_benefit": 0.10982017004523108,
+        "positive_seed_count": 10,
+        "high_prefix_acquisition_count": 10,
+        "criterion_met": false
+      }
+    }
+  ],
+  "primary_hypothesis_from_run": {
+    "name": "H_A",
+    "condition": "linear_normalized",
+    "n_seeds": 10,
+    "mean_endpoint_benefit": 0.37025106468720415,
+    "sd_endpoint_benefit": 0.17190698743307892,
+    "positive_seed_count": 10,
+    "high_prefix_acquisition_count": 10,
+    "fresh_acquisition_count": 10,
+    "criterion_met": true
+  },
+  "qualified_adaptation_failures": [
+    {
+      "seed": 8001,
+      "condition": "linear_normalized",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.03253257555465627,
+      "phase2_after": 0.6824249241888809,
+      "phase2_gain": 0.6498923486342246
+    },
+    {
+      "seed": 8002,
+      "condition": "linear_normalized",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.03526032057754358,
+      "phase2_after": 0.626198788976766,
+      "phase2_gain": 0.5909384683992224
+    },
+    {
+      "seed": 8003,
+      "condition": "linear_normalized",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.02975368382345689,
+      "phase2_after": 0.3335750087427779,
+      "phase2_gain": 0.303821324919321
+    },
+    {
+      "seed": 8005,
+      "condition": "linear_normalized",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.035254215545171164,
+      "phase2_after": 0.5333531308024366,
+      "phase2_gain": 0.49809891525726546
+    },
+    {
+      "seed": 8006,
+      "condition": "linear_normalized",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.030321622729557296,
+      "phase2_after": 0.3547465415277855,
+      "phase2_gain": 0.3244249187982282
+    },
+    {
+      "seed": 8007,
+      "condition": "linear_normalized",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.029639437746748265,
+      "phase2_after": 0.4878763626392686,
+      "phase2_gain": 0.4582369248925203
+    },
+    {
+      "seed": 8009,
+      "condition": "linear_normalized",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.03097121880088216,
+      "phase2_after": 0.6146775451362504,
+      "phase2_gain": 0.5837063263353682
+    },
+    {
+      "seed": 8010,
+      "condition": "linear_normalized",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.029964884212416942,
+      "phase2_after": 0.6653203054662643,
+      "phase2_gain": 0.6353554212538474
+    },
+    {
+      "seed": 8001,
+      "condition": "fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.0314080349142527,
+      "phase2_after": 0.6558493715659897,
+      "phase2_gain": 0.624441336651737
+    },
+    {
+      "seed": 8002,
+      "condition": "fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.03565559090985326,
+      "phase2_after": 0.6960708200445822,
+      "phase2_gain": 0.6604152291347289
+    },
+    {
+      "seed": 8003,
+      "condition": "fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.029175270958252564,
+      "phase2_after": 0.3400439235641265,
+      "phase2_gain": 0.31086865260587393
+    },
+    {
+      "seed": 8005,
+      "condition": "fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.033879628262053596,
+      "phase2_after": 0.5240338243901521,
+      "phase2_gain": 0.4901541961280985
+    },
+    {
+      "seed": 8006,
+      "condition": "fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.029594679520627887,
+      "phase2_after": 0.4163678005446374,
+      "phase2_gain": 0.3867731210240095
+    },
+    {
+      "seed": 8007,
+      "condition": "fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.02901064028404754,
+      "phase2_after": 0.5415943535900896,
+      "phase2_gain": 0.512583713306042
+    },
+    {
+      "seed": 8009,
+      "condition": "fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.030449600664141707,
+      "phase2_after": 0.6452170891401868,
+      "phase2_gain": 0.6147674884760451
+    },
+    {
+      "seed": 8010,
+      "condition": "fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.02967410867743503,
+      "phase2_after": 0.7021525088776281,
+      "phase2_gain": 0.6724784002001931
+    },
+    {
+      "seed": 8001,
+      "condition": "rewired_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.03177335152191507,
+      "phase2_after": 0.6679158823419901,
+      "phase2_gain": 0.636142530820075
+    },
+    {
+      "seed": 8002,
+      "condition": "rewired_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.035347435761487356,
+      "phase2_after": 0.679182189277902,
+      "phase2_gain": 0.6438347535164146
+    },
+    {
+      "seed": 8003,
+      "condition": "rewired_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.02875283020107866,
+      "phase2_after": 0.2880278685785842,
+      "phase2_gain": 0.25927503837750554
+    },
+    {
+      "seed": 8005,
+      "condition": "rewired_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.03473660400187928,
+      "phase2_after": 0.5590105907428287,
+      "phase2_gain": 0.5242739867409494
+    },
+    {
+      "seed": 8006,
+      "condition": "rewired_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.029637568862703523,
+      "phase2_after": 0.41156300627624387,
+      "phase2_gain": 0.38192543741354035
+    },
+    {
+      "seed": 8007,
+      "condition": "rewired_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.028704667153786723,
+      "phase2_after": 0.5433613143955863,
+      "phase2_gain": 0.5146566472417996
+    },
+    {
+      "seed": 8009,
+      "condition": "rewired_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.030611143243939543,
+      "phase2_after": 0.6456494495766367,
+      "phase2_gain": 0.6150383063326972
+    },
+    {
+      "seed": 8010,
+      "condition": "rewired_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.02989807117820864,
+      "phase2_after": 0.7225715748477981,
+      "phase2_gain": 0.6926735036695895
+    },
+    {
+      "seed": 8001,
+      "condition": "ann_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.03187881743282195,
+      "phase2_after": 0.6786413279986905,
+      "phase2_gain": 0.6467625105658685
+    },
+    {
+      "seed": 8002,
+      "condition": "ann_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.03570664252793443,
+      "phase2_after": 0.6804969076285865,
+      "phase2_gain": 0.6447902651006521
+    },
+    {
+      "seed": 8003,
+      "condition": "ann_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.027994747864565572,
+      "phase2_after": 0.29910278601695706,
+      "phase2_gain": 0.2711080381523915
+    },
+    {
+      "seed": 8005,
+      "condition": "ann_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.033870128078674955,
+      "phase2_after": 0.4565543397456211,
+      "phase2_gain": 0.42268421166694614
+    },
+    {
+      "seed": 8006,
+      "condition": "ann_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.029613774970531415,
+      "phase2_after": 0.45972409853111107,
+      "phase2_gain": 0.43011032356057965
+    },
+    {
+      "seed": 8007,
+      "condition": "ann_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.028719793437089525,
+      "phase2_after": 0.509148513578247,
+      "phase2_gain": 0.48042872014115745
+    },
+    {
+      "seed": 8009,
+      "condition": "ann_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.030769217213682976,
+      "phase2_after": 0.6555658486535239,
+      "phase2_gain": 0.6247966314398409
+    },
+    {
+      "seed": 8010,
+      "condition": "ann_fixed",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.029444889253759765,
+      "phase2_after": 0.7225506558683883,
+      "phase2_gain": 0.6931057666146285
+    },
+    {
+      "seed": 8010,
+      "condition": "ann_plastic",
+      "history": "gamma_1",
+      "phase1_acquired": true,
+      "phase2_before": 0.005792050547475225,
+      "phase2_after": 0.6725834998448749,
+      "phase2_gain": 0.6667914492973996
+    }
+  ],
+  "fresh_acquisition_failures": [],
+  "shared_high_prefix_acquisition_failures": [],
+  "actual_reward_updates": 168000,
+  "conditional_reference_updates": 24000,
+  "counter_notice": "branch lineage counters inherit one high prefix; physical calls count prefix once, not four times",
+  "frozen_boundary_baseline": {
+    "rows": 4000,
+    "reward_updates": 0,
+    "new_learner": false,
+    "definition": "each path phase2 trial0 target probability held constant at every checkpoint; endpoint benefit minus initial advantage equals gain difference"
+  },
+  "raw_margin_reconstruction": {
+    "rows": 4000,
+    "max_case_replay_tolerance": 2e-12,
+    "retraining": false
+  },
+  "boundary_manipulation_checks": {
+    "rows": 640,
+    "scope": "raw direction and probability confidence are separate; clipping can prevent strict confidence decrease"
+  },
+  "conditional_reference": {
+    "scope": "descriptive label-privileged conditional-action drift; not ensemble expectation or reward-learning control; no success flags",
+    "phase2_trials": [
+      0,
+      100,
+      200,
+      300,
+      400
+    ],
+    "histories": [
+      {
+        "history": "fresh_low",
+        "n_seeds": 10,
+        "n_checkpoints": 5,
+        "iid": {
+          "per_seed_checkpoint_mae": {
+            "mean": 0.003276575957090546,
+            "sample_sd": 0.001578278538803603
+          },
+          "mean_trajectory_mae": 0.0007080064383847585,
+          "max_individual_checkpoint_abs_difference": 0.02037923257055163,
+          "stochastic_mean_trajectory": [
+            0.5,
+            0.8579281122796057,
+            0.933552175955969,
+            0.9584518007856662,
+            0.9695541269975708
+          ],
+          "reference_mean_trajectory": [
+            0.5,
+            0.8606013473538819,
+            0.9337030376365234,
+            0.9578743892686917,
+            0.969415603077452
+          ],
+          "mean_trajectory_difference": [
+            0.0,
+            -0.0026732350742762257,
+            -0.00015086168055452597,
+            0.0005774115169744132,
+            0.00013852392011862725
+          ],
+          "reference_endpoint": {
+            "mean": 0.969415603077452,
+            "sample_sd": 7.460946416721842e-05
+          }
+        },
+        "ood": {
+          "per_seed_checkpoint_mae": {
+            "mean": 0.0032765865019330166,
+            "sample_sd": 0.0015780796543510606
+          },
+          "mean_trajectory_mae": 0.0007078334798972664,
+          "max_individual_checkpoint_abs_difference": 0.020379967919910813,
+          "stochastic_mean_trajectory": [
+            0.5,
+            0.8579260357306344,
+            0.933550071861416,
+            0.9584500565616884,
+            0.9695527717582095
+          ],
+          "reference_mean_trajectory": [
+            0.5,
+            0.8605995677858692,
+            0.9337020010053922,
+            0.9578738400805917,
+            0.9694152820390309
+          ],
+          "mean_trajectory_difference": [
+            0.0,
+            -0.0026735320552349175,
+            -0.00015192914397631484,
+            0.000576216481096603,
+            0.0001374897191784963
+          ],
+          "reference_endpoint": {
+            "mean": 0.9694152820390309,
+            "sample_sd": 7.460027532229019e-05
+          }
+        }
+      },
+      {
+        "history": "gamma_0",
+        "n_seeds": 10,
+        "n_checkpoints": 5,
+        "iid": {
+          "per_seed_checkpoint_mae": {
+            "mean": 0.003276575957090546,
+            "sample_sd": 0.001578278538803603
+          },
+          "mean_trajectory_mae": 0.0007080064383847585,
+          "max_individual_checkpoint_abs_difference": 0.02037923257055163,
+          "stochastic_mean_trajectory": [
+            0.5,
+            0.8579281122796057,
+            0.933552175955969,
+            0.9584518007856662,
+            0.9695541269975708
+          ],
+          "reference_mean_trajectory": [
+            0.5,
+            0.8606013473538819,
+            0.9337030376365234,
+            0.9578743892686917,
+            0.969415603077452
+          ],
+          "mean_trajectory_difference": [
+            0.0,
+            -0.0026732350742762257,
+            -0.00015086168055452597,
+            0.0005774115169744132,
+            0.00013852392011862725
+          ],
+          "reference_endpoint": {
+            "mean": 0.969415603077452,
+            "sample_sd": 7.460946416721842e-05
+          }
+        },
+        "ood": {
+          "per_seed_checkpoint_mae": {
+            "mean": 0.0032765865019330166,
+            "sample_sd": 0.0015780796543510606
+          },
+          "mean_trajectory_mae": 0.0007078334798972664,
+          "max_individual_checkpoint_abs_difference": 0.020379967919910813,
+          "stochastic_mean_trajectory": [
+            0.5,
+            0.8579260357306344,
+            0.933550071861416,
+            0.9584500565616884,
+            0.9695527717582095
+          ],
+          "reference_mean_trajectory": [
+            0.5,
+            0.8605995677858692,
+            0.9337020010053922,
+            0.9578738400805917,
+            0.9694152820390309
+          ],
+          "mean_trajectory_difference": [
+            0.0,
+            -0.0026735320552349175,
+            -0.00015192914397631484,
+            0.000576216481096603,
+            0.0001374897191784963
+          ],
+          "reference_endpoint": {
+            "mean": 0.9694152820390309,
+            "sample_sd": 7.460027532229019e-05
+          }
+        }
+      },
+      {
+        "history": "gamma_025",
+        "n_seeds": 10,
+        "n_checkpoints": 5,
+        "iid": {
+          "per_seed_checkpoint_mae": {
+            "mean": 0.005336893942736609,
+            "sample_sd": 0.0021967212180103984
+          },
+          "mean_trajectory_mae": 0.001587270663888527,
+          "max_individual_checkpoint_abs_difference": 0.019523979784697332,
+          "stochastic_mean_trajectory": [
+            0.3005149892376707,
+            0.7867415592951251,
+            0.915000229827997,
+            0.9510306304339261,
+            0.9653877640305799
+          ],
+          "reference_mean_trajectory": [
+            0.29649432269247067,
+            0.7844284980899889,
+            0.9160744523068894,
+            0.9509134241998181,
+            0.9657989608866862
+          ],
+          "mean_trajectory_difference": [
+            0.004020666545200069,
+            0.002313061205136091,
+            -0.0010742224788923727,
+            0.00011720623410798048,
+            -0.0004111968561061219
+          ],
+          "reference_endpoint": {
+            "mean": 0.9657989608866862,
+            "sample_sd": 8.950442654115384e-05
+          }
+        },
+        "ood": {
+          "per_seed_checkpoint_mae": {
+            "mean": 0.0053369611516601466,
+            "sample_sd": 0.002196898456638542
+          },
+          "mean_trajectory_mae": 0.0015874933585170558,
+          "max_individual_checkpoint_abs_difference": 0.019524207344650102,
+          "stochastic_mean_trajectory": [
+            0.30051517172570474,
+            0.7867390341739666,
+            0.9149976579658604,
+            0.9510287651428909,
+            0.965386312702989
+          ],
+          "reference_mean_trajectory": [
+            0.2964943680796178,
+            0.7844257117543556,
+            0.9160726488272404,
+            0.9509125622194219,
+            0.9657984596450271
+          ],
+          "mean_trajectory_difference": [
+            0.004020803646086845,
+            0.0023133224196108526,
+            -0.0010749908613801097,
+            0.00011620292346921079,
+            -0.0004121469420382606
+          ],
+          "reference_endpoint": {
+            "mean": 0.9657984596450271,
+            "sample_sd": 8.942935425967968e-05
+          }
+        }
+      },
+      {
+        "history": "gamma_05",
+        "n_seeds": 10,
+        "n_checkpoints": 5,
+        "iid": {
+          "per_seed_checkpoint_mae": {
+            "mean": 0.010952624971338747,
+            "sample_sd": 0.0062389536089673195
+          },
+          "mean_trajectory_mae": 0.008273420681733607,
+          "max_individual_checkpoint_abs_difference": 0.0827003109743275,
+          "stochastic_mean_trajectory": [
+            0.15590418150034477,
+            0.5748056403239044,
+            0.8719008007736674,
+            0.9375576150825568,
+            0.9590946011312989
+          ],
+          "reference_mean_trajectory": [
+            0.15083139102651652,
+            0.5420512691650944,
+            0.8698380771175603,
+            0.9362193973726244,
+            0.9589556007213085
+          ],
+          "mean_trajectory_difference": [
+            0.005072790473828248,
+            0.032754371158809914,
+            0.002062723656107113,
+            0.001338217709932521,
+            0.000139000409990242
+          ],
+          "reference_endpoint": {
+            "mean": 0.9589556007213085,
+            "sample_sd": 0.00011647868673654432
+          }
+        },
+        "ood": {
+          "per_seed_checkpoint_mae": {
+            "mean": 0.010952340563659903,
+            "sample_sd": 0.006238668593596171
+          },
+          "mean_trajectory_mae": 0.008272345855358337,
+          "max_individual_checkpoint_abs_difference": 0.08269817300655302,
+          "stochastic_mean_trajectory": [
+            0.1559049693642316,
+            0.5748042707333018,
+            0.871895877418174,
+            0.9375548685789454,
+            0.9590924714838298
+          ],
+          "reference_mean_trajectory": [
+            0.1508315822888251,
+            0.5420506710761204,
+            0.8698352136571506,
+            0.9362182656497208,
+            0.9589549956298742
+          ],
+          "mean_trajectory_difference": [
+            0.005073387075406466,
+            0.03275359965718126,
+            0.00206066376102334,
+            0.0013366029292249172,
+            0.00013747585395569307
+          ],
+          "reference_endpoint": {
+            "mean": 0.9589549956298742,
+            "sample_sd": 0.00011638972518228
+          }
+        }
+      },
+      {
+        "history": "gamma_1",
+        "n_seeds": 10,
+        "n_checkpoints": 5,
+        "iid": {
+          "per_seed_checkpoint_mae": {
+            "mean": 0.05299725953902353,
+            "sample_sd": 0.04396812299454309
+          },
+          "mean_trajectory_mae": 0.039109020739059294,
+          "max_individual_checkpoint_abs_difference": 0.36740489254140407,
+          "stochastic_mean_trajectory": [
+            0.0330934382653808,
+            0.04747715461622953,
+            0.08351468987662128,
+            0.19889797878517107,
+            0.5951366993433759
+          ],
+          "reference_mean_trajectory": [
+            0.03058486843332594,
+            0.04207236441862936,
+            0.06600324471346197,
+            0.13736187505142727,
+            0.4865525045746374
+          ],
+          "mean_trajectory_difference": [
+            0.0025085698320548634,
+            0.005404790197600174,
+            0.017511445163159313,
+            0.06153610373374378,
+            0.10858419476873835
+          ],
+          "reference_endpoint": {
+            "mean": 0.48655250457463745,
+            "sample_sd": 0.00012768863913777893
+          }
+        },
+        "ood": {
+          "per_seed_checkpoint_mae": {
+            "mean": 0.052997044840602844,
+            "sample_sd": 0.04396777553982622
+          },
+          "mean_trajectory_mae": 0.039109667133742435,
+          "max_individual_checkpoint_abs_difference": 0.3673904594260542,
+          "stochastic_mean_trajectory": [
+            0.03309447812490365,
+            0.04747855943200929,
+            0.08351673518202571,
+            0.19890152665700686,
+            0.5951339458457424
+          ],
+          "reference_mean_trajectory": [
+            0.030585106496292147,
+            0.0420727078093517,
+            0.06600377203946592,
+            0.13736267052315748,
+            0.4865526527047085
+          ],
+          "mean_trajectory_difference": [
+            0.002509371628611501,
+            0.005405851622657598,
+            0.0175129631425598,
+            0.06153885613384942,
+            0.10858129314103386
+          ],
+          "reference_endpoint": {
+            "mean": 0.4865526527047085,
+            "sample_sd": 0.0001276632197677238
+          }
+        }
+      }
+    ],
+    "pooled_individual_checkpoint_mae": 0.015167944992706892
+  },
+  "notice": "all-seed descriptive statistics; no retraining, threshold selection, significance test, confidence-only causal effect, intrinsic learning speed, biological replication or common neural mechanism"
+}

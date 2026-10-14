@@ -1,0 +1,16 @@
+{
+  "seed": 8009,
+  "condition": "ann_fixed",
+  "history": "gamma_1",
+  "gamma": 1.0,
+  "shared_prefix_path": "seed_8009/ann_fixed/shared_prefix/phase1_0400.npz",
+  "shared_prefix_sha256": "9fec202af1603efc30d2c091a9e2efb309643ff92e426a45c301ef29fe6987b9",
+  "head_change_l2": 0.0,
+  "internal_change_l2": 0.0,
+  "feature_scale_before": 0.4031043615396712,
+  "feature_scale_after": 0.4031043615396712,
+  "head_updates_before": 400,
+  "head_updates_after": 400,
+  "internal_updates_before": 0,
+  "internal_updates_after": 0
+}

@@ -1,0 +1,123 @@
+{
+  "registered_at_utc": "2026-10-14T23:10:32.916800+00:00",
+  "config": {
+    "experiment_id": "head_attenuation_diagnostic_v1",
+    "scope": "preregistered_diagnostic",
+    "seeds": [
+      8001,
+      8002,
+      8003,
+      8004,
+      8005,
+      8006,
+      8007,
+      8008,
+      8009,
+      8010
+    ],
+    "graph": "data/flywire_783_mb_left_kc512_s701",
+    "pair": [
+      2,
+      4
+    ],
+    "conditions": [
+      "linear_normalized",
+      "fixed",
+      "plastic",
+      "rewired_fixed",
+      "rewired_plastic",
+      "ann_fixed",
+      "ann_plastic"
+    ],
+    "histories": [
+      "fresh_low",
+      "gamma_0",
+      "gamma_025",
+      "gamma_05",
+      "gamma_1"
+    ],
+    "gammas": [
+      0,
+      0.25,
+      0.5,
+      1
+    ],
+    "primary_gamma": 0.25,
+    "trials_per_phase": 400,
+    "checkpoint_every": 100,
+    "eval_trials": 128,
+    "probe_rows": 8,
+    "head_lr": 0.1,
+    "internal_lr": 0.01,
+    "head_initialization": "zeros_all_conditions",
+    "feature_normalization": "fixed_initial_phase1_train_feature_gap_rms",
+    "attenuation_mode": "scale_readout_only_preserve_all_other_state",
+    "expected_reference": "conditional_expected_action_linear",
+    "criteria": {
+      "acquisition_accuracy": 0.75,
+      "acquisition_gain": 0.15,
+      "adaptation_accuracy": 0.75,
+      "endpoint_benefit": 0.15,
+      "seed_pass_fraction": 0.8
+    },
+    "stopping": "one shared high400 prefix per seed/family, cloned into four gamma branches each with low400, plus fresh_low400; no tuning, seed replacement or budget extension; all seven families and ten seeds retained; physical actual updates168000, separate reference updates24000",
+    "input_scope": "order-preserving artificial n/8 plus six nuisance coordinates; paired2vs4 and nuisanceOOD only; scalar deterministic choice reward is label-equivalent information; no visual number extraction, teacher scores or mathematical rule discovery",
+    "interpretation_scope": "partial readout attenuation is a composite intervention; endpoint benefit includes immediate boundary probability change and later learning; not confidence-only causation, intrinsic learning speed, neural mechanism or natural forgetting"
+  },
+  "config_sha256": "7a04e09d85767ad7172c5a22977f50149c1ab9f30021d097e39745f5f09b82f0",
+  "source_hashes": {
+    "data/flywire_783_mb_left_kc512_s701/annotations.csv": "10f9c9d4db8ee2741bd19cf464e4b46fd6e24f086a5ce1dbb550bcea633cdb16",
+    "data/flywire_783_mb_left_kc512_s701/edges.csv": "d8c47ea1202575994d430f55e5bd8602f939f320ef02f71522fc1bc54b97db51",
+    "data/flywire_783_mb_left_kc512_s701/neurons.json": "05d83a288b1d42337001015be2d54167aed00cdc9fea58b578423d18756aa77b",
+    "data/flywire_783_mb_left_kc512_s701/provenance.json": "e1a50d254628fb0573d7853b8e66926697b353da317bd701b17e60bfd4942061",
+    "data/LICENSE.md": "22ecdbcde7d264ef025101c57a7cf753fba1612002253f93d83071b34bec2381",
+    "data/source-manifest.json": "ce2219987ae991b5e2e41dde6bd811fa51d7a2cd57ecaf01bf90cdf55ba69af9",
+    "docs/head-attenuation-background.md": "5f2345e5f199b2432b3fbc971c879b84f6b29d8e8d054667abb147b295734fe2",
+    "docs/head-attenuation-protocol.md": "9f74cbd70b418e4f823794c7045136562b5cbc563a0190dbe16cfa323def2030",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/analysis.py": "5c70261b6fb8064aef7abfead85f9848e31e4ab7d7bfea300e678bc2204dfe2f",
+    "src/drosolearn/audit.py": "5effe6ba19814adaaf841abfd0fddece77ec31468c5fa8214b78be1d62ee4fea",
+    "src/drosolearn/bandit_reversal.py": "995ff73f7508d71d25d9ac5aaf705ba6f0a898dbc0c9cca25bcbe6f6a5479ac9",
+    "src/drosolearn/bandit_reversal_analysis.py": "8e6da480de4e81a74430d5fd26b0396cd81d46ddc290f763a59b87c2eac03253",
+    "src/drosolearn/bandit_reversal_audit.py": "bf5e2dd7c07733dde9855fd0b42dade5cdab9bc7609d9f4daec1a04e458131aa",
+    "src/drosolearn/cli.py": "67ecf0220c61b3257bd03fc7de58f47327f57e3004e82f82f2f9bbfc10199311",
+    "src/drosolearn/data.py": "e2a9f2108b37e0fa1c23607f657133d38bdd8cfbac648afc95d1fac85462d6dc",
+    "src/drosolearn/encoding.py": "87a429e3c68a650938861d4d00e4cb02fda4043eeba708a4f60f8754a45908a1",
+    "src/drosolearn/encoding_analysis.py": "39ee9096f333cfd29ae8782017372d379bb4bdcf32489f267293898673ce1f88",
+    "src/drosolearn/encoding_audit.py": "d07661f5521bf58321ec66c18c35dee40c9c4f37952586dc9e869854b56e889f",
+    "src/drosolearn/experiment.py": "b55bbec7b8fe402ac2aa16a28a50b3cde166dc612247a92dc6d727e1ecb58e3e",
+    "src/drosolearn/graph.py": "6c713164943f1e6a4c38c9138ecd9c437b56523d68b58cffb58dc6531ccea2c2",
+    "src/drosolearn/head_attenuation.py": "744e2a0160c3267a26e38620fa88e2e692e2d75fbf4fb856c236aeb8087943f4",
+    "src/drosolearn/head_attenuation_analysis.py": "d7d8fa936c36478e14909929ed7539c3200637d91a392d90d7c66499365a890d",
+    "src/drosolearn/head_attenuation_audit.py": "491460533242c795f775fc07abfe44cd35b85672426c48325d6216c5a465fbdb",
+    "src/drosolearn/linearity.py": "c1aac5719fcc05354cfe889d48d58c6f08b28bae43c67e0de70f1e236e1f16c4",
+    "src/drosolearn/linearity_analysis.py": "b82fc5ab77cf979ab027b5d0cb9a67fcb781e872ebc08753668384cc03010f3d",
+    "src/drosolearn/linearity_audit.py": "788b1ecc3ae1df55feb72965a0d47006f305aa1f2dd0db2ce1b558873100c9ef",
+    "src/drosolearn/model.py": "21e855ebbddb6190816a8adad130216065a03a6fc2d757e42466bdc7aaca3497",
+    "src/drosolearn/reversal.py": "1b7dc871f0bdff7de977bd7ae153022e1a8b327686fac16a7be92d8745c7f3cb",
+    "src/drosolearn/reversal_analysis.py": "ddc775feebc84db480885f21e9700c4263a9eca1a2e35c6310e56819fa914f8a",
+    "src/drosolearn/reversal_audit.py": "da936d8d7c70233b3af11b9aac95254cc5bea79cff2c9e7e322eeba0c8f5c58b",
+    "src/drosolearn/reward_linear.py": "1432f65a1b027570ffe8c6b84e8ab9e25e9617c8f407bbf21465774b4f0cec0d",
+    "src/drosolearn/reward_linear_analysis.py": "b18a8a626cb64cd807b7c6f81605a5c0c97cd7cec718481c875a2450934f4e3d",
+    "src/drosolearn/reward_linear_audit.py": "3ba6ef4ecfa1b233f2e5d4dfdde22187599f51701d1c19b4a88a2a906073ee88",
+    "src/drosolearn/spacing.py": "f2ccf0b70f6d2a0e14829257570b27d240c545660026ce87d7f2b4d6c088187c",
+    "src/drosolearn/spacing_analysis.py": "dc54ce591808c3b56dd5c76fb6e14c002f81fa42d814edb7f00b6e0e06714c3d",
+    "src/drosolearn/spacing_audit.py": "2645b596eb4aef70115c4828475332bd2048d47553a28c6fb0c028f4eb8edc87"
+  },
+  "git": {
+    "commit": "1a5c1341dec8ec36710f8ce4659e2841b8a4e6ac",
+    "status": "?? results/test-validation-head-attenuation.json"
+  },
+  "notice": "prospective private Git freeze, not accredited public preregistration",
+  "previous_studies": [
+    "v0.1.0-smoke",
+    "study-reversal-v1",
+    "study-encoding-v1",
+    "study-spacing-v1",
+    "study-linearity-v1",
+    "study-reward-linear-v1",
+    "study-bandit-reversal-v1"
+  ]
+}

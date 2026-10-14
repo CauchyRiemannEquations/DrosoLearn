@@ -1,0 +1,16 @@
+{
+  "seed": 8008,
+  "condition": "expected_linear",
+  "history": "gamma_05",
+  "gamma": 0.5,
+  "shared_prefix_path": "seed_8008/expected_linear/shared_prefix/phase1_0400.npz",
+  "shared_prefix_sha256": "07fd62c9fa7039f602bb7257cb3ccd61589c251adf2d96faaed8615e6d62b79e",
+  "head_change_l2": 1.7627796960282225,
+  "internal_change_l2": 0.0,
+  "feature_scale_before": 0.25518145635638806,
+  "feature_scale_after": 0.25518145635638806,
+  "head_updates_before": 400,
+  "head_updates_after": 400,
+  "internal_updates_before": 0,
+  "internal_updates_after": 0
+}

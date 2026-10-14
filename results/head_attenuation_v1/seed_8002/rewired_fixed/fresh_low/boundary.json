@@ -1,0 +1,16 @@
+{
+  "seed": 8002,
+  "condition": "rewired_fixed",
+  "history": "fresh_low",
+  "gamma": null,
+  "shared_prefix_path": null,
+  "shared_prefix_sha256": null,
+  "head_change_l2": 0.0,
+  "internal_change_l2": 0.0,
+  "feature_scale_before": 0.4807901988560944,
+  "feature_scale_after": 0.4807901988560944,
+  "head_updates_before": 0,
+  "head_updates_after": 0,
+  "internal_updates_before": 0,
+  "internal_updates_after": 0
+}
