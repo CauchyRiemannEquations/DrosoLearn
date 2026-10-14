@@ -1,0 +1,52 @@
+{
+  "audited_at_utc": "2026-10-14T01:40:33.475671+00:00",
+  "passed": true,
+  "method": "independent numpy/stdlib arithmetic replay; only previous independent audit helpers reused",
+  "input_scope": "four order-preserving artificial scalar maps; one reward learner and two privileged score-distillation references per family",
+  "counts": {
+    "artifact_hashes": 597,
+    "source_hashes": 30,
+    "seeds": 10,
+    "conditions": 6,
+    "actual_fits": 60,
+    "trials": 24000,
+    "curve_rows": 600,
+    "checkpoints": 300,
+    "transfer_files": 120,
+    "reference_files": 120,
+    "reference_models": 2,
+    "calibration_candidate_score_entries": 30720,
+    "frozen_evaluation_maps": 4,
+    "transfer_probability_entries": 12960,
+    "case_probability_entries": 1658880,
+    "candidate_score_entries": 11612160,
+    "reference_case_probability_entries": 3317760,
+    "raw_margin_entries": 4976640,
+    "raw_selected_candidate_score_entries": 9953280,
+    "focal_pairs": 1,
+    "secondary_unseen_pairs": 15,
+    "anchored_pairs": 12,
+    "canonical_fingerprints": 21200
+  },
+  "checks": [
+    "Required primary byte hashes, config/source file-set and byte freeze, and local registration/run chronology",
+    "Four exact order-preserving maps; constant anchors/range and focal midpoint; true quantity ratio and mapped code gap kept separate",
+    "All31 raw splits regenerated; calibration/train/IID/OOD/27-pair canonical disjointness, complete descriptor crossing and registered RNG",
+    "Anatomical source projection independently parsed; real/rewired/ANN raw topologies and control RNG regenerated",
+    "Every checkpoint's fixed encoder, topology, internal weights, readout weights and probe activations independently recomputed",
+    "Every actual reward-only policy-gradient update replayed using old-head eligibility and clipping; one actual fit per family",
+    "Full anatomical calibration scores reconstructed; affine8-parameter reference independently fit by QR with SVD rank8; scalar reference by two anchor means",
+    "Every baseline/final teacher/reference absolute score, unclipped margin, clipped probability, four-map mean and greedy response independently recomputed",
+    "Reference fitting uses only disjoint2/4 calibration scores; fully unseen15-pair errors aggregate all four maps and all held-out cases",
+    "Acquisition and fidelity are distinct gates; primary mean probability MAE and passing seed fraction use all seeds; baseline and qualified summaries kept separate",
+    "Raw margin/absolute-score residuals and greedy disagreement are recomputed independently of sigmoid probability agreement"
+  ],
+  "errors": [],
+  "not_verified": [
+    "Visual numerosity extraction, ratio-based quantity perception, LC11/DAN dynamics or shared human/fly mechanisms",
+    "Remote private Git publication authenticity; local chronology is self-recorded",
+    "Statistical significance, mathematical rule discovery or educational implications",
+    "A probability-MAE threshold as proof of globally affine scores, equivalent learning mechanisms or independent reference reward learning",
+    "Four maps as independent learners or computational seeds as biological animals"
+  ]
+}
