@@ -1,0 +1,14 @@
+{
+  "seed": 7007,
+  "condition": "expected_linear",
+  "history": "high_to_low_reset_head",
+  "reset_head": true,
+  "head_change_l2": 3.524086099524662,
+  "internal_change_l2": 0.0,
+  "feature_scale_before": 0.25485934379003095,
+  "feature_scale_after": 0.25485934379003095,
+  "head_updates_before": 400,
+  "head_updates_after": 400,
+  "internal_updates_before": 0,
+  "internal_updates_after": 0
+}

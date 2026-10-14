@@ -1,0 +1,46 @@
+{
+  "audited_at_utc": "2026-10-14T04:43:53.985568+00:00",
+  "passed": true,
+  "method": "independent numpy/stdlib arithmetic replay; only prior independent audit helpers reused",
+  "input_scope": "reward reversal on artificial scalar order; frozen initial TRAIN feature-gap scale",
+  "counts": {
+    "artifact_hashes": 3907,
+    "source_hashes": 36,
+    "seeds": 10,
+    "reward_conditions": 7,
+    "histories": 4,
+    "actual_trajectories": 280,
+    "analytic_reference_trajectories": 40,
+    "actual_training_trials": 196000,
+    "expected_reference_updates": 28000,
+    "curve_rows": 5600,
+    "checkpoints": 2880,
+    "boundary_state_files": 640,
+    "case_probability_entries": 737280,
+    "canonical_fingerprints": 5280,
+    "boundary_events": 320,
+    "summary_outcomes": 320,
+    "reference_comparison_rows": 200
+  },
+  "checks": [
+    "Exact required artifact hashes, config/source byte freeze, source file set and local registration/run chronology",
+    "Four independently regenerated raw splits per seed, full joint nuisance crossing and canonical disjointness",
+    "Independent source graph parsing, anatomical/rewired/ANN sparse topology and RNG reconstruction",
+    "Phase1 initial TRAIN-only feature-gap RMS fixed across all histories and every saved checkpoint/boundary",
+    "Every actual action, reward, trial probability, old-head internal gradient and clipping independently replayed",
+    "Expected-action reference independently enumerates both action outcomes and preserves separate update counts",
+    "Every checkpoint parameter, integer counter, KC/MBON/decision probe and full IID/OOD case probability reconstructed",
+    "Boundary raw states and events verify readout-only reset, internal continuity, fixed scale and unchanged counters",
+    "Exact high-pretraining prefixes and nonplastic reset/fresh counterfactual states/trials verified",
+    "Every acquisition/qualified adaptation gate, endpoint/gain/AUC/baseline-adjusted contrast, H_B and reference comparison reconstructed"
+  ],
+  "errors": [],
+  "not_verified": [
+    "Visual extraction of numerosity, LC11/DAN dynamics, or shared human/fly neural mechanisms",
+    "Remote private Git publication authenticity; local chronology is self-recorded",
+    "Statistical significance, intrinsic learning rate, or educational implications",
+    "Expected-action deterministic reference as an actual reward-only learner or expected stochastic trajectory",
+    "Equal feature-gap scale or trial budgets as complete equivalence of capacity or optimization",
+    "Computational seeds as independent biological individuals"
+  ]
+}

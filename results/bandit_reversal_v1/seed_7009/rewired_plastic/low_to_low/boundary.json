@@ -1,0 +1,14 @@
+{
+  "seed": 7009,
+  "condition": "rewired_plastic",
+  "history": "low_to_low",
+  "reset_head": false,
+  "head_change_l2": 0.0,
+  "internal_change_l2": 0.0,
+  "feature_scale_before": 0.3878665278208808,
+  "feature_scale_after": 0.3878665278208808,
+  "head_updates_before": 400,
+  "head_updates_after": 400,
+  "internal_updates_before": 400,
+  "internal_updates_after": 400
+}

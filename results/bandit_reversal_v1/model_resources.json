@@ -1,0 +1,3202 @@
+[
+  {
+    "seed": 7001,
+    "condition": "linear_normalized",
+    "history": "fresh_low",
+    "feature_scale": 0.25492879101001686,
+    "initial_feature_gap_rms": 0.25492879101001686,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "linear_normalized",
+    "history": "high_to_low",
+    "feature_scale": 0.25492879101001686,
+    "initial_feature_gap_rms": 0.25492879101001686,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "linear_normalized",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.25492879101001686,
+    "initial_feature_gap_rms": 0.25492879101001686,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "linear_normalized",
+    "history": "low_to_low",
+    "feature_scale": 0.25492879101001686,
+    "initial_feature_gap_rms": 0.25492879101001686,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.3461637265475432,
+    "initial_feature_gap_rms": 0.3461637265475432,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.3461637265475432,
+    "initial_feature_gap_rms": 0.3461637265475432,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3461637265475432,
+    "initial_feature_gap_rms": 0.3461637265475432,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.3461637265475432,
+    "initial_feature_gap_rms": 0.3461637265475432,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.3461637265475432,
+    "initial_feature_gap_rms": 0.3461637265475432,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.3461637265475432,
+    "initial_feature_gap_rms": 0.3461637265475432,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3461637265475432,
+    "initial_feature_gap_rms": 0.3461637265475432,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.3461637265475432,
+    "initial_feature_gap_rms": 0.3461637265475432,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "rewired_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.42402398413595116,
+    "initial_feature_gap_rms": 0.42402398413595116,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "rewired_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.42402398413595116,
+    "initial_feature_gap_rms": 0.42402398413595116,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "rewired_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.42402398413595116,
+    "initial_feature_gap_rms": 0.42402398413595116,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "rewired_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.42402398413595116,
+    "initial_feature_gap_rms": 0.42402398413595116,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "rewired_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.42402398413595116,
+    "initial_feature_gap_rms": 0.42402398413595116,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "rewired_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.42402398413595116,
+    "initial_feature_gap_rms": 0.42402398413595116,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "rewired_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.42402398413595116,
+    "initial_feature_gap_rms": 0.42402398413595116,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "rewired_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.42402398413595116,
+    "initial_feature_gap_rms": 0.42402398413595116,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "ann_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.3718223105709855,
+    "initial_feature_gap_rms": 0.3718223105709855,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "ann_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.3718223105709855,
+    "initial_feature_gap_rms": 0.3718223105709855,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "ann_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3718223105709855,
+    "initial_feature_gap_rms": 0.3718223105709855,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "ann_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.3718223105709855,
+    "initial_feature_gap_rms": 0.3718223105709855,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "ann_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.3718223105709855,
+    "initial_feature_gap_rms": 0.3718223105709855,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "ann_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.3718223105709855,
+    "initial_feature_gap_rms": 0.3718223105709855,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "ann_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3718223105709855,
+    "initial_feature_gap_rms": 0.3718223105709855,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "ann_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.3718223105709855,
+    "initial_feature_gap_rms": 0.3718223105709855,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7001,
+    "condition": "expected_linear",
+    "history": "fresh_low",
+    "feature_scale": 0.25492879101001686,
+    "initial_feature_gap_rms": 0.25492879101001686,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7001,
+    "condition": "expected_linear",
+    "history": "high_to_low",
+    "feature_scale": 0.25492879101001686,
+    "initial_feature_gap_rms": 0.25492879101001686,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7001,
+    "condition": "expected_linear",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.25492879101001686,
+    "initial_feature_gap_rms": 0.25492879101001686,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7001,
+    "condition": "expected_linear",
+    "history": "low_to_low",
+    "feature_scale": 0.25492879101001686,
+    "initial_feature_gap_rms": 0.25492879101001686,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7002,
+    "condition": "linear_normalized",
+    "history": "fresh_low",
+    "feature_scale": 0.25520887617666366,
+    "initial_feature_gap_rms": 0.25520887617666366,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "linear_normalized",
+    "history": "high_to_low",
+    "feature_scale": 0.25520887617666366,
+    "initial_feature_gap_rms": 0.25520887617666366,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "linear_normalized",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.25520887617666366,
+    "initial_feature_gap_rms": 0.25520887617666366,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "linear_normalized",
+    "history": "low_to_low",
+    "feature_scale": 0.25520887617666366,
+    "initial_feature_gap_rms": 0.25520887617666366,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.3122769726130549,
+    "initial_feature_gap_rms": 0.3122769726130549,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.3122769726130549,
+    "initial_feature_gap_rms": 0.3122769726130549,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3122769726130549,
+    "initial_feature_gap_rms": 0.3122769726130549,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.3122769726130549,
+    "initial_feature_gap_rms": 0.3122769726130549,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.3122769726130549,
+    "initial_feature_gap_rms": 0.3122769726130549,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.3122769726130549,
+    "initial_feature_gap_rms": 0.3122769726130549,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3122769726130549,
+    "initial_feature_gap_rms": 0.3122769726130549,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.3122769726130549,
+    "initial_feature_gap_rms": 0.3122769726130549,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "rewired_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.37781156170645364,
+    "initial_feature_gap_rms": 0.37781156170645364,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "rewired_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.37781156170645364,
+    "initial_feature_gap_rms": 0.37781156170645364,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "rewired_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.37781156170645364,
+    "initial_feature_gap_rms": 0.37781156170645364,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "rewired_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.37781156170645364,
+    "initial_feature_gap_rms": 0.37781156170645364,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "rewired_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.37781156170645364,
+    "initial_feature_gap_rms": 0.37781156170645364,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "rewired_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.37781156170645364,
+    "initial_feature_gap_rms": 0.37781156170645364,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "rewired_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.37781156170645364,
+    "initial_feature_gap_rms": 0.37781156170645364,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "rewired_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.37781156170645364,
+    "initial_feature_gap_rms": 0.37781156170645364,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "ann_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.365719476740622,
+    "initial_feature_gap_rms": 0.365719476740622,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "ann_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.365719476740622,
+    "initial_feature_gap_rms": 0.365719476740622,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "ann_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.365719476740622,
+    "initial_feature_gap_rms": 0.365719476740622,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "ann_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.365719476740622,
+    "initial_feature_gap_rms": 0.365719476740622,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "ann_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.365719476740622,
+    "initial_feature_gap_rms": 0.365719476740622,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "ann_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.365719476740622,
+    "initial_feature_gap_rms": 0.365719476740622,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "ann_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.365719476740622,
+    "initial_feature_gap_rms": 0.365719476740622,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "ann_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.365719476740622,
+    "initial_feature_gap_rms": 0.365719476740622,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7002,
+    "condition": "expected_linear",
+    "history": "fresh_low",
+    "feature_scale": 0.25520887617666366,
+    "initial_feature_gap_rms": 0.25520887617666366,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7002,
+    "condition": "expected_linear",
+    "history": "high_to_low",
+    "feature_scale": 0.25520887617666366,
+    "initial_feature_gap_rms": 0.25520887617666366,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7002,
+    "condition": "expected_linear",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.25520887617666366,
+    "initial_feature_gap_rms": 0.25520887617666366,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7002,
+    "condition": "expected_linear",
+    "history": "low_to_low",
+    "feature_scale": 0.25520887617666366,
+    "initial_feature_gap_rms": 0.25520887617666366,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7003,
+    "condition": "linear_normalized",
+    "history": "fresh_low",
+    "feature_scale": 0.254740560126693,
+    "initial_feature_gap_rms": 0.254740560126693,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "linear_normalized",
+    "history": "high_to_low",
+    "feature_scale": 0.254740560126693,
+    "initial_feature_gap_rms": 0.254740560126693,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "linear_normalized",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.254740560126693,
+    "initial_feature_gap_rms": 0.254740560126693,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "linear_normalized",
+    "history": "low_to_low",
+    "feature_scale": 0.254740560126693,
+    "initial_feature_gap_rms": 0.254740560126693,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.36376422332981717,
+    "initial_feature_gap_rms": 0.36376422332981717,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.36376422332981717,
+    "initial_feature_gap_rms": 0.36376422332981717,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.36376422332981717,
+    "initial_feature_gap_rms": 0.36376422332981717,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.36376422332981717,
+    "initial_feature_gap_rms": 0.36376422332981717,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.36376422332981717,
+    "initial_feature_gap_rms": 0.36376422332981717,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.36376422332981717,
+    "initial_feature_gap_rms": 0.36376422332981717,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.36376422332981717,
+    "initial_feature_gap_rms": 0.36376422332981717,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.36376422332981717,
+    "initial_feature_gap_rms": 0.36376422332981717,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "rewired_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.43012358237902754,
+    "initial_feature_gap_rms": 0.43012358237902754,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "rewired_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.43012358237902754,
+    "initial_feature_gap_rms": 0.43012358237902754,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "rewired_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.43012358237902754,
+    "initial_feature_gap_rms": 0.43012358237902754,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "rewired_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.43012358237902754,
+    "initial_feature_gap_rms": 0.43012358237902754,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "rewired_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.43012358237902754,
+    "initial_feature_gap_rms": 0.43012358237902754,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "rewired_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.43012358237902754,
+    "initial_feature_gap_rms": 0.43012358237902754,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "rewired_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.43012358237902754,
+    "initial_feature_gap_rms": 0.43012358237902754,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "rewired_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.43012358237902754,
+    "initial_feature_gap_rms": 0.43012358237902754,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "ann_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.5098775896407782,
+    "initial_feature_gap_rms": 0.5098775896407782,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "ann_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.5098775896407782,
+    "initial_feature_gap_rms": 0.5098775896407782,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "ann_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.5098775896407782,
+    "initial_feature_gap_rms": 0.5098775896407782,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "ann_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.5098775896407782,
+    "initial_feature_gap_rms": 0.5098775896407782,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "ann_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.5098775896407782,
+    "initial_feature_gap_rms": 0.5098775896407782,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "ann_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.5098775896407782,
+    "initial_feature_gap_rms": 0.5098775896407782,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "ann_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.5098775896407782,
+    "initial_feature_gap_rms": 0.5098775896407782,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "ann_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.5098775896407782,
+    "initial_feature_gap_rms": 0.5098775896407782,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7003,
+    "condition": "expected_linear",
+    "history": "fresh_low",
+    "feature_scale": 0.254740560126693,
+    "initial_feature_gap_rms": 0.254740560126693,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7003,
+    "condition": "expected_linear",
+    "history": "high_to_low",
+    "feature_scale": 0.254740560126693,
+    "initial_feature_gap_rms": 0.254740560126693,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7003,
+    "condition": "expected_linear",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.254740560126693,
+    "initial_feature_gap_rms": 0.254740560126693,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7003,
+    "condition": "expected_linear",
+    "history": "low_to_low",
+    "feature_scale": 0.254740560126693,
+    "initial_feature_gap_rms": 0.254740560126693,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7004,
+    "condition": "linear_normalized",
+    "history": "fresh_low",
+    "feature_scale": 0.2552908659202993,
+    "initial_feature_gap_rms": 0.2552908659202993,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "linear_normalized",
+    "history": "high_to_low",
+    "feature_scale": 0.2552908659202993,
+    "initial_feature_gap_rms": 0.2552908659202993,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "linear_normalized",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.2552908659202993,
+    "initial_feature_gap_rms": 0.2552908659202993,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "linear_normalized",
+    "history": "low_to_low",
+    "feature_scale": 0.2552908659202993,
+    "initial_feature_gap_rms": 0.2552908659202993,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.4276801989211444,
+    "initial_feature_gap_rms": 0.4276801989211444,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.4276801989211444,
+    "initial_feature_gap_rms": 0.4276801989211444,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4276801989211444,
+    "initial_feature_gap_rms": 0.4276801989211444,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.4276801989211444,
+    "initial_feature_gap_rms": 0.4276801989211444,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.4276801989211444,
+    "initial_feature_gap_rms": 0.4276801989211444,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.4276801989211444,
+    "initial_feature_gap_rms": 0.4276801989211444,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4276801989211444,
+    "initial_feature_gap_rms": 0.4276801989211444,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.4276801989211444,
+    "initial_feature_gap_rms": 0.4276801989211444,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "rewired_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.4489692928189523,
+    "initial_feature_gap_rms": 0.4489692928189523,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "rewired_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.4489692928189523,
+    "initial_feature_gap_rms": 0.4489692928189523,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "rewired_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4489692928189523,
+    "initial_feature_gap_rms": 0.4489692928189523,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "rewired_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.4489692928189523,
+    "initial_feature_gap_rms": 0.4489692928189523,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "rewired_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.4489692928189523,
+    "initial_feature_gap_rms": 0.4489692928189523,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "rewired_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.4489692928189523,
+    "initial_feature_gap_rms": 0.4489692928189523,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "rewired_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4489692928189523,
+    "initial_feature_gap_rms": 0.4489692928189523,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "rewired_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.4489692928189523,
+    "initial_feature_gap_rms": 0.4489692928189523,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "ann_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.4187096812996104,
+    "initial_feature_gap_rms": 0.4187096812996104,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "ann_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.4187096812996104,
+    "initial_feature_gap_rms": 0.4187096812996104,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "ann_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4187096812996104,
+    "initial_feature_gap_rms": 0.4187096812996104,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "ann_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.4187096812996104,
+    "initial_feature_gap_rms": 0.4187096812996104,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "ann_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.4187096812996104,
+    "initial_feature_gap_rms": 0.4187096812996104,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "ann_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.4187096812996104,
+    "initial_feature_gap_rms": 0.4187096812996104,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "ann_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4187096812996104,
+    "initial_feature_gap_rms": 0.4187096812996104,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "ann_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.4187096812996104,
+    "initial_feature_gap_rms": 0.4187096812996104,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7004,
+    "condition": "expected_linear",
+    "history": "fresh_low",
+    "feature_scale": 0.2552908659202993,
+    "initial_feature_gap_rms": 0.2552908659202993,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7004,
+    "condition": "expected_linear",
+    "history": "high_to_low",
+    "feature_scale": 0.2552908659202993,
+    "initial_feature_gap_rms": 0.2552908659202993,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7004,
+    "condition": "expected_linear",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.2552908659202993,
+    "initial_feature_gap_rms": 0.2552908659202993,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7004,
+    "condition": "expected_linear",
+    "history": "low_to_low",
+    "feature_scale": 0.2552908659202993,
+    "initial_feature_gap_rms": 0.2552908659202993,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7005,
+    "condition": "linear_normalized",
+    "history": "fresh_low",
+    "feature_scale": 0.2549452242412511,
+    "initial_feature_gap_rms": 0.2549452242412511,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "linear_normalized",
+    "history": "high_to_low",
+    "feature_scale": 0.2549452242412511,
+    "initial_feature_gap_rms": 0.2549452242412511,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "linear_normalized",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.2549452242412511,
+    "initial_feature_gap_rms": 0.2549452242412511,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "linear_normalized",
+    "history": "low_to_low",
+    "feature_scale": 0.2549452242412511,
+    "initial_feature_gap_rms": 0.2549452242412511,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.5819642847086908,
+    "initial_feature_gap_rms": 0.5819642847086908,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.5819642847086908,
+    "initial_feature_gap_rms": 0.5819642847086908,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.5819642847086908,
+    "initial_feature_gap_rms": 0.5819642847086908,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.5819642847086908,
+    "initial_feature_gap_rms": 0.5819642847086908,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.5819642847086908,
+    "initial_feature_gap_rms": 0.5819642847086908,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.5819642847086908,
+    "initial_feature_gap_rms": 0.5819642847086908,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.5819642847086908,
+    "initial_feature_gap_rms": 0.5819642847086908,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.5819642847086908,
+    "initial_feature_gap_rms": 0.5819642847086908,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "rewired_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.48040743753770077,
+    "initial_feature_gap_rms": 0.48040743753770077,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "rewired_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.48040743753770077,
+    "initial_feature_gap_rms": 0.48040743753770077,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "rewired_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.48040743753770077,
+    "initial_feature_gap_rms": 0.48040743753770077,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "rewired_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.48040743753770077,
+    "initial_feature_gap_rms": 0.48040743753770077,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "rewired_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.48040743753770077,
+    "initial_feature_gap_rms": 0.48040743753770077,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "rewired_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.48040743753770077,
+    "initial_feature_gap_rms": 0.48040743753770077,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "rewired_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.48040743753770077,
+    "initial_feature_gap_rms": 0.48040743753770077,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "rewired_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.48040743753770077,
+    "initial_feature_gap_rms": 0.48040743753770077,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "ann_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.4697639781788704,
+    "initial_feature_gap_rms": 0.4697639781788704,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "ann_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.4697639781788704,
+    "initial_feature_gap_rms": 0.4697639781788704,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "ann_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4697639781788704,
+    "initial_feature_gap_rms": 0.4697639781788704,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "ann_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.4697639781788704,
+    "initial_feature_gap_rms": 0.4697639781788704,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "ann_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.4697639781788704,
+    "initial_feature_gap_rms": 0.4697639781788704,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "ann_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.4697639781788704,
+    "initial_feature_gap_rms": 0.4697639781788704,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "ann_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4697639781788704,
+    "initial_feature_gap_rms": 0.4697639781788704,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "ann_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.4697639781788704,
+    "initial_feature_gap_rms": 0.4697639781788704,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7005,
+    "condition": "expected_linear",
+    "history": "fresh_low",
+    "feature_scale": 0.2549452242412511,
+    "initial_feature_gap_rms": 0.2549452242412511,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7005,
+    "condition": "expected_linear",
+    "history": "high_to_low",
+    "feature_scale": 0.2549452242412511,
+    "initial_feature_gap_rms": 0.2549452242412511,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7005,
+    "condition": "expected_linear",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.2549452242412511,
+    "initial_feature_gap_rms": 0.2549452242412511,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7005,
+    "condition": "expected_linear",
+    "history": "low_to_low",
+    "feature_scale": 0.2549452242412511,
+    "initial_feature_gap_rms": 0.2549452242412511,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7006,
+    "condition": "linear_normalized",
+    "history": "fresh_low",
+    "feature_scale": 0.2548273574095833,
+    "initial_feature_gap_rms": 0.2548273574095833,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "linear_normalized",
+    "history": "high_to_low",
+    "feature_scale": 0.2548273574095833,
+    "initial_feature_gap_rms": 0.2548273574095833,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "linear_normalized",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.2548273574095833,
+    "initial_feature_gap_rms": 0.2548273574095833,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "linear_normalized",
+    "history": "low_to_low",
+    "feature_scale": 0.2548273574095833,
+    "initial_feature_gap_rms": 0.2548273574095833,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.5179975961556619,
+    "initial_feature_gap_rms": 0.5179975961556619,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.5179975961556619,
+    "initial_feature_gap_rms": 0.5179975961556619,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.5179975961556619,
+    "initial_feature_gap_rms": 0.5179975961556619,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.5179975961556619,
+    "initial_feature_gap_rms": 0.5179975961556619,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.5179975961556619,
+    "initial_feature_gap_rms": 0.5179975961556619,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.5179975961556619,
+    "initial_feature_gap_rms": 0.5179975961556619,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.5179975961556619,
+    "initial_feature_gap_rms": 0.5179975961556619,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.5179975961556619,
+    "initial_feature_gap_rms": 0.5179975961556619,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "rewired_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.4125893225552276,
+    "initial_feature_gap_rms": 0.4125893225552276,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "rewired_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.4125893225552276,
+    "initial_feature_gap_rms": 0.4125893225552276,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "rewired_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4125893225552276,
+    "initial_feature_gap_rms": 0.4125893225552276,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "rewired_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.4125893225552276,
+    "initial_feature_gap_rms": 0.4125893225552276,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "rewired_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.4125893225552276,
+    "initial_feature_gap_rms": 0.4125893225552276,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "rewired_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.4125893225552276,
+    "initial_feature_gap_rms": 0.4125893225552276,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "rewired_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4125893225552276,
+    "initial_feature_gap_rms": 0.4125893225552276,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "rewired_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.4125893225552276,
+    "initial_feature_gap_rms": 0.4125893225552276,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "ann_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.4727810236612921,
+    "initial_feature_gap_rms": 0.4727810236612921,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "ann_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.4727810236612921,
+    "initial_feature_gap_rms": 0.4727810236612921,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "ann_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4727810236612921,
+    "initial_feature_gap_rms": 0.4727810236612921,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "ann_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.4727810236612921,
+    "initial_feature_gap_rms": 0.4727810236612921,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "ann_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.4727810236612921,
+    "initial_feature_gap_rms": 0.4727810236612921,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "ann_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.4727810236612921,
+    "initial_feature_gap_rms": 0.4727810236612921,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "ann_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4727810236612921,
+    "initial_feature_gap_rms": 0.4727810236612921,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "ann_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.4727810236612921,
+    "initial_feature_gap_rms": 0.4727810236612921,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7006,
+    "condition": "expected_linear",
+    "history": "fresh_low",
+    "feature_scale": 0.2548273574095833,
+    "initial_feature_gap_rms": 0.2548273574095833,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7006,
+    "condition": "expected_linear",
+    "history": "high_to_low",
+    "feature_scale": 0.2548273574095833,
+    "initial_feature_gap_rms": 0.2548273574095833,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7006,
+    "condition": "expected_linear",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.2548273574095833,
+    "initial_feature_gap_rms": 0.2548273574095833,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7006,
+    "condition": "expected_linear",
+    "history": "low_to_low",
+    "feature_scale": 0.2548273574095833,
+    "initial_feature_gap_rms": 0.2548273574095833,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7007,
+    "condition": "linear_normalized",
+    "history": "fresh_low",
+    "feature_scale": 0.25485934379003095,
+    "initial_feature_gap_rms": 0.25485934379003095,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "linear_normalized",
+    "history": "high_to_low",
+    "feature_scale": 0.25485934379003095,
+    "initial_feature_gap_rms": 0.25485934379003095,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "linear_normalized",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.25485934379003095,
+    "initial_feature_gap_rms": 0.25485934379003095,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "linear_normalized",
+    "history": "low_to_low",
+    "feature_scale": 0.25485934379003095,
+    "initial_feature_gap_rms": 0.25485934379003095,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.39299882122565843,
+    "initial_feature_gap_rms": 0.39299882122565843,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.39299882122565843,
+    "initial_feature_gap_rms": 0.39299882122565843,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.39299882122565843,
+    "initial_feature_gap_rms": 0.39299882122565843,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.39299882122565843,
+    "initial_feature_gap_rms": 0.39299882122565843,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.39299882122565843,
+    "initial_feature_gap_rms": 0.39299882122565843,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.39299882122565843,
+    "initial_feature_gap_rms": 0.39299882122565843,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.39299882122565843,
+    "initial_feature_gap_rms": 0.39299882122565843,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.39299882122565843,
+    "initial_feature_gap_rms": 0.39299882122565843,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "rewired_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.3716502409257546,
+    "initial_feature_gap_rms": 0.3716502409257546,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "rewired_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.3716502409257546,
+    "initial_feature_gap_rms": 0.3716502409257546,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "rewired_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3716502409257546,
+    "initial_feature_gap_rms": 0.3716502409257546,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "rewired_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.3716502409257546,
+    "initial_feature_gap_rms": 0.3716502409257546,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "rewired_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.3716502409257546,
+    "initial_feature_gap_rms": 0.3716502409257546,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "rewired_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.3716502409257546,
+    "initial_feature_gap_rms": 0.3716502409257546,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "rewired_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3716502409257546,
+    "initial_feature_gap_rms": 0.3716502409257546,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "rewired_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.3716502409257546,
+    "initial_feature_gap_rms": 0.3716502409257546,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "ann_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.4542181956679172,
+    "initial_feature_gap_rms": 0.4542181956679172,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "ann_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.4542181956679172,
+    "initial_feature_gap_rms": 0.4542181956679172,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "ann_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4542181956679172,
+    "initial_feature_gap_rms": 0.4542181956679172,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "ann_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.4542181956679172,
+    "initial_feature_gap_rms": 0.4542181956679172,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "ann_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.4542181956679172,
+    "initial_feature_gap_rms": 0.4542181956679172,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "ann_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.4542181956679172,
+    "initial_feature_gap_rms": 0.4542181956679172,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "ann_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4542181956679172,
+    "initial_feature_gap_rms": 0.4542181956679172,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "ann_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.4542181956679172,
+    "initial_feature_gap_rms": 0.4542181956679172,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7007,
+    "condition": "expected_linear",
+    "history": "fresh_low",
+    "feature_scale": 0.25485934379003095,
+    "initial_feature_gap_rms": 0.25485934379003095,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7007,
+    "condition": "expected_linear",
+    "history": "high_to_low",
+    "feature_scale": 0.25485934379003095,
+    "initial_feature_gap_rms": 0.25485934379003095,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7007,
+    "condition": "expected_linear",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.25485934379003095,
+    "initial_feature_gap_rms": 0.25485934379003095,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7007,
+    "condition": "expected_linear",
+    "history": "low_to_low",
+    "feature_scale": 0.25485934379003095,
+    "initial_feature_gap_rms": 0.25485934379003095,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7008,
+    "condition": "linear_normalized",
+    "history": "fresh_low",
+    "feature_scale": 0.2547528153703536,
+    "initial_feature_gap_rms": 0.2547528153703536,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "linear_normalized",
+    "history": "high_to_low",
+    "feature_scale": 0.2547528153703536,
+    "initial_feature_gap_rms": 0.2547528153703536,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "linear_normalized",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.2547528153703536,
+    "initial_feature_gap_rms": 0.2547528153703536,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "linear_normalized",
+    "history": "low_to_low",
+    "feature_scale": 0.2547528153703536,
+    "initial_feature_gap_rms": 0.2547528153703536,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.401350437474631,
+    "initial_feature_gap_rms": 0.401350437474631,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.401350437474631,
+    "initial_feature_gap_rms": 0.401350437474631,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.401350437474631,
+    "initial_feature_gap_rms": 0.401350437474631,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.401350437474631,
+    "initial_feature_gap_rms": 0.401350437474631,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.401350437474631,
+    "initial_feature_gap_rms": 0.401350437474631,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.401350437474631,
+    "initial_feature_gap_rms": 0.401350437474631,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.401350437474631,
+    "initial_feature_gap_rms": 0.401350437474631,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.401350437474631,
+    "initial_feature_gap_rms": 0.401350437474631,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "rewired_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.40957722823056236,
+    "initial_feature_gap_rms": 0.40957722823056236,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "rewired_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.40957722823056236,
+    "initial_feature_gap_rms": 0.40957722823056236,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "rewired_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.40957722823056236,
+    "initial_feature_gap_rms": 0.40957722823056236,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "rewired_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.40957722823056236,
+    "initial_feature_gap_rms": 0.40957722823056236,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "rewired_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.40957722823056236,
+    "initial_feature_gap_rms": 0.40957722823056236,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "rewired_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.40957722823056236,
+    "initial_feature_gap_rms": 0.40957722823056236,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "rewired_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.40957722823056236,
+    "initial_feature_gap_rms": 0.40957722823056236,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "rewired_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.40957722823056236,
+    "initial_feature_gap_rms": 0.40957722823056236,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "ann_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.4192292968161211,
+    "initial_feature_gap_rms": 0.4192292968161211,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "ann_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.4192292968161211,
+    "initial_feature_gap_rms": 0.4192292968161211,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "ann_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4192292968161211,
+    "initial_feature_gap_rms": 0.4192292968161211,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "ann_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.4192292968161211,
+    "initial_feature_gap_rms": 0.4192292968161211,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "ann_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.4192292968161211,
+    "initial_feature_gap_rms": 0.4192292968161211,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "ann_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.4192292968161211,
+    "initial_feature_gap_rms": 0.4192292968161211,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "ann_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.4192292968161211,
+    "initial_feature_gap_rms": 0.4192292968161211,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "ann_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.4192292968161211,
+    "initial_feature_gap_rms": 0.4192292968161211,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7008,
+    "condition": "expected_linear",
+    "history": "fresh_low",
+    "feature_scale": 0.2547528153703536,
+    "initial_feature_gap_rms": 0.2547528153703536,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7008,
+    "condition": "expected_linear",
+    "history": "high_to_low",
+    "feature_scale": 0.2547528153703536,
+    "initial_feature_gap_rms": 0.2547528153703536,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7008,
+    "condition": "expected_linear",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.2547528153703536,
+    "initial_feature_gap_rms": 0.2547528153703536,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7008,
+    "condition": "expected_linear",
+    "history": "low_to_low",
+    "feature_scale": 0.2547528153703536,
+    "initial_feature_gap_rms": 0.2547528153703536,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7009,
+    "condition": "linear_normalized",
+    "history": "fresh_low",
+    "feature_scale": 0.2546284398225825,
+    "initial_feature_gap_rms": 0.2546284398225825,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "linear_normalized",
+    "history": "high_to_low",
+    "feature_scale": 0.2546284398225825,
+    "initial_feature_gap_rms": 0.2546284398225825,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "linear_normalized",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.2546284398225825,
+    "initial_feature_gap_rms": 0.2546284398225825,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "linear_normalized",
+    "history": "low_to_low",
+    "feature_scale": 0.2546284398225825,
+    "initial_feature_gap_rms": 0.2546284398225825,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.3927726137597247,
+    "initial_feature_gap_rms": 0.3927726137597247,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.3927726137597247,
+    "initial_feature_gap_rms": 0.3927726137597247,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3927726137597247,
+    "initial_feature_gap_rms": 0.3927726137597247,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.3927726137597247,
+    "initial_feature_gap_rms": 0.3927726137597247,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.3927726137597247,
+    "initial_feature_gap_rms": 0.3927726137597247,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.3927726137597247,
+    "initial_feature_gap_rms": 0.3927726137597247,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3927726137597247,
+    "initial_feature_gap_rms": 0.3927726137597247,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.3927726137597247,
+    "initial_feature_gap_rms": 0.3927726137597247,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "rewired_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.3878665278208808,
+    "initial_feature_gap_rms": 0.3878665278208808,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "rewired_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.3878665278208808,
+    "initial_feature_gap_rms": 0.3878665278208808,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "rewired_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3878665278208808,
+    "initial_feature_gap_rms": 0.3878665278208808,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "rewired_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.3878665278208808,
+    "initial_feature_gap_rms": 0.3878665278208808,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "rewired_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.3878665278208808,
+    "initial_feature_gap_rms": 0.3878665278208808,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "rewired_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.3878665278208808,
+    "initial_feature_gap_rms": 0.3878665278208808,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "rewired_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3878665278208808,
+    "initial_feature_gap_rms": 0.3878665278208808,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "rewired_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.3878665278208808,
+    "initial_feature_gap_rms": 0.3878665278208808,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "ann_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.3588413886950564,
+    "initial_feature_gap_rms": 0.3588413886950564,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "ann_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.3588413886950564,
+    "initial_feature_gap_rms": 0.3588413886950564,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "ann_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3588413886950564,
+    "initial_feature_gap_rms": 0.3588413886950564,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "ann_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.3588413886950564,
+    "initial_feature_gap_rms": 0.3588413886950564,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "ann_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.3588413886950564,
+    "initial_feature_gap_rms": 0.3588413886950564,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "ann_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.3588413886950564,
+    "initial_feature_gap_rms": 0.3588413886950564,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "ann_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3588413886950564,
+    "initial_feature_gap_rms": 0.3588413886950564,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "ann_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.3588413886950564,
+    "initial_feature_gap_rms": 0.3588413886950564,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7009,
+    "condition": "expected_linear",
+    "history": "fresh_low",
+    "feature_scale": 0.2546284398225825,
+    "initial_feature_gap_rms": 0.2546284398225825,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7009,
+    "condition": "expected_linear",
+    "history": "high_to_low",
+    "feature_scale": 0.2546284398225825,
+    "initial_feature_gap_rms": 0.2546284398225825,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7009,
+    "condition": "expected_linear",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.2546284398225825,
+    "initial_feature_gap_rms": 0.2546284398225825,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7009,
+    "condition": "expected_linear",
+    "history": "low_to_low",
+    "feature_scale": 0.2546284398225825,
+    "initial_feature_gap_rms": 0.2546284398225825,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7010,
+    "condition": "linear_normalized",
+    "history": "fresh_low",
+    "feature_scale": 0.25452899577857185,
+    "initial_feature_gap_rms": 0.25452899577857185,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "linear_normalized",
+    "history": "high_to_low",
+    "feature_scale": 0.25452899577857185,
+    "initial_feature_gap_rms": 0.25452899577857185,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "linear_normalized",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.25452899577857185,
+    "initial_feature_gap_rms": 0.25452899577857185,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "linear_normalized",
+    "history": "low_to_low",
+    "feature_scale": 0.25452899577857185,
+    "initial_feature_gap_rms": 0.25452899577857185,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.3379559939544469,
+    "initial_feature_gap_rms": 0.3379559939544469,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.3379559939544469,
+    "initial_feature_gap_rms": 0.3379559939544469,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3379559939544469,
+    "initial_feature_gap_rms": 0.3379559939544469,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.3379559939544469,
+    "initial_feature_gap_rms": 0.3379559939544469,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.3379559939544469,
+    "initial_feature_gap_rms": 0.3379559939544469,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.3379559939544469,
+    "initial_feature_gap_rms": 0.3379559939544469,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.3379559939544469,
+    "initial_feature_gap_rms": 0.3379559939544469,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.3379559939544469,
+    "initial_feature_gap_rms": 0.3379559939544469,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "rewired_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.43588833250713044,
+    "initial_feature_gap_rms": 0.43588833250713044,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "rewired_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.43588833250713044,
+    "initial_feature_gap_rms": 0.43588833250713044,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "rewired_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.43588833250713044,
+    "initial_feature_gap_rms": 0.43588833250713044,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "rewired_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.43588833250713044,
+    "initial_feature_gap_rms": 0.43588833250713044,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "rewired_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.43588833250713044,
+    "initial_feature_gap_rms": 0.43588833250713044,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "rewired_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.43588833250713044,
+    "initial_feature_gap_rms": 0.43588833250713044,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "rewired_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.43588833250713044,
+    "initial_feature_gap_rms": 0.43588833250713044,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "rewired_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.43588833250713044,
+    "initial_feature_gap_rms": 0.43588833250713044,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "ann_fixed",
+    "history": "fresh_low",
+    "feature_scale": 0.44508949258877895,
+    "initial_feature_gap_rms": 0.44508949258877895,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "ann_fixed",
+    "history": "high_to_low",
+    "feature_scale": 0.44508949258877895,
+    "initial_feature_gap_rms": 0.44508949258877895,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "ann_fixed",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.44508949258877895,
+    "initial_feature_gap_rms": 0.44508949258877895,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "ann_fixed",
+    "history": "low_to_low",
+    "feature_scale": 0.44508949258877895,
+    "initial_feature_gap_rms": 0.44508949258877895,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "ann_plastic",
+    "history": "fresh_low",
+    "feature_scale": 0.44508949258877895,
+    "initial_feature_gap_rms": 0.44508949258877895,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "ann_plastic",
+    "history": "high_to_low",
+    "feature_scale": 0.44508949258877895,
+    "initial_feature_gap_rms": 0.44508949258877895,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "ann_plastic",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.44508949258877895,
+    "initial_feature_gap_rms": 0.44508949258877895,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "ann_plastic",
+    "history": "low_to_low",
+    "feature_scale": 0.44508949258877895,
+    "initial_feature_gap_rms": 0.44508949258877895,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "algorithm": "stochastic_reward"
+  },
+  {
+    "seed": 7010,
+    "condition": "expected_linear",
+    "history": "fresh_low",
+    "feature_scale": 0.25452899577857185,
+    "initial_feature_gap_rms": 0.25452899577857185,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7010,
+    "condition": "expected_linear",
+    "history": "high_to_low",
+    "feature_scale": 0.25452899577857185,
+    "initial_feature_gap_rms": 0.25452899577857185,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7010,
+    "condition": "expected_linear",
+    "history": "high_to_low_reset_head",
+    "feature_scale": 0.25452899577857185,
+    "initial_feature_gap_rms": 0.25452899577857185,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  },
+  {
+    "seed": 7010,
+    "condition": "expected_linear",
+    "history": "low_to_low",
+    "feature_scale": 0.25452899577857185,
+    "initial_feature_gap_rms": 0.25452899577857185,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "algorithm": "conditional_expected_action_reference"
+  }
+]

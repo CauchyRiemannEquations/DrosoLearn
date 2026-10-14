@@ -1,0 +1,10 @@
+{
+  "corrected_at_utc": "2026-10-14T04:47:10.893596+00:00",
+  "file": "report.md",
+  "scope": "derived Markdown table delimiter only; five-column header now has five delimiter cells",
+  "original_sha256": "9c459bd7e5644d72dc8a21af2504d7708ec5ba3fd156cba3f6a33b49da6d597d",
+  "corrected_sha256": "609a04eafdae766d72de52650c211ade264374f16ee9da11757423b24bf7b3f8",
+  "primary_manifest_not_modified": true,
+  "source_and_protocol_not_modified": true,
+  "regeneration_note": "Frozen analyze code recreates the original four-cell delimiter. Apply the same single cosmetic delimiter replacement after regenerating report.md; numerical results and plots are unchanged."
+}

@@ -1,0 +1,14 @@
+{
+  "seed": 7005,
+  "condition": "plastic",
+  "history": "high_to_low_reset_head",
+  "reset_head": true,
+  "head_change_l2": 3.019945142807984,
+  "internal_change_l2": 0.0,
+  "feature_scale_before": 0.5819642847086908,
+  "feature_scale_after": 0.5819642847086908,
+  "head_updates_before": 400,
+  "head_updates_after": 400,
+  "internal_updates_before": 400,
+  "internal_updates_after": 400
+}
