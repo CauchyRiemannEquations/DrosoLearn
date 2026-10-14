@@ -1,0 +1,16 @@
+{
+  "date_local": "2026-10-14",
+  "timezone": "Asia/Seoul",
+  "scope": "engineering tests before the scientific input-order diagnostic",
+  "command": "python -m pytest -q",
+  "pytest_version": "8.3.5",
+  "passed": 229,
+  "failed": 0,
+  "warnings": 14,
+  "warning_kind": "Matplotlib uses deprecated Pyparsing API; tests passed",
+  "duration_seconds": 97.77,
+  "thread_limits": {"OMP_NUM_THREADS": "1", "OPENBLAS_NUM_THREADS": "1", "MKL_NUM_THREADS": "1"},
+  "encoding_tests_added": 88,
+  "coverage_added": ["all720 anchored maps", "identical training and trained-pair evaluation inputs", "nonlinear-score symmetry", "candidate cache versus full forward calls", "separate quantity-removed learning", "independent all-trial replay", "all map metrics and gates", "crossed nuisance and disjoint splits", "code geometry and privileged oracle", "semantic tampering after artifact rehash"],
+  "fixtures": "encoding fixtures use seeds41/42 and8 trials, separate from planned3001–3010 scientific seeds"
+}

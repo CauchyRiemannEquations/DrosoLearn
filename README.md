@@ -81,6 +81,21 @@ Linux/macOS는 `python3.12 -m venv .venv`와 `.venv/bin/python`으로 실행한�
 
 인간 공개 자료의 실제 확보·원본 성적표 구조 검증은 [human-data-readiness.md](docs/human-data-readiness.md)에 있다. 아이56명의 연습 전후 점수 자료를 확보했으나, 연습 한 번씩의 기록이나 보상 반전 기록은 없어 현재 반전 곡선과 직접 비교할 수 없다.
 
+## 후속: 입력이 미리 알려 준 수량 순서
+
+이번에는 연습에 쓰는2와4의 입력을 그대로 두고, **처음 보는 수량의 입력 코드만 바꿔** 같은 모델을 평가한다. 숫자가 큰 코드에 더 많은 물체 수를 대응시키는 기존 입력과, 고유한 임의 이름표를 쓰는 입력을 비교한다. [사전 계획](docs/encoding-protocol.md), [설계의 수학적 성질](docs/encoding-background.md), [실행 보고서](results/encoding_v1/report.md)를 보존한다.
+
+720개 이름표 배치를 모두 평가하지만 새로720번 학습하지 않는다. 실제로는 수량 정보가 있는 모델과 수량 정보를 뺀 모델 두 개씩만 학습한다. 두 수량 모두 연습하지 않은15쌍의 임의 이름표 평균50%는 **실행 전에 증명된 대칭**이며 새로운 생물학적 실패가 아니다. 일부 수량을 연습에서 본12쌍은 별도로 보고한다. 순서 코드를 받은 모델이 높은 성적을 내더라도, 수량의 순서를 스스로 발견했다는 주장으로 바꾸지 않는다.
+
+재현 버전은 `study-encoding-v1` 태그의 별도 checkout을 사용한다. Python3.12 `.venv` 설치 후 새 경로로 실행한다:
+
+```powershell
+.\.venv\Scripts\python.exe -m drosolearn.encoding run --config configs/encoding_diagnostic.json --registration results/registration_encoding_v1.json --out results/MY_ENCODING_REPLAY
+.\.venv\Scripts\python.exe -m drosolearn.encoding verify --out results/MY_ENCODING_REPLAY
+```
+
+소스·설정·프로토콜을 변경할 때에는 `python -m drosolearn.encoding register --config configs/encoding_diagnostic.json --out results/registration_NEW.json`으로 새 실행 전 기록을 만든다. 이전 등록·결과를 최신 코드에 맞춰 수정하지 않는다.
+
 ## 연구 문서
 
 | 문서 | 내용 |
