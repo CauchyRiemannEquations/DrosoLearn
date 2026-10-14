@@ -1,0 +1,812 @@
+[
+  {
+    "seed": 6001,
+    "condition": "linear_raw",
+    "feature_scale": 1.0,
+    "initial_feature_gap_rms": 0.25459728618036187,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6001,
+    "condition": "linear_normalized",
+    "feature_scale": 0.25459728618036187,
+    "initial_feature_gap_rms": 0.25459728618036187,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6001,
+    "condition": "linear_random_reward",
+    "feature_scale": 0.25459728618036187,
+    "initial_feature_gap_rms": 0.25459728618036187,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "action-independent Bernoulli(.5)"
+  },
+  {
+    "seed": 6001,
+    "condition": "fixed",
+    "feature_scale": 0.38690878079067115,
+    "initial_feature_gap_rms": 0.38690878079067115,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6001,
+    "condition": "plastic",
+    "feature_scale": 0.38690878079067115,
+    "initial_feature_gap_rms": 0.38690878079067115,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6001,
+    "condition": "rewired_fixed",
+    "feature_scale": 0.4539409943934423,
+    "initial_feature_gap_rms": 0.4539409943934423,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6001,
+    "condition": "rewired_plastic",
+    "feature_scale": 0.4539409943934423,
+    "initial_feature_gap_rms": 0.4539409943934423,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6001,
+    "condition": "ann_fixed",
+    "feature_scale": 0.4655247021948252,
+    "initial_feature_gap_rms": 0.4655247021948252,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6001,
+    "condition": "ann_plastic",
+    "feature_scale": 0.4655247021948252,
+    "initial_feature_gap_rms": 0.4655247021948252,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6002,
+    "condition": "linear_raw",
+    "feature_scale": 1.0,
+    "initial_feature_gap_rms": 0.2546103511872605,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6002,
+    "condition": "linear_normalized",
+    "feature_scale": 0.2546103511872605,
+    "initial_feature_gap_rms": 0.2546103511872605,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6002,
+    "condition": "linear_random_reward",
+    "feature_scale": 0.2546103511872605,
+    "initial_feature_gap_rms": 0.2546103511872605,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "action-independent Bernoulli(.5)"
+  },
+  {
+    "seed": 6002,
+    "condition": "fixed",
+    "feature_scale": 0.44881122829517617,
+    "initial_feature_gap_rms": 0.44881122829517617,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6002,
+    "condition": "plastic",
+    "feature_scale": 0.44881122829517617,
+    "initial_feature_gap_rms": 0.44881122829517617,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6002,
+    "condition": "rewired_fixed",
+    "feature_scale": 0.45388959950311364,
+    "initial_feature_gap_rms": 0.45388959950311364,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6002,
+    "condition": "rewired_plastic",
+    "feature_scale": 0.45388959950311364,
+    "initial_feature_gap_rms": 0.45388959950311364,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6002,
+    "condition": "ann_fixed",
+    "feature_scale": 0.46412420349815886,
+    "initial_feature_gap_rms": 0.46412420349815886,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6002,
+    "condition": "ann_plastic",
+    "feature_scale": 0.46412420349815886,
+    "initial_feature_gap_rms": 0.46412420349815886,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6003,
+    "condition": "linear_raw",
+    "feature_scale": 1.0,
+    "initial_feature_gap_rms": 0.254786326878261,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6003,
+    "condition": "linear_normalized",
+    "feature_scale": 0.254786326878261,
+    "initial_feature_gap_rms": 0.254786326878261,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6003,
+    "condition": "linear_random_reward",
+    "feature_scale": 0.254786326878261,
+    "initial_feature_gap_rms": 0.254786326878261,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "action-independent Bernoulli(.5)"
+  },
+  {
+    "seed": 6003,
+    "condition": "fixed",
+    "feature_scale": 0.47464488797759874,
+    "initial_feature_gap_rms": 0.47464488797759874,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6003,
+    "condition": "plastic",
+    "feature_scale": 0.47464488797759874,
+    "initial_feature_gap_rms": 0.47464488797759874,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6003,
+    "condition": "rewired_fixed",
+    "feature_scale": 0.4698438846952792,
+    "initial_feature_gap_rms": 0.4698438846952792,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6003,
+    "condition": "rewired_plastic",
+    "feature_scale": 0.4698438846952792,
+    "initial_feature_gap_rms": 0.4698438846952792,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6003,
+    "condition": "ann_fixed",
+    "feature_scale": 0.4415251278134317,
+    "initial_feature_gap_rms": 0.4415251278134317,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6003,
+    "condition": "ann_plastic",
+    "feature_scale": 0.4415251278134317,
+    "initial_feature_gap_rms": 0.4415251278134317,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6004,
+    "condition": "linear_raw",
+    "feature_scale": 1.0,
+    "initial_feature_gap_rms": 0.2550771857974493,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6004,
+    "condition": "linear_normalized",
+    "feature_scale": 0.2550771857974493,
+    "initial_feature_gap_rms": 0.2550771857974493,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6004,
+    "condition": "linear_random_reward",
+    "feature_scale": 0.2550771857974493,
+    "initial_feature_gap_rms": 0.2550771857974493,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "action-independent Bernoulli(.5)"
+  },
+  {
+    "seed": 6004,
+    "condition": "fixed",
+    "feature_scale": 0.5014837271847562,
+    "initial_feature_gap_rms": 0.5014837271847562,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6004,
+    "condition": "plastic",
+    "feature_scale": 0.5014837271847562,
+    "initial_feature_gap_rms": 0.5014837271847562,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6004,
+    "condition": "rewired_fixed",
+    "feature_scale": 0.41752813750375045,
+    "initial_feature_gap_rms": 0.41752813750375045,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6004,
+    "condition": "rewired_plastic",
+    "feature_scale": 0.41752813750375045,
+    "initial_feature_gap_rms": 0.41752813750375045,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6004,
+    "condition": "ann_fixed",
+    "feature_scale": 0.33573516486746713,
+    "initial_feature_gap_rms": 0.33573516486746713,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6004,
+    "condition": "ann_plastic",
+    "feature_scale": 0.33573516486746713,
+    "initial_feature_gap_rms": 0.33573516486746713,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6005,
+    "condition": "linear_raw",
+    "feature_scale": 1.0,
+    "initial_feature_gap_rms": 0.2545525433723732,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6005,
+    "condition": "linear_normalized",
+    "feature_scale": 0.2545525433723732,
+    "initial_feature_gap_rms": 0.2545525433723732,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6005,
+    "condition": "linear_random_reward",
+    "feature_scale": 0.2545525433723732,
+    "initial_feature_gap_rms": 0.2545525433723732,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "action-independent Bernoulli(.5)"
+  },
+  {
+    "seed": 6005,
+    "condition": "fixed",
+    "feature_scale": 0.36274363630741197,
+    "initial_feature_gap_rms": 0.36274363630741197,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6005,
+    "condition": "plastic",
+    "feature_scale": 0.36274363630741197,
+    "initial_feature_gap_rms": 0.36274363630741197,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6005,
+    "condition": "rewired_fixed",
+    "feature_scale": 0.46570065181923925,
+    "initial_feature_gap_rms": 0.46570065181923925,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6005,
+    "condition": "rewired_plastic",
+    "feature_scale": 0.46570065181923925,
+    "initial_feature_gap_rms": 0.46570065181923925,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6005,
+    "condition": "ann_fixed",
+    "feature_scale": 0.4106315229472576,
+    "initial_feature_gap_rms": 0.4106315229472576,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6005,
+    "condition": "ann_plastic",
+    "feature_scale": 0.4106315229472576,
+    "initial_feature_gap_rms": 0.4106315229472576,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6006,
+    "condition": "linear_raw",
+    "feature_scale": 1.0,
+    "initial_feature_gap_rms": 0.2551054487054918,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6006,
+    "condition": "linear_normalized",
+    "feature_scale": 0.2551054487054918,
+    "initial_feature_gap_rms": 0.2551054487054918,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6006,
+    "condition": "linear_random_reward",
+    "feature_scale": 0.2551054487054918,
+    "initial_feature_gap_rms": 0.2551054487054918,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "action-independent Bernoulli(.5)"
+  },
+  {
+    "seed": 6006,
+    "condition": "fixed",
+    "feature_scale": 0.5156579252668722,
+    "initial_feature_gap_rms": 0.5156579252668722,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6006,
+    "condition": "plastic",
+    "feature_scale": 0.5156579252668722,
+    "initial_feature_gap_rms": 0.5156579252668722,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6006,
+    "condition": "rewired_fixed",
+    "feature_scale": 0.4863739485070491,
+    "initial_feature_gap_rms": 0.4863739485070491,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6006,
+    "condition": "rewired_plastic",
+    "feature_scale": 0.4863739485070491,
+    "initial_feature_gap_rms": 0.4863739485070491,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6006,
+    "condition": "ann_fixed",
+    "feature_scale": 0.443607765772878,
+    "initial_feature_gap_rms": 0.443607765772878,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6006,
+    "condition": "ann_plastic",
+    "feature_scale": 0.443607765772878,
+    "initial_feature_gap_rms": 0.443607765772878,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6007,
+    "condition": "linear_raw",
+    "feature_scale": 1.0,
+    "initial_feature_gap_rms": 0.2547904365961955,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6007,
+    "condition": "linear_normalized",
+    "feature_scale": 0.2547904365961955,
+    "initial_feature_gap_rms": 0.2547904365961955,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6007,
+    "condition": "linear_random_reward",
+    "feature_scale": 0.2547904365961955,
+    "initial_feature_gap_rms": 0.2547904365961955,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "action-independent Bernoulli(.5)"
+  },
+  {
+    "seed": 6007,
+    "condition": "fixed",
+    "feature_scale": 0.4517277694679994,
+    "initial_feature_gap_rms": 0.4517277694679994,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6007,
+    "condition": "plastic",
+    "feature_scale": 0.4517277694679994,
+    "initial_feature_gap_rms": 0.4517277694679994,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6007,
+    "condition": "rewired_fixed",
+    "feature_scale": 0.4927278241233335,
+    "initial_feature_gap_rms": 0.4927278241233335,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6007,
+    "condition": "rewired_plastic",
+    "feature_scale": 0.4927278241233335,
+    "initial_feature_gap_rms": 0.4927278241233335,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6007,
+    "condition": "ann_fixed",
+    "feature_scale": 0.523888699845247,
+    "initial_feature_gap_rms": 0.523888699845247,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6007,
+    "condition": "ann_plastic",
+    "feature_scale": 0.523888699845247,
+    "initial_feature_gap_rms": 0.523888699845247,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6008,
+    "condition": "linear_raw",
+    "feature_scale": 1.0,
+    "initial_feature_gap_rms": 0.255425001157117,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6008,
+    "condition": "linear_normalized",
+    "feature_scale": 0.255425001157117,
+    "initial_feature_gap_rms": 0.255425001157117,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6008,
+    "condition": "linear_random_reward",
+    "feature_scale": 0.255425001157117,
+    "initial_feature_gap_rms": 0.255425001157117,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "action-independent Bernoulli(.5)"
+  },
+  {
+    "seed": 6008,
+    "condition": "fixed",
+    "feature_scale": 0.4471159186056162,
+    "initial_feature_gap_rms": 0.4471159186056162,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6008,
+    "condition": "plastic",
+    "feature_scale": 0.4471159186056162,
+    "initial_feature_gap_rms": 0.4471159186056162,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6008,
+    "condition": "rewired_fixed",
+    "feature_scale": 0.38845216419912315,
+    "initial_feature_gap_rms": 0.38845216419912315,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6008,
+    "condition": "rewired_plastic",
+    "feature_scale": 0.38845216419912315,
+    "initial_feature_gap_rms": 0.38845216419912315,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6008,
+    "condition": "ann_fixed",
+    "feature_scale": 0.5098466075671194,
+    "initial_feature_gap_rms": 0.5098466075671194,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6008,
+    "condition": "ann_plastic",
+    "feature_scale": 0.5098466075671194,
+    "initial_feature_gap_rms": 0.5098466075671194,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6009,
+    "condition": "linear_raw",
+    "feature_scale": 1.0,
+    "initial_feature_gap_rms": 0.25470226319633793,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6009,
+    "condition": "linear_normalized",
+    "feature_scale": 0.25470226319633793,
+    "initial_feature_gap_rms": 0.25470226319633793,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6009,
+    "condition": "linear_random_reward",
+    "feature_scale": 0.25470226319633793,
+    "initial_feature_gap_rms": 0.25470226319633793,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "action-independent Bernoulli(.5)"
+  },
+  {
+    "seed": 6009,
+    "condition": "fixed",
+    "feature_scale": 0.4335160256120682,
+    "initial_feature_gap_rms": 0.4335160256120682,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6009,
+    "condition": "plastic",
+    "feature_scale": 0.4335160256120682,
+    "initial_feature_gap_rms": 0.4335160256120682,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6009,
+    "condition": "rewired_fixed",
+    "feature_scale": 0.4282322337609671,
+    "initial_feature_gap_rms": 0.4282322337609671,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6009,
+    "condition": "rewired_plastic",
+    "feature_scale": 0.4282322337609671,
+    "initial_feature_gap_rms": 0.4282322337609671,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6009,
+    "condition": "ann_fixed",
+    "feature_scale": 0.41031124855826595,
+    "initial_feature_gap_rms": 0.41031124855826595,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6009,
+    "condition": "ann_plastic",
+    "feature_scale": 0.41031124855826595,
+    "initial_feature_gap_rms": 0.41031124855826595,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6010,
+    "condition": "linear_raw",
+    "feature_scale": 1.0,
+    "initial_feature_gap_rms": 0.2553070805672595,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6010,
+    "condition": "linear_normalized",
+    "feature_scale": 0.2553070805672595,
+    "initial_feature_gap_rms": 0.2553070805672595,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6010,
+    "condition": "linear_random_reward",
+    "feature_scale": 0.2553070805672595,
+    "initial_feature_gap_rms": 0.2553070805672595,
+    "readout_parameters": 7,
+    "internal_parameters": 0,
+    "reward_rule": "action-independent Bernoulli(.5)"
+  },
+  {
+    "seed": 6010,
+    "condition": "fixed",
+    "feature_scale": 0.40298919672505273,
+    "initial_feature_gap_rms": 0.40298919672505273,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6010,
+    "condition": "plastic",
+    "feature_scale": 0.40298919672505273,
+    "initial_feature_gap_rms": 0.40298919672505273,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6010,
+    "condition": "rewired_fixed",
+    "feature_scale": 0.524470416882702,
+    "initial_feature_gap_rms": 0.524470416882702,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6010,
+    "condition": "rewired_plastic",
+    "feature_scale": 0.524470416882702,
+    "initial_feature_gap_rms": 0.524470416882702,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6010,
+    "condition": "ann_fixed",
+    "feature_scale": 0.38123231682679554,
+    "initial_feature_gap_rms": 0.38123231682679554,
+    "readout_parameters": 48,
+    "internal_parameters": 0,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  },
+  {
+    "seed": 6010,
+    "condition": "ann_plastic",
+    "feature_scale": 0.38123231682679554,
+    "initial_feature_gap_rms": 0.38123231682679554,
+    "readout_parameters": 48,
+    "internal_parameters": 1474,
+    "reward_rule": "chosen larger quantity=1;other=0"
+  }
+]

@@ -1,0 +1,6059 @@
+{
+  "status": "completed",
+  "scope": "preregistered_diagnostic",
+  "outcomes": [
+    {
+      "seed": 6001,
+      "condition": "linear_raw",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.6476578328280669,
+      "gain": 0.14765783282806688,
+      "acquired": false,
+      "ood_accuracy": 0.6476578314645819,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.5379742168898938,
+        0.575512863157128,
+        0.6476578327736168,
+        0.7136421977661783
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.698882631282284,
+        0.7036255882449769,
+        0.7123006160161981,
+        0.7197283163611989
+      ],
+      "anchored_after": [
+        0.6941695984388017,
+        0.6939342418586608,
+        0.693002102757391,
+        0.6914810050039301
+      ],
+      "all_after": [
+        0.6967879500185142,
+        0.6993183231843919,
+        0.7037234990122839,
+        0.7071739557579683
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6001,
+      "condition": "linear_normalized",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9689283013412473,
+      "gain": 0.4689283013412473,
+      "acquired": true,
+      "ood_accuracy": 0.9689280997700622,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7026550626573902,
+        0.8481219533881234,
+        0.968928309463789,
+        0.99429017419376
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9177252445228122,
+        0.9390032173255093,
+        0.9604131803066643,
+        0.9608063049792143
+      ],
+      "anchored_after": [
+        0.9529862476681612,
+        0.9515672400564444,
+        0.9451679103453708,
+        0.9326884147958564
+      ],
+      "all_after": [
+        0.9333968014763008,
+        0.9445872274281469,
+        0.9536375047683114,
+        0.9483094648977217
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6001,
+      "condition": "linear_random_reward",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.4907454143061857,
+      "gain": -0.009254585693814321,
+      "acquired": false,
+      "ood_accuracy": 0.4907458265850618,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.4976861067045032,
+        0.4953723125160573,
+        0.49074541778665604,
+        0.4861201080232277
+      ],
+      "focal_greedy_after": [
+        0.109375,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.4861249744001583,
+        0.48581656225916986,
+        0.4851999936194151,
+        0.4845838207912602
+      ],
+      "anchored_after": [
+        0.48689365342802543,
+        0.48689372703940875,
+        0.4868940227078565,
+        0.4868945162582075
+      ],
+      "all_after": [
+        0.48646660952365484,
+        0.48629530216149836,
+        0.48595289543650017,
+        0.48561079655434797
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6001,
+      "condition": "fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9700155474356255,
+      "gain": 0.47001554743562546,
+      "acquired": true,
+      "ood_accuracy": 0.9663000073377981,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7186713288128064,
+        0.8671846397234297,
+        0.9770845549760607,
+        0.9964150747148698
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9207456815589057,
+        0.9432504667164463,
+        0.9646855982882898,
+        0.9638472663094778
+      ],
+      "anchored_after": [
+        0.9486590111960506,
+        0.9473283002084449,
+        0.9411012532295099,
+        0.9282997478111299
+      ],
+      "all_after": [
+        0.9331516058420812,
+        0.9450628371573345,
+        0.9542036671510543,
+        0.9480483691991012
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6001,
+      "condition": "plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9907732633308307,
+      "gain": 0.4907732633308307,
+      "acquired": true,
+      "ood_accuracy": 0.9895664116126288,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7719609560993079,
+        0.9198439898052043,
+        0.9924852184199253,
+        0.9993419253512432
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9349356673835177,
+        0.9606424634949422,
+        0.9813015108227137,
+        0.9780614018019823
+      ],
+      "anchored_after": [
+        0.9716159984041268,
+        0.9708073598031487,
+        0.9662325524996783,
+        0.9537366585359197
+      ],
+      "all_after": [
+        0.9512380367260107,
+        0.9651601951874786,
+        0.9746041960124758,
+        0.9672504047948436
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6001,
+      "condition": "rewired_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9695159306998553,
+      "gain": 0.4695159306998553,
+      "acquired": true,
+      "ood_accuracy": 0.9664712646004523,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.711436093856274,
+        0.8587814862899358,
+        0.9736986377384733,
+        0.995578191721219
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9189882620043268,
+        0.9409532928537636,
+        0.9623901128610594,
+        0.9620681288136879
+      ],
+      "anchored_after": [
+        0.948224376620208,
+        0.946848984826044,
+        0.9405230129805174,
+        0.9278466925691249
+      ],
+      "all_after": [
+        0.931982090722496,
+        0.9435736003969993,
+        0.9526714018030407,
+        0.9468586015938821
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6001,
+      "condition": "rewired_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9907784891957832,
+      "gain": 0.49077848919578315,
+      "acquired": true,
+      "ood_accuracy": 0.9897136057797149,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7688588820754777,
+        0.9172022968541715,
+        0.9919404509335124,
+        0.9992688607361011
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.934356560191388,
+        0.9599215397962575,
+        0.9806805817047696,
+        0.9775847126567425
+      ],
+      "anchored_after": [
+        0.971681891758756,
+        0.970851570667948,
+        0.9662025032939701,
+        0.953690328075882
+      ],
+      "all_after": [
+        0.9509455964435516,
+        0.9647793312947864,
+        0.9742458801888587,
+        0.9669649861763602
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6001,
+      "condition": "ann_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9703657997467949,
+      "gain": 0.47036579974679493,
+      "acquired": true,
+      "ood_accuracy": 0.9686781832382041,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7133056701532059,
+        0.8610735755421433,
+        0.9747338430751186,
+        0.99586239375761
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9202600091756861,
+        0.9423936502443345,
+        0.9639100214907657,
+        0.9635084107399224
+      ],
+      "anchored_after": [
+        0.951766687057502,
+        0.9504027750445738,
+        0.9441061740811886,
+        0.9314150981657829
+      ],
+      "all_after": [
+        0.9342629771231598,
+        0.9459532612666632,
+        0.9551083115309537,
+        0.949244716262527
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6001,
+      "condition": "ann_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9902419261318994,
+      "gain": 0.49024192613189943,
+      "acquired": true,
+      "ood_accuracy": 0.9895244299239256,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7662887163497303,
+        0.9150600090368319,
+        0.9915073518754635,
+        0.9992116825637987
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9339887190826316,
+        0.9594491778377581,
+        0.980328637135636,
+        0.9773611653333852
+      ],
+      "anchored_after": [
+        0.9724206981819621,
+        0.9715642455114689,
+        0.9668223630453158,
+        0.9542708456126396
+      ],
+      "all_after": [
+        0.9510695986823342,
+        0.9648336523594073,
+        0.9743258486510493,
+        0.9670988010130541
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6002,
+      "condition": "linear_raw",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.647462182821631,
+      "gain": 0.14746218282163104,
+      "acquired": false,
+      "ood_accuracy": 0.647462181578016,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.537920946486236,
+        0.5754081458668818,
+        0.6474621827241902,
+        0.713379343620851
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.6986679608588272,
+        0.7034048691595053,
+        0.7120705914932509,
+        0.719493266167544
+      ],
+      "anchored_after": [
+        0.6939464852142186,
+        0.6937119186976864,
+        0.6927828914969062,
+        0.6912668120102917
+      ],
+      "all_after": [
+        0.6965695272390012,
+        0.6990968911764748,
+        0.7034982803837645,
+        0.7069481754309875
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6002,
+      "condition": "linear_normalized",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9688629819557777,
+      "gain": 0.4688629819557777,
+      "acquired": true,
+      "ood_accuracy": 0.9688623243146222,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7025417108026628,
+        0.8479821820392284,
+        0.9688629639844357,
+        0.9942716852651373
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9176873028115762,
+        0.9389560382152972,
+        0.9603645985316308,
+        0.9607647510294838
+      ],
+      "anchored_after": [
+        0.9529316031176097,
+        0.9515117340423186,
+        0.9451104031270421,
+        0.9326324822361532
+      ],
+      "all_after": [
+        0.9333514362809244,
+        0.944536347471751,
+        0.9535849561295912,
+        0.9482615204546702
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6002,
+      "condition": "linear_random_reward",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.6449983402024889,
+      "gain": 0.14499834020248892,
+      "acquired": false,
+      "ood_accuracy": 0.6449925982333504,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.537251050450119,
+        0.5740908607212714,
+        0.6449979255600814,
+        0.710062091788614
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.6959520326378208,
+        0.7006127752605538,
+        0.7091608822082356,
+        0.7165191682956897
+      ],
+      "anchored_after": [
+        0.6911276296550334,
+        0.6909029022920246,
+        0.6900126343176233,
+        0.6885590804594188
+      ],
+      "all_after": [
+        0.6938078535343598,
+        0.6962972761634296,
+        0.7006505498124078,
+        0.7040924625906804
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6002,
+      "condition": "fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9706786497470545,
+      "gain": 0.47067864974705453,
+      "acquired": true,
+      "ood_accuracy": 0.9688424104637082,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7232370415904156,
+        0.8723475210470346,
+        0.9789791103041954,
+        0.9968334124174247
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9223227363588051,
+        0.9451741103203202,
+        0.9665514354025788,
+        0.9653651545604718
+      ],
+      "anchored_after": [
+        0.9515564573037057,
+        0.9502479700946135,
+        0.9440426947724677,
+        0.9311317896169348
+      ],
+      "all_after": [
+        0.9353155012232054,
+        0.9474291591088949,
+        0.9565475506780851,
+        0.9501503256966778
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6002,
+      "condition": "plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.989035745394169,
+      "gain": 0.48903574539416905,
+      "acquired": true,
+      "ood_accuracy": 0.9881417498873257,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7665236748239134,
+        0.9151857421003295,
+        0.9914829542249382,
+        0.999200089547447
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9338442237542299,
+        0.9593143003638096,
+        0.9800934716364267,
+        0.976999712423052
+      ],
+      "anchored_after": [
+        0.9705561465631135,
+        0.9696853007443692,
+        0.9648726392525556,
+        0.9522346454875773
+      ],
+      "all_after": [
+        0.9501606338915115,
+        0.9639236338662805,
+        0.9733286572435951,
+        0.9659930160072855
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6002,
+      "condition": "rewired_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9696874937335469,
+      "gain": 0.4696874937335469,
+      "acquired": true,
+      "ood_accuracy": 0.9676966933439873,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7180077736204485,
+        0.8664209173250444,
+        0.9767588332417131,
+        0.9963181365113443
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9211720227579682,
+        0.9436373939627583,
+        0.9650410886968711,
+        0.9641845160153781
+      ],
+      "anchored_after": [
+        0.9512239614158865,
+        0.9498698912920694,
+        0.9435581135570446,
+        0.9307207546963486
+      ],
+      "all_after": [
+        0.9345284399392653,
+        0.9464073927757853,
+        0.9554930997458371,
+        0.9493117332069205
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6002,
+      "condition": "rewired_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9890446293574144,
+      "gain": 0.48904462935741444,
+      "acquired": true,
+      "ood_accuracy": 0.9881762753519245,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7646992936952428,
+        0.9135635408037105,
+        0.9911296999120393,
+        0.9991505387724954
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9335506066693262,
+        0.9589292281769366,
+        0.9797756855180514,
+        0.9767738755676297
+      ],
+      "anchored_after": [
+        0.9709144630766614,
+        0.9700274014372307,
+        0.9651644872481429,
+        0.952519901292279
+      ],
+      "all_after": [
+        0.9501567650725863,
+        0.9638617496259562,
+        0.9732818196203143,
+        0.9659943314452515
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6002,
+      "condition": "ann_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9700740792993003,
+      "gain": 0.47007407929930034,
+      "acquired": true,
+      "ood_accuracy": 0.967341051523781,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7203425613900669,
+        0.8690140215046411,
+        0.9777654463312444,
+        0.996564047304825
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9212710327295088,
+        0.9439015144447673,
+        0.9653118989501651,
+        0.9643501982281677
+      ],
+      "anchored_after": [
+        0.9497098859593657,
+        0.948379874155528,
+        0.9421368967260361,
+        0.9292750780576053
+      ],
+      "all_after": [
+        0.9339105230538897,
+        0.9458918965384387,
+        0.9550118979616634,
+        0.9487612559301399
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6002,
+      "condition": "ann_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9901568732242346,
+      "gain": 0.4901568732242346,
+      "acquired": true,
+      "ood_accuracy": 0.9892045518789179,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.770687862109033,
+        0.9186910121435263,
+        0.9922286761714469,
+        0.9993049236734014
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9346999210567517,
+        0.9603543212246505,
+        0.981014873217153,
+        0.977786383086687
+      ],
+      "anchored_after": [
+        0.9714833791372577,
+        0.970653806458369,
+        0.9659960776640305,
+        0.9534357842807394
+      ],
+      "all_after": [
+        0.9510481246480877,
+        0.9649318702174143,
+        0.974339852971321,
+        0.9669638947284882
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6003,
+      "condition": "linear_raw",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.6494404721172966,
+      "gain": 0.1494404721172966,
+      "acquired": false,
+      "ood_accuracy": 0.64944047016243,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.5384601673156808,
+        0.5764678941468895,
+        0.649440472002161,
+        0.716033560116636
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.7008317284535173,
+        0.7056297981861658,
+        0.7143893712803646,
+        0.7218622564926818
+      ],
+      "anchored_after": [
+        0.6961973314874829,
+        0.6959547177645118,
+        0.6949939979646617,
+        0.6934268238113637
+      ],
+      "all_after": [
+        0.6987719964686133,
+        0.7013297624432085,
+        0.7057692053622745,
+        0.7092242864120961
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6003,
+      "condition": "linear_normalized",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9744677932277934,
+      "gain": 0.4744677932277934,
+      "acquired": true,
+      "ood_accuracy": 0.9744673046410616,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7130998122858903,
+        0.8606830093741507,
+        0.97446778042969,
+        0.9957767860690745
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9210513495877267,
+        0.9431560241646253,
+        0.9646572341907598,
+        0.9644164748588778
+      ],
+      "anchored_after": [
+        0.9577808525568542,
+        0.9564458365763636,
+        0.950252394971354,
+        0.9376519549740904
+      ],
+      "all_after": [
+        0.9373755731295614,
+        0.9490626074587312,
+        0.9582550834265794,
+        0.9525211326878612
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6003,
+      "condition": "linear_random_reward",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.34572607560259483,
+      "gain": -0.15427392439740517,
+      "acquired": false,
+      "ood_accuracy": 0.34572905833284584,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.4602168078977762,
+        0.4209341641401408,
+        0.345726027982205,
+        0.2775154368135457
+      ],
+      "focal_greedy_after": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.29394525750926265,
+        0.28899771952168396,
+        0.2800110385896091,
+        0.27242108307502744
+      ],
+      "anchored_after": [
+        0.2983512219195216,
+        0.2986140406482884,
+        0.29965428992426374,
+        0.30134955205830244
+      ],
+      "all_after": [
+        0.2959034639138222,
+        0.2932716400223971,
+        0.2887413725161223,
+        0.28527818040092745
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6003,
+      "condition": "fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9755887538101766,
+      "gain": 0.4755887538101766,
+      "acquired": true,
+      "ood_accuracy": 0.9726636669012132,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7273524117906359,
+        0.8768296152158916,
+        0.9806384595274629,
+        0.9972227066958433
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9238293542994135,
+        0.946952983276301,
+        0.968385296243225,
+        0.9671338469729742
+      ],
+      "anchored_after": [
+        0.9549275359398489,
+        0.9536681442125506,
+        0.9476333628528198,
+        0.934807152190813
+      ],
+      "all_after": [
+        0.9376507683618291,
+        0.9499374992479674,
+        0.9591622147363782,
+        0.9527664270697916
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6003,
+      "condition": "plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9898616015282804,
+      "gain": 0.4898616015282804,
+      "acquired": true,
+      "ood_accuracy": 0.9886621391460637,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7664711729603585,
+        0.9150962272614825,
+        0.9914687778549846,
+        0.9992007923482632
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9338822371976424,
+        0.9593324589430454,
+        0.9801383562176064,
+        0.977115897795471
+      ],
+      "anchored_after": [
+        0.971262277877993,
+        0.9703992711431614,
+        0.9656300266218999,
+        0.9530549295432372
+      ],
+      "all_after": [
+        0.9504955886111316,
+        0.9642510421430968,
+        0.9736902097306258,
+        0.9664221341278115
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6003,
+      "condition": "rewired_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9759955782778151,
+      "gain": 0.47599557827781513,
+      "acquired": true,
+      "ood_accuracy": 0.9732959755587861,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7279779875278741,
+        0.8775745980565692,
+        0.9809379045442965,
+        0.9972974553908176
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.924039517204509,
+        0.9472402901048473,
+        0.9687237601318828,
+        0.967459376995592
+      ],
+      "anchored_after": [
+        0.9552700282246483,
+        0.9540298214426786,
+        0.9480562849619937,
+        0.9352430989648098
+      ],
+      "all_after": [
+        0.937919744324571,
+        0.950257859588328,
+        0.959538215611932,
+        0.9531410312041333
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6003,
+      "condition": "rewired_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.99097043911441,
+      "gain": 0.49097043911440996,
+      "acquired": true,
+      "ood_accuracy": 0.9899529402122191,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7720795020896252,
+        0.9199069378725347,
+        0.9924877894797879,
+        0.9993416974091023
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9350969876791414,
+        0.9608209476141147,
+        0.9814673912308616,
+        0.9782326847394168
+      ],
+      "anchored_after": [
+        0.9728290504513728,
+        0.9720219809154832,
+        0.9674555170900697,
+        0.9549732851712259
+      ],
+      "all_after": [
+        0.9518667933556886,
+        0.9657991846369453,
+        0.9752398916127321,
+        0.9678951738202207
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6003,
+      "condition": "ann_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9749159871118649,
+      "gain": 0.4749159871118649,
+      "acquired": true,
+      "ood_accuracy": 0.9724066468862934,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.724449101343975,
+        0.8736301602837113,
+        0.9795091194462522,
+        0.9969780594932444
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9231023800888949,
+        0.946032097351565,
+        0.9674978716390102,
+        0.9664389720782692
+      ],
+      "anchored_after": [
+        0.9543284364384994,
+        0.9530581408930018,
+        0.9470104201028725,
+        0.9342323048101528
+      ],
+      "all_after": [
+        0.9369806273553857,
+        0.9491547833699813,
+        0.9583923376229492,
+        0.9521248977368842
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6003,
+      "condition": "ann_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9905671456946818,
+      "gain": 0.49056714569468185,
+      "acquired": true,
+      "ood_accuracy": 0.9895644546904019,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7687328198161679,
+        0.917041866989406,
+        0.9918902458722568,
+        0.9992606658107809
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9344206417442832,
+        0.9599825311568984,
+        0.9807270481272415,
+        0.9776289852256789
+      ],
+      "anchored_after": [
+        0.9723506065876317,
+        0.9715152306109448,
+        0.9668518385341939,
+        0.954339002702597
+      ],
+      "all_after": [
+        0.9512784038968827,
+        0.965108175358697,
+        0.9745602883081093,
+        0.9672778818820871
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6004,
+      "condition": "linear_raw",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.6464018710156734,
+      "gain": 0.14640187101567337,
+      "acquired": false,
+      "ood_accuracy": 0.6464018706162348,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.5376324698608419,
+        0.5748409797055167,
+        0.6464018710273709,
+        0.7119534730728064
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.6975019821587296,
+        0.7022061101844248,
+        0.7108213109473064,
+        0.7182165197392805
+      ],
+      "anchored_after": [
+        0.6927354006930662,
+        0.6925050936033696,
+        0.6915928448323694,
+        0.6901038271914675
+      ],
+      "all_after": [
+        0.6953835015073234,
+        0.6978945472595114,
+        0.7022753260073344,
+        0.7057219897180301
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6004,
+      "condition": "linear_normalized",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9701376312711796,
+      "gain": 0.4701376312711796,
+      "acquired": true,
+      "ood_accuracy": 0.970136663667531,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7047891649466023,
+        0.8507403072991394,
+        0.9701377817404271,
+        0.9946285481362791
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9184321454017683,
+        0.9398830720231021,
+        0.9613179361987733,
+        0.9615792948666353
+      ],
+      "anchored_after": [
+        0.954004582677083,
+        0.9526019968394412,
+        0.946241265878292,
+        0.9337331272117124
+      ],
+      "all_after": [
+        0.9342421175241303,
+        0.9455359274970305,
+        0.9546171938341148,
+        0.9492032203533364
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6004,
+      "condition": "linear_random_reward",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.4008584861213642,
+      "gain": -0.09914151387863579,
+      "acquired": false,
+      "ood_accuracy": 0.4008871092125472,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.4749027214443236,
+        0.449931585315948,
+        0.40085727723655684,
+        0.35369377159946724
+      ],
+      "focal_greedy_after": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.3589087993907613,
+        0.35567553507371047,
+        0.3494866221630957,
+        0.34372582750637387
+      ],
+      "anchored_after": [
+        0.36447672122830693,
+        0.36455803362312356,
+        0.36488158195475956,
+        0.3654147930828994
+      ],
+      "all_after": [
+        0.3613834313185593,
+        0.3596233122067829,
+        0.3563288265149463,
+        0.35336536776260746
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6004,
+      "condition": "fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9702177371732739,
+      "gain": 0.47021773717327386,
+      "acquired": true,
+      "ood_accuracy": 0.9674311254571892,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7152100293282578,
+        0.86318015679462,
+        0.9754806295465609,
+        0.996020342276569
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9202490225046217,
+        0.9424873950977896,
+        0.9638941996016585,
+        0.963298301574816
+      ],
+      "anchored_after": [
+        0.9501650157304128,
+        0.9488049670345956,
+        0.9425013929427583,
+        0.929755604401102
+      ],
+      "all_after": [
+        0.933545019493862,
+        0.9452952048474812,
+        0.954386285531036,
+        0.9483904361642763
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6004,
+      "condition": "plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9887492435104881,
+      "gain": 0.4887492435104881,
+      "acquired": true,
+      "ood_accuracy": 0.9874927036330636,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7613738703139441,
+        0.9106285400667764,
+        0.9904716195849306,
+        0.9990564062650497
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9327277324196414,
+        0.9579280275131793,
+        0.9788722707268582,
+        0.9760429799847363
+      ],
+      "anchored_after": [
+        0.9694695686090053,
+        0.9685599291077551,
+        0.9636258042753164,
+        0.9509854282188309
+      ],
+      "all_after": [
+        0.949057437392692,
+        0.9626533171107686,
+        0.9720960634150617,
+        0.9649062903110006
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6004,
+      "condition": "rewired_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.97018949908123,
+      "gain": 0.47018949908123,
+      "acquired": true,
+      "ood_accuracy": 0.9679054228179944,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7188189710377381,
+        0.8673338050618481,
+        0.97713556549813,
+        0.9964228457197309
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9213297732372773,
+        0.943851200054876,
+        0.9652746174179456,
+        0.9644250224593182
+      ],
+      "anchored_after": [
+        0.9514116480615852,
+        0.9500768445125917,
+        0.9438312915384314,
+        0.9310109528879943
+      ],
+      "all_after": [
+        0.9346994953814142,
+        0.946618153147194,
+        0.9557442503603837,
+        0.9495743248720631
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6004,
+      "condition": "rewired_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9907992556081999,
+      "gain": 0.4907992556081999,
+      "acquired": true,
+      "ood_accuracy": 0.9899709768429932,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.771957348210634,
+        0.9197846565968124,
+        0.9924568412095521,
+        0.9993369475978175
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9351012360167508,
+        0.9608169247119969,
+        0.9814503863953642,
+        0.9781949016927182
+      ],
+      "anchored_after": [
+        0.9730257058417191,
+        0.9722150541434726,
+        0.9676335020492476,
+        0.955133532489949
+      ],
+      "all_after": [
+        0.9519565559389591,
+        0.9658827600148752,
+        0.9753095489082014,
+        0.967945404269265
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6004,
+      "condition": "ann_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9701182364369894,
+      "gain": 0.47011823643698936,
+      "acquired": true,
+      "ood_accuracy": 0.9673103306890035,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.724735520622518,
+        0.873966863629009,
+        0.9796252540997662,
+        0.9969920456990677
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9225620267911213,
+        0.9455019289563497,
+        0.966875422357637,
+        0.96556264411818
+      ],
+      "anchored_after": [
+        0.9510281599655049,
+        0.9497225900906684,
+        0.9435280142143126,
+        0.9305865234449496
+      ],
+      "all_after": [
+        0.9352136415352917,
+        0.9473777783493803,
+        0.9564987965161593,
+        0.9500177015967443
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6004,
+      "condition": "ann_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9928185210141605,
+      "gain": 0.49281852101416046,
+      "acquired": true,
+      "ood_accuracy": 0.9920620549680821,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.784874716474697,
+        0.9301618544200333,
+        0.9943980386629694,
+        0.9995763104520632
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9377326138635957,
+        0.963970881824567,
+        0.9841201584391572,
+        0.9803885383020067
+      ],
+      "anchored_after": [
+        0.9759977278613707,
+        0.9752978310314809,
+        0.9711283504444451,
+        0.9588375448254377
+      ],
+      "all_after": [
+        0.9547393311959402,
+        0.9690050814720843,
+        0.9783460215526184,
+        0.9708103189790871
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6005,
+      "condition": "linear_raw",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.6451923209231998,
+      "gain": 0.14519232092319978,
+      "acquired": false,
+      "ood_accuracy": 0.6451923203568183,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.5373038374934208,
+        0.5741946847300491,
+        0.6451923209481139,
+        0.7103241397790153
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.6961665541648497,
+        0.7008332875273096,
+        0.709390666216058,
+        0.7167540687405484
+      ],
+      "anchored_after": [
+        0.6913498652279659,
+        0.691124370957032,
+        0.6902310833574553,
+        0.6887726580540977
+      ],
+      "all_after": [
+        0.6940258035262348,
+        0.6965182134960751,
+        0.7008752960566793,
+        0.704317886213237
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6005,
+      "condition": "linear_normalized",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9688544949278948,
+      "gain": 0.46885449492789477,
+      "acquired": true,
+      "ood_accuracy": 0.968853027401013,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7025268582309802,
+        0.8479639207924634,
+        0.9688544749734868,
+        0.9942692912674632
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9176823296610798,
+        0.9389498472622323,
+        0.9603582232565344,
+        0.9607593062457268
+      ],
+      "anchored_after": [
+        0.9529244375616471,
+        0.951504455906785,
+        0.945102860533762,
+        0.9326251429707031
+      ],
+      "all_after": [
+        0.9333454887279985,
+        0.9445296733264779,
+        0.9535780620464132,
+        0.9482552336790496
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6005,
+      "condition": "linear_random_reward",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.4842471585165383,
+      "gain": -0.015752841483461677,
+      "acquired": false,
+      "ood_accuracy": 0.4842477582576322,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.496060558856438,
+        0.4921216067757675,
+        0.48424712459795516,
+        0.47638045675069934
+      ],
+      "focal_greedy_after": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.4764044613062379,
+        0.47587972503199744,
+        0.4748315104101589,
+        0.4737852432454865
+      ],
+      "anchored_after": [
+        0.47770470579443197,
+        0.47770507197262596,
+        0.47770653484103787,
+        0.47770897107282995
+      ],
+      "all_after": [
+        0.47698234774543524,
+        0.4766909903389434,
+        0.4761092990461051,
+        0.4755291222798614
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6005,
+      "condition": "fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9699023085102356,
+      "gain": 0.4699023085102356,
+      "acquired": true,
+      "ood_accuracy": 0.9677197928653043,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7182873815237328,
+        0.8667370430924156,
+        0.9769326647359524,
+        0.99637526287636
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9212614720506315,
+        0.9437466726678387,
+        0.9651924508024655,
+        0.9643266742758961
+      ],
+      "anchored_after": [
+        0.9510164057058862,
+        0.9496588436352077,
+        0.9433337106805121,
+        0.9304887057374144
+      ],
+      "all_after": [
+        0.9344858870085224,
+        0.9463743042088917,
+        0.9554774551927083,
+        0.949287577147682
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6005,
+      "condition": "plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9935314002381201,
+      "gain": 0.49353140023812014,
+      "acquired": true,
+      "ood_accuracy": 0.9929277824689855,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7872623207263758,
+        0.9320251539503629,
+        0.9947200211335309,
+        0.999612897265315
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9382846007461964,
+        0.9646167939806541,
+        0.9846887234676912,
+        0.9808994426110511
+      ],
+      "anchored_after": [
+        0.9771371867286617,
+        0.9764557638329033,
+        0.9723546841668326,
+        0.9601036713737608
+      ],
+      "all_after": [
+        0.9555524167384033,
+        0.9698785583594317,
+        0.9792069282228654,
+        0.9716568776167
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6005,
+      "condition": "rewired_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9694864341240974,
+      "gain": 0.4694864341240974,
+      "acquired": true,
+      "ood_accuracy": 0.9660779558486622,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7133245019484262,
+        0.8609698230232687,
+        0.974567174072064,
+        0.995782151356375
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9199496532577701,
+        0.9420398161098859,
+        0.9634365203172408,
+        0.9629370134128501
+      ],
+      "anchored_after": [
+        0.9505154438982412,
+        0.9491300501581407,
+        0.942761267356214,
+        0.9300396224691014
+      ],
+      "all_after": [
+        0.9335344490979793,
+        0.9451910312424436,
+        0.954247519001229,
+        0.9483159507711841
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6005,
+      "condition": "rewired_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9912906875458176,
+      "gain": 0.4912906875458176,
+      "acquired": true,
+      "ood_accuracy": 0.9902223485069475,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7726047482101345,
+        0.9203412641329691,
+        0.9925699972204557,
+        0.9993508966101073
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9352803452209048,
+        0.9610115635838125,
+        0.9816266032225234,
+        0.9783469700168816
+      ],
+      "anchored_after": [
+        0.9737451415414434,
+        0.9729351516942769,
+        0.9683519772026927,
+        0.9558502540143636
+      ],
+      "all_after": [
+        0.9523758102522552,
+        0.9663109360773521,
+        0.975726769435932,
+        0.968348429571318
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6005,
+      "condition": "ann_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9689522447932812,
+      "gain": 0.46895224479328124,
+      "acquired": true,
+      "ood_accuracy": 0.967036128865253,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7165077098992201,
+        0.864658622612137,
+        0.9760544029394623,
+        0.9961465556502962
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9207614966265959,
+        0.9431013836988558,
+        0.9644785002424361,
+        0.9637030958313416
+      ],
+      "anchored_after": [
+        0.9508796171889586,
+        0.9495079342901348,
+        0.9431582753929842,
+        0.9303315158170308
+      ],
+      "all_after": [
+        0.934147327987646,
+        0.9459487395172022,
+        0.9550028447537909,
+        0.9488712824916478
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6005,
+      "condition": "ann_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9922336016163387,
+      "gain": 0.49223360161633867,
+      "acquired": true,
+      "ood_accuracy": 0.9916013132763681,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7801309392797628,
+        0.9264576142277127,
+        0.9937373686094265,
+        0.999497599899473
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9368201740373384,
+        0.962873700797445,
+        0.9831965746348352,
+        0.9796117185040598
+      ],
+      "anchored_after": [
+        0.975278014194287,
+        0.9745319076168694,
+        0.9701826054357091,
+        0.9577751692489946
+      ],
+      "all_after": [
+        0.9539125474404265,
+        0.9680551260505226,
+        0.9774125883241125,
+        0.9699065855018089
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6006,
+      "condition": "linear_raw",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.6465250077274258,
+      "gain": 0.14652500772742583,
+      "acquired": false,
+      "ood_accuracy": 0.6465250072929426,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.5376659525003522,
+        0.5749068166139649,
+        0.646525007687785,
+        0.7121191798199986
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.6976376145382358,
+        0.7023455494299875,
+        0.7109666253335177,
+        0.7183650437276875
+      ],
+      "anchored_after": [
+        0.6928762148549722,
+        0.6926454150399466,
+        0.6917312252411274,
+        0.690239076506272
+      ],
+      "all_after": [
+        0.6955214369012297,
+        0.6980343785899693,
+        0.7024175586257887,
+        0.7058646138515029
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6006,
+      "condition": "linear_normalized",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9679618558408238,
+      "gain": 0.46796185584082384,
+      "acquired": true,
+      "ood_accuracy": 0.9679609212104245,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7010000202416505,
+        0.8460733228749365,
+        0.9679617689667586,
+        0.9940144121002951
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9171668011970767,
+        0.938309281148378,
+        0.9596977617128396,
+        0.9601938337224205
+      ],
+      "anchored_after": [
+        0.9521823317947518,
+        0.9507508823330912,
+        0.9443229085140109,
+        0.9318670093450611
+      ],
+      "all_after": [
+        0.9327292592404879,
+        0.9438388816749173,
+        0.9528644936244715,
+        0.9476041339991496
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6006,
+      "condition": "linear_random_reward",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.5728878526837611,
+      "gain": 0.07288785268376108,
+      "acquired": false,
+      "ood_accuracy": 0.5728817329765492,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.5183443201948106,
+        0.5366393232879626,
+        0.572887271114106,
+        0.6083690129980016
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.6061627369896623,
+        0.6085607356486374,
+        0.6132402410669369,
+        0.6177398448569941
+      ],
+      "anchored_after": [
+        0.6012334720627776,
+        0.601199411166072,
+        0.6010635874477048,
+        0.6008386886015655
+      ],
+      "all_after": [
+        0.6039719525777135,
+        0.6052890358786084,
+        0.6078283950139449,
+        0.6102282198545814
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6006,
+      "condition": "fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.968777610632126,
+      "gain": 0.468777610632126,
+      "acquired": true,
+      "ood_accuracy": 0.9632338125661424,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7106734194301448,
+        0.8579583905154409,
+        0.9734030598722906,
+        0.9955057834153181
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9185736825533364,
+        0.9404871402690475,
+        0.9618958310668,
+        0.9615767562929698
+      ],
+      "anchored_after": [
+        0.9469289077769404,
+        0.9455472793512884,
+        0.9391925645779003,
+        0.9264943314882913
+      ],
+      "all_after": [
+        0.9311760048749382,
+        0.9427360909722657,
+        0.9518054904050669,
+        0.9459845674908904
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6006,
+      "condition": "plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9902958421492574,
+      "gain": 0.49029584214925737,
+      "acquired": true,
+      "ood_accuracy": 0.988260204920415,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7662423390454298,
+        0.9150511663851987,
+        0.9915089216455443,
+        0.9992102754840201
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.933741761963038,
+        0.9592040378650835,
+        0.9800256007980797,
+        0.9769994982928255
+      ],
+      "anchored_after": [
+        0.9700987793445371,
+        0.9692487067669834,
+        0.9645236519190497,
+        0.9519711378055957
+      ],
+      "all_after": [
+        0.9499004363548155,
+        0.9636683351548166,
+        0.973135845740733,
+        0.9658757825207233
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6006,
+      "condition": "rewired_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9692639868625295,
+      "gain": 0.46926398686252946,
+      "acquired": true,
+      "ood_accuracy": 0.9661736925074208,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7168602209340342,
+        0.8650813514195985,
+        0.9762365754030988,
+        0.9961941477325943
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9201464060999281,
+        0.9424939062007144,
+        0.9638523125008589,
+        0.9630459415273441
+      ],
+      "anchored_after": [
+        0.9478069535935317,
+        0.9464400383517403,
+        0.9400925434099153,
+        0.9272498086033009
+      ],
+      "all_after": [
+        0.9324399827637521,
+        0.9442477427122816,
+        0.9532924151271064,
+        0.9471365491166582
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6006,
+      "condition": "rewired_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9926457264148175,
+      "gain": 0.4926457264148175,
+      "acquired": true,
+      "ood_accuracy": 0.9916115527581808,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7816705976287405,
+        0.9277129889944329,
+        0.9939775939694507,
+        0.9995274546422446
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9369521724805077,
+        0.9630588979050276,
+        0.9833318540523082,
+        0.9796961273133428
+      ],
+      "anchored_after": [
+        0.973978332993119,
+        0.9732502905276766,
+        0.9689645617214894,
+        0.9565856024204765
+      ],
+      "all_after": [
+        0.953408243819446,
+        0.9675884057373162,
+        0.9769463907941665,
+        0.9694247829165135
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6006,
+      "condition": "ann_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9689053604240225,
+      "gain": 0.46890536042402253,
+      "acquired": true,
+      "ood_accuracy": 0.9656707568919614,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7144964893302302,
+        0.8623238688592059,
+        0.975114183206777,
+        0.9959224372852958
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9198765239533889,
+        0.9420676441447468,
+        0.9634705163141858,
+        0.962863810670526
+      ],
+      "anchored_after": [
+        0.9487828237128492,
+        0.9474074431218522,
+        0.9410611560107652,
+        0.9283037032051477
+      ],
+      "all_after": [
+        0.9327237682909268,
+        0.9444408881345713,
+        0.9535108006237766,
+        0.9475037629081355
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6006,
+      "condition": "ann_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9942535571097387,
+      "gain": 0.49425355710973873,
+      "acquired": true,
+      "ood_accuracy": 0.9933861835056874,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7912496473492446,
+        0.9350105283174559,
+        0.9952040835748277,
+        0.9996653574468948
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9390063989662302,
+        0.9654760455682776,
+        0.9853544494221301,
+        0.9814365338467645
+      ],
+      "anchored_after": [
+        0.9772635083356547,
+        0.9766242752856238,
+        0.9726974556102989,
+        0.9605808006676173
+      ],
+      "all_after": [
+        0.9560095586859745,
+        0.9704308143315424,
+        0.9797291188390939,
+        0.9721673191004769
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6007,
+      "condition": "linear_raw",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.6475349408438953,
+      "gain": 0.1475349408438953,
+      "acquired": false,
+      "ood_accuracy": 0.6475349377450772,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.537940755169314,
+        0.5754470857472505,
+        0.6475349409079976,
+        0.713477102695632
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.69874780950367,
+        0.7034869671667708,
+        0.7121561505973567,
+        0.7195806957436134
+      ],
+      "anchored_after": [
+        0.6940294691500069,
+        0.6937946089751758,
+        0.6928644251048529,
+        0.6913464803344035
+      ],
+      "all_after": [
+        0.6966507693464863,
+        0.6991792524149505,
+        0.7035820503784661,
+        0.7070321555617424
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6007,
+      "condition": "linear_normalized",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9687119307365013,
+      "gain": 0.4687119307365013,
+      "acquired": true,
+      "ood_accuracy": 0.9687113672352416,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7022806679772228,
+        0.8476599354047248,
+        0.9687119181639053,
+        0.9942288522049049
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9175997059232699,
+        0.9388471246533353,
+        0.9602523941097871,
+        0.9606687560239678
+      ],
+      "anchored_after": [
+        0.9528054933711111,
+        0.951383646906863,
+        0.9449777333132308,
+        0.9325034665974413
+      ],
+      "all_after": [
+        0.9332467225667548,
+        0.9444189123215698,
+        0.9534636559779842,
+        0.9481508496121782
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6007,
+      "condition": "linear_random_reward",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.3528019353031823,
+      "gain": -0.14719806469681768,
+      "acquired": false,
+      "ood_accuracy": 0.3528134906897481,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.46215102980331974,
+        0.4247333435760091,
+        0.35280217653597934,
+        0.28697583353126493
+      ],
+      "focal_greedy_after": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.30162183112561886,
+        0.2968930987150901,
+        0.28823996027928195,
+        0.280824092293925
+      ],
+      "anchored_after": [
+        0.30635477568186126,
+        0.30658827729029103,
+        0.30751310910706947,
+        0.3090224225380474
+      ],
+      "all_after": [
+        0.3037253620395044,
+        0.3012020669707349,
+        0.29680580420274305,
+        0.29335668351353494
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6007,
+      "condition": "fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9703441628075917,
+      "gain": 0.4703441628075917,
+      "acquired": true,
+      "ood_accuracy": 0.9680083113423877,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7152867094168639,
+        0.8632415748832118,
+        0.9755216785520705,
+        0.9960381747182954
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9205508973346473,
+        0.9427997156959507,
+        0.9642554317806155,
+        0.9637302507058366
+      ],
+      "anchored_after": [
+        0.9517103992375081,
+        0.9503608383124131,
+        0.9441023980004369,
+        0.9313797132266272
+      ],
+      "all_after": [
+        0.9343995648470299,
+        0.9461602146366007,
+        0.955298527878314,
+        0.9493522340484104
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6007,
+      "condition": "plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9913748073075164,
+      "gain": 0.49137480730751637,
+      "acquired": true,
+      "ood_accuracy": 0.9906640674562028,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7729850501986345,
+        0.9206232546196261,
+        0.9926275293020626,
+        0.9993605161478446
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9353879251317091,
+        0.9611425531768654,
+        0.9817537672937973,
+        0.9784985911828621
+      ],
+      "anchored_after": [
+        0.974197567228233,
+        0.9734021849665148,
+        0.9688850650229924,
+        0.956438587622165
+      ],
+      "all_after": [
+        0.9526366549523864,
+        0.9665912784167093,
+        0.9760343440623286,
+        0.9686941451558857
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6007,
+      "condition": "rewired_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9706699541619844,
+      "gain": 0.4706699541619844,
+      "acquired": true,
+      "ood_accuracy": 0.9688039320168127,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.717687439278155,
+        0.8660570894474168,
+        0.9766827871481862,
+        0.9963227411355998
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9213981303957245,
+        0.9438347041299935,
+        0.9652862721563266,
+        0.9645597064201055
+      ],
+      "anchored_after": [
+        0.9529215203624504,
+        0.9515811691635467,
+        0.9453360858623215,
+        0.9325615302582562
+      ],
+      "all_after": [
+        0.9354085259364917,
+        0.9472775774782394,
+        0.9564195226923243,
+        0.9503382947926169
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6007,
+      "condition": "rewired_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9917627065589032,
+      "gain": 0.4917627065589032,
+      "acquired": true,
+      "ood_accuracy": 0.9910694582389161,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7759917277867451,
+        0.9232072567504178,
+        0.9931609728726783,
+        0.999429887750162
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9360588897826271,
+        0.961961852256341,
+        0.9824784015102781,
+        0.9790831423301576
+      ],
+      "anchored_after": [
+        0.9751312740149839,
+        0.9743589296521056,
+        0.9699200730223158,
+        0.9574937633460018
+      ],
+      "all_after": [
+        0.9534243938858966,
+        0.9674716644322365,
+        0.976896922182295,
+        0.9694878627816441
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6007,
+      "condition": "ann_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9705018914846171,
+      "gain": 0.4705018914846171,
+      "acquired": true,
+      "ood_accuracy": 0.9682149155542827,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.714273650251902,
+        0.862109380625187,
+        0.9750965162422932,
+        0.9959340071845333
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9204920799048647,
+        0.9426697603868567,
+        0.9641257768279934,
+        0.9636579997733904
+      ],
+      "anchored_after": [
+        0.9525228023460263,
+        0.9511641010153181,
+        0.9448782532517148,
+        0.9321617667004863
+      ],
+      "all_after": [
+        0.9347279565453811,
+        0.946445022888395,
+        0.955571321905203,
+        0.9496596739632109
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6007,
+      "condition": "ann_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9912947076948314,
+      "gain": 0.4912947076948314,
+      "acquired": true,
+      "ood_accuracy": 0.9905005270695646,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7723992463123821,
+        0.9202055031154208,
+        0.9925622996531007,
+        0.999352374052822
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9353109526882682,
+        0.9610493242955871,
+        0.9816828075359182,
+        0.9784311168285992
+      ],
+      "anchored_after": [
+        0.9744162803693427,
+        0.9736134805140195,
+        0.9690631893106242,
+        0.9565857631578171
+      ],
+      "all_after": [
+        0.9526910983243012,
+        0.9666333937260014,
+        0.9760740883246766,
+        0.968722070752696
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6008,
+      "condition": "linear_raw",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.6453107959415023,
+      "gain": 0.1453107959415023,
+      "acquired": false,
+      "ood_accuracy": 0.645310793648459,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.5373360060511275,
+        0.5742579564662047,
+        0.6453107961380385,
+        0.710483862643506
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.6962976105603897,
+        0.700968006776923,
+        0.7095310581054186,
+        0.716897598445857
+      ],
+      "anchored_after": [
+        0.6914857658784356,
+        0.6912598023766452,
+        0.6903646659978651,
+        0.6889032573641088
+      ],
+      "all_after": [
+        0.6941590129239658,
+        0.6966532492656883,
+        0.7010126616131727,
+        0.7044556690761911
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6008,
+      "condition": "linear_normalized",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9654857695737267,
+      "gain": 0.46548576957372667,
+      "acquired": true,
+      "ood_accuracy": 0.9654836368024418,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.696949674156327,
+        0.8409922189409846,
+        0.9654858181382681,
+        0.9932864691230628
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9157599533878756,
+        0.9365658024220449,
+        0.9578934781104432,
+        0.9586442732042026
+      ],
+      "anchored_after": [
+        0.9501599542794755,
+        0.9486992045826274,
+        0.942206083413395,
+        0.9298131294957587
+      ],
+      "all_after": [
+        0.931048842673031,
+        0.941958425604526,
+        0.9509213026895327,
+        0.9458304315560052
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6008,
+      "condition": "linear_random_reward",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.45023171407346996,
+      "gain": -0.04976828592653004,
+      "acquired": false,
+      "ood_accuracy": 0.45023252070085473,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.4875191805201988,
+        0.47505390450947155,
+        0.4502316935831155,
+        0.4256548030647809
+      ],
+      "focal_greedy_after": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.42638709108517564,
+        0.4247389111444962,
+        0.4214810276439612,
+        0.4182826378569385
+      ],
+      "anchored_after": [
+        0.4301535231484363,
+        0.4301647376839255,
+        0.4302095299681321,
+        0.43028394761882444
+      ],
+      "all_after": [
+        0.42806106089106916,
+        0.42715038960646473,
+        0.4253603620102593,
+        0.4236165533066655
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6008,
+      "condition": "fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.967453230851241,
+      "gain": 0.467453230851241,
+      "acquired": true,
+      "ood_accuracy": 0.9663680363779343,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7154727340727883,
+        0.8634813527821731,
+        0.9756186010860675,
+        0.9960549651855809
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9206335870342546,
+        0.942917173297229,
+        0.9643345328346113,
+        0.9636091053709573
+      ],
+      "anchored_after": [
+        0.9508634659832045,
+        0.9494858215583152,
+        0.9431243278994828,
+        0.9303107904762621
+      ],
+      "all_after": [
+        0.9340690887893435,
+        0.9458365725243786,
+        0.9549077750856654,
+        0.9488098543066483
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6008,
+      "condition": "plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9902574142624918,
+      "gain": 0.4902574142624918,
+      "acquired": true,
+      "ood_accuracy": 0.9897668849641463,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7702435068293885,
+        0.9183543040852167,
+        0.9921706326616451,
+        0.9992988329197651
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9348569586714316,
+        0.9605032397589625,
+        0.9811969089309304,
+        0.9779836878543484
+      ],
+      "anchored_after": [
+        0.9733410374724686,
+        0.9725091854733381,
+        0.967848436970644,
+        0.9553003518698233
+      ],
+      "all_after": [
+        0.9519609936941146,
+        0.9658392156320184,
+        0.9752642547263586,
+        0.9679022051945594
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6008,
+      "condition": "rewired_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9668682592485378,
+      "gain": 0.4668682592485378,
+      "acquired": true,
+      "ood_accuracy": 0.9646403260999097,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7152573000766271,
+        0.8632592481738134,
+        0.975525406277282,
+        0.9960299091529669
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9204407373209905,
+        0.9427126895556212,
+        0.9641329632854229,
+        0.9634126172566909
+      ],
+      "anchored_after": [
+        0.9499081384615936,
+        0.9485266814641332,
+        0.9421467825308997,
+        0.9293456488861804
+      ],
+      "all_after": [
+        0.9335373600501475,
+        0.9452966859594043,
+        0.954361327394524,
+        0.9482717424253531
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6008,
+      "condition": "rewired_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9915883248164963,
+      "gain": 0.4915883248164963,
+      "acquired": true,
+      "ood_accuracy": 0.9909108785447271,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7764741303533644,
+        0.9235669290431252,
+        0.9932144329085775,
+        0.9994353869877088
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9361610900616102,
+        0.9620863896226636,
+        0.9825757398309343,
+        0.9791463104106763
+      ],
+      "anchored_after": [
+        0.9749604555357733,
+        0.9741880782205459,
+        0.9697424360442904,
+        0.957305360853383
+      ],
+      "all_after": [
+        0.9534052524945715,
+        0.967464917888389,
+        0.9768720492590925,
+        0.9694392217185459
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6008,
+      "condition": "ann_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9672475573289198,
+      "gain": 0.46724755732891976,
+      "acquired": true,
+      "ood_accuracy": 0.9661986301820366,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7093633099355469,
+        0.8562603435967326,
+        0.9725576586956322,
+        0.9952586137998789
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9190244547642089,
+        0.9408262501570325,
+        0.9622013479439779,
+        0.961945274755225
+      ],
+      "anchored_after": [
+        0.9503469045092463,
+        0.9489329747107792,
+        0.9425003459632819,
+        0.9298276744732693
+      ],
+      "all_after": [
+        0.9329455435397812,
+        0.9444292388475867,
+        0.9534453470636687,
+        0.9476707857410226
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6008,
+      "condition": "ann_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9892589982160102,
+      "gain": 0.48925899821601015,
+      "acquired": true,
+      "ood_accuracy": 0.9887657674698909,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7628279929980638,
+        0.9118831726760398,
+        0.9907493127279094,
+        0.999095880673517
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9333044898109523,
+        0.9585845074271386,
+        0.9794882192721843,
+        0.976604442718384
+      ],
+      "anchored_after": [
+        0.9719887446398148,
+        0.9710918877175857,
+        0.9662058468682626,
+        0.9535893173593681
+      ],
+      "all_after": [
+        0.9504974919571135,
+        0.9641433431117817,
+        0.9735849426482192,
+        0.966375498114377
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6009,
+      "condition": "linear_raw",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.6481758433933611,
+      "gain": 0.1481758433933611,
+      "acquired": false,
+      "ood_accuracy": 0.6481758382791141,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.5381153186403249,
+        0.5757902120195539,
+        0.64817584327905,
+        0.7143377641402768
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.6994502832268615,
+        0.7042092549437934,
+        0.7129088949240376,
+        0.7203498378435472
+      ],
+      "anchored_after": [
+        0.6947597838408539,
+        0.6945223293003111,
+        0.6935819271447891,
+        0.6920475057009773
+      ],
+      "all_after": [
+        0.6973656168330804,
+        0.6999039546578012,
+        0.7043191314665939,
+        0.7077710235579606
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6009,
+      "condition": "linear_normalized",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9684271175449026,
+      "gain": 0.4684271175449026,
+      "acquired": true,
+      "ood_accuracy": 0.9684269661457684,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7017914258807306,
+        0.8470548947376195,
+        0.9684270948710569,
+        0.9941477623688969
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9174349659438606,
+        0.938642382353724,
+        0.9600413720331517,
+        0.9604881346106624
+      ],
+      "anchored_after": [
+        0.9525683020551331,
+        0.9511427696516122,
+        0.9447283512544217,
+        0.9322610168824136
+      ],
+      "all_after": [
+        0.933049781993315,
+        0.9441981100416744,
+        0.9532355850203826,
+        0.9479427489536628
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6009,
+      "condition": "linear_random_reward",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.5789516289236398,
+      "gain": 0.07895162892363983,
+      "acquired": false,
+      "ood_accuracy": 0.5789447847084709,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.5198939039732747,
+        0.5397249214599101,
+        0.5789514857247583,
+        0.6172060332558146
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.6144372707483238,
+        0.6170296929212988,
+        0.6220681797486922,
+        0.6268807182103282
+      ],
+      "anchored_after": [
+        0.6092926489932893,
+        0.6092498254400932,
+        0.6090791444573286,
+        0.6087968199115633
+      ],
+      "all_after": [
+        0.6121507721905307,
+        0.6135719740407629,
+        0.6162952751747528,
+        0.6188434300775438
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6009,
+      "condition": "fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9688805864528163,
+      "gain": 0.4688805864528163,
+      "acquired": true,
+      "ood_accuracy": 0.9602070494362037,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7139677950403654,
+        0.8621751935848965,
+        0.9754235368363124,
+        0.9960552024632502
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9196813904117083,
+        0.9418756537846106,
+        0.9633117179270388,
+        0.9626956385422497
+      ],
+      "anchored_after": [
+        0.9480170720876638,
+        0.9466325262230083,
+        0.9402634612544635,
+        0.9274851974098833
+      ],
+      "all_after": [
+        0.9322750267121329,
+        0.9439898193127874,
+        0.9530680482947832,
+        0.9470465535945313
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6009,
+      "condition": "plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9949021880629094,
+      "gain": 0.4949021880629094,
+      "acquired": true,
+      "ood_accuracy": 0.9933723776806487,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7952437910692517,
+        0.9383194536090083,
+        0.9957861571944788,
+        0.999728108662267
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9398291595029394,
+        0.9664790983525149,
+        0.9862097300512361,
+        0.9821190463109251
+      ],
+      "anchored_after": [
+        0.9785281858033265,
+        0.9779242625865127,
+        0.9741292785460399,
+        0.9620658493842322
+      ],
+      "all_after": [
+        0.9570287267475559,
+        0.9715658380120694,
+        0.9808406404933713,
+        0.973206514343506
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6009,
+      "condition": "rewired_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9700358939851894,
+      "gain": 0.4700358939851894,
+      "acquired": true,
+      "ood_accuracy": 0.9673622260137811,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7161724125097276,
+        0.8642250056131967,
+        0.97586610131821,
+        0.9961120508277265
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.920544097665068,
+        0.9428613631882873,
+        0.9642877541623528,
+        0.9636164661725383
+      ],
+      "anchored_after": [
+        0.9503764933286227,
+        0.9490177495295401,
+        0.942717973038154,
+        0.9299533542810438
+      ],
+      "all_after": [
+        0.9338029401822032,
+        0.9455975348955106,
+        0.9547011847738199,
+        0.9486550831096517
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6009,
+      "condition": "rewired_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9958973607882992,
+      "gain": 0.49589736078829916,
+      "acquired": true,
+      "ood_accuracy": 0.9954385233562983,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.8047232318637191,
+        0.9443988758511287,
+        0.9965449935827555,
+        0.9997956461295537
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9416939878499352,
+        0.9685350107287285,
+        0.9877564886165658,
+        0.9834878946275426
+      ],
+      "anchored_after": [
+        0.9814508609327223,
+        0.980917344049851,
+        0.9774346656364217,
+        0.9656694512491325
+      ],
+      "all_after": [
+        0.9593637092200629,
+        0.9740382699825607,
+        0.9831690117365018,
+        0.9755685864593602
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6009,
+      "condition": "ann_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9683613118061729,
+      "gain": 0.4683613118061729,
+      "acquired": true,
+      "ood_accuracy": 0.9644171742896757,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7135665645063297,
+        0.861276717475715,
+        0.9747169767690171,
+        0.9958310072506878
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.919662657667913,
+        0.9417853669138888,
+        0.9631804666093617,
+        0.9626413136397092
+      ],
+      "anchored_after": [
+        0.9489920943823272,
+        0.947610978603373,
+        0.9412510549691037,
+        0.9284958825702554
+      ],
+      "all_after": [
+        0.9326979628743194,
+        0.9443745276647706,
+        0.9534340614359136,
+        0.9474655664977296
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6009,
+      "condition": "ann_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9959141699877196,
+      "gain": 0.49591416998771964,
+      "acquired": true,
+      "ood_accuracy": 0.9952662195967854,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.8053961423154418,
+        0.9449196481584488,
+        0.9966238517070898,
+        0.9998029416119638
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9417937509304418,
+        0.9686565926830751,
+        0.9878420054150652,
+        0.9835371751334951
+      ],
+      "anchored_after": [
+        0.9813610579981348,
+        0.9808331411286219,
+        0.977371387072616,
+        0.9656108400656578
+      ],
+      "all_after": [
+        0.9593792207383053,
+        0.9740683919922071,
+        0.9831883972628656,
+        0.9755699151033452
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6010,
+      "condition": "linear_raw",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.6470198670498277,
+      "gain": 0.14701986704982772,
+      "acquired": false,
+      "ood_accuracy": 0.6470198646529091,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.537800561896199,
+        0.5751714789562389,
+        0.6470198671278092,
+        0.7127848098465202
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.6981820967128527,
+        0.7029053305231646,
+        0.7115499962500373,
+        0.7189612605115104
+      ],
+      "anchored_after": [
+        0.6934416712818182,
+        0.6932088861854323,
+        0.6922868759441844,
+        0.6907821130801891
+      ],
+      "all_after": [
+        0.6960752409657263,
+        0.6985957997063946,
+        0.7029886094474359,
+        0.7064371949864786
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6010,
+      "condition": "linear_normalized",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9630891824362862,
+      "gain": 0.46308918243628616,
+      "acquired": true,
+      "ood_accuracy": 0.9630868693610755,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.6932609865805651,
+        0.8362818762886188,
+        0.9630892508156229,
+        0.992552998627076
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9144266797951635,
+        0.9349199701829035,
+        0.9561821589651522,
+        0.957168235345257
+      ],
+      "anchored_after": [
+        0.9482483295776517,
+        0.9467624576069155,
+        0.9402164413042654,
+        0.927887286014445
+      ],
+      "all_after": [
+        0.929458524142936,
+        0.9401832979269088,
+        0.9490862844492024,
+        0.9441544800871183
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6010,
+      "condition": "linear_random_reward",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.47690747499530395,
+      "gain": -0.023092525004696052,
+      "acquired": false,
+      "ood_accuracy": 0.4769092895738463,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.49422302415778097,
+        0.4884475904702596,
+        0.4769075083044465,
+        0.46539202830639725
+      ],
+      "focal_greedy_after": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.4654672873776548,
+        0.46469866410847815,
+        0.46316536450736817,
+        0.46163817428653486
+      ],
+      "anchored_after": [
+        0.4673524196033056,
+        0.46735356633794045,
+        0.4673581522505947,
+        0.46736579037826
+      ],
+      "all_after": [
+        0.46630512392238854,
+        0.46587862065490576,
+        0.46502882572658,
+        0.46418378143841266
+      ],
+      "qualified_unseen_transfer": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "qualified_focal_transfer": [
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "seed": 6010,
+      "condition": "fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9655129523426871,
+      "gain": 0.4655129523426871,
+      "acquired": true,
+      "ood_accuracy": 0.9630110935447639,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7074611245904514,
+        0.8540083757484117,
+        0.9716015801682523,
+        0.9950146857270481
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9179781430703017,
+        0.9396276739703046,
+        0.9609876152773246,
+        0.9608369107602684
+      ],
+      "anchored_after": [
+        0.947843225009333,
+        0.9464251703155885,
+        0.9399784861737891,
+        0.9272937037130452
+      ],
+      "all_after": [
+        0.9312515128209824,
+        0.9426487834570976,
+        0.9516502245646421,
+        0.9459288187392803
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6010,
+      "condition": "plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9893163864703337,
+      "gain": 0.4893163864703337,
+      "acquired": true,
+      "ood_accuracy": 0.988424407975335,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7622975691551478,
+        0.9114289061401445,
+        0.9906539922569938,
+        0.9990834137367611
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9331189558795953,
+        0.9583789578243149,
+        0.979299863068773,
+        0.976441783275022
+      ],
+      "anchored_after": [
+        0.971278251202249,
+        0.9703827495542975,
+        0.965502629936723,
+        0.952889238065771
+      ],
+      "all_after": [
+        0.9500786426896634,
+        0.9637139763709738,
+        0.9731677594545286,
+        0.965973985404244
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6010,
+      "condition": "rewired_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.965387445948287,
+      "gain": 0.46538744594828696,
+      "acquired": true,
+      "ood_accuracy": 0.9628069585689578,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7042096178239676,
+        0.8501410201016373,
+        0.969937022079511,
+        0.9945766829825129
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9172977521024125,
+        0.938696063228151,
+        0.9600648031947719,
+        0.9602016298744586
+      ],
+      "anchored_after": [
+        0.9482676501671315,
+        0.9468353233765657,
+        0.9403674163270687,
+        0.9277654764172852
+      ],
+      "all_after": [
+        0.9310621512422876,
+        0.942313512183002,
+        0.9513104090313481,
+        0.9457855616712704
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6010,
+      "condition": "rewired_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9867591479679758,
+      "gain": 0.4867591479679758,
+      "acquired": true,
+      "ood_accuracy": 0.9855979789081738,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7506308271603729,
+        0.9007832355153811,
+        0.9880797413892506,
+        0.9986805259071467
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9305831538532795,
+        0.9552310935158909,
+        0.976441803896979,
+        0.9741132564474559
+      ],
+      "anchored_after": [
+        0.9685201242096237,
+        0.967518193481947,
+        0.9622799266755243,
+        0.9495705129027051
+      ],
+      "all_after": [
+        0.9474440295672103,
+        0.9606920268341379,
+        0.9701476362429993,
+        0.9632053704275667
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6010,
+      "condition": "ann_fixed",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9642953581065714,
+      "gain": 0.4642953581065714,
+      "acquired": true,
+      "ood_accuracy": 0.9601631419319181,
+      "head_updates": 400,
+      "internal_updates": 0,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7058041138706251,
+        0.8520146332535712,
+        0.970716872249843,
+        0.9947730982205719
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9170687952635893,
+        0.938586952796317,
+        0.9599298275052175,
+        0.9598667703456709
+      ],
+      "anchored_after": [
+        0.945351009089905,
+        0.9439123867971482,
+        0.93741374348552,
+        0.9247518241606308
+      ],
+      "all_after": [
+        0.9296386680752852,
+        0.9409538123522417,
+        0.9499226790520184,
+        0.9442601275967645
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "seed": 6010,
+      "condition": "ann_plastic",
+      "before_accuracy": 0.5,
+      "after_accuracy": 0.9905544921874425,
+      "gain": 0.4905544921874425,
+      "acquired": true,
+      "ood_accuracy": 0.9894215353522193,
+      "head_updates": 400,
+      "internal_updates": 400,
+      "focal_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "focal_after": [
+        0.7690591169797433,
+        0.9173172808539171,
+        0.9919450049664112,
+        0.9992673987688973
+      ],
+      "focal_greedy_after": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "unseen_before": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "unseen_after": [
+        0.9344481446653276,
+        0.9600295349889776,
+        0.9807568082626047,
+        0.9776263118157008
+      ],
+      "anchored_after": [
+        0.9719567793047275,
+        0.971121625056619,
+        0.9664522504826282,
+        0.9539194532047407
+      ],
+      "all_after": [
+        0.9511186489495053,
+        0.9649593527968181,
+        0.9743992270270597,
+        0.9670899302108296
+      ],
+      "qualified_unseen_transfer": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "qualified_focal_transfer": [
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "family_verdicts": [
+    {
+      "condition": "linear_raw",
+      "n_seeds": 10,
+      "acquisition_count": 0,
+      "acquisition_criterion_met": false,
+      "joint_identity_transfer_count": 0,
+      "joint_transfer_criterion_met": false,
+      "mean_after_accuracy": 0.6470721134661879,
+      "sd_after_accuracy": 0.0012877159648095864,
+      "mean_unseen_after": [
+        0.6982366271460217,
+        0.7029614762143022,
+        0.7116085281163546,
+        0.7190208863773468
+      ]
+    },
+    {
+      "condition": "linear_normalized",
+      "n_seeds": 10,
+      "acquisition_count": 10,
+      "acquisition_criterion_met": true,
+      "joint_identity_transfer_count": 10,
+      "joint_transfer_criterion_met": true,
+      "mean_after_accuracy": 0.9684927058856132,
+      "sd_after_accuracy": 0.0029333159495297284,
+      "mean_unseen_after": [
+        0.9174966478232209,
+        0.9387232759751152,
+        0.9601178337415737,
+        0.9605489364886448
+      ]
+    },
+    {
+      "condition": "linear_random_reward",
+      "n_seeds": 10,
+      "acquisition_count": 0,
+      "acquisition_criterion_met": false,
+      "joint_identity_transfer_count": 0,
+      "joint_transfer_criterion_met": false,
+      "mean_after_accuracy": 0.47983560807285297,
+      "sd_after_accuracy": 0.09840121417613801,
+      "mean_unseen_after": [
+        0.47254117425706754,
+        0.4718903419685116,
+        0.47068848202367547,
+        0.4696400610418559
+      ]
+    },
+    {
+      "condition": "fixed",
+      "n_seeds": 10,
+      "acquisition_count": 10,
+      "acquisition_criterion_met": true,
+      "joint_identity_transfer_count": 10,
+      "joint_transfer_criterion_met": true,
+      "mean_after_accuracy": 0.9697371539762827,
+      "sd_after_accuracy": 0.002593719967004941,
+      "mean_unseen_after": [
+        0.9205825967176626,
+        0.9429318985095838,
+        0.9643494109224608,
+        0.9636419905365917
+      ]
+    },
+    {
+      "condition": "plastic",
+      "n_seeds": 10,
+      "acquisition_count": 10,
+      "acquisition_criterion_met": true,
+      "joint_identity_transfer_count": 10,
+      "joint_transfer_criterion_met": true,
+      "mean_after_accuracy": 0.9908097892254396,
+      "sd_after_accuracy": 0.0019879393540046244,
+      "mean_unseen_after": [
+        0.9350609222649942,
+        0.9607541931273372,
+        0.9813580203014114,
+        0.9781162041532274
+      ]
+    },
+    {
+      "condition": "rewired_fixed",
+      "n_seeds": 10,
+      "acquisition_count": 10,
+      "acquisition_criterion_met": true,
+      "joint_identity_transfer_count": 10,
+      "joint_transfer_criterion_met": true,
+      "mean_after_accuracy": 0.9697100476123073,
+      "sd_after_accuracy": 0.0027449585179808544,
+      "mean_unseen_after": [
+        0.9205306352045974,
+        0.9428320719388898,
+        0.9642490204724734,
+        0.9635910418947964
+      ]
+    },
+    {
+      "condition": "rewired_plastic",
+      "n_seeds": 10,
+      "acquisition_count": 10,
+      "acquisition_criterion_met": true,
+      "joint_identity_transfer_count": 10,
+      "joint_transfer_criterion_met": true,
+      "mean_after_accuracy": 0.9911536767368119,
+      "sd_after_accuracy": 0.002342061742791075,
+      "mean_unseen_after": [
+        0.9354835029805472,
+        0.961237344791177,
+        0.9817584935978635,
+        0.9784659875802564
+      ]
+    },
+    {
+      "condition": "ann_fixed",
+      "n_seeds": 10,
+      "acquisition_count": 10,
+      "acquisition_criterion_met": true,
+      "joint_identity_transfer_count": 10,
+      "joint_transfer_criterion_met": true,
+      "mean_after_accuracy": 0.9693737826538535,
+      "sd_after_accuracy": 0.002702896086988322,
+      "mean_unseen_after": [
+        0.920408145696577,
+        0.9426866549094715,
+        0.964098164988075,
+        0.9634538490180402
+      ]
+    },
+    {
+      "condition": "ann_plastic",
+      "n_seeds": 10,
+      "acquisition_count": 10,
+      "acquisition_criterion_met": true,
+      "joint_identity_transfer_count": 10,
+      "joint_transfer_criterion_met": true,
+      "mean_after_accuracy": 0.9917293992877058,
+      "sd_after_accuracy": 0.002082535249793607,
+      "mean_unseen_after": [
+        0.9361525806845821,
+        0.9620426617804375,
+        0.9824511581461925,
+        0.979041237079476
+      ]
+    }
+  ],
+  "paired_reward_contrasts": [
+    {
+      "seed": 6001,
+      "iid_reward_gap": 0.4781828870350616
+    },
+    {
+      "seed": 6002,
+      "iid_reward_gap": 0.3238646417532888
+    },
+    {
+      "seed": 6003,
+      "iid_reward_gap": 0.6287417176251986
+    },
+    {
+      "seed": 6004,
+      "iid_reward_gap": 0.5692791451498154
+    },
+    {
+      "seed": 6005,
+      "iid_reward_gap": 0.48460733641135645
+    },
+    {
+      "seed": 6006,
+      "iid_reward_gap": 0.39507400315706276
+    },
+    {
+      "seed": 6007,
+      "iid_reward_gap": 0.6159099954333189
+    },
+    {
+      "seed": 6008,
+      "iid_reward_gap": 0.5152540555002567
+    },
+    {
+      "seed": 6009,
+      "iid_reward_gap": 0.3894754886212628
+    },
+    {
+      "seed": 6010,
+      "iid_reward_gap": 0.4861817074409822
+    }
+  ],
+  "hypotheses": {
+    "H_R": {
+      "criterion_met": true,
+      "mean_iid_reward_gap": 0.48865709781276045,
+      "positive_seed_count": 10,
+      "acquisition_count": 10
+    },
+    "H_G": {
+      "criterion_met": true,
+      "joint_identity_transfer_count": 10
+    }
+  },
+  "actual_training_trials": 36000,
+  "frozen_evaluation_maps": 4,
+  "interpretation": "independent immediate binary-reward learning on supplied scalar order; initial TRAIN gradient RMS normalized, not equal capacity or biological mechanisms"
+}

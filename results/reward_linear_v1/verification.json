@@ -1,0 +1,44 @@
+{
+  "audited_at_utc": "2026-10-14T04:09:11.152860+00:00",
+  "passed": true,
+  "method": "independent numpy/stdlib arithmetic replay; only prior independent audit helpers reused",
+  "input_scope": "reward-only learners; artificial scalar input; fixed train-derived initial feature-gap scale",
+  "counts": {
+    "artifact_hashes": 688,
+    "source_hashes": 33,
+    "seeds": 10,
+    "conditions": 9,
+    "actual_fits": 90,
+    "trials": 36000,
+    "curve_rows": 900,
+    "checkpoints": 450,
+    "transfer_files": 180,
+    "frozen_evaluation_maps": 4,
+    "transfer_probability_entries": 19440,
+    "case_probability_entries": 2488320,
+    "candidate_score_entries": 17418240,
+    "primary_unseen_pairs": 15,
+    "anchored_pairs": 12,
+    "canonical_fingerprints": 20560
+  },
+  "checks": [
+    "Required primary hashes, config/source byte freeze, source file set, and local registration/run chronology",
+    "All30 raw splits independently regenerated, complete joint nuisance crossing, canonical disjointness and anchored map identity",
+    "Anatomical source independently parsed; real/rewired/ANN topologies and control RNG independently reconstructed",
+    "Every initial feature-gap RMS reconstructed solely from training inputs and initial features; scale fixed at all checkpoints",
+    "All readouts initialized exactly to zero; linear models preserve empty biological-state arrays",
+    "Every contingent/random reward, shared action choice, trial probability and reward-only update independently replayed",
+    "Internal gradients use old readout weights and fixed-scale chain rule; clipping and first zero-head internal step independently checked",
+    "Every checkpoint's internal/readout parameters, KC/MBON/decision activations and IID/OOD responses independently reconstructed",
+    "All baseline/final candidate scores, four-map probabilities, pair means and greedy responses independently reconstructed",
+    "Acquisition, acquired-only transfer gates, all-seed aggregates and paired contingent-minus-random reward contrast independently checked"
+  ],
+  "errors": [],
+  "not_verified": [
+    "Visual extraction of numerosity, LC11/DAN dynamics, or shared human/fly neural mechanisms",
+    "Remote private Git publication authenticity; local chronology is self-recorded",
+    "Statistical significance, mathematical rule discovery, or educational implications",
+    "Equal feature-gap scale or equal trial budgets as complete equivalence of model capacity or optimization",
+    "Frozen spacing maps as independent learners or computational seeds as biological individuals"
+  ]
+}

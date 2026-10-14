@@ -9,13 +9,15 @@
   "reversal_diagnostic_source_commit": "55d95d4ab2830c9b2ff10fe5817dce8f91db0a0d",
   "encoding_diagnostic_source_commit": "48fc40494c716ae5a01cd1e79d7662b28b75babb",
   "spacing_diagnostic_source_commit": "d4cbe9542c8ec5846b4a877ee36deb47e456ea20",
-  "current_diagnostic_source_commit": "30323325bc2dc2b8825be7be5cadee153dce8add",
+  "linearity_diagnostic_source_commit": "30323325bc2dc2b8825be7be5cadee153dce8add",
+  "current_diagnostic_source_commit": "cc836c61055ca32a5205f8685a5a4171c43b77e7",
   "study_tags": {
     "smoke_v1": "v0.1.0-smoke",
     "reversal_v1": "study-reversal-v1",
     "encoding_v1": "study-encoding-v1",
     "spacing_v1": "study-spacing-v1",
-    "linearity_v1": "study-linearity-v1"
+    "linearity_v1": "study-linearity-v1",
+    "reward_linear_v1": "study-reward-linear-v1"
   },
-  "current_diagnostic": "linear_reference_diagnostic_v1"
+  "current_diagnostic": "independent_reward_linear_diagnostic_v1"
 }
