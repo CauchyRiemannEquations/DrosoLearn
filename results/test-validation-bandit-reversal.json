@@ -1,0 +1,111 @@
+{
+  "date_local": "2026-10-14",
+  "timezone": "Asia/Seoul",
+  "source_commit": "fceca94dc6e8137085112ad3a5b75a3cf3894e50",
+  "scope": "new study plus unchanged reused core and learner checks; complete historical suite not rerun",
+  "passed_relevant_tests": 401,
+  "failed": 0,
+  "new_study_tests": 239,
+  "reused_core_and_learner_tests": 162,
+  "focused_command": "python -m pytest tests/test_core.py tests/test_reward_linear.py tests/test_bandit_reversal.py tests/test_bandit_reversal_analysis.py -q",
+  "focused_passed": 255,
+  "focused_duration_seconds": 33.36,
+  "focused_warnings": 16,
+  "warning_kind": "Matplotlib uses deprecated Pyparsing API; checks passed",
+  "independent_audit_test_runs": {
+    "observed_after_completion_utc": "2026-10-14 04:39:35 UTC",
+    "status": "passed",
+    "tests_total": 146,
+    "source_unchanged_after_first_collection": true,
+    "engineering_fixture_seeds": [
+      91
+    ],
+    "planned_scientific_seeds_executed": false,
+    "source_sha256": "bf5e2dd7c07733dde9855fd0b42dade5cdab9bc7609d9f4daec1a04e458131aa",
+    "test_sha256": "51a2402ce6d7a6fb658c8d3409799e944ff2b4bab22ef70ec590896cf8227311",
+    "commands": [
+      {
+        "command": "../../work/venv/Scripts/python.exe -m pytest tests/test_bandit_reversal_audit.py -x -q",
+        "collected": 70,
+        "passed": 70,
+        "exit_code": 0,
+        "duration_seconds": 217.48,
+        "note": "Collected before the 76 additional tests were appended. Current-file reproduction uses the complement of the second command's filter."
+      },
+      {
+        "command": "../../work/venv/Scripts/python.exe -m pytest tests/test_bandit_reversal_audit.py -x -q -k 'never_calls or outcome_contrast or primary_hypothesis or expected_reference_cannot or boundary_event or curve_metrics or fixture_scope or source_drift'",
+        "collected": 146,
+        "selected": 76,
+        "deselected": 70,
+        "passed": 76,
+        "exit_code": 0,
+        "duration_seconds": 307.13
+      }
+    ]
+  },
+  "previous_full_suite": {
+    "tag": "study-reward-linear-v1",
+    "passed": 724,
+    "note": "Old source/tests/results preserved; new tests were added in this study."
+  },
+  "thread_limits": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "fixtures": "seeds91/92,8 trials per phase,8 evaluation rows; no scientific7001\u20137010 fit before freeze",
+  "coverage": [
+    "conditional expected action versus exact multistep stochastic ensemble distinction",
+    "same stage1 normalization and stage2 stimulus/action streams in four histories",
+    "all high prefixes and fixed reset versus fresh parameter/probability equality",
+    "head-only boundary with fixed internal state, scale and cumulative counters",
+    "separate actual and privileged deterministic update budgets and null reference gates",
+    "all-seed endpoint criteria, acquisition qualification and baseline versus gain versus AUC",
+    "source drift and exclusive records",
+    "independent replay and rehashed semantic corruption",
+    "derived reports and reconstructed unclipped margins preserve primary bytes"
+  ],
+  "python_snapshot_sha256": {
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/analysis.py": "5c70261b6fb8064aef7abfead85f9848e31e4ab7d7bfea300e678bc2204dfe2f",
+    "src/drosolearn/audit.py": "5effe6ba19814adaaf841abfd0fddece77ec31468c5fa8214b78be1d62ee4fea",
+    "src/drosolearn/bandit_reversal.py": "995ff73f7508d71d25d9ac5aaf705ba6f0a898dbc0c9cca25bcbe6f6a5479ac9",
+    "src/drosolearn/bandit_reversal_analysis.py": "8e6da480de4e81a74430d5fd26b0396cd81d46ddc290f763a59b87c2eac03253",
+    "src/drosolearn/bandit_reversal_audit.py": "bf5e2dd7c07733dde9855fd0b42dade5cdab9bc7609d9f4daec1a04e458131aa",
+    "src/drosolearn/cli.py": "67ecf0220c61b3257bd03fc7de58f47327f57e3004e82f82f2f9bbfc10199311",
+    "src/drosolearn/data.py": "e2a9f2108b37e0fa1c23607f657133d38bdd8cfbac648afc95d1fac85462d6dc",
+    "src/drosolearn/encoding.py": "87a429e3c68a650938861d4d00e4cb02fda4043eeba708a4f60f8754a45908a1",
+    "src/drosolearn/encoding_analysis.py": "39ee9096f333cfd29ae8782017372d379bb4bdcf32489f267293898673ce1f88",
+    "src/drosolearn/encoding_audit.py": "d07661f5521bf58321ec66c18c35dee40c9c4f37952586dc9e869854b56e889f",
+    "src/drosolearn/experiment.py": "b55bbec7b8fe402ac2aa16a28a50b3cde166dc612247a92dc6d727e1ecb58e3e",
+    "src/drosolearn/graph.py": "6c713164943f1e6a4c38c9138ecd9c437b56523d68b58cffb58dc6531ccea2c2",
+    "src/drosolearn/linearity.py": "c1aac5719fcc05354cfe889d48d58c6f08b28bae43c67e0de70f1e236e1f16c4",
+    "src/drosolearn/linearity_analysis.py": "b82fc5ab77cf979ab027b5d0cb9a67fcb781e872ebc08753668384cc03010f3d",
+    "src/drosolearn/linearity_audit.py": "788b1ecc3ae1df55feb72965a0d47006f305aa1f2dd0db2ce1b558873100c9ef",
+    "src/drosolearn/model.py": "21e855ebbddb6190816a8adad130216065a03a6fc2d757e42466bdc7aaca3497",
+    "src/drosolearn/reversal.py": "1b7dc871f0bdff7de977bd7ae153022e1a8b327686fac16a7be92d8745c7f3cb",
+    "src/drosolearn/reversal_analysis.py": "ddc775feebc84db480885f21e9700c4263a9eca1a2e35c6310e56819fa914f8a",
+    "src/drosolearn/reversal_audit.py": "da936d8d7c70233b3af11b9aac95254cc5bea79cff2c9e7e322eeba0c8f5c58b",
+    "src/drosolearn/reward_linear.py": "1432f65a1b027570ffe8c6b84e8ab9e25e9617c8f407bbf21465774b4f0cec0d",
+    "src/drosolearn/reward_linear_analysis.py": "b18a8a626cb64cd807b7c6f81605a5c0c97cd7cec718481c875a2450934f4e3d",
+    "src/drosolearn/reward_linear_audit.py": "3ba6ef4ecfa1b233f2e5d4dfdde22187599f51701d1c19b4a88a2a906073ee88",
+    "src/drosolearn/spacing.py": "f2ccf0b70f6d2a0e14829257570b27d240c545660026ce87d7f2b4d6c088187c",
+    "src/drosolearn/spacing_analysis.py": "dc54ce591808c3b56dd5c76fb6e14c002f81fa42d814edb7f00b6e0e06714c3d",
+    "src/drosolearn/spacing_audit.py": "2645b596eb4aef70115c4828475332bd2048d47553a28c6fb0c028f4eb8edc87",
+    "tests/test_bandit_reversal.py": "8cfa8024a5c125714cb899e7fc9d4b74e7198b0fd2621d0e97142890e1cc722e",
+    "tests/test_bandit_reversal_analysis.py": "e90de3d49a48220ebf403bf7e4e7b8ce953dfd5e492a94fa0412c40c610f282d",
+    "tests/test_bandit_reversal_audit.py": "51a2402ce6d7a6fb658c8d3409799e944ff2b4bab22ef70ec590896cf8227311",
+    "tests/test_core.py": "1512cfa0d66157594aea1ab67a45dba3c7a267683f1f6dd052901cd7533a431e",
+    "tests/test_encoding.py": "9b5a367cf02635376db1fa9530741aa3b442e6c9260d19140db82b2262c902a8",
+    "tests/test_encoding_audit.py": "4f0dd1c69237076fe3b15502027c9b588dd1cad64f1c7e04343729c9ca46676d",
+    "tests/test_linearity.py": "ac5525340c9629ff0683ec54ce9930345e279b3f074d6c92dbe34a05b253649c",
+    "tests/test_linearity_audit.py": "1f5a813fb098d7625dabd42e5a1df5d535469f7700c327cdfe8c1b315ee5374c",
+    "tests/test_reversal.py": "01576049b0d8f02c29c31124c86620c7d09a8e3059a0997b92a27d4946f0d636",
+    "tests/test_reversal_audit.py": "e8036cf442f35198417ad46631f2352990fa2c91d4aed9598e8ed60f5e920318",
+    "tests/test_reward_linear.py": "652b8cd64a2472bac837342253d9945dcfbcc870e9044d15a92be44f51de0d48",
+    "tests/test_reward_linear_analysis.py": "869319370032fc79f922ec484793a5d006fd92e355c551d0a2f7716dfa7ef406",
+    "tests/test_reward_linear_audit.py": "f51320147a868c8611b3a86030b8bc184047ca3248589406698b8e17f6ed997f",
+    "tests/test_spacing.py": "45333f41cf36f2605e3f0366f0a204c26b6fd302936f304d54abdfc76d598009",
+    "tests/test_spacing_audit.py": "c2cd570ec5aae74e420705723fa103c3ea4d963d2e273e8285e451f47df3928c"
+  }
+}
