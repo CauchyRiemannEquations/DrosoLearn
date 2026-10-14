@@ -1,0 +1,126 @@
+{
+  "anchors": {
+    "2": 2,
+    "4": 4
+  },
+  "fully_unseen_pairs": [
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      1,
+      7
+    ],
+    [
+      1,
+      8
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      5,
+      6
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      5,
+      8
+    ],
+    [
+      6,
+      7
+    ],
+    [
+      6,
+      8
+    ],
+    [
+      7,
+      8
+    ]
+  ],
+  "anchored_pairs": [
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      2,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      2,
+      8
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      5
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      4,
+      8
+    ]
+  ],
+  "code_order_oracle_unseen": 0.5,
+  "code_order_oracle_anchored": 0.6388888888888888,
+  "code_order_oracle_all": 0.5617283950617284,
+  "identity_aware_inverse_oracle": 1.0,
+  "inverse_oracle_scope": "unique scalar mappings only; quantity_removed is noninvertible",
+  "code_geometry_gap_units": "integer code units1..8; divide by8 for actual scalar input gap",
+  "oracle_is_privileged": true,
+  "full_unseen_policy_chance": "structural symmetry fixed before execution, not discovered learning failure"
+}

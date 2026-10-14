@@ -1,0 +1,41 @@
+{
+  "audited_at_utc": "2026-10-14T00:02:22.649744+00:00",
+  "passed": true,
+  "method": "independent numpy/stdlib replay; no learner/data/experiment/encoding/summary helper imports",
+  "input_scope": "artificial scalar codes and six crossed descriptors; exhaustive frozen-policy representation diagnostic",
+  "counts": {
+    "artifact_hashes": 898,
+    "seeds": 10,
+    "conditions": 6,
+    "fits_per_family": 2,
+    "actual_fits": 120,
+    "trials": 48000,
+    "curve_rows": 1200,
+    "checkpoints": 600,
+    "transfer_files": 240,
+    "permutation_panel_rows": 720,
+    "transfer_probability_entries": 2336040,
+    "primary_unseen_pairs": 15,
+    "anchored_pairs": 12,
+    "canonical_fingerprints": 20560
+  },
+  "checks": [
+    "Required primary hashes, exact two-fit design, and local registration/run chronology",
+    "All720 lexicographic anchored maps; bitwise-identical 2-vs-4 inputs under every map",
+    "All30 raw splits regenerated from registered seeds; complete joint descriptor crossing and canonical disjointness",
+    "Action uniforms and real/rewired/ANN resource checks; control topologies regenerated from their seeds",
+    "Frozen encoder/bias/topology and distinct internal, readout and activation changes independently recomputed",
+    "Every actual policy-gradient trial replayed with old-head eligibility, reward-only feedback and clipping",
+    "Every baseline/final logit cache and every720x27 frozen panel probability/greedy entry independently recomputed",
+    "Predeclared full-panel unseen chance and quantity-removed chance verified; not reported as discoveries",
+    "Acquisition gates separate from ordered unseen transfer; paired gaps and all-seed/qualified family summaries recomputed",
+    "Inverse-map analytic oracle marked privileged; code-order residual cues separately audited on primary15 and anchored12"
+  ],
+  "errors": [],
+  "not_verified": [
+    "Visual numerosity extraction, LC11/DAN biological dynamics or shared human/fly mechanisms",
+    "Remote private Git publication authenticity; local chronology is self-recorded",
+    "Statistical significance, mathematical rule discovery, broad transfer or educational implications",
+    "720 maps as independent learners or seeds as independent biological animals"
+  ]
+}

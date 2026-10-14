@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "frozen_source_and_protocol_unchanged": true,
+  "frozen_files_verified": 24,
+  "primary_artifact_hashes_verified": 898,
+  "remote_freeze_checked_before_execution": true,
+  "old_source_and_results_preserved_at": [
+    "v0.1.0-smoke",
+    "study-reversal-v1"
+  ],
+  "previous_study_files_byte_verified": 3488,
+  "allowed_previous_document_updates": [
+    "README.md",
+    "docs/repository-status.json",
+    "docs/research-roadmap.md"
+  ],
+  "diagnostic_source_commit": "48fc40494c716ae5a01cd1e79d7662b28b75babb"
+}
