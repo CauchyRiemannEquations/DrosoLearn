@@ -149,6 +149,21 @@ Linux/macOS는 `python3.12 -m venv .venv`와 `.venv/bin/python`으로 실행한�
 
 새 과학적 설정은 별도 프로토콜·검증기·등록으로 구분한다. 등록 명령은 `python -m drosolearn.reward_linear register --config configs/reward_linear_diagnostic.json --out results/registration_NEW.json`이며 기존 경로를 덮어쓰지 않는다. 현재 연구의 시드·조건·척도 규칙·초기화·예산·학습률·판정 기준은 변경하면 등록을 거부한다.
 
+## 후속: 단순 학습자의 보상 반전 비용
+
+이번에는 **처음부터 작은 쪽을 배우는 경우**와 **큰 쪽을 배운 뒤 작은 쪽으로 바꾸는 경우**를 비교한다. 출력 계수만0으로 되돌리는 경계 대조와 작은 쪽을 계속 연습하는 대조도 포함한다. [사전 계획](docs/bandit-reversal-protocol.md), [계산적 배경](docs/bandit-reversal-background.md), [실행 보고서](results/bandit_reversal_v1/report.md)를 보존한다.
+
+단순 선형과 기존 여섯 정규화 네트워크, 네 학습 이력, 새7001–7010시드를 사용한다. 단계당400시행이며 실제 선택·보상 학습196,000회와 별도 기대 갱신 참조28,000회를 구분한다. 참조는 정답 정보를 사용해 현재 상태에서 행동을 평균한 갱신을 반복하는 계산 경로로, 확률적 학습 궤적의 모집단 평균이나 독립 보상 학습자가 아니다. 주 H-B는 단순 모델의 fresh/high 습득과 고정400회 뒤의 끝점 비용을 함께 판정한다. 출발점·향상·원시 및 시작점을 보정한 곡선 면적을 별도 기록하며 낮은 끝점이나 면적을 학습 속도 자체의 증거로 읽지 않는다.
+
+재현은 `study-bandit-reversal-v1` 태그의 별도 checkout과 Python3.12 환경에서 새 결과 경로를 사용한다:
+
+```powershell
+.\.venv\Scripts\python.exe -m drosolearn.bandit_reversal run --config configs/bandit_reversal_diagnostic.json --registration results/registration_bandit_reversal_v1.json --out results/MY_BANDIT_REVERSAL_REPLAY
+.\.venv\Scripts\python.exe -m drosolearn.bandit_reversal verify --out results/MY_BANDIT_REVERSAL_REPLAY
+```
+
+새 설정은 별도 프로토콜·검증기·등록으로 구분한다. 등록 명령은 `python -m drosolearn.bandit_reversal register --config configs/bandit_reversal_diagnostic.json --out results/registration_NEW.json`이며 기존 경로를 덮어쓰지 않는다. 현재 연구의 시드·조건·학습 이력·초기화·척도·예산·학습률·판정 기준은 고정한다.
+
 ## 연구 문서
 
 | 문서 | 내용 |

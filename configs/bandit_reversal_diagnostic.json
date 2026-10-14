@@ -1,0 +1,27 @@
+{
+  "experiment_id": "independent_bandit_reversal_diagnostic_v1",
+  "scope": "preregistered_diagnostic",
+  "seeds": [7001, 7002, 7003, 7004, 7005, 7006, 7007, 7008, 7009, 7010],
+  "graph": "data/flywire_783_mb_left_kc512_s701",
+  "pair": [2, 4],
+  "conditions": ["linear_normalized", "fixed", "plastic", "rewired_fixed", "rewired_plastic", "ann_fixed", "ann_plastic"],
+  "histories": ["fresh_low", "high_to_low", "high_to_low_reset_head", "low_to_low"],
+  "trials_per_phase": 400,
+  "checkpoint_every": 100,
+  "eval_trials": 128,
+  "probe_rows": 8,
+  "head_lr": 0.1,
+  "internal_lr": 0.01,
+  "head_initialization": "zeros_all_conditions",
+  "feature_normalization": "fixed_initial_phase1_train_feature_gap_rms",
+  "expected_reference": "conditional_expected_action_linear",
+  "criteria": {
+    "acquisition_accuracy": 0.75,
+    "acquisition_gain": 0.15,
+    "adaptation_accuracy": 0.75,
+    "endpoint_cost": 0.1,
+    "seed_pass_fraction": 0.8
+  },
+  "stopping": "fixed400 trials per phase; no tuning, seed replacement or budget extension; fresh_low has400 reward updates and other histories800; all seven conditions and ten seeds retained",
+  "input_scope": "order-preserving artificial n/8 plus six nuisance coordinates; paired2vs4 reversal and nuisanceOOD only; no visual number extraction, teacher scores or mathematical rule discovery; deterministic binary choice reward is label-equivalent information"
+}
