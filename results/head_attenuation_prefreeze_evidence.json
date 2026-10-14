@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-14T23:10:49.822424+00:00",
+  "published_commit": "90b7d90b423b452b94324d835f1b9128479c3107",
+  "registration_sha256": "b1ec82068ba6de8e2a4cc8ceebc876e90600dc199eea59af89afe4aa0299e49f",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/90b7d90b423b452b94324d835f1b9128479c3107/results/registration_head_attenuation_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "verified before study execution; private Git publication is not accredited/public preregistration"
+}
