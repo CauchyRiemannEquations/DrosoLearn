@@ -1,0 +1,26 @@
+{
+  "experiment_id": "linear_reference_diagnostic_v1",
+  "scope": "preregistered_diagnostic",
+  "seeds": [5001, 5002, 5003, 5004, 5005, 5006, 5007, 5008, 5009, 5010],
+  "graph": "data/flywire_783_mb_left_kc512_s701",
+  "train_pair": [2, 4],
+  "conditions": ["fixed", "plastic", "rewired_fixed", "rewired_plastic", "ann_fixed", "ann_plastic"],
+  "code_alphas": [0.25, 0.5, 1, 1.5],
+  "primary_pairs": "fully_unseen15",
+  "references": ["affine", "scalar"],
+  "trials": 400,
+  "checkpoint_every": 100,
+  "eval_trials": 128,
+  "calibration_trials": 128,
+  "probe_rows": 8,
+  "head_lr": 0.1,
+  "internal_lr": 0.01,
+  "criteria": {
+    "acquisition_accuracy": 0.75,
+    "acquisition_gain": 0.15,
+    "probability_mae": 0.02,
+    "seed_pass_fraction": 0.8
+  },
+  "stopping": "fixed400 trials; no tuning, seed replacement or budget extension; one model training trajectory per seed/family; references fit only to held-out2-vs-4 calibration scores at baseline and final",
+  "input_scope": "order-preserving artificial scalar codes divided by8 with fixed train anchors; affine/scalar score surrogates calibrated to model candidate scores, not independently reward-trained learners; no visual perception or mathematical rule discovery"
+}

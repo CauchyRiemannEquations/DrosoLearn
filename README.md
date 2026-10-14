@@ -115,6 +115,21 @@ Linux/macOS는 `python3.12 -m venv .venv`와 `.venv/bin/python`으로 실행한�
 
 소스·자료·프로토콜을 바꾸면 같은 연구를 덮어쓰지 않는다. 새 계획을 먼저 작성하고 `python -m drosolearn.spacing register --config configs/spacing_diagnostic.json --out results/registration_NEW.json`으로 별도 동결한다. 현재 연구 설정은 사전 시드·예산·학습률·판정 기준을 변경하면 등록을 거부한다. 새로운 과학적 설정은 프로토콜과 검증기에서도 명시적으로 구분한다.
 
+## 후속: 모델 반응을 단순한 계산으로 설명하기
+
+연습한2·4의 별도 입력에서 원래 모델의 후보 점수만 읽어, **7입력의 선형 합산식**과 **수량만 보는 직선**을 맞춘다. 새 수량의 점수·정답으로 다시 맞추지 않고 네 입력 간격·완전 미학습15쌍의 시행별 예측 오차를 검사한다. [사전 계획](docs/linearity-protocol.md), [수학적 의미](docs/linearity-background.md), [실행 보고서](results/linearity_v1/report.md)를 보존한다.
+
+이 참조는 모델 점수를 제공받은 요약식이며 독립 보상 학습자나 동등한 정보·자원의 대조가 아니다. 낮은 확률 오차가 정확한 직선 점수 또는 같은 신경 기작을 뜻하지 않으므로 원시 점수 차이와 선택 불일치도 함께 남긴다. 주 기준은 학습 후 affine 확률MAE≤2%포인트의 전체시드 평균과개별통과≥8/10이며, 습득 실패를 주 평균에서 제외하지 않는다. 새5001–5010시드·6모델·400시행, 실제 보상 학습24,000번을 사용한다.
+
+재현은 `study-linearity-v1` 태그의 별도 checkout과 Python3.12 환경에서 새 결과 경로를 사용한다:
+
+```powershell
+.\.venv\Scripts\python.exe -m drosolearn.linearity run --config configs/linearity_diagnostic.json --registration results/registration_linearity_v1.json --out results/MY_LINEARITY_REPLAY
+.\.venv\Scripts\python.exe -m drosolearn.linearity verify --out results/MY_LINEARITY_REPLAY
+```
+
+새 과학적 설정은 별도 프로토콜·검증기·등록으로 구분한다. 등록 명령은 `python -m drosolearn.linearity register --config configs/linearity_diagnostic.json --out results/registration_NEW.json`이며 기존 경로를 덮어쓰지 않는다. 현재 연구의 시드·예산·학습률·오차 기준은 변경하면 등록을 거부한다.
+
 ## 연구 문서
 
 | 문서 | 내용 |

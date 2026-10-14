@@ -1,0 +1,18 @@
+{
+  "date_local": "2026-10-14",
+  "timezone": "Asia/Seoul",
+  "scope": "engineering tests before the scientific teacher-score reference study",
+  "command": "python -m pytest -q",
+  "pytest_version": "8.3.5",
+  "passed": 525,
+  "failed": 0,
+  "warnings": 14,
+  "warning_kind": "Matplotlib uses deprecated Pyparsing API; tests passed",
+  "duration_seconds": 332.88,
+  "thread_limits": {"OMP_NUM_THREADS": "1", "OPENBLAS_NUM_THREADS": "1", "MKL_NUM_THREADS": "1"},
+  "linearity_tests_added": 195,
+  "coverage_added": ["exact affine coefficients and scalar anchor means", "rank8 and finite calibration", "only trained2/4 fit coordinates", "all31 splits and canonical disjointness", "direct teacher and reference predictions", "held-out fitting poison and refit spy", "clipped probability versus raw margin errors", "case-wise MAE versus differences of averages", "all-seed and acquired population gates", "source and primary byte freezes", "independent QR/SVD versus producer least squares", "all-trial reward-update replay", "semantic tampering after artifact rehash", "external paths with spaces"],
+  "fixtures": "seeds71/72, training8/evaluation8/calibration32; no scientific5001–5010 fit before freeze",
+  "rendered_fixture": "48 updates,6 model families; plots and derived pair statistics checked without changing primary artifacts",
+  "documentation_note": "Clarified that qualified_mean uses acquired seeds, while qualified_count requires acquired plus fidelity; this clarification does not change the numerical criteria"
+}
