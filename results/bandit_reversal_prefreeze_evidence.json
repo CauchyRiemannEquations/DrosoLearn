@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-14T04:41:58.248881+00:00",
+  "published_commit": "f015d397fbf2d2a0050d5a5144d8afbe9baad4f0",
+  "registration_sha256": "3879d6f4cd8cd244ed54cb138de8f3267439710f5d59fd84cc839abdd37de332",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/f015d397fbf2d2a0050d5a5144d8afbe9baad4f0/results/registration_bandit_reversal_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "verified before study execution; private Git publication is not accredited/public preregistration"
+}
