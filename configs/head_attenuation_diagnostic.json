@@ -1,0 +1,31 @@
+{
+  "experiment_id": "head_attenuation_diagnostic_v1",
+  "scope": "preregistered_diagnostic",
+  "seeds": [8001, 8002, 8003, 8004, 8005, 8006, 8007, 8008, 8009, 8010],
+  "graph": "data/flywire_783_mb_left_kc512_s701",
+  "pair": [2, 4],
+  "conditions": ["linear_normalized", "fixed", "plastic", "rewired_fixed", "rewired_plastic", "ann_fixed", "ann_plastic"],
+  "histories": ["fresh_low", "gamma_0", "gamma_025", "gamma_05", "gamma_1"],
+  "gammas": [0, 0.25, 0.5, 1],
+  "primary_gamma": 0.25,
+  "trials_per_phase": 400,
+  "checkpoint_every": 100,
+  "eval_trials": 128,
+  "probe_rows": 8,
+  "head_lr": 0.1,
+  "internal_lr": 0.01,
+  "head_initialization": "zeros_all_conditions",
+  "feature_normalization": "fixed_initial_phase1_train_feature_gap_rms",
+  "attenuation_mode": "scale_readout_only_preserve_all_other_state",
+  "expected_reference": "conditional_expected_action_linear",
+  "criteria": {
+    "acquisition_accuracy": 0.75,
+    "acquisition_gain": 0.15,
+    "adaptation_accuracy": 0.75,
+    "endpoint_benefit": 0.15,
+    "seed_pass_fraction": 0.8
+  },
+  "stopping": "one shared high400 prefix per seed/family, cloned into four gamma branches each with low400, plus fresh_low400; no tuning, seed replacement or budget extension; all seven families and ten seeds retained; physical actual updates168000, separate reference updates24000",
+  "input_scope": "order-preserving artificial n/8 plus six nuisance coordinates; paired2vs4 and nuisanceOOD only; scalar deterministic choice reward is label-equivalent information; no visual number extraction, teacher scores or mathematical rule discovery",
+  "interpretation_scope": "partial readout attenuation is a composite intervention; endpoint benefit includes immediate boundary probability change and later learning; not confidence-only causation, intrinsic learning speed, neural mechanism or natural forgetting"
+}

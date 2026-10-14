@@ -166,6 +166,21 @@ Linux/macOS는 `python3.12 -m venv .venv`와 `.venv/bin/python`으로 실행한�
 
 새 설정은 별도 프로토콜·검증기·등록으로 구분한다. 등록 명령은 `python -m drosolearn.bandit_reversal register --config configs/bandit_reversal_diagnostic.json --out results/registration_NEW.json`이며 기존 경로를 덮어쓰지 않는다. 현재 연구의 시드·조건·학습 이력·초기화·척도·예산·학습률·판정 기준은 고정한다.
 
+## 후속: 이전 선택 계수를 조금만 줄이기
+
+큰 쪽을 고르는 연습 결과를 한 번 만든 뒤 네 사본에서 선택 계수를 **0·1/4·1/2·그대로**로 조정한다. 모두 작은 쪽을 고르는 새 연습을 400번 받으며 처음부터 작은 쪽만 배우는 대조도 둔다. [사전 계획](docs/head-attenuation-protocol.md)과 [계산적 배경](docs/head-attenuation-background.md)에 새 8001–8010시드와 판정 기준을 먼저 기록했다.
+
+주 질문은 단순 선형 모델의 1/4 계수 조작이 같은 새 연습 뒤 정답 선택 확률을 높이는지다. 조작 직후에도 확률이 바뀌므로 즉시 변화와 이후 학습의 회복량을 구분한다. 양수 배율은 경계의 원시 점수 방향을 유지하지만 가소성 모델의 다음 내부 갱신도 바꿀 수 있다. 확신만의 효과나 인간의 자연 망각으로 해석하지 않는다. 실제 보상 갱신 168,000회와 정답 정보를 사용하는 별도 조건부 참조 24,000회를 분리한다.
+
+재현은 완료 보존용 `study-head-attenuation-v1` 태그의 별도 checkout과 Python3.12 환경에서 새 결과 경로를 사용한다:
+
+```powershell
+.\.venv\Scripts\python.exe -m drosolearn.head_attenuation run --config configs/head_attenuation_diagnostic.json --registration results/registration_head_attenuation_v1.json --out results/MY_HEAD_ATTENUATION_REPLAY
+.\.venv\Scripts\python.exe -m drosolearn.head_attenuation verify --out results/MY_HEAD_ATTENUATION_REPLAY
+```
+
+새 연구 설정은 별도 계획과 `python -m drosolearn.head_attenuation register --config configs/head_attenuation_diagnostic.json --out results/registration_NEW.json`으로 동결한다. 기존 결과 경로를 덮어쓰거나 실패 시 예산을 연장하지 않는다.
+
 ## 연구 문서
 
 | 문서 | 내용 |
