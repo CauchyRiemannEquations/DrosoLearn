@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-14T00:00:56.365656+00:00",
+  "published_commit": "df8d819d22c3bcdc42a15810128260ee9ba5f609",
+  "registration_sha256": "29b77178aee7ef9cce8ed8b5814f0e980cc9a7df272a57b5f8fec64e4bf29379",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/df8d819d22c3bcdc42a15810128260ee9ba5f609/results/registration_encoding_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "verified before study execution; private Git publication is not accredited/public preregistration"
+}
