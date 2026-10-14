@@ -1,0 +1,18 @@
+{
+  "date_local": "2026-10-14",
+  "timezone": "Asia/Seoul",
+  "scope": "engineering tests before the scientific order-preserving spacing study",
+  "command": "python -m pytest -q",
+  "pytest_version": "8.3.5",
+  "passed": 330,
+  "failed": 0,
+  "warnings": 14,
+  "warning_kind": "Matplotlib uses deprecated Pyparsing API; tests passed",
+  "duration_seconds": 154.36,
+  "thread_limits": {"OMP_NUM_THREADS": "1", "OPENBLAS_NUM_THREADS": "1", "MKL_NUM_THREADS": "1"},
+  "spacing_tests_added": 101,
+  "coverage_added": ["four strict ordered code maps", "fixed anchors, range and focal midpoint", "fractional14-level lookup", "full forward versus all-map cache", "evaluation state and action-stream preservation", "baseline-adjusted focal contrast", "all-seed versus qualified summaries", "probability, greedy and transfer gates separated", "strict registered resources and criteria", "source and primary byte freeze", "independent all-trial replay", "semantic tampering after artifact rehash", "external config paths with spaces"],
+  "fixtures": "seeds61/62 with8 training trials, distinct from scientific4001–4010; separate rendered fixture has48 total updates and independent audit passed",
+  "final_checkpoint_check": "All four code representations are directly evaluated and asserted byte-identical on2-vs-4 IID/OOD at every checkpoint",
+  "note": "A complete earlier suite also passed330; this final suite followed the checkpoint assertion and strict-resource validation changes"
+}

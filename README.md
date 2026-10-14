@@ -98,6 +98,21 @@ Linux/macOS는 `python3.12 -m venv .venv`와 `.venv/bin/python`으로 실행한�
 
 소스·설정·프로토콜을 변경할 때에는 `python -m drosolearn.encoding register --config configs/encoding_diagnostic.json --out results/registration_NEW.json`으로 새 실행 전 기록을 만든다. 이전 등록·결과를 최신 코드에 맞춰 수정하지 않는다.
 
+## 후속: 순서를 유지한 입력 간격
+
+이번에는 수량의 순서를 유지하면서 **같은5대7 문제의 입력값 사이 거리만** 바꾼다. 두 입력의 중간값과 연습한2·4, 전체 범위는 고정한다. 한 번 학습한 모델을 기존 간격의1/4·1/2·1·1.5배에서 검사한다. 정답 선택 확률과, 확률이 큰 쪽만 고르는 성적을 따로 보고한다. [사전 계획](docs/spacing-protocol.md), [수학적 확인](docs/spacing-background.md), [실행 보고서](results/spacing_v1/report.md)를 보존한다.
+
+이 진단은 입력 표현과 선택 함수가 성적에 주는 영향을 살핀다. 단순 선형 점수와sigmoid만으로도 확률 변화와 선택 방향 보존이 나타날 수 있으므로 새 수량 원리·인간의Weber법칙·생물학적 기작의 발견으로 해석하지 않는다. 실제 학습 예산은6모델×10새시드×400시행=24,000이며 네 코드는 추가 학습이 아니다.
+
+재현 버전은 `study-spacing-v1` 태그의 별도 checkout을 사용한다. Python3.12 `.venv` 설치 뒤 새 경로에 실행한다:
+
+```powershell
+.\.venv\Scripts\python.exe -m drosolearn.spacing run --config configs/spacing_diagnostic.json --registration results/registration_spacing_v1.json --out results/MY_SPACING_REPLAY
+.\.venv\Scripts\python.exe -m drosolearn.spacing verify --out results/MY_SPACING_REPLAY
+```
+
+소스·자료·프로토콜을 바꾸면 같은 연구를 덮어쓰지 않는다. 새 계획을 먼저 작성하고 `python -m drosolearn.spacing register --config configs/spacing_diagnostic.json --out results/registration_NEW.json`으로 별도 동결한다. 현재 연구 설정은 사전 시드·예산·학습률·판정 기준을 변경하면 등록을 거부한다. 새로운 과학적 설정은 프로토콜과 검증기에서도 명시적으로 구분한다.
+
 ## 연구 문서
 
 | 문서 | 내용 |

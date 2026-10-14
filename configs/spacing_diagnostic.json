@@ -1,0 +1,26 @@
+{
+  "experiment_id": "ordered_spacing_diagnostic_v1",
+  "scope": "preregistered_diagnostic",
+  "seeds": [4001, 4002, 4003, 4004, 4005, 4006, 4007, 4008, 4009, 4010],
+  "graph": "data/flywire_783_mb_left_kc512_s701",
+  "train_pair": [2, 4],
+  "conditions": ["fixed", "plastic", "rewired_fixed", "rewired_plastic", "ann_fixed", "ann_plastic"],
+  "code_alphas": [0.25, 0.5, 1, 1.5],
+  "primary_pair": [5, 7],
+  "trials": 400,
+  "checkpoint_every": 100,
+  "eval_trials": 128,
+  "probe_rows": 8,
+  "head_lr": 0.1,
+  "internal_lr": 0.01,
+  "criteria": {
+    "acquisition_accuracy": 0.75,
+    "acquisition_gain": 0.15,
+    "transfer_accuracy": 0.75,
+    "sensitivity_increase": 0.10,
+    "positive_seed_fraction": 0.8,
+    "rank_accuracy": 0.90
+  },
+  "stopping": "fixed400 trials; no tuning, seed replacement or budget extension; one shared training trajectory per seed/model family",
+  "input_scope": "order-preserving artificial scalar codes divided by8, with train anchors and endpoints fixed; focal5-vs-7 midpoint fixed and gap varied; no visual perception or symbol meaning discovery"
+}
