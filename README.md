@@ -132,6 +132,21 @@ Linux/macOS는 `python3.12 -m venv .venv`와 `.venv/bin/python`으로 실행한�
 
 새 과학적 설정은 별도 프로토콜·검증기·등록으로 구분한다. 등록 명령은 `python -m drosolearn.linearity register --config configs/linearity_diagnostic.json --out results/registration_NEW.json`이며 기존 경로를 덮어쓰지 않는다. 현재 연구의 시드·예산·학습률·오차 기준은 변경하면 등록을 거부한다.
 
+## 후속: 같은 보상 경험으로 배우는 단순 모델
+
+이번에는 원래 모델의 점수를 받는 설명식 대신 **7개 계수를 선택·보상으로 직접 학습하는 선형 정책**을 검사한다. 초기 출력은 모두 50%다. 연습 입력만으로 초기 특징 차이의 크기를 맞추는 선형·네트워크 조건, 원래 척도의 선형 조건, 선택과 무관한 무작위 보상 조건을 함께 보존한다. [사전 계획](docs/reward-linear-protocol.md), [계산적 배경](docs/reward-linear-background.md), [실행 보고서](results/reward_linear_v1/report.md)를 보존한다.
+
+새6001–6010시드·9조건·400시행으로 실제 학습은36,000번이다. 두 주 질문은 보상 의존 습득과 습득 후 완전 미학습15쌍의 일반화다. 입력의 수량 순서는 이미 제공되며 결정적 두 선택의0/1보상에는 정답 쪽을 복원할 정보가 있다. 척도를 맞춰도7/48출력 계수와 추가1,474내부 가중치의 자원이 모두 같지는 않다. 이전 연구의 초기 출력·척도와 달라진 별도 진단으로 해석한다.
+
+재현은 `study-reward-linear-v1` 태그의 별도 checkout과 Python3.12 환경에서 새 결과 경로를 사용한다:
+
+```powershell
+.\.venv\Scripts\python.exe -m drosolearn.reward_linear run --config configs/reward_linear_diagnostic.json --registration results/registration_reward_linear_v1.json --out results/MY_REWARD_LINEAR_REPLAY
+.\.venv\Scripts\python.exe -m drosolearn.reward_linear verify --out results/MY_REWARD_LINEAR_REPLAY
+```
+
+새 과학적 설정은 별도 프로토콜·검증기·등록으로 구분한다. 등록 명령은 `python -m drosolearn.reward_linear register --config configs/reward_linear_diagnostic.json --out results/registration_NEW.json`이며 기존 경로를 덮어쓰지 않는다. 현재 연구의 시드·조건·척도 규칙·초기화·예산·학습률·판정 기준은 변경하면 등록을 거부한다.
+
 ## 연구 문서
 
 | 문서 | 내용 |

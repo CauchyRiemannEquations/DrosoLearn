@@ -1,0 +1,28 @@
+{
+  "experiment_id": "independent_reward_linear_diagnostic_v1",
+  "scope": "preregistered_diagnostic",
+  "seeds": [6001, 6002, 6003, 6004, 6005, 6006, 6007, 6008, 6009, 6010],
+  "graph": "data/flywire_783_mb_left_kc512_s701",
+  "train_pair": [2, 4],
+  "conditions": ["linear_raw", "linear_normalized", "linear_random_reward", "fixed", "plastic", "rewired_fixed", "rewired_plastic", "ann_fixed", "ann_plastic"],
+  "code_alphas": [0.25, 0.5, 1, 1.5],
+  "primary_pairs": "fully_unseen15",
+  "trials": 400,
+  "checkpoint_every": 100,
+  "eval_trials": 128,
+  "probe_rows": 8,
+  "head_lr": 0.1,
+  "internal_lr": 0.01,
+  "head_initialization": "zeros_all_conditions",
+  "feature_normalization": "fixed_initial_train_feature_gap_rms_except_linear_raw",
+  "random_reward": "independent_seed_plus290000_uniform_below0.5",
+  "criteria": {
+    "acquisition_accuracy": 0.75,
+    "acquisition_gain": 0.15,
+    "transfer_accuracy": 0.75,
+    "seed_pass_fraction": 0.8,
+    "reward_gap": 0.15
+  },
+  "stopping": "fixed400 trials; no tuning, seed replacement or budget extension; one independent learning trajectory per seed/condition; all nine conditions and all seeds retained",
+  "input_scope": "order-preserving artificial scalar codes divided by8 plus six nuisance coordinates; no teacher scores, calibration fitting, visual perception or mathematical rule discovery; binary deterministic correct-choice reward is label-equivalent information"
+}
