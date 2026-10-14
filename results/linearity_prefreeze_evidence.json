@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-14T01:37:39.100761+00:00",
+  "published_commit": "f64793426ac71da05129343a32ce201a06269b47",
+  "registration_sha256": "24f1446dd59fd8285d3935a34de2f8c684f3f03ad4af22a914f12845bcfab3a8",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/f64793426ac71da05129343a32ce201a06269b47/results/registration_linearity_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "verified before study execution; private Git publication is not accredited/public preregistration"
+}
