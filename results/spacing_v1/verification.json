@@ -1,0 +1,43 @@
+{
+  "audited_at_utc": "2026-10-14T00:40:36.605799+00:00",
+  "passed": true,
+  "method": "independent numpy/stdlib arithmetic replay; only previous independent audit helpers reused",
+  "input_scope": "four order-preserving artificial scalar maps; one trained policy per model family",
+  "counts": {
+    "artifact_hashes": 477,
+    "source_hashes": 27,
+    "seeds": 10,
+    "conditions": 6,
+    "actual_fits": 60,
+    "trials": 24000,
+    "curve_rows": 600,
+    "checkpoints": 300,
+    "transfer_files": 120,
+    "frozen_evaluation_maps": 4,
+    "transfer_probability_entries": 12960,
+    "case_probability_entries": 1658880,
+    "candidate_score_entries": 11612160,
+    "focal_pairs": 1,
+    "secondary_unseen_pairs": 15,
+    "anchored_pairs": 12,
+    "canonical_fingerprints": 20560
+  },
+  "checks": [
+    "Required primary byte hashes, config/source file-set and byte freeze, and local registration/run chronology",
+    "Four exact order-preserving maps; constant anchors/range and focal midpoint; true quantity ratio and mapped code gap kept separate",
+    "All30 raw splits regenerated; complete joint descriptor crossing, canonical disjointness and bitwise-identical anchored inputs",
+    "Anatomical source projection independently parsed; real/rewired/ANN raw topologies and control RNG regenerated",
+    "Every checkpoint's fixed encoder, topology, internal weights, readout weights and probe activations independently recomputed",
+    "Every actual reward-only policy-gradient update replayed using old-head eligibility and clipping; one actual fit per family",
+    "Every baseline/final candidate score, four-map pair mean, greedy response and per-case probability independently recomputed",
+    "Acquisition gates, absolute transfer, four-map rank robustness and baseline-adjusted focal contrast independently recomputed",
+    "Family primary verdict uses all seeds; qualified-only sensitivity and four frozen maps do not replace the all-seed test"
+  ],
+  "errors": [],
+  "not_verified": [
+    "Visual numerosity extraction, ratio-based quantity perception, LC11/DAN dynamics or shared human/fly mechanisms",
+    "Remote private Git publication authenticity; local chronology is self-recorded",
+    "Statistical significance, mathematical rule discovery or educational implications",
+    "Four maps as independent learners or computational seeds as biological animals"
+  ]
+}
