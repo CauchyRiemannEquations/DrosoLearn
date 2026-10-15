@@ -1,0 +1,489 @@
+{
+  "study_id": "feedback_transition_v1",
+  "registration_type": "descriptive_feedback_transition",
+  "registered_at_utc": "2026-10-15T04:09:14.965683+00:00",
+  "source_git_commit": "9f44e4d11adb7da0f7f0fb2380da19be13172fba",
+  "config_sha256": "eb0f1b7ae245e6af8b217da014a0644f58faa9d5dae9f9eb1b7162f24f82b161",
+  "config": {
+    "study_id": "feedback_transition_v1",
+    "scope": "exploratory_recordwise_descriptive_feedback_transition_not_human_model_similarity",
+    "human": {
+      "origin_manifest": "configs/human_osf_origin_manifest.json",
+      "structure_result": "results/human_task_structure_v1/audit.json",
+      "structure_verification": "results/human_task_structure_v1/verification.json",
+      "trials": 1000,
+      "regime_boundary_after_trial": 800,
+      "selection": "all25 previously source-verified Main rows, no performance selection",
+      "coordinate": "source_coded_card_identity",
+      "historical_execution_version_verified": false
+    },
+    "model": {
+      "root": "results/bandit_reversal_v1",
+      "parent_config": "configs/bandit_reversal_diagnostic.json",
+      "verification": "results/bandit_reversal_v1/verification.json",
+      "artifact_hashes": "results/bandit_reversal_v1/artifact_hashes.json",
+      "seeds": [
+        7001,
+        7002,
+        7003,
+        7004,
+        7005,
+        7006,
+        7007,
+        7008,
+        7009,
+        7010
+      ],
+      "conditions": [
+        "linear_normalized",
+        "fixed",
+        "plastic",
+        "rewired_fixed",
+        "rewired_plastic",
+        "ann_fixed",
+        "ann_plastic"
+      ],
+      "histories": [
+        "fresh_low",
+        "high_to_low",
+        "high_to_low_reset_head",
+        "low_to_low"
+      ],
+      "phase": "phase2",
+      "trials": 400,
+      "coordinate": "smaller_larger_quantity_category",
+      "exclude": [
+        "phase1 shared prefixes",
+        "expected_updates.csv",
+        "evaluation probes",
+        "head_attenuation_v1"
+      ]
+    },
+    "metric": "recordwise stay/switch counts conditioned on actual binary feedback at t, original adjacent t,t+1 only",
+    "exclude_boundaries": [
+      "state",
+      "phase",
+      "task"
+    ],
+    "zero_denominator": "null",
+    "pool_group_or_species": false,
+    "parent_files": [
+      "results/human_task_structure_v1/audit.json",
+      "results/human_task_structure_v1/verification.json",
+      "results/registration_human_task_structure_v1.json",
+      "results/human_task_structure_prefreeze_evidence.json",
+      "configs/human_osf_origin_manifest.json",
+      "results/human_osf_origin_v1/verification.json",
+      "configs/bandit_reversal_diagnostic.json",
+      "results/bandit_reversal_v1/verification.json",
+      "results/bandit_reversal_v1/artifact_hashes.json",
+      "src/drosolearn/bandit_reversal.py"
+    ],
+    "frozen_files": [
+      "src/drosolearn/__init__.py",
+      "src/drosolearn/feedback_transition.py",
+      "scripts/run_feedback_transition.py",
+      "scripts/verify_feedback_transition.py",
+      "tests/test_feedback_transition.py",
+      "tests/test_feedback_transition_run.py",
+      "tests/test_feedback_transition_verify.py",
+      "configs/feedback_transition_v1.json",
+      "docs/feedback-transition-protocol.md",
+      "docs/model-human-metric-interface.md",
+      "requirements-lock.txt",
+      "requirements-human-candidate-audit.txt"
+    ]
+  },
+  "frozen_files": {
+    "configs/feedback_transition_v1.json": "eb0f1b7ae245e6af8b217da014a0644f58faa9d5dae9f9eb1b7162f24f82b161",
+    "docs/feedback-transition-protocol.md": "a0b94b2f36b45ede61b70e30c963a1a03cccfe4315dd2d6ba725f154b3dd40c1",
+    "docs/model-human-metric-interface.md": "8e364307c1682f2a49a6c7e495f49b1a775e09a870d31ff9c286b7393573a9f1",
+    "requirements-human-candidate-audit.txt": "5c27dbfdeac65a074ba9af3efca2b5bbe9e77edd62f97035bcea31228564a523",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_feedback_transition.py": "c93e792917a99d935d5921d34e139e3d3d6914f80ab35dfeeebe49250e5f311c",
+    "scripts/verify_feedback_transition.py": "72f445575fbb43a3f10df9d72544f1a5d99349311bb20573b6a851d1812a0af9",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/feedback_transition.py": "5922f71b13732104d08816767da02ce6fe8cce31c484978ae818d21fc8f1620d",
+    "tests/test_feedback_transition.py": "cc5dadd0c2e7debd22a090c917fd152e7fbe05f699266947259ee3048d48a882",
+    "tests/test_feedback_transition_run.py": "39db51ca24faa2a17b0ca60dee6e66bdc048cc7d50c88efeb486d87bc2f62020",
+    "tests/test_feedback_transition_verify.py": "4bf13ecb7ae871a14c1b20fa177a6000d57107af376536f7572604c2726f2718"
+  },
+  "inputs": [
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b59a3466a6001a90510b.mat",
+      "bytes": 91604,
+      "sha256": "668dae8964411228d66ca8919d29508f26dc9028f22c57cf56a23a9f8a485082",
+      "osf_file_id": "5d08b59a3466a6001a90510b",
+      "row_index": 0
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b59211bd0800189f2bf6.mat",
+      "bytes": 89979,
+      "sha256": "dc90673a8a20557769d64140ed52628dc252d3e91a4fdf00b8669697568192f6",
+      "osf_file_id": "5d08b59211bd0800189f2bf6",
+      "row_index": 1
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b58e3466a6001a9050e5.mat",
+      "bytes": 86432,
+      "sha256": "29ffe70200c3f5d7c655cf0cf4ac5b0a7bcac7390d48cbe6d7109db044c043ef",
+      "osf_file_id": "5d08b58e3466a6001a9050e5",
+      "row_index": 2
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b5873466a6001b9013a8.mat",
+      "bytes": 86030,
+      "sha256": "b20ce41c78b9351c5732826dbba7ce71ca006c5cd92d59d457d1ba613421544d",
+      "osf_file_id": "5d08b5873466a6001b9013a8",
+      "row_index": 3
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b58211bd08001a9f2918.mat",
+      "bytes": 87912,
+      "sha256": "2ca1a9f7ee27ee91755255d3ecdef684e07b0b7de192fa64d436f88370646366",
+      "osf_file_id": "5d08b58211bd08001a9f2918",
+      "row_index": 4
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b57b1ed0c2001993ad43.mat",
+      "bytes": 90627,
+      "sha256": "8c262f1f296a6f5182aecec2df930b414d8b9b3f454c329869f091103dac09f7",
+      "osf_file_id": "5d08b57b1ed0c2001993ad43",
+      "row_index": 5
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b56b11bd0800179f8155.mat",
+      "bytes": 83069,
+      "sha256": "d777abaea6b3706938a59c4676a55548a2bb650b7334acf31bb4523d7f6eab34",
+      "osf_file_id": "5d08b56b11bd0800179f8155",
+      "row_index": 6
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b53943bdc30017e87a06.mat",
+      "bytes": 91577,
+      "sha256": "73465989d98006b3a3da528d205fb94406b812dcff8940bf803a9e931ba41903",
+      "osf_file_id": "5d08b53943bdc30017e87a06",
+      "row_index": 7
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b53343bdc30018e8cbe2.mat",
+      "bytes": 84801,
+      "sha256": "8b35b340b820ed3bfe5f725f603e7121488089537971e296b1aa84e2634e9758",
+      "osf_file_id": "5d08b53343bdc30018e8cbe2",
+      "row_index": 8
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b52d43bdc30018e8cbcf.mat",
+      "bytes": 90810,
+      "sha256": "6c6561d743674d5eaf966b83e7efa41137e2e32e5679fc92b260cb782c55d657",
+      "osf_file_id": "5d08b52d43bdc30018e8cbcf",
+      "row_index": 9
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b5293466a6001d90276f.mat",
+      "bytes": 83662,
+      "sha256": "189095b8ba4d519223bc61ab968ff020ecff9f49dccc1ed8461a97abc7871750",
+      "osf_file_id": "5d08b5293466a6001d90276f",
+      "row_index": 10
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b52343bdc30016e88dd6.mat",
+      "bytes": 90197,
+      "sha256": "72361721d04004f6dd536110a83188e33e984684de237698e5e1c95f16746850",
+      "osf_file_id": "5d08b52343bdc30016e88dd6",
+      "row_index": 11
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b51f1ed0c2001893931a.mat",
+      "bytes": 82953,
+      "sha256": "020008b5b5a0bdede663c001328c84037bfd7dea499d1551b04be7a58f0cd854",
+      "osf_file_id": "5d08b51f1ed0c2001893931a",
+      "row_index": 12
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b5191ed0c2001993acc4.mat",
+      "bytes": 85973,
+      "sha256": "e094662528c412fe4b5833989c624822cfdba24aa3b6ef009fc81387c7937a3b",
+      "osf_file_id": "5d08b5191ed0c2001993acc4",
+      "row_index": 13
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b5151ed0c2001993acbf.mat",
+      "bytes": 83350,
+      "sha256": "39f27751a343b0385fb1530e9fb7cb812d907358dcd5e0d0fa860481b5814e59",
+      "osf_file_id": "5d08b5151ed0c2001993acbf",
+      "row_index": 14
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b57611bd0800179f8176.mat",
+      "bytes": 86839,
+      "sha256": "8fbe90bb75ec7db9004a5afac16750bf9d0ef73377cd1903f6c0ad4282b5d2c4",
+      "osf_file_id": "5d08b57611bd0800179f8176",
+      "row_index": 27
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b5701ed0c2001893936f.mat",
+      "bytes": 85956,
+      "sha256": "1588b3498b6c422e378e75527e9364aa2bc182bb11ab52a2319c7ed5f565f54c",
+      "osf_file_id": "5d08b5701ed0c2001893936f",
+      "row_index": 28
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b55711bd0800179f8120.mat",
+      "bytes": 91516,
+      "sha256": "ea9d54028575755c88ee659defe265b28ce10b48272b4c4e62f09a2cee1aaf2f",
+      "osf_file_id": "5d08b55711bd0800179f8120",
+      "row_index": 29
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b54f43bdc30018e8cc16.mat",
+      "bytes": 89876,
+      "sha256": "56f185c168efdf35648c21f58ad1cf46e93ad214d32ad6d39632222272409b77",
+      "osf_file_id": "5d08b54f43bdc30018e8cc16",
+      "row_index": 30
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b55d1ed0c2001693e466.mat",
+      "bytes": 88779,
+      "sha256": "630154b7e49de10cd0b7ecb8201ebc0ac86c008359e42351c9bf93e988b2ce21",
+      "osf_file_id": "5d08b55d1ed0c2001693e466",
+      "row_index": 31
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b54a3466a6001a905077.mat",
+      "bytes": 86131,
+      "sha256": "c1dce338b2148666e73d4e0b3343442da92dbaf069721cb4b3cbe5ce1417001a",
+      "osf_file_id": "5d08b54a3466a6001a905077",
+      "row_index": 32
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b56343bdc30017e87a31.mat",
+      "bytes": 88659,
+      "sha256": "bee2fab2430d013e9b1e46aea4c46f120e72476d7fa920f7ad8bbb7481d6a189",
+      "osf_file_id": "5d08b56343bdc30017e87a31",
+      "row_index": 33
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b54543bdc30019e88a4d.mat",
+      "bytes": 87474,
+      "sha256": "0255e39587d2f27a1a9dc43dbc3b17d408c892e6592c7fb50ad0cb6369ea82dd",
+      "osf_file_id": "5d08b54543bdc30019e88a4d",
+      "row_index": 34
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b56643bdc30017e87a35.mat",
+      "bytes": 85519,
+      "sha256": "15319842969e3a9428e592e1177819223dd4ebe756861c8976c5b3279e7e74b0",
+      "osf_file_id": "5d08b56643bdc30017e87a35",
+      "row_index": 35
+    },
+    {
+      "base": "human_cache",
+      "role": "human_raw",
+      "path": "osf/5d08b53c3466a6001b901368.mat",
+      "bytes": 83009,
+      "sha256": "7b19009de0c7a33cb75b1bf322a3b9d261ef8a78b4a6a5bae8cf9bdbf449930c",
+      "osf_file_id": "5d08b53c3466a6001b901368",
+      "row_index": 36
+    },
+    {
+      "base": "repo",
+      "role": "model_actual",
+      "path": "results/bandit_reversal_v1/seed_7001/trials.csv",
+      "bytes": 4784109,
+      "sha256": "0d4f38a27595994671451baf0a238a2461473558663d9a0990b25fa95a957640",
+      "seed": 7001
+    },
+    {
+      "base": "repo",
+      "role": "model_actual",
+      "path": "results/bandit_reversal_v1/seed_7002/trials.csv",
+      "bytes": 4785907,
+      "sha256": "9c8d16f04fc1560594c910fdde26233993cd22277e06e00f27931e6df57a3129",
+      "seed": 7002
+    },
+    {
+      "base": "repo",
+      "role": "model_actual",
+      "path": "results/bandit_reversal_v1/seed_7003/trials.csv",
+      "bytes": 4780404,
+      "sha256": "bb197530e2fb89227bd507add554aa94ce1dccee6ae5946e4250db031f3ff84a",
+      "seed": 7003
+    },
+    {
+      "base": "repo",
+      "role": "model_actual",
+      "path": "results/bandit_reversal_v1/seed_7004/trials.csv",
+      "bytes": 4781394,
+      "sha256": "bc22c6953e42564e72691b06634bb22177ff9b02ab9e868cc801a57afac077dc",
+      "seed": 7004
+    },
+    {
+      "base": "repo",
+      "role": "model_actual",
+      "path": "results/bandit_reversal_v1/seed_7005/trials.csv",
+      "bytes": 4775879,
+      "sha256": "f0d5879dda4aca340a7e90bec1626355cc2527c790864bb693612bef7d28932c",
+      "seed": 7005
+    },
+    {
+      "base": "repo",
+      "role": "model_actual",
+      "path": "results/bandit_reversal_v1/seed_7006/trials.csv",
+      "bytes": 4772818,
+      "sha256": "72964454ae9da474ee73a787b7934f7a055792ce643355c0ff206fdef4b366ff",
+      "seed": 7006
+    },
+    {
+      "base": "repo",
+      "role": "model_actual",
+      "path": "results/bandit_reversal_v1/seed_7007/trials.csv",
+      "bytes": 4778250,
+      "sha256": "eee933d284b73b07e8e324bb22d208efd6643f0ff916b83ed46b1b6895935a72",
+      "seed": 7007
+    },
+    {
+      "base": "repo",
+      "role": "model_actual",
+      "path": "results/bandit_reversal_v1/seed_7008/trials.csv",
+      "bytes": 4780963,
+      "sha256": "eacbf8340ffa00b78a8f3c24c85dee46d8ce33ebedcb4b55b6637ae7f85b7a60",
+      "seed": 7008
+    },
+    {
+      "base": "repo",
+      "role": "model_actual",
+      "path": "results/bandit_reversal_v1/seed_7009/trials.csv",
+      "bytes": 4783806,
+      "sha256": "9fca8e89446f5a2b6a9c2913fa2c365dc309baf1afbeacaca37ba0571929a22e",
+      "seed": 7009
+    },
+    {
+      "base": "repo",
+      "role": "model_actual",
+      "path": "results/bandit_reversal_v1/seed_7010/trials.csv",
+      "bytes": 4780056,
+      "sha256": "c2f345407aba3bf94587d87b325a8e5c4d7a6ee34e6e350d6c86c4542472aa46",
+      "seed": 7010
+    },
+    {
+      "base": "repo",
+      "role": "parent",
+      "path": "results/human_task_structure_v1/audit.json",
+      "bytes": 58966,
+      "sha256": "f4e777748518a1490bc6ec19b4c3c0caf6e560e6cfa1ca85f5e2e8c227b01547"
+    },
+    {
+      "base": "repo",
+      "role": "parent",
+      "path": "results/human_task_structure_v1/verification.json",
+      "bytes": 628,
+      "sha256": "4482589f64eb4a404dcf55029d899fec2fa95765d90dd87596cce856938bb1e4"
+    },
+    {
+      "base": "repo",
+      "role": "parent",
+      "path": "results/registration_human_task_structure_v1.json",
+      "bytes": 13831,
+      "sha256": "878be6c6fede943059ebfb7a5e5d4df9e4d7e61da1769a97babb51ff9be85dbf"
+    },
+    {
+      "base": "repo",
+      "role": "parent",
+      "path": "results/human_task_structure_prefreeze_evidence.json",
+      "bytes": 631,
+      "sha256": "a3e5de83073c2d1cd70f7f05189ecc845fe59ab9ee3e2c8cf502e7c9b3cacbef"
+    },
+    {
+      "base": "repo",
+      "role": "parent",
+      "path": "configs/human_osf_origin_manifest.json",
+      "bytes": 53110,
+      "sha256": "61a3b8575c5b2071d4a6df089f03c108e982521dbfae49ea4a16c4e420846303"
+    },
+    {
+      "base": "repo",
+      "role": "parent",
+      "path": "results/human_osf_origin_v1/verification.json",
+      "bytes": 694,
+      "sha256": "7a36bd97328e5388dcf7149d8395c957e1d15f02bc6e134498f5df99b741bb98"
+    },
+    {
+      "base": "repo",
+      "role": "parent",
+      "path": "configs/bandit_reversal_diagnostic.json",
+      "bytes": 1410,
+      "sha256": "dd00a6a6c494d5890d0bb76ff9cd0999940053ee4e112a843d328c1a8e439e46"
+    },
+    {
+      "base": "repo",
+      "role": "parent",
+      "path": "results/bandit_reversal_v1/verification.json",
+      "bytes": 2652,
+      "sha256": "4078203efb346cd607ec082777555fdc7a7602ec0fa2f52e3cd50831e0326f0c"
+    },
+    {
+      "base": "repo",
+      "role": "parent",
+      "path": "results/bandit_reversal_v1/artifact_hashes.json",
+      "bytes": 495319,
+      "sha256": "952f989edacdec65f5eb47a0b0172b52ae1099c828ebe59cece8de6c26f05607"
+    },
+    {
+      "base": "repo",
+      "role": "parent",
+      "path": "src/drosolearn/bandit_reversal.py",
+      "bytes": 27821,
+      "sha256": "995ff73f7508d71d25d9ac5aaf705ba6f0a898dbc0c9cca25bcbe6f6a5479ac9"
+    }
+  ],
+  "notice": "Exploratory fixed descriptive analysis; private Git freeze, not blinded confirmatory preregistration"
+}
