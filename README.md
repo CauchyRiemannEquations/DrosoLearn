@@ -227,6 +227,25 @@ CC0인 OpenNeuro 부분집합 31파일에서 사건 44,262행·선택 사건 14,
 
 다음은 기대·도형 코드의 변환 근거와 OSF 원본→가공 자료의 대응 검증이다. 공통 학습 지표와 사람/모델 비교는 아직 실행하지 않았다. 새 처리 범위의 고정은 `python -m drosolearn.human_trial_linkage register --config configs/human_trial_linkage.json --out results/registration_NEW.json`으로 새 파일에 남긴다. 이 작업도 일부 구조를 먼저 확인한 탐색적 감사이며 눈가림 확증 사전등록이 아니다.
 
+## 후속: 코드 확인 뒤 공식 원본 재현까지 연속 실행
+
+[두 단계의 쉬운 설명](docs/human-data-continuation-findings.md)을 보존했다. 먼저 기대·선택 코드의 차이를 고정된 교차표로 확인했다. 12,334개 엄격 대조 기록의 모든 칸을 독립 검산했으나 원 변환 코드를 확보하지 못해 의미 게이트는 미해결이다. 현재 대응 위치에서 모든 파일에 공통인 숫자 치환 하나로 차이를 전부 없앨 수 없으며, 개인별 원인이나 정렬 문제를 단정하지 않는다. [코드 결과](docs/human-semantics-findings.md), [출처 조사](docs/human-semantics-source-review.md)를 남겼다.
+
+이어 독립 단계로 공식 OSF 원본25개에서 가공 표의 **75,000항목을 결측 위치까지 정확히 재현**했다. 전체74행의 가용성을 먼저 고정해25행을 검증했고49행은 미검증으로 남겼다. 폴더 이름과 formatter 집단을 혼동하지 않았다. [원본 재현 결과](docs/human-osf-origin-findings.md), [별도 프로토콜](docs/human-osf-origin-protocol.md), [고정 manifest](configs/human_osf_origin_manifest.json)를 보존했다. 새 테스트109개(57+52)와 두 독립 검증이 통과했다. 자료 재현 성공을 인간의 학습 효과로 해석하지 않는다.
+
+각 완료 태그는 `human-semantics-v1`, `human-osf-origin-v1`다. 후자의 별도 checkout과 Python3.12 기본 환경에서 새 경로로 재현한다. 원본 캐시는 저장소 밖에 두며, `--fetch`는 보존한 공식 메타데이터를 복사하고 고정 revision/commit URL로 나머지 파일을 복구해 해시를 검사한다.
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements-human-candidate-audit.txt
+.\.venv\Scripts\python.exe -m drosolearn.human_semantics run --config configs/human_semantics.json --registration results/registration_human_semantics_v1.json --out results/MY_SEMANTICS_REPLAY
+.\.venv\Scripts\python.exe scripts/verify_human_semantics.py --output results/MY_SEMANTICS_REPLAY
+.\.venv\Scripts\python.exe scripts/audit_human_osf_origin.py register --fetch --cache ../DrosoLearn-osf-origin-cache --derived-cache ../DrosoLearn-human-cache --out results/registration_OSF_ORIGIN_NEW.json
+.\.venv\Scripts\python.exe scripts/audit_human_osf_origin.py run --cache ../DrosoLearn-osf-origin-cache --derived-cache ../DrosoLearn-human-cache --registration results/registration_OSF_ORIGIN_NEW.json --out results/MY_OSF_ORIGIN_REPLAY.json
+.\.venv\Scripts\python.exe scripts/verify_human_osf_origin.py --result results/MY_OSF_ORIGIN_REPLAY.json --registration results/registration_OSF_ORIGIN_NEW.json --cache ../DrosoLearn-osf-origin-cache --derived-cache ../DrosoLearn-human-cache --out results/MY_OSF_ORIGIN_VERIFICATION.json
+```
+
+새 검증 범위는 별도 계획과 등록으로 시작한다. 이미 본 불일치의 후속 기술 감사와 부분 출처 검증이며 눈가림 행동 가설 사전등록이 아니다. 다음은 확인된 원본 범위의 카드·정보 요청·확률적 피드백을 기준으로 비교 가능한 관측량을 설계하는 단계다. 인간과 모델의 학습 성적 비교는 아직 실행하지 않았다.
+
 ## 연구 문서
 
 | 문서 | 내용 |

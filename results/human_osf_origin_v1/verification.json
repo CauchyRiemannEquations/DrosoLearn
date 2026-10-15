@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "scope": "independent_partial_source_identity_replay_no_learning_estimates",
+  "result_sha256": "b00eb9d7fa550aa6e2e3baf33870207e180d05d6756535f239712472352e29e3",
+  "registration_sha256": "2640336a9dee6d0bd2a36a19c412479feca3b69dd90b9da71bc5755329d58a10",
+  "manifest_sha256": "61a3b8575c5b2071d4a6df089f03c108e982521dbfae49ea4a16c4e420846303",
+  "input_files_verified": 39,
+  "source_files_frozen": 15,
+  "raw_rows_replayed": 25,
+  "processed_rows_retained": 74,
+  "unmatched_rows_preserved": 49,
+  "values_replayed": 75000,
+  "mismatches_verified": 0,
+  "source_identity_gate_passed": true,
+  "errors": [],
+  "verified_at_utc": "2026-10-15T02:54:32.435804+00:00"
+}

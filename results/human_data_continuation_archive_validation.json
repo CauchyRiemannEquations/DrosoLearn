@@ -1,0 +1,132 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-15T02:59:42.013127+00:00",
+  "scope": "two descriptive source audits, publication chronology and literal archive integrity; no learning effect inference",
+  "semantics": {
+    "source_commit": "fcb7ccceb3b02402c7faa734b6f60f482926108d",
+    "frozen_files_verified": 18,
+    "chronology": [
+      "2026-10-15T02:41:36.572447+00:00",
+      "2026-10-15T02:41:50.125790+00:00",
+      "2026-10-15T02:41:50.818719+00:00",
+      "2026-10-15T02:41:50.919401+00:00",
+      "2026-10-15T02:41:51.789885+00:00"
+    ],
+    "independent_verification": {
+      "status": "passed",
+      "scope": "independent_fixed_code_counts_no_mapping_selection_or_performance_analysis",
+      "primary_artifacts_verified": 3,
+      "parent_tag_commit": "12d38e1fec4b6c00dbe833dd888ee0721c69b6da",
+      "immutable_parent_files_verified": 7,
+      "frozen_files_verified": 18,
+      "evidence_files_hash_verified": 1,
+      "diagnostic_rows_verified": 12880,
+      "strict_rows_counted": 12334,
+      "non_strict_rows_preserved": 546,
+      "linked_pair_context_groups_verified": 46,
+      "errors": [],
+      "verified_at_utc": "2026-10-15T02:41:51.789885+00:00"
+    }
+  },
+  "osf_origin": {
+    "source_commit": "93eea32f0ef18466142657ee978afc7694bcc5db",
+    "frozen_files_verified": 15,
+    "external_inputs_verified": 39,
+    "chronology": [
+      "2026-10-15T02:54:14.885459+00:00",
+      "2026-10-15T02:54:30.647424+00:00",
+      "2026-10-15T02:54:31.328759+00:00",
+      "2026-10-15T02:54:31.450496+00:00",
+      "2026-10-15T02:54:32.435804+00:00"
+    ],
+    "independent_verification": {
+      "status": "passed",
+      "scope": "independent_partial_source_identity_replay_no_learning_estimates",
+      "result_sha256": "b00eb9d7fa550aa6e2e3baf33870207e180d05d6756535f239712472352e29e3",
+      "registration_sha256": "2640336a9dee6d0bd2a36a19c412479feca3b69dd90b9da71bc5755329d58a10",
+      "manifest_sha256": "61a3b8575c5b2071d4a6df089f03c108e982521dbfae49ea4a16c4e420846303",
+      "input_files_verified": 39,
+      "source_files_frozen": 15,
+      "raw_rows_replayed": 25,
+      "processed_rows_retained": 74,
+      "unmatched_rows_preserved": 49,
+      "values_replayed": 75000,
+      "mismatches_verified": 0,
+      "source_identity_gate_passed": true,
+      "errors": [],
+      "verified_at_utc": "2026-10-15T02:54:32.435804+00:00"
+    }
+  },
+  "prior_tag_literal_bytes": {
+    "tag": "human-trial-linkage-v1",
+    "tag_commit": "12d38e1fec4b6c00dbe833dd888ee0721c69b6da",
+    "old_tree_files": 13989,
+    "compared_files": 13986,
+    "compared_literal_bytes": 1240005176,
+    "excluded_files": [
+      {
+        "path": "README.md",
+        "bytes": 30695,
+        "unchanged": false
+      },
+      {
+        "path": "docs/repository-status.json",
+        "bytes": 1944,
+        "unchanged": false
+      },
+      {
+        "path": "docs/research-roadmap.md",
+        "bytes": 16175,
+        "unchanged": false
+      }
+    ],
+    "passed": true,
+    "failures": [],
+    "method": "literal Git blob bytes via cat-file --batch compared with filesystem read_bytes; no Git/filesystem mutations"
+  },
+  "new_synthetic_tests": 109,
+  "file_hashes": {
+    "README.md": "990d222c71f52c0c52f95cf54090c43d92aa0d82fede9de9386404d3bb50064a",
+    "configs/human_osf_origin_manifest.json": "61a3b8575c5b2071d4a6df089f03c108e982521dbfae49ea4a16c4e420846303",
+    "configs/human_semantics.json": "4f296a7b953440f07112e8a9b8c6c7156fb139fd030e9b66fe6ecea40306832e",
+    "data/human/osf_origin_evidence_20261015/README.md": "907cbbf621b938c194fe352224e9f71f5efd4d120a5ff2daae2dcc202578ffdc",
+    "data/human/osf_origin_evidence_20261015/data_node.json": "f1cadfcaab34234f3d38f628e4ed55ea16118813bd40552655d6698ad3d19db3",
+    "data/human/osf_origin_evidence_20261015/license.json": "32fb3d7b32be0843803f96424fe7739f69574481211a2d323e16f8da8536c635",
+    "data/human/osf_origin_evidence_20261015/main.json": "337a5845bf62ccbe2bee6d47834c9d6317bc033ab935af60bc66d75c688ef71a",
+    "data/human/osf_origin_evidence_20261015/pilot_page1.json": "7316ed0039e6ad17d897c3db07e653905d5af06a51f007926f24f4f07cc211f0",
+    "data/human/osf_origin_evidence_20261015/pilot_page2.json": "606cfec8ffdcedb2c8c3127a95f944ee9e6419002a7f2c0da642b6071b2ec6ce",
+    "data/human/osf_origin_evidence_20261015/source-manifest.json": "2c8661695866009492b1df75187075c22903e4c22e0fcbd033fc79165861215b",
+    "data/human/stolz_2022_semantics_evidence/repository-inventory.json": "ec78e095b67f3d1ae330727d35c3363c04dbf0c5526ec6cc1cd919479eea9ddc",
+    "data/human/stolz_2022_semantics_evidence/source-manifest.json": "10968e719296c6596f6a0dd298cf950c7666fe30fdc2635d668d8b7134a3f003",
+    "docs/human-data-continuation-findings.md": "a04292568b263793d43243fa316dc33a1370d176008f6b6b7853e43475252f73",
+    "docs/human-osf-origin-findings.md": "3f624b7daf8b22a81740b600e499b8d757326e7a7f824d1f723e6e137d540b1e",
+    "docs/human-osf-origin-protocol.md": "06f2b33830d487558f9835ac42477423f0a82e383d6d328c99adf737fccbe706",
+    "docs/human-semantics-findings.md": "a325894ded1b24029874da32dbb7757db117ceb66ce170b274a70654443b3c90",
+    "docs/human-semantics-protocol.md": "74d823515cb9435f9519f8df9fa202a61ce6567279e5a02d6f9ad9b19c870b55",
+    "docs/human-semantics-source-review.md": "320799d30f1e70fb52f056972f9cae0933c4b4d29e08f123bbb0a31db0a7f489",
+    "docs/repository-status.json": "7b199c9d4d5df20fe9a59f9ab56e179dceabd524eb9fb8026364a1382affc37e",
+    "docs/research-roadmap.md": "d912649a8a105b2979cdcf75268b59256f2122bc25c0932b648148a3647caba7",
+    "results/human_osf_origin_prefreeze_evidence.json": "a4ac0e15870415333d9cee1138ea55d47505676a179390c6899a9e9591d5bb85",
+    "results/human_osf_origin_v1/comparison.json": "b00eb9d7fa550aa6e2e3baf33870207e180d05d6756535f239712472352e29e3",
+    "results/human_osf_origin_v1/verification.json": "7a36bd97328e5388dcf7149d8395c957e1d15f02bc6e134498f5df99b741bb98",
+    "results/human_semantics_prefreeze_evidence.json": "b7c07a5b8129e44c2bb6523a9786388ed7a102744d97d609da414974dc904366",
+    "results/human_semantics_v1/artifact_hashes.json": "6a71575ae66143fa9e40f4568f1f4f3adb518072203fff97e3624d7c5cb3b0b4",
+    "results/human_semantics_v1/code-cross-tabs.json": "c3ecd06310ffe2b360a86d10b167a6ab8934d839cdccc5c76997591a9d10c010",
+    "results/human_semantics_v1/metadata.json": "3322732c86527691ff74699fe9dbb673b793ff64b859020f51e7812dbc683dc1",
+    "results/human_semantics_v1/registration.json": "805efff34e959e23a6d1ca38224cf9b39f17d306f98a9ccaf2b1ceffa1010037",
+    "results/human_semantics_v1/verification.json": "fbc435b4ef964e30526ae4020ceee3b4debe9e65a6711e7d9cb5671d5c30c4c5",
+    "results/registration_human_osf_origin_v1.json": "2640336a9dee6d0bd2a36a19c412479feca3b69dd90b9da71bc5755329d58a10",
+    "results/registration_human_semantics_v1.json": "805efff34e959e23a6d1ca38224cf9b39f17d306f98a9ccaf2b1ceffa1010037",
+    "results/test-validation-human-osf-origin.json": "b199e4960ac3bfe2d43682b250c450689ac28f6248ed244c9a59a8b2d2bbeb93",
+    "results/test-validation-human-semantics.json": "3c5d5a168bed4c9f2093fe98c92f746f10912600a99287ea92d00293c33b483a",
+    "scripts/audit_human_osf_origin.py": "20074f7fe54e3ce3139a3acf3d722d0e5bfdfee57b880db33f670e93064685f0",
+    "scripts/verify_human_osf_origin.py": "b70203a1dcca6f83784115af5a239291537a4e6f3f5405b5cf4b823f692907bc",
+    "scripts/verify_human_semantics.py": "0201690c105d3eb6069abd2ce51e89d402fc10cbb3109daaa780986373081490",
+    "src/drosolearn/human_semantics.py": "4e9a7654f28ccf3b69111af2f6b817e9f2b2c0fb5bbba09e37d48097db4fe1ac",
+    "tests/test_human_osf_origin.py": "443194128b8820cd1858eb307c07dd95b57113f5c52b6faa5169bf5ae8226e55",
+    "tests/test_human_osf_origin_verify.py": "dfec76b3543c386d06c18806f9f7eb151ca51485c5a6fa100877aab043dbf293",
+    "tests/test_human_semantics.py": "72bb8a15488f2f08fef584394178b5db0d0473e4dd23243e07418c24c6abf473",
+    "tests/test_human_semantics_run.py": "1a48bf9d13deb3a11c3195485e893f6681edf452577776db21b80630b5ec7051"
+  },
+  "notice": "A semantic cause unresolved; B identity gate covers 25 rows only; remaining49 unverified; original/derived license scopes not merged"
+}

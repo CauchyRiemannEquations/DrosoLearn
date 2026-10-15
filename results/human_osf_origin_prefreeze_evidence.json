@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-15T02:54:30.647424+00:00",
+  "published_commit": "4918553bc17f45815dd82e758c049ca029c96cc6",
+  "registration_sha256": "2640336a9dee6d0bd2a36a19c412479feca3b69dd90b9da71bc5755329d58a10",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/4918553bc17f45815dd82e758c049ca029c96cc6/results/registration_human_osf_origin_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "partial source-identity scope frozen after schema/availability inspection and before numeric replay; not blinded behavioral preregistration"
+}

@@ -22,15 +22,23 @@
     "bandit_reversal_v1": "study-bandit-reversal-v1",
     "head_attenuation_v1": "study-head-attenuation-v1",
     "human_trial_data_audit_v1": "human-trial-data-audit-v1",
-    "human_trial_linkage_v1": "human-trial-linkage-v1"
+    "human_trial_linkage_v1": "human-trial-linkage-v1",
+    "human_semantics_v1": "human-semantics-v1",
+    "human_osf_origin_v1": "human-osf-origin-v1"
   },
   "current_diagnostic": "head_attenuation_diagnostic_v1",
   "bandit_reversal_diagnostic_source_commit": "fceca94dc6e8137085112ad3a5b75a3cf3894e50",
-  "current_data_readiness_audit": "human_trial_linkage_v1",
+  "current_data_readiness_audit": "human_osf_origin_v1",
   "human_trial_data_audit_source_commit": "c8b0e0b97133d105d07c28aca116974100ddf6d3",
   "human_model_similarity_tested": false,
   "human_trial_linkage_source_commit": "bb41466c752b40872a51a431b2a4cf1d0267e825",
   "human_trial_linkage_unique_feedback_candidates": 23,
   "human_trial_linkage_other_field_semantics_verified": false,
-  "osf_permission_snapshot": "data/human/osf_permissions_20261015/source-manifest.json"
+  "osf_permission_snapshot": "data/human/osf_permissions_20261015/source-manifest.json",
+  "human_semantics_source_commit": "fcb7ccceb3b02402c7faa734b6f60f482926108d",
+  "human_semantics_mapping_gate": "unresolved",
+  "human_osf_origin_source_commit": "93eea32f0ef18466142657ee978afc7694bcc5db",
+  "human_osf_origin_verified_rows": 25,
+  "human_osf_origin_verified_items_including_NaN": 75000,
+  "human_osf_origin_unmatched_unverified_rows": 49
 }
