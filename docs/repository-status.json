@@ -24,11 +24,13 @@
     "human_trial_data_audit_v1": "human-trial-data-audit-v1",
     "human_trial_linkage_v1": "human-trial-linkage-v1",
     "human_semantics_v1": "human-semantics-v1",
-    "human_osf_origin_v1": "human-osf-origin-v1"
+    "human_osf_origin_v1": "human-osf-origin-v1",
+    "human_task_structure_v1": "human-task-structure-v1",
+    "feedback_transition_v1": "feedback-transition-v1"
   },
   "current_diagnostic": "head_attenuation_diagnostic_v1",
   "bandit_reversal_diagnostic_source_commit": "fceca94dc6e8137085112ad3a5b75a3cf3894e50",
-  "current_data_readiness_audit": "human_osf_origin_v1",
+  "current_data_readiness_audit": "human_task_structure_v1",
   "human_trial_data_audit_source_commit": "c8b0e0b97133d105d07c28aca116974100ddf6d3",
   "human_model_similarity_tested": false,
   "human_trial_linkage_source_commit": "bb41466c752b40872a51a431b2a4cf1d0267e825",
@@ -40,5 +42,15 @@
   "human_osf_origin_source_commit": "93eea32f0ef18466142657ee978afc7694bcc5db",
   "human_osf_origin_verified_rows": 25,
   "human_osf_origin_verified_items_including_NaN": 75000,
-  "human_osf_origin_unmatched_unverified_rows": 49
+  "human_osf_origin_unmatched_unverified_rows": 49,
+  "human_task_structure_source_commit": "b9b206399521fb5055be2cb1832c3085c13959f5",
+  "human_task_structure_verified_source_records": 25,
+  "human_task_exact_historical_execution_version_verified": false,
+  "current_descriptive_measurement": "feedback_transition_v1",
+  "feedback_transition_source_commit": "9f44e4d11adb7da0f7f0fb2380da19be13172fba",
+  "feedback_transition_human_records": 25,
+  "feedback_transition_model_streams": 280,
+  "feedback_transition_candidates": 136695,
+  "feedback_transition_eligible": 133250,
+  "feedback_transition_excluded": 3445
 }

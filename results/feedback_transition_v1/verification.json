@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "scope": "independent_recordwise_transition_no_group_or_species_contrast",
+  "registration_sha256": "0596c178c09bdf48621dc2aff1a87dcc9967832a35765e467cd2f0999f22f68a",
+  "config_sha256": "eb0f1b7ae245e6af8b217da014a0644f58faa9d5dae9f9eb1b7162f24f82b161",
+  "input_files_verified": 45,
+  "frozen_files_verified": 12,
+  "primary_artifacts_verified": 3,
+  "human_records_replayed": 25,
+  "model_streams_replayed": 280,
+  "streams_verified": 305,
+  "candidate_pairs_verified": 136695,
+  "group_or_species_contrast_computed": false,
+  "level4_or_level5_supported": false,
+  "errors": [],
+  "verified_at_utc": "2026-10-15T04:09:47.816043+00:00"
+}

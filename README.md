@@ -266,3 +266,9 @@ CC0인 OpenNeuro 부분집합 31파일에서 사건 44,262행·선택 사건 14,
 `results/`에는 실패를 포함한 결과와 메타데이터만 기록한다. 학습 평가가 좋지 않더라도 예산을 늘려 같은 가설의 성공을 찾지 않는다. 다음 실험은 실패 원인과 입력·가소성·자원의 가설을 분리해 등록한다.
 
 새 GitHub 저장소 생성·배포 절차는 [repository-creation.md](docs/repository-creation.md)에 있다. DrosoMem에 push하거나 원본 결과를 교체하지 않는다. 소프트웨어는 [MIT](LICENSE), FlyWire 파생 데이터는 별도의 CC BY-NC 4.0 조건을 따른다. 새 OpenNeuro 행동·사건 부분집합은 [별도 CC0 출처 표시](data/human/stolz_2022_openneuro/ATTRIBUTION.md)를 따른다. 다른 후보의 원자료는 재배포하지 않는다.
+
+## 후속: 과제 의미 확인과 실제 선택의 공통 측정
+
+[두 단계의 쉬운 결과](docs/learning-measurement-continuation-findings.md)를 보존한다. 원 코드·논문과 원본25개에서 카드/상태/정오 관계와 조건 내 일정이 일치해 [구조 게이트](docs/human-task-structure-findings.md)가 통과했다. 이어 사람25,000시행과 기존 모델 phase2의112,000시행을 처리해 원 이웃 쌍의 유지·전환 분자·분모를 기록별로 계산·독립 검산했다. 사람 유효21,530/제외3,445쌍, 모델 유효111,720/제외0쌍이며 제외0은 정답률100%라는 뜻이 아니다. 새 합성 시험280개(46+234)가 통과했다.
+
+사람은 확률적 카드 금전 손익·정보 요청, 모델은 작은/큰 수량에 대한 결정적 보상이다. 특히 모델 보상과 현재 선택이 완전히 겹쳐 조건부 유지율에서 보상 자체 효과를 분리하지 못한다. 종간·집단 차이·학습 효과를 검정하지 않았으며 Level4/5 결과가 아니다. 일부 모델 이력의 정확 중복과 다른 경로의 난수 공유도 명시했다. [실행 전 계획](docs/feedback-transition-protocol.md), [실제 기록별 결과](results/feedback_transition_v1/metrics.json), [독립 검산](results/feedback_transition_v1/verification.json)을 함께 보존한다. 완료 태그는 `human-task-structure-v1`과 `feedback-transition-v1`이다.
