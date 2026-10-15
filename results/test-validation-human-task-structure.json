@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-15T04:00:43.488072+00:00",
+  "python": "3.12.10",
+  "components": {
+    "test_human_task_structure.py": 28,
+    "test_human_task_structure_verify.py": 18
+  },
+  "passed": 46,
+  "failed": 0,
+  "elapsed_seconds": 9.94,
+  "fixtures": "synthetic only; no actual human/model files read",
+  "command": "python -m pytest tests/test_human_task_structure.py tests/test_human_task_structure_verify.py -q",
+  "source_hashes": {
+    "scripts/audit_human_task_structure.py": "8a3005282f77f0ddd473edd565b4cc777b854d9cad49cac7905a8403aefb4e35",
+    "scripts/verify_human_task_structure.py": "4edf67b1cea6003a53b0deb4d7d5b7c2c42f8f877ee89ec544e09ac2c6b66a4a",
+    "configs/human_task_structure_v1.json": "f5f1b4613bc86afec0a5652dc3df43db096a64a2d2b526ad3ce37b132dc3b975",
+    "tests/test_human_task_structure.py": "60947da3681064b5d99b0136dff2a8251ba6d0294a735b90a2e73b0b6752e3a5",
+    "tests/test_human_task_structure_verify.py": "ba793f94998f0c31877b057fec4393f907ec9f8111ddb1f9dec1c92d689948c4"
+  }
+}

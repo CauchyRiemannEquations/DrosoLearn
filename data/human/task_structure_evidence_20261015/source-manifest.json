@@ -1,0 +1,736 @@
+{
+  "schema_version": 1,
+  "audit_id": "human_task_structure_sources_20261015",
+  "assembled_at_utc": "2026-10-15T03:55:08.784612+00:00",
+  "purpose": "Source-code and publication semantics only; no human choice summaries or raw MAT/CSV value analysis.",
+  "paper_doi": "10.3389/fnbeh.2022.962494",
+  "paper_pmc": "PMC9621332",
+  "osf_project": "h526v",
+  "osf_task_component": "57wr8",
+  "osf_task_folder": "5d08b62443bdc30017e87aa3",
+  "github_immutable_commit": "813aeb5ad2c7bbed90ecd7d947bce9fe981c9702",
+  "raw_behavioral_mat_downloaded_or_read": false,
+  "behavioral_csv_downloaded_or_read": false,
+  "files": [
+    {
+      "path": "osf_task_root.json",
+      "url": "https://api.osf.io/v2/nodes/57wr8/files/osfstorage/",
+      "retrieved_at_utc": "2026-10-15T03:48:58.531782+00:00",
+      "http_status": 200,
+      "bytes": 1839,
+      "sha256": "ee8f1e794bd762e6bdeec688d8edce8016f37041b7384525cda5f6527fb1a707",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "pybefit_formatter_main.py",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/main/format_behavioral_data.py",
+      "retrieved_at_utc": "2026-10-15T03:48:58.921620+00:00",
+      "http_status": 200,
+      "bytes": 4315,
+      "sha256": "6fd8ad0da89171683d0f43c0d0f895ad6d420a5a1dd09a72b37d44fb7c889874",
+      "resolved_host": "raw.githubusercontent.com",
+      "repository": "dimarkov/pybefit",
+      "git_commit": "813aeb5ad2c7bbed90ecd7d947bce9fe981c9702",
+      "repository_path": "examples/temporal_rev_learn/behavioral_data/main/format_behavioral_data.py",
+      "git_blob_sha1": "c2660061c2265878306ad278a782db30f7c85427",
+      "git_blob_identity_verified": true,
+      "license": "MIT software/documentation",
+      "recommended_repository_vendor": true,
+      "role": "formatter_python_text"
+    },
+    {
+      "path": "pybefit_formatter_pilot.py",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/pilot/format_behavioral_data.py",
+      "retrieved_at_utc": "2026-10-15T03:48:59.160647+00:00",
+      "http_status": 200,
+      "bytes": 2854,
+      "sha256": "6ef5fd4d5234a9ab53ed9bd03e2f57238105e80db493f7759b43ef0582a16a92",
+      "resolved_host": "raw.githubusercontent.com",
+      "repository": "dimarkov/pybefit",
+      "git_commit": "813aeb5ad2c7bbed90ecd7d947bce9fe981c9702",
+      "repository_path": "examples/temporal_rev_learn/behavioral_data/pilot/format_behavioral_data.py",
+      "git_blob_sha1": "84bd3fa149e964574c59c2ae0f4953a43e8bdb64",
+      "git_blob_identity_verified": true,
+      "license": "MIT software/documentation",
+      "recommended_repository_vendor": true,
+      "role": "formatter_python_text"
+    },
+    {
+      "path": "pybefit_LICENSE.md",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/LICENSE.md",
+      "retrieved_at_utc": "2026-10-15T03:49:00.177837+00:00",
+      "http_status": 200,
+      "bytes": 1114,
+      "sha256": "a573be07187c3c7387c320a7ed2c2ee12eb72578de4632c8e32ec984a56e8ee5",
+      "resolved_host": "raw.githubusercontent.com",
+      "repository": "dimarkov/pybefit",
+      "git_commit": "813aeb5ad2c7bbed90ecd7d947bce9fe981c9702",
+      "repository_path": "LICENSE.md",
+      "git_blob_sha1": "f8b3fc49061a43edd77e0a6f36f2e07183439bf4",
+      "git_blob_identity_verified": true,
+      "license": "MIT software/documentation",
+      "recommended_repository_vendor": true,
+      "role": "software_license"
+    },
+    {
+      "path": "osf_experiment_folder.json",
+      "url": "https://api.osf.io/v2/nodes/57wr8/files/osfstorage/5d08b62443bdc30017e87aa3/?page[size]=100",
+      "http_status": 200,
+      "bytes": 46171,
+      "sha256": "6b9a8ef6d09789d212e93a2680ed27574e90eb7200436a3f62248e8968c347d4",
+      "retrieved_at_utc": "2026-10-15T03:49:10.257015+00:00",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "osf_task_node.json",
+      "url": "https://api.osf.io/v2/nodes/57wr8/",
+      "retrieved_at_utc": "2026-10-15T03:48:40.084468+00:00",
+      "http_status": 200,
+      "bytes": 4665,
+      "sha256": "55b53f3ef44b28bf87494c24e6f6cfaa5e155179aacccf8fb764b4e184d69776",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "osf_task_providers.json",
+      "url": "https://api.osf.io/v2/nodes/57wr8/files/",
+      "retrieved_at_utc": "2026-10-15T03:48:40.692423+00:00",
+      "http_status": 200,
+      "bytes": 957,
+      "sha256": "36f609d60ee907b3af31517f3a968aff39ab7a69e6da671864cb77f797c717f3",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "versions_instr_opvol_posttraining.m.json",
+      "url": "https://api.osf.io/v2/files/5d08b8b81ed0c2001693e767/versions/",
+      "retrieved_at_utc": "2026-10-15T03:50:29.947565+00:00",
+      "http_status": 200,
+      "bytes": 1195,
+      "sha256": "5cabe1a9fe261573837d965d94add80bb17a4cb40adaaf416228d83aca973478",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "osf_code/instr_funcs/instr_opvol_posttraining.m",
+      "url": "https://osf.io/download/ga95u/?revision=2",
+      "retrieved_at_utc": "2026-10-15T03:50:30.282939+00:00",
+      "http_status": 200,
+      "bytes": 2027,
+      "sha256": "244772c07290c3ef4895208132266d9ae440b2cdc5914775189ade98da168031",
+      "version": 2,
+      "osf_file_id": "5d08b8b81ed0c2001693e767",
+      "expected_bytes": 2027,
+      "expected_sha256": "244772c07290c3ef4895208132266d9ae440b2cdc5914775189ade98da168031",
+      "resolved_host": "storage.googleapis.com",
+      "declared_size_and_sha256_verified": true,
+      "license": "CC BY 4.0 declared by OSF component 57wr8",
+      "recommended_repository_vendor": true,
+      "role": "task_matlab_text"
+    },
+    {
+      "path": "versions_display_payment.m.json",
+      "url": "https://api.osf.io/v2/files/5d08b8b93466a6001a9053d6/versions/",
+      "retrieved_at_utc": "2026-10-15T03:50:33.082914+00:00",
+      "http_status": 200,
+      "bytes": 651,
+      "sha256": "fc21497a6a6ef56c2baac08efffe0cd74801e0f4247988d0fa0d813f880ebf3d",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "osf_code/instr_funcs/display_payment.m",
+      "url": "https://osf.io/download/yqrwz/?revision=1",
+      "retrieved_at_utc": "2026-10-15T03:50:33.393184+00:00",
+      "http_status": 200,
+      "bytes": 215,
+      "sha256": "bb8ce099f0bbc2e4c9a454d556a8815a1664b43b38c7f15a38dbfbde0bf37614",
+      "version": 1,
+      "osf_file_id": "5d08b8b93466a6001a9053d6",
+      "expected_bytes": 215,
+      "expected_sha256": "bb8ce099f0bbc2e4c9a454d556a8815a1664b43b38c7f15a38dbfbde0bf37614",
+      "resolved_host": "storage.googleapis.com",
+      "declared_size_and_sha256_verified": true,
+      "license": "CC BY 4.0 declared by OSF component 57wr8",
+      "recommended_repository_vendor": true,
+      "role": "task_matlab_text"
+    },
+    {
+      "path": "versions_instr_opvol.m.json",
+      "url": "https://api.osf.io/v2/files/5d08b8bb1ed0c2001693e76c/versions/",
+      "retrieved_at_utc": "2026-10-15T03:50:36.750698+00:00",
+      "http_status": 200,
+      "bytes": 1169,
+      "sha256": "4ae44638ca49885c00f99ac7a41965d155951d52bde267040212b552400f2bdc",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "osf_code/instr_funcs/instr_opvol.m",
+      "url": "https://osf.io/download/xkrp4/?revision=2",
+      "retrieved_at_utc": "2026-10-15T03:50:37.070875+00:00",
+      "http_status": 200,
+      "bytes": 5031,
+      "sha256": "c26472490491a993f1275cbdbdaf638b63e56c212299e4ef560bbb254be5b6c5",
+      "version": 2,
+      "osf_file_id": "5d08b8bb1ed0c2001693e76c",
+      "expected_bytes": 5031,
+      "expected_sha256": "c26472490491a993f1275cbdbdaf638b63e56c212299e4ef560bbb254be5b6c5",
+      "resolved_host": "storage.googleapis.com",
+      "declared_size_and_sha256_verified": true,
+      "license": "CC BY 4.0 declared by OSF component 57wr8",
+      "recommended_repository_vendor": true,
+      "role": "task_matlab_text"
+    },
+    {
+      "path": "versions_instr_payment.m.json",
+      "url": "https://api.osf.io/v2/files/5d08b8bc11bd0800179f84db/versions/",
+      "retrieved_at_utc": "2026-10-15T03:50:39.146931+00:00",
+      "http_status": 200,
+      "bytes": 687,
+      "sha256": "97115a46c51dc5152345ff0792c6c90beda72556ffcee7d699b0671d650e9b5e",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "osf_code/instr_funcs/instr_payment.m",
+      "url": "https://osf.io/download/5d08b8bc11bd0800179f84db/?revision=1",
+      "retrieved_at_utc": "2026-10-15T03:50:39.480797+00:00",
+      "http_status": 200,
+      "bytes": 424,
+      "sha256": "3ef000f61608d47951b4a42844b5b18abc1f55860eed1f250dd545e2a12a6199",
+      "version": 1,
+      "osf_file_id": "5d08b8bc11bd0800179f84db",
+      "expected_bytes": 424,
+      "expected_sha256": "3ef000f61608d47951b4a42844b5b18abc1f55860eed1f250dd545e2a12a6199",
+      "resolved_host": "storage.googleapis.com",
+      "declared_size_and_sha256_verified": true,
+      "license": "CC BY 4.0 declared by OSF component 57wr8",
+      "recommended_repository_vendor": true,
+      "role": "task_matlab_text"
+    },
+    {
+      "path": "osf_task_license.json",
+      "url": "https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/",
+      "retrieved_at_utc": "2026-10-15T03:50:41.271340+00:00",
+      "http_status": 200,
+      "bytes": 13121,
+      "sha256": "32fb3d7b32be0843803f96424fe7739f69574481211a2d323e16f8da8536c635",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "osf_code/draw_hints.m",
+      "url": "https://osf.io/download/sazwt/?revision=1",
+      "version": 1,
+      "osf_file_id": "5d08b69143bdc30017e87ac5",
+      "retrieved_at_utc": "2026-10-15T03:49:44.162225+00:00",
+      "expected_bytes": 271,
+      "expected_sha256": "1b331dba5a4f036ccffaeb78810aacb8fa8f5158075b4724bc2d663ca3c8ecb2",
+      "http_status": 200,
+      "bytes": 271,
+      "sha256": "1b331dba5a4f036ccffaeb78810aacb8fa8f5158075b4724bc2d663ca3c8ecb2",
+      "resolved_host": "storage.googleapis.com",
+      "declared_size_and_sha256_verified": true,
+      "license": "CC BY 4.0 declared by OSF component 57wr8",
+      "recommended_repository_vendor": true,
+      "role": "task_matlab_text"
+    },
+    {
+      "path": "osf_code/expparams.m",
+      "url": "https://osf.io/download/mku28/?revision=1",
+      "version": 1,
+      "osf_file_id": "5d08b68b3466a6001c900f3b",
+      "retrieved_at_utc": "2026-10-15T03:49:44.162225+00:00",
+      "expected_bytes": 2458,
+      "expected_sha256": "96172230c0131f4605a1f7d4fbfa2e9a93f6a9821f17a60213048dd1d4c0530f",
+      "http_status": 200,
+      "bytes": 2458,
+      "sha256": "96172230c0131f4605a1f7d4fbfa2e9a93f6a9821f17a60213048dd1d4c0530f",
+      "resolved_host": "storage.googleapis.com",
+      "declared_size_and_sha256_verified": true,
+      "license": "CC BY 4.0 declared by OSF component 57wr8",
+      "recommended_repository_vendor": true,
+      "role": "task_matlab_text"
+    },
+    {
+      "path": "osf_code/initialwait.m",
+      "url": "https://osf.io/download/dps7x/?revision=1",
+      "version": 1,
+      "osf_file_id": "5d08b6991ed0c20018939422",
+      "retrieved_at_utc": "2026-10-15T03:49:44.162225+00:00",
+      "expected_bytes": 1510,
+      "expected_sha256": "a5d6158966960ff9f598669a50930242af0064b781f6ad25059e18da722e7f49",
+      "http_status": 200,
+      "bytes": 1510,
+      "sha256": "a5d6158966960ff9f598669a50930242af0064b781f6ad25059e18da722e7f49",
+      "resolved_host": "storage.googleapis.com",
+      "declared_size_and_sha256_verified": true,
+      "license": "CC BY 4.0 declared by OSF component 57wr8",
+      "recommended_repository_vendor": true,
+      "role": "task_matlab_text"
+    },
+    {
+      "path": "osf_code/modifyme.m",
+      "url": "https://osf.io/download/qbnfz/?revision=1",
+      "version": 1,
+      "osf_file_id": "5d08b68a3466a6001c900f36",
+      "retrieved_at_utc": "2026-10-15T03:49:44.207818+00:00",
+      "expected_bytes": 2216,
+      "expected_sha256": "815c83c6f5493114d3da6658c8ece8f75a00fdf30795783ffe70a0f7552f510f",
+      "http_status": 200,
+      "bytes": 2216,
+      "sha256": "815c83c6f5493114d3da6658c8ece8f75a00fdf30795783ffe70a0f7552f510f",
+      "resolved_host": "storage.googleapis.com",
+      "declared_size_and_sha256_verified": true,
+      "license": "CC BY 4.0 declared by OSF component 57wr8",
+      "recommended_repository_vendor": true,
+      "role": "task_matlab_text"
+    },
+    {
+      "path": "osf_code/opvoltrial.m",
+      "url": "https://osf.io/download/p3e9w/?revision=1",
+      "version": 1,
+      "osf_file_id": "5d08b68d43bdc30017e87ac0",
+      "retrieved_at_utc": "2026-10-15T03:49:44.234245+00:00",
+      "expected_bytes": 6903,
+      "expected_sha256": "92bdc158711d61cd63b7a1d97c5787158925f6099f1bbfcf9fedcb5e56900c41",
+      "http_status": 200,
+      "bytes": 6903,
+      "sha256": "92bdc158711d61cd63b7a1d97c5787158925f6099f1bbfcf9fedcb5e56900c41",
+      "resolved_host": "storage.googleapis.com",
+      "declared_size_and_sha256_verified": true,
+      "license": "CC BY 4.0 declared by OSF component 57wr8",
+      "recommended_repository_vendor": true,
+      "role": "task_matlab_text"
+    },
+    {
+      "path": "osf_code/preps.m",
+      "url": "https://osf.io/download/s2pqr/?revision=1",
+      "version": 1,
+      "osf_file_id": "5d08b68d1ed0c20018939416",
+      "retrieved_at_utc": "2026-10-15T03:49:44.249837+00:00",
+      "expected_bytes": 1536,
+      "expected_sha256": "e2fb5b4007753f4b511b48789f3fc9ce53ef20757e622798fc1dc7483aaa0f54",
+      "http_status": 200,
+      "bytes": 1536,
+      "sha256": "e2fb5b4007753f4b511b48789f3fc9ce53ef20757e622798fc1dc7483aaa0f54",
+      "resolved_host": "storage.googleapis.com",
+      "declared_size_and_sha256_verified": true,
+      "license": "CC BY 4.0 declared by OSF component 57wr8",
+      "recommended_repository_vendor": true,
+      "role": "task_matlab_text"
+    },
+    {
+      "path": "osf_code/runexp.m",
+      "url": "https://osf.io/download/jnge3/?revision=1",
+      "version": 1,
+      "osf_file_id": "5d08b68b11bd08001a9f2989",
+      "retrieved_at_utc": "2026-10-15T03:49:46.395039+00:00",
+      "expected_bytes": 4217,
+      "expected_sha256": "8b8378c52884695d9c196cdcebd16783e14f1740f76245de4ef1d63b8a10b090",
+      "http_status": 200,
+      "bytes": 4217,
+      "sha256": "8b8378c52884695d9c196cdcebd16783e14f1740f76245de4ef1d63b8a10b090",
+      "resolved_host": "storage.googleapis.com",
+      "declared_size_and_sha256_verified": true,
+      "license": "CC BY 4.0 declared by OSF component 57wr8",
+      "recommended_repository_vendor": true,
+      "role": "task_matlab_text"
+    },
+    {
+      "path": "osf_code/setup.m",
+      "url": "https://osf.io/download/32pgx/?revision=1",
+      "version": 1,
+      "osf_file_id": "5d08b68b43bdc30016e88ebd",
+      "retrieved_at_utc": "2026-10-15T03:49:46.492566+00:00",
+      "expected_bytes": 4864,
+      "expected_sha256": "0c6117436b0cc6efda642247981555d90ac35f6b053ec7f6b23529555837a0dd",
+      "http_status": 200,
+      "bytes": 4864,
+      "sha256": "0c6117436b0cc6efda642247981555d90ac35f6b053ec7f6b23529555837a0dd",
+      "resolved_host": "storage.googleapis.com",
+      "declared_size_and_sha256_verified": true,
+      "license": "CC BY 4.0 declared by OSF component 57wr8",
+      "recommended_repository_vendor": true,
+      "role": "task_matlab_text"
+    },
+    {
+      "path": "versions_modifyme.m.json",
+      "url": "https://api.osf.io/v2/files/5d08b68a3466a6001c900f36/versions/",
+      "retrieved_at_utc": "2026-10-15T03:49:31.958602+00:00",
+      "http_status": 200,
+      "bytes": 645,
+      "sha256": "b969021a71586184df794a25a9d5ae89a442a6e426f6a46d561d52b9526e87b3",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "versions_expparams.m.json",
+      "url": "https://api.osf.io/v2/files/5d08b68b3466a6001c900f3b/versions/",
+      "retrieved_at_utc": "2026-10-15T03:49:31.958602+00:00",
+      "http_status": 200,
+      "bytes": 646,
+      "sha256": "dfa0793e086a3e41efa51e7a10193333b6ba1bdeb2a401dfc5246e44625d943a",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "versions_runexp.m.json",
+      "url": "https://api.osf.io/v2/files/5d08b68b11bd08001a9f2989/versions/",
+      "retrieved_at_utc": "2026-10-15T03:49:32.004153+00:00",
+      "http_status": 200,
+      "bytes": 643,
+      "sha256": "4382634be4756f40bc94aa8d8e781b8e1fdf2456feaa02374c3c39fe1eb62c64",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "versions_setup.m.json",
+      "url": "https://api.osf.io/v2/files/5d08b68b43bdc30016e88ebd/versions/",
+      "retrieved_at_utc": "2026-10-15T03:49:32.006157+00:00",
+      "http_status": 200,
+      "bytes": 642,
+      "sha256": "a63865ba23042437d33261d6917b834943a9b7a0dcf3db9202435c90294334de",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "versions_preps.m.json",
+      "url": "https://api.osf.io/v2/files/5d08b68d1ed0c20018939416/versions/",
+      "retrieved_at_utc": "2026-10-15T03:49:32.028177+00:00",
+      "http_status": 200,
+      "bytes": 642,
+      "sha256": "6f540073eec982283b7ee80355ff57a400784d0912e88748c38acdda7c169f59",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "versions_opvoltrial.m.json",
+      "url": "https://api.osf.io/v2/files/5d08b68d43bdc30017e87ac0/versions/",
+      "retrieved_at_utc": "2026-10-15T03:49:32.028177+00:00",
+      "http_status": 200,
+      "bytes": 647,
+      "sha256": "2d4691209d86d1f11e98e19a3289aa9f463412f0c5bfc3afbc2844d8238c5762",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "versions_draw_hints.m.json",
+      "url": "https://api.osf.io/v2/files/5d08b69143bdc30017e87ac5/versions/",
+      "retrieved_at_utc": "2026-10-15T03:49:32.309479+00:00",
+      "http_status": 200,
+      "bytes": 646,
+      "sha256": "d1848678638e3158b9040cf5023badabb6e4286150a1dfb543c1e8e3a3b93d33",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "versions_initialwait.m.json",
+      "url": "https://api.osf.io/v2/files/5d08b6991ed0c20018939422/versions/",
+      "retrieved_at_utc": "2026-10-15T03:49:32.309479+00:00",
+      "http_status": 200,
+      "bytes": 648,
+      "sha256": "2d4ac13be6b73e80eae19afcfded810c35780558b96ff4c6e00bbaf6ccf91454",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "osf_instructions_folder.json",
+      "url": "https://api.osf.io/v2/nodes/57wr8/files/osfstorage/5d08b88643bdc30018e8cf0a/?page[size]=100",
+      "retrieved_at_utc": "2026-10-15T03:49:32.325233+00:00",
+      "http_status": 200,
+      "bytes": 12691,
+      "sha256": "d8d73d8a2b8cc30266cb63c4a7c55fe2cf2fb8ec921a6a345041e95367cf506a",
+      "resolved_host": "api.osf.io",
+      "recommended_repository_vendor": false,
+      "role": "official_source_metadata"
+    },
+    {
+      "path": "README.md",
+      "role": "local_attribution_and_scope_note",
+      "bytes": 1774,
+      "sha256": "c3379c14e7d7095461ebe43ec838606938ba2f3f01a511f62db5fad88425fd6a",
+      "generated_at_utc": "2026-10-15T03:55:08.784612+00:00"
+    }
+  ],
+  "external_review_sources": [
+    {
+      "path": "pybefit_temporal_README.md",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/README.md",
+      "retrieved_at_utc": "2026-10-15T03:48:59.409550+00:00",
+      "http_status": 200,
+      "bytes": 1433,
+      "sha256": "c0830babaefc2d96c4d6c0a3112189df53b48291d597b004eb1d7e7f7f30ec95",
+      "resolved_host": "raw.githubusercontent.com",
+      "repository": "dimarkov/pybefit",
+      "git_commit": "813aeb5ad2c7bbed90ecd7d947bce9fe981c9702",
+      "repository_path": "examples/temporal_rev_learn/README.md",
+      "git_blob_sha1": "6c560e5a654661094d12228803bb935ccd461d90",
+      "git_blob_identity_verified": true,
+      "license": "MIT software/documentation",
+      "recommended_repository_vendor": false
+    },
+    {
+      "path": "pybefit_run_fits.py",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/run_fits.py",
+      "retrieved_at_utc": "2026-10-15T03:48:59.664850+00:00",
+      "http_status": 200,
+      "bytes": 4458,
+      "sha256": "1b61c96511f157a0f20375a607d05864c7aec69645fa587692b0e9489210d137",
+      "resolved_host": "raw.githubusercontent.com",
+      "repository": "dimarkov/pybefit",
+      "git_commit": "813aeb5ad2c7bbed90ecd7d947bce9fe981c9702",
+      "repository_path": "examples/temporal_rev_learn/run_fits.py",
+      "git_blob_sha1": "a870899a14dfa7943e10cb5c85b0dee3df65382f",
+      "git_blob_identity_verified": true,
+      "license": "MIT software/documentation",
+      "recommended_repository_vendor": false
+    },
+    {
+      "path": "pybefit_utils.py",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/utils.py",
+      "retrieved_at_utc": "2026-10-15T03:48:59.942261+00:00",
+      "http_status": 200,
+      "bytes": 5520,
+      "sha256": "4161a76bd416903a18daaeb2c66a03183f0f461948eb848f2141e2945da810cc",
+      "resolved_host": "raw.githubusercontent.com",
+      "repository": "dimarkov/pybefit",
+      "git_commit": "813aeb5ad2c7bbed90ecd7d947bce9fe981c9702",
+      "repository_path": "examples/temporal_rev_learn/utils.py",
+      "git_blob_sha1": "e000e0ded1b82bbe6c99b4ccee641fe9a7a06a74",
+      "git_blob_identity_verified": true,
+      "license": "MIT software/documentation",
+      "recommended_repository_vendor": false
+    },
+    {
+      "path": "pybefit_tree.json",
+      "url": "https://api.github.com/repos/dimarkov/pybefit/git/trees/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702?recursive=1",
+      "retrieved_at_utc": "2026-10-15T03:48:41.159965+00:00",
+      "http_status": 200,
+      "bytes": 39185,
+      "sha256": "4f343249a77599fb134405fe234d62735c03e424337b6bf7763a25387ad06d5a",
+      "resolved_host": "api.github.com",
+      "recommended_repository_vendor": false
+    },
+    {
+      "path": "paper_pmc.html",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9621332/",
+      "retrieved_at_utc": "2026-10-15T03:48:41.464967+00:00",
+      "http_status": 200,
+      "bytes": 342897,
+      "sha256": "889b365756da9e5ae7b4fe36d274dfeeee223b123b3f84aa52b521d85ca8cdc4",
+      "resolved_host": "pmc.ncbi.nlm.nih.gov",
+      "recommended_repository_vendor": false
+    }
+  ],
+  "semantic_decisions": [
+    {
+      "id": "responses_card_identity",
+      "verdict": "source_supported_execution_version_unverified",
+      "statement": "A is a spatially corrected card code; formatter responses=A-1. Use source-coded option 0/1.",
+      "evidence": [
+        {
+          "path": "osf_code/opvoltrial.m",
+          "lines": [
+            69,
+            79
+          ]
+        },
+        {
+          "path": "pybefit_formatter_main.py",
+          "lines": [
+            100,
+            101
+          ]
+        }
+      ]
+    },
+    {
+      "id": "latent_S",
+      "verdict": "source_supported_raw_consistency_not_yet_audited",
+      "statement": "S is the target card used by C and the information display; paper defines correct as the higher-probability card.",
+      "evidence": [
+        {
+          "path": "osf_code/opvoltrial.m",
+          "lines": [
+            82,
+            87
+          ]
+        },
+        {
+          "path": "osf_code/opvoltrial.m",
+          "lines": [
+            103,
+            103
+          ]
+        },
+        {
+          "doi": "10.3389/fnbeh.2022.962494",
+          "section": "2 Figure 1; 4.3"
+        }
+      ]
+    },
+    {
+      "id": "R_feedback",
+      "verdict": "counterfactual_table_selected_column_is_observed_consequence",
+      "statement": "Card feedback is R(nt,A(nt)); query feedback has zero monetary consequence. A missing-response path writes R(nt)=NaN.",
+      "evidence": [
+        {
+          "path": "osf_code/opvoltrial.m",
+          "lines": [
+            90,
+            97
+          ]
+        },
+        {
+          "path": "osf_code/opvoltrial.m",
+          "lines": [
+            214,
+            216
+          ]
+        }
+      ]
+    },
+    {
+      "id": "query_outcomes",
+      "verdict": "state_cue_not_reward_magnitude",
+      "statement": "Query outcomes are S+1, so 2/3 cue states cannot be interpreted as larger monetary rewards.",
+      "evidence": [
+        {
+          "path": "pybefit_formatter_main.py",
+          "lines": [
+            103,
+            116
+          ]
+        }
+      ]
+    },
+    {
+      "id": "offered_availability",
+      "verdict": "random_lr_or_formatter_offers_is_not_query_availability",
+      "statement": "The public three-choice task offers help every trial. A=3 absence does not identify availability. The exact 2018 execution version remains unverified.",
+      "evidence": [
+        {
+          "path": "osf_code/preps.m",
+          "lines": [
+            32,
+            33
+          ]
+        },
+        {
+          "path": "osf_code/instr_funcs/instr_opvol.m",
+          "lines": [
+            61,
+            61
+          ]
+        },
+        {
+          "path": "pybefit_formatter_main.py",
+          "lines": [
+            98,
+            98
+          ]
+        }
+      ]
+    },
+    {
+      "id": "query_cost",
+      "verdict": "no_direct_monetary_fee_foregone_card_trial",
+      "statement": "Query receives no monetary gain or loss in that trial; any subjective value or opportunity cost is a separate model assumption.",
+      "evidence": [
+        {
+          "path": "osf_code/instr_funcs/instr_opvol.m",
+          "lines": [
+            61,
+            61
+          ]
+        },
+        {
+          "path": "osf_code/opvoltrial.m",
+          "lines": [
+            93,
+            97
+          ]
+        }
+      ]
+    },
+    {
+      "id": "reversal_schedule",
+      "verdict": "paper_800_plus_200_design_exact_boundaries_not_read",
+      "statement": "Paper defines 800 original-statistics plus 200 opposite-statistics trials. Raw S/R boundaries were not counted in this review.",
+      "evidence": [
+        {
+          "doi": "10.3389/fnbeh.2022.962494",
+          "section": "2 Figure 2 and following paragraphs"
+        },
+        {
+          "path": "osf_code/runexp.m",
+          "lines": [
+            49,
+            55
+          ]
+        }
+      ]
+    },
+    {
+      "id": "execution_version",
+      "verdict": "unresolved_no_exact_2018_version_link",
+      "statement": "Public version is TEMP_OPVOL_3.0_190611_TUD, uploaded 2019-06-18; verified filenames have 2018 timestamps. Public feedback duration differs from paper. Current parity assignment must not replace frozen formatter labels.",
+      "evidence": [
+        {
+          "path": "osf_code/modifyme.m",
+          "lines": [
+            46,
+            46
+          ]
+        },
+        {
+          "path": "osf_code/expparams.m",
+          "lines": [
+            31,
+            31
+          ]
+        },
+        {
+          "path": "osf_code/preps.m",
+          "lines": [
+            35,
+            36
+          ]
+        },
+        {
+          "path": "pybefit_formatter_main.py",
+          "lines": [
+            73,
+            75
+          ]
+        }
+      ]
+    }
+  ],
+  "bundled_upstream_text_files": 15,
+  "bundled_matlab_text_files": 12,
+  "exact_2018_execution_code_version_verified": false,
+  "raw_S_R_boundary_counts_performed": false,
+  "human_choice_summaries_performed": false
+}

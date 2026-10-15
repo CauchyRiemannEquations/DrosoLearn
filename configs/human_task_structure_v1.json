@@ -1,0 +1,26 @@
+{
+  "study_id": "human_task_structure_v1",
+  "scope": "exploratory_source_task_structure_not_learning_performance",
+  "trials_per_row": 1000,
+  "origin_manifest": "configs/human_osf_origin_manifest.json",
+  "origin_result": "results/human_osf_origin_v1/comparison.json",
+  "source_manifest": "data/human/task_structure_evidence_20261015/source-manifest.json",
+  "selection": "all25 raw main rows already matched before behavioral analysis; other49 remain unverified",
+  "checks": ["source byte identity", "original array shape and code domains", "finite binary action C equals indicator A==S", "query/missing action C is NaN", "S/R schedule exactly shared within frozen formatter condition", "new state begins at original changed-S trial"],
+  "prohibited": ["human accuracy", "learning curve", "group contrast", "human-model contrast", "exact historical executable version claim"],
+  "frozen_files": [
+    "scripts/audit_human_task_structure.py",
+    "tests/test_human_task_structure.py",
+    "scripts/verify_human_task_structure.py",
+    "tests/test_human_task_structure_verify.py",
+    "configs/human_task_structure_v1.json",
+    "docs/human-task-structure-protocol.md",
+    "docs/human-task-structure-sources.md",
+    "data/human/task_structure_evidence_20261015/source-manifest.json",
+    "configs/human_osf_origin_manifest.json",
+    "results/human_osf_origin_v1/comparison.json",
+    "results/human_osf_origin_v1/verification.json",
+    "requirements-lock.txt",
+    "requirements-human-candidate-audit.txt"
+  ]
+}
