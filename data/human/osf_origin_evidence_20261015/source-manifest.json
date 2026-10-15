@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-15",
+  "scope": "public_official_metadata_only_no_behavioral_MAT_or_CSV",
+  "attribution": {
+    "authors": "Dimitrije Markovic; Andrea M. F. Reiter; Stefan J. Kiebel",
+    "paper_doi": "10.3389/fnbeh.2022.962494",
+    "project_url": "https://osf.io/h526v/",
+    "data_component_url": "https://osf.io/75jrf/",
+    "node_copyright_holder": "Dimitrije Markovic",
+    "node_copyright_year": "2019",
+    "explicit_license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+  },
+  "files": [
+    {
+      "path": "pilot_page1.json",
+      "role": "catalog_pilot_1",
+      "url": "https://api.osf.io/v2/nodes/75jrf/files/osfstorage/5d08b4f943bdc30019e889fe/?page[size]=100",
+      "http_status": 200,
+      "started_at_utc": "2026-10-15T02:33:42.296863+00:00",
+      "finished_at_utc": "2026-10-15T02:33:47.403374+00:00",
+      "bytes": 204831,
+      "sha256": "7316ed0039e6ad17d897c3db07e653905d5af06a51f007926f24f4f07cc211f0",
+      "snapshot_kind": "unmodified_HTTP_response"
+    },
+    {
+      "path": "pilot_page2.json",
+      "role": "catalog_pilot_2",
+      "url": "https://api.osf.io/v2/nodes/75jrf/files/osfstorage/5d08b4f943bdc30019e889fe/?page=2&page%5Bsize%5D=100",
+      "http_status": 200,
+      "started_at_utc": "2026-10-15T02:34:25.894830+00:00",
+      "finished_at_utc": "2026-10-15T02:34:29.062167+00:00",
+      "bytes": 111149,
+      "sha256": "606cfec8ffdcedb2c8c3127a95f944ee9e6419002a7f2c0da642b6071b2ec6ce",
+      "snapshot_kind": "unmodified_HTTP_response"
+    },
+    {
+      "path": "main.json",
+      "role": "catalog_main",
+      "url": "https://api.osf.io/v2/nodes/75jrf/files/osfstorage/5d08b40a1ed0c2001693e29f/",
+      "http_status": 200,
+      "started_at_utc": "2026-10-15T02:33:42.298870+00:00",
+      "finished_at_utc": "2026-10-15T02:33:42.835221+00:00",
+      "bytes": 128,
+      "sha256": "337a5845bf62ccbe2bee6d47834c9d6317bc033ab935af60bc66d75c688ef71a",
+      "snapshot_kind": "unmodified_HTTP_response"
+    },
+    {
+      "path": "data_node.json",
+      "role": "data_license_node",
+      "url": "https://api.osf.io/v2/nodes/75jrf/",
+      "http_status": 200,
+      "started_at_utc": "2026-10-15T01:11:32.499789+00:00",
+      "finished_at_utc": "2026-10-15T01:11:32.934012+00:00",
+      "bytes": 4604,
+      "sha256": "f1cadfcaab34234f3d38f628e4ed55ea16118813bd40552655d6698ad3d19db3",
+      "snapshot_kind": "unmodified_HTTP_response"
+    },
+    {
+      "path": "license.json",
+      "role": "data_license",
+      "url": "https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/",
+      "http_status": 200,
+      "started_at_utc": "2026-10-15T01:09:58.972494+00:00",
+      "finished_at_utc": "2026-10-15T01:09:59.293944+00:00",
+      "bytes": 13121,
+      "sha256": "32fb3d7b32be0843803f96424fe7739f69574481211a2d323e16f8da8536c635",
+      "snapshot_kind": "unmodified_HTTP_response"
+    }
+  ],
+  "filename_pattern_review": {
+    "catalog_entries": 154,
+    "characters_only": "ASCII letters/digits/underscore/period/hyphen",
+    "structure": "shared task prefixes/suffixes plus numeric codes and numeric time components",
+    "participant_specific_alphabetic_tokens_observed": false,
+    "scope_limit": "Pattern inspection only; no linkage between codes and actual persons was attempted. Public coded filenames remain present in these original metadata responses."
+  },
+  "license_limit": "Explicit OSF node declaration is retained; no automatic relicensing of separately hosted derived CSV files.",
+  "response_modifications": false,
+  "participant_behavior_or_learning_estimates_computed": false
+}

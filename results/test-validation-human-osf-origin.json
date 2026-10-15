@@ -1,0 +1,25 @@
+{
+  "recorded_at_utc": "2026-10-15T02:54:13.538404+00:00",
+  "passed": 52,
+  "duration_seconds": 3.99,
+  "warnings_reported": 0,
+  "components": {
+    "synthetic_source_transform_and_freeze": 33,
+    "independent_transform_and_tamper": 19
+  },
+  "command": "python -m pytest tests/test_human_osf_origin.py tests/test_human_osf_origin_verify.py -q --tb=short",
+  "scope": "invented MATLAB arrays, catalogs, formatter lists and CSVs only; no actual raw-to-derived replay in tests",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "source_hashes": {
+    "scripts/audit_human_osf_origin.py": "20074f7fe54e3ce3139a3acf3d722d0e5bfdfee57b880db33f670e93064685f0",
+    "scripts/verify_human_osf_origin.py": "b70203a1dcca6f83784115af5a239291537a4e6f3f5405b5cf4b823f692907bc",
+    "tests/test_human_osf_origin.py": "443194128b8820cd1858eb307c07dd95b57113f5c52b6faa5169bf5ae8226e55",
+    "tests/test_human_osf_origin_verify.py": "dfec76b3543c386d06c18806f9f7eb151ca51485c5a6fa100877aab043dbf293",
+    "configs/human_osf_origin_manifest.json": "61a3b8575c5b2071d4a6df089f03c108e982521dbfae49ea4a16c4e420846303",
+    "docs/human-osf-origin-protocol.md": "06f2b33830d487558f9835ac42477423f0a82e383d6d328c99adf737fccbe706"
+  }
+}
