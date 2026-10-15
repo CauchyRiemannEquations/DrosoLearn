@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scope": "independent_exact_record_linkage_replay_no_learning_analysis",
+  "source_files_verified": 36,
+  "frozen_files_verified": 49,
+  "primary_artifacts_verified": 7,
+  "matrix_pairs_verified": 598,
+  "degree_one_pairs_verified": 23,
+  "event_files_verified": 26,
+  "event_rows_partitioned": 44262,
+  "feedback_blocks_verified": 14552,
+  "tail_event_rows_preserved": 26,
+  "numeric_diagnostic_rows_verified": 12880,
+  "errors": [],
+  "runtime": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "verified_at_utc": "2026-10-15T01:19:54.564117+00:00"
+}

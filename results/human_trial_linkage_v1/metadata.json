@@ -1,0 +1,13 @@
+{
+  "started_at_utc": "2026-10-15T01:19:50.036953+00:00",
+  "status": "completed",
+  "registration_sha256": "132e7604751eb96a92746ffd5bea7cc3cd5d265eb1fff1eb22b544ff3eb244e9",
+  "source_root": "../..",
+  "config_path": "configs/human_trial_linkage.json",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "completed_at_utc": "2026-10-15T01:19:52.022724+00:00"
+}

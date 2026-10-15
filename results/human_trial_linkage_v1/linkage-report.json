@@ -1,0 +1,386 @@
+{
+  "audit_id": "human_trial_linkage_v1",
+  "scope": "exact_record_linkage_and_semantics_only",
+  "event_files": 26,
+  "mat_rows": 23,
+  "matrix_pairs": 598,
+  "event_feedback_lengths": {
+    "sub-s1": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s10": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s11": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s12": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s13": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s14": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s15": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s16": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s17": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s18": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s19": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s2": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s20": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s21": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s22": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s23": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s24": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s25": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s26": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s3": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s4": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s5": {
+      "REW": 295,
+      "PUN": 257
+    },
+    "sub-s6": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s7": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s8": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "sub-s9": {
+      "REW": 280,
+      "PUN": 280
+    }
+  },
+  "mat_feedback_lengths": {
+    "mat-01": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-02": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-03": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-04": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-05": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-06": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-07": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-08": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-09": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-10": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-11": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-12": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-13": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-14": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-15": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-16": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-17": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-18": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-19": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-20": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-21": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-22": {
+      "REW": 280,
+      "PUN": 280
+    },
+    "mat-23": {
+      "REW": 280,
+      "PUN": 280
+    }
+  },
+  "exact_feedback_candidate_pairs": 23,
+  "unmatched_event_labels": [
+    "sub-s5",
+    "sub-s7",
+    "sub-s9"
+  ],
+  "unmatched_mat_rows": [],
+  "ambiguous_event_labels": [],
+  "ambiguous_mat_rows": [],
+  "event_feedback_blocks": 14552,
+  "block_issue_counts": {
+    "choice_count_not_one": 44,
+    "choice_outside_matching_active_task": 343,
+    "expectation_count_not_one": 301,
+    "feedback_outside_matching_active_task": 353
+  },
+  "corroboration_counts": {
+    "feedback_anchored_pairs": 12880,
+    "strict_comparable": 12334,
+    "action_numeric_disagreements": 6114,
+    "expectation_numeric_agreements": 8199,
+    "action_numeric_agreements": 6220,
+    "not_strict_comparable": 546,
+    "expectation_numeric_disagreements": 4135
+  },
+  "event_candidates": {
+    "sub-s1": [
+      "mat-01"
+    ],
+    "sub-s10": [
+      "mat-07"
+    ],
+    "sub-s11": [
+      "mat-08"
+    ],
+    "sub-s12": [
+      "mat-09"
+    ],
+    "sub-s13": [
+      "mat-10"
+    ],
+    "sub-s14": [
+      "mat-11"
+    ],
+    "sub-s15": [
+      "mat-12"
+    ],
+    "sub-s16": [
+      "mat-13"
+    ],
+    "sub-s17": [
+      "mat-14"
+    ],
+    "sub-s18": [
+      "mat-15"
+    ],
+    "sub-s19": [
+      "mat-16"
+    ],
+    "sub-s2": [
+      "mat-02"
+    ],
+    "sub-s20": [
+      "mat-17"
+    ],
+    "sub-s21": [
+      "mat-18"
+    ],
+    "sub-s22": [
+      "mat-19"
+    ],
+    "sub-s23": [
+      "mat-20"
+    ],
+    "sub-s24": [
+      "mat-21"
+    ],
+    "sub-s25": [
+      "mat-22"
+    ],
+    "sub-s26": [
+      "mat-23"
+    ],
+    "sub-s3": [
+      "mat-03"
+    ],
+    "sub-s4": [
+      "mat-04"
+    ],
+    "sub-s5": [],
+    "sub-s6": [
+      "mat-05"
+    ],
+    "sub-s7": [],
+    "sub-s8": [
+      "mat-06"
+    ],
+    "sub-s9": []
+  },
+  "mat_candidates": {
+    "mat-01": [
+      "sub-s1"
+    ],
+    "mat-02": [
+      "sub-s2"
+    ],
+    "mat-03": [
+      "sub-s3"
+    ],
+    "mat-04": [
+      "sub-s4"
+    ],
+    "mat-05": [
+      "sub-s6"
+    ],
+    "mat-06": [
+      "sub-s8"
+    ],
+    "mat-07": [
+      "sub-s10"
+    ],
+    "mat-08": [
+      "sub-s11"
+    ],
+    "mat-09": [
+      "sub-s12"
+    ],
+    "mat-10": [
+      "sub-s13"
+    ],
+    "mat-11": [
+      "sub-s14"
+    ],
+    "mat-12": [
+      "sub-s15"
+    ],
+    "mat-13": [
+      "sub-s16"
+    ],
+    "mat-14": [
+      "sub-s17"
+    ],
+    "mat-15": [
+      "sub-s18"
+    ],
+    "mat-16": [
+      "sub-s19"
+    ],
+    "mat-17": [
+      "sub-s20"
+    ],
+    "mat-18": [
+      "sub-s21"
+    ],
+    "mat-19": [
+      "sub-s22"
+    ],
+    "mat-20": [
+      "sub-s23"
+    ],
+    "mat-21": [
+      "sub-s24"
+    ],
+    "mat-22": [
+      "sub-s25"
+    ],
+    "mat-23": [
+      "sub-s26"
+    ]
+  },
+  "readiness": {
+    "record_linkage": "unique_exact_feedback_candidates_only_not_person_identity",
+    "original_trial_index": "feedback_ordinal_only_not_verified_original_trial",
+    "action_identity": "fixed_left1_right2_numeric_diagnostic_not_verified_shape_ID",
+    "expectation": "fixed_plus3_code_diagnostic_not_calibrated_choice_probability",
+    "reversal_boundaries_or_correct_shape": "not_reconstructed",
+    "RT_transfer": "not_performed",
+    "performance_or_human_model_similarity": "not_tested"
+  }
+}

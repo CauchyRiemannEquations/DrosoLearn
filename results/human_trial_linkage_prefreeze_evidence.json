@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-15T01:19:39.879707+00:00",
+  "published_commit": "e1fcd290107fd1de585a7bb7624034e73da88155",
+  "registration_sha256": "132e7604751eb96a92746ffd5bea7cc3cd5d265eb1fff1eb22b544ff3eb244e9",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/e1fcd290107fd1de585a7bb7624034e73da88155/results/registration_human_trial_linkage_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "verified before formal structural replay; schemas already inspected during exploratory selection; private publication is not blinded/accredited preregistration"
+}

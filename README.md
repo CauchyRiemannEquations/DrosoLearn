@@ -207,6 +207,26 @@ CC0인 OpenNeuro 부분집합 31파일에서 사건 44,262행·선택 사건 14,
 
 이는 일부 자료 구조를 먼저 확인한 탐색적 감사이며 눈가림 확증 사전등록은 아니다. 다음 비교에서는 원 시행·도형·참가자 대응과 사용 조건을 먼저 확인하고 공통 지표·반증 조건을 별도로 정의한다. 새 감사 범위의 고정은 `python -m drosolearn.human_trial_data register --config configs/human_trial_data_audit.json --out results/registration_NEW.json`으로 새 파일에 기록한다. 기존 동결·원자료·결과를 바꾸지 않는다.
 
+## 후속: 따로 보관된 인간 기록의 대응 확인
+
+26개 사건 파일과 행동 MAT의23개 cell 사이 **598개 조합**을 검사했다. 두 과제의 전체 피드백이 양쪽에서 유일하게 일치한 후보는23쌍이며 사건 파일 `sub-s5/7/9`에는 후보가 없었다. [쉬운 결과](docs/human-trial-linkage-findings.md), [고정한 계획](docs/human-trial-linkage-protocol.md), [원 저자 코드 검토](docs/human-trial-linkage-source-review.md)를 보존했다.
+
+후보23쌍의12,880개 관측 피드백 구간 중12,334개에서 엄격 코드 대조가 가능했다. 선택의 좌우→1/2 대응은6,114개, 기대 평정+3 대응은4,135개에서 달랐다. **정답률이 아니라 코드 의미의 진단**이며, 피드백 일치가 다른 열의 의미까지 보증하지 않는다는 결과다. 불일치를 고쳐 맞추거나546개 보류 구간을 삭제하지 않았다. 새126개+공유 입력 처리58개의 테스트와 독립 재검산이 통과했다. 이전 감사의 다른 단위·대상 수치와 개선/악화로 비교하지 않는다.
+
+공식 OSF 메타데이터 접근에도 성공해 두 프로젝트와 실제 데이터 component의 CC BY4.0 관계를 확인했다. [새 권한 기록](docs/human-trial-permissions-followup.md)에14개 원 JSON과 접근 시각을 보존했다. 과거 timeout과 GitHub 가공 CSV의 권한 유보를 덮어쓰지 않았다.
+
+완료 태그 `human-trial-linkage-v1`의 별도 checkout에서 Python3.12 기본 환경과 고정 추가 의존성을 설치하고 새 경로로 재현한다. 원 MATLAB 코드는 실행하지 않는다.
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements-human-candidate-audit.txt
+.\.venv\Scripts\python.exe -m drosolearn.human_trial_linkage run --config configs/human_trial_linkage.json --registration results/registration_human_trial_linkage_v1.json --out results/MY_HUMAN_LINKAGE_REPLAY
+.\.venv\Scripts\python.exe scripts/verify_human_trial_linkage.py --output results/MY_HUMAN_LINKAGE_REPLAY
+.\.venv\Scripts\python.exe scripts/check_human_source_permissions.py --out results/MY_PERMISSION_REPLAY/metadata-validation.json
+.\.venv\Scripts\python.exe -m pytest tests/test_human_trial_linkage.py tests/test_human_trial_linkage_run.py tests/test_human_trial_linkage_verify.py tests/test_human_source_permissions.py tests/test_human_trial_data.py -q
+```
+
+다음은 기대·도형 코드의 변환 근거와 OSF 원본→가공 자료의 대응 검증이다. 공통 학습 지표와 사람/모델 비교는 아직 실행하지 않았다. 새 처리 범위의 고정은 `python -m drosolearn.human_trial_linkage register --config configs/human_trial_linkage.json --out results/registration_NEW.json`으로 새 파일에 남긴다. 이 작업도 일부 구조를 먼저 확인한 탐색적 감사이며 눈가림 확증 사전등록이 아니다.
+
 ## 연구 문서
 
 | 문서 | 내용 |
