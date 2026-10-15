@@ -1,0 +1,67 @@
+{
+  "commit": "c7c5d3a164425af3e65cc908ef0d41f01725984c",
+  "scope": "five original author analysis scripts only; not run or used as a behavioral extraction algorithm",
+  "license": "dataset CC0 declaration in ../stolz_2022_openneuro/dataset_description.json",
+  "files": [
+    {
+      "path": "code/Q_learning.m",
+      "immutable_git_url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004295/c7c5d3a164425af3e65cc908ef0d41f01725984c/code/Q_learning.m",
+      "git_object_size_bytes": 191,
+      "git_object_sha256": "7232ce54e13b7c0b690b0ff72dae8cbd3bb960b41661f78f465909fbdcc0ac9b",
+      "retrieved_at_utc": "2026-10-15T01:08:36.796419+00:00",
+      "public_payload_url": "https://s3.amazonaws.com/openneuro.org/ds004295/code/Q_learning.m",
+      "annex_key_verified": true,
+      "size_bytes": 4879,
+      "sha256": "c34cd9ae66e933100579ee7d3a9b234a444963533d7e7467d3801fce6e984451",
+      "git_pointer": "../.git/annex/objects/vM/9p/SHA256E-s4879--c34cd9ae66e933100579ee7d3a9b234a444963533d7e7467d3801fce6e984451.m/SHA256E-s4879--c34cd9ae66e933100579ee7d3a9b234a444963533d7e7467d3801fce6e984451.m"
+    },
+    {
+      "path": "code/RevEx1_modelfit.m",
+      "immutable_git_url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004295/c7c5d3a164425af3e65cc908ef0d41f01725984c/code/RevEx1_modelfit.m",
+      "git_object_size_bytes": 191,
+      "git_object_sha256": "ade85a8e23aa889e7a6ae330fff0ce781d6d452ca4b0ddc5d27458bb53d63344",
+      "retrieved_at_utc": "2026-10-15T01:08:37.643599+00:00",
+      "public_payload_url": "https://s3.amazonaws.com/openneuro.org/ds004295/code/RevEx1_modelfit.m",
+      "annex_key_verified": true,
+      "size_bytes": 7581,
+      "sha256": "1f0db0b2a5320c9dbf80237e02788b90edb7004dac1aa2a4df7cc59340ef17e2",
+      "git_pointer": "../.git/annex/objects/6j/Kf/SHA256E-s7581--1f0db0b2a5320c9dbf80237e02788b90edb7004dac1aa2a4df7cc59340ef17e2.m/SHA256E-s7581--1f0db0b2a5320c9dbf80237e02788b90edb7004dac1aa2a4df7cc59340ef17e2.m"
+    },
+    {
+      "path": "code/modeling_calcRSQ_AIC_BIC.m",
+      "immutable_git_url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004295/c7c5d3a164425af3e65cc908ef0d41f01725984c/code/modeling_calcRSQ_AIC_BIC.m",
+      "git_object_size_bytes": 191,
+      "git_object_sha256": "626b149d238effac0f860f06334351d3d720d84b95bc02717bec457432ccd962",
+      "retrieved_at_utc": "2026-10-15T01:08:38.561849+00:00",
+      "public_payload_url": "https://s3.amazonaws.com/openneuro.org/ds004295/code/modeling_calcRSQ_AIC_BIC.m",
+      "annex_key_verified": true,
+      "size_bytes": 3591,
+      "sha256": "6a997a3d414accc93a46751b40cf587bf69011642584d7d69ddb9a721a2afcb7",
+      "git_pointer": "../.git/annex/objects/JG/Gx/SHA256E-s3591--6a997a3d414accc93a46751b40cf587bf69011642584d7d69ddb9a721a2afcb7.m/SHA256E-s3591--6a997a3d414accc93a46751b40cf587bf69011642584d7d69ddb9a721a2afcb7.m"
+    },
+    {
+      "path": "code/modeling_calculatePR.m",
+      "immutable_git_url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004295/c7c5d3a164425af3e65cc908ef0d41f01725984c/code/modeling_calculatePR.m",
+      "git_object_size_bytes": 191,
+      "git_object_sha256": "452c9327be9b48d94921e03a5efb36601804d2fea60f9edae3bdb15ccd46ccaa",
+      "retrieved_at_utc": "2026-10-15T01:08:39.530934+00:00",
+      "public_payload_url": "https://s3.amazonaws.com/openneuro.org/ds004295/code/modeling_calculatePR.m",
+      "annex_key_verified": true,
+      "size_bytes": 3603,
+      "sha256": "3b2c7df7d7ff67aec8bab2badceab5b8e34f7098d499cd447105d66e216973cf",
+      "git_pointer": "../.git/annex/objects/M9/4Q/SHA256E-s3603--3b2c7df7d7ff67aec8bab2badceab5b8e34f7098d499cd447105d66e216973cf.m/SHA256E-s3603--3b2c7df7d7ff67aec8bab2badceab5b8e34f7098d499cd447105d66e216973cf.m"
+    },
+    {
+      "path": "code/singleTrial_RegressionAnalyses.m",
+      "immutable_git_url": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004295/c7c5d3a164425af3e65cc908ef0d41f01725984c/code/singleTrial_RegressionAnalyses.m",
+      "git_object_size_bytes": 193,
+      "git_object_sha256": "a80731863c11882891c4e15f38becc0bfb4b0f4fe55a1094f095ddda906fb0ce",
+      "retrieved_at_utc": "2026-10-15T01:08:40.463105+00:00",
+      "public_payload_url": "https://s3.amazonaws.com/openneuro.org/ds004295/code/singleTrial_RegressionAnalyses.m",
+      "annex_key_verified": true,
+      "size_bytes": 23487,
+      "sha256": "8a7ff74ad8c9dfba1717accf5892a52f37282157c77a9dac70ced83474a349a4",
+      "git_pointer": "../.git/annex/objects/91/mZ/SHA256E-s23487--8a7ff74ad8c9dfba1717accf5892a52f37282157c77a9dac70ced83474a349a4.m/SHA256E-s23487--8a7ff74ad8c9dfba1717accf5892a52f37282157c77a9dac70ced83474a349a4.m"
+    }
+  ]
+}

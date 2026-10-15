@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-10-15",
+  "scope": "permission_and_catalog_metadata_only_no_participant_or_stimulus_content",
+  "attribution": [
+    {
+      "authors": "Dimitrije Markovic; Andrea M. F. Reiter; Stefan J. Kiebel",
+      "paper_doi": "10.3389/fnbeh.2022.962494",
+      "project_url": "https://osf.io/h526v/",
+      "data_component_url": "https://osf.io/75jrf/"
+    },
+    {
+      "authors": "Dazhi Cheng; Zhijun Cui; Chunhui Chen; Xin Xu; Kai Niu; Zhiqiang He; Xinlin Zhou",
+      "paper_doi": "10.1038/s41597-023-01933-6",
+      "project_url": "https://osf.io/x2rau/",
+      "data_doi": "10.17605/OSF.IO/X2RAU"
+    }
+  ],
+  "license_relation_id": "563c1cf88c5e4a3877f9e96a",
+  "license_name": "CC-By Attribution 4.0 International",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+  "scope_limits": [
+    "Node/component license declarations were read directly; no permission is inferred from GitHub MIT.",
+    "No participant or stimulus file body was requested.",
+    "Per-file exceptions inside content were not reviewed.",
+    "OSF raw files and pybefit derived CSV identity were not established; no grant is transferred to those CSV files.",
+    "Server-declared participant-file hashes in catalogs are metadata, not independently calculated file-content hashes.",
+    "Earlier timeout observations remain historical observations.",
+    "Pilot participant file listings are excluded from this repository snapshot to minimize individual-level filenames."
+  ],
+  "files": [
+    {
+      "path": "markovic_project_node.json",
+      "role": "markovic_project_node",
+      "requested_url": "https://api.osf.io/v2/nodes/h526v/",
+      "started_at_utc": "2026-10-15T01:09:23.933556+00:00",
+      "finished_at_utc": "2026-10-15T01:09:36.775027+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:09:36 GMT",
+      "bytes": 4535,
+      "sha256": "1f59ef3595aeded6c243e5b7af589d25296ec7af2297c7bd8a23b630471a1985",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    },
+    {
+      "path": "markovic_data_node.json",
+      "role": "markovic_data_node",
+      "requested_url": "https://api.osf.io/v2/nodes/75jrf/",
+      "started_at_utc": "2026-10-15T01:11:32.499789+00:00",
+      "finished_at_utc": "2026-10-15T01:11:32.934012+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:32 GMT",
+      "bytes": 4604,
+      "sha256": "f1cadfcaab34234f3d38f628e4ed55ea16118813bd40552655d6698ad3d19db3",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    },
+    {
+      "path": "cheng_project_node.json",
+      "role": "cheng_project_node",
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/",
+      "started_at_utc": "2026-10-15T01:11:31.922838+00:00",
+      "finished_at_utc": "2026-10-15T01:11:32.499789+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:32 GMT",
+      "bytes": 4557,
+      "sha256": "82a3081ade70e9efd16976850544c84e2b08f271181f54a04dcf174648114fb9",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    },
+    {
+      "path": "cc_by_4_license.json",
+      "role": "license",
+      "requested_url": "https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/",
+      "started_at_utc": "2026-10-15T01:09:58.972494+00:00",
+      "finished_at_utc": "2026-10-15T01:09:59.293944+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:09:59 GMT",
+      "bytes": 13121,
+      "sha256": "32fb3d7b32be0843803f96424fe7739f69574481211a2d323e16f8da8536c635",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    },
+    {
+      "path": "markovic_project_children.json",
+      "role": "markovic_project_children",
+      "requested_url": "https://api.osf.io/v2/nodes/h526v/children/",
+      "started_at_utc": "2026-10-15T01:09:59.967034+00:00",
+      "finished_at_utc": "2026-10-15T01:10:03.557899+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:10:03 GMT",
+      "bytes": 9330,
+      "sha256": "01b0b7c3fa491c481ccd461e3163e2a625166b85e0e1290c1ee02555a3ffc370",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    },
+    {
+      "path": "markovic_project_providers.json",
+      "role": "markovic_project_providers",
+      "requested_url": "https://api.osf.io/v2/nodes/h526v/files/",
+      "started_at_utc": "2026-10-15T01:10:03.557899+00:00",
+      "finished_at_utc": "2026-10-15T01:10:04.596039+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:10:04 GMT",
+      "bytes": 1594,
+      "sha256": "f25fc6104cf7be4703ede472645221dfd8229f75f944dddd4729be6b43135eb9",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    },
+    {
+      "path": "markovic_data_folders.json",
+      "role": "markovic_data_folders",
+      "requested_url": "https://api.osf.io/v2/nodes/75jrf/files/osfstorage/",
+      "started_at_utc": "2026-10-15T01:10:37.177918+00:00",
+      "finished_at_utc": "2026-10-15T01:10:37.820834+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:10:37 GMT",
+      "bytes": 3529,
+      "sha256": "e9cccb3ec4029f58fb78e20d9d237254b16fa71bc7878b2432f7ba4bbfe01be5",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    },
+    {
+      "path": "cheng_root_page1.json",
+      "role": "cheng_root_page1",
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/",
+      "started_at_utc": "2026-10-15T01:09:59.293944+00:00",
+      "finished_at_utc": "2026-10-15T01:09:59.966024+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:09:59 GMT",
+      "bytes": 19375,
+      "sha256": "1163a20c1e98b676406c36baef6feda72655ac6075b4d683cba4922a11f9b18c",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    },
+    {
+      "path": "cheng_root_page2.json",
+      "role": "cheng_root_page2",
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/?page=2",
+      "started_at_utc": "2026-10-15T01:10:38.097671+00:00",
+      "finished_at_utc": "2026-10-15T01:10:38.785626+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:10:38 GMT",
+      "bytes": 14837,
+      "sha256": "596550a154df033f7f724b4624f0b496f9c5c2b356fa244f5af08d84e1a41589",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    },
+    {
+      "path": "cheng_dataset1_listing.json",
+      "role": "cheng_dataset1_listing",
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/62ecd0edda7e490dd393c7d2/",
+      "started_at_utc": "2026-10-15T01:11:01.852835+00:00",
+      "finished_at_utc": "2026-10-15T01:11:02.452461+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:02 GMT",
+      "bytes": 6136,
+      "sha256": "133a3ddf4deeccb0f05b2e990a64ded89838a6dba7986d2486ee6282fd2e268e",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    },
+    {
+      "path": "cheng_dataset2_listing.json",
+      "role": "cheng_dataset2_listing",
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/62ecd0fe65c98f0dfc611d1d/",
+      "started_at_utc": "2026-10-15T01:11:02.355110+00:00",
+      "finished_at_utc": "2026-10-15T01:11:02.974189+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:03 GMT",
+      "bytes": 6133,
+      "sha256": "fa127f9eb949efcbc5f061cbbf7e8587508c0d79b71795d10131c84147d6ae05",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    },
+    {
+      "path": "cheng_dataset3_listing.json",
+      "role": "cheng_dataset3_listing",
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/62ecd103da7e490dd893c7de/",
+      "started_at_utc": "2026-10-15T01:11:02.452461+00:00",
+      "finished_at_utc": "2026-10-15T01:11:02.977732+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:03 GMT",
+      "bytes": 6134,
+      "sha256": "f459f5af0ba9500640cfb99c6d613f4cbaffaddae056a1b1b1cfb1ae83915a6d",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    },
+    {
+      "path": "cheng_dataset4_listing.json",
+      "role": "cheng_dataset4_listing",
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/62ecd10a65c98f0dfc611d30/",
+      "started_at_utc": "2026-10-15T01:11:02.815545+00:00",
+      "finished_at_utc": "2026-10-15T01:11:03.297906+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:03 GMT",
+      "bytes": 6133,
+      "sha256": "1472810507443ff9741b0bbcb38fa5b95e7118368099e66612d009f9db83c657",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    },
+    {
+      "path": "cheng_dataset5_listing.json",
+      "role": "cheng_dataset5_listing",
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/62ecd1105a2436107c272d4a/",
+      "started_at_utc": "2026-10-15T01:11:02.974189+00:00",
+      "finished_at_utc": "2026-10-15T01:11:03.612511+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:03 GMT",
+      "bytes": 6132,
+      "sha256": "9e79e7183370b1dc85a2fb76990ada469a8f046e48f05ba77c89e3d3da2b0b69",
+      "content_scope": "official_public_OSF_metadata_response_not_participant_data"
+    }
+  ],
+  "access_observations": [
+    {
+      "requested_url": "https://osf.io/h526v/",
+      "started_at_utc": "2026-10-15T01:08:49.529551+00:00",
+      "finished_at_utc": "2026-10-15T01:08:49.888555+00:00",
+      "http_status": 200,
+      "response_received": true,
+      "content_type": "text/html",
+      "server_date": "Thu, 15 Oct 2026 01:08:49 GMT",
+      "bytes_read": 4207,
+      "response_sha256": "185604818b2f43bab5ffb6a9b93f481d2b739fc22853611c62d4f65322665dd3"
+    },
+    {
+      "requested_url": "https://osf.io/x2rau/",
+      "started_at_utc": "2026-10-15T01:08:49.530056+00:00",
+      "finished_at_utc": "2026-10-15T01:08:49.898945+00:00",
+      "http_status": 200,
+      "response_received": true,
+      "content_type": "text/html",
+      "server_date": "Thu, 15 Oct 2026 01:08:49 GMT",
+      "bytes_read": 4207,
+      "response_sha256": "185604818b2f43bab5ffb6a9b93f481d2b739fc22853611c62d4f65322665dd3"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/h526v/",
+      "started_at_utc": "2026-10-15T01:08:49.531002+00:00",
+      "finished_at_utc": "2026-10-15T01:08:51.814171+00:00",
+      "http_status": 200,
+      "response_received": true,
+      "content_type": "application/vnd.api+json; charset=utf-8",
+      "server_date": "Thu, 15 Oct 2026 01:08:51 GMT",
+      "bytes_read": 4535,
+      "response_sha256": "1f59ef3595aeded6c243e5b7af589d25296ec7af2297c7bd8a23b630471a1985"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/",
+      "started_at_utc": "2026-10-15T01:08:49.532325+00:00",
+      "finished_at_utc": "2026-10-15T01:08:50.105181+00:00",
+      "http_status": 200,
+      "response_received": true,
+      "content_type": "application/vnd.api+json; charset=utf-8",
+      "server_date": "Thu, 15 Oct 2026 01:08:50 GMT",
+      "bytes_read": 4557,
+      "response_sha256": "82a3081ade70e9efd16976850544c84e2b08f271181f54a04dcf174648114fb9"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/h526v/files/osfstorage/",
+      "started_at_utc": "2026-10-15T01:08:49.635325+00:00",
+      "finished_at_utc": "2026-10-15T01:08:50.052219+00:00",
+      "http_status": 200,
+      "response_received": true,
+      "content_type": "application/vnd.api+json; charset=utf-8",
+      "server_date": "Thu, 15 Oct 2026 01:08:50 GMT",
+      "bytes_read": 128,
+      "response_sha256": "337a5845bf62ccbe2bee6d47834c9d6317bc033ab935af60bc66d75c688ef71a"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/",
+      "started_at_utc": "2026-10-15T01:08:49.635325+00:00",
+      "finished_at_utc": "2026-10-15T01:08:51.275571+00:00",
+      "http_status": 200,
+      "response_received": true,
+      "content_type": "application/vnd.api+json; charset=utf-8",
+      "server_date": "Thu, 15 Oct 2026 01:08:51 GMT",
+      "bytes_read": 19375,
+      "response_sha256": "1163a20c1e98b676406c36baef6feda72655ac6075b4d683cba4922a11f9b18c"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/",
+      "started_at_utc": "2026-10-15T01:09:23.933556+00:00",
+      "finished_at_utc": "2026-10-15T01:09:24.776882+00:00",
+      "error_type": "HTTPError",
+      "error_message": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/h526v/",
+      "started_at_utc": "2026-10-15T01:09:23.933556+00:00",
+      "finished_at_utc": "2026-10-15T01:09:36.775027+00:00",
+      "http_status": 200,
+      "content_type": "application/vnd.api+json; charset=utf-8",
+      "server_date": "Thu, 15 Oct 2026 01:09:36 GMT",
+      "bytes": 4535,
+      "sha256": "1f59ef3595aeded6c243e5b7af589d25296ec7af2297c7bd8a23b630471a1985"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/",
+      "started_at_utc": "2026-10-15T01:09:23.933556+00:00",
+      "finished_at_utc": "2026-10-15T01:09:24.574328+00:00",
+      "error_type": "HTTPError",
+      "error_message": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/h526v/children/",
+      "started_at_utc": "2026-10-15T01:09:23.933556+00:00",
+      "finished_at_utc": "2026-10-15T01:09:25.473983+00:00",
+      "error_type": "HTTPError",
+      "error_message": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/children/",
+      "started_at_utc": "2026-10-15T01:09:24.023541+00:00",
+      "finished_at_utc": "2026-10-15T01:09:35.609797+00:00",
+      "http_status": 200,
+      "content_type": "application/vnd.api+json; charset=utf-8",
+      "server_date": "Thu, 15 Oct 2026 01:09:35 GMT",
+      "bytes": 128,
+      "sha256": "337a5845bf62ccbe2bee6d47834c9d6317bc033ab935af60bc66d75c688ef71a"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/h526v/files/",
+      "started_at_utc": "2026-10-15T01:09:24.029314+00:00",
+      "finished_at_utc": "2026-10-15T01:09:24.648841+00:00",
+      "error_type": "HTTPError",
+      "error_message": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/",
+      "started_at_utc": "2026-10-15T01:09:24.033277+00:00",
+      "finished_at_utc": "2026-10-15T01:09:25.109428+00:00",
+      "error_type": "HTTPError",
+      "error_message": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/licenses/563c1cf88c5e4a3877f9e96a/",
+      "started_at_utc": "2026-10-15T01:09:58.972494+00:00",
+      "finished_at_utc": "2026-10-15T01:09:59.293944+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:09:59 GMT",
+      "bytes": 13121,
+      "sha256": "32fb3d7b32be0843803f96424fe7739f69574481211a2d323e16f8da8536c635"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/",
+      "started_at_utc": "2026-10-15T01:09:59.293944+00:00",
+      "finished_at_utc": "2026-10-15T01:09:59.966024+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:09:59 GMT",
+      "bytes": 19375,
+      "sha256": "1163a20c1e98b676406c36baef6feda72655ac6075b4d683cba4922a11f9b18c"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/h526v/children/",
+      "started_at_utc": "2026-10-15T01:09:59.967034+00:00",
+      "finished_at_utc": "2026-10-15T01:10:03.557899+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:10:03 GMT",
+      "bytes": 9330,
+      "sha256": "01b0b7c3fa491c481ccd461e3163e2a625166b85e0e1290c1ee02555a3ffc370"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/h526v/files/",
+      "started_at_utc": "2026-10-15T01:10:03.557899+00:00",
+      "finished_at_utc": "2026-10-15T01:10:04.596039+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:10:04 GMT",
+      "bytes": 1594,
+      "sha256": "f25fc6104cf7be4703ede472645221dfd8229f75f944dddd4729be6b43135eb9"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/75jrf/files/osfstorage/",
+      "started_at_utc": "2026-10-15T01:10:37.177918+00:00",
+      "finished_at_utc": "2026-10-15T01:10:37.820834+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:10:37 GMT",
+      "bytes": 3529,
+      "sha256": "e9cccb3ec4029f58fb78e20d9d237254b16fa71bc7878b2432f7ba4bbfe01be5"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/75jrf/children/",
+      "started_at_utc": "2026-10-15T01:10:37.823553+00:00",
+      "finished_at_utc": "2026-10-15T01:10:38.097671+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:10:38 GMT",
+      "bytes": 128,
+      "sha256": "337a5845bf62ccbe2bee6d47834c9d6317bc033ab935af60bc66d75c688ef71a"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/?page=2",
+      "started_at_utc": "2026-10-15T01:10:38.097671+00:00",
+      "finished_at_utc": "2026-10-15T01:10:38.785626+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:10:38 GMT",
+      "bytes": 14837,
+      "sha256": "596550a154df033f7f724b4624f0b496f9c5c2b356fa244f5af08d84e1a41589"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/75jrf/files/osfstorage/5d08b40a1ed0c2001693e29f/",
+      "started_at_utc": "2026-10-15T01:11:01.848833+00:00",
+      "finished_at_utc": "2026-10-15T01:11:02.355110+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:02 GMT",
+      "bytes": 128,
+      "sha256": "337a5845bf62ccbe2bee6d47834c9d6317bc033ab935af60bc66d75c688ef71a"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/75jrf/files/osfstorage/5d08b4f943bdc30019e889fe/",
+      "started_at_utc": "2026-10-15T01:11:01.851834+00:00",
+      "finished_at_utc": "2026-10-15T01:11:02.815545+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:02 GMT",
+      "bytes": 20741,
+      "sha256": "7d0dc92acc8abfae82d28071342814eab35ba6b3020c413dc5476d292c94d5f5"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/62ecd0edda7e490dd393c7d2/",
+      "started_at_utc": "2026-10-15T01:11:01.852835+00:00",
+      "finished_at_utc": "2026-10-15T01:11:02.452461+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:02 GMT",
+      "bytes": 6136,
+      "sha256": "133a3ddf4deeccb0f05b2e990a64ded89838a6dba7986d2486ee6282fd2e268e"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/62ecd0fe65c98f0dfc611d1d/",
+      "started_at_utc": "2026-10-15T01:11:02.355110+00:00",
+      "finished_at_utc": "2026-10-15T01:11:02.974189+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:03 GMT",
+      "bytes": 6133,
+      "sha256": "fa127f9eb949efcbc5f061cbbf7e8587508c0d79b71795d10131c84147d6ae05"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/62ecd103da7e490dd893c7de/",
+      "started_at_utc": "2026-10-15T01:11:02.452461+00:00",
+      "finished_at_utc": "2026-10-15T01:11:02.977732+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:03 GMT",
+      "bytes": 6134,
+      "sha256": "f459f5af0ba9500640cfb99c6d613f4cbaffaddae056a1b1b1cfb1ae83915a6d"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/62ecd10a65c98f0dfc611d30/",
+      "started_at_utc": "2026-10-15T01:11:02.815545+00:00",
+      "finished_at_utc": "2026-10-15T01:11:03.297906+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:03 GMT",
+      "bytes": 6133,
+      "sha256": "1472810507443ff9741b0bbcb38fa5b95e7118368099e66612d009f9db83c657"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/files/osfstorage/62ecd1105a2436107c272d4a/",
+      "started_at_utc": "2026-10-15T01:11:02.974189+00:00",
+      "finished_at_utc": "2026-10-15T01:11:03.612511+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:03 GMT",
+      "bytes": 6132,
+      "sha256": "9e79e7183370b1dc85a2fb76990ada469a8f046e48f05ba77c89e3d3da2b0b69"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/x2rau/",
+      "started_at_utc": "2026-10-15T01:11:31.922838+00:00",
+      "finished_at_utc": "2026-10-15T01:11:32.499789+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:32 GMT",
+      "bytes": 4557,
+      "sha256": "82a3081ade70e9efd16976850544c84e2b08f271181f54a04dcf174648114fb9"
+    },
+    {
+      "requested_url": "https://api.osf.io/v2/nodes/75jrf/",
+      "started_at_utc": "2026-10-15T01:11:32.499789+00:00",
+      "finished_at_utc": "2026-10-15T01:11:32.934012+00:00",
+      "http_status": 200,
+      "server_date": "Thu, 15 Oct 2026 01:11:32 GMT",
+      "bytes": 4604,
+      "sha256": "f1cadfcaab34234f3d38f628e4ed55ea16118813bd40552655d6698ad3d19db3"
+    }
+  ],
+  "web_tool_observations": {
+    "observed_at_utc": "2026-10-15T01:08:11Z",
+    "source": "web tool output, separate from urllib HTTP observations",
+    "observations": [
+      {
+        "url": "https://osf.io/h526v/",
+        "result": "web tool reported (403) Forbidden"
+      },
+      {
+        "url": "https://osf.io/x2rau/",
+        "result": "web tool reported (403) Forbidden"
+      },
+      {
+        "url": "https://api.osf.io/v2/nodes/h526v/",
+        "result": "web tool reported not accessible via this tool"
+      },
+      {
+        "url": "https://api.osf.io/v2/nodes/x2rau/",
+        "result": "web tool reported not accessible via this tool"
+      }
+    ]
+  }
+}

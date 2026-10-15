@@ -1,0 +1,11 @@
+{
+  "audit_id": "human_trial_linkage_v1",
+  "scope": "exact_record_linkage_and_semantics_only",
+  "source_root": "data/human/stolz_2022_openneuro",
+  "source_manifest": "data/human/stolz_2022_openneuro/source-manifest.json",
+  "evidence_manifest": "data/human/stolz_2022_linkage_evidence/source-manifest.json",
+  "performance_analysis": false,
+  "action_map": {"left": 1, "right": 2},
+  "expectation_offset": 3,
+  "approximate_matching": false
+}

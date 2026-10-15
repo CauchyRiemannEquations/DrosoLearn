@@ -1,0 +1,44 @@
+{
+  "recorded_at_utc": "2026-10-15T01:19:22.175628+00:00",
+  "command": "python -m pytest tests/test_human_trial_linkage.py tests/test_human_trial_linkage_run.py tests/test_human_trial_linkage_verify.py tests/test_human_source_permissions.py tests/test_human_trial_data.py -q --tb=short",
+  "passed": 184,
+  "duration_seconds": 41.0,
+  "warnings_reported": 0,
+  "components": {
+    "new_exact_linkage_core": 54,
+    "new_frozen_run": 17,
+    "new_independent_verifier": 29,
+    "new_permission_metadata": 26,
+    "existing_shared_event_reader_parser": 58
+  },
+  "new_tests": 126,
+  "existing_dependency_tests": 58,
+  "scope": "synthetic fixtures only; not a rerun of all historical model studies; no actual record linkage or human performance computed in tests",
+  "development_corrections_before_freeze": [
+    {
+      "result": "62 passed, 9 fixture setup failures",
+      "cause": "parallel verifier test file had not yet been created"
+    },
+    {
+      "result": "183 passed, 1 test assertion failed in 44.21s",
+      "cause": "invented fixture altered REW codes only; test expected changes in both contexts",
+      "correction": "expected diagnostic mismatches corrected to action=2, expectation=1; producer was unchanged; no real human data used"
+    }
+  ],
+  "source_hashes": {
+    "src/drosolearn/human_trial_linkage.py": "3c802628df68f0057f214242166e6aa8c176ec6dbc6a7c8557d9d22ad070fb40",
+    "src/drosolearn/human_trial_data.py": "1bc04e066f7572345ac13af91567e20cb38277b186a29107f073f9511358d852",
+    "scripts/verify_human_trial_linkage.py": "077e35b4e4f87133654056eb2547e2ae52a9fb346611bdd8610bd61dd4fdf9ca",
+    "scripts/check_human_source_permissions.py": "1a33c0f853c22d63ec7c78bb58d7288cfe084f395ae3095d98c78b26a826e836",
+    "tests/test_human_trial_linkage.py": "b5543fe5cf1aaa27610eaea945a7be2e9ac54597fea6d7027bf31547465925c5",
+    "tests/test_human_trial_linkage_run.py": "9ae8911798dc4cbe6e76450a841eb78786f993cb2ab10af56ddf71f1e8770c27",
+    "tests/test_human_trial_linkage_verify.py": "f9b167405af84305c5e050d35ff352c1d005e0a3210a29cc114309eeff200d48",
+    "tests/test_human_source_permissions.py": "e6d3e8b21d44f3d27f48c89fd5a54fa11b1dd647bb66d6d8edc3b6eb738e7d71",
+    "tests/test_human_trial_data.py": "e8c9c5345f31cea610d42c0bdc809bce8af0e36e4dd12918ada2cdf46e6e89bd"
+  },
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  }
+}
