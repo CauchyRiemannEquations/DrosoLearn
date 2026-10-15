@@ -1,0 +1,57 @@
+{
+  "study_id": "feedback_transition_v1",
+  "scope": "exploratory_recordwise_descriptive_feedback_transition_not_human_model_similarity",
+  "human": {
+    "origin_manifest": "configs/human_osf_origin_manifest.json",
+    "structure_result": "results/human_task_structure_v1/audit.json",
+    "structure_verification": "results/human_task_structure_v1/verification.json",
+    "trials": 1000,
+    "regime_boundary_after_trial": 800,
+    "selection": "all25 previously source-verified Main rows, no performance selection",
+    "coordinate": "source_coded_card_identity",
+    "historical_execution_version_verified": false
+  },
+  "model": {
+    "root": "results/bandit_reversal_v1",
+    "parent_config": "configs/bandit_reversal_diagnostic.json",
+    "verification": "results/bandit_reversal_v1/verification.json",
+    "artifact_hashes": "results/bandit_reversal_v1/artifact_hashes.json",
+    "seeds": [7001,7002,7003,7004,7005,7006,7007,7008,7009,7010],
+    "conditions": ["linear_normalized","fixed","plastic","rewired_fixed","rewired_plastic","ann_fixed","ann_plastic"],
+    "histories": ["fresh_low","high_to_low","high_to_low_reset_head","low_to_low"],
+    "phase": "phase2",
+    "trials": 400,
+    "coordinate": "smaller_larger_quantity_category",
+    "exclude": ["phase1 shared prefixes", "expected_updates.csv", "evaluation probes", "head_attenuation_v1"]
+  },
+  "metric": "recordwise stay/switch counts conditioned on actual binary feedback at t, original adjacent t,t+1 only",
+  "exclude_boundaries": ["state", "phase", "task"],
+  "zero_denominator": "null",
+  "pool_group_or_species": false,
+  "parent_files": [
+    "results/human_task_structure_v1/audit.json",
+    "results/human_task_structure_v1/verification.json",
+    "results/registration_human_task_structure_v1.json",
+    "results/human_task_structure_prefreeze_evidence.json",
+    "configs/human_osf_origin_manifest.json",
+    "results/human_osf_origin_v1/verification.json",
+    "configs/bandit_reversal_diagnostic.json",
+    "results/bandit_reversal_v1/verification.json",
+    "results/bandit_reversal_v1/artifact_hashes.json",
+    "src/drosolearn/bandit_reversal.py"
+  ],
+  "frozen_files": [
+    "src/drosolearn/__init__.py",
+    "src/drosolearn/feedback_transition.py",
+    "scripts/run_feedback_transition.py",
+    "scripts/verify_feedback_transition.py",
+    "tests/test_feedback_transition.py",
+    "tests/test_feedback_transition_run.py",
+    "tests/test_feedback_transition_verify.py",
+    "configs/feedback_transition_v1.json",
+    "docs/feedback-transition-protocol.md",
+    "docs/model-human-metric-interface.md",
+    "requirements-lock.txt",
+    "requirements-human-candidate-audit.txt"
+  ]
+}

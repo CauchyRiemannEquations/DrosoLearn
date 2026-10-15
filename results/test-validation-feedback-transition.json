@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-15T04:08:50.178054+00:00",
+  "python": "3.12.10",
+  "components": {
+    "test_feedback_transition.py": 118,
+    "test_feedback_transition_run.py": 46,
+    "test_feedback_transition_verify.py": 70
+  },
+  "passed": 234,
+  "failed": 0,
+  "elapsed_seconds": 35.73,
+  "fixtures": "synthetic only; no actual human/model files read",
+  "command": "python -m pytest tests/test_feedback_transition.py tests/test_feedback_transition_run.py tests/test_feedback_transition_verify.py -q",
+  "source_hashes": {
+    "src/drosolearn/feedback_transition.py": "5922f71b13732104d08816767da02ce6fe8cce31c484978ae818d21fc8f1620d",
+    "scripts/run_feedback_transition.py": "c93e792917a99d935d5921d34e139e3d3d6914f80ab35dfeeebe49250e5f311c",
+    "scripts/verify_feedback_transition.py": "72f445575fbb43a3f10df9d72544f1a5d99349311bb20573b6a851d1812a0af9",
+    "configs/feedback_transition_v1.json": "eb0f1b7ae245e6af8b217da014a0644f58faa9d5dae9f9eb1b7162f24f82b161",
+    "tests/test_feedback_transition.py": "cc5dadd0c2e7debd22a090c917fd152e7fbe05f699266947259ee3048d48a882",
+    "tests/test_feedback_transition_run.py": "39db51ca24faa2a17b0ca60dee6e66bdc048cc7d50c88efeb486d87bc2f62020",
+    "tests/test_feedback_transition_verify.py": "4bf13ecb7ae871a14c1b20fa177a6000d57107af376536f7572604c2726f2718"
+  }
+}
