@@ -1,0 +1,8 @@
+{
+  "audit_id": "human_trial_data_readiness_v1",
+  "scope": "source_and_structure_only",
+  "adapter": "openneuro_ds004295_events_v1",
+  "performance_analysis": false,
+  "source_root": "data/human/stolz_2022_openneuro",
+  "source_manifest": "data/human/stolz_2022_openneuro/source-manifest.json"
+}

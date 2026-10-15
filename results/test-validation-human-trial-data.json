@@ -1,0 +1,27 @@
+{
+  "recorded_at_utc": "2026-10-15T00:46:55.353156+00:00",
+  "scope": "121 new synthetic tests only; no historical experiment test rerun and no actual human performance analysis",
+  "command": "python -c \"import sys; sys.path.append('../../work/human_quantity_sources/deps'); import pytest; raise SystemExit(pytest.main(['tests/test_human_trial_data.py','tests/test_human_trial_data_verify.py','tests/test_human_candidate_caches.py','tests/test_human_behavior_mat.py','-q']))\"",
+  "portable_test_command": "python -m pytest tests/test_human_trial_data.py tests/test_human_trial_data_verify.py tests/test_human_candidate_caches.py tests/test_human_behavior_mat.py -q",
+  "passed": 121,
+  "duration_seconds": 19.94,
+  "warnings_reported": 0,
+  "components": {
+    "primary_event_audit": 58,
+    "independent_verifier_tamper_cases": 28,
+    "candidate_cache_schema_semantics": 31,
+    "mat_schema_inspection": 4
+  },
+  "source_hashes": {
+    "src/drosolearn/human_trial_data.py": "1bc04e066f7572345ac13af91567e20cb38277b186a29107f073f9511358d852",
+    "scripts/verify_human_trial_data.py": "2944be8a6aea500f1b82047eff98226032cc310a6a6be562199d59741520e219",
+    "scripts/audit_human_candidate_caches.py": "65e9093e4c454a0d1f8b0095b4cab6407280d38231ede32a5cc330541cf262f5",
+    "scripts/inspect_human_behavior_mat.py": "4478f14eed34cb5b55aa8a2a6c159b7943fd45db71e44abebabac3b0eaa541b5",
+    "tests/test_human_trial_data.py": "e8c9c5345f31cea610d42c0bdc809bce8af0e36e4dd12918ada2cdf46e6e89bd",
+    "tests/test_human_trial_data_verify.py": "809b7bf629a045d1b27d19f3a24e568efc48e3764fa038e68b8561132fa71e85",
+    "tests/test_human_candidate_caches.py": "448c95fd7eb175ac756692fc913d846f03c72351066f7ac0d3cce605a4ce9e8d",
+    "tests/test_human_behavior_mat.py": "873fd91bf2c9334cdf24b064a088a5bf171dfd9ed0691dd8fe19f478bddabeac"
+  },
+  "dependencies": "requirements-lock.txt plus requirements-human-candidate-audit.txt; optional decoder directory appended, not substituted for core NumPy",
+  "test_data": "invented event streams, tables and numeric cell arrays only"
+}

@@ -1,0 +1,6 @@
+# Optional external-cache audit only; does not change core research dependencies.
+numpy==2.2.6
+scipy==1.15.3
+rdata==1.1.0
+pandas==3.0.6
+xarray==2026.9.0

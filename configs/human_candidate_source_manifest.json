@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-15",
+  "scope": "structure_and_encoding_only_no_performance_or_similarity_estimates",
+  "raw_data_policy": "external_cache_only_do_not_redistribute_in_DrosoLearn",
+  "sources": [
+    {
+      "id": "cochrane_2019_tefits_subset",
+      "repository": "https://github.com/akcochrane/TEfits",
+      "commit": "0ef49fcdb7037f98028e6264608602ddd0ca24a6",
+      "paper_doi": "10.3758/s13414-018-01636-w",
+      "license": {
+        "declared_package": "MIT",
+        "copyright": "2020 Aaron Cochrane",
+        "separate_data_license_found": false,
+        "scope_note": "Repository LICENSE and DESCRIPTION declare MIT for the package; no separate statement explicitly extends that grant to original full-study participant data. Do not call this an independent CC-licensed full-study deposit."
+      },
+      "expected": {
+        "participants": 4,
+        "trials_per_participant": 250,
+        "columns": [
+          "ratio",
+          "resp",
+          "trialNum",
+          "sizeRat",
+          "acc",
+          "subID"
+        ],
+        "subIDs": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      },
+      "files": [
+        {
+          "path": "man/anstrain.Rd",
+          "url": "https://raw.githubusercontent.com/akcochrane/TEfits/0ef49fcdb7037f98028e6264608602ddd0ca24a6/man/anstrain.Rd",
+          "bytes": 722,
+          "sha256": "688c8b272bf9674ae2fcf836e6efb81933a1af8d8693e9c65be661865c9be31b"
+        },
+        {
+          "path": "DESCRIPTION",
+          "url": "https://raw.githubusercontent.com/akcochrane/TEfits/0ef49fcdb7037f98028e6264608602ddd0ca24a6/DESCRIPTION",
+          "bytes": 833,
+          "sha256": "f153e5ccf42ea18d1ccf4cea8c0ff0c97ac7bc7f5855049fb55924002d0aec00"
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/akcochrane/TEfits/0ef49fcdb7037f98028e6264608602ddd0ca24a6/LICENSE",
+          "bytes": 1071,
+          "sha256": "ea7b3d4f3ff13401baffeb5bb780a3654ef1d31efb679f14890be0d38b3b2fe6"
+        },
+        {
+          "path": "data/anstrain.RData",
+          "url": "https://raw.githubusercontent.com/akcochrane/TEfits/0ef49fcdb7037f98028e6264608602ddd0ca24a6/data/anstrain.RData",
+          "bytes": 7034,
+          "sha256": "cc9233dda1432d9437516172975f0041cda6c9ddbd72da68bb299eaf9c55e76b"
+        },
+        {
+          "path": "data/anstrain_s1.RData",
+          "url": "https://raw.githubusercontent.com/akcochrane/TEfits/0ef49fcdb7037f98028e6264608602ddd0ca24a6/data/anstrain_s1.RData",
+          "bytes": 2791,
+          "sha256": "34ebf8f8bcea47831dccd0d24205a3332ff8c3a6d4feb0dd5e5dd5885cfb001d"
+        }
+      ]
+    },
+    {
+      "id": "markovic_2022_pybefit",
+      "repository": "https://github.com/dimarkov/pybefit",
+      "commit": "813aeb5ad2c7bbed90ecd7d947bce9fe981c9702",
+      "paper_doi": "10.3389/fnbeh.2022.962494",
+      "license": {
+        "declared_package": "MIT",
+        "copyright": "2016 Dimitrije Markovic",
+        "separate_data_license_found": false,
+        "scope_note": "Repository license concerns software and associated documentation; independent participant-data redistribution permission was not established. Keep originals in external cache."
+      },
+      "expected": {
+        "trials_per_row": 1000,
+        "groups": {
+          "main": {
+            "rows": 50,
+            "conditions": {
+              "regular": 27,
+              "irregular": 23
+            },
+            "duplicate_rows": []
+          },
+          "pilot": {
+            "rows": 24,
+            "conditions": {
+              "regular": 14,
+              "irregular": 10
+            },
+            "duplicate_rows": [
+              [
+                "8",
+                "9"
+              ],
+              [
+                "11",
+                "12"
+              ]
+            ]
+          }
+        }
+      },
+      "files": [
+        {
+          "path": "LICENSE.md",
+          "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/LICENSE.md",
+          "bytes": 1114,
+          "sha256": "a573be07187c3c7387c320a7ed2c2ee12eb72578de4632c8e32ec984a56e8ee5"
+        },
+        {
+          "path": "examples/temporal_rev_learn/README.md",
+          "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/README.md",
+          "bytes": 1433,
+          "sha256": "c0830babaefc2d96c4d6c0a3112189df53b48291d597b004eb1d7e7f7f30ec95"
+        },
+        {
+          "path": "examples/temporal_rev_learn/behavioral_data/main/responses.csv",
+          "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/main/responses.csv",
+          "bytes": 204431,
+          "sha256": "a9419e7c4233665ad75721d16515c0e4c70ba27079f91ce51f4934bcd6d7fa7a"
+        },
+        {
+          "path": "examples/temporal_rev_learn/behavioral_data/main/outcomes.csv",
+          "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/main/outcomes.csv",
+          "bytes": 203975,
+          "sha256": "b0a8c65c1629fa372e2b5c5932658c331d8cc04c3567bb55461692d28b2d1fcb"
+        },
+        {
+          "path": "examples/temporal_rev_learn/behavioral_data/main/correct_responses.csv",
+          "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/main/correct_responses.csv",
+          "bytes": 193751,
+          "sha256": "7f6a1be60bf76281e70d48c329eb09207827b0d7a994c5541b2e3e3a5c020737"
+        },
+        {
+          "path": "examples/temporal_rev_learn/behavioral_data/main/states_and_rewards.mat",
+          "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/main/states_and_rewards.mat",
+          "bytes": 1823,
+          "sha256": "c0b851a95e32eb61ea01e9ab2666ec744b1e8238f9fc88acc0ab86aaa679f86f"
+        },
+        {
+          "path": "examples/temporal_rev_learn/behavioral_data/pilot/responses.csv",
+          "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/pilot/responses.csv",
+          "bytes": 100167,
+          "sha256": "5b20996f3b749e8cd9db981e4143d80fe355e7fab9e066fa72a27e5dec3566c1"
+        },
+        {
+          "path": "examples/temporal_rev_learn/behavioral_data/pilot/outcomes.csv",
+          "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/pilot/outcomes.csv",
+          "bytes": 99945,
+          "sha256": "e1f7912bd5e62d0af37972dd865b3d24df613c86d31d2997c64a3358be7f6cd7"
+        },
+        {
+          "path": "examples/temporal_rev_learn/behavioral_data/pilot/correct_responses.csv",
+          "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/pilot/correct_responses.csv",
+          "bytes": 99945,
+          "sha256": "bb47829497f94d8eb455ae0d3f424f927b6635c3a922e05651d0b285abceb05b"
+        },
+        {
+          "path": "examples/temporal_rev_learn/behavioral_data/pilot/states_and_rewards.mat",
+          "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/pilot/states_and_rewards.mat",
+          "bytes": 1823,
+          "sha256": "c0b851a95e32eb61ea01e9ab2666ec744b1e8238f9fc88acc0ab86aaa679f86f"
+        }
+      ]
+    }
+  ]
+}
