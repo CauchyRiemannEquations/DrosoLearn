@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-15T02:41:50.125790+00:00",
+  "published_commit": "c8a8c53358dfafd8ecc3cb4dab80edd3884fb6cf",
+  "registration_sha256": "805efff34e959e23a6d1ca38224cf9b39f17d306f98a9ccaf2b1ceffa1010037",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/c8a8c53358dfafd8ecc3cb4dab80edd3884fb6cf/results/registration_human_semantics_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "verified before formal structural replay; schemas already inspected during exploratory selection; private publication is not blinded/accredited preregistration"
+}

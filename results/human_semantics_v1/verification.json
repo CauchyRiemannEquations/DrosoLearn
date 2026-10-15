@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "scope": "independent_fixed_code_counts_no_mapping_selection_or_performance_analysis",
+  "primary_artifacts_verified": 3,
+  "parent_tag_commit": "12d38e1fec4b6c00dbe833dd888ee0721c69b6da",
+  "immutable_parent_files_verified": 7,
+  "frozen_files_verified": 18,
+  "evidence_files_hash_verified": 1,
+  "diagnostic_rows_verified": 12880,
+  "strict_rows_counted": 12334,
+  "non_strict_rows_preserved": 546,
+  "linked_pair_context_groups_verified": 46,
+  "errors": [],
+  "verified_at_utc": "2026-10-15T02:41:51.789885+00:00"
+}

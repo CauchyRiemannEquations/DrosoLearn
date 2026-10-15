@@ -1,0 +1,2187 @@
+{
+  "total_rows": 12880,
+  "strict_rows": 12334,
+  "not_strict_rows": 546,
+  "action_matrix": [
+    [
+      3327,
+      2911
+    ],
+    [
+      3203,
+      2893
+    ]
+  ],
+  "expectation_matrix": [
+    [
+      557,
+      105,
+      89,
+      58
+    ],
+    [
+      106,
+      2108,
+      1039,
+      326
+    ],
+    [
+      97,
+      1048,
+      3812,
+      438
+    ],
+    [
+      69,
+      342,
+      418,
+      1722
+    ]
+  ],
+  "action_disagreements": 6114,
+  "expectation_disagreements": 4135,
+  "groups": [
+    {
+      "event_label": "sub-s1",
+      "mat_row": "mat-01",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 277,
+      "not_strict_rows": 3,
+      "action_matrix": [
+        [
+          73,
+          74
+        ],
+        [
+          64,
+          66
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          45,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          151,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          79
+        ]
+      ],
+      "action_disagreements": 138,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s1",
+      "mat_row": "mat-01",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 277,
+      "not_strict_rows": 3,
+      "action_matrix": [
+        [
+          69,
+          68
+        ],
+        [
+          72,
+          68
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          84,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          136,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          55
+        ]
+      ],
+      "action_disagreements": 140,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s10",
+      "mat_row": "mat-07",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 279,
+      "not_strict_rows": 1,
+      "action_matrix": [
+        [
+          79,
+          73
+        ],
+        [
+          67,
+          60
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          2,
+          4,
+          4
+        ],
+        [
+          0,
+          10,
+          37,
+          37
+        ],
+        [
+          0,
+          9,
+          51,
+          53
+        ],
+        [
+          0,
+          10,
+          37,
+          25
+        ]
+      ],
+      "action_disagreements": 140,
+      "expectation_disagreements": 193
+    },
+    {
+      "event_label": "sub-s10",
+      "mat_row": "mat-07",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 280,
+      "not_strict_rows": 0,
+      "action_matrix": [
+        [
+          83,
+          48
+        ],
+        [
+          73,
+          76
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          10,
+          9,
+          10
+        ],
+        [
+          4,
+          37,
+          51,
+          38
+        ],
+        [
+          4,
+          37,
+          53,
+          25
+        ]
+      ],
+      "action_disagreements": 121,
+      "expectation_disagreements": 194
+    },
+    {
+      "event_label": "sub-s11",
+      "mat_row": "mat-08",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 265,
+      "not_strict_rows": 15,
+      "action_matrix": [
+        [
+          68,
+          65
+        ],
+        [
+          70,
+          62
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          53,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          186,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          26
+        ]
+      ],
+      "action_disagreements": 135,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s11",
+      "mat_row": "mat-08",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 276,
+      "not_strict_rows": 4,
+      "action_matrix": [
+        [
+          69,
+          71
+        ],
+        [
+          67,
+          69
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          4,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          61,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          176,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          35
+        ]
+      ],
+      "action_disagreements": 138,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s12",
+      "mat_row": "mat-09",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 273,
+      "not_strict_rows": 7,
+      "action_matrix": [
+        [
+          70,
+          75
+        ],
+        [
+          61,
+          67
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          74,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          137,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          59
+        ]
+      ],
+      "action_disagreements": 136,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s12",
+      "mat_row": "mat-09",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 272,
+      "not_strict_rows": 8,
+      "action_matrix": [
+        [
+          67,
+          61
+        ],
+        [
+          75,
+          69
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          47,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          153,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          70
+        ]
+      ],
+      "action_disagreements": 136,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s13",
+      "mat_row": "mat-10",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 272,
+      "not_strict_rows": 8,
+      "action_matrix": [
+        [
+          60,
+          59
+        ],
+        [
+          69,
+          84
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          1,
+          11,
+          74,
+          71
+        ],
+        [
+          0,
+          6,
+          61,
+          45
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "action_disagreements": 128,
+      "expectation_disagreements": 199
+    },
+    {
+      "event_label": "sub-s13",
+      "mat_row": "mat-10",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 263,
+      "not_strict_rows": 17,
+      "action_matrix": [
+        [
+          71,
+          60
+        ],
+        [
+          90,
+          42
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          6,
+          0
+        ],
+        [
+          1,
+          70,
+          60,
+          0
+        ],
+        [
+          1,
+          70,
+          42,
+          1
+        ]
+      ],
+      "action_disagreements": 150,
+      "expectation_disagreements": 191
+    },
+    {
+      "event_label": "sub-s14",
+      "mat_row": "mat-11",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 278,
+      "not_strict_rows": 2,
+      "action_matrix": [
+        [
+          67,
+          88
+        ],
+        [
+          56,
+          67
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          21,
+          43,
+          20,
+          20
+        ],
+        [
+          8,
+          31,
+          7,
+          18
+        ],
+        [
+          6,
+          27,
+          10,
+          9
+        ],
+        [
+          13,
+          21,
+          11,
+          13
+        ]
+      ],
+      "action_disagreements": 144,
+      "expectation_disagreements": 203
+    },
+    {
+      "event_label": "sub-s14",
+      "mat_row": "mat-11",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 279,
+      "not_strict_rows": 1,
+      "action_matrix": [
+        [
+          69,
+          67
+        ],
+        [
+          79,
+          64
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          21,
+          8,
+          6,
+          13
+        ],
+        [
+          44,
+          31,
+          27,
+          21
+        ],
+        [
+          20,
+          7,
+          10,
+          11
+        ],
+        [
+          20,
+          18,
+          9,
+          13
+        ]
+      ],
+      "action_disagreements": 146,
+      "expectation_disagreements": 204
+    },
+    {
+      "event_label": "sub-s15",
+      "mat_row": "mat-12",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 277,
+      "not_strict_rows": 3,
+      "action_matrix": [
+        [
+          69,
+          75
+        ],
+        [
+          64,
+          69
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          3,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          54,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          218,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          2
+        ]
+      ],
+      "action_disagreements": 139,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s15",
+      "mat_row": "mat-12",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 279,
+      "not_strict_rows": 1,
+      "action_matrix": [
+        [
+          88,
+          62
+        ],
+        [
+          78,
+          51
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          39,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          186,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          54
+        ]
+      ],
+      "action_disagreements": 140,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s16",
+      "mat_row": "mat-13",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 280,
+      "not_strict_rows": 0,
+      "action_matrix": [
+        [
+          84,
+          60
+        ],
+        [
+          76,
+          60
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          3,
+          3,
+          5
+        ],
+        [
+          3,
+          14,
+          26,
+          29
+        ],
+        [
+          5,
+          28,
+          37,
+          45
+        ],
+        [
+          3,
+          22,
+          27,
+          30
+        ]
+      ],
+      "action_disagreements": 136,
+      "expectation_disagreements": 199
+    },
+    {
+      "event_label": "sub-s16",
+      "mat_row": "mat-13",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 276,
+      "not_strict_rows": 4,
+      "action_matrix": [
+        [
+          77,
+          75
+        ],
+        [
+          66,
+          58
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          3,
+          5,
+          3
+        ],
+        [
+          3,
+          13,
+          28,
+          22
+        ],
+        [
+          3,
+          26,
+          36,
+          27
+        ],
+        [
+          4,
+          28,
+          45,
+          30
+        ]
+      ],
+      "action_disagreements": 141,
+      "expectation_disagreements": 197
+    },
+    {
+      "event_label": "sub-s17",
+      "mat_row": "mat-14",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 246,
+      "not_strict_rows": 34,
+      "action_matrix": [
+        [
+          75,
+          55
+        ],
+        [
+          66,
+          50
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          7,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          39,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          66,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          134
+        ]
+      ],
+      "action_disagreements": 121,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s17",
+      "mat_row": "mat-14",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 278,
+      "not_strict_rows": 2,
+      "action_matrix": [
+        [
+          78,
+          72
+        ],
+        [
+          67,
+          61
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          2,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          65,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          99,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          112
+        ]
+      ],
+      "action_disagreements": 139,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s18",
+      "mat_row": "mat-15",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 277,
+      "not_strict_rows": 3,
+      "action_matrix": [
+        [
+          85,
+          49
+        ],
+        [
+          80,
+          63
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          3,
+          3,
+          4
+        ],
+        [
+          16,
+          36,
+          47,
+          8
+        ],
+        [
+          16,
+          48,
+          58,
+          5
+        ],
+        [
+          1,
+          11,
+          19,
+          2
+        ]
+      ],
+      "action_disagreements": 129,
+      "expectation_disagreements": 181
+    },
+    {
+      "event_label": "sub-s18",
+      "mat_row": "mat-15",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 280,
+      "not_strict_rows": 0,
+      "action_matrix": [
+        [
+          92,
+          51
+        ],
+        [
+          73,
+          64
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          17,
+          16,
+          1
+        ],
+        [
+          3,
+          36,
+          49,
+          11
+        ],
+        [
+          3,
+          47,
+          59,
+          19
+        ],
+        [
+          4,
+          8,
+          5,
+          2
+        ]
+      ],
+      "action_disagreements": 124,
+      "expectation_disagreements": 183
+    },
+    {
+      "event_label": "sub-s19",
+      "mat_row": "mat-16",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 279,
+      "not_strict_rows": 1,
+      "action_matrix": [
+        [
+          76,
+          56
+        ],
+        [
+          78,
+          69
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          0,
+          4,
+          0
+        ],
+        [
+          0,
+          32,
+          59,
+          0
+        ],
+        [
+          0,
+          38,
+          127,
+          0
+        ],
+        [
+          0,
+          5,
+          13,
+          1
+        ]
+      ],
+      "action_disagreements": 134,
+      "expectation_disagreements": 119
+    },
+    {
+      "event_label": "sub-s19",
+      "mat_row": "mat-16",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 280,
+      "not_strict_rows": 0,
+      "action_matrix": [
+        [
+          99,
+          57
+        ],
+        [
+          67,
+          57
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          32,
+          38,
+          5
+        ],
+        [
+          4,
+          60,
+          127,
+          13
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ],
+      "action_disagreements": 124,
+      "expectation_disagreements": 120
+    },
+    {
+      "event_label": "sub-s2",
+      "mat_row": "mat-02",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 0,
+      "not_strict_rows": 280,
+      "action_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "action_disagreements": 0,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s2",
+      "mat_row": "mat-02",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 280,
+      "not_strict_rows": 0,
+      "action_matrix": [
+        [
+          93,
+          58
+        ],
+        [
+          65,
+          64
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          1,
+          1,
+          3
+        ],
+        [
+          1,
+          7,
+          18,
+          16
+        ],
+        [
+          9,
+          31,
+          35,
+          48
+        ],
+        [
+          15,
+          35,
+          36,
+          24
+        ]
+      ],
+      "action_disagreements": 123,
+      "expectation_disagreements": 214
+    },
+    {
+      "event_label": "sub-s20",
+      "mat_row": "mat-17",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 280,
+      "not_strict_rows": 0,
+      "action_matrix": [
+        [
+          71,
+          56
+        ],
+        [
+          84,
+          69
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          66,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          57,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          59,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          98
+        ]
+      ],
+      "action_disagreements": 140,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s20",
+      "mat_row": "mat-17",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 280,
+      "not_strict_rows": 0,
+      "action_matrix": [
+        [
+          74,
+          67
+        ],
+        [
+          73,
+          66
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          47,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          63,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          86,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          84
+        ]
+      ],
+      "action_disagreements": 140,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s21",
+      "mat_row": "mat-18",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 278,
+      "not_strict_rows": 2,
+      "action_matrix": [
+        [
+          73,
+          53
+        ],
+        [
+          86,
+          66
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          4,
+          5,
+          3
+        ],
+        [
+          0,
+          42,
+          61,
+          16
+        ],
+        [
+          1,
+          42,
+          53,
+          10
+        ],
+        [
+          0,
+          18,
+          18,
+          5
+        ]
+      ],
+      "action_disagreements": 139,
+      "expectation_disagreements": 178
+    },
+    {
+      "event_label": "sub-s21",
+      "mat_row": "mat-18",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 279,
+      "not_strict_rows": 1,
+      "action_matrix": [
+        [
+          84,
+          67
+        ],
+        [
+          69,
+          59
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          4,
+          41,
+          42,
+          18
+        ],
+        [
+          5,
+          62,
+          54,
+          18
+        ],
+        [
+          3,
+          16,
+          10,
+          5
+        ]
+      ],
+      "action_disagreements": 136,
+      "expectation_disagreements": 179
+    },
+    {
+      "event_label": "sub-s22",
+      "mat_row": "mat-19",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 279,
+      "not_strict_rows": 1,
+      "action_matrix": [
+        [
+          52,
+          87
+        ],
+        [
+          53,
+          87
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          49,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          174,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          50
+        ]
+      ],
+      "action_disagreements": 140,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s22",
+      "mat_row": "mat-19",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 280,
+      "not_strict_rows": 0,
+      "action_matrix": [
+        [
+          83,
+          73
+        ],
+        [
+          67,
+          57
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          15,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          58,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          149,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          58
+        ]
+      ],
+      "action_disagreements": 140,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s23",
+      "mat_row": "mat-20",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 235,
+      "not_strict_rows": 45,
+      "action_matrix": [
+        [
+          58,
+          59
+        ],
+        [
+          58,
+          60
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          28,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          74,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          76,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          57
+        ]
+      ],
+      "action_disagreements": 117,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s23",
+      "mat_row": "mat-20",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 273,
+      "not_strict_rows": 7,
+      "action_matrix": [
+        [
+          67,
+          74
+        ],
+        [
+          60,
+          72
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          26,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          46,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          58,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          143
+        ]
+      ],
+      "action_disagreements": 134,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s24",
+      "mat_row": "mat-21",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 259,
+      "not_strict_rows": 21,
+      "action_matrix": [
+        [
+          63,
+          74
+        ],
+        [
+          59,
+          63
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          59,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          110,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          54,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          36
+        ]
+      ],
+      "action_disagreements": 133,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s24",
+      "mat_row": "mat-21",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 274,
+      "not_strict_rows": 6,
+      "action_matrix": [
+        [
+          77,
+          59
+        ],
+        [
+          78,
+          60
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          70,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          134,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          54,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ]
+      ],
+      "action_disagreements": 137,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s25",
+      "mat_row": "mat-22",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 269,
+      "not_strict_rows": 11,
+      "action_matrix": [
+        [
+          66,
+          68
+        ],
+        [
+          69,
+          66
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          2,
+          12,
+          9,
+          0
+        ],
+        [
+          6,
+          61,
+          50,
+          0
+        ],
+        [
+          8,
+          78,
+          35,
+          1
+        ],
+        [
+          1,
+          4,
+          2,
+          0
+        ]
+      ],
+      "action_disagreements": 137,
+      "expectation_disagreements": 171
+    },
+    {
+      "event_label": "sub-s25",
+      "mat_row": "mat-22",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 255,
+      "not_strict_rows": 25,
+      "action_matrix": [
+        [
+          62,
+          49
+        ],
+        [
+          83,
+          61
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          2,
+          6,
+          8,
+          1
+        ],
+        [
+          13,
+          61,
+          74,
+          4
+        ],
+        [
+          10,
+          44,
+          30,
+          2
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "action_disagreements": 132,
+      "expectation_disagreements": 162
+    },
+    {
+      "event_label": "sub-s26",
+      "mat_row": "mat-23",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 280,
+      "not_strict_rows": 0,
+      "action_matrix": [
+        [
+          71,
+          62
+        ],
+        [
+          73,
+          74
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          1,
+          2,
+          0
+        ],
+        [
+          1,
+          67,
+          82,
+          15
+        ],
+        [
+          0,
+          47,
+          46,
+          14
+        ],
+        [
+          0,
+          0,
+          4,
+          1
+        ]
+      ],
+      "action_disagreements": 135,
+      "expectation_disagreements": 166
+    },
+    {
+      "event_label": "sub-s26",
+      "mat_row": "mat-23",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 272,
+      "not_strict_rows": 8,
+      "action_matrix": [
+        [
+          68,
+          63
+        ],
+        [
+          82,
+          59
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          1,
+          63,
+          47,
+          0
+        ],
+        [
+          2,
+          81,
+          45,
+          4
+        ],
+        [
+          0,
+          14,
+          13,
+          1
+        ]
+      ],
+      "action_disagreements": 145,
+      "expectation_disagreements": 163
+    },
+    {
+      "event_label": "sub-s3",
+      "mat_row": "mat-03",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 278,
+      "not_strict_rows": 2,
+      "action_matrix": [
+        [
+          79,
+          52
+        ],
+        [
+          86,
+          61
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          29,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          72,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          99,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          78
+        ]
+      ],
+      "action_disagreements": 138,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s3",
+      "mat_row": "mat-03",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 279,
+      "not_strict_rows": 1,
+      "action_matrix": [
+        [
+          77,
+          70
+        ],
+        [
+          70,
+          62
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          14,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          55,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          87,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          123
+        ]
+      ],
+      "action_disagreements": 140,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s4",
+      "mat_row": "mat-04",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 274,
+      "not_strict_rows": 6,
+      "action_matrix": [
+        [
+          67,
+          56
+        ],
+        [
+          75,
+          76
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          50,
+          166,
+          0
+        ],
+        [
+          0,
+          23,
+          32,
+          0
+        ],
+        [
+          0,
+          2,
+          0,
+          0
+        ]
+      ],
+      "action_disagreements": 131,
+      "expectation_disagreements": 192
+    },
+    {
+      "event_label": "sub-s4",
+      "mat_row": "mat-04",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 277,
+      "not_strict_rows": 3,
+      "action_matrix": [
+        [
+          64,
+          71
+        ],
+        [
+          73,
+          69
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          53,
+          23,
+          2
+        ],
+        [
+          0,
+          167,
+          32,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "action_disagreements": 144,
+      "expectation_disagreements": 192
+    },
+    {
+      "event_label": "sub-s6",
+      "mat_row": "mat-05",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 277,
+      "not_strict_rows": 3,
+      "action_matrix": [
+        [
+          82,
+          67
+        ],
+        [
+          73,
+          55
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          72,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          29,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          100,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          76
+        ]
+      ],
+      "action_disagreements": 140,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s6",
+      "mat_row": "mat-05",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 276,
+      "not_strict_rows": 4,
+      "action_matrix": [
+        [
+          85,
+          75
+        ],
+        [
+          62,
+          54
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          54,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          52,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          113,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          57
+        ]
+      ],
+      "action_disagreements": 137,
+      "expectation_disagreements": 0
+    },
+    {
+      "event_label": "sub-s8",
+      "mat_row": "mat-06",
+      "task": "PUN",
+      "total_rows": 280,
+      "strict_rows": 280,
+      "not_strict_rows": 0,
+      "action_matrix": [
+        [
+          74,
+          70
+        ],
+        [
+          68,
+          68
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          18,
+          26,
+          5
+        ],
+        [
+          0,
+          44,
+          73,
+          46
+        ],
+        [
+          0,
+          18,
+          30,
+          20
+        ]
+      ],
+      "action_disagreements": 138,
+      "expectation_disagreements": 169
+    },
+    {
+      "event_label": "sub-s8",
+      "mat_row": "mat-06",
+      "task": "REW",
+      "total_rows": 280,
+      "strict_rows": 277,
+      "not_strict_rows": 3,
+      "action_matrix": [
+        [
+          69,
+          60
+        ],
+        [
+          79,
+          69
+        ]
+      ],
+      "expectation_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          18,
+          43,
+          18
+        ],
+        [
+          0,
+          26,
+          73,
+          30
+        ],
+        [
+          0,
+          5,
+          44,
+          20
+        ]
+      ],
+      "action_disagreements": 139,
+      "expectation_disagreements": 166
+    }
+  ],
+  "mapping_selected": false,
+  "behavioral_performance_computed": false,
+  "audit_id": "human_semantics_v1",
+  "code_axes": {
+    "action_rows": [
+      1,
+      2
+    ],
+    "action_columns": [
+      1,
+      2
+    ],
+    "expectation_rows_plus3": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "expectation_columns_mat": [
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "interpretation": "cross-tabs diagnose codes; no selected permutation, cause attribution, original trial identity or human/model comparison"
+}

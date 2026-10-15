@@ -1,0 +1,35 @@
+{
+  "config": {
+    "audit_id": "human_semantics_v1",
+    "input_tag": "human-trial-linkage-v1",
+    "input_directory": "results/human_trial_linkage_v1",
+    "scope": "fixed_code_cross_tabs_no_mapping_search",
+    "select_mapping": false,
+    "performance_analysis": false
+  },
+  "config_sha256": "4f296a7b953440f07112e8a9b8c6c7156fb139fd030e9b66fe6ecea40306832e",
+  "source_hashes": {
+    "data/human/stolz_2022_semantics_evidence/repository-inventory.json": "ec78e095b67f3d1ae330727d35c3363c04dbf0c5526ec6cc1cd919479eea9ddc",
+    "data/human/stolz_2022_semantics_evidence/source-manifest.json": "10968e719296c6596f6a0dd298cf950c7666fe30fdc2635d668d8b7134a3f003",
+    "docs/human-semantics-protocol.md": "74d823515cb9435f9519f8df9fa202a61ce6567279e5a02d6f9ad9b19c870b55",
+    "docs/human-semantics-source-review.md": "320799d30f1e70fb52f056972f9cae0933c4b4d29e08f123bbb0a31db0a7f489",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "results/human_trial_linkage_v1/artifact_hashes.json": "03f0d13bc09c6cb4b3bb8da6b15940598e3ed68d819a28e440ad513d20a806b1",
+    "results/human_trial_linkage_v1/corroboration.csv": "550a24d800bf2289fb279d1fea4ceb44f3ce13dd813d0c8347e2c5cf3d850e51",
+    "results/human_trial_linkage_v1/linkage-report.json": "aaa1c4c61307a3c4b2d459c806627049a9cf8e5f33aa8f7e13a53594c0f2f184",
+    "results/human_trial_linkage_v1/metadata.json": "155bb6ba7ed0fabf6ec9b9f4221ca1174362d654ea82d82e584c02d80f6fb762",
+    "results/human_trial_linkage_v1/record-links.csv": "b175c0f3336ab8ea62672dd2478aacab776e2b12307f73dad225cbc4651e511a",
+    "results/human_trial_linkage_v1/registration.json": "132e7604751eb96a92746ffd5bea7cc3cd5d265eb1fff1eb22b544ff3eb244e9",
+    "results/human_trial_linkage_v1/verification.json": "abddf65e33f2dae34286a8ec2c854e762e1c77b33e8e1728633833af768daaf0",
+    "scripts/verify_human_semantics.py": "0201690c105d3eb6069abd2ce51e89d402fc10cbb3109daaa780986373081490",
+    "src/drosolearn/human_semantics.py": "4e9a7654f28ccf3b69111af2f6b817e9f2b2c0fb5bbba09e37d48097db4fe1ac",
+    "src/drosolearn/human_trial_data.py": "1bc04e066f7572345ac13af91567e20cb38277b186a29107f073f9511358d852",
+    "tests/test_human_semantics.py": "72bb8a15488f2f08fef584394178b5db0d0473e4dd23243e07418c24c6abf473",
+    "tests/test_human_semantics_run.py": "1a48bf9d13deb3a11c3195485e893f6681edf452577776db21b80630b5ec7051"
+  },
+  "input_tag_commit": "12d38e1fec4b6c00dbe833dd888ee0721c69b6da",
+  "git_commit": "fcb7ccceb3b02402c7faa734b6f60f482926108d",
+  "registered_at_utc": "2026-10-15T02:41:36.572447+00:00",
+  "notice": "descriptive follow-up to already observed code disagreements; no blinded hypothesis preregistration"
+}
