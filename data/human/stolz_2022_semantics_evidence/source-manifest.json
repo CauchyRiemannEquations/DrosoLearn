@@ -1,0 +1,22 @@
+{
+  "scope": "metadata_only_inventory_no_original_MAT_EEG_stimulus_log_or_article_payloads",
+  "dataset": "ds004295",
+  "release": "1.0.0",
+  "commit": "c7c5d3a164425af3e65cc908ef0d41f01725984c",
+  "source_license": "CC0",
+  "license_evidence": "https://raw.githubusercontent.com/OpenNeuroDatasets/ds004295/c7c5d3a164425af3e65cc908ef0d41f01725984c/dataset_description.json",
+  "authors": [
+    "Christopher Stolz",
+    "Alan Pickering",
+    "Erik M. Mueller"
+  ],
+  "files": [
+    {
+      "path": "repository-inventory.json",
+      "size_bytes": 97724,
+      "sha256": "ec78e095b67f3d1ae330727d35c3363c04dbf0c5526ec6cc1cd919479eea9ddc",
+      "source_url": "https://api.github.com/repos/OpenNeuroDatasets/ds004295/git/trees/c7c5d3a164425af3e65cc908ef0d41f01725984c?recursive=1",
+      "derivation": "complete untruncated Git tree plus hash-verified Git-annex pointer bytes; payloads not downloaded"
+    }
+  ]
+}

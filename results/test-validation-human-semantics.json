@@ -1,0 +1,19 @@
+{
+  "recorded_at_utc": "2026-10-15T02:41:35.091923+00:00",
+  "passed": 57,
+  "duration_seconds": 26.54,
+  "warnings_reported": 0,
+  "components": {
+    "synthetic_core": 47,
+    "frozen_run_and_independent_tamper": 10
+  },
+  "command": "python -m pytest tests/test_human_semantics.py tests/test_human_semantics_run.py -q --tb=short",
+  "scope": "invented diagnostic tables and parent Git artifacts only; no historical study rerun or original human cross-tabulation",
+  "source_hashes": {
+    "src/drosolearn/human_semantics.py": "4e9a7654f28ccf3b69111af2f6b817e9f2b2c0fb5bbba09e37d48097db4fe1ac",
+    "scripts/verify_human_semantics.py": "0201690c105d3eb6069abd2ce51e89d402fc10cbb3109daaa780986373081490",
+    "tests/test_human_semantics.py": "72bb8a15488f2f08fef584394178b5db0d0473e4dd23243e07418c24c6abf473",
+    "tests/test_human_semantics_run.py": "1a48bf9d13deb3a11c3195485e893f6681edf452577776db21b80630b5ec7051"
+  },
+  "development_note": "core fixture originally reused original event row numbers across contexts; corrected before freeze using invented positions; producer unchanged"
+}

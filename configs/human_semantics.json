@@ -1,0 +1,8 @@
+{
+  "audit_id": "human_semantics_v1",
+  "input_tag": "human-trial-linkage-v1",
+  "input_directory": "results/human_trial_linkage_v1",
+  "scope": "fixed_code_cross_tabs_no_mapping_search",
+  "select_mapping": false,
+  "performance_analysis": false
+}
