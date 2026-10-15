@@ -1,0 +1,14 @@
+{
+  "status": "pass",
+  "scope": "independent_source_task_structure_not_human_performance",
+  "result_sha256": "f4e777748518a1490bc6ec19b4c3c0caf6e560e6cfa1ca85f5e2e8c227b01547",
+  "registration_sha256": "878be6c6fede943059ebfb7a5e5d4df9e4d7e61da1769a97babb51ff9be85dbf",
+  "config_sha256": "f5f1b4613bc86afec0a5652dc3df43db096a64a2d2b526ad3ce37b132dc3b975",
+  "frozen_files_verified": 47,
+  "raw_files_replayed": 25,
+  "schedule_groups_verified": 2,
+  "source_coded_descriptive_gate_passed": true,
+  "human_accuracy_or_learning_curves_computed": false,
+  "errors": [],
+  "verified_at_utc": "2026-10-15T04:01:34.015365+00:00"
+}

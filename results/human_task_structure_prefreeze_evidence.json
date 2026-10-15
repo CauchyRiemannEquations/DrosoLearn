@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-15T04:01:23.899018+00:00",
+  "published_commit": "e35cf4b0c013484be5a3ea90fbf7b815d8104781",
+  "source_commit": "b9b206399521fb5055be2cb1832c3085c13959f5",
+  "registration_sha256": "878be6c6fede943059ebfb7a5e5d4df9e4d7e61da1769a97babb51ff9be85dbf",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/e35cf4b0c013484be5a3ea90fbf7b815d8104781/results/registration_human_task_structure_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "Exploratory source/measurement follow-up frozen before this new registered computation; prior related data inspected"
+}
