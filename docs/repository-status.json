@@ -20,8 +20,12 @@
     "linearity_v1": "study-linearity-v1",
     "reward_linear_v1": "study-reward-linear-v1",
     "bandit_reversal_v1": "study-bandit-reversal-v1",
-    "head_attenuation_v1": "study-head-attenuation-v1"
+    "head_attenuation_v1": "study-head-attenuation-v1",
+    "human_trial_data_audit_v1": "human-trial-data-audit-v1"
   },
   "current_diagnostic": "head_attenuation_diagnostic_v1",
-  "bandit_reversal_diagnostic_source_commit": "fceca94dc6e8137085112ad3a5b75a3cf3894e50"
+  "bandit_reversal_diagnostic_source_commit": "fceca94dc6e8137085112ad3a5b75a3cf3894e50",
+  "current_data_readiness_audit": "human_trial_data_readiness_v1",
+  "human_trial_data_audit_source_commit": "c8b0e0b97133d105d07c28aca116974100ddf6d3",
+  "human_model_similarity_tested": false
 }

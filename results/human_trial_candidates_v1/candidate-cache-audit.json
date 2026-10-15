@@ -1,0 +1,296 @@
+{
+  "schema_version": 1,
+  "status": "pass",
+  "scope": "structure_and_encoding_only_no_performance_or_similarity_estimates",
+  "checked_at_utc": "2026-10-15T00:47:30.925945+00:00",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "rdata": "1.1.0",
+    "pandas": "3.0.6",
+    "xarray": "2026.9.0"
+  },
+  "source_files": [
+    {
+      "source": "cochrane_2019_tefits_subset",
+      "path": "man/anstrain.Rd",
+      "url": "https://raw.githubusercontent.com/akcochrane/TEfits/0ef49fcdb7037f98028e6264608602ddd0ca24a6/man/anstrain.Rd",
+      "bytes": 722,
+      "sha256": "688c8b272bf9674ae2fcf836e6efb81933a1af8d8693e9c65be661865c9be31b"
+    },
+    {
+      "source": "cochrane_2019_tefits_subset",
+      "path": "DESCRIPTION",
+      "url": "https://raw.githubusercontent.com/akcochrane/TEfits/0ef49fcdb7037f98028e6264608602ddd0ca24a6/DESCRIPTION",
+      "bytes": 833,
+      "sha256": "f153e5ccf42ea18d1ccf4cea8c0ff0c97ac7bc7f5855049fb55924002d0aec00"
+    },
+    {
+      "source": "cochrane_2019_tefits_subset",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/akcochrane/TEfits/0ef49fcdb7037f98028e6264608602ddd0ca24a6/LICENSE",
+      "bytes": 1071,
+      "sha256": "ea7b3d4f3ff13401baffeb5bb780a3654ef1d31efb679f14890be0d38b3b2fe6"
+    },
+    {
+      "source": "cochrane_2019_tefits_subset",
+      "path": "data/anstrain.RData",
+      "url": "https://raw.githubusercontent.com/akcochrane/TEfits/0ef49fcdb7037f98028e6264608602ddd0ca24a6/data/anstrain.RData",
+      "bytes": 7034,
+      "sha256": "cc9233dda1432d9437516172975f0041cda6c9ddbd72da68bb299eaf9c55e76b"
+    },
+    {
+      "source": "cochrane_2019_tefits_subset",
+      "path": "data/anstrain_s1.RData",
+      "url": "https://raw.githubusercontent.com/akcochrane/TEfits/0ef49fcdb7037f98028e6264608602ddd0ca24a6/data/anstrain_s1.RData",
+      "bytes": 2791,
+      "sha256": "34ebf8f8bcea47831dccd0d24205a3332ff8c3a6d4feb0dd5e5dd5885cfb001d"
+    },
+    {
+      "source": "markovic_2022_pybefit",
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/LICENSE.md",
+      "bytes": 1114,
+      "sha256": "a573be07187c3c7387c320a7ed2c2ee12eb72578de4632c8e32ec984a56e8ee5"
+    },
+    {
+      "source": "markovic_2022_pybefit",
+      "path": "examples/temporal_rev_learn/README.md",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/README.md",
+      "bytes": 1433,
+      "sha256": "c0830babaefc2d96c4d6c0a3112189df53b48291d597b004eb1d7e7f7f30ec95"
+    },
+    {
+      "source": "markovic_2022_pybefit",
+      "path": "examples/temporal_rev_learn/behavioral_data/main/responses.csv",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/main/responses.csv",
+      "bytes": 204431,
+      "sha256": "a9419e7c4233665ad75721d16515c0e4c70ba27079f91ce51f4934bcd6d7fa7a"
+    },
+    {
+      "source": "markovic_2022_pybefit",
+      "path": "examples/temporal_rev_learn/behavioral_data/main/outcomes.csv",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/main/outcomes.csv",
+      "bytes": 203975,
+      "sha256": "b0a8c65c1629fa372e2b5c5932658c331d8cc04c3567bb55461692d28b2d1fcb"
+    },
+    {
+      "source": "markovic_2022_pybefit",
+      "path": "examples/temporal_rev_learn/behavioral_data/main/correct_responses.csv",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/main/correct_responses.csv",
+      "bytes": 193751,
+      "sha256": "7f6a1be60bf76281e70d48c329eb09207827b0d7a994c5541b2e3e3a5c020737"
+    },
+    {
+      "source": "markovic_2022_pybefit",
+      "path": "examples/temporal_rev_learn/behavioral_data/main/states_and_rewards.mat",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/main/states_and_rewards.mat",
+      "bytes": 1823,
+      "sha256": "c0b851a95e32eb61ea01e9ab2666ec744b1e8238f9fc88acc0ab86aaa679f86f"
+    },
+    {
+      "source": "markovic_2022_pybefit",
+      "path": "examples/temporal_rev_learn/behavioral_data/pilot/responses.csv",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/pilot/responses.csv",
+      "bytes": 100167,
+      "sha256": "5b20996f3b749e8cd9db981e4143d80fe355e7fab9e066fa72a27e5dec3566c1"
+    },
+    {
+      "source": "markovic_2022_pybefit",
+      "path": "examples/temporal_rev_learn/behavioral_data/pilot/outcomes.csv",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/pilot/outcomes.csv",
+      "bytes": 99945,
+      "sha256": "e1f7912bd5e62d0af37972dd865b3d24df613c86d31d2997c64a3358be7f6cd7"
+    },
+    {
+      "source": "markovic_2022_pybefit",
+      "path": "examples/temporal_rev_learn/behavioral_data/pilot/correct_responses.csv",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/pilot/correct_responses.csv",
+      "bytes": 99945,
+      "sha256": "bb47829497f94d8eb455ae0d3f424f927b6635c3a922e05651d0b285abceb05b"
+    },
+    {
+      "source": "markovic_2022_pybefit",
+      "path": "examples/temporal_rev_learn/behavioral_data/pilot/states_and_rewards.mat",
+      "url": "https://raw.githubusercontent.com/dimarkov/pybefit/813aeb5ad2c7bbed90ecd7d947bce9fe981c9702/examples/temporal_rev_learn/behavioral_data/pilot/states_and_rewards.mat",
+      "bytes": 1823,
+      "sha256": "c0b851a95e32eb61ea01e9ab2666ec744b1e8238f9fc88acc0ab86aaa679f86f"
+    }
+  ],
+  "sources": {
+    "cochrane_2019_tefits_subset": {
+      "rows": 1000,
+      "columns": [
+        "ratio",
+        "resp",
+        "trialNum",
+        "sizeRat",
+        "acc",
+        "subID"
+      ],
+      "participant_keys": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "per_id": {
+        "s1": {
+          "rows": 250,
+          "trial_order_exact": true
+        },
+        "s2": {
+          "rows": 250,
+          "trial_order_exact": true
+        },
+        "s3": {
+          "rows": 250,
+          "trial_order_exact": true
+        },
+        "s4": {
+          "rows": 250,
+          "trial_order_exact": true
+        }
+      },
+      "missing_fields": 0,
+      "coding_mismatches": 0,
+      "single_file_exact_s1_duplicate": true,
+      "combine_single_as_extra_participant": false,
+      "absent_fields": [
+        "feedback",
+        "session",
+        "block",
+        "RT",
+        "reversal",
+        "exact_counts"
+      ],
+      "ratio_transform_and_color_key_mapping_confirmed": false
+    },
+    "markovic_2022_pybefit": {
+      "groups": {
+        "main": {
+          "rows": 50,
+          "trials_per_row": 1000,
+          "conditions": {
+            "regular": 27,
+            "irregular": 23
+          },
+          "duplicate_rows": {
+            "responses": [],
+            "outcomes": [],
+            "correct_responses": []
+          },
+          "mismatch_counts": {
+            "reward_vs_R": 0,
+            "C_vs_correctness": 0,
+            "hint_vs_state": 0,
+            "C_nan_for_nonbinary": 0,
+            "outcome_nan_for_missing": 0
+          },
+          "code_sets": {
+            "responses": [
+              0,
+              1,
+              2
+            ],
+            "outcomes": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "correct_responses": [
+              0,
+              1
+            ]
+          },
+          "C_is_correctness_indicator_not_correct_card_ID": true,
+          "outcome_2_3_are_hint_state_codes_not_money": true,
+          "unit_key": [
+            "variant",
+            "subject"
+          ]
+        },
+        "pilot": {
+          "rows": 24,
+          "trials_per_row": 1000,
+          "conditions": {
+            "regular": 14,
+            "irregular": 10
+          },
+          "duplicate_rows": {
+            "responses": [
+              [
+                "8",
+                "9"
+              ],
+              [
+                "11",
+                "12"
+              ]
+            ],
+            "outcomes": [
+              [
+                "8",
+                "9"
+              ],
+              [
+                "11",
+                "12"
+              ]
+            ],
+            "correct_responses": [
+              [
+                "8",
+                "9"
+              ],
+              [
+                "11",
+                "12"
+              ]
+            ]
+          },
+          "mismatch_counts": {
+            "reward_vs_R": 0,
+            "C_vs_correctness": 0,
+            "hint_vs_state": 0,
+            "C_nan_for_nonbinary": 0,
+            "outcome_nan_for_missing": 0
+          },
+          "code_sets": {
+            "responses": [
+              0,
+              1
+            ],
+            "outcomes": [
+              0,
+              1
+            ],
+            "correct_responses": [
+              0,
+              1
+            ]
+          },
+          "C_is_correctness_indicator_not_correct_card_ID": true,
+          "outcome_2_3_are_hint_state_codes_not_money": true,
+          "unit_key": [
+            "variant",
+            "subject"
+          ]
+        }
+      },
+      "schedule_files_byte_equal": true
+    }
+  },
+  "performance_estimates_computed": false,
+  "human_model_similarity_tested": false,
+  "raw_data_redistributed": false,
+  "manifest_sha256": "12370135d5ad564af16ecd9cdb739c44bbb68d3951ad57314d4c7ae277401c5a",
+  "code_identity": {
+    "git_commit": "8d014eca5303757c680676cffeb9c7221020b2ef",
+    "script": "scripts/audit_human_candidate_caches.py",
+    "script_sha256": "65e9093e4c454a0d1f8b0095b4cab6407280d38231ede32a5cc330541cf262f5",
+    "manifest": "configs/human_candidate_source_manifest.json"
+  }
+}

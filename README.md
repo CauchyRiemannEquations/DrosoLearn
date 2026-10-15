@@ -183,6 +183,30 @@ Linux/macOS는 `python3.12 -m venv .venv`와 `.venv/bin/python`으로 실행한�
 
 새 연구 설정은 별도 계획과 `python -m drosolearn.head_attenuation register --config configs/head_attenuation_diagnostic.json --out results/registration_NEW.json`으로 동결한다. 기존 결과 경로를 덮어쓰거나 실패 시 예산을 연장하지 않는다.
 
+## 후속: 인간의 시행별 공개 기록 확인
+
+사람이 **매번 무엇을 골랐고 어떤 피드백을 받았는지**의 원자료를 실제로 확보하고 구조를 검사했다. [쉬운 결과 설명](docs/human-trial-data-findings.md), [감사 계획](docs/human-trial-data-protocol.md), [출처와 선정 이유](docs/human-trial-data-sources.md)를 보존한다. 이번 작업은 자료 준비 단계다. 사람과 모델의 성적이나 신경 기작이 같다는 주장은 하지 않는다.
+
+CC0인 OpenNeuro 부분집합 31파일에서 사건 44,262행·선택 사건 14,568개를 확인했다. 고정한 규칙으로 완전히 연결한 선택–기대–피드백 후보는 13,954개이며 모호한 614개도 남겼다. 구조 문제 표시 1,720건은 사람의 실패 횟수가 아니다. 별도 MAT의 23개 cell을 26개 사건 파일과 임의로 연결하지 않았다. 수량 예제 4ID×250시행과 반전 후보 74개 행도 실제 검사해 중복·피드백 부재·추가 선택·권한의 제약을 기록했다. 새 합성 테스트 121개와 주 자료의 독립 재검산이 통과했다.
+
+완료 태그 `human-trial-data-audit-v1`의 별도 checkout에서 Python3.12와 기존 기본 의존성을 설치한 뒤, 새로운 경로로 주 감사를 재현한다. 주 사건 감사는 추가 라이브러리가 필요 없다.
+
+```powershell
+.\.venv\Scripts\python.exe -m drosolearn.human_trial_data run --config configs/human_trial_data_audit.json --registration results/registration_human_trial_data_v1.json --out results/MY_HUMAN_TRIAL_REPLAY
+.\.venv\Scripts\python.exe scripts/verify_human_trial_data.py --output results/MY_HUMAN_TRIAL_REPLAY
+```
+
+선택적인 MAT·RData 구조 검사와 새 도구 테스트에는 추가 고정 의존성을 설치한다. TEfits·pybefit 원자료는 저장소 밖의 새 캐시로만 가져온다. 다음 명령의 출력 파일도 모두 새 경로여야 한다.
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements-human-candidate-audit.txt
+.\.venv\Scripts\python.exe scripts/inspect_human_behavior_mat.py --out results/MY_CANDIDATES/openneuro-mat-schema.json
+.\.venv\Scripts\python.exe scripts/audit_human_candidate_caches.py --cache ../DrosoLearn-human-cache --fetch --out results/MY_CANDIDATES/candidate-cache-audit.json
+.\.venv\Scripts\python.exe -m pytest tests/test_human_trial_data.py tests/test_human_trial_data_verify.py tests/test_human_candidate_caches.py tests/test_human_behavior_mat.py -q
+```
+
+이는 일부 자료 구조를 먼저 확인한 탐색적 감사이며 눈가림 확증 사전등록은 아니다. 다음 비교에서는 원 시행·도형·참가자 대응과 사용 조건을 먼저 확인하고 공통 지표·반증 조건을 별도로 정의한다. 새 감사 범위의 고정은 `python -m drosolearn.human_trial_data register --config configs/human_trial_data_audit.json --out results/registration_NEW.json`으로 새 파일에 기록한다. 기존 동결·원자료·결과를 바꾸지 않는다.
+
 ## 연구 문서
 
 | 문서 | 내용 |
@@ -202,4 +226,4 @@ Linux/macOS는 `python3.12 -m venv .venv`와 `.venv/bin/python`으로 실행한�
 
 `results/`에는 실패를 포함한 결과와 메타데이터만 기록한다. 학습 평가가 좋지 않더라도 예산을 늘려 같은 가설의 성공을 찾지 않는다. 다음 실험은 실패 원인과 입력·가소성·자원의 가설을 분리해 등록한다.
 
-새 GitHub 저장소 생성·배포 절차는 [repository-creation.md](docs/repository-creation.md)에 있다. DrosoMem에 push하거나 원본 결과를 교체하지 않는다. 소프트웨어는 [MIT](LICENSE), FlyWire 파생 데이터는 별도의 CC BY-NC 4.0 조건을 따른다.
+새 GitHub 저장소 생성·배포 절차는 [repository-creation.md](docs/repository-creation.md)에 있다. DrosoMem에 push하거나 원본 결과를 교체하지 않는다. 소프트웨어는 [MIT](LICENSE), FlyWire 파생 데이터는 별도의 CC BY-NC 4.0 조건을 따른다. 새 OpenNeuro 행동·사건 부분집합은 [별도 CC0 출처 표시](data/human/stolz_2022_openneuro/ATTRIBUTION.md)를 따른다. 다른 후보의 원자료는 재배포하지 않는다.

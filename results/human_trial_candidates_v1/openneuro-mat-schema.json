@@ -1,0 +1,205 @@
+{
+  "scope": "schema_and_duplicate_variable_check_only",
+  "files": [
+    {
+      "path": "code/Data/RevEx1_ActionFeedbackData.mat",
+      "sha256": "27efb86be21000cde12f9cdd9a323f7ca06f86a06044c504f4b8517494866907",
+      "size_bytes": 4620,
+      "variables": {
+        "REW_feedback": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "uint8"
+          ],
+          "codes": [
+            0.0,
+            1.0
+          ]
+        },
+        "PUN_feedback": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "uint8"
+          ],
+          "codes": [
+            0.0,
+            1.0
+          ]
+        },
+        "REW_action": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "uint8"
+          ],
+          "codes": [
+            1.0,
+            2.0
+          ]
+        },
+        "PUN_action": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "uint8"
+          ],
+          "codes": [
+            1.0,
+            2.0
+          ]
+        }
+      }
+    },
+    {
+      "path": "code/Data/RevEx1_behavioralData.mat",
+      "sha256": "57eb6f320cf835000d7db27c8f429af6bf1fd2a63f325e32020c949fd10f9dba",
+      "size_bytes": 85346,
+      "variables": {
+        "PUN_action": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "uint8"
+          ],
+          "codes": [
+            1.0,
+            2.0
+          ]
+        },
+        "PUN_expect": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "uint8"
+          ],
+          "codes": [
+            3.0,
+            4.0,
+            5.0,
+            6.0
+          ]
+        },
+        "PUN_feedback": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "uint8"
+          ],
+          "codes": [
+            0.0,
+            1.0
+          ]
+        },
+        "PUN_responseFB_interval": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "float64"
+          ]
+        },
+        "PUN_rt": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "float64"
+          ]
+        },
+        "REW_action": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "uint8"
+          ],
+          "codes": [
+            1.0,
+            2.0
+          ]
+        },
+        "REW_expect": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "uint8"
+          ],
+          "codes": [
+            3.0,
+            4.0,
+            5.0,
+            6.0
+          ]
+        },
+        "REW_feedback": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "uint8"
+          ],
+          "codes": [
+            0.0,
+            1.0
+          ]
+        },
+        "REW_responseFB_interval": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "float64"
+          ]
+        },
+        "REW_rt": {
+          "cells": 23,
+          "trial_vector_lengths": [
+            280
+          ],
+          "cell_dtypes": [
+            "float64"
+          ]
+        }
+      }
+    }
+  ],
+  "common_variable_equality": {
+    "PUN_action": true,
+    "PUN_feedback": true,
+    "REW_action": true,
+    "REW_feedback": true
+  },
+  "participant_id_mapping": "not_assumed_or_performed",
+  "performance_estimates_computed": false,
+  "human_model_similarity_tested": false,
+  "runtime": {
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "checked_at_utc": "2026-10-15T00:47:32.419411+00:00",
+  "source_manifest_sha256": "c5e7b713522bb2349aeff689af90898c5c3bdb2b63176623e4bcf352ee565b57",
+  "inspector_sha256": "4478f14eed34cb5b55aa8a2a6c159b7943fd45db71e44abebabac3b0eaa541b5"
+}

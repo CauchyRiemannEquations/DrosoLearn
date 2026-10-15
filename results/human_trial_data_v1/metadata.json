@@ -1,0 +1,18 @@
+{
+  "started_at_utc": "2026-10-15T00:47:26.917480+00:00",
+  "python": "3.12.10",
+  "config": {
+    "audit_id": "human_trial_data_readiness_v1",
+    "scope": "source_and_structure_only",
+    "adapter": "openneuro_ds004295_events_v1",
+    "performance_analysis": false,
+    "source_root": "data/human/stolz_2022_openneuro",
+    "source_manifest": "data/human/stolz_2022_openneuro/source-manifest.json"
+  },
+  "registration_sha256": "347228dbf756d0110217097e0a20f8c8645003f35619cd8ccb334f8460d3ab44",
+  "source_root": "../..",
+  "config_path": "configs/human_trial_data_audit.json",
+  "scope": "source/schema/order audit; no performance curve, model fit, or cross-species inference",
+  "status": "completed",
+  "completed_at_utc": "2026-10-15T00:47:27.260607+00:00"
+}

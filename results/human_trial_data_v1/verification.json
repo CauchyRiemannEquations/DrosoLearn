@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "scope": "independent_source_structure_replay_no_performance_analysis",
+  "source_files_verified": 31,
+  "frozen_files_verified": 39,
+  "primary_artifact_hashes_verified": 4,
+  "event_files_verified": 26,
+  "event_rows_verified": 44262,
+  "observed_choice_rows_verified": 14568,
+  "complete_triplets_verified": 13954,
+  "incomplete_choices_preserved": 614,
+  "issues_preserved": 1720,
+  "errors": [],
+  "verified_at_utc": "2026-10-15T00:47:28.938514+00:00"
+}
