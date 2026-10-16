@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-16T00:25:29.292846+00:00",
+  "published_commit": "8c3acd01a68768b932b2cfb3eca7886577006f3a",
+  "source_commit": "ad89ba72e200757247c69b795e9e85c491623731",
+  "registration_sha256": "63044b52770c8b68d9e949580c10f7abf93217bd3c5cae7145de264a18ea1f39",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/8c3acd01a68768b932b2cfb3eca7886577006f3a/results/registration_metric_calibration_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "Exploratory source/measurement follow-up frozen before this new registered computation; prior related data inspected"
+}

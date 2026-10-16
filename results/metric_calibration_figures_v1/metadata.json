@@ -1,0 +1,7 @@
+{
+  "created_at_utc": "2026-10-16T00:26:53.862281+00:00",
+  "summary_sha256": "edd1e0d853065fcf99a6ecd52a7d8df6cd526b83a2697175a4f6afb1464e192d",
+  "plot_script_sha256": "9d2406ef37af285aa79701123f7f89fceafec351f0e36b5eda82388d2e2292d0",
+  "figure_sha256": "3270b92120d7ccae8e9892014b134f90819dd6cff67907e141af6cafbf504167",
+  "scope": "predefined H1-H3 cases; descriptive plotting only; no new hypothesis tests"
+}

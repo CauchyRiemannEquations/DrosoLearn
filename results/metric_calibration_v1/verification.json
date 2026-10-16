@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "scope": "independent_no_learning_calibration",
+  "registration_sha256": "63044b52770c8b68d9e949580c10f7abf93217bd3c5cae7145de264a18ea1f39",
+  "config_sha256": "07d3c13ab4a0cdfaec1189292d4b3bea37f0f85b8b688ad5e1096e0943619227",
+  "streams_verified": 240,
+  "actual_trials_verified": 192000,
+  "candidate_pairs_verified": 191760,
+  "eligible_pairs_verified": 191520,
+  "strata_verified": 720,
+  "summary_cases_verified": 72,
+  "frozen_files_verified": 11,
+  "parent_files_verified": 3,
+  "primary_artifacts_verified": 6,
+  "rational_joint_probability_calculation": true,
+  "parameter_updates": 0,
+  "human_or_species_comparison": false,
+  "errors": [],
+  "verified_at_utc": "2026-10-16T00:25:52.496366+00:00"
+}
