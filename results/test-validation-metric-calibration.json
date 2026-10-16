@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-16T00:23:47.629734+00:00",
+  "passed": 124,
+  "failed": 0,
+  "elapsed_seconds": 8.89,
+  "command": "python -m pytest tests/test_metric_calibration.py tests/test_metric_calibration_run.py tests/test_metric_calibration_verify.py -q",
+  "fixtures": "synthetic small trials, no registered scientific seeds",
+  "source_hashes": {
+    "configs/metric_calibration_v1.json": "07d3c13ab4a0cdfaec1189292d4b3bea37f0f85b8b688ad5e1096e0943619227",
+    "docs/metric-calibration-protocol.md": "24ad71af0f9ca8fe0ebdde0470c76fa37b3a2a82fc61537a9fb7ec055fe058dd",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_metric_calibration.py": "0f6db92e83c70027b4dc9581d730a12fb28a9fd87eed8b5068b72dbcc961f45b",
+    "scripts/verify_metric_calibration.py": "c1e865c3d1909129b2327d9cd8eb8317fd064c9c26c7b74905f06d8464791710",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/feedback_transition.py": "5922f71b13732104d08816767da02ce6fe8cce31c484978ae818d21fc8f1620d",
+    "src/drosolearn/metric_calibration.py": "ed555999cd39d81e7d34a1f2e291be4ba235d5d8c642f52586ab867bf492504e",
+    "tests/test_metric_calibration.py": "45bd8883877cf2bdfe48ea188c04b8a0d6aaef6015df3a08a8e6818cc22f302a",
+    "tests/test_metric_calibration_run.py": "04d1c9358952901aac1ee965022ea7227fe73235595f8ca62f7e9bef3ab1f105",
+    "tests/test_metric_calibration_verify.py": "049f8448957282864b147c0f25552ce6d8980fc27f2175f5d02b6e6493ecaa24"
+  }
+}

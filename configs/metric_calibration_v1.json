@@ -1,0 +1,62 @@
+{
+  "study_id": "metric_calibration_v1",
+  "scope": "synthetic_no_learning_policy_calibration_not_species_comparison",
+  "seeds": [9001, 9002, 9003, 9004, 9005, 9006, 9007, 9008, 9009, 9010],
+  "trials": 800,
+  "report_segments": [
+    {"id": "phase1", "start_trial": 1, "end_trial": 400},
+    {"id": "phase2", "start_trial": 401, "end_trial": 800}
+  ],
+  "policies": [
+    {"id": "iid_fair", "kind": "iid", "p1": 0.5},
+    {"id": "iid_biased", "kind": "iid", "p1": 0.8},
+    {"id": "sticky", "kind": "sticky", "initial_p1": 0.5, "p_stay": 0.9}
+  ],
+  "environments": [
+    {"id": "probabilistic", "reward1_given_choice_state0": [0.8, 0.2]},
+    {"id": "deterministic", "reward1_given_choice_state0": [1.0, 0.0]},
+    {"id": "uninformative", "reward1_given_choice_state0": [0.5, 0.5]},
+    {"id": "swapped", "reward1_given_choice_state0": [0.2, 0.8]}
+  ],
+  "schedules": [
+    {"id": "fixed", "state0_end_trial": 800},
+    {"id": "reversal", "state0_end_trial": 400}
+  ],
+  "state1_rule": "swap_choice_reward1_probabilities",
+  "rng": {
+    "implementation": "numpy.random.default_rng",
+    "action_seed_offset": 410000,
+    "feedback_seed_offset": 420000,
+    "array_length": 800,
+    "coupling": "same_action_and_feedback_arrays_per_seed_reused_across_all_policies_environments_schedules"
+  },
+  "learning": false,
+  "policy_reset_at_reversal": false,
+  "metric": "actual_original_adjacent_choice_stay_switch_conditioned_on_actual_feedback_at_t",
+  "exclude_boundaries": ["state", "phase", "task"],
+  "segment_policy": "same_phase_boundary_after_trial400_in_both_schedules_all_and_each_phase_reported",
+  "zero_denominator": null,
+  "analytic_primary_target": "ratio_of_expected_stay_count_to_expected_denominator_not_mean_of_random_ratios",
+  "analytic_tolerance": 1e-12,
+  "monte_carlo_inference": false,
+  "all_registered_runs_retained": true,
+  "pool_species_or_conditions": false,
+  "parent_files": [
+    "configs/feedback_transition_v1.json",
+    "docs/feedback-transition-protocol.md",
+    "results/feedback_transition_v1/verification.json"
+  ],
+  "frozen_files": [
+    "src/drosolearn/__init__.py",
+    "src/drosolearn/feedback_transition.py",
+    "src/drosolearn/metric_calibration.py",
+    "scripts/run_metric_calibration.py",
+    "scripts/verify_metric_calibration.py",
+    "tests/test_metric_calibration.py",
+    "tests/test_metric_calibration_run.py",
+    "tests/test_metric_calibration_verify.py",
+    "configs/metric_calibration_v1.json",
+    "docs/metric-calibration-protocol.md",
+    "requirements-lock.txt"
+  ]
+}
