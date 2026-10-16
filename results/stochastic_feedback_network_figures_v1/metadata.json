@@ -1,0 +1,9 @@
+{
+  "created_at_utc": "2026-10-16T00:50:59.888451+00:00",
+  "stage": "network",
+  "learning_curves_sha256": "a9021045bc7dc1f04e06c532e73f1657b668f517d03e6e4e278be4fa509ef5ec",
+  "verification_sha256": "72ccbcf336686adf959b8503c2530c9b63f572c566695294c4607e3b1357682f",
+  "plot_script_sha256": "44c2291de56b57c8387c4ab65e8dcbae375413fc41efd46580845e5e9a2ca966",
+  "figure_sha256": "7ac53abb6f03bed33d29afec86d566606250f2da19bbb02eb172a4954e31ca29",
+  "scope": "IID fixed checkpoints, all ten seeds, descriptive SD; no added hypothesis test"
+}

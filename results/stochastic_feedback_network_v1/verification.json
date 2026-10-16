@@ -1,0 +1,45 @@
+{
+  "verified_at_utc": "2026-10-16T00:45:26.747143+00:00",
+  "status": "passed",
+  "passed": true,
+  "method": "independent numpy/stdlib replay using only immutable independent-auditor arithmetic helpers",
+  "counts": {
+    "actual_choice_feedback_trials": 192000,
+    "head_update_calls": 168000,
+    "internal_update_calls": 72000,
+    "privileged_update_calls": 0,
+    "checkpoints": 2400,
+    "case_probability_entries": 614400,
+    "seeds": 10,
+    "conditions": 8,
+    "environments": 3,
+    "trajectories": 240,
+    "curve_rows": 4800,
+    "artifact_hashes": 2457,
+    "source_hashes": 52,
+    "canonical_fingerprints": 5280
+  },
+  "checks": [
+    "Exact registered source/config/parent bytes and UTC execution chronology",
+    "Every split regenerated independently with joint nuisance crossing and canonical disjointness",
+    "Independent sparse topology, initialization, original normalization and clipping bounds",
+    "Every actual choice and sampled reward replayed with separate shared uniform arrays",
+    "Reward-only head and old-head internal updates; frozen update calls skipped",
+    "All checkpoint parameters, counters, raw/decision probe activities and IID/OOD case probabilities",
+    "All acquisition/adaptation flags, all-seed gaps, starting points, gains, AUCs and failure records",
+    "Registered parent gate and exact physical choice/head/internal/privileged-update budgets"
+  ],
+  "errors": [],
+  "not_verified": [
+    "Private remote Git authenticity; registration/publication chronology beyond recorded local evidence",
+    "Equal model capacity, feature directions, optimization resources, or biological individuals",
+    "Visual number extraction, LC11/DAN dynamics, common human/fly neural mechanism, or educational effect",
+    "Intrinsic learning speed or causal reversal cost without a matched fresh-training control",
+    "Higher p_rule under uninformative reward as evidence of genuine rule acquisition"
+  ],
+  "study_id": "stochastic_feedback_network_v1",
+  "stage": "network",
+  "summary_sha256": "e826d0eb4a4a02645cc82f6556df028e0f50998f643ddd3b5703bd3654fd44b7",
+  "registration_sha256": "1ff8417486bb5fd6f7caae5951f5c0c9c7ac2074e7a8dcaa29eb57ca15c0cd18",
+  "config_sha256": "a6b10d08ba734529fd9c9ef9111c823e7b234b7f8f9b2e34f091a43b881e5178"
+}

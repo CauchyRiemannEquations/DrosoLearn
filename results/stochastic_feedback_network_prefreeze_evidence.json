@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-16T00:43:03.722049+00:00",
+  "published_commit": "e7e0968d962bbdc2f4daac66b3f9091517e7bc10",
+  "source_commit": "3d35d5eaa1db2cb0aa91d93a429f4586675cfb66",
+  "registration_sha256": "1ff8417486bb5fd6f7caae5951f5c0c9c7ac2074e7a8dcaa29eb57ca15c0cd18",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/e7e0968d962bbdc2f4daac66b3f9091517e7bc10/results/registration_stochastic_feedback_network_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "Exploratory source/measurement follow-up frozen before this new registered computation; prior related data inspected"
+}

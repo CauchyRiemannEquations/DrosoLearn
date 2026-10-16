@@ -272,3 +272,9 @@ CC0인 OpenNeuro 부분집합 31파일에서 사건 44,262행·선택 사건 14,
 [두 단계의 쉬운 결과](docs/learning-measurement-continuation-findings.md)를 보존한다. 원 코드·논문과 원본25개에서 카드/상태/정오 관계와 조건 내 일정이 일치해 [구조 게이트](docs/human-task-structure-findings.md)가 통과했다. 이어 사람25,000시행과 기존 모델 phase2의112,000시행을 처리해 원 이웃 쌍의 유지·전환 분자·분모를 기록별로 계산·독립 검산했다. 사람 유효21,530/제외3,445쌍, 모델 유효111,720/제외0쌍이며 제외0은 정답률100%라는 뜻이 아니다. 새 합성 시험280개(46+234)가 통과했다.
 
 사람은 확률적 카드 금전 손익·정보 요청, 모델은 작은/큰 수량에 대한 결정적 보상이다. 특히 모델 보상과 현재 선택이 완전히 겹쳐 조건부 유지율에서 보상 자체 효과를 분리하지 못한다. 종간·집단 차이·학습 효과를 검정하지 않았으며 Level4/5 결과가 아니다. 일부 모델 이력의 정확 중복과 다른 경로의 난수 공유도 명시했다. [실행 전 계획](docs/feedback-transition-protocol.md), [실제 기록별 결과](results/feedback_transition_v1/metrics.json), [독립 검산](results/feedback_transition_v1/verification.json)을 함께 보존한다. 완료 태그는 `human-task-structure-v1`과 `feedback-transition-v1`이다.
+
+## 후속: 무학습 반례와 확률적 보상 학습의 연속 검증
+
+[세 단계의 쉬운 결과](docs/stochastic-feedback-continuation-findings.md)를 보존한다. 학습 없는 선택 편향·반복 정책 240 경로/192,000 회로 높은 유지율·피드백별 차이·구간 합산 상쇄가 학습 없이도 생김을 독립 검산했다. 이어 새 10 시드 단순 선형/학습중지 대조의 48,000 회에서 확률적.8/.2 보상의 습득 10/10 및 무정보 대비 평균 48.40%포인트 차이로 사전 H-L이 통과했다. 반전 적응은 0/10 으로 보존했다. 이 gate와 검산을 통과한 뒤 다른 10 시드·8 조건·3 환경 192,000 회의 배선 비교를 실행했다. 확률적 첫 습득은 학습 7 조건 모두 10/10, 반전 후 적응은 2–7/10 이었다.
+
+이는 인공 수량 순서 입력의 보상 연합이며 실제 시각적 수량 인지나 사람과 같은 학습 기작의 증거가 아니다. 실제 배선 우위 가설을 검정하지 않았고, 내부 학습 자원·출력 계수·반전 출발점 차이를 명시했다. 새 자동검사 326 개와 세 주 실행의 독립 검산이 통과했다. [무학습 대조](docs/metric-calibration-findings.md), [단순 모델](docs/stochastic-feedback-linear-findings.md), [배선 비교](docs/stochastic-feedback-network-findings.md)를 각각 `metric-calibration-v1`, `stochastic-feedback-linear-v1`, `stochastic-feedback-network-v1` 태그에서 재현한다. 다음은 같은 학습 상태를 복제해 내부·출력 학습의 기여를 분리하는 별도 대조다.

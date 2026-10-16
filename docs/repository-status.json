@@ -11,7 +11,7 @@
   "spacing_diagnostic_source_commit": "d4cbe9542c8ec5846b4a877ee36deb47e456ea20",
   "linearity_diagnostic_source_commit": "30323325bc2dc2b8825be7be5cadee153dce8add",
   "reward_linear_diagnostic_source_commit": "cc836c61055ca32a5205f8685a5a4171c43b77e7",
-  "current_diagnostic_source_commit": "1a5c1341dec8ec36710f8ce4659e2841b8a4e6ac",
+  "current_diagnostic_source_commit": "3d35d5eaa1db2cb0aa91d93a429f4586675cfb66",
   "study_tags": {
     "smoke_v1": "v0.1.0-smoke",
     "reversal_v1": "study-reversal-v1",
@@ -26,9 +26,12 @@
     "human_semantics_v1": "human-semantics-v1",
     "human_osf_origin_v1": "human-osf-origin-v1",
     "human_task_structure_v1": "human-task-structure-v1",
-    "feedback_transition_v1": "feedback-transition-v1"
+    "feedback_transition_v1": "feedback-transition-v1",
+    "metric_calibration_v1": "metric-calibration-v1",
+    "stochastic_feedback_linear_v1": "stochastic-feedback-linear-v1",
+    "stochastic_feedback_network_v1": "stochastic-feedback-network-v1"
   },
-  "current_diagnostic": "head_attenuation_diagnostic_v1",
+  "current_diagnostic": "stochastic_feedback_network_v1",
   "bandit_reversal_diagnostic_source_commit": "fceca94dc6e8137085112ad3a5b75a3cf3894e50",
   "current_data_readiness_audit": "human_task_structure_v1",
   "human_trial_data_audit_source_commit": "c8b0e0b97133d105d07c28aca116974100ddf6d3",
@@ -52,5 +55,18 @@
   "feedback_transition_model_streams": 280,
   "feedback_transition_candidates": 136695,
   "feedback_transition_eligible": 133250,
-  "feedback_transition_excluded": 3445
+  "feedback_transition_excluded": 3445,
+  "metric_calibration_source_commit": "ad89ba72e200757247c69b795e9e85c491623731",
+  "stochastic_feedback_implementation_commit": "c342a742055df27004ec60cfc8dcd3b75cd401a5",
+  "stochastic_feedback_linear_source_commit": "c342a742055df27004ec60cfc8dcd3b75cd401a5",
+  "stochastic_feedback_network_source_commit": "3d35d5eaa1db2cb0aa91d93a429f4586675cfb66",
+  "stochastic_feedback_linear_H_L_passed": true,
+  "stochastic_feedback_linear_probabilistic_acquisition_count": 10,
+  "stochastic_feedback_linear_probabilistic_qualified_adaptation_count": 0,
+  "continuation_automation": {
+    "id": "drosolearn",
+    "kind": "heartbeat",
+    "interval_minutes": 30,
+    "meaningful_changes_only": true
+  }
 }
