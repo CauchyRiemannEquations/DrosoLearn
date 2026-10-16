@@ -1,0 +1,94 @@
+{
+  "study_id": "conditional_transition_v1",
+  "status": "completed",
+  "created_at_utc": "2026-10-16T04:25:56.794728+00:00",
+  "input_hashes": {
+    "metadata.json": "28ecd79f624294a75b39c18f42afe74bd322330abc4706dbdef0c83aaf35dc88",
+    "registration.json": "82f208f2c89fc801fd0b6f9e8f42361e3ddf536d98151b6f280613e5cd02d953",
+    "metrics.json": "055d927aa862fd1dde2a9529871dd87d023ad3e5a4631e61d352c038d8aba1a4",
+    "verification.json": "2e0314df24b73aa53b85a4bc64e2b0a188e15b1afbab5501ccb854ccfb12f573",
+    "artifact_hashes.json": "bc3aa5ee204f21c250118c8836f4d973c59cb905ae27b9ad9660947d38dc411d"
+  },
+  "plot_script_sha256": "ac6652b5f70ed878c12b56657c3073cecdd0eee972738877afcd570463038067",
+  "figure_language": "ko",
+  "presentation_study_id": "conditional_transition_figure_correction_v1",
+  "presentation_registration": {
+    "path": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\outputs\\DrosoLearn\\results\\registration_conditional_transition_figure_v2.json",
+    "sha256": "f144de905f2604f101113c956d25fee7faf3a2da1ebddd2ae2851915ea291624",
+    "source_git_commit": "a08e5610aafde014fc38cb1f1efafa4a0e72fdd9",
+    "registered_at_utc": "2026-10-16T04:25:35.542759+00:00",
+    "frozen_files": {
+      "scripts/plot_conditional_transition_v2.py": "ac6652b5f70ed878c12b56657c3073cecdd0eee972738877afcd570463038067",
+      "tests/test_conditional_transition_plot_v2.py": "450e676592e87bcc7868cf73a7c0bf7f6de9a34fbf93865ba90c7f69b088d8fe",
+      "docs/conditional-transition-figure-correction.md": "7e46c7e424405cfab52fd40e936f86f63b8442fb536d0ea17a95dfcf45c5aca3"
+    }
+  },
+  "presentation_registration_sha256": "f144de905f2604f101113c956d25fee7faf3a2da1ebddd2ae2851915ea291624",
+  "source_git_commit": "a08e5610aafde014fc38cb1f1efafa4a0e72fdd9",
+  "presentation_registered_at_utc": "2026-10-16T04:25:35.542759+00:00",
+  "scientific_reanalysis": false,
+  "selection": {
+    "human_records": 25,
+    "human_stream_order": [
+      "human/main/0",
+      "human/main/1",
+      "human/main/2",
+      "human/main/3",
+      "human/main/4",
+      "human/main/5",
+      "human/main/6",
+      "human/main/7",
+      "human/main/8",
+      "human/main/9",
+      "human/main/10",
+      "human/main/11",
+      "human/main/12",
+      "human/main/13",
+      "human/main/14",
+      "human/main/27",
+      "human/main/28",
+      "human/main/29",
+      "human/main/30",
+      "human/main/31",
+      "human/main/32",
+      "human/main/33",
+      "human/main/34",
+      "human/main/35",
+      "human/main/36"
+    ],
+    "human_strata_per_record": 8,
+    "model_seeds": [
+      11001,
+      11002,
+      11003,
+      11004,
+      11005,
+      11006,
+      11007,
+      11008,
+      11009,
+      11010
+    ],
+    "model_conditions": [
+      "linear",
+      "fixed",
+      "plastic",
+      "rewired_fixed",
+      "rewired_plastic",
+      "ann_fixed",
+      "ann_plastic",
+      "frozen"
+    ],
+    "model_environments": [
+      "deterministic",
+      "probabilistic",
+      "uninformative"
+    ],
+    "model_strata_per_record": 4,
+    "all_registered_records": true
+  },
+  "scope": "분모 존재 분류만 표시; 층 평균·집단/종간 검정·학습 및 인과 판정 없음",
+  "figure_hashes": {
+    "feedback_support.png": "fa70e157629ed37012ec5338f8ffe919f1a1a94d693ca9eb6fc6bc91858fe22f"
+  }
+}
