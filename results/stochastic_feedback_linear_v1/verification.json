@@ -1,0 +1,45 @@
+{
+  "verified_at_utc": "2026-10-16T00:39:37.280705+00:00",
+  "status": "passed",
+  "passed": true,
+  "method": "independent numpy/stdlib replay using only immutable independent-auditor arithmetic helpers",
+  "counts": {
+    "actual_choice_feedback_trials": 48000,
+    "head_update_calls": 24000,
+    "internal_update_calls": 0,
+    "privileged_update_calls": 0,
+    "checkpoints": 600,
+    "case_probability_entries": 153600,
+    "seeds": 10,
+    "conditions": 2,
+    "environments": 3,
+    "trajectories": 60,
+    "curve_rows": 1200,
+    "artifact_hashes": 627,
+    "source_hashes": 52,
+    "canonical_fingerprints": 5280
+  },
+  "checks": [
+    "Exact registered source/config/parent bytes and UTC execution chronology",
+    "Every split regenerated independently with joint nuisance crossing and canonical disjointness",
+    "Independent sparse topology, initialization, original normalization and clipping bounds",
+    "Every actual choice and sampled reward replayed with separate shared uniform arrays",
+    "Reward-only head and old-head internal updates; frozen update calls skipped",
+    "All checkpoint parameters, counters, raw/decision probe activities and IID/OOD case probabilities",
+    "All acquisition/adaptation flags, all-seed gaps, starting points, gains, AUCs and failure records",
+    "Registered parent gate and exact physical choice/head/internal/privileged-update budgets"
+  ],
+  "errors": [],
+  "not_verified": [
+    "Private remote Git authenticity; registration/publication chronology beyond recorded local evidence",
+    "Equal model capacity, feature directions, optimization resources, or biological individuals",
+    "Visual number extraction, LC11/DAN dynamics, common human/fly neural mechanism, or educational effect",
+    "Intrinsic learning speed or causal reversal cost without a matched fresh-training control",
+    "Higher p_rule under uninformative reward as evidence of genuine rule acquisition"
+  ],
+  "study_id": "stochastic_feedback_linear_v1",
+  "stage": "linear",
+  "summary_sha256": "52334621788a665d8a212b254565b3fd9d37254880c8d129a75873086dd0b965",
+  "registration_sha256": "769b130d86bd1a2ca3c26b0526adfb13a1a1c6b1a00013c76b03939c99e8859e",
+  "config_sha256": "b6e3e504f7cffd2ade37e8fe3a1ab3d008efea72ae684f4c15fdc3edbaafa30a"
+}
