@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-16T04:17:36.117526+00:00",
+  "published_commit": "1790e553b5eaa33429b8f3f09dc837b257c432ad",
+  "source_commit": "ed9aa5fbf1128c2b8d502650e26cb6a78aac9589",
+  "registration_sha256": "82f208f2c89fc801fd0b6f9e8f42361e3ddf536d98151b6f280613e5cd02d953",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/1790e553b5eaa33429b8f3f09dc837b257c432ad/results/registration_conditional_transition_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "Exploratory source/measurement follow-up frozen before this new registered computation; prior related data inspected"
+}

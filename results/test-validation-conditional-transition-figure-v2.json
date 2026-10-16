@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-16T04:25:03.581006+00:00",
+  "passed": 22,
+  "failed": 0,
+  "source_hashes": {
+    "scripts/plot_conditional_transition_v2.py": "ac6652b5f70ed878c12b56657c3073cecdd0eee972738877afcd570463038067",
+    "tests/test_conditional_transition_plot_v2.py": "450e676592e87bcc7868cf73a7c0bf7f6de9a34fbf93865ba90c7f69b088d8fe",
+    "docs/conditional-transition-figure-correction.md": "7e46c7e424405cfab52fd40e936f86f63b8442fb536d0ea17a95dfcf45c5aca3"
+  },
+  "original_evidence": {
+    "started_at_utc": "2026-10-16T04:23:58.681904+00:00",
+    "completed_at_utc": "2026-10-16T04:24:04.102395+00:00",
+    "command": [
+      "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "tests/test_conditional_transition_plot_v2.py",
+      "-q",
+      "--basetemp=C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\conditional-transition-figure-v2-tmp-v1"
+    ],
+    "working_directory": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\outputs\\DrosoLearn",
+    "exit_code": 0,
+    "stdout": "......................                                                   [100%]\n============================== warnings summary ===============================\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:64\n  C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'\n    prop = Group((name + Suppress(\"=\") + comma_separated(value)) | oneOf(_CONSTANTS))\n\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:85\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:85\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:85\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:85\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:85\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:85\n  C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'\n    parse = parser.parseString(pattern)\n\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:89\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:89\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:89\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:89\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:89\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:89\n  C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Lib\\site-packages\\matplotlib\\_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'\n    parser.resetCache()\n\n..\\..\\work\\venv\\Lib\\site-packages\\matplotlib\\_mathtext.py:45\n  C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Lib\\site-packages\\matplotlib\\_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'\n    ParserElement.enablePackrat()\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n22 passed, 14 warnings in 4.81s\n",
+    "stderr": "",
+    "source_sha256_before": {
+      "scripts/plot_conditional_transition_v2.py": "ac6652b5f70ed878c12b56657c3073cecdd0eee972738877afcd570463038067",
+      "tests/test_conditional_transition_plot_v2.py": "450e676592e87bcc7868cf73a7c0bf7f6de9a34fbf93865ba90c7f69b088d8fe",
+      "docs/conditional-transition-figure-correction.md": "7e46c7e424405cfab52fd40e936f86f63b8442fb536d0ea17a95dfcf45c5aca3"
+    },
+    "source_sha256_after": {
+      "scripts/plot_conditional_transition_v2.py": "ac6652b5f70ed878c12b56657c3073cecdd0eee972738877afcd570463038067",
+      "tests/test_conditional_transition_plot_v2.py": "450e676592e87bcc7868cf73a7c0bf7f6de9a34fbf93865ba90c7f69b088d8fe",
+      "docs/conditional-transition-figure-correction.md": "7e46c7e424405cfab52fd40e936f86f63b8442fb536d0ea17a95dfcf45c5aca3"
+    },
+    "source_unchanged": true,
+    "scope": "손작성 집계·별도 표현 등록·렌더만; 과학 측정/검산/학습 재실행 없음"
+  },
+  "scope": "Presentation-only correction tests using handcrafted noncontiguous row IDs; no scientific reanalysis or learning"
+}

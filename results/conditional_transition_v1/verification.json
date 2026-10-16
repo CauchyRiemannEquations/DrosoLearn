@@ -1,0 +1,51 @@
+{
+  "verified_at_utc": "2026-10-16T04:17:52.441440+00:00",
+  "status": "passed",
+  "passed": true,
+  "study_id": "conditional_transition_v1",
+  "errors": [],
+  "counts": {
+    "streams": 265,
+    "input_trials": 217000,
+    "candidates": 216735,
+    "eligible": 213050,
+    "excluded": 3685,
+    "strata": 1160,
+    "feedback_cells": 2320,
+    "human_records": 25,
+    "model_streams": 240,
+    "source_files": 16,
+    "parent_files": 17,
+    "input_files": 35,
+    "primary_artifacts": 4,
+    "parent_primary_artifacts": 2460,
+    "learning_updates": 0,
+    "learner_constructions": 0,
+    "dataset_generations": 0,
+    "rng_draws": 0
+  },
+  "not_verified": [
+    "Historical execution-code identity beyond source-coded human semantics",
+    "Adequate precision, randomized human feedback or causal identification from common_support",
+    "Human/model similarity, shared neural mechanisms, education effects or new learning",
+    "Authenticity of private remote publication beyond pinned local bytes (separate archive evidence)"
+  ],
+  "scope": "independent_recordwise_conditional_transition_no_causal_or_species_inference",
+  "metrics_sha256": "055d927aa862fd1dde2a9529871dd87d023ad3e5a4631e61d352c038d8aba1a4",
+  "registration_sha256": "82f208f2c89fc801fd0b6f9e8f42361e3ddf536d98151b6f280613e5cd02d953",
+  "config_sha256": "7568ddfa955f91b635d1b3524fc90c71beb9c3cf5a2553012a039852cda37311",
+  "artifact_hashes_sha256": "bc3aa5ee204f21c250118c8836f4d973c59cb905ae27b9ad9660947d38dc411d",
+  "input_manifest_sha256": "0f324faf3f567ed871d0674d010c7101bfb039d01233094e3348aa9d8b0e07d3",
+  "human_base_metrics_exact_match": true,
+  "pool_group_or_species_estimates": false,
+  "averaged_stratum_estimates": false,
+  "causal_effect_estimated": false,
+  "checks": [
+    "Exact17-parent identities, all parent primary artifacts and all raw input bytes",
+    "Independent human raw decoding and exact unchanged previously verified base measurements",
+    "Every actual stochastic choice/reward, global/local phase coordinate and complete source CSV scope",
+    "Every original adjacent pair, query/missing/boundary exclusion and absolute-choice ledger row",
+    "Full8-human/4-model designed cells, exact integer partitions, null rates, support status and defined differences",
+    "No averaging, pooling, new learning, generation or causal/species interpretation"
+  ]
+}
