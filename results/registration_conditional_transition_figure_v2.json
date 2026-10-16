@@ -1,0 +1,24 @@
+{
+  "study_id": "conditional_transition_figure_correction_v1",
+  "parent_study_id": "conditional_transition_v1",
+  "registered_at_utc": "2026-10-16T04:25:35.542759+00:00",
+  "source_git_commit": "a08e5610aafde014fc38cb1f1efafa4a0e72fdd9",
+  "frozen_files": {
+    "scripts/plot_conditional_transition_v2.py": "ac6652b5f70ed878c12b56657c3073cecdd0eee972738877afcd570463038067",
+    "tests/test_conditional_transition_plot_v2.py": "450e676592e87bcc7868cf73a7c0bf7f6de9a34fbf93865ba90c7f69b088d8fe",
+    "docs/conditional-transition-figure-correction.md": "7e46c7e424405cfab52fd40e936f86f63b8442fb536d0ea17a95dfcf45c5aca3"
+  },
+  "input_hashes": {
+    "metadata.json": "28ecd79f624294a75b39c18f42afe74bd322330abc4706dbdef0c83aaf35dc88",
+    "registration.json": "82f208f2c89fc801fd0b6f9e8f42361e3ddf536d98151b6f280613e5cd02d953",
+    "metrics.json": "055d927aa862fd1dde2a9529871dd87d023ad3e5a4631e61d352c038d8aba1a4",
+    "verification.json": "2e0314df24b73aa53b85a4bc64e2b0a188e15b1afbab5501ccb854ccfb12f573",
+    "artifact_hashes.json": "bc3aa5ee204f21c250118c8836f4d973c59cb905ae27b9ad9660947d38dc411d"
+  },
+  "original_plot_sha256": "2dc7abb65f7b2cd528d30e2e37be287cf1e97d67abb44dcc6f128f85c7ad7036",
+  "scientific_reanalysis": false,
+  "learning_updates": 0,
+  "learner_constructions": 0,
+  "dataset_generations": 0,
+  "rng_draws": 0
+}
