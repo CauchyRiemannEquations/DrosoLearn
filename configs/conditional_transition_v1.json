@@ -1,0 +1,141 @@
+{
+  "study_id": "conditional_transition_v1",
+  "scope": "registered_recordwise_descriptive_measurement",
+  "human": {
+    "origin_manifest": "configs/human_osf_origin_manifest.json",
+    "structure_result": "results/human_task_structure_v1/audit.json",
+    "structure_verification": "results/human_task_structure_v1/verification.json",
+    "prior_metrics": "results/feedback_transition_v1/metrics.json",
+    "prior_verification": "results/feedback_transition_v1/verification.json",
+    "record_count": 25,
+    "trials": 1000,
+    "regime_boundary_after_trial": 800,
+    "coordinate": "source_coded_card_identity",
+    "historical_execution_version_verified": false
+  },
+  "model": {
+    "root": "results/stochastic_feedback_network_v1",
+    "parent_config": "configs/stochastic_feedback_network_v1.json",
+    "verification": "results/stochastic_feedback_network_v1/verification.json",
+    "artifact_hashes": "results/stochastic_feedback_network_v1/artifact_hashes.json",
+    "seeds": [
+      11001,
+      11002,
+      11003,
+      11004,
+      11005,
+      11006,
+      11007,
+      11008,
+      11009,
+      11010
+    ],
+    "conditions": [
+      "linear",
+      "fixed",
+      "plastic",
+      "rewired_fixed",
+      "rewired_plastic",
+      "ann_fixed",
+      "ann_plastic",
+      "frozen"
+    ],
+    "environments": [
+      {
+        "id": "deterministic",
+        "q_optimal": 1.0,
+        "q_other": 0.0
+      },
+      {
+        "id": "probabilistic",
+        "q_optimal": 0.8,
+        "q_other": 0.2
+      },
+      {
+        "id": "uninformative",
+        "q_optimal": 0.5,
+        "q_other": 0.5
+      }
+    ],
+    "trials_per_phase": 400,
+    "coordinate": "smaller_larger_quantity_category"
+  },
+  "learning_updates": 0,
+  "learner_constructions": 0,
+  "dataset_generations": 0,
+  "rng_draws": 0,
+  "pooling": false,
+  "strata_averaging": false,
+  "causal_inference": false,
+  "registered_streams": 265,
+  "registered_input_trials": 217000,
+  "registered_candidate_pairs": 216735,
+  "registered_strata": 1160,
+  "exclude_boundaries": [
+    "state",
+    "phase",
+    "task"
+  ],
+  "zero_denominator": null,
+  "common_support": "both_actual_feedback_denominators_positive_within_predefined_phase_state_current_choice_cell",
+  "metric": "recordwise_actual_adjacent_stay_switch_counts_by_feedback_and_predefined_phase_state_current_choice",
+  "parent_files": [
+    "configs/stochastic_feedback_network_v1.json",
+    "results/registration_stochastic_feedback_network_v1.json",
+    "results/stochastic_feedback_network_v1/metadata.json",
+    "results/stochastic_feedback_network_v1/summary.json",
+    "results/stochastic_feedback_network_v1/verification.json",
+    "results/stochastic_feedback_network_v1/artifact_hashes.json",
+    "configs/feedback_transition_v1.json",
+    "results/registration_feedback_transition_v1.json",
+    "results/feedback_transition_v1/metadata.json",
+    "results/feedback_transition_v1/metrics.json",
+    "results/feedback_transition_v1/verification.json",
+    "results/feedback_transition_v1/artifact_hashes.json",
+    "configs/human_osf_origin_manifest.json",
+    "results/human_task_structure_v1/audit.json",
+    "results/human_task_structure_v1/verification.json",
+    "results/registration_human_task_structure_v1.json",
+    "results/human_osf_origin_v1/verification.json"
+  ],
+  "parent_gate_identity": {
+    "published_commit": "addf9dca471bcb97dfc686e0f77a713a195e59e6",
+    "file_sha256": {
+      "configs/stochastic_feedback_network_v1.json": "a6b10d08ba734529fd9c9ef9111c823e7b234b7f8f9b2e34f091a43b881e5178",
+      "results/registration_stochastic_feedback_network_v1.json": "1ff8417486bb5fd6f7caae5951f5c0c9c7ac2074e7a8dcaa29eb57ca15c0cd18",
+      "results/stochastic_feedback_network_v1/metadata.json": "3289afd71b7605551d1413baeadca9a704cbb65e5ebaf56718534d57e5b1cee2",
+      "results/stochastic_feedback_network_v1/summary.json": "e826d0eb4a4a02645cc82f6556df028e0f50998f643ddd3b5703bd3654fd44b7",
+      "results/stochastic_feedback_network_v1/verification.json": "72ccbcf336686adf959b8503c2530c9b63f572c566695294c4607e3b1357682f",
+      "results/stochastic_feedback_network_v1/artifact_hashes.json": "2d67bce526ca5f188f2f6cd886563055e4a56da655e69e54b008ba4bd8a2b1fd",
+      "configs/feedback_transition_v1.json": "eb0f1b7ae245e6af8b217da014a0644f58faa9d5dae9f9eb1b7162f24f82b161",
+      "results/registration_feedback_transition_v1.json": "0596c178c09bdf48621dc2aff1a87dcc9967832a35765e467cd2f0999f22f68a",
+      "results/feedback_transition_v1/metadata.json": "82f2a9a194b4bf32ec1ee3888ba9c4f0fca77e5c0350f4d8d33efd0a4980044f",
+      "results/feedback_transition_v1/metrics.json": "b348e398ecfdb3e30a1c2971b001d4d657ce034179de1ac34ad4fe7ab939dbcb",
+      "results/feedback_transition_v1/verification.json": "0442351aa89c0b8745974787caba0c8dbfa62fa12c56ba2c9b740c7dfa04c181",
+      "results/feedback_transition_v1/artifact_hashes.json": "5ec105d9bcf805cf097a23cd3cf66dd33cb63b265711d6f275da90611639aaff",
+      "configs/human_osf_origin_manifest.json": "61a3b8575c5b2071d4a6df089f03c108e982521dbfae49ea4a16c4e420846303",
+      "results/human_task_structure_v1/audit.json": "f4e777748518a1490bc6ec19b4c3c0caf6e560e6cfa1ca85f5e2e8c227b01547",
+      "results/human_task_structure_v1/verification.json": "4482589f64eb4a404dcf55029d899fec2fa95765d90dd87596cce856938bb1e4",
+      "results/registration_human_task_structure_v1.json": "878be6c6fede943059ebfb7a5e5d4df9e4d7e61da1769a97babb51ff9be85dbf",
+      "results/human_osf_origin_v1/verification.json": "7a36bd97328e5388dcf7149d8395c957e1d15f02bc6e134498f5df99b741bb98"
+    }
+  },
+  "frozen_files": [
+    "configs/conditional_transition_v1.json",
+    "docs/conditional-transition-protocol.md",
+    "docs/conditional-transition-design-audit.md",
+    "src/drosolearn/conditional_transition.py",
+    "scripts/run_conditional_transition.py",
+    "scripts/verify_conditional_transition.py",
+    "scripts/plot_conditional_transition.py",
+    "tests/test_conditional_transition.py",
+    "tests/test_conditional_transition_run.py",
+    "tests/test_conditional_transition_verify.py",
+    "src/drosolearn/__init__.py",
+    "src/drosolearn/feedback_transition.py",
+    "scripts/verify_feedback_transition.py",
+    "requirements-lock.txt",
+    "requirements-human-candidate-audit.txt",
+    "pyproject.toml"
+  ]
+}

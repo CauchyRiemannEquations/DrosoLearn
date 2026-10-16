@@ -1,0 +1,84 @@
+{
+  "status": "engineering_attempts_preserved",
+  "recorded_at_utc": "2026-10-16T04:15:59.077497+00:00",
+  "scope": "Handcrafted development fixtures only; no actual human/model measurement or training",
+  "explanation": "Initial functional tests passed. A subsequent import-closure audit found that a test safety guard itself imported learner/data modules outside the selected 16-file closure. Before scientific registration, that guard was replaced by an import prohibition and both final suites were rerun. Earlier evidence is retained; the final suites are counted once.",
+  "attempts": [
+    {
+      "component": "producer",
+      "original_sha256": "e6d996153db62b78e00fd49c2fb500281d9d4c33c209f305cbac766b0aee03f4",
+      "original_evidence": {
+        "study_id": "conditional_transition_v1",
+        "scope": "handcrafted_engineering_tests_only",
+        "command": [
+          "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "tests/test_conditional_transition.py",
+          "tests/test_conditional_transition_run.py",
+          "-q",
+          "--basetemp",
+          "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\conditional-transition-producer-final-v1"
+        ],
+        "cwd": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\outputs\\DrosoLearn",
+        "started_at_utc": "2026-10-16T04:13:28.477263+00:00",
+        "completed_at_utc": "2026-10-16T04:13:37.775119+00:00",
+        "duration_seconds": 9.294320400000288,
+        "exit_code": 0,
+        "stdout": "....................................................                     [100%]\n52 passed in 8.73s\n",
+        "stderr": "",
+        "source_sha256": {
+          "src/drosolearn/conditional_transition.py": "5636158aecfa4dc8b6724e69bc4c6596c342242cf20c5984d0cc318f615a8d53",
+          "scripts/run_conditional_transition.py": "a4291b33736f15788fc64061079125542e0ceb1f435a58ff6104de0283d3633e",
+          "tests/test_conditional_transition.py": "d177ef63195f183c6fef9ad57be084661b8f7ab20da349b6cb934c0c7390f46b",
+          "tests/test_conditional_transition_run.py": "49600759b46f4a5e841147f512564ab9097cf6348b188884fa67c4722295b1c0"
+        },
+        "source_sha256_after": {
+          "src/drosolearn/conditional_transition.py": "5636158aecfa4dc8b6724e69bc4c6596c342242cf20c5984d0cc318f615a8d53",
+          "scripts/run_conditional_transition.py": "a4291b33736f15788fc64061079125542e0ceb1f435a58ff6104de0283d3633e",
+          "tests/test_conditional_transition.py": "d177ef63195f183c6fef9ad57be084661b8f7ab20da349b6cb934c0c7390f46b",
+          "tests/test_conditional_transition_run.py": "49600759b46f4a5e841147f512564ab9097cf6348b188884fa67c4722295b1c0"
+        },
+        "source_unchanged": true,
+        "scientific_data_aggregated": false,
+        "scientific_registration_created": false,
+        "scientific_learning_updates": 0,
+        "test_source": "Two hand-written eight-trial MAT records and two hand-written development-seed CSV files; no real human/model records copied"
+      }
+    },
+    {
+      "component": "verifier",
+      "original_sha256": "16d9b1c72e0d0ab6e19611567df1d87cb844d9dd146786fb7c5f5204b92a5b0f",
+      "original_evidence": {
+        "scope": "handwritten_two_human_mat_and_seed17_18_csv_fixtures_only_no_actual_source_measurement_or_new_learning",
+        "command": [
+          "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "tests/test_conditional_transition_verify.py",
+          "-q",
+          "--basetemp",
+          "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\conditional-transition-verifier-tmp-v1"
+        ],
+        "started_at_utc": "2026-10-16T04:13:50.322794+00:00",
+        "completed_at_utc": "2026-10-16T04:14:07.055245+00:00",
+        "duration_seconds": 16.73400000000038,
+        "exit_code": 0,
+        "source_sha256": {
+          "scripts/verify_conditional_transition.py": "27b22fd3e4fbc1a046da8cc1b3a11f842f0c54e6e901da329a6e0d4572c79745",
+          "tests/test_conditional_transition_verify.py": "496441435d75b65767ae0b6ef079c4923677bc1e0c63afdbb8a7388451b38618"
+        },
+        "source_sha256_after": {
+          "scripts/verify_conditional_transition.py": "27b22fd3e4fbc1a046da8cc1b3a11f842f0c54e6e901da329a6e0d4572c79745",
+          "tests/test_conditional_transition_verify.py": "496441435d75b65767ae0b6ef079c4923677bc1e0c63afdbb8a7388451b38618"
+        },
+        "source_unchanged": true,
+        "stdout": "........................................................................ [ 93%]\n.....                                                                    [100%]\n77 passed in 16.15s\n",
+        "stderr": "",
+        "temporary_artifacts": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\conditional-transition-verifier-tmp-v1"
+      }
+    }
+  ],
+  "actual_measurements": 0,
+  "additional_learning_updates": 0
+}

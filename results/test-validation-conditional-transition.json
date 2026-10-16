@@ -1,0 +1,180 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-16T04:17:00.190959+00:00",
+  "passed": 135,
+  "failed": 0,
+  "fixtures": "Handcrafted original-coordinate MAT/CSV and arithmetic fixtures only; new learner constructions/training/stimulus generation/RNG draws all zero",
+  "components": [
+    {
+      "component": "producer",
+      "command": [
+        "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "tests/test_conditional_transition.py",
+        "tests/test_conditional_transition_run.py",
+        "-q",
+        "--basetemp",
+        "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\conditional-transition-producer-final-v2"
+      ],
+      "passed": 58,
+      "failed": 0,
+      "source_hashes": {
+        "src/drosolearn/conditional_transition.py": "5636158aecfa4dc8b6724e69bc4c6596c342242cf20c5984d0cc318f615a8d53",
+        "scripts/run_conditional_transition.py": "a4291b33736f15788fc64061079125542e0ceb1f435a58ff6104de0283d3633e",
+        "tests/test_conditional_transition.py": "d177ef63195f183c6fef9ad57be084661b8f7ab20da349b6cb934c0c7390f46b",
+        "tests/test_conditional_transition_run.py": "0a026130bec6e31bc86b5b61b74517d78734945bd2d7da1c5c531609b387578c"
+      },
+      "original_evidence": {
+        "study_id": "conditional_transition_v1",
+        "scope": "handcrafted_engineering_tests_only",
+        "command": [
+          "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "tests/test_conditional_transition.py",
+          "tests/test_conditional_transition_run.py",
+          "-q",
+          "--basetemp",
+          "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\conditional-transition-producer-final-v2"
+        ],
+        "cwd": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\outputs\\DrosoLearn",
+        "started_at_utc": "2026-10-16T04:16:13.269981+00:00",
+        "completed_at_utc": "2026-10-16T04:16:23.821216+00:00",
+        "duration_seconds": 10.547254299999622,
+        "exit_code": 0,
+        "stdout": "..........................................................               [100%]\n58 passed in 9.95s\n",
+        "stderr": "",
+        "source_sha256": {
+          "src/drosolearn/conditional_transition.py": "5636158aecfa4dc8b6724e69bc4c6596c342242cf20c5984d0cc318f615a8d53",
+          "scripts/run_conditional_transition.py": "a4291b33736f15788fc64061079125542e0ceb1f435a58ff6104de0283d3633e",
+          "tests/test_conditional_transition.py": "d177ef63195f183c6fef9ad57be084661b8f7ab20da349b6cb934c0c7390f46b",
+          "tests/test_conditional_transition_run.py": "0a026130bec6e31bc86b5b61b74517d78734945bd2d7da1c5c531609b387578c"
+        },
+        "source_sha256_after": {
+          "src/drosolearn/conditional_transition.py": "5636158aecfa4dc8b6724e69bc4c6596c342242cf20c5984d0cc318f615a8d53",
+          "scripts/run_conditional_transition.py": "a4291b33736f15788fc64061079125542e0ceb1f435a58ff6104de0283d3633e",
+          "tests/test_conditional_transition.py": "d177ef63195f183c6fef9ad57be084661b8f7ab20da349b6cb934c0c7390f46b",
+          "tests/test_conditional_transition_run.py": "0a026130bec6e31bc86b5b61b74517d78734945bd2d7da1c5c531609b387578c"
+        },
+        "source_unchanged": true,
+        "unchanged_other_three_owned_files": true,
+        "previous_receipt": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\conditional-transition-producer-tests.json",
+        "previous_receipt_sha256": "e6d996153db62b78e00fd49c2fb500281d9d4c33c209f305cbac766b0aee03f4",
+        "previous_receipt_unchanged": true,
+        "change": "The shared fixture blocks learner/data imports instead of importing their modules to patch constructors; absolute, fromlist and relative import guards are tested",
+        "scientific_data_aggregated": false,
+        "scientific_registration_created": false,
+        "scientific_learning_updates": 0,
+        "test_source": "Two hand-written eight-trial MAT records and two hand-written development-seed CSV files; no real human/model records copied"
+      }
+    },
+    {
+      "component": "verifier",
+      "command": [
+        "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Scripts\\python.exe",
+        "-m",
+        "pytest",
+        "tests/test_conditional_transition_verify.py",
+        "-q",
+        "--basetemp",
+        "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\conditional-transition-verifier-tmp-v2"
+      ],
+      "passed": 77,
+      "failed": 0,
+      "source_hashes": {
+        "configs/conditional_transition_v1.json": "7568ddfa955f91b635d1b3524fc90c71beb9c3cf5a2553012a039852cda37311",
+        "docs/conditional-transition-protocol.md": "4c7c124aea0bfbe7f527fed5ab95e457d30475b6a9ede96249686f95b9b742f7",
+        "docs/conditional-transition-design-audit.md": "09b519def10208fff2afc132ff4297a441862302e474180c36155bfedfa37b1f",
+        "src/drosolearn/conditional_transition.py": "5636158aecfa4dc8b6724e69bc4c6596c342242cf20c5984d0cc318f615a8d53",
+        "scripts/run_conditional_transition.py": "a4291b33736f15788fc64061079125542e0ceb1f435a58ff6104de0283d3633e",
+        "scripts/verify_conditional_transition.py": "27b22fd3e4fbc1a046da8cc1b3a11f842f0c54e6e901da329a6e0d4572c79745",
+        "scripts/plot_conditional_transition.py": "2dc7abb65f7b2cd528d30e2e37be287cf1e97d67abb44dcc6f128f85c7ad7036",
+        "tests/test_conditional_transition.py": "d177ef63195f183c6fef9ad57be084661b8f7ab20da349b6cb934c0c7390f46b",
+        "tests/test_conditional_transition_run.py": "0a026130bec6e31bc86b5b61b74517d78734945bd2d7da1c5c531609b387578c",
+        "tests/test_conditional_transition_verify.py": "496441435d75b65767ae0b6ef079c4923677bc1e0c63afdbb8a7388451b38618",
+        "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+        "src/drosolearn/feedback_transition.py": "5922f71b13732104d08816767da02ce6fe8cce31c484978ae818d21fc8f1620d",
+        "scripts/verify_feedback_transition.py": "72f445575fbb43a3f10df9d72544f1a5d99349311bb20573b6a851d1812a0af9",
+        "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+        "requirements-human-candidate-audit.txt": "5c27dbfdeac65a074ba9af3efca2b5bbe9e77edd62f97035bcea31228564a523",
+        "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a"
+      },
+      "original_evidence": {
+        "scope": "handwritten_two_human_mat_and_seed17_18_csv_fixtures_only_no_actual_source_measurement_or_new_learning",
+        "command": [
+          "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "tests/test_conditional_transition_verify.py",
+          "-q",
+          "--basetemp",
+          "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\conditional-transition-verifier-tmp-v2"
+        ],
+        "started_at_utc": "2026-10-16T04:15:58.183430+00:00",
+        "completed_at_utc": "2026-10-16T04:16:14.995323+00:00",
+        "duration_seconds": 16.795999999998457,
+        "exit_code": 0,
+        "source_sha256": {
+          "configs/conditional_transition_v1.json": "7568ddfa955f91b635d1b3524fc90c71beb9c3cf5a2553012a039852cda37311",
+          "docs/conditional-transition-protocol.md": "4c7c124aea0bfbe7f527fed5ab95e457d30475b6a9ede96249686f95b9b742f7",
+          "docs/conditional-transition-design-audit.md": "09b519def10208fff2afc132ff4297a441862302e474180c36155bfedfa37b1f",
+          "src/drosolearn/conditional_transition.py": "5636158aecfa4dc8b6724e69bc4c6596c342242cf20c5984d0cc318f615a8d53",
+          "scripts/run_conditional_transition.py": "a4291b33736f15788fc64061079125542e0ceb1f435a58ff6104de0283d3633e",
+          "scripts/verify_conditional_transition.py": "27b22fd3e4fbc1a046da8cc1b3a11f842f0c54e6e901da329a6e0d4572c79745",
+          "scripts/plot_conditional_transition.py": "2dc7abb65f7b2cd528d30e2e37be287cf1e97d67abb44dcc6f128f85c7ad7036",
+          "tests/test_conditional_transition.py": "d177ef63195f183c6fef9ad57be084661b8f7ab20da349b6cb934c0c7390f46b",
+          "tests/test_conditional_transition_run.py": "0a026130bec6e31bc86b5b61b74517d78734945bd2d7da1c5c531609b387578c",
+          "tests/test_conditional_transition_verify.py": "496441435d75b65767ae0b6ef079c4923677bc1e0c63afdbb8a7388451b38618",
+          "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+          "src/drosolearn/feedback_transition.py": "5922f71b13732104d08816767da02ce6fe8cce31c484978ae818d21fc8f1620d",
+          "scripts/verify_feedback_transition.py": "72f445575fbb43a3f10df9d72544f1a5d99349311bb20573b6a851d1812a0af9",
+          "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+          "requirements-human-candidate-audit.txt": "5c27dbfdeac65a074ba9af3efca2b5bbe9e77edd62f97035bcea31228564a523",
+          "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a"
+        },
+        "source_sha256_after": {
+          "configs/conditional_transition_v1.json": "7568ddfa955f91b635d1b3524fc90c71beb9c3cf5a2553012a039852cda37311",
+          "docs/conditional-transition-protocol.md": "4c7c124aea0bfbe7f527fed5ab95e457d30475b6a9ede96249686f95b9b742f7",
+          "docs/conditional-transition-design-audit.md": "09b519def10208fff2afc132ff4297a441862302e474180c36155bfedfa37b1f",
+          "src/drosolearn/conditional_transition.py": "5636158aecfa4dc8b6724e69bc4c6596c342242cf20c5984d0cc318f615a8d53",
+          "scripts/run_conditional_transition.py": "a4291b33736f15788fc64061079125542e0ceb1f435a58ff6104de0283d3633e",
+          "scripts/verify_conditional_transition.py": "27b22fd3e4fbc1a046da8cc1b3a11f842f0c54e6e901da329a6e0d4572c79745",
+          "scripts/plot_conditional_transition.py": "2dc7abb65f7b2cd528d30e2e37be287cf1e97d67abb44dcc6f128f85c7ad7036",
+          "tests/test_conditional_transition.py": "d177ef63195f183c6fef9ad57be084661b8f7ab20da349b6cb934c0c7390f46b",
+          "tests/test_conditional_transition_run.py": "0a026130bec6e31bc86b5b61b74517d78734945bd2d7da1c5c531609b387578c",
+          "tests/test_conditional_transition_verify.py": "496441435d75b65767ae0b6ef079c4923677bc1e0c63afdbb8a7388451b38618",
+          "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+          "src/drosolearn/feedback_transition.py": "5922f71b13732104d08816767da02ce6fe8cce31c484978ae818d21fc8f1620d",
+          "scripts/verify_feedback_transition.py": "72f445575fbb43a3f10df9d72544f1a5d99349311bb20573b6a851d1812a0af9",
+          "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+          "requirements-human-candidate-audit.txt": "5c27dbfdeac65a074ba9af3efca2b5bbe9e77edd62f97035bcea31228564a523",
+          "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a"
+        },
+        "source_unchanged": true,
+        "stdout": "........................................................................ [ 93%]\n.....                                                                    [100%]\n77 passed in 16.29s\n",
+        "stderr": "",
+        "temporary_artifacts": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\conditional-transition-verifier-tmp-v2"
+      }
+    }
+  ],
+  "source_hashes": {
+    "configs/conditional_transition_v1.json": "7568ddfa955f91b635d1b3524fc90c71beb9c3cf5a2553012a039852cda37311",
+    "docs/conditional-transition-protocol.md": "4c7c124aea0bfbe7f527fed5ab95e457d30475b6a9ede96249686f95b9b742f7",
+    "docs/conditional-transition-design-audit.md": "09b519def10208fff2afc132ff4297a441862302e474180c36155bfedfa37b1f",
+    "src/drosolearn/conditional_transition.py": "5636158aecfa4dc8b6724e69bc4c6596c342242cf20c5984d0cc318f615a8d53",
+    "scripts/run_conditional_transition.py": "a4291b33736f15788fc64061079125542e0ceb1f435a58ff6104de0283d3633e",
+    "scripts/verify_conditional_transition.py": "27b22fd3e4fbc1a046da8cc1b3a11f842f0c54e6e901da329a6e0d4572c79745",
+    "scripts/plot_conditional_transition.py": "2dc7abb65f7b2cd528d30e2e37be287cf1e97d67abb44dcc6f128f85c7ad7036",
+    "tests/test_conditional_transition.py": "d177ef63195f183c6fef9ad57be084661b8f7ab20da349b6cb934c0c7390f46b",
+    "tests/test_conditional_transition_run.py": "0a026130bec6e31bc86b5b61b74517d78734945bd2d7da1c5c531609b387578c",
+    "tests/test_conditional_transition_verify.py": "496441435d75b65767ae0b6ef079c4923677bc1e0c63afdbb8a7388451b38618",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/feedback_transition.py": "5922f71b13732104d08816767da02ce6fe8cce31c484978ae818d21fc8f1620d",
+    "scripts/verify_feedback_transition.py": "72f445575fbb43a3f10df9d72544f1a5d99349311bb20573b6a851d1812a0af9",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "requirements-human-candidate-audit.txt": "5c27dbfdeac65a074ba9af3efca2b5bbe9e77edd62f97035bcea31228564a523",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a"
+  },
+  "notice": "Two completed team test invocations; no additional combined rerun is claimed. Plot source receives separate render QA."
+}
