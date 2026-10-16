@@ -1,0 +1,10 @@
+{
+  "state_pairs": 800,
+  "frozen_state_checks": 200,
+  "head_only_internal_constant_checks": 200,
+  "internal_only_head_constant_checks": 200,
+  "linear_internal_zero_checks": 400,
+  "initial_state_checks": 160,
+  "saved_policy_entries_checked": 409600,
+  "masked_zero_term_entries_checked": 522240
+}

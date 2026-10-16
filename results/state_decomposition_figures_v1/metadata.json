@@ -1,0 +1,43 @@
+{
+  "study_id": "state_decomposition_v1",
+  "input_hashes": {
+    "metadata.json": "7bb23a75264338ab4fdce028d28d1c6a5b489829f6bbcb8b2dad313088a78f21",
+    "registration.json": "e29b190e0735ae7e9e62979fb0ac0331802549fd1344315cc2d9350d6f7a4e07",
+    "summary.json": "0228327afe3eb168b868aea63f400320e88a9b712efd66fa48af96d21499c22d",
+    "verification.json": "8cc18e89dd4da0c44994a7d564ab3679db049b53e28a5075986432699cda4085",
+    "artifact_hashes.json": "704a7995113a18875d4048f08136598669be3ababb304ccf795d77746c9a838f"
+  },
+  "plot_script_sha256": "543768e336e0fdab38ffe0f492da92051a50e6f40d693d8f6afe09426009ace5",
+  "figure_language": "ko",
+  "selection": {
+    "models": [
+      "linear",
+      "real",
+      "rewired",
+      "ann"
+    ],
+    "branch": "full",
+    "trial": 400,
+    "split": "iid",
+    "seeds": [
+      12001,
+      12002,
+      12003,
+      12004,
+      12005,
+      12006,
+      12007,
+      12008,
+      12009,
+      12010
+    ],
+    "all_original_seeds": true
+  },
+  "scope": "Target-aligned raw terms and four static crossed-state probabilities; seed case means and all-seed means; no new learning, hypothesis test or causal contribution claim",
+  "status": "completed",
+  "created_at_utc": "2026-10-16T02:19:31.188855+00:00",
+  "figure_hashes": {
+    "raw_gap_terms.png": "6e1b3ca87729ac83d64a9f7ab00e6f11cbf7a132b92a1c93d0e055ad88463021",
+    "crossed_probabilities.png": "fcb1c86f0bb8ffec4195a53d507ac89f4c257e502761423431616152faa04314"
+  }
+}

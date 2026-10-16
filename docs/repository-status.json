@@ -11,7 +11,7 @@
   "spacing_diagnostic_source_commit": "d4cbe9542c8ec5846b4a877ee36deb47e456ea20",
   "linearity_diagnostic_source_commit": "30323325bc2dc2b8825be7be5cadee153dce8add",
   "reward_linear_diagnostic_source_commit": "cc836c61055ca32a5205f8685a5a4171c43b77e7",
-  "current_diagnostic_source_commit": "ddae9da05f9e7debbc406433912a62eab55aa423",
+  "current_diagnostic_source_commit": "afdfe3dcb3e6fd18a659cc7e5ca13b8926d759f3",
   "study_tags": {
     "smoke_v1": "v0.1.0-smoke",
     "reversal_v1": "study-reversal-v1",
@@ -30,9 +30,10 @@
     "metric_calibration_v1": "metric-calibration-v1",
     "stochastic_feedback_linear_v1": "stochastic-feedback-linear-v1",
     "stochastic_feedback_network_v1": "stochastic-feedback-network-v1",
-    "learning_ablation_v1": "learning-ablation-v1"
+    "learning_ablation_v1": "learning-ablation-v1",
+    "state_decomposition_v1": "state-decomposition-v1"
   },
-  "current_diagnostic": "learning_ablation_v1",
+  "current_diagnostic": "state_decomposition_v1",
   "bandit_reversal_diagnostic_source_commit": "fceca94dc6e8137085112ad3a5b75a3cf3894e50",
   "current_data_readiness_audit": "human_task_structure_v1",
   "human_trial_data_audit_source_commit": "c8b0e0b97133d105d07c28aca116974100ddf6d3",
@@ -68,7 +69,10 @@
     "id": "drosolearn",
     "kind": "heartbeat",
     "interval_minutes": 30,
-    "meaningful_changes_only": true
+    "meaningful_changes_only": true,
+    "status": "PAUSED",
+    "user_requested_stop": true,
+    "verified_at_utc": "2026-10-16T02:19:35.168960+00:00"
   },
   "learning_ablation_source_commit": "ddae9da05f9e7debbc406433912a62eab55aa423",
   "learning_ablation_H_I": true,
@@ -76,6 +80,11 @@
   "learning_ablation_actual_choice_feedback_trials": 80000,
   "learning_ablation_head_update_calls": 48000,
   "learning_ablation_internal_update_calls": 36000,
-  "current_findings_document": "docs/learning-ablation-findings-v2.md",
-  "learning_ablation_documentation_correction": "results/learning_ablation_documentation_correction_v1.json"
+  "current_findings_document": "docs/state-decomposition-findings.md",
+  "learning_ablation_documentation_correction": "results/learning_ablation_documentation_correction_v1.json",
+  "state_decomposition_source_commit": "afdfe3dcb3e6fd18a659cc7e5ca13b8926d759f3",
+  "state_decomposition_cases": 204800,
+  "state_decomposition_crossed_policy_values": 819200,
+  "state_decomposition_additional_learning_updates": 0,
+  "continuation_scope": "stop_after_state_decomposition_v1"
 }
