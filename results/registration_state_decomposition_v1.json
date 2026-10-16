@@ -1,0 +1,4531 @@
+{
+  "study_id": "state_decomposition_v1",
+  "registered_at_utc": "2026-10-16T02:12:55.554601+00:00",
+  "source_git_commit": "afdfe3dcb3e6fd18a659cc7e5ca13b8926d759f3",
+  "config": {
+    "study_id": "state_decomposition_v1",
+    "scope": "registered_descriptive_diagnostic",
+    "parent_root": "results/learning_ablation_v1",
+    "parent_config": "configs/learning_ablation_v1.json",
+    "baseline_phase": "phase1",
+    "baseline_trial": 400,
+    "target_phase": "phase2",
+    "checkpoints": [
+      0,
+      100,
+      200,
+      300,
+      400
+    ],
+    "seeds": [
+      12001,
+      12002,
+      12003,
+      12004,
+      12005,
+      12006,
+      12007,
+      12008,
+      12009,
+      12010
+    ],
+    "models": [
+      "linear",
+      "real",
+      "rewired",
+      "ann"
+    ],
+    "branches": [
+      "full",
+      "head_only",
+      "internal_only",
+      "frozen"
+    ],
+    "eval_trials": 128,
+    "pair": [
+      2,
+      4
+    ],
+    "raw_residual_tolerance": 1e-10,
+    "policy_match_tolerance": 1e-12,
+    "policy_clip": [
+      -40.0,
+      40.0
+    ],
+    "target": "smaller_quantity_all_crossed_states",
+    "learning_updates": 0,
+    "learner_constructions": 0,
+    "dataset_generations": 0,
+    "rng_draws": 0,
+    "cases": 204800,
+    "crossed_policy_values": 819200,
+    "selected_input_files": 850,
+    "all_registered_inputs_retained": true,
+    "interpretation": "static_off_trajectory_parameter_algebra_not_learning_causal_effect",
+    "parent_files": [
+      "configs/learning_ablation_v1.json",
+      "results/registration_learning_ablation_v1.json",
+      "results/learning_ablation_v1/metadata.json",
+      "results/learning_ablation_v1/summary.json",
+      "results/learning_ablation_v1/verification.json",
+      "results/learning_ablation_v1/artifact_hashes.json",
+      "results/learning_ablation_final_validation_v1.json",
+      "docs/learning-ablation-findings-v2.md",
+      "results/learning_ablation_documentation_correction_v1.json",
+      "results/learning_ablation_input_freeze_v1.json"
+    ],
+    "parent_gate_identity": {
+      "published_commit": "a56a373f2d2458fbf3ec3fa872fe62be33bcc373",
+      "file_sha256": {
+        "configs/learning_ablation_v1.json": "49f56237172c0c4f01b3b7916e3fe7f609f62a4ebcf97e99db05d8f6d28d46f0",
+        "results/registration_learning_ablation_v1.json": "74eaf29957c95abeb97ae6dd150d7e3d4eacabc30e1c0ba55489c20f52d3311a",
+        "results/learning_ablation_v1/metadata.json": "cbd49e76991f06639497891364fcbf5e6f8f7845057fc99c6f24902140041bc7",
+        "results/learning_ablation_v1/summary.json": "368ff86a9264f3fa499c4dc795d310db4669d8c35833658c923eb1b1b70e119c",
+        "results/learning_ablation_v1/verification.json": "d72abfef66a7ca1629b21718cee8258cc5361eda75ac8736c554c9c2ab8a5452",
+        "results/learning_ablation_v1/artifact_hashes.json": "7ed67e13039611cd90c2767ad76bc5352b71ac49ac0b470cf723e7675bd33efd",
+        "results/learning_ablation_final_validation_v1.json": "daa0724c2a053e3120ccc43b4cfb45cc48180d6a643c2e9dd3d7ac2284398b34",
+        "docs/learning-ablation-findings-v2.md": "23d19774ebea237fa9a8211dcc68a87b8035cdd3e4eaf33f167c12ac5dd32c9e",
+        "results/learning_ablation_documentation_correction_v1.json": "550dc55082c96fa53fd37e461d6a1220ea055719b3a1bef61ae73898a7353d1d",
+        "results/learning_ablation_input_freeze_v1.json": "8bfca782535caf96907ab020cabe1d9f38192d9bc3993103c89dbbff05dd2516"
+      }
+    },
+    "frozen_files": [
+      "configs/learning_ablation_v1.json",
+      "configs/state_decomposition_v1.json",
+      "configs/stochastic_feedback_linear_v1.json",
+      "configs/stochastic_feedback_network_v1.json",
+      "data/LICENSE.md",
+      "data/engineering_fixtures/ATTRIBUTION.md",
+      "data/engineering_fixtures/learning_ablation_tiny_v1.zip",
+      "data/engineering_fixtures/learning_ablation_tiny_v1_manifest.json",
+      "data/flywire_783_mb_left_kc512_s701/annotations.csv",
+      "data/flywire_783_mb_left_kc512_s701/edges.csv",
+      "data/flywire_783_mb_left_kc512_s701/neurons.json",
+      "data/flywire_783_mb_left_kc512_s701/provenance.json",
+      "data/source-manifest.json",
+      "docs/learning-ablation-design-audit.md",
+      "docs/learning-ablation-protocol.md",
+      "docs/state-decomposition-design-audit.md",
+      "docs/state-decomposition-protocol.md",
+      "docs/stochastic-feedback-design.md",
+      "docs/stochastic-feedback-protocol.md",
+      "pyproject.toml",
+      "requirements-lock.txt",
+      "scripts/plot_learning_ablation.py",
+      "scripts/plot_state_decomposition.py",
+      "scripts/run_learning_ablation.py",
+      "scripts/run_state_decomposition.py",
+      "scripts/run_stochastic_feedback.py",
+      "scripts/verify_learning_ablation.py",
+      "scripts/verify_state_decomposition.py",
+      "scripts/verify_stochastic_feedback.py",
+      "src/drosolearn/__init__.py",
+      "src/drosolearn/analysis.py",
+      "src/drosolearn/audit.py",
+      "src/drosolearn/bandit_reversal.py",
+      "src/drosolearn/bandit_reversal_analysis.py",
+      "src/drosolearn/bandit_reversal_audit.py",
+      "src/drosolearn/cli.py",
+      "src/drosolearn/data.py",
+      "src/drosolearn/encoding.py",
+      "src/drosolearn/encoding_analysis.py",
+      "src/drosolearn/encoding_audit.py",
+      "src/drosolearn/experiment.py",
+      "src/drosolearn/feedback_transition.py",
+      "src/drosolearn/graph.py",
+      "src/drosolearn/head_attenuation.py",
+      "src/drosolearn/head_attenuation_analysis.py",
+      "src/drosolearn/head_attenuation_audit.py",
+      "src/drosolearn/human_semantics.py",
+      "src/drosolearn/human_trial_data.py",
+      "src/drosolearn/human_trial_linkage.py",
+      "src/drosolearn/learning_ablation.py",
+      "src/drosolearn/linearity.py",
+      "src/drosolearn/linearity_analysis.py",
+      "src/drosolearn/linearity_audit.py",
+      "src/drosolearn/metric_calibration.py",
+      "src/drosolearn/model.py",
+      "src/drosolearn/reversal.py",
+      "src/drosolearn/reversal_analysis.py",
+      "src/drosolearn/reversal_audit.py",
+      "src/drosolearn/reward_linear.py",
+      "src/drosolearn/reward_linear_analysis.py",
+      "src/drosolearn/reward_linear_audit.py",
+      "src/drosolearn/spacing.py",
+      "src/drosolearn/spacing_analysis.py",
+      "src/drosolearn/spacing_audit.py",
+      "src/drosolearn/state_decomposition.py",
+      "src/drosolearn/stochastic_feedback.py",
+      "tests/test_learning_ablation.py",
+      "tests/test_learning_ablation_run.py",
+      "tests/test_learning_ablation_verify.py",
+      "tests/test_state_decomposition.py",
+      "tests/test_state_decomposition_run.py",
+      "tests/test_state_decomposition_verify.py",
+      "tests/test_stochastic_feedback.py",
+      "tests/test_stochastic_feedback_run.py",
+      "tests/test_stochastic_feedback_verify.py"
+    ]
+  },
+  "config_sha256": "78de8ea87d786c71880c15ce34ba5e07455ef824ce475e972773dbc80da4523e",
+  "frozen_files": {
+    "configs/learning_ablation_v1.json": "49f56237172c0c4f01b3b7916e3fe7f609f62a4ebcf97e99db05d8f6d28d46f0",
+    "configs/state_decomposition_v1.json": "78de8ea87d786c71880c15ce34ba5e07455ef824ce475e972773dbc80da4523e",
+    "configs/stochastic_feedback_linear_v1.json": "b6e3e504f7cffd2ade37e8fe3a1ab3d008efea72ae684f4c15fdc3edbaafa30a",
+    "configs/stochastic_feedback_network_v1.json": "a6b10d08ba734529fd9c9ef9111c823e7b234b7f8f9b2e34f091a43b881e5178",
+    "data/LICENSE.md": "22ecdbcde7d264ef025101c57a7cf753fba1612002253f93d83071b34bec2381",
+    "data/engineering_fixtures/ATTRIBUTION.md": "89926e5284fe1b22c6b238c00d3dd38912670db9942b759b078ec83c00cefeba",
+    "data/engineering_fixtures/learning_ablation_tiny_v1.zip": "2173b45d782d30497768cb78d433ce0014a0aa21c9ae5c3ac9120ee33221ba15",
+    "data/engineering_fixtures/learning_ablation_tiny_v1_manifest.json": "76ad80662b42e947b1ee8d4b10e1998b1f899440bd1b4fac3abe02383261cdcc",
+    "data/flywire_783_mb_left_kc512_s701/annotations.csv": "10f9c9d4db8ee2741bd19cf464e4b46fd6e24f086a5ce1dbb550bcea633cdb16",
+    "data/flywire_783_mb_left_kc512_s701/edges.csv": "d8c47ea1202575994d430f55e5bd8602f939f320ef02f71522fc1bc54b97db51",
+    "data/flywire_783_mb_left_kc512_s701/neurons.json": "05d83a288b1d42337001015be2d54167aed00cdc9fea58b578423d18756aa77b",
+    "data/flywire_783_mb_left_kc512_s701/provenance.json": "e1a50d254628fb0573d7853b8e66926697b353da317bd701b17e60bfd4942061",
+    "data/source-manifest.json": "ce2219987ae991b5e2e41dde6bd811fa51d7a2cd57ecaf01bf90cdf55ba69af9",
+    "docs/learning-ablation-design-audit.md": "a23c74b51fd911e02275a53000685fd31da74c5931582ec14ea5b2f06c48b35f",
+    "docs/learning-ablation-protocol.md": "a3cdc7aecca6d0d1cd0c104e1055141d3b23b37418f5b67d30eb3532f5c42ff0",
+    "docs/state-decomposition-design-audit.md": "45aa149b564123c68a0e666f1bf1b0e287724b74b0587aa0ba4d33299eadc14a",
+    "docs/state-decomposition-protocol.md": "0987070ae38501b0ccb5b2bcd26b21e7d9ef5e5d2f814414112e4c54729eaae9",
+    "docs/stochastic-feedback-design.md": "449b36458ffd95ff277bd1b39ed773e4c358ca81db8fe245722a4ef00a67a7de",
+    "docs/stochastic-feedback-protocol.md": "e70554c6f1be1daedf2e074c5786b8ff1344fdc9ba3653fc4d558b2d711217f2",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/plot_learning_ablation.py": "eb073224661193e6a0358c41e7972b7fa7a3bfb855695f42161710725748308f",
+    "scripts/plot_state_decomposition.py": "543768e336e0fdab38ffe0f492da92051a50e6f40d693d8f6afe09426009ace5",
+    "scripts/run_learning_ablation.py": "1a0d4a82bd580b8d00cc69b9f8a4cc07fbc05122a44bac6bba9f36b687b2d0f6",
+    "scripts/run_state_decomposition.py": "8e2c09d0e2fc45bb5b80ea06906494d6888d41fe80475f3311da883b61cb1658",
+    "scripts/run_stochastic_feedback.py": "7223f3a971de12286c20a9fba1f00fa82cc0e1e5e2eae5428c5c8623f599f437",
+    "scripts/verify_learning_ablation.py": "68b4e41f3bd4550287a691461668575a3bfade5816662ca3713cfef6db835c4f",
+    "scripts/verify_state_decomposition.py": "81aefea6fde62f3d69eba26118a0bbcd51402ad28081a16012b9a2c43bcc6f08",
+    "scripts/verify_stochastic_feedback.py": "e9e319377a5f271d8d961a91728d62f3c1e1f34faa8a5c2df165eccaf34b12bf",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/analysis.py": "5c70261b6fb8064aef7abfead85f9848e31e4ab7d7bfea300e678bc2204dfe2f",
+    "src/drosolearn/audit.py": "5effe6ba19814adaaf841abfd0fddece77ec31468c5fa8214b78be1d62ee4fea",
+    "src/drosolearn/bandit_reversal.py": "995ff73f7508d71d25d9ac5aaf705ba6f0a898dbc0c9cca25bcbe6f6a5479ac9",
+    "src/drosolearn/bandit_reversal_analysis.py": "8e6da480de4e81a74430d5fd26b0396cd81d46ddc290f763a59b87c2eac03253",
+    "src/drosolearn/bandit_reversal_audit.py": "bf5e2dd7c07733dde9855fd0b42dade5cdab9bc7609d9f4daec1a04e458131aa",
+    "src/drosolearn/cli.py": "67ecf0220c61b3257bd03fc7de58f47327f57e3004e82f82f2f9bbfc10199311",
+    "src/drosolearn/data.py": "e2a9f2108b37e0fa1c23607f657133d38bdd8cfbac648afc95d1fac85462d6dc",
+    "src/drosolearn/encoding.py": "87a429e3c68a650938861d4d00e4cb02fda4043eeba708a4f60f8754a45908a1",
+    "src/drosolearn/encoding_analysis.py": "39ee9096f333cfd29ae8782017372d379bb4bdcf32489f267293898673ce1f88",
+    "src/drosolearn/encoding_audit.py": "d07661f5521bf58321ec66c18c35dee40c9c4f37952586dc9e869854b56e889f",
+    "src/drosolearn/experiment.py": "b55bbec7b8fe402ac2aa16a28a50b3cde166dc612247a92dc6d727e1ecb58e3e",
+    "src/drosolearn/feedback_transition.py": "5922f71b13732104d08816767da02ce6fe8cce31c484978ae818d21fc8f1620d",
+    "src/drosolearn/graph.py": "6c713164943f1e6a4c38c9138ecd9c437b56523d68b58cffb58dc6531ccea2c2",
+    "src/drosolearn/head_attenuation.py": "744e2a0160c3267a26e38620fa88e2e692e2d75fbf4fb856c236aeb8087943f4",
+    "src/drosolearn/head_attenuation_analysis.py": "d7d8fa936c36478e14909929ed7539c3200637d91a392d90d7c66499365a890d",
+    "src/drosolearn/head_attenuation_audit.py": "491460533242c795f775fc07abfe44cd35b85672426c48325d6216c5a465fbdb",
+    "src/drosolearn/human_semantics.py": "4e9a7654f28ccf3b69111af2f6b817e9f2b2c0fb5bbba09e37d48097db4fe1ac",
+    "src/drosolearn/human_trial_data.py": "1bc04e066f7572345ac13af91567e20cb38277b186a29107f073f9511358d852",
+    "src/drosolearn/human_trial_linkage.py": "3c802628df68f0057f214242166e6aa8c176ec6dbc6a7c8557d9d22ad070fb40",
+    "src/drosolearn/learning_ablation.py": "6983427a97e58f9256d505ab7a67a7510a692d2bce04e7d7602ce7f43fff437f",
+    "src/drosolearn/linearity.py": "c1aac5719fcc05354cfe889d48d58c6f08b28bae43c67e0de70f1e236e1f16c4",
+    "src/drosolearn/linearity_analysis.py": "b82fc5ab77cf979ab027b5d0cb9a67fcb781e872ebc08753668384cc03010f3d",
+    "src/drosolearn/linearity_audit.py": "788b1ecc3ae1df55feb72965a0d47006f305aa1f2dd0db2ce1b558873100c9ef",
+    "src/drosolearn/metric_calibration.py": "ed555999cd39d81e7d34a1f2e291be4ba235d5d8c642f52586ab867bf492504e",
+    "src/drosolearn/model.py": "21e855ebbddb6190816a8adad130216065a03a6fc2d757e42466bdc7aaca3497",
+    "src/drosolearn/reversal.py": "1b7dc871f0bdff7de977bd7ae153022e1a8b327686fac16a7be92d8745c7f3cb",
+    "src/drosolearn/reversal_analysis.py": "ddc775feebc84db480885f21e9700c4263a9eca1a2e35c6310e56819fa914f8a",
+    "src/drosolearn/reversal_audit.py": "da936d8d7c70233b3af11b9aac95254cc5bea79cff2c9e7e322eeba0c8f5c58b",
+    "src/drosolearn/reward_linear.py": "1432f65a1b027570ffe8c6b84e8ab9e25e9617c8f407bbf21465774b4f0cec0d",
+    "src/drosolearn/reward_linear_analysis.py": "b18a8a626cb64cd807b7c6f81605a5c0c97cd7cec718481c875a2450934f4e3d",
+    "src/drosolearn/reward_linear_audit.py": "3ba6ef4ecfa1b233f2e5d4dfdde22187599f51701d1c19b4a88a2a906073ee88",
+    "src/drosolearn/spacing.py": "f2ccf0b70f6d2a0e14829257570b27d240c545660026ce87d7f2b4d6c088187c",
+    "src/drosolearn/spacing_analysis.py": "dc54ce591808c3b56dd5c76fb6e14c002f81fa42d814edb7f00b6e0e06714c3d",
+    "src/drosolearn/spacing_audit.py": "2645b596eb4aef70115c4828475332bd2048d47553a28c6fb0c028f4eb8edc87",
+    "src/drosolearn/state_decomposition.py": "736d8b6a9ad875f7db0fe6df6914c15873bea1955eb58a6a2137890010bff0dc",
+    "src/drosolearn/stochastic_feedback.py": "9801c68a6254ab8175b9a070f7cf4a8b8f2f4cbd956b15bf3f967e7f83869de4",
+    "tests/test_learning_ablation.py": "1b00822e2be7eed430ce721b1b4889ce4de822d77e6ba5dd3f48ca8f33641ef2",
+    "tests/test_learning_ablation_run.py": "bf1d5ed5465093dacbd3a1c8494da7a30d27985ec0afbdea66417b50743beeca",
+    "tests/test_learning_ablation_verify.py": "7cc32e734596c779469ac1c02f4a493b715890fdfd3b559182a51123d9c0688b",
+    "tests/test_state_decomposition.py": "86583e061693a3177f108caf4d29f16d6d77eacdd816ab74837ae494df874097",
+    "tests/test_state_decomposition_run.py": "e56160de8cd090c05564aba8e63f79d8809ce38252a209ec0c016090c3ebb1c7",
+    "tests/test_state_decomposition_verify.py": "4ec42f09b07e3f347a139958f6ffa6469b09582601d1e71c8d6be9d9b4162048",
+    "tests/test_stochastic_feedback.py": "550f5c06f004325e56736ff613ad76090efd72ce845b1f1e01c075a6c6553eb2",
+    "tests/test_stochastic_feedback_run.py": "c44197ad1f60b87a9cf98e9f68ba9f7dd455fc3f1373d7aa4a85758538d5ca59",
+    "tests/test_stochastic_feedback_verify.py": "09159221d5e1c4506e667539d8e3bdbbae0900d7cd2c09594a2eb30363cfa66d"
+  },
+  "parent_files": {
+    "configs/learning_ablation_v1.json": "49f56237172c0c4f01b3b7916e3fe7f609f62a4ebcf97e99db05d8f6d28d46f0",
+    "results/registration_learning_ablation_v1.json": "74eaf29957c95abeb97ae6dd150d7e3d4eacabc30e1c0ba55489c20f52d3311a",
+    "results/learning_ablation_v1/metadata.json": "cbd49e76991f06639497891364fcbf5e6f8f7845057fc99c6f24902140041bc7",
+    "results/learning_ablation_v1/summary.json": "368ff86a9264f3fa499c4dc795d310db4669d8c35833658c923eb1b1b70e119c",
+    "results/learning_ablation_v1/verification.json": "d72abfef66a7ca1629b21718cee8258cc5361eda75ac8736c554c9c2ab8a5452",
+    "results/learning_ablation_v1/artifact_hashes.json": "7ed67e13039611cd90c2767ad76bc5352b71ac49ac0b470cf723e7675bd33efd",
+    "results/learning_ablation_final_validation_v1.json": "daa0724c2a053e3120ccc43b4cfb45cc48180d6a643c2e9dd3d7ac2284398b34",
+    "docs/learning-ablation-findings-v2.md": "23d19774ebea237fa9a8211dcc68a87b8035cdd3e4eaf33f167c12ac5dd32c9e",
+    "results/learning_ablation_documentation_correction_v1.json": "550dc55082c96fa53fd37e461d6a1220ea055719b3a1bef61ae73898a7353d1d",
+    "results/learning_ablation_input_freeze_v1.json": "8bfca782535caf96907ab020cabe1d9f38192d9bc3993103c89dbbff05dd2516"
+  },
+  "input_files": [
+    {
+      "path": "results/learning_ablation_v1/seed_12001/stimuli.npz",
+      "bytes": 46164,
+      "sha256": "0a0d7fb041257abfc880ab5d05ea75564ef5b631d2446c61e9a250c5c511cc54"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/prefix/phase1_0400.npz",
+      "bytes": 7194,
+      "sha256": "46fac6de32991e7a3ee1c4a44246c004777a19bbb65f891c9fd63bc0739dfaa0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/full/phase2_0000.npz",
+      "bytes": 7192,
+      "sha256": "0a9fb7fd338c8ab2dc2342e0cfee6b8e2d588682d92719630dd15bad72c47eee"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/full/phase2_0100.npz",
+      "bytes": 7196,
+      "sha256": "ee69c87bf21855135cb4d7259f78fb6fa22d9a40c54d752f88f273202a158136"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/full/phase2_0200.npz",
+      "bytes": 7212,
+      "sha256": "36a2ca83df11f44e6acd0c853d1f5cd92368e04094bf77170de6971f0b433015"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/full/phase2_0300.npz",
+      "bytes": 7213,
+      "sha256": "2e1c45a684cd541946a5a7cddb18181c814822e043510561c5747aef7ada49c6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/full/phase2_0400.npz",
+      "bytes": 7227,
+      "sha256": "99913b75cd4debe9b1436b126bbe16b767f5a882b661e22cad8b7f45ccbed2fa"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/head_only/phase2_0000.npz",
+      "bytes": 7192,
+      "sha256": "0a9fb7fd338c8ab2dc2342e0cfee6b8e2d588682d92719630dd15bad72c47eee"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/head_only/phase2_0100.npz",
+      "bytes": 7196,
+      "sha256": "ee69c87bf21855135cb4d7259f78fb6fa22d9a40c54d752f88f273202a158136"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/head_only/phase2_0200.npz",
+      "bytes": 7212,
+      "sha256": "36a2ca83df11f44e6acd0c853d1f5cd92368e04094bf77170de6971f0b433015"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/head_only/phase2_0300.npz",
+      "bytes": 7213,
+      "sha256": "2e1c45a684cd541946a5a7cddb18181c814822e043510561c5747aef7ada49c6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/head_only/phase2_0400.npz",
+      "bytes": 7227,
+      "sha256": "99913b75cd4debe9b1436b126bbe16b767f5a882b661e22cad8b7f45ccbed2fa"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/internal_only/phase2_0000.npz",
+      "bytes": 7192,
+      "sha256": "0a9fb7fd338c8ab2dc2342e0cfee6b8e2d588682d92719630dd15bad72c47eee"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/internal_only/phase2_0100.npz",
+      "bytes": 7192,
+      "sha256": "0a9fb7fd338c8ab2dc2342e0cfee6b8e2d588682d92719630dd15bad72c47eee"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/internal_only/phase2_0200.npz",
+      "bytes": 7192,
+      "sha256": "0a9fb7fd338c8ab2dc2342e0cfee6b8e2d588682d92719630dd15bad72c47eee"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/internal_only/phase2_0300.npz",
+      "bytes": 7192,
+      "sha256": "0a9fb7fd338c8ab2dc2342e0cfee6b8e2d588682d92719630dd15bad72c47eee"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/internal_only/phase2_0400.npz",
+      "bytes": 7192,
+      "sha256": "0a9fb7fd338c8ab2dc2342e0cfee6b8e2d588682d92719630dd15bad72c47eee"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/frozen/phase2_0000.npz",
+      "bytes": 7192,
+      "sha256": "0a9fb7fd338c8ab2dc2342e0cfee6b8e2d588682d92719630dd15bad72c47eee"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/frozen/phase2_0100.npz",
+      "bytes": 7192,
+      "sha256": "0a9fb7fd338c8ab2dc2342e0cfee6b8e2d588682d92719630dd15bad72c47eee"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/frozen/phase2_0200.npz",
+      "bytes": 7192,
+      "sha256": "0a9fb7fd338c8ab2dc2342e0cfee6b8e2d588682d92719630dd15bad72c47eee"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/frozen/phase2_0300.npz",
+      "bytes": 7192,
+      "sha256": "0a9fb7fd338c8ab2dc2342e0cfee6b8e2d588682d92719630dd15bad72c47eee"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/linear/frozen/phase2_0400.npz",
+      "bytes": 7192,
+      "sha256": "0a9fb7fd338c8ab2dc2342e0cfee6b8e2d588682d92719630dd15bad72c47eee"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/prefix/phase1_0400.npz",
+      "bytes": 97911,
+      "sha256": "e0d66479f0a0e2a0d5c9bf1ecf516f2ea4e58acb0babb4b8e89185b278b6eda7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/full/phase2_0000.npz",
+      "bytes": 97907,
+      "sha256": "61207cc17fb54d08f2ba4f97a3231f1251472bce530a9824ae337ff86efbdea2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/full/phase2_0100.npz",
+      "bytes": 97921,
+      "sha256": "c4cdb1d8b08163b3032953d4a5b48482249597002004cc2f4c85c6b401e9621f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/full/phase2_0200.npz",
+      "bytes": 97791,
+      "sha256": "e40c881592f0d002acdf1972d6cb025009bf25d0ed925eff938ea5d0cc9a0c9a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/full/phase2_0300.npz",
+      "bytes": 96945,
+      "sha256": "38902493f2a36150edbf79e1df633fb392e501e2b2390da0c2ecd2989011581d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/full/phase2_0400.npz",
+      "bytes": 96038,
+      "sha256": "7dab2b778b569abedefd1d533a08356c348da491f0140cd8e9ae1f6f9509fd39"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/head_only/phase2_0000.npz",
+      "bytes": 97907,
+      "sha256": "61207cc17fb54d08f2ba4f97a3231f1251472bce530a9824ae337ff86efbdea2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/head_only/phase2_0100.npz",
+      "bytes": 97906,
+      "sha256": "2cf43c01666d92ee60a8672afd1f13b50d7fcf73261dedd8ec6f6962189a2cb5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/head_only/phase2_0200.npz",
+      "bytes": 97910,
+      "sha256": "2f523f6e0ab222e216b0c8ba5e1ca6183b40a6785a080ffb8f184bd40392ac99"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/head_only/phase2_0300.npz",
+      "bytes": 97902,
+      "sha256": "043a645754a8200e5d0ec1001686be6d51c68dcfe135b7c239f7de9f0da01e2b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/head_only/phase2_0400.npz",
+      "bytes": 97878,
+      "sha256": "50695bdc2e1214c5f981e5f3aa2aaa33b4e3aa7b8ae0e78c8683f065c5be2269"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/internal_only/phase2_0000.npz",
+      "bytes": 97907,
+      "sha256": "61207cc17fb54d08f2ba4f97a3231f1251472bce530a9824ae337ff86efbdea2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/internal_only/phase2_0100.npz",
+      "bytes": 97918,
+      "sha256": "49a19dd2ff3a4d751256d1679b8227953ec7434e79a003c0cdbae13279f66568"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/internal_only/phase2_0200.npz",
+      "bytes": 97798,
+      "sha256": "092d3bd8fcbbd41f1a0bd166391bb96906d6c356f1813badafd48094099e90e2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/internal_only/phase2_0300.npz",
+      "bytes": 97460,
+      "sha256": "9bd4fcf31be283afde960f208f3e502fde93bcececd4cd00c56b647468cf0dbb"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/internal_only/phase2_0400.npz",
+      "bytes": 96763,
+      "sha256": "366942c7e9c6e3bffff31939a50d048a0aebca1415a3df94a9cd009923e705e4"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/frozen/phase2_0000.npz",
+      "bytes": 97907,
+      "sha256": "61207cc17fb54d08f2ba4f97a3231f1251472bce530a9824ae337ff86efbdea2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/frozen/phase2_0100.npz",
+      "bytes": 97907,
+      "sha256": "61207cc17fb54d08f2ba4f97a3231f1251472bce530a9824ae337ff86efbdea2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/frozen/phase2_0200.npz",
+      "bytes": 97907,
+      "sha256": "61207cc17fb54d08f2ba4f97a3231f1251472bce530a9824ae337ff86efbdea2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/frozen/phase2_0300.npz",
+      "bytes": 97907,
+      "sha256": "61207cc17fb54d08f2ba4f97a3231f1251472bce530a9824ae337ff86efbdea2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/real/frozen/phase2_0400.npz",
+      "bytes": 97907,
+      "sha256": "61207cc17fb54d08f2ba4f97a3231f1251472bce530a9824ae337ff86efbdea2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/prefix/phase1_0400.npz",
+      "bytes": 99778,
+      "sha256": "fdd87c982bd0e475e558242522071dd6986cd075586543263c67d2f8b012c8ef"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/full/phase2_0000.npz",
+      "bytes": 99774,
+      "sha256": "3551d30510cf68bb80632cd22745d93c37a0da7e68ae47e48b24a60afd1233f9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/full/phase2_0100.npz",
+      "bytes": 99753,
+      "sha256": "e647727df1b0b9c4c362f2a9d686c6774c0e2064920098fac0fa7d5e3ab139b7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/full/phase2_0200.npz",
+      "bytes": 98612,
+      "sha256": "0856503763291c994667d16ed4c3f120d71cbba74cbcbcc6e3c37304d6d9d1c0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/full/phase2_0300.npz",
+      "bytes": 97500,
+      "sha256": "60728cf9d10035a220ac1bbc521779f986692e34dd9390472346fc00674ca5d6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/full/phase2_0400.npz",
+      "bytes": 96914,
+      "sha256": "6da6c7444266fea159356324f6b8dce31da1f90004502b384e06c6f897b6e402"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/head_only/phase2_0000.npz",
+      "bytes": 99774,
+      "sha256": "3551d30510cf68bb80632cd22745d93c37a0da7e68ae47e48b24a60afd1233f9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/head_only/phase2_0100.npz",
+      "bytes": 99770,
+      "sha256": "fde384c4473aff5398bcd287f5d4eec9442c43e30ed467109b4fb84649112e3f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/head_only/phase2_0200.npz",
+      "bytes": 99772,
+      "sha256": "eac54c64fc968f8c656c765078c24e55e8b5bad3c49523565d8f42089718ee35"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/head_only/phase2_0300.npz",
+      "bytes": 99772,
+      "sha256": "9ff3cdb89e0b7fb389746b63988a9e21315ea7e163122280c67f5403a81dad56"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/head_only/phase2_0400.npz",
+      "bytes": 99772,
+      "sha256": "c7e56dd3de946990be8b450044f1c6bc066a33669d26eec7d163d079beb84249"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/internal_only/phase2_0000.npz",
+      "bytes": 99774,
+      "sha256": "3551d30510cf68bb80632cd22745d93c37a0da7e68ae47e48b24a60afd1233f9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/internal_only/phase2_0100.npz",
+      "bytes": 99795,
+      "sha256": "6a29d56faefde3738b01b2bb929b943af277ff5bb04905048f36773d4044babd"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/internal_only/phase2_0200.npz",
+      "bytes": 99259,
+      "sha256": "eb5c78c1d9214990cd2a5e8e7ab01e5936b59be9fc33b685c7c398c91e0f017d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/internal_only/phase2_0300.npz",
+      "bytes": 98176,
+      "sha256": "c59ea829153b5f1481152af038d09b2661b6e8c53362579f669deaaa4dcbed3b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/internal_only/phase2_0400.npz",
+      "bytes": 96806,
+      "sha256": "4e0e0aa496c231dcf17db3e8f3e655e2119bd7bd55c630161f310976c1a8e764"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/frozen/phase2_0000.npz",
+      "bytes": 99774,
+      "sha256": "3551d30510cf68bb80632cd22745d93c37a0da7e68ae47e48b24a60afd1233f9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/frozen/phase2_0100.npz",
+      "bytes": 99774,
+      "sha256": "3551d30510cf68bb80632cd22745d93c37a0da7e68ae47e48b24a60afd1233f9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/frozen/phase2_0200.npz",
+      "bytes": 99774,
+      "sha256": "3551d30510cf68bb80632cd22745d93c37a0da7e68ae47e48b24a60afd1233f9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/frozen/phase2_0300.npz",
+      "bytes": 99774,
+      "sha256": "3551d30510cf68bb80632cd22745d93c37a0da7e68ae47e48b24a60afd1233f9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/rewired/frozen/phase2_0400.npz",
+      "bytes": 99774,
+      "sha256": "3551d30510cf68bb80632cd22745d93c37a0da7e68ae47e48b24a60afd1233f9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/prefix/phase1_0400.npz",
+      "bytes": 99689,
+      "sha256": "681a2aefb0a8eecd3dd603c1eac0802ecff9c7820b9fe9d68f2162b39bbc82f8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/full/phase2_0000.npz",
+      "bytes": 99685,
+      "sha256": "eec28b33b4c298ef1f5cc1e2b7a3aef10290ba57c384480e9f161752b09c482f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/full/phase2_0100.npz",
+      "bytes": 99675,
+      "sha256": "236b93fa5bc8b72e54200c2351f72ba6bf97eb328aaeb26e156ec8b27df7ccb3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/full/phase2_0200.npz",
+      "bytes": 98938,
+      "sha256": "b11e0880eb659058922e7f165f21a8f66cd0f8fcdd1fbef7cef90f589b176f4d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/full/phase2_0300.npz",
+      "bytes": 97433,
+      "sha256": "317b6f2d206a57c2a74c45add9b07f236b0fb7dc5591b7421c73611104f27b44"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/full/phase2_0400.npz",
+      "bytes": 96649,
+      "sha256": "610ab3b2aa2de149653d5e136bd4510d4b7a8488ee76db23c4567b1cc6ca8848"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/head_only/phase2_0000.npz",
+      "bytes": 99685,
+      "sha256": "eec28b33b4c298ef1f5cc1e2b7a3aef10290ba57c384480e9f161752b09c482f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/head_only/phase2_0100.npz",
+      "bytes": 99684,
+      "sha256": "3bc8f7fbb4fd65686ac2b6a8735eb6f289157c068474d7b60c2b6bc6e97eb7f9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/head_only/phase2_0200.npz",
+      "bytes": 99686,
+      "sha256": "4b41bd19ccb20ca2c5fab36eb5c8124d52a2ef210a4ee6c1cfc05148c739f943"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/head_only/phase2_0300.npz",
+      "bytes": 99679,
+      "sha256": "4130b9754ae2808fd4a68e93b8fb76ca356a0d0f19f1e96fbd6612c51d779a50"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/head_only/phase2_0400.npz",
+      "bytes": 99689,
+      "sha256": "25ebd31a1b033479a8c229af2b1ebb4d7bd40ecd16b204d436f292dfa0e9f261"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/internal_only/phase2_0000.npz",
+      "bytes": 99685,
+      "sha256": "eec28b33b4c298ef1f5cc1e2b7a3aef10290ba57c384480e9f161752b09c482f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/internal_only/phase2_0100.npz",
+      "bytes": 99685,
+      "sha256": "dae8753c25843c9aee0edced4cd42ad679c7a8987b44e249bfc1d4399874d03c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/internal_only/phase2_0200.npz",
+      "bytes": 99380,
+      "sha256": "8533dafc799115c2d49d082eb2bf98f5593b1e90b485542ed7145e2b1cec644c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/internal_only/phase2_0300.npz",
+      "bytes": 97615,
+      "sha256": "abb2261a54cf65cada51efd01ff693050ca1e128567e44076902f3a5175e7aa6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/internal_only/phase2_0400.npz",
+      "bytes": 96059,
+      "sha256": "e489b515b0e4e19294a5536e3753f6450794a56d23c3af841e013ec6888e1ce2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/frozen/phase2_0000.npz",
+      "bytes": 99685,
+      "sha256": "eec28b33b4c298ef1f5cc1e2b7a3aef10290ba57c384480e9f161752b09c482f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/frozen/phase2_0100.npz",
+      "bytes": 99685,
+      "sha256": "eec28b33b4c298ef1f5cc1e2b7a3aef10290ba57c384480e9f161752b09c482f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/frozen/phase2_0200.npz",
+      "bytes": 99685,
+      "sha256": "eec28b33b4c298ef1f5cc1e2b7a3aef10290ba57c384480e9f161752b09c482f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/frozen/phase2_0300.npz",
+      "bytes": 99685,
+      "sha256": "eec28b33b4c298ef1f5cc1e2b7a3aef10290ba57c384480e9f161752b09c482f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12001/ann/frozen/phase2_0400.npz",
+      "bytes": 99685,
+      "sha256": "eec28b33b4c298ef1f5cc1e2b7a3aef10290ba57c384480e9f161752b09c482f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/stimuli.npz",
+      "bytes": 46140,
+      "sha256": "4037bb7259be12aea813066902e73058762d53ef3ec5b8e66308754ba249747a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/prefix/phase1_0400.npz",
+      "bytes": 7057,
+      "sha256": "c5518b5ad6cc7c491c786781826a081e793070de2b1376647c62dd2e717628f6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/full/phase2_0000.npz",
+      "bytes": 7055,
+      "sha256": "c9cbcde8decc82fd3976ed9425332079610b74692f911806c62f29d91a58984d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/full/phase2_0100.npz",
+      "bytes": 7048,
+      "sha256": "7d90202f03b7755ec2c242c4b6a5b3fe2825ee6d0d883de8e191118c6932029e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/full/phase2_0200.npz",
+      "bytes": 7054,
+      "sha256": "1e8e47832f79499a3c4d9e8da5207d6c519f961fa19b1d01d6df5895b971c99c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/full/phase2_0300.npz",
+      "bytes": 7076,
+      "sha256": "c43e1da831e9113e1bbfb771732650341d8f2a79ae4729347c2531f76cf0a49b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/full/phase2_0400.npz",
+      "bytes": 7106,
+      "sha256": "058380202c8a5feb020b962474536aaaf2d8d818a72880053f7604a88cf29791"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/head_only/phase2_0000.npz",
+      "bytes": 7055,
+      "sha256": "c9cbcde8decc82fd3976ed9425332079610b74692f911806c62f29d91a58984d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/head_only/phase2_0100.npz",
+      "bytes": 7048,
+      "sha256": "7d90202f03b7755ec2c242c4b6a5b3fe2825ee6d0d883de8e191118c6932029e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/head_only/phase2_0200.npz",
+      "bytes": 7054,
+      "sha256": "1e8e47832f79499a3c4d9e8da5207d6c519f961fa19b1d01d6df5895b971c99c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/head_only/phase2_0300.npz",
+      "bytes": 7076,
+      "sha256": "c43e1da831e9113e1bbfb771732650341d8f2a79ae4729347c2531f76cf0a49b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/head_only/phase2_0400.npz",
+      "bytes": 7106,
+      "sha256": "058380202c8a5feb020b962474536aaaf2d8d818a72880053f7604a88cf29791"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/internal_only/phase2_0000.npz",
+      "bytes": 7055,
+      "sha256": "c9cbcde8decc82fd3976ed9425332079610b74692f911806c62f29d91a58984d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/internal_only/phase2_0100.npz",
+      "bytes": 7055,
+      "sha256": "c9cbcde8decc82fd3976ed9425332079610b74692f911806c62f29d91a58984d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/internal_only/phase2_0200.npz",
+      "bytes": 7055,
+      "sha256": "c9cbcde8decc82fd3976ed9425332079610b74692f911806c62f29d91a58984d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/internal_only/phase2_0300.npz",
+      "bytes": 7055,
+      "sha256": "c9cbcde8decc82fd3976ed9425332079610b74692f911806c62f29d91a58984d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/internal_only/phase2_0400.npz",
+      "bytes": 7055,
+      "sha256": "c9cbcde8decc82fd3976ed9425332079610b74692f911806c62f29d91a58984d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/frozen/phase2_0000.npz",
+      "bytes": 7055,
+      "sha256": "c9cbcde8decc82fd3976ed9425332079610b74692f911806c62f29d91a58984d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/frozen/phase2_0100.npz",
+      "bytes": 7055,
+      "sha256": "c9cbcde8decc82fd3976ed9425332079610b74692f911806c62f29d91a58984d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/frozen/phase2_0200.npz",
+      "bytes": 7055,
+      "sha256": "c9cbcde8decc82fd3976ed9425332079610b74692f911806c62f29d91a58984d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/frozen/phase2_0300.npz",
+      "bytes": 7055,
+      "sha256": "c9cbcde8decc82fd3976ed9425332079610b74692f911806c62f29d91a58984d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/linear/frozen/phase2_0400.npz",
+      "bytes": 7055,
+      "sha256": "c9cbcde8decc82fd3976ed9425332079610b74692f911806c62f29d91a58984d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/prefix/phase1_0400.npz",
+      "bytes": 96538,
+      "sha256": "bebec325012bc9b714bdba4cd25615f6dc8558d335bd5908dfb300846838e20f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/full/phase2_0000.npz",
+      "bytes": 96534,
+      "sha256": "6f64fe39fa747416aec772e8f62cafd6544817d079da722b1efe0a95151d2fde"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/full/phase2_0100.npz",
+      "bytes": 98413,
+      "sha256": "5dccbd10e51932614d331f5016e219a35a5c2b2f9fbb80971b764106399c4c94"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/full/phase2_0200.npz",
+      "bytes": 98422,
+      "sha256": "43a8a82b4afc4976d0cb6d6991b377514d40abc4ae921e2ee61a4ababf2b10d7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/full/phase2_0300.npz",
+      "bytes": 98351,
+      "sha256": "5d7bfe277c46d8c34515a3448534d0c558c289d2a5bac03b4bba5c572e418cbe"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/full/phase2_0400.npz",
+      "bytes": 98431,
+      "sha256": "6836966990081cb25942a135da4c17e85e9c488cff33cafa3a3012181adb6350"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/head_only/phase2_0000.npz",
+      "bytes": 96534,
+      "sha256": "6f64fe39fa747416aec772e8f62cafd6544817d079da722b1efe0a95151d2fde"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/head_only/phase2_0100.npz",
+      "bytes": 96542,
+      "sha256": "6311605e9e0c0db2e30342f8d63246053791650090c0618f9439a6b05c65ccd9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/head_only/phase2_0200.npz",
+      "bytes": 96546,
+      "sha256": "ce4699767bf793577151ebcf49dc77c27b5052625e388e74f31231dfe7584574"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/head_only/phase2_0300.npz",
+      "bytes": 96542,
+      "sha256": "424b1901cf409d74afdac5e3d18a061a964ae0c173695d023bc24cd96c0f75f1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/head_only/phase2_0400.npz",
+      "bytes": 96550,
+      "sha256": "cd3d8246face30c4a9dd4c70674a39b83634e30127ac86e2d6a9c07f967fbdde"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/internal_only/phase2_0000.npz",
+      "bytes": 96534,
+      "sha256": "6f64fe39fa747416aec772e8f62cafd6544817d079da722b1efe0a95151d2fde"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/internal_only/phase2_0100.npz",
+      "bytes": 98415,
+      "sha256": "879fcb3f0d1c7dbfbc0747e9698d40c38bd94e1f9d348f9e2111105e335ad1f8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/internal_only/phase2_0200.npz",
+      "bytes": 98418,
+      "sha256": "66f277bb0e416915296bad7fe7997cffbeefee602c223a2da0cbaa0369c215a8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/internal_only/phase2_0300.npz",
+      "bytes": 98412,
+      "sha256": "f5206f220308039057216a96904c99c3c000153647fc8f3181ad7f0aba5cf183"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/internal_only/phase2_0400.npz",
+      "bytes": 98157,
+      "sha256": "4df3fadc6f78654aee23e07a01d0a7a74957ac03a85a19554959f865d0730080"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/frozen/phase2_0000.npz",
+      "bytes": 96534,
+      "sha256": "6f64fe39fa747416aec772e8f62cafd6544817d079da722b1efe0a95151d2fde"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/frozen/phase2_0100.npz",
+      "bytes": 96534,
+      "sha256": "6f64fe39fa747416aec772e8f62cafd6544817d079da722b1efe0a95151d2fde"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/frozen/phase2_0200.npz",
+      "bytes": 96534,
+      "sha256": "6f64fe39fa747416aec772e8f62cafd6544817d079da722b1efe0a95151d2fde"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/frozen/phase2_0300.npz",
+      "bytes": 96534,
+      "sha256": "6f64fe39fa747416aec772e8f62cafd6544817d079da722b1efe0a95151d2fde"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/real/frozen/phase2_0400.npz",
+      "bytes": 96534,
+      "sha256": "6f64fe39fa747416aec772e8f62cafd6544817d079da722b1efe0a95151d2fde"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/prefix/phase1_0400.npz",
+      "bytes": 97886,
+      "sha256": "170b3f3f48d8cce67be898d1688625831006eb350712dff375128ea1b524ce06"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/full/phase2_0000.npz",
+      "bytes": 97882,
+      "sha256": "8fc0c14aaeedc8ae78241df2d12742a2d72e97d7f74bce2df2223741fd320d9e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/full/phase2_0100.npz",
+      "bytes": 100241,
+      "sha256": "fff58a30d7a5d3ba22cc5f21ec11861209163634a856b468219d8e83150604a1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/full/phase2_0200.npz",
+      "bytes": 100269,
+      "sha256": "ab4567054f612f7b4eb45a23195264d6dea7d96da8c49af8309a6e484ba4aaae"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/full/phase2_0300.npz",
+      "bytes": 100293,
+      "sha256": "ea17117990c78ddc2911beeac94c6405df8125c1eb3f6a37b23b2c13839edf69"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/full/phase2_0400.npz",
+      "bytes": 100313,
+      "sha256": "a58393525d50b939bf6ee3850566b6f1870451783add4bc420711b71a0cd33f1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/head_only/phase2_0000.npz",
+      "bytes": 97882,
+      "sha256": "8fc0c14aaeedc8ae78241df2d12742a2d72e97d7f74bce2df2223741fd320d9e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/head_only/phase2_0100.npz",
+      "bytes": 97890,
+      "sha256": "ace83bc9701868ebb40ae403f25ec092de33eac58325181ecac78aa36ece682e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/head_only/phase2_0200.npz",
+      "bytes": 97886,
+      "sha256": "3b3978d1bcae7818bb612bf1adee3a6b5128cc11964ae0ae9661ff3ae69bfa55"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/head_only/phase2_0300.npz",
+      "bytes": 97885,
+      "sha256": "a12032e708a534f18b9d3a82442683ae6e7c652626b2c1f3758deed3c6735b2a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/head_only/phase2_0400.npz",
+      "bytes": 97894,
+      "sha256": "5870f1ab9e681a7d7e4fddd2ffd34a614532892a50c30715296a1cf98c34d360"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/internal_only/phase2_0000.npz",
+      "bytes": 97882,
+      "sha256": "8fc0c14aaeedc8ae78241df2d12742a2d72e97d7f74bce2df2223741fd320d9e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/internal_only/phase2_0100.npz",
+      "bytes": 100248,
+      "sha256": "9e8dd68afb9cbf156f9513ccc553a769b10b3cd5a73f5353c41cd474da887f26"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/internal_only/phase2_0200.npz",
+      "bytes": 100262,
+      "sha256": "37e0251f1dbb7109007a73ea24f50950c97252ab0eb75bcc73a52b6ddabb68ae"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/internal_only/phase2_0300.npz",
+      "bytes": 99854,
+      "sha256": "ada6770a80fc9e05779195da44965cf9b177bb1d563ea0c3fc6251b3544db78f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/internal_only/phase2_0400.npz",
+      "bytes": 100294,
+      "sha256": "b1aff0aae3c6aa6c9a57bbe390d99022292edd3a86c188c47e9826840ff898be"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/frozen/phase2_0000.npz",
+      "bytes": 97882,
+      "sha256": "8fc0c14aaeedc8ae78241df2d12742a2d72e97d7f74bce2df2223741fd320d9e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/frozen/phase2_0100.npz",
+      "bytes": 97882,
+      "sha256": "8fc0c14aaeedc8ae78241df2d12742a2d72e97d7f74bce2df2223741fd320d9e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/frozen/phase2_0200.npz",
+      "bytes": 97882,
+      "sha256": "8fc0c14aaeedc8ae78241df2d12742a2d72e97d7f74bce2df2223741fd320d9e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/frozen/phase2_0300.npz",
+      "bytes": 97882,
+      "sha256": "8fc0c14aaeedc8ae78241df2d12742a2d72e97d7f74bce2df2223741fd320d9e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/rewired/frozen/phase2_0400.npz",
+      "bytes": 97882,
+      "sha256": "8fc0c14aaeedc8ae78241df2d12742a2d72e97d7f74bce2df2223741fd320d9e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/prefix/phase1_0400.npz",
+      "bytes": 97981,
+      "sha256": "0cc0cb509eed36ba3f3587aec5bb710beb70e958d30fce80c72a044eeb148dce"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/full/phase2_0000.npz",
+      "bytes": 97977,
+      "sha256": "20657e243c515d0aacba1091c119a70474d86d532c023457cf2f4d66e5d3dd2d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/full/phase2_0100.npz",
+      "bytes": 100258,
+      "sha256": "f3b33f3f6a14de502c319dae565101a5e079af392f74fefb32147605bef3c84e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/full/phase2_0200.npz",
+      "bytes": 100303,
+      "sha256": "efad39defda930e8f5efdbaf52da68b261afdc95f493fd107a0cff223465e3c6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/full/phase2_0300.npz",
+      "bytes": 99124,
+      "sha256": "c5dd4029195eeab2411d4f515aa5f5871017e2390ad758df44b6cee6b4c41729"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/full/phase2_0400.npz",
+      "bytes": 97975,
+      "sha256": "df2b4fc030e87cd7f2b83808a0995a6a52e68a99b185a76045fba6c7b549d520"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/head_only/phase2_0000.npz",
+      "bytes": 97977,
+      "sha256": "20657e243c515d0aacba1091c119a70474d86d532c023457cf2f4d66e5d3dd2d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/head_only/phase2_0100.npz",
+      "bytes": 97974,
+      "sha256": "e3bd390d9317a33c5db14da3e0aa1d7bdd7d20cc4f10f1ca675dfe3eadccc624"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/head_only/phase2_0200.npz",
+      "bytes": 97977,
+      "sha256": "6e3bee50003414bbfe276978df1236c79a0e9fa3cec0ad2933dbf7530376032e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/head_only/phase2_0300.npz",
+      "bytes": 97979,
+      "sha256": "764316d64d0162079f89960f4e17148121322764e75d83e6c808d96eeea44c93"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/head_only/phase2_0400.npz",
+      "bytes": 97986,
+      "sha256": "d667cbc7a6a18d77a9d24ce2d23514dcab8ed163f60ec0b8cb4c294b2472c0b0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/internal_only/phase2_0000.npz",
+      "bytes": 97977,
+      "sha256": "20657e243c515d0aacba1091c119a70474d86d532c023457cf2f4d66e5d3dd2d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/internal_only/phase2_0100.npz",
+      "bytes": 100252,
+      "sha256": "d14aff27f53479aa2ac9b98c641a10afa4e6289b5bfc5033376dcd3c2f3888b8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/internal_only/phase2_0200.npz",
+      "bytes": 100277,
+      "sha256": "e98785d5d9a9fd4be4392e3f6bc48e426b3ff7ae387a1f4939fa726dfd6432cc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/internal_only/phase2_0300.npz",
+      "bytes": 100224,
+      "sha256": "4d0e1f7707fdede1d2fc5048cde6eb73e1b09a48bfff65e7dea8ea7612ef6797"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/internal_only/phase2_0400.npz",
+      "bytes": 99457,
+      "sha256": "129ac7f2aec677f3e3cb0cdbdcbbe3f39142d6b625555ee41cc0d88842e26705"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/frozen/phase2_0000.npz",
+      "bytes": 97977,
+      "sha256": "20657e243c515d0aacba1091c119a70474d86d532c023457cf2f4d66e5d3dd2d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/frozen/phase2_0100.npz",
+      "bytes": 97977,
+      "sha256": "20657e243c515d0aacba1091c119a70474d86d532c023457cf2f4d66e5d3dd2d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/frozen/phase2_0200.npz",
+      "bytes": 97977,
+      "sha256": "20657e243c515d0aacba1091c119a70474d86d532c023457cf2f4d66e5d3dd2d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/frozen/phase2_0300.npz",
+      "bytes": 97977,
+      "sha256": "20657e243c515d0aacba1091c119a70474d86d532c023457cf2f4d66e5d3dd2d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12002/ann/frozen/phase2_0400.npz",
+      "bytes": 97977,
+      "sha256": "20657e243c515d0aacba1091c119a70474d86d532c023457cf2f4d66e5d3dd2d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/stimuli.npz",
+      "bytes": 46126,
+      "sha256": "1df63f94827b52c2376f0895c924860d77ffb2fa5ebeed43f26a20c0b0ede56b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/prefix/phase1_0400.npz",
+      "bytes": 7101,
+      "sha256": "4ed20956a9af8fc9e0aced600568b14345d3f67cbcf2998ab477adb16abc6488"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/full/phase2_0000.npz",
+      "bytes": 7099,
+      "sha256": "1a07dd6cff8e53c4e09044fcd6c7f6b9773882f16ba048f3303859bbf1cc0ef9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/full/phase2_0100.npz",
+      "bytes": 7115,
+      "sha256": "232405d537f8f5049e2a3e99a7e90ee3b7af357902d0e4f0fc3cbe85831cf96e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/full/phase2_0200.npz",
+      "bytes": 7123,
+      "sha256": "8a9f16b245b1e69f6a6146637eb9a2e5ec64fb24c8d95734ba220fee506034d3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/full/phase2_0300.npz",
+      "bytes": 7131,
+      "sha256": "9d6e0b377550185c3f740b96b283a328d88569e3a4ac4a5aa47f0772fa170fda"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/full/phase2_0400.npz",
+      "bytes": 7130,
+      "sha256": "74fb4da5eb39da879cce34ae6ade7e3461f06308bdfc7db08f0d0303fd230d1d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/head_only/phase2_0000.npz",
+      "bytes": 7099,
+      "sha256": "1a07dd6cff8e53c4e09044fcd6c7f6b9773882f16ba048f3303859bbf1cc0ef9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/head_only/phase2_0100.npz",
+      "bytes": 7115,
+      "sha256": "232405d537f8f5049e2a3e99a7e90ee3b7af357902d0e4f0fc3cbe85831cf96e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/head_only/phase2_0200.npz",
+      "bytes": 7123,
+      "sha256": "8a9f16b245b1e69f6a6146637eb9a2e5ec64fb24c8d95734ba220fee506034d3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/head_only/phase2_0300.npz",
+      "bytes": 7131,
+      "sha256": "9d6e0b377550185c3f740b96b283a328d88569e3a4ac4a5aa47f0772fa170fda"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/head_only/phase2_0400.npz",
+      "bytes": 7130,
+      "sha256": "74fb4da5eb39da879cce34ae6ade7e3461f06308bdfc7db08f0d0303fd230d1d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/internal_only/phase2_0000.npz",
+      "bytes": 7099,
+      "sha256": "1a07dd6cff8e53c4e09044fcd6c7f6b9773882f16ba048f3303859bbf1cc0ef9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/internal_only/phase2_0100.npz",
+      "bytes": 7099,
+      "sha256": "1a07dd6cff8e53c4e09044fcd6c7f6b9773882f16ba048f3303859bbf1cc0ef9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/internal_only/phase2_0200.npz",
+      "bytes": 7099,
+      "sha256": "1a07dd6cff8e53c4e09044fcd6c7f6b9773882f16ba048f3303859bbf1cc0ef9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/internal_only/phase2_0300.npz",
+      "bytes": 7099,
+      "sha256": "1a07dd6cff8e53c4e09044fcd6c7f6b9773882f16ba048f3303859bbf1cc0ef9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/internal_only/phase2_0400.npz",
+      "bytes": 7099,
+      "sha256": "1a07dd6cff8e53c4e09044fcd6c7f6b9773882f16ba048f3303859bbf1cc0ef9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/frozen/phase2_0000.npz",
+      "bytes": 7099,
+      "sha256": "1a07dd6cff8e53c4e09044fcd6c7f6b9773882f16ba048f3303859bbf1cc0ef9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/frozen/phase2_0100.npz",
+      "bytes": 7099,
+      "sha256": "1a07dd6cff8e53c4e09044fcd6c7f6b9773882f16ba048f3303859bbf1cc0ef9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/frozen/phase2_0200.npz",
+      "bytes": 7099,
+      "sha256": "1a07dd6cff8e53c4e09044fcd6c7f6b9773882f16ba048f3303859bbf1cc0ef9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/frozen/phase2_0300.npz",
+      "bytes": 7099,
+      "sha256": "1a07dd6cff8e53c4e09044fcd6c7f6b9773882f16ba048f3303859bbf1cc0ef9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/linear/frozen/phase2_0400.npz",
+      "bytes": 7099,
+      "sha256": "1a07dd6cff8e53c4e09044fcd6c7f6b9773882f16ba048f3303859bbf1cc0ef9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/prefix/phase1_0400.npz",
+      "bytes": 93576,
+      "sha256": "7ee7ac51da7788d82a1b6bd46ce8fbaeb6331f84c23475288316800b1bb26164"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/full/phase2_0000.npz",
+      "bytes": 93572,
+      "sha256": "d5bd5156bd55ac4e173e884eaf35694ee4c7898e25293a2ff5c3849b1ea8f5fa"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/full/phase2_0100.npz",
+      "bytes": 95354,
+      "sha256": "9cb10ff08b3cc6e20ed8b994b541eb24d1971bd85cf88f3f01201f2ea63e5109"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/full/phase2_0200.npz",
+      "bytes": 94356,
+      "sha256": "de36b5246f7bab372cf1a3ce4aee812c03b633bf9ba4079835653c9a34bd145d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/full/phase2_0300.npz",
+      "bytes": 94155,
+      "sha256": "3a3426fc67fc9c635e6412758570149e95c3bd38a8f1cd7725198e535b38f833"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/full/phase2_0400.npz",
+      "bytes": 95348,
+      "sha256": "63e7f95bd277154598390b56d0424312ff622ae3389f8cad0edfbcfbcf8cff53"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/head_only/phase2_0000.npz",
+      "bytes": 93572,
+      "sha256": "d5bd5156bd55ac4e173e884eaf35694ee4c7898e25293a2ff5c3849b1ea8f5fa"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/head_only/phase2_0100.npz",
+      "bytes": 93579,
+      "sha256": "29d92a379936bb53c084b90e20fa65f2e03a4378710e6c57f9fa18d1843bd84e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/head_only/phase2_0200.npz",
+      "bytes": 93563,
+      "sha256": "4a7bee81b5e81113ab4eba9847b3dc50fb7c8a498ece65e86271bf925a81b017"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/head_only/phase2_0300.npz",
+      "bytes": 93568,
+      "sha256": "3eb4e5843344175c1ca537ad0e5d51e4541a4a5b443a52589758614490c36023"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/head_only/phase2_0400.npz",
+      "bytes": 93544,
+      "sha256": "fd2efc79ab41c8448116b8935e478ee36a8af6d74f3d9766c6f66568a552020d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/internal_only/phase2_0000.npz",
+      "bytes": 93572,
+      "sha256": "d5bd5156bd55ac4e173e884eaf35694ee4c7898e25293a2ff5c3849b1ea8f5fa"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/internal_only/phase2_0100.npz",
+      "bytes": 95349,
+      "sha256": "a0c79b4294648da35e175557b88c69506a8f6ffc5acee1f67be615b419917c62"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/internal_only/phase2_0200.npz",
+      "bytes": 94783,
+      "sha256": "b3dbfeb9755fa112a4add59c60907c884e16117a4e117af3173f1d26045c11a9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/internal_only/phase2_0300.npz",
+      "bytes": 94420,
+      "sha256": "4d7366574a85c4947f2354293eea4c1aeff8a40108c1b8b9eab6c0e16f9b2fc3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/internal_only/phase2_0400.npz",
+      "bytes": 92995,
+      "sha256": "0e788bcf17c2a2ab7198c60183d6fbab9f7d88a1e6690e214079a9def72b5625"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/frozen/phase2_0000.npz",
+      "bytes": 93572,
+      "sha256": "d5bd5156bd55ac4e173e884eaf35694ee4c7898e25293a2ff5c3849b1ea8f5fa"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/frozen/phase2_0100.npz",
+      "bytes": 93572,
+      "sha256": "d5bd5156bd55ac4e173e884eaf35694ee4c7898e25293a2ff5c3849b1ea8f5fa"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/frozen/phase2_0200.npz",
+      "bytes": 93572,
+      "sha256": "d5bd5156bd55ac4e173e884eaf35694ee4c7898e25293a2ff5c3849b1ea8f5fa"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/frozen/phase2_0300.npz",
+      "bytes": 93572,
+      "sha256": "d5bd5156bd55ac4e173e884eaf35694ee4c7898e25293a2ff5c3849b1ea8f5fa"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/real/frozen/phase2_0400.npz",
+      "bytes": 93572,
+      "sha256": "d5bd5156bd55ac4e173e884eaf35694ee4c7898e25293a2ff5c3849b1ea8f5fa"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/prefix/phase1_0400.npz",
+      "bytes": 95621,
+      "sha256": "98f3eb0d9a216c7808bc26b2d8b76097d726abcb75493fcc76146b6798228f62"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/full/phase2_0000.npz",
+      "bytes": 95617,
+      "sha256": "9e2d392b28f8839f4e5095bde27d0f30a03845bed248f2e45e28925f48131ad1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/full/phase2_0100.npz",
+      "bytes": 97458,
+      "sha256": "d22d732f4a3dadf739db30b15ccd961d06f33ddf69a745c7503549871c52e556"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/full/phase2_0200.npz",
+      "bytes": 96882,
+      "sha256": "2f52b705552aad49c1eaf695aaa25605ac1668661e16f438d5448103254f1ad6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/full/phase2_0300.npz",
+      "bytes": 96462,
+      "sha256": "b853d479d6baee9f857ed4f6fe5ddb02519d090d1ac0f0af9d3a0bf09a2b51e8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/full/phase2_0400.npz",
+      "bytes": 97435,
+      "sha256": "324d589c60ab80d6ee43ba6019df3c36a5c9179a8abdd73f8bc91e130f672f1a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/head_only/phase2_0000.npz",
+      "bytes": 95617,
+      "sha256": "9e2d392b28f8839f4e5095bde27d0f30a03845bed248f2e45e28925f48131ad1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/head_only/phase2_0100.npz",
+      "bytes": 95623,
+      "sha256": "a5aa7692f668615116d5afbeb190d15645a33b61173273a409b0a90cc4f14483"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/head_only/phase2_0200.npz",
+      "bytes": 95620,
+      "sha256": "dda97a8a113ff5bcad22ba0c740a7d6b0c35f707b0350873c8d49a59855250d4"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/head_only/phase2_0300.npz",
+      "bytes": 95619,
+      "sha256": "bfceba4bd9b2252154ca80d98da24ea906d0f5640ae7f135f7187334382b763b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/head_only/phase2_0400.npz",
+      "bytes": 95590,
+      "sha256": "e5f55c7eb7d43e2e94208f2ec447c8be6c6eb9c21580884b0264e7eca2476542"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/internal_only/phase2_0000.npz",
+      "bytes": 95617,
+      "sha256": "9e2d392b28f8839f4e5095bde27d0f30a03845bed248f2e45e28925f48131ad1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/internal_only/phase2_0100.npz",
+      "bytes": 97465,
+      "sha256": "0b9683bb2f35f70d1f477a73a1d19bdeca3b9dc90a915ebcaf57d94d6e8ab86a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/internal_only/phase2_0200.npz",
+      "bytes": 96970,
+      "sha256": "37bb66e7e3aaaa206e0f41dbe99ddd8cfff152dccf46b560bfcd0bc56731a257"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/internal_only/phase2_0300.npz",
+      "bytes": 96954,
+      "sha256": "25c08faa0fff3fd020459d613bb075147938bcd6eb085b3f5556af83c335ff0f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/internal_only/phase2_0400.npz",
+      "bytes": 96796,
+      "sha256": "2eabbed52156d4193cb864247e789f08e6dda5d1f119ca0b683b4878369b24d8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/frozen/phase2_0000.npz",
+      "bytes": 95617,
+      "sha256": "9e2d392b28f8839f4e5095bde27d0f30a03845bed248f2e45e28925f48131ad1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/frozen/phase2_0100.npz",
+      "bytes": 95617,
+      "sha256": "9e2d392b28f8839f4e5095bde27d0f30a03845bed248f2e45e28925f48131ad1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/frozen/phase2_0200.npz",
+      "bytes": 95617,
+      "sha256": "9e2d392b28f8839f4e5095bde27d0f30a03845bed248f2e45e28925f48131ad1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/frozen/phase2_0300.npz",
+      "bytes": 95617,
+      "sha256": "9e2d392b28f8839f4e5095bde27d0f30a03845bed248f2e45e28925f48131ad1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/rewired/frozen/phase2_0400.npz",
+      "bytes": 95617,
+      "sha256": "9e2d392b28f8839f4e5095bde27d0f30a03845bed248f2e45e28925f48131ad1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/prefix/phase1_0400.npz",
+      "bytes": 95767,
+      "sha256": "2cf681b5396ae448bfe4d769c18ec925ffd399cc7c4197deec51cf0d082acc06"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/full/phase2_0000.npz",
+      "bytes": 95763,
+      "sha256": "9a1e4ae9717991b0abc611993905c8dc29a182e471235b36a0be84190dff1fb6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/full/phase2_0100.npz",
+      "bytes": 97662,
+      "sha256": "95d5cca6676bf6504fe3d0d0f21162eb9543fdcf9bcb142cfa9131153648aaa9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/full/phase2_0200.npz",
+      "bytes": 96743,
+      "sha256": "268b0deea6bc795537496156afe2672b9f79983cb256644b34d373c8da37a45f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/full/phase2_0300.npz",
+      "bytes": 96435,
+      "sha256": "66b60f4fb6272a78d855a1e866c4e3f45dac618dd2081d5596a12be407fddeeb"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/full/phase2_0400.npz",
+      "bytes": 97602,
+      "sha256": "24b61fa6e6ed9c1f7559de7f99d976d15576c06ff4107b56938379a05409d454"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/head_only/phase2_0000.npz",
+      "bytes": 95763,
+      "sha256": "9a1e4ae9717991b0abc611993905c8dc29a182e471235b36a0be84190dff1fb6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/head_only/phase2_0100.npz",
+      "bytes": 95773,
+      "sha256": "70b3c72673f9961b93cb60e0ac2158e380bc34509216c51a94c7624980ed11cf"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/head_only/phase2_0200.npz",
+      "bytes": 95778,
+      "sha256": "b22176a6171aedd1f074d09b981b6b2092312bedbc1d932b4261d0413895ee88"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/head_only/phase2_0300.npz",
+      "bytes": 95770,
+      "sha256": "955216200595841b633a9e8d2a9d80d83f66c116c623c50b93eeb612ab11447e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/head_only/phase2_0400.npz",
+      "bytes": 95751,
+      "sha256": "6ee1216dbbfa6f4eed88f6bfbf7c65c6a6ea1cebceff8ec48ce59ae96c8c8fb6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/internal_only/phase2_0000.npz",
+      "bytes": 95763,
+      "sha256": "9a1e4ae9717991b0abc611993905c8dc29a182e471235b36a0be84190dff1fb6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/internal_only/phase2_0100.npz",
+      "bytes": 97665,
+      "sha256": "37abb7ef025a2d3e0521666734f95ba6a28f87e8c2aa87d9818224979387f9fe"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/internal_only/phase2_0200.npz",
+      "bytes": 97164,
+      "sha256": "497406546069612b1741e5f399b2e8263a3fc8d1e8845c875f2ad2628ad5e95c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/internal_only/phase2_0300.npz",
+      "bytes": 96681,
+      "sha256": "669f40905862d72db08551c32c2a18ae6dc09ca15adc7e2b1c715a62cff22b35"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/internal_only/phase2_0400.npz",
+      "bytes": 95015,
+      "sha256": "7768c5fa5115d1cd665b316f5647e9a831022584a439980ebeacc32ea6f0498d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/frozen/phase2_0000.npz",
+      "bytes": 95763,
+      "sha256": "9a1e4ae9717991b0abc611993905c8dc29a182e471235b36a0be84190dff1fb6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/frozen/phase2_0100.npz",
+      "bytes": 95763,
+      "sha256": "9a1e4ae9717991b0abc611993905c8dc29a182e471235b36a0be84190dff1fb6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/frozen/phase2_0200.npz",
+      "bytes": 95763,
+      "sha256": "9a1e4ae9717991b0abc611993905c8dc29a182e471235b36a0be84190dff1fb6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/frozen/phase2_0300.npz",
+      "bytes": 95763,
+      "sha256": "9a1e4ae9717991b0abc611993905c8dc29a182e471235b36a0be84190dff1fb6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12003/ann/frozen/phase2_0400.npz",
+      "bytes": 95763,
+      "sha256": "9a1e4ae9717991b0abc611993905c8dc29a182e471235b36a0be84190dff1fb6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/stimuli.npz",
+      "bytes": 46138,
+      "sha256": "74fb2517f3668e9e0d0d20199ebb406d197b572bd593d09e6b1591319ab7be4f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/prefix/phase1_0400.npz",
+      "bytes": 7182,
+      "sha256": "cc462fe1f5e254871a8c00d0631a6b143a15d784706c442d58bda58cd33809e5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/full/phase2_0000.npz",
+      "bytes": 7180,
+      "sha256": "54a21f04c69d8a95b448d52ed45cb21c1c6f4c38e580a3e1cbaa621e1253f957"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/full/phase2_0100.npz",
+      "bytes": 7177,
+      "sha256": "b841a476dfbf02a5069218599df4ce622c431636aee057602bf020cc42c0e822"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/full/phase2_0200.npz",
+      "bytes": 7200,
+      "sha256": "a246a6c8fe9a00314637a5604baac281137aedf515d86418a02bc96682e63c37"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/full/phase2_0300.npz",
+      "bytes": 7215,
+      "sha256": "28d00ba7c5aa3c4a0d6e155a13e33335e257f9805f011f80796071d09d0c8904"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/full/phase2_0400.npz",
+      "bytes": 7226,
+      "sha256": "b845440ebfc746a0b6de40b7d986166229076eb506adca190702eac47e0319e2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/head_only/phase2_0000.npz",
+      "bytes": 7180,
+      "sha256": "54a21f04c69d8a95b448d52ed45cb21c1c6f4c38e580a3e1cbaa621e1253f957"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/head_only/phase2_0100.npz",
+      "bytes": 7177,
+      "sha256": "b841a476dfbf02a5069218599df4ce622c431636aee057602bf020cc42c0e822"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/head_only/phase2_0200.npz",
+      "bytes": 7200,
+      "sha256": "a246a6c8fe9a00314637a5604baac281137aedf515d86418a02bc96682e63c37"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/head_only/phase2_0300.npz",
+      "bytes": 7215,
+      "sha256": "28d00ba7c5aa3c4a0d6e155a13e33335e257f9805f011f80796071d09d0c8904"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/head_only/phase2_0400.npz",
+      "bytes": 7226,
+      "sha256": "b845440ebfc746a0b6de40b7d986166229076eb506adca190702eac47e0319e2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/internal_only/phase2_0000.npz",
+      "bytes": 7180,
+      "sha256": "54a21f04c69d8a95b448d52ed45cb21c1c6f4c38e580a3e1cbaa621e1253f957"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/internal_only/phase2_0100.npz",
+      "bytes": 7180,
+      "sha256": "54a21f04c69d8a95b448d52ed45cb21c1c6f4c38e580a3e1cbaa621e1253f957"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/internal_only/phase2_0200.npz",
+      "bytes": 7180,
+      "sha256": "54a21f04c69d8a95b448d52ed45cb21c1c6f4c38e580a3e1cbaa621e1253f957"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/internal_only/phase2_0300.npz",
+      "bytes": 7180,
+      "sha256": "54a21f04c69d8a95b448d52ed45cb21c1c6f4c38e580a3e1cbaa621e1253f957"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/internal_only/phase2_0400.npz",
+      "bytes": 7180,
+      "sha256": "54a21f04c69d8a95b448d52ed45cb21c1c6f4c38e580a3e1cbaa621e1253f957"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/frozen/phase2_0000.npz",
+      "bytes": 7180,
+      "sha256": "54a21f04c69d8a95b448d52ed45cb21c1c6f4c38e580a3e1cbaa621e1253f957"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/frozen/phase2_0100.npz",
+      "bytes": 7180,
+      "sha256": "54a21f04c69d8a95b448d52ed45cb21c1c6f4c38e580a3e1cbaa621e1253f957"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/frozen/phase2_0200.npz",
+      "bytes": 7180,
+      "sha256": "54a21f04c69d8a95b448d52ed45cb21c1c6f4c38e580a3e1cbaa621e1253f957"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/frozen/phase2_0300.npz",
+      "bytes": 7180,
+      "sha256": "54a21f04c69d8a95b448d52ed45cb21c1c6f4c38e580a3e1cbaa621e1253f957"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/linear/frozen/phase2_0400.npz",
+      "bytes": 7180,
+      "sha256": "54a21f04c69d8a95b448d52ed45cb21c1c6f4c38e580a3e1cbaa621e1253f957"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/prefix/phase1_0400.npz",
+      "bytes": 95063,
+      "sha256": "2bda840f2cd084b99db7579502536bf6f60daa088142c16f6aa5ea85a58fe2b8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/full/phase2_0000.npz",
+      "bytes": 95059,
+      "sha256": "b0510e14397e0984079c2c698effaa2fc951cd4d1a7087e283c599b097b1e9e2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/full/phase2_0100.npz",
+      "bytes": 95059,
+      "sha256": "04af5439f4ed5b31b965fd21c6fae75a5236713ba2b8d230a8141f293128876b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/full/phase2_0200.npz",
+      "bytes": 92876,
+      "sha256": "b5982af8a5459be6097eb2cae24b232b557e1b96930ac97f28bf02df10205162"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/full/phase2_0300.npz",
+      "bytes": 92958,
+      "sha256": "d17d7131dbf08bba8b34b47f178701f704c225f10b711873ba83b9b7c0ad4874"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/full/phase2_0400.npz",
+      "bytes": 91834,
+      "sha256": "6d45fb5d174c2869fc4f5b9ebf8549c18f056718d57981d5db0825183453024f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/head_only/phase2_0000.npz",
+      "bytes": 95059,
+      "sha256": "b0510e14397e0984079c2c698effaa2fc951cd4d1a7087e283c599b097b1e9e2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/head_only/phase2_0100.npz",
+      "bytes": 95063,
+      "sha256": "ee815feb340deacf23b00674d439fa858f3d2a070b75ce98fb5a108badadb30f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/head_only/phase2_0200.npz",
+      "bytes": 95050,
+      "sha256": "0d87f79d3ea9d0d4d56882014bda5ee9d0b48b118aaf914d94a1888f65010ca5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/head_only/phase2_0300.npz",
+      "bytes": 95059,
+      "sha256": "7708eee1e59ecec193b98ce28da4627948356259e595c0477a1e4b31912e08c7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/head_only/phase2_0400.npz",
+      "bytes": 95054,
+      "sha256": "ae6a61b27bbd4d217f83dbe9727a7399273eb373fe5f1e46e9d708a4b8ea5b85"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/internal_only/phase2_0000.npz",
+      "bytes": 95059,
+      "sha256": "b0510e14397e0984079c2c698effaa2fc951cd4d1a7087e283c599b097b1e9e2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/internal_only/phase2_0100.npz",
+      "bytes": 95056,
+      "sha256": "5ae07532dd309f4c68c2042e4764b2ad36e07f38f1110c0b908bb3c44937c220"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/internal_only/phase2_0200.npz",
+      "bytes": 93323,
+      "sha256": "43db82a7faf434f33cda4f1988132e66acf77b544179941f74d7b97039b7d0c9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/internal_only/phase2_0300.npz",
+      "bytes": 92161,
+      "sha256": "db377423a02ec3e1017851f34f6e996785779ff857cee36b33da5c7fa8104769"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/internal_only/phase2_0400.npz",
+      "bytes": 91522,
+      "sha256": "b8529bb793680a8d15756036c2d1f4795381fb2d12f16ec908635dece7afc86e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/frozen/phase2_0000.npz",
+      "bytes": 95059,
+      "sha256": "b0510e14397e0984079c2c698effaa2fc951cd4d1a7087e283c599b097b1e9e2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/frozen/phase2_0100.npz",
+      "bytes": 95059,
+      "sha256": "b0510e14397e0984079c2c698effaa2fc951cd4d1a7087e283c599b097b1e9e2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/frozen/phase2_0200.npz",
+      "bytes": 95059,
+      "sha256": "b0510e14397e0984079c2c698effaa2fc951cd4d1a7087e283c599b097b1e9e2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/frozen/phase2_0300.npz",
+      "bytes": 95059,
+      "sha256": "b0510e14397e0984079c2c698effaa2fc951cd4d1a7087e283c599b097b1e9e2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/real/frozen/phase2_0400.npz",
+      "bytes": 95059,
+      "sha256": "b0510e14397e0984079c2c698effaa2fc951cd4d1a7087e283c599b097b1e9e2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/prefix/phase1_0400.npz",
+      "bytes": 96953,
+      "sha256": "725c04ffc04de559040b730f1a7ffec5f5be719c7728693bceef496a928be5d0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/full/phase2_0000.npz",
+      "bytes": 96949,
+      "sha256": "797705262449d0f7f7f4d2ec4cea6c56950793bc3d98ea57766616952f61088a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/full/phase2_0100.npz",
+      "bytes": 96985,
+      "sha256": "d378f552e2a942de96aade1b45178179310431783d3c8c212f02324c76544cc2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/full/phase2_0200.npz",
+      "bytes": 94910,
+      "sha256": "11048a123e20e6b6f63dcf0b77d2a61531b70f8507d4adbac8a7b6818595b350"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/full/phase2_0300.npz",
+      "bytes": 95064,
+      "sha256": "983d9636be60c374012cd8e598d2a53ff9a96e48e021bd3553f4aa91178c1ead"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/full/phase2_0400.npz",
+      "bytes": 93960,
+      "sha256": "ad635fd75a7587fec174cb6aaa25c5ea078e434a9f53ab1c58455f8e24b408df"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/head_only/phase2_0000.npz",
+      "bytes": 96949,
+      "sha256": "797705262449d0f7f7f4d2ec4cea6c56950793bc3d98ea57766616952f61088a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/head_only/phase2_0100.npz",
+      "bytes": 96954,
+      "sha256": "9970a29cbca83e09585c1e05257df6db5f20ecaa833ffaf8f2443b9e4fa19fc0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/head_only/phase2_0200.npz",
+      "bytes": 96954,
+      "sha256": "52b1866011d0d61790a672eebe81cb0e69bd5d1034c9753f79045fa2b606f155"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/head_only/phase2_0300.npz",
+      "bytes": 96945,
+      "sha256": "eea461e8c3b005b53678db3c131f4ba73e87a25694ceb466584b5c347665f93c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/head_only/phase2_0400.npz",
+      "bytes": 96946,
+      "sha256": "d0a9a0e5f450c23582d51a5ce2fcd2c6496353ff2cff0c37537b1ca81f0cd3d6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/internal_only/phase2_0000.npz",
+      "bytes": 96949,
+      "sha256": "797705262449d0f7f7f4d2ec4cea6c56950793bc3d98ea57766616952f61088a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/internal_only/phase2_0100.npz",
+      "bytes": 96972,
+      "sha256": "292ffcc17acc348479e2535de094397037f4fba77d01617db6c33730d13440ad"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/internal_only/phase2_0200.npz",
+      "bytes": 95277,
+      "sha256": "822e37e153dd6053d8057be5fa4eab594f3e33fed57dc716c32fe948d4badf4b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/internal_only/phase2_0300.npz",
+      "bytes": 94232,
+      "sha256": "716c21f46f8cb9c0b64d12f5180609883d6b24fb1a43dea0dedb11cd2936d0f7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/internal_only/phase2_0400.npz",
+      "bytes": 93715,
+      "sha256": "48d1dcb8b394de538245ab82387c8dec389dc06ea7c4697cff94be14b60bd737"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/frozen/phase2_0000.npz",
+      "bytes": 96949,
+      "sha256": "797705262449d0f7f7f4d2ec4cea6c56950793bc3d98ea57766616952f61088a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/frozen/phase2_0100.npz",
+      "bytes": 96949,
+      "sha256": "797705262449d0f7f7f4d2ec4cea6c56950793bc3d98ea57766616952f61088a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/frozen/phase2_0200.npz",
+      "bytes": 96949,
+      "sha256": "797705262449d0f7f7f4d2ec4cea6c56950793bc3d98ea57766616952f61088a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/frozen/phase2_0300.npz",
+      "bytes": 96949,
+      "sha256": "797705262449d0f7f7f4d2ec4cea6c56950793bc3d98ea57766616952f61088a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/rewired/frozen/phase2_0400.npz",
+      "bytes": 96949,
+      "sha256": "797705262449d0f7f7f4d2ec4cea6c56950793bc3d98ea57766616952f61088a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/prefix/phase1_0400.npz",
+      "bytes": 96828,
+      "sha256": "d5891f95e4536fc9d5351a0b7418c0578beb678c5ae6259242a770f83bea2cac"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/full/phase2_0000.npz",
+      "bytes": 96824,
+      "sha256": "d600cbd503bb53f46b5181b2d44282174b580791f7beddd7a376a9ddb1b15294"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/full/phase2_0100.npz",
+      "bytes": 96817,
+      "sha256": "d6efa4aaa2c397f9a98acbb892c716a22a03ffcaddaa4e9ca494c8d1b582c4d5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/full/phase2_0200.npz",
+      "bytes": 95862,
+      "sha256": "4d5147b133c75391d94907a8f82e92dd6a5d30be3446b004f13694bf93ce0104"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/full/phase2_0300.npz",
+      "bytes": 94937,
+      "sha256": "7c32ebc6e14b2d18d56bca1f67e2aca974b5e50fa378e4aefd62637cff9be719"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/full/phase2_0400.npz",
+      "bytes": 94227,
+      "sha256": "222f46c0ae5410ce9cf2489dc6043ff2348260a2b1c2496aa5f46ebc510a2b0d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/head_only/phase2_0000.npz",
+      "bytes": 96824,
+      "sha256": "d600cbd503bb53f46b5181b2d44282174b580791f7beddd7a376a9ddb1b15294"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/head_only/phase2_0100.npz",
+      "bytes": 96828,
+      "sha256": "42282c4c299fc2da76b52b66fda3b0234c81e823e624ffee532a1ee4076260c3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/head_only/phase2_0200.npz",
+      "bytes": 96824,
+      "sha256": "6ee4e60b73ed974eb2e76f80d1d1df2081fc27fe72b6cdd699645d71ac2d3e07"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/head_only/phase2_0300.npz",
+      "bytes": 96812,
+      "sha256": "f657845704677e5e2df4de8550e259264c95dada7d58195d612333ee2b3eb0f3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/head_only/phase2_0400.npz",
+      "bytes": 96789,
+      "sha256": "420bd0aa2f3b158593aea9c96db948e66d616cf8663a515081a38496b5142454"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/internal_only/phase2_0000.npz",
+      "bytes": 96824,
+      "sha256": "d600cbd503bb53f46b5181b2d44282174b580791f7beddd7a376a9ddb1b15294"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/internal_only/phase2_0100.npz",
+      "bytes": 96854,
+      "sha256": "afda4a938a48deb6bbe81c0200e964f2c7f75a61e728e71f1fefb917868a1191"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/internal_only/phase2_0200.npz",
+      "bytes": 96282,
+      "sha256": "40282a3e54c8d76b21fe116a7ebde88d0e581834a17324175c6439c47c5b0e59"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/internal_only/phase2_0300.npz",
+      "bytes": 95503,
+      "sha256": "510e260efdfc20349e24aa13b6ae241d6bb386293204b1c45bede3889cc1b22f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/internal_only/phase2_0400.npz",
+      "bytes": 94649,
+      "sha256": "d4c804d1bcc98364c63556fcd4a9daef90a0bb837b27ceab19cd6f34b0d817d1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/frozen/phase2_0000.npz",
+      "bytes": 96824,
+      "sha256": "d600cbd503bb53f46b5181b2d44282174b580791f7beddd7a376a9ddb1b15294"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/frozen/phase2_0100.npz",
+      "bytes": 96824,
+      "sha256": "d600cbd503bb53f46b5181b2d44282174b580791f7beddd7a376a9ddb1b15294"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/frozen/phase2_0200.npz",
+      "bytes": 96824,
+      "sha256": "d600cbd503bb53f46b5181b2d44282174b580791f7beddd7a376a9ddb1b15294"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/frozen/phase2_0300.npz",
+      "bytes": 96824,
+      "sha256": "d600cbd503bb53f46b5181b2d44282174b580791f7beddd7a376a9ddb1b15294"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12004/ann/frozen/phase2_0400.npz",
+      "bytes": 96824,
+      "sha256": "d600cbd503bb53f46b5181b2d44282174b580791f7beddd7a376a9ddb1b15294"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/stimuli.npz",
+      "bytes": 46162,
+      "sha256": "7bc03201cfdd26deb3b1c0de0277cfb4f98581e2cba1ab36b7ed9afd60d7508b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/prefix/phase1_0400.npz",
+      "bytes": 7150,
+      "sha256": "131a52015687531c022a80c2712e29f0c503ef20f60549d525298fccedf029dc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/full/phase2_0000.npz",
+      "bytes": 7148,
+      "sha256": "ae0abe121a30abc690a2c792e8616c08184cf56d513313fcc425fa0def3e8067"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/full/phase2_0100.npz",
+      "bytes": 7137,
+      "sha256": "5d805b3146e1099cbef28e11f678513c77e9d2fcec345b2c7327fa3c2ec45286"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/full/phase2_0200.npz",
+      "bytes": 7190,
+      "sha256": "18f739789bd62074bb94ff215058b5a427e52da91371b44e2e47679a65c6b0d5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/full/phase2_0300.npz",
+      "bytes": 7184,
+      "sha256": "32b6807480823b0bdf959b07bef46887d2452941db6e3d0b77cced82c7f9b852"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/full/phase2_0400.npz",
+      "bytes": 7218,
+      "sha256": "d239ddf6a3d32ef2c6565043a4991f3a39cbd23558ab2b59aeeb228f507b7f01"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/head_only/phase2_0000.npz",
+      "bytes": 7148,
+      "sha256": "ae0abe121a30abc690a2c792e8616c08184cf56d513313fcc425fa0def3e8067"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/head_only/phase2_0100.npz",
+      "bytes": 7137,
+      "sha256": "5d805b3146e1099cbef28e11f678513c77e9d2fcec345b2c7327fa3c2ec45286"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/head_only/phase2_0200.npz",
+      "bytes": 7190,
+      "sha256": "18f739789bd62074bb94ff215058b5a427e52da91371b44e2e47679a65c6b0d5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/head_only/phase2_0300.npz",
+      "bytes": 7184,
+      "sha256": "32b6807480823b0bdf959b07bef46887d2452941db6e3d0b77cced82c7f9b852"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/head_only/phase2_0400.npz",
+      "bytes": 7218,
+      "sha256": "d239ddf6a3d32ef2c6565043a4991f3a39cbd23558ab2b59aeeb228f507b7f01"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/internal_only/phase2_0000.npz",
+      "bytes": 7148,
+      "sha256": "ae0abe121a30abc690a2c792e8616c08184cf56d513313fcc425fa0def3e8067"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/internal_only/phase2_0100.npz",
+      "bytes": 7148,
+      "sha256": "ae0abe121a30abc690a2c792e8616c08184cf56d513313fcc425fa0def3e8067"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/internal_only/phase2_0200.npz",
+      "bytes": 7148,
+      "sha256": "ae0abe121a30abc690a2c792e8616c08184cf56d513313fcc425fa0def3e8067"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/internal_only/phase2_0300.npz",
+      "bytes": 7148,
+      "sha256": "ae0abe121a30abc690a2c792e8616c08184cf56d513313fcc425fa0def3e8067"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/internal_only/phase2_0400.npz",
+      "bytes": 7148,
+      "sha256": "ae0abe121a30abc690a2c792e8616c08184cf56d513313fcc425fa0def3e8067"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/frozen/phase2_0000.npz",
+      "bytes": 7148,
+      "sha256": "ae0abe121a30abc690a2c792e8616c08184cf56d513313fcc425fa0def3e8067"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/frozen/phase2_0100.npz",
+      "bytes": 7148,
+      "sha256": "ae0abe121a30abc690a2c792e8616c08184cf56d513313fcc425fa0def3e8067"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/frozen/phase2_0200.npz",
+      "bytes": 7148,
+      "sha256": "ae0abe121a30abc690a2c792e8616c08184cf56d513313fcc425fa0def3e8067"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/frozen/phase2_0300.npz",
+      "bytes": 7148,
+      "sha256": "ae0abe121a30abc690a2c792e8616c08184cf56d513313fcc425fa0def3e8067"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/linear/frozen/phase2_0400.npz",
+      "bytes": 7148,
+      "sha256": "ae0abe121a30abc690a2c792e8616c08184cf56d513313fcc425fa0def3e8067"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/prefix/phase1_0400.npz",
+      "bytes": 95499,
+      "sha256": "fc65695c93249aef3c8b3d79160e17da21624e104154a91de159a00aad427c2d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/full/phase2_0000.npz",
+      "bytes": 95495,
+      "sha256": "6817f7d375fbf50ebd37f2635237dde2f131e0d7f61b29e2ce09f5b1fd075273"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/full/phase2_0100.npz",
+      "bytes": 97674,
+      "sha256": "370784551a363034b6d4b343556933c19ec07a7a96ed4b3a094e8cf912cc670d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/full/phase2_0200.npz",
+      "bytes": 97450,
+      "sha256": "75995138e20ab8284557871a8e9793be9ae77743cd8998d343e8c6a51dd59680"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/full/phase2_0300.npz",
+      "bytes": 95539,
+      "sha256": "055b206e9c3f4e81250b69b2f8aa5b2fe77099144de715830eae186268aaefae"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/full/phase2_0400.npz",
+      "bytes": 94569,
+      "sha256": "bcb51c6432b6a9c8aa2b635cb96193c353d3158031066061a8291dcd9b7566c1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/head_only/phase2_0000.npz",
+      "bytes": 95495,
+      "sha256": "6817f7d375fbf50ebd37f2635237dde2f131e0d7f61b29e2ce09f5b1fd075273"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/head_only/phase2_0100.npz",
+      "bytes": 95496,
+      "sha256": "52c4210ffd62d9344dbfca1d4dce82242aa69b4f157e86362d5ad2b98d43e776"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/head_only/phase2_0200.npz",
+      "bytes": 95490,
+      "sha256": "1b674289b1100c2f377096ebf05cbf72521d2a693ee22a1fd458339493cc7848"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/head_only/phase2_0300.npz",
+      "bytes": 95496,
+      "sha256": "b96387c5c11f0f83001e7a9dde179c3f8cd1d1566d18aaf660ebf18209f253f6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/head_only/phase2_0400.npz",
+      "bytes": 95500,
+      "sha256": "a0d713c06dc69c0b4eafc51ebd8e7f725cd261b87103d56e29186bafe03c2538"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/internal_only/phase2_0000.npz",
+      "bytes": 95495,
+      "sha256": "6817f7d375fbf50ebd37f2635237dde2f131e0d7f61b29e2ce09f5b1fd075273"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/internal_only/phase2_0100.npz",
+      "bytes": 97662,
+      "sha256": "7baaccdef69f9518bdf23119db38579f56bab113ed39c9135fe275522da08300"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/internal_only/phase2_0200.npz",
+      "bytes": 97659,
+      "sha256": "c15f6f302211ee93f134a9f46b71937760736613f2642da64a81d442afca7573"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/internal_only/phase2_0300.npz",
+      "bytes": 97011,
+      "sha256": "b5eeb2c22c1e8867957e1afaaa9aa85baccbf0a93f3ac04d7ea66baec059295a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/internal_only/phase2_0400.npz",
+      "bytes": 94494,
+      "sha256": "d97ff3b75806bbbfb91f64e42b4fdc2a974d167d1cd9e990a93c57b41376a223"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/frozen/phase2_0000.npz",
+      "bytes": 95495,
+      "sha256": "6817f7d375fbf50ebd37f2635237dde2f131e0d7f61b29e2ce09f5b1fd075273"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/frozen/phase2_0100.npz",
+      "bytes": 95495,
+      "sha256": "6817f7d375fbf50ebd37f2635237dde2f131e0d7f61b29e2ce09f5b1fd075273"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/frozen/phase2_0200.npz",
+      "bytes": 95495,
+      "sha256": "6817f7d375fbf50ebd37f2635237dde2f131e0d7f61b29e2ce09f5b1fd075273"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/frozen/phase2_0300.npz",
+      "bytes": 95495,
+      "sha256": "6817f7d375fbf50ebd37f2635237dde2f131e0d7f61b29e2ce09f5b1fd075273"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/real/frozen/phase2_0400.npz",
+      "bytes": 95495,
+      "sha256": "6817f7d375fbf50ebd37f2635237dde2f131e0d7f61b29e2ce09f5b1fd075273"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/prefix/phase1_0400.npz",
+      "bytes": 97772,
+      "sha256": "5037022e9f5d9755a65c3b5a871423bfbfa82bf8d8d8b1909e77cfdb23dd280d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/full/phase2_0000.npz",
+      "bytes": 97768,
+      "sha256": "d455c2bfa500262b39a91f9afc191a8f2f895de5c0a98d4c5a6dbbff64ac7b3f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/full/phase2_0100.npz",
+      "bytes": 99729,
+      "sha256": "060c786b712e2343899c0ea14d048353d40987c61efb49da278157d6acee6da5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/full/phase2_0200.npz",
+      "bytes": 99723,
+      "sha256": "a6739c9bf0d07052e0365424a8f2969f97045cc4ebb8b3c37e899bb416d692a8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/full/phase2_0300.npz",
+      "bytes": 99598,
+      "sha256": "d582f15cc108d8c90be41cc7f10ca22462eb8bbd22775a60693fda64e0c6694c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/full/phase2_0400.npz",
+      "bytes": 97722,
+      "sha256": "754c62a0303ac0687de2bd34395e7be8fc1bc193c3fa5670be99b80195e4dcaf"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/head_only/phase2_0000.npz",
+      "bytes": 97768,
+      "sha256": "d455c2bfa500262b39a91f9afc191a8f2f895de5c0a98d4c5a6dbbff64ac7b3f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/head_only/phase2_0100.npz",
+      "bytes": 97760,
+      "sha256": "f1aea0f64664f984164af1975332d95f69c9ef7b2f908892905e1f2a106fed2a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/head_only/phase2_0200.npz",
+      "bytes": 97772,
+      "sha256": "f6b2eb6f5f55245298e159539441371e666231a5421d940af70c471ad4a7ae19"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/head_only/phase2_0300.npz",
+      "bytes": 97767,
+      "sha256": "2a69194e532e6ce027d25260fd374f32b58036200b6d53256e8dbbd9eff5bdf1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/head_only/phase2_0400.npz",
+      "bytes": 97772,
+      "sha256": "aee066d542a397869bf1c2c0e460cbacfe9348dca618fc315b35569cd92379fb"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/internal_only/phase2_0000.npz",
+      "bytes": 97768,
+      "sha256": "d455c2bfa500262b39a91f9afc191a8f2f895de5c0a98d4c5a6dbbff64ac7b3f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/internal_only/phase2_0100.npz",
+      "bytes": 99748,
+      "sha256": "1c786548b27c077fecdc6b512f208c5149054ec18106799bc5ab8df412e9774b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/internal_only/phase2_0200.npz",
+      "bytes": 99737,
+      "sha256": "c371947f08e63c8b091f01ecfe1b3a6303772ea810339bd2d94334ebf7f7cb24"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/internal_only/phase2_0300.npz",
+      "bytes": 99708,
+      "sha256": "99e805a219386d04d5b3bcfa39d40b3768b4aa5c0375ba1d84f5c063d56bb2e1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/internal_only/phase2_0400.npz",
+      "bytes": 98289,
+      "sha256": "f4cbc62d80064c65767fdb891597605f66951108789bb051a1f4922f704ae80a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/frozen/phase2_0000.npz",
+      "bytes": 97768,
+      "sha256": "d455c2bfa500262b39a91f9afc191a8f2f895de5c0a98d4c5a6dbbff64ac7b3f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/frozen/phase2_0100.npz",
+      "bytes": 97768,
+      "sha256": "d455c2bfa500262b39a91f9afc191a8f2f895de5c0a98d4c5a6dbbff64ac7b3f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/frozen/phase2_0200.npz",
+      "bytes": 97768,
+      "sha256": "d455c2bfa500262b39a91f9afc191a8f2f895de5c0a98d4c5a6dbbff64ac7b3f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/frozen/phase2_0300.npz",
+      "bytes": 97768,
+      "sha256": "d455c2bfa500262b39a91f9afc191a8f2f895de5c0a98d4c5a6dbbff64ac7b3f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/rewired/frozen/phase2_0400.npz",
+      "bytes": 97768,
+      "sha256": "d455c2bfa500262b39a91f9afc191a8f2f895de5c0a98d4c5a6dbbff64ac7b3f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/prefix/phase1_0400.npz",
+      "bytes": 97706,
+      "sha256": "4a06a82466db25198f1fe5ca04c0dac85366791d06565d25e2016b047b0129cf"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/full/phase2_0000.npz",
+      "bytes": 97702,
+      "sha256": "36457afbc673b61370bcfa72d92014185a1cc3d6515a1f8e5bd4221d1def50f5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/full/phase2_0100.npz",
+      "bytes": 99788,
+      "sha256": "d8ce710c7ad65345eb4a0dd56b6e50eefd2cac88222bdd185f8b3772a6fc041b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/full/phase2_0200.npz",
+      "bytes": 99648,
+      "sha256": "b22e1553706cf09dce67780408aa412ff75d781179a374388e3d49198b86b938"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/full/phase2_0300.npz",
+      "bytes": 99539,
+      "sha256": "aa33f084ffe5823468c82f6d8debefa161d5a33aa9b1fd21197c25d8e5f003c7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/full/phase2_0400.npz",
+      "bytes": 97438,
+      "sha256": "ee60e94f5afdca702b9127914b6a11d7d76879006e6727b0bf2716099f592684"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/head_only/phase2_0000.npz",
+      "bytes": 97702,
+      "sha256": "36457afbc673b61370bcfa72d92014185a1cc3d6515a1f8e5bd4221d1def50f5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/head_only/phase2_0100.npz",
+      "bytes": 97706,
+      "sha256": "b6d16ea265603f12182a4d983876b2f508617c7b01e9a73b987edb350b042f4f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/head_only/phase2_0200.npz",
+      "bytes": 97702,
+      "sha256": "b3f628d16d4c9d721ce5553a7661ad8c54ef11680718d446632a9243c0fadbfa"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/head_only/phase2_0300.npz",
+      "bytes": 97709,
+      "sha256": "d3e05b39d240cb8201389b0a98d6467e08168648e0b25ab122b62c14140070e5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/head_only/phase2_0400.npz",
+      "bytes": 97716,
+      "sha256": "b8ed90670e21b486a0e0dc9fd16a2fc864ebc31fe3cdf8ac40ce50e351a7f2b7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/internal_only/phase2_0000.npz",
+      "bytes": 97702,
+      "sha256": "36457afbc673b61370bcfa72d92014185a1cc3d6515a1f8e5bd4221d1def50f5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/internal_only/phase2_0100.npz",
+      "bytes": 99796,
+      "sha256": "f170aee1192f83df2ba0104e4820f004016ab615ff683c9f8c45bf515906bd4a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/internal_only/phase2_0200.npz",
+      "bytes": 99784,
+      "sha256": "9f296a4d7ad75b7a162a0cf105bd945699bc2f577a6583890185e0a16a1c1fd5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/internal_only/phase2_0300.npz",
+      "bytes": 99610,
+      "sha256": "4ebddf8e614f90423bcdad12a5f2a070cd29dd687f3b8bb8b8b7d96275308e9d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/internal_only/phase2_0400.npz",
+      "bytes": 97539,
+      "sha256": "c49ea42a6936a26470825d96f2e71276694e73d5520ce42b565977eeeaaac37c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/frozen/phase2_0000.npz",
+      "bytes": 97702,
+      "sha256": "36457afbc673b61370bcfa72d92014185a1cc3d6515a1f8e5bd4221d1def50f5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/frozen/phase2_0100.npz",
+      "bytes": 97702,
+      "sha256": "36457afbc673b61370bcfa72d92014185a1cc3d6515a1f8e5bd4221d1def50f5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/frozen/phase2_0200.npz",
+      "bytes": 97702,
+      "sha256": "36457afbc673b61370bcfa72d92014185a1cc3d6515a1f8e5bd4221d1def50f5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/frozen/phase2_0300.npz",
+      "bytes": 97702,
+      "sha256": "36457afbc673b61370bcfa72d92014185a1cc3d6515a1f8e5bd4221d1def50f5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12005/ann/frozen/phase2_0400.npz",
+      "bytes": 97702,
+      "sha256": "36457afbc673b61370bcfa72d92014185a1cc3d6515a1f8e5bd4221d1def50f5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/stimuli.npz",
+      "bytes": 46146,
+      "sha256": "8077d2bb3e2cc0263928afa46fe4ece22f517066e4bd0de8bf68e3ee98ea9bbe"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/prefix/phase1_0400.npz",
+      "bytes": 6973,
+      "sha256": "7bf463c84eba08b0f250b0f75b091780b2a4d0d2866a0a3b0bb92c5c99aa8669"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/full/phase2_0000.npz",
+      "bytes": 6971,
+      "sha256": "5cb19beb875b19c5390a791f76457ee9da6b3e8dd78263f9b3c5501298df5ef0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/full/phase2_0100.npz",
+      "bytes": 6992,
+      "sha256": "848084a5525fbc4d6a382d772afeb682b8eb3a54c4e845245afa43ea31c0c19c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/full/phase2_0200.npz",
+      "bytes": 6983,
+      "sha256": "eddc59b771eee247684d03fa7ed94d904e55eac0015e1ba3b8cb2bd7bff97a40"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/full/phase2_0300.npz",
+      "bytes": 7004,
+      "sha256": "5a53695f9f568a97094affa2702b155c09a9df93894430557d4dda6610a0f5b4"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/full/phase2_0400.npz",
+      "bytes": 7023,
+      "sha256": "b0cd3652d69ce469d6009afb593c4811346670adff472a477212b0d6ab54170e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/head_only/phase2_0000.npz",
+      "bytes": 6971,
+      "sha256": "5cb19beb875b19c5390a791f76457ee9da6b3e8dd78263f9b3c5501298df5ef0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/head_only/phase2_0100.npz",
+      "bytes": 6992,
+      "sha256": "848084a5525fbc4d6a382d772afeb682b8eb3a54c4e845245afa43ea31c0c19c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/head_only/phase2_0200.npz",
+      "bytes": 6983,
+      "sha256": "eddc59b771eee247684d03fa7ed94d904e55eac0015e1ba3b8cb2bd7bff97a40"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/head_only/phase2_0300.npz",
+      "bytes": 7004,
+      "sha256": "5a53695f9f568a97094affa2702b155c09a9df93894430557d4dda6610a0f5b4"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/head_only/phase2_0400.npz",
+      "bytes": 7023,
+      "sha256": "b0cd3652d69ce469d6009afb593c4811346670adff472a477212b0d6ab54170e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/internal_only/phase2_0000.npz",
+      "bytes": 6971,
+      "sha256": "5cb19beb875b19c5390a791f76457ee9da6b3e8dd78263f9b3c5501298df5ef0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/internal_only/phase2_0100.npz",
+      "bytes": 6971,
+      "sha256": "5cb19beb875b19c5390a791f76457ee9da6b3e8dd78263f9b3c5501298df5ef0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/internal_only/phase2_0200.npz",
+      "bytes": 6971,
+      "sha256": "5cb19beb875b19c5390a791f76457ee9da6b3e8dd78263f9b3c5501298df5ef0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/internal_only/phase2_0300.npz",
+      "bytes": 6971,
+      "sha256": "5cb19beb875b19c5390a791f76457ee9da6b3e8dd78263f9b3c5501298df5ef0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/internal_only/phase2_0400.npz",
+      "bytes": 6971,
+      "sha256": "5cb19beb875b19c5390a791f76457ee9da6b3e8dd78263f9b3c5501298df5ef0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/frozen/phase2_0000.npz",
+      "bytes": 6971,
+      "sha256": "5cb19beb875b19c5390a791f76457ee9da6b3e8dd78263f9b3c5501298df5ef0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/frozen/phase2_0100.npz",
+      "bytes": 6971,
+      "sha256": "5cb19beb875b19c5390a791f76457ee9da6b3e8dd78263f9b3c5501298df5ef0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/frozen/phase2_0200.npz",
+      "bytes": 6971,
+      "sha256": "5cb19beb875b19c5390a791f76457ee9da6b3e8dd78263f9b3c5501298df5ef0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/frozen/phase2_0300.npz",
+      "bytes": 6971,
+      "sha256": "5cb19beb875b19c5390a791f76457ee9da6b3e8dd78263f9b3c5501298df5ef0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/linear/frozen/phase2_0400.npz",
+      "bytes": 6971,
+      "sha256": "5cb19beb875b19c5390a791f76457ee9da6b3e8dd78263f9b3c5501298df5ef0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/prefix/phase1_0400.npz",
+      "bytes": 93463,
+      "sha256": "336df9213a9780a34e10680d9729fd72f3ccca349feb66bcfc19d390471c4914"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/full/phase2_0000.npz",
+      "bytes": 93459,
+      "sha256": "bb481a2c10f3c460afd41730effe5eed36437ff8d16c3aa2837ced7159f916f3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/full/phase2_0100.npz",
+      "bytes": 93561,
+      "sha256": "3580aa95a87248850e4bfb326230359051c505daa40b8d6e1234535f0f8761ca"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/full/phase2_0200.npz",
+      "bytes": 91780,
+      "sha256": "a59d50b3767042b2a61bad57fade904a0c18d4225f6aa04d0ccf7f73593e989d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/full/phase2_0300.npz",
+      "bytes": 90405,
+      "sha256": "7bfca1d6fb4d6f81c1fcb1cc1f37cb15c913715bd56d95dbefe6648c9d21ab86"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/full/phase2_0400.npz",
+      "bytes": 89902,
+      "sha256": "92c6210b793b4f87aa6039544298256c64288f9970965ae7a15dfaace1844cc7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/head_only/phase2_0000.npz",
+      "bytes": 93459,
+      "sha256": "bb481a2c10f3c460afd41730effe5eed36437ff8d16c3aa2837ced7159f916f3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/head_only/phase2_0100.npz",
+      "bytes": 93454,
+      "sha256": "24fb7c0be19e234b580eac1239716fce5d15ff6144afdc98badbef42d0ecc9d6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/head_only/phase2_0200.npz",
+      "bytes": 93464,
+      "sha256": "39b2f3e7e6f0d57a560df939ae4b31394e7a234c7c7b51e59f603ad1576362c8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/head_only/phase2_0300.npz",
+      "bytes": 93461,
+      "sha256": "54a97d1a3245276cbc5c2f0d675a02ad20560ae4434a901d96883b16e1bdd8d9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/head_only/phase2_0400.npz",
+      "bytes": 93451,
+      "sha256": "0675cebed2f4270a0ff0df7deac8065aef5e8c76972604b9825e93f55c0a9ed8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/internal_only/phase2_0000.npz",
+      "bytes": 93459,
+      "sha256": "bb481a2c10f3c460afd41730effe5eed36437ff8d16c3aa2837ced7159f916f3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/internal_only/phase2_0100.npz",
+      "bytes": 93556,
+      "sha256": "bc0929af0a6d412c3d88ab155fbe3915293c1007873e724d54ed89c87df897a5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/internal_only/phase2_0200.npz",
+      "bytes": 93251,
+      "sha256": "ba50f6148c4a7583248d981f008e03f1bfe585dbb1bb7fcec96d68fcc1f030ea"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/internal_only/phase2_0300.npz",
+      "bytes": 90856,
+      "sha256": "e2791cbfc30c6e3f1d72e2f900077b6dcdec8b8c81727a52770a2c4d508c499c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/internal_only/phase2_0400.npz",
+      "bytes": 93503,
+      "sha256": "dc33df10201852e9c258fa8cd3f56d56670b14d2ff1b057ce7defd9628d77087"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/frozen/phase2_0000.npz",
+      "bytes": 93459,
+      "sha256": "bb481a2c10f3c460afd41730effe5eed36437ff8d16c3aa2837ced7159f916f3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/frozen/phase2_0100.npz",
+      "bytes": 93459,
+      "sha256": "bb481a2c10f3c460afd41730effe5eed36437ff8d16c3aa2837ced7159f916f3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/frozen/phase2_0200.npz",
+      "bytes": 93459,
+      "sha256": "bb481a2c10f3c460afd41730effe5eed36437ff8d16c3aa2837ced7159f916f3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/frozen/phase2_0300.npz",
+      "bytes": 93459,
+      "sha256": "bb481a2c10f3c460afd41730effe5eed36437ff8d16c3aa2837ced7159f916f3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/real/frozen/phase2_0400.npz",
+      "bytes": 93459,
+      "sha256": "bb481a2c10f3c460afd41730effe5eed36437ff8d16c3aa2837ced7159f916f3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/prefix/phase1_0400.npz",
+      "bytes": 95263,
+      "sha256": "807c6917482cba429f1d79e1f4f61f5bb68b447583c362292dd022fcf8408245"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/full/phase2_0000.npz",
+      "bytes": 95259,
+      "sha256": "01458ccbd979c1c4c8edbd831e00f36248d5fc1b81478b28fee6ae92af82d8ce"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/full/phase2_0100.npz",
+      "bytes": 95405,
+      "sha256": "166ca103061d67d700d287ae005cf4c11ece51620b0e4959a6e73dfa77db5540"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/full/phase2_0200.npz",
+      "bytes": 95287,
+      "sha256": "1081f11560e30f40c56696c5c1e8f733fcf3960fb3834c7ef4ce99e19e27ae38"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/full/phase2_0300.npz",
+      "bytes": 93896,
+      "sha256": "d1c73c772a550f5aec6ad4b978a3e9bfb4e5e6ffb2302eb9992673f080cd3c77"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/full/phase2_0400.npz",
+      "bytes": 95382,
+      "sha256": "179af0d5ba94ee9a999da2e1b2fb8502eec0f995309b30942d48a154c36160e1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/head_only/phase2_0000.npz",
+      "bytes": 95259,
+      "sha256": "01458ccbd979c1c4c8edbd831e00f36248d5fc1b81478b28fee6ae92af82d8ce"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/head_only/phase2_0100.npz",
+      "bytes": 95272,
+      "sha256": "065b3de7907fccd411877e494185221e796ba71eae5ab7ca1abc74d70c02f7aa"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/head_only/phase2_0200.npz",
+      "bytes": 95276,
+      "sha256": "b4b42e2cbf35d47c07ef65bdc6a766a24ab23bd8677319b0b4a56a48fa4cb6c1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/head_only/phase2_0300.npz",
+      "bytes": 95262,
+      "sha256": "453f6cff2cde5bf7847913863eb61b0f70eb3e7294b895b7e9c01f148327bd35"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/head_only/phase2_0400.npz",
+      "bytes": 95247,
+      "sha256": "e8c831ffa1af1f8dfbfc07c0d03f32af2dde77e1ea9f64a73ade9595383febf7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/internal_only/phase2_0000.npz",
+      "bytes": 95259,
+      "sha256": "01458ccbd979c1c4c8edbd831e00f36248d5fc1b81478b28fee6ae92af82d8ce"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/internal_only/phase2_0100.npz",
+      "bytes": 95390,
+      "sha256": "bea393408ae036b68abaab5e46edc3e207dcefef5165a312290a0ca6d9b5c24f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/internal_only/phase2_0200.npz",
+      "bytes": 95319,
+      "sha256": "3f0767e7cf064a19191debe73e248aeaff0ac03385aa311420c221ffd0aaf8f0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/internal_only/phase2_0300.npz",
+      "bytes": 95422,
+      "sha256": "cf9d78411ea9e6c8e0f1a86c310194afd36cd89302270cc31c7938320bfd2724"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/internal_only/phase2_0400.npz",
+      "bytes": 95434,
+      "sha256": "ca34795d60a06ccd3ec6675693d6858f2b5c23f876bc9957d4a7ded626f2cf0e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/frozen/phase2_0000.npz",
+      "bytes": 95259,
+      "sha256": "01458ccbd979c1c4c8edbd831e00f36248d5fc1b81478b28fee6ae92af82d8ce"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/frozen/phase2_0100.npz",
+      "bytes": 95259,
+      "sha256": "01458ccbd979c1c4c8edbd831e00f36248d5fc1b81478b28fee6ae92af82d8ce"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/frozen/phase2_0200.npz",
+      "bytes": 95259,
+      "sha256": "01458ccbd979c1c4c8edbd831e00f36248d5fc1b81478b28fee6ae92af82d8ce"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/frozen/phase2_0300.npz",
+      "bytes": 95259,
+      "sha256": "01458ccbd979c1c4c8edbd831e00f36248d5fc1b81478b28fee6ae92af82d8ce"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/rewired/frozen/phase2_0400.npz",
+      "bytes": 95259,
+      "sha256": "01458ccbd979c1c4c8edbd831e00f36248d5fc1b81478b28fee6ae92af82d8ce"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/prefix/phase1_0400.npz",
+      "bytes": 95468,
+      "sha256": "39a5066af9878781b23c021ac16dc8c2e3941dea8587879a2333a6aaf2d78700"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/full/phase2_0000.npz",
+      "bytes": 95464,
+      "sha256": "265458c89dacc13a7a42484f4f9f7b1cfbf91fdb9caf650eac19ac13c9cb8c51"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/full/phase2_0100.npz",
+      "bytes": 95530,
+      "sha256": "a462c66d7f287dd4da7626688e7ca8a992c5b78d49ae67d62c84fa10211f5500"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/full/phase2_0200.npz",
+      "bytes": 95448,
+      "sha256": "ace1b458e89c18f47acffd9f34f78fe269daf8d5f8322b1658b7c4478f1357fd"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/full/phase2_0300.npz",
+      "bytes": 93897,
+      "sha256": "773539355cb99ebf13ebb8dcf73ca856b750f88b9f8650675f6e0d085eb6fc10"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/full/phase2_0400.npz",
+      "bytes": 95606,
+      "sha256": "ac23fe60811bba2199442804507be5c86932f74bd17d077aa0b8703397ae4178"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/head_only/phase2_0000.npz",
+      "bytes": 95464,
+      "sha256": "265458c89dacc13a7a42484f4f9f7b1cfbf91fdb9caf650eac19ac13c9cb8c51"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/head_only/phase2_0100.npz",
+      "bytes": 95471,
+      "sha256": "44a20b8c710334205ac7536ce52736396c759edf4aa5befe2129c580d6110a53"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/head_only/phase2_0200.npz",
+      "bytes": 95477,
+      "sha256": "64abdcbd3018a665fba18b24c41c27de33b2c0701229d7b6cf42170c8d06a1dd"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/head_only/phase2_0300.npz",
+      "bytes": 95462,
+      "sha256": "ce44247961871179151850a4afa92bb19507ce8c9c6f264a1d8e9b5550afa9e8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/head_only/phase2_0400.npz",
+      "bytes": 95446,
+      "sha256": "876cab23e06aab11cd914df57601af86698e89356991c83ac24efcf04b65aa17"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/internal_only/phase2_0000.npz",
+      "bytes": 95464,
+      "sha256": "265458c89dacc13a7a42484f4f9f7b1cfbf91fdb9caf650eac19ac13c9cb8c51"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/internal_only/phase2_0100.npz",
+      "bytes": 95540,
+      "sha256": "3cfda030a7f9ffe274ec3cfc30efeeb3d85f54b4dfc3aa0ce2b89c6f88a0d586"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/internal_only/phase2_0200.npz",
+      "bytes": 95475,
+      "sha256": "b4aae885250bffc5393c6225b63a25cdafb4e3350acaeecd57a99e0e06a6777a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/internal_only/phase2_0300.npz",
+      "bytes": 94322,
+      "sha256": "95290d6e0217b6b2275c6fc3b16c3dcf14eb75b28628a36d12f9115dfe4ade09"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/internal_only/phase2_0400.npz",
+      "bytes": 95639,
+      "sha256": "3ebc9b5965493092aa3bbba93d7e9e5300fe41321f39ef0e20ea4092445b8ed4"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/frozen/phase2_0000.npz",
+      "bytes": 95464,
+      "sha256": "265458c89dacc13a7a42484f4f9f7b1cfbf91fdb9caf650eac19ac13c9cb8c51"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/frozen/phase2_0100.npz",
+      "bytes": 95464,
+      "sha256": "265458c89dacc13a7a42484f4f9f7b1cfbf91fdb9caf650eac19ac13c9cb8c51"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/frozen/phase2_0200.npz",
+      "bytes": 95464,
+      "sha256": "265458c89dacc13a7a42484f4f9f7b1cfbf91fdb9caf650eac19ac13c9cb8c51"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/frozen/phase2_0300.npz",
+      "bytes": 95464,
+      "sha256": "265458c89dacc13a7a42484f4f9f7b1cfbf91fdb9caf650eac19ac13c9cb8c51"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12006/ann/frozen/phase2_0400.npz",
+      "bytes": 95464,
+      "sha256": "265458c89dacc13a7a42484f4f9f7b1cfbf91fdb9caf650eac19ac13c9cb8c51"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/stimuli.npz",
+      "bytes": 46193,
+      "sha256": "cd6c74500890e1d18a2bef6586021b43d3511b11faafe185231f47d881d33bce"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/prefix/phase1_0400.npz",
+      "bytes": 7178,
+      "sha256": "7468e7d33c803a17e7c647bc6cba6d0e4b42c78feed9d0d1140ba4d45596abef"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/full/phase2_0000.npz",
+      "bytes": 7176,
+      "sha256": "1d7497d4b7ca1d834138f12a6b650540e52b3561aad949a94cb4f5fc10d9febc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/full/phase2_0100.npz",
+      "bytes": 7205,
+      "sha256": "16ad7cccbbb395353b0012c13d0077eb9096456605e295b5e0366d26ce9cabb5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/full/phase2_0200.npz",
+      "bytes": 7207,
+      "sha256": "21a543eb7da3c5796cd0033f225aedd376c4c25a22416a25d6013ed4c318bdb4"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/full/phase2_0300.npz",
+      "bytes": 7219,
+      "sha256": "d20efc61c024e01b881aaa4cf40eb924a61303e05a538539ee435eee60f1a517"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/full/phase2_0400.npz",
+      "bytes": 7206,
+      "sha256": "ddb589e4a8176d87650a0c9355968720051abd690ae196a00661347a46aa2acc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/head_only/phase2_0000.npz",
+      "bytes": 7176,
+      "sha256": "1d7497d4b7ca1d834138f12a6b650540e52b3561aad949a94cb4f5fc10d9febc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/head_only/phase2_0100.npz",
+      "bytes": 7205,
+      "sha256": "16ad7cccbbb395353b0012c13d0077eb9096456605e295b5e0366d26ce9cabb5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/head_only/phase2_0200.npz",
+      "bytes": 7207,
+      "sha256": "21a543eb7da3c5796cd0033f225aedd376c4c25a22416a25d6013ed4c318bdb4"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/head_only/phase2_0300.npz",
+      "bytes": 7219,
+      "sha256": "d20efc61c024e01b881aaa4cf40eb924a61303e05a538539ee435eee60f1a517"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/head_only/phase2_0400.npz",
+      "bytes": 7206,
+      "sha256": "ddb589e4a8176d87650a0c9355968720051abd690ae196a00661347a46aa2acc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/internal_only/phase2_0000.npz",
+      "bytes": 7176,
+      "sha256": "1d7497d4b7ca1d834138f12a6b650540e52b3561aad949a94cb4f5fc10d9febc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/internal_only/phase2_0100.npz",
+      "bytes": 7176,
+      "sha256": "1d7497d4b7ca1d834138f12a6b650540e52b3561aad949a94cb4f5fc10d9febc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/internal_only/phase2_0200.npz",
+      "bytes": 7176,
+      "sha256": "1d7497d4b7ca1d834138f12a6b650540e52b3561aad949a94cb4f5fc10d9febc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/internal_only/phase2_0300.npz",
+      "bytes": 7176,
+      "sha256": "1d7497d4b7ca1d834138f12a6b650540e52b3561aad949a94cb4f5fc10d9febc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/internal_only/phase2_0400.npz",
+      "bytes": 7176,
+      "sha256": "1d7497d4b7ca1d834138f12a6b650540e52b3561aad949a94cb4f5fc10d9febc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/frozen/phase2_0000.npz",
+      "bytes": 7176,
+      "sha256": "1d7497d4b7ca1d834138f12a6b650540e52b3561aad949a94cb4f5fc10d9febc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/frozen/phase2_0100.npz",
+      "bytes": 7176,
+      "sha256": "1d7497d4b7ca1d834138f12a6b650540e52b3561aad949a94cb4f5fc10d9febc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/frozen/phase2_0200.npz",
+      "bytes": 7176,
+      "sha256": "1d7497d4b7ca1d834138f12a6b650540e52b3561aad949a94cb4f5fc10d9febc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/frozen/phase2_0300.npz",
+      "bytes": 7176,
+      "sha256": "1d7497d4b7ca1d834138f12a6b650540e52b3561aad949a94cb4f5fc10d9febc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/linear/frozen/phase2_0400.npz",
+      "bytes": 7176,
+      "sha256": "1d7497d4b7ca1d834138f12a6b650540e52b3561aad949a94cb4f5fc10d9febc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/prefix/phase1_0400.npz",
+      "bytes": 97714,
+      "sha256": "2bdcdb95d497da8fb28fab88a6d7ec2db6f18d07a17fe30a94594252f9e517b8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/full/phase2_0000.npz",
+      "bytes": 97710,
+      "sha256": "b89832b89f4999174e02b41d3a3fdea106b3273907881c111a9d3cca7bbccb7a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/full/phase2_0100.npz",
+      "bytes": 97753,
+      "sha256": "5eaa907d72c3405a81b01af7733e3d84cbc01d1d380ce86873129ae4cb9393c0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/full/phase2_0200.npz",
+      "bytes": 97808,
+      "sha256": "909c68c5f5bb66a1177aae59b102751c3f6d70cd1e8cc0df26d70156ccbcd720"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/full/phase2_0300.npz",
+      "bytes": 95960,
+      "sha256": "9f73133d39a04cb496627e2ea7e3c65bcff14d177bef1601b3f7614b2f402d9a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/full/phase2_0400.npz",
+      "bytes": 97721,
+      "sha256": "4c277b5391668a13834044538f736d6899f444aaf6e067abe0c0db8f57e832c2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/head_only/phase2_0000.npz",
+      "bytes": 97710,
+      "sha256": "b89832b89f4999174e02b41d3a3fdea106b3273907881c111a9d3cca7bbccb7a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/head_only/phase2_0100.npz",
+      "bytes": 97718,
+      "sha256": "48ea516af2f43b3f11b581c5678d1315f1a8042e052a287ff11391fb186de068"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/head_only/phase2_0200.npz",
+      "bytes": 97718,
+      "sha256": "e89eb8ea24fa9e1e8a2ccb2f4111e63d785c9e455f510285b25fc91dfcfc9417"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/head_only/phase2_0300.npz",
+      "bytes": 97714,
+      "sha256": "9f15f9bfd57d9fd6cd3863e66f14fe952840f651d068a5ab6e15e0a643511309"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/head_only/phase2_0400.npz",
+      "bytes": 97672,
+      "sha256": "12669d3965f2eb92c6ded172b2809ea47df5d6b9d97a1fe641bc78078d5fff59"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/internal_only/phase2_0000.npz",
+      "bytes": 97710,
+      "sha256": "b89832b89f4999174e02b41d3a3fdea106b3273907881c111a9d3cca7bbccb7a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/internal_only/phase2_0100.npz",
+      "bytes": 97758,
+      "sha256": "fb1f915eb52b2fbda69eea8d30294fa71c043a809ddb6c4a6c6a4d9707cfd05f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/internal_only/phase2_0200.npz",
+      "bytes": 97780,
+      "sha256": "33901ca4208f5111607409c6a4fb830fc8e9e54985505dbac928a419a9e27ced"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/internal_only/phase2_0300.npz",
+      "bytes": 97026,
+      "sha256": "f6c1ec624210c7b5c1282ff25b4b5466fd2f674f13b9c1241cc6e953e80b4afb"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/internal_only/phase2_0400.npz",
+      "bytes": 96366,
+      "sha256": "2bab48967ee873519f8ab75f5ff0bcb71f80ab10875f21122ba7b858b57bf7d3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/frozen/phase2_0000.npz",
+      "bytes": 97710,
+      "sha256": "b89832b89f4999174e02b41d3a3fdea106b3273907881c111a9d3cca7bbccb7a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/frozen/phase2_0100.npz",
+      "bytes": 97710,
+      "sha256": "b89832b89f4999174e02b41d3a3fdea106b3273907881c111a9d3cca7bbccb7a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/frozen/phase2_0200.npz",
+      "bytes": 97710,
+      "sha256": "b89832b89f4999174e02b41d3a3fdea106b3273907881c111a9d3cca7bbccb7a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/frozen/phase2_0300.npz",
+      "bytes": 97710,
+      "sha256": "b89832b89f4999174e02b41d3a3fdea106b3273907881c111a9d3cca7bbccb7a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/real/frozen/phase2_0400.npz",
+      "bytes": 97710,
+      "sha256": "b89832b89f4999174e02b41d3a3fdea106b3273907881c111a9d3cca7bbccb7a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/prefix/phase1_0400.npz",
+      "bytes": 97662,
+      "sha256": "c1894baa7784b2372ff90ef1621f8e550f35f240b6ae09dd54a452ea4671fc30"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/full/phase2_0000.npz",
+      "bytes": 97658,
+      "sha256": "393850152bf385c77036a95347b886a24a7ae6a1408abf10edcff8049368a694"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/full/phase2_0100.npz",
+      "bytes": 99627,
+      "sha256": "3e9d75c6221bea773d9caf3322107636b9e824a910425e9e784f56de6496402a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/full/phase2_0200.npz",
+      "bytes": 99685,
+      "sha256": "ac8005f81fd453e5209f7aab868561383e9de6dba90546fdea6c5bfdb7a7c5f2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/full/phase2_0300.npz",
+      "bytes": 97404,
+      "sha256": "9357c5e7de05119893c4def91e0848ed291449f790bb6c9f36a9a593bef46411"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/full/phase2_0400.npz",
+      "bytes": 98891,
+      "sha256": "151be72950a674e03e754b3052811d5c455d42b11c64788081566fef85c5410e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/head_only/phase2_0000.npz",
+      "bytes": 97658,
+      "sha256": "393850152bf385c77036a95347b886a24a7ae6a1408abf10edcff8049368a694"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/head_only/phase2_0100.npz",
+      "bytes": 97655,
+      "sha256": "1ffb8f52c3792fcfc7cbf7ad697d0b30d6edc635b098977b46911894e0953a85"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/head_only/phase2_0200.npz",
+      "bytes": 97665,
+      "sha256": "0d6af955ab1fc489f503b23f999effa950f374ec42d3e7e96964507968326a05"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/head_only/phase2_0300.npz",
+      "bytes": 97661,
+      "sha256": "a5a1d5fc8a6b73a1dcf4e31129a3a29ea806f0792bf6020fc314491bd8fd8576"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/head_only/phase2_0400.npz",
+      "bytes": 97637,
+      "sha256": "6d4c0ccbdefd6b0e923f402722d2e879ad4b518401ea67e86639348e6dbff773"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/internal_only/phase2_0000.npz",
+      "bytes": 97658,
+      "sha256": "393850152bf385c77036a95347b886a24a7ae6a1408abf10edcff8049368a694"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/internal_only/phase2_0100.npz",
+      "bytes": 99599,
+      "sha256": "1945c7f32f2d03b0a86799a8785d07b78e5bc88bad4825a3301db6f8569483d0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/internal_only/phase2_0200.npz",
+      "bytes": 99695,
+      "sha256": "12356775406cd648370062bf21d9cdcc493e70d3840510ea0079db34eca3ec90"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/internal_only/phase2_0300.npz",
+      "bytes": 98021,
+      "sha256": "4cb1b06e92f0363d3f02fc56b66bf5a0835c5a9e811c4532360560cc6f2e2d35"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/internal_only/phase2_0400.npz",
+      "bytes": 96639,
+      "sha256": "f7fa8aff013bd031d1942425c938cdfbf1885f9376ff518aa54a4052fac5d338"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/frozen/phase2_0000.npz",
+      "bytes": 97658,
+      "sha256": "393850152bf385c77036a95347b886a24a7ae6a1408abf10edcff8049368a694"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/frozen/phase2_0100.npz",
+      "bytes": 97658,
+      "sha256": "393850152bf385c77036a95347b886a24a7ae6a1408abf10edcff8049368a694"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/frozen/phase2_0200.npz",
+      "bytes": 97658,
+      "sha256": "393850152bf385c77036a95347b886a24a7ae6a1408abf10edcff8049368a694"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/frozen/phase2_0300.npz",
+      "bytes": 97658,
+      "sha256": "393850152bf385c77036a95347b886a24a7ae6a1408abf10edcff8049368a694"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/rewired/frozen/phase2_0400.npz",
+      "bytes": 97658,
+      "sha256": "393850152bf385c77036a95347b886a24a7ae6a1408abf10edcff8049368a694"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/prefix/phase1_0400.npz",
+      "bytes": 100000,
+      "sha256": "eda7a8173fb2906c5aede9361bdd5f9c2ffb30244ff80b8de03658c77f99a089"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/full/phase2_0000.npz",
+      "bytes": 99996,
+      "sha256": "16e8afa4cafabc97f346f7d9c524e5f121e1ee66f3e22ef44b641fd3f5a82387"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/full/phase2_0100.npz",
+      "bytes": 100058,
+      "sha256": "1cec2ebf39676c0e05e82b9c014bc7fef804d984efd6aa2fb8380607fefaf40c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/full/phase2_0200.npz",
+      "bytes": 100070,
+      "sha256": "71ad7fa0a5520c4a0f7d723be196986cb78d3184894f303fbc9a2996a63981c4"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/full/phase2_0300.npz",
+      "bytes": 97426,
+      "sha256": "5fdce66d42414cf3628b56f4b72bc650c462df2d0425d5db3d6f3c11de4f48b1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/full/phase2_0400.npz",
+      "bytes": 96975,
+      "sha256": "67b2b7eaf4d4f5312cdbe1e69efe4eb4cbc37f5772785682912513ccbb8ba241"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/head_only/phase2_0000.npz",
+      "bytes": 99996,
+      "sha256": "16e8afa4cafabc97f346f7d9c524e5f121e1ee66f3e22ef44b641fd3f5a82387"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/head_only/phase2_0100.npz",
+      "bytes": 100011,
+      "sha256": "e6a1715931166db58e5be4d4104882e752206abdf16e36d6f7598b589c22e5e3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/head_only/phase2_0200.npz",
+      "bytes": 99999,
+      "sha256": "6a66673ca55099773f27e6dc6f1848b555a27773b7f6b3c3b4994cbfe3e791ec"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/head_only/phase2_0300.npz",
+      "bytes": 100004,
+      "sha256": "91db4fa5ae5f7ee4d7dbfc4755cd3c16ecb1bd7b236c4e318c2ce5523cdb399d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/head_only/phase2_0400.npz",
+      "bytes": 99987,
+      "sha256": "259c132c4dc4e59ab8b82857041897cdd320b2650d2e60a91a9236055935a62b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/internal_only/phase2_0000.npz",
+      "bytes": 99996,
+      "sha256": "16e8afa4cafabc97f346f7d9c524e5f121e1ee66f3e22ef44b641fd3f5a82387"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/internal_only/phase2_0100.npz",
+      "bytes": 100029,
+      "sha256": "bb3cd359306f95adaab191eb1435b947e126d41237152668c1c3fa67e3d33cc2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/internal_only/phase2_0200.npz",
+      "bytes": 100040,
+      "sha256": "bd085b6f4373f9937254fa9c0a2e9c810e6e921449ff70c83f494e7d4676d779"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/internal_only/phase2_0300.npz",
+      "bytes": 97963,
+      "sha256": "f22e0da4564380a25315e7be068e01aafb08ed83b449d75c01ee172e64ef3822"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/internal_only/phase2_0400.npz",
+      "bytes": 96654,
+      "sha256": "2c491602add31827ee5d52f2a2058b64ad32e74a9d444f44d1b76a49086ef241"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/frozen/phase2_0000.npz",
+      "bytes": 99996,
+      "sha256": "16e8afa4cafabc97f346f7d9c524e5f121e1ee66f3e22ef44b641fd3f5a82387"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/frozen/phase2_0100.npz",
+      "bytes": 99996,
+      "sha256": "16e8afa4cafabc97f346f7d9c524e5f121e1ee66f3e22ef44b641fd3f5a82387"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/frozen/phase2_0200.npz",
+      "bytes": 99996,
+      "sha256": "16e8afa4cafabc97f346f7d9c524e5f121e1ee66f3e22ef44b641fd3f5a82387"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/frozen/phase2_0300.npz",
+      "bytes": 99996,
+      "sha256": "16e8afa4cafabc97f346f7d9c524e5f121e1ee66f3e22ef44b641fd3f5a82387"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12007/ann/frozen/phase2_0400.npz",
+      "bytes": 99996,
+      "sha256": "16e8afa4cafabc97f346f7d9c524e5f121e1ee66f3e22ef44b641fd3f5a82387"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/stimuli.npz",
+      "bytes": 46200,
+      "sha256": "e168b782bbdcf0134862e201827a9e6f10926e87f3512a1706a093f79899b8dd"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/prefix/phase1_0400.npz",
+      "bytes": 7079,
+      "sha256": "23f2102b7e254686178a6600286196f04f077527804ca25d5add794004eb2de7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/full/phase2_0000.npz",
+      "bytes": 7077,
+      "sha256": "cf63638d07a963fd3431dd4399a8414d6eeab07aaaa65be9660e50ea4d5ac6a3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/full/phase2_0100.npz",
+      "bytes": 7082,
+      "sha256": "45a0f7026194fb1b7db4ab57e75271e8d38aba16367cfdeda72d6931eb8a8f42"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/full/phase2_0200.npz",
+      "bytes": 7091,
+      "sha256": "9ec59bbad729c46b31710bb9f3c69fdf7947df929e2a64540112cda5a9b154ac"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/full/phase2_0300.npz",
+      "bytes": 7089,
+      "sha256": "6736e45d5f74ccee1dd6229d796b138ddc0ef0c190c46e23d271b8c3af1dd377"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/full/phase2_0400.npz",
+      "bytes": 7106,
+      "sha256": "a3ff3ca6b5533fb00d97f2cdd405b7d51b6f1427d7211f1af8f1e895c837b3f0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/head_only/phase2_0000.npz",
+      "bytes": 7077,
+      "sha256": "cf63638d07a963fd3431dd4399a8414d6eeab07aaaa65be9660e50ea4d5ac6a3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/head_only/phase2_0100.npz",
+      "bytes": 7082,
+      "sha256": "45a0f7026194fb1b7db4ab57e75271e8d38aba16367cfdeda72d6931eb8a8f42"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/head_only/phase2_0200.npz",
+      "bytes": 7091,
+      "sha256": "9ec59bbad729c46b31710bb9f3c69fdf7947df929e2a64540112cda5a9b154ac"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/head_only/phase2_0300.npz",
+      "bytes": 7089,
+      "sha256": "6736e45d5f74ccee1dd6229d796b138ddc0ef0c190c46e23d271b8c3af1dd377"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/head_only/phase2_0400.npz",
+      "bytes": 7106,
+      "sha256": "a3ff3ca6b5533fb00d97f2cdd405b7d51b6f1427d7211f1af8f1e895c837b3f0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/internal_only/phase2_0000.npz",
+      "bytes": 7077,
+      "sha256": "cf63638d07a963fd3431dd4399a8414d6eeab07aaaa65be9660e50ea4d5ac6a3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/internal_only/phase2_0100.npz",
+      "bytes": 7077,
+      "sha256": "cf63638d07a963fd3431dd4399a8414d6eeab07aaaa65be9660e50ea4d5ac6a3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/internal_only/phase2_0200.npz",
+      "bytes": 7077,
+      "sha256": "cf63638d07a963fd3431dd4399a8414d6eeab07aaaa65be9660e50ea4d5ac6a3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/internal_only/phase2_0300.npz",
+      "bytes": 7077,
+      "sha256": "cf63638d07a963fd3431dd4399a8414d6eeab07aaaa65be9660e50ea4d5ac6a3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/internal_only/phase2_0400.npz",
+      "bytes": 7077,
+      "sha256": "cf63638d07a963fd3431dd4399a8414d6eeab07aaaa65be9660e50ea4d5ac6a3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/frozen/phase2_0000.npz",
+      "bytes": 7077,
+      "sha256": "cf63638d07a963fd3431dd4399a8414d6eeab07aaaa65be9660e50ea4d5ac6a3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/frozen/phase2_0100.npz",
+      "bytes": 7077,
+      "sha256": "cf63638d07a963fd3431dd4399a8414d6eeab07aaaa65be9660e50ea4d5ac6a3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/frozen/phase2_0200.npz",
+      "bytes": 7077,
+      "sha256": "cf63638d07a963fd3431dd4399a8414d6eeab07aaaa65be9660e50ea4d5ac6a3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/frozen/phase2_0300.npz",
+      "bytes": 7077,
+      "sha256": "cf63638d07a963fd3431dd4399a8414d6eeab07aaaa65be9660e50ea4d5ac6a3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/linear/frozen/phase2_0400.npz",
+      "bytes": 7077,
+      "sha256": "cf63638d07a963fd3431dd4399a8414d6eeab07aaaa65be9660e50ea4d5ac6a3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/prefix/phase1_0400.npz",
+      "bytes": 96005,
+      "sha256": "00b46d8b74323ac3a891ed144eaa71091c6bb2a2828d6c35f866d91cc764f164"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/full/phase2_0000.npz",
+      "bytes": 96001,
+      "sha256": "3fe53fbbb2f275e7c00c018c88ad9b15373ceedebc90656306f5aafaa1468c43"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/full/phase2_0100.npz",
+      "bytes": 96046,
+      "sha256": "b2216e457dc8ebd7f4e6d81f3acb8e5c452ebd2a712efdcf4efaa60b14524fc1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/full/phase2_0200.npz",
+      "bytes": 94202,
+      "sha256": "72546a61d626b93a608204a7d69408d560bfb85f87e395593b2256fd4df3dd02"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/full/phase2_0300.npz",
+      "bytes": 93268,
+      "sha256": "bb6d0a418a6da2dae40b0c5660b4b1c78ae676469f872fe4f267e0ad2f1f1408"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/full/phase2_0400.npz",
+      "bytes": 94840,
+      "sha256": "9010ec6a64b35a5046f063e373371af9f34b3f4b1a436968394a6f00218706f9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/head_only/phase2_0000.npz",
+      "bytes": 96001,
+      "sha256": "3fe53fbbb2f275e7c00c018c88ad9b15373ceedebc90656306f5aafaa1468c43"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/head_only/phase2_0100.npz",
+      "bytes": 96010,
+      "sha256": "bb3735751feff0bdb8937ee4f8c63904ff815df99b8bc12ec42275d08c352045"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/head_only/phase2_0200.npz",
+      "bytes": 96010,
+      "sha256": "2f426d0b72cce2fd0a70ce53bb9a97d94d18da7de62a31171b2681fa7e0ebc65"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/head_only/phase2_0300.npz",
+      "bytes": 95993,
+      "sha256": "f539f6555141e17d669994d0646d55d44ad139250a05568ff4bd2a957ce3c048"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/head_only/phase2_0400.npz",
+      "bytes": 95996,
+      "sha256": "f3cc7fec4c53f960eff132e3da840d67433aeeb73c76af8424c2c62b01254235"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/internal_only/phase2_0000.npz",
+      "bytes": 96001,
+      "sha256": "3fe53fbbb2f275e7c00c018c88ad9b15373ceedebc90656306f5aafaa1468c43"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/internal_only/phase2_0100.npz",
+      "bytes": 96052,
+      "sha256": "f063eb36b13207f7be61660b438490902ed0f4d650f27687d55a1bda7bf6c027"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/internal_only/phase2_0200.npz",
+      "bytes": 94402,
+      "sha256": "5bdb82cecb012c2a24ff1a06d0aa73fbdbda710534f5297094dad98453219736"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/internal_only/phase2_0300.npz",
+      "bytes": 92729,
+      "sha256": "d86071bb89ae3ebcaf36e45468b3bcfc5f1fc272ecf6db956fad6567d7bcc5cb"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/internal_only/phase2_0400.npz",
+      "bytes": 92210,
+      "sha256": "75340a76b59ee9ea5383f812614effb90044f869827c2844061bd8ef32f70691"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/frozen/phase2_0000.npz",
+      "bytes": 96001,
+      "sha256": "3fe53fbbb2f275e7c00c018c88ad9b15373ceedebc90656306f5aafaa1468c43"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/frozen/phase2_0100.npz",
+      "bytes": 96001,
+      "sha256": "3fe53fbbb2f275e7c00c018c88ad9b15373ceedebc90656306f5aafaa1468c43"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/frozen/phase2_0200.npz",
+      "bytes": 96001,
+      "sha256": "3fe53fbbb2f275e7c00c018c88ad9b15373ceedebc90656306f5aafaa1468c43"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/frozen/phase2_0300.npz",
+      "bytes": 96001,
+      "sha256": "3fe53fbbb2f275e7c00c018c88ad9b15373ceedebc90656306f5aafaa1468c43"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/real/frozen/phase2_0400.npz",
+      "bytes": 96001,
+      "sha256": "3fe53fbbb2f275e7c00c018c88ad9b15373ceedebc90656306f5aafaa1468c43"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/prefix/phase1_0400.npz",
+      "bytes": 97751,
+      "sha256": "92fd574635e0ea41681fd5b23f3878cca2f5cdd57d0224497d2ce0c99028284d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/full/phase2_0000.npz",
+      "bytes": 97747,
+      "sha256": "3e84ea2d61bbcc18337e0ee574396a6b26d9a32d9cec14f598a2cd87a677b613"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/full/phase2_0100.npz",
+      "bytes": 97795,
+      "sha256": "7da6b677322813772c98fc85477c8d6b0c951b4173b70fd263f51ccbfe1fd3f1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/full/phase2_0200.npz",
+      "bytes": 96436,
+      "sha256": "e8e28ef8ed62173533bab2c5570709a2e9bbcf27e8440a5a4ed78044809414f7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/full/phase2_0300.npz",
+      "bytes": 95267,
+      "sha256": "68a8221f45af87cd13ed8d3053665868faaa4c03e119cc133233fa10b4791f00"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/full/phase2_0400.npz",
+      "bytes": 94914,
+      "sha256": "b592e28ee205b3d93e0305018647c25331dd44d47bd4d62e6b7e3197bdd4c4d6"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/head_only/phase2_0000.npz",
+      "bytes": 97747,
+      "sha256": "3e84ea2d61bbcc18337e0ee574396a6b26d9a32d9cec14f598a2cd87a677b613"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/head_only/phase2_0100.npz",
+      "bytes": 97750,
+      "sha256": "5c25c6503e8f1c23012c9e25567fc4202f5c017d807a94497914c8ff6fd93d1d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/head_only/phase2_0200.npz",
+      "bytes": 97756,
+      "sha256": "3cd7a6a581a30701d5a7ebc698b809d7b2ac8d47734be49a468f70ec63edb002"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/head_only/phase2_0300.npz",
+      "bytes": 97742,
+      "sha256": "a3b47854dd49d236345e7c6543d93a4e629f8d0211245711a29f4ad0e260f51b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/head_only/phase2_0400.npz",
+      "bytes": 97737,
+      "sha256": "7100ea0edd4152041b56bf06297483d0c654f59de2db25aac3d5122e7814be56"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/internal_only/phase2_0000.npz",
+      "bytes": 97747,
+      "sha256": "3e84ea2d61bbcc18337e0ee574396a6b26d9a32d9cec14f598a2cd87a677b613"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/internal_only/phase2_0100.npz",
+      "bytes": 97779,
+      "sha256": "4f58936ed156f5d590b7189c6086b7b96a7ff6c8ff6c087355ee434726a26655"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/internal_only/phase2_0200.npz",
+      "bytes": 96793,
+      "sha256": "e073cb4e0361d3becd6ed97cf6136db32e7fe77912843cb6547b278e44df6150"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/internal_only/phase2_0300.npz",
+      "bytes": 94974,
+      "sha256": "c67874cc0fe396d16def0d1d1086846ea8c4866a81f7294ec49e358c5fe40774"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/internal_only/phase2_0400.npz",
+      "bytes": 94276,
+      "sha256": "a2e271435faa41a72eeca77bc4348809abb9d6b3accf4811f9b4f96710d2e683"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/frozen/phase2_0000.npz",
+      "bytes": 97747,
+      "sha256": "3e84ea2d61bbcc18337e0ee574396a6b26d9a32d9cec14f598a2cd87a677b613"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/frozen/phase2_0100.npz",
+      "bytes": 97747,
+      "sha256": "3e84ea2d61bbcc18337e0ee574396a6b26d9a32d9cec14f598a2cd87a677b613"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/frozen/phase2_0200.npz",
+      "bytes": 97747,
+      "sha256": "3e84ea2d61bbcc18337e0ee574396a6b26d9a32d9cec14f598a2cd87a677b613"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/frozen/phase2_0300.npz",
+      "bytes": 97747,
+      "sha256": "3e84ea2d61bbcc18337e0ee574396a6b26d9a32d9cec14f598a2cd87a677b613"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/rewired/frozen/phase2_0400.npz",
+      "bytes": 97747,
+      "sha256": "3e84ea2d61bbcc18337e0ee574396a6b26d9a32d9cec14f598a2cd87a677b613"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/prefix/phase1_0400.npz",
+      "bytes": 97837,
+      "sha256": "dac627321c15c52a9e2450abc8ad622e7d02742aece047597e60fb7bf2f298f0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/full/phase2_0000.npz",
+      "bytes": 97833,
+      "sha256": "c4b9d6606ab2c7ed20af721d29650b7fc9f32c80d0b06f9ebab0c1ff50c71c0b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/full/phase2_0100.npz",
+      "bytes": 97909,
+      "sha256": "a2f16c91a2f7cbcae485785fc36ca9c363731b7061d81169248d26e3cb64bf28"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/full/phase2_0200.npz",
+      "bytes": 96852,
+      "sha256": "5d1a70ec7b2063dc019a91195424928deb1ca095be67897e437774ae6a0b5d5d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/full/phase2_0300.npz",
+      "bytes": 95915,
+      "sha256": "44fa2d195922b483b1848a4556678522077df64d8580e4f0b0ababc82edc780a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/full/phase2_0400.npz",
+      "bytes": 97136,
+      "sha256": "f08997479212c975ee3cce985967951799750e80e903e4461cc355030da235e2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/head_only/phase2_0000.npz",
+      "bytes": 97833,
+      "sha256": "c4b9d6606ab2c7ed20af721d29650b7fc9f32c80d0b06f9ebab0c1ff50c71c0b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/head_only/phase2_0100.npz",
+      "bytes": 97829,
+      "sha256": "21bb67ae159dd76476bc83beaa3106f1029d32b73febd0069a8802c2c1f3636a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/head_only/phase2_0200.npz",
+      "bytes": 97830,
+      "sha256": "79760b2990b659c4ac34ffd433fd74cda870c80f3d1d860c07d1a1596cf5e1f9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/head_only/phase2_0300.npz",
+      "bytes": 97830,
+      "sha256": "18a94ae7fee1821ad88345f133477b5fc96f6d319c988e4cfc352dd0cb6f217f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/head_only/phase2_0400.npz",
+      "bytes": 97833,
+      "sha256": "79753766dc0fc997f976e866c4c8b5ddcd0c17b7ea0905dbb0468d1c4d2de907"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/internal_only/phase2_0000.npz",
+      "bytes": 97833,
+      "sha256": "c4b9d6606ab2c7ed20af721d29650b7fc9f32c80d0b06f9ebab0c1ff50c71c0b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/internal_only/phase2_0100.npz",
+      "bytes": 97898,
+      "sha256": "f48ac0f971216f9a97421ba8215695814c172252366f2bd8dc954772de10c6fb"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/internal_only/phase2_0200.npz",
+      "bytes": 97082,
+      "sha256": "31b6252de9a99aae1911cc03cb33194c626294c335d7c1e08cd3720b78a53cf2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/internal_only/phase2_0300.npz",
+      "bytes": 96211,
+      "sha256": "da3e5c70e84191bf6f48c4b75bbe9c8b86a6d5c48ee49064833895ee233f1450"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/internal_only/phase2_0400.npz",
+      "bytes": 97924,
+      "sha256": "cc0a669c4b4e745bcf7fdbb09c04da0ee221a595db3ba4940c4218e8027e1a65"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/frozen/phase2_0000.npz",
+      "bytes": 97833,
+      "sha256": "c4b9d6606ab2c7ed20af721d29650b7fc9f32c80d0b06f9ebab0c1ff50c71c0b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/frozen/phase2_0100.npz",
+      "bytes": 97833,
+      "sha256": "c4b9d6606ab2c7ed20af721d29650b7fc9f32c80d0b06f9ebab0c1ff50c71c0b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/frozen/phase2_0200.npz",
+      "bytes": 97833,
+      "sha256": "c4b9d6606ab2c7ed20af721d29650b7fc9f32c80d0b06f9ebab0c1ff50c71c0b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/frozen/phase2_0300.npz",
+      "bytes": 97833,
+      "sha256": "c4b9d6606ab2c7ed20af721d29650b7fc9f32c80d0b06f9ebab0c1ff50c71c0b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12008/ann/frozen/phase2_0400.npz",
+      "bytes": 97833,
+      "sha256": "c4b9d6606ab2c7ed20af721d29650b7fc9f32c80d0b06f9ebab0c1ff50c71c0b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/stimuli.npz",
+      "bytes": 46137,
+      "sha256": "ad2af064fa913d39a3b4a4958ef6d2d082cdeaa4da550840df3c34749e65f2e0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/prefix/phase1_0400.npz",
+      "bytes": 7184,
+      "sha256": "e36ecd794b99341d3f1e07196a8c703315b5c8b0a91834c194f6cd051bae4c1e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/full/phase2_0000.npz",
+      "bytes": 7182,
+      "sha256": "962c7d20b6cd9c5804864c3772d6f46b913f9e85f3e3511b03020fc5db3b1f9f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/full/phase2_0100.npz",
+      "bytes": 7199,
+      "sha256": "d50b6b4443240ecf0b21f40715bd4b500b961f670460fe405e7a32609c36a10d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/full/phase2_0200.npz",
+      "bytes": 7219,
+      "sha256": "f057c4c730af3a0832b711750e4ca2053c10719e688ef0895857b3f0f3f3865c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/full/phase2_0300.npz",
+      "bytes": 7205,
+      "sha256": "546556c4215ed92f6eb6ff705987793e8e8d3918e5cb3fc170628441774e5201"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/full/phase2_0400.npz",
+      "bytes": 7215,
+      "sha256": "be79d07991a65dda2202fb78755f5e96be1fcd1de7e963bc4b0a25ee39428760"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/head_only/phase2_0000.npz",
+      "bytes": 7182,
+      "sha256": "962c7d20b6cd9c5804864c3772d6f46b913f9e85f3e3511b03020fc5db3b1f9f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/head_only/phase2_0100.npz",
+      "bytes": 7199,
+      "sha256": "d50b6b4443240ecf0b21f40715bd4b500b961f670460fe405e7a32609c36a10d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/head_only/phase2_0200.npz",
+      "bytes": 7219,
+      "sha256": "f057c4c730af3a0832b711750e4ca2053c10719e688ef0895857b3f0f3f3865c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/head_only/phase2_0300.npz",
+      "bytes": 7205,
+      "sha256": "546556c4215ed92f6eb6ff705987793e8e8d3918e5cb3fc170628441774e5201"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/head_only/phase2_0400.npz",
+      "bytes": 7215,
+      "sha256": "be79d07991a65dda2202fb78755f5e96be1fcd1de7e963bc4b0a25ee39428760"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/internal_only/phase2_0000.npz",
+      "bytes": 7182,
+      "sha256": "962c7d20b6cd9c5804864c3772d6f46b913f9e85f3e3511b03020fc5db3b1f9f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/internal_only/phase2_0100.npz",
+      "bytes": 7182,
+      "sha256": "962c7d20b6cd9c5804864c3772d6f46b913f9e85f3e3511b03020fc5db3b1f9f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/internal_only/phase2_0200.npz",
+      "bytes": 7182,
+      "sha256": "962c7d20b6cd9c5804864c3772d6f46b913f9e85f3e3511b03020fc5db3b1f9f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/internal_only/phase2_0300.npz",
+      "bytes": 7182,
+      "sha256": "962c7d20b6cd9c5804864c3772d6f46b913f9e85f3e3511b03020fc5db3b1f9f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/internal_only/phase2_0400.npz",
+      "bytes": 7182,
+      "sha256": "962c7d20b6cd9c5804864c3772d6f46b913f9e85f3e3511b03020fc5db3b1f9f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/frozen/phase2_0000.npz",
+      "bytes": 7182,
+      "sha256": "962c7d20b6cd9c5804864c3772d6f46b913f9e85f3e3511b03020fc5db3b1f9f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/frozen/phase2_0100.npz",
+      "bytes": 7182,
+      "sha256": "962c7d20b6cd9c5804864c3772d6f46b913f9e85f3e3511b03020fc5db3b1f9f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/frozen/phase2_0200.npz",
+      "bytes": 7182,
+      "sha256": "962c7d20b6cd9c5804864c3772d6f46b913f9e85f3e3511b03020fc5db3b1f9f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/frozen/phase2_0300.npz",
+      "bytes": 7182,
+      "sha256": "962c7d20b6cd9c5804864c3772d6f46b913f9e85f3e3511b03020fc5db3b1f9f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/linear/frozen/phase2_0400.npz",
+      "bytes": 7182,
+      "sha256": "962c7d20b6cd9c5804864c3772d6f46b913f9e85f3e3511b03020fc5db3b1f9f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/prefix/phase1_0400.npz",
+      "bytes": 98548,
+      "sha256": "cc708861642e0e1d30c3bb8688c2eedb862d06be9f975526f05e173782be8f3e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/full/phase2_0000.npz",
+      "bytes": 98544,
+      "sha256": "fd507f17ffd707e06329a85ff46eb5e0fcdbd1add6af19c83e6e207167cfffb7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/full/phase2_0100.npz",
+      "bytes": 98567,
+      "sha256": "f40f9a8d3d33417d16b948f4882897c2529981934f54896ee0f2c9b5dc05999e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/full/phase2_0200.npz",
+      "bytes": 96666,
+      "sha256": "9313206fc79bd8a5990a36135d6e97cc8892c1483969466d344fb570c4c4a9ff"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/full/phase2_0300.npz",
+      "bytes": 96316,
+      "sha256": "d2658cbf2ac9a74386db8bb7fe7018ec614f06a3b468ed85774d632949f19fd9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/full/phase2_0400.npz",
+      "bytes": 95766,
+      "sha256": "7f67b572c4faa9a3d6e94b8b2945be4f003f1531281650aecb465eb2150aef60"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/head_only/phase2_0000.npz",
+      "bytes": 98544,
+      "sha256": "fd507f17ffd707e06329a85ff46eb5e0fcdbd1add6af19c83e6e207167cfffb7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/head_only/phase2_0100.npz",
+      "bytes": 98534,
+      "sha256": "5ffb02ec3fa973ee4e7ac243f43e159b1e5c491c9add0bf059cb2dcd3d315aa4"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/head_only/phase2_0200.npz",
+      "bytes": 98538,
+      "sha256": "b848ed0808603fa2830aede64fcef5b3fd8c737e4702edde8e843b7cc45d1505"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/head_only/phase2_0300.npz",
+      "bytes": 98533,
+      "sha256": "3764c2bfea2d39e7b024a155d35652bb85556ae9cc306e7514843720f3044c58"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/head_only/phase2_0400.npz",
+      "bytes": 98537,
+      "sha256": "21963ae009901c3fc56e5f857d3e10950ecb7eb9613d294e5d92c7d896b0db0d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/internal_only/phase2_0000.npz",
+      "bytes": 98544,
+      "sha256": "fd507f17ffd707e06329a85ff46eb5e0fcdbd1add6af19c83e6e207167cfffb7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/internal_only/phase2_0100.npz",
+      "bytes": 98541,
+      "sha256": "45c0e97fb0a9813dd330213eafb219a5493fda294221d59c05cab2c96061852d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/internal_only/phase2_0200.npz",
+      "bytes": 96855,
+      "sha256": "a9e32550c74dc718ded56b3c80700d0d932d3934791ac43ac7860d4f139c600e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/internal_only/phase2_0300.npz",
+      "bytes": 95467,
+      "sha256": "99e1dc422700c1020bd6024e9f5c5f66cd5bdb530ca64f48f84bc1cb59937831"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/internal_only/phase2_0400.npz",
+      "bytes": 98607,
+      "sha256": "99e217683427f8a0c30aea4505365252e90c38a6639e449106d8bb622e4872e7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/frozen/phase2_0000.npz",
+      "bytes": 98544,
+      "sha256": "fd507f17ffd707e06329a85ff46eb5e0fcdbd1add6af19c83e6e207167cfffb7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/frozen/phase2_0100.npz",
+      "bytes": 98544,
+      "sha256": "fd507f17ffd707e06329a85ff46eb5e0fcdbd1add6af19c83e6e207167cfffb7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/frozen/phase2_0200.npz",
+      "bytes": 98544,
+      "sha256": "fd507f17ffd707e06329a85ff46eb5e0fcdbd1add6af19c83e6e207167cfffb7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/frozen/phase2_0300.npz",
+      "bytes": 98544,
+      "sha256": "fd507f17ffd707e06329a85ff46eb5e0fcdbd1add6af19c83e6e207167cfffb7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/real/frozen/phase2_0400.npz",
+      "bytes": 98544,
+      "sha256": "fd507f17ffd707e06329a85ff46eb5e0fcdbd1add6af19c83e6e207167cfffb7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/prefix/phase1_0400.npz",
+      "bytes": 100080,
+      "sha256": "b02350e9c90d47f23970c986acea1febc807bc74bbd70993a189331dbb60b7f3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/full/phase2_0000.npz",
+      "bytes": 100076,
+      "sha256": "d7ff83983d71f76fb922ca3695707f838af437bd6409da0142fd540767c47115"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/full/phase2_0100.npz",
+      "bytes": 100079,
+      "sha256": "3cac074f23a6c108e290d43672292ee5b74ce2615294796f55aa305dc4edc278"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/full/phase2_0200.npz",
+      "bytes": 97809,
+      "sha256": "ccf57676d20c6ed38f0b01d7b35b7fd7d8662cac01b9e43c7c1e411636555255"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/full/phase2_0300.npz",
+      "bytes": 97994,
+      "sha256": "f8641a31863ec7697d2b84fed56ad9351bd61edfb61ec913d0a2d16750d23045"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/full/phase2_0400.npz",
+      "bytes": 96949,
+      "sha256": "f01093dc81ae7341af6c677232b1c458344b454e8e3ed9be0131c3fb4461cbd5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/head_only/phase2_0000.npz",
+      "bytes": 100076,
+      "sha256": "d7ff83983d71f76fb922ca3695707f838af437bd6409da0142fd540767c47115"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/head_only/phase2_0100.npz",
+      "bytes": 100068,
+      "sha256": "dd05c0618ae7f6ec5b7037d75ca9f064c687939abdc36e3b4949e519739d7402"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/head_only/phase2_0200.npz",
+      "bytes": 100071,
+      "sha256": "6a604266ab2d1c977cb67366f59a42e6fa1f7359c6373db033b4214f2f2b3266"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/head_only/phase2_0300.npz",
+      "bytes": 100062,
+      "sha256": "d132bf26a1fea38cb0f2ed5e277ad9e277987cc904e91a7aa273a78ac679e59a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/head_only/phase2_0400.npz",
+      "bytes": 100087,
+      "sha256": "8eec797733b791a54dc364402d28953ed4660b918776b099e11d6a88232758b1"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/internal_only/phase2_0000.npz",
+      "bytes": 100076,
+      "sha256": "d7ff83983d71f76fb922ca3695707f838af437bd6409da0142fd540767c47115"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/internal_only/phase2_0100.npz",
+      "bytes": 100080,
+      "sha256": "5ab602cd44840edb0a6871be370de7edc4b7751b81ecc231830a3c4b1f32ee67"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/internal_only/phase2_0200.npz",
+      "bytes": 98000,
+      "sha256": "9b0d1f0c037f37a42c5f27e540d54c05d03562598a1ef0a9434329a2a93e5258"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/internal_only/phase2_0300.npz",
+      "bytes": 96677,
+      "sha256": "70e4b6c4f46fe5d82fc0a6465c2d45a08eb6fa99bab12b41c10bf6ab14e7c647"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/internal_only/phase2_0400.npz",
+      "bytes": 100136,
+      "sha256": "4cae6c8b833cd98edfe215c15039060e89de7b6ceb519c8cdec0916796ce093e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/frozen/phase2_0000.npz",
+      "bytes": 100076,
+      "sha256": "d7ff83983d71f76fb922ca3695707f838af437bd6409da0142fd540767c47115"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/frozen/phase2_0100.npz",
+      "bytes": 100076,
+      "sha256": "d7ff83983d71f76fb922ca3695707f838af437bd6409da0142fd540767c47115"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/frozen/phase2_0200.npz",
+      "bytes": 100076,
+      "sha256": "d7ff83983d71f76fb922ca3695707f838af437bd6409da0142fd540767c47115"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/frozen/phase2_0300.npz",
+      "bytes": 100076,
+      "sha256": "d7ff83983d71f76fb922ca3695707f838af437bd6409da0142fd540767c47115"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/rewired/frozen/phase2_0400.npz",
+      "bytes": 100076,
+      "sha256": "d7ff83983d71f76fb922ca3695707f838af437bd6409da0142fd540767c47115"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/prefix/phase1_0400.npz",
+      "bytes": 100242,
+      "sha256": "01f84b13567704e0a40e817d5a5351b6bb0ea40c2b1823c3e0e000364e62e67b"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/full/phase2_0000.npz",
+      "bytes": 100238,
+      "sha256": "d996983fb61d275dbdcfe86db05e7832a9ac176906ebaed89d5fa741e27e7556"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/full/phase2_0100.npz",
+      "bytes": 100246,
+      "sha256": "b0991be7f97c65e7beab49eb590d0aaa0dded1f8a25e4bbc34d1602eefa62d15"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/full/phase2_0200.npz",
+      "bytes": 98218,
+      "sha256": "d0f2907a072d4428ec96b7f68199eaf1f2ca259e48081dac798bdb5fdb4b2165"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/full/phase2_0300.npz",
+      "bytes": 98357,
+      "sha256": "84881737de2b8cb418b12740989035f4059386fbea0686c0b3b5d80ae2ca00d4"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/full/phase2_0400.npz",
+      "bytes": 97398,
+      "sha256": "b642f22df1fe0923c50f530f61474956ede5d7e352516807cfad21fc65c29b3d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/head_only/phase2_0000.npz",
+      "bytes": 100238,
+      "sha256": "d996983fb61d275dbdcfe86db05e7832a9ac176906ebaed89d5fa741e27e7556"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/head_only/phase2_0100.npz",
+      "bytes": 100238,
+      "sha256": "912382ba0a89539a8687021d9896a90615934323827b9029bf99c06c4170b46e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/head_only/phase2_0200.npz",
+      "bytes": 100243,
+      "sha256": "ada2abe1b3287883e1a0729a2f38ba77e71594ca47fad1b9a103ef973906839f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/head_only/phase2_0300.npz",
+      "bytes": 100233,
+      "sha256": "836e45b2fd657ee49bb99988d6baa25035895ddec1af64438ea6094d9c03ee77"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/head_only/phase2_0400.npz",
+      "bytes": 100255,
+      "sha256": "7a56eb0fb1e1d96210d0718780e33d7ae971a47d7c0b060b3abef7b58d857f04"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/internal_only/phase2_0000.npz",
+      "bytes": 100238,
+      "sha256": "d996983fb61d275dbdcfe86db05e7832a9ac176906ebaed89d5fa741e27e7556"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/internal_only/phase2_0100.npz",
+      "bytes": 100256,
+      "sha256": "b6ba80af782e891b30d67eebd9d2ec3596b11ac4de6a9e6913b08860b6b156d8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/internal_only/phase2_0200.npz",
+      "bytes": 98369,
+      "sha256": "fd2f199befd1e6524a0a03b6ea37de47fb56b1cf3290ed02d98bef5f2dbb9c1d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/internal_only/phase2_0300.npz",
+      "bytes": 96933,
+      "sha256": "90e0473eeb7da28fa8a32da3d4ebf7c6a91094b727181164eb969cde95d27cbe"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/internal_only/phase2_0400.npz",
+      "bytes": 100285,
+      "sha256": "c0bac0d242eb5fd1e8fa798da802d79637eddea48b022cb0cc8768eb35336161"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/frozen/phase2_0000.npz",
+      "bytes": 100238,
+      "sha256": "d996983fb61d275dbdcfe86db05e7832a9ac176906ebaed89d5fa741e27e7556"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/frozen/phase2_0100.npz",
+      "bytes": 100238,
+      "sha256": "d996983fb61d275dbdcfe86db05e7832a9ac176906ebaed89d5fa741e27e7556"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/frozen/phase2_0200.npz",
+      "bytes": 100238,
+      "sha256": "d996983fb61d275dbdcfe86db05e7832a9ac176906ebaed89d5fa741e27e7556"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/frozen/phase2_0300.npz",
+      "bytes": 100238,
+      "sha256": "d996983fb61d275dbdcfe86db05e7832a9ac176906ebaed89d5fa741e27e7556"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12009/ann/frozen/phase2_0400.npz",
+      "bytes": 100238,
+      "sha256": "d996983fb61d275dbdcfe86db05e7832a9ac176906ebaed89d5fa741e27e7556"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/stimuli.npz",
+      "bytes": 46314,
+      "sha256": "2989f294e293b460662ffff5948555ab740bc0974d71a124459464ea09c444b3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/prefix/phase1_0400.npz",
+      "bytes": 7058,
+      "sha256": "518bc30fa7e528ab3d5cba4e65cea6c83c29ab1ceb8750cc65dd83199c2c4a43"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/full/phase2_0000.npz",
+      "bytes": 7056,
+      "sha256": "3bf8bb4d058c0a1c69c3ce863a84ca27c1ad0c52dd173c1ae7368ba088491e09"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/full/phase2_0100.npz",
+      "bytes": 7084,
+      "sha256": "a34c699c66a3361972b07b58df9e4ca0d9686125b1f988b7975e92d61bc2861e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/full/phase2_0200.npz",
+      "bytes": 7111,
+      "sha256": "c5e8acaec16d007b0f2234f5908cad1b474f0e9aa3ee379774b1b1c46f412072"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/full/phase2_0300.npz",
+      "bytes": 7098,
+      "sha256": "f87749bea66b355685c92eddd927c5f70978a62a739493b2e976d801a4e59bbc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/full/phase2_0400.npz",
+      "bytes": 7112,
+      "sha256": "1fdec3426f786c288d64611e4e42c10eaeb1f5af3505ec66053f5b32b0d41e06"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/head_only/phase2_0000.npz",
+      "bytes": 7056,
+      "sha256": "3bf8bb4d058c0a1c69c3ce863a84ca27c1ad0c52dd173c1ae7368ba088491e09"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/head_only/phase2_0100.npz",
+      "bytes": 7084,
+      "sha256": "a34c699c66a3361972b07b58df9e4ca0d9686125b1f988b7975e92d61bc2861e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/head_only/phase2_0200.npz",
+      "bytes": 7111,
+      "sha256": "c5e8acaec16d007b0f2234f5908cad1b474f0e9aa3ee379774b1b1c46f412072"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/head_only/phase2_0300.npz",
+      "bytes": 7098,
+      "sha256": "f87749bea66b355685c92eddd927c5f70978a62a739493b2e976d801a4e59bbc"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/head_only/phase2_0400.npz",
+      "bytes": 7112,
+      "sha256": "1fdec3426f786c288d64611e4e42c10eaeb1f5af3505ec66053f5b32b0d41e06"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/internal_only/phase2_0000.npz",
+      "bytes": 7056,
+      "sha256": "3bf8bb4d058c0a1c69c3ce863a84ca27c1ad0c52dd173c1ae7368ba088491e09"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/internal_only/phase2_0100.npz",
+      "bytes": 7056,
+      "sha256": "3bf8bb4d058c0a1c69c3ce863a84ca27c1ad0c52dd173c1ae7368ba088491e09"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/internal_only/phase2_0200.npz",
+      "bytes": 7056,
+      "sha256": "3bf8bb4d058c0a1c69c3ce863a84ca27c1ad0c52dd173c1ae7368ba088491e09"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/internal_only/phase2_0300.npz",
+      "bytes": 7056,
+      "sha256": "3bf8bb4d058c0a1c69c3ce863a84ca27c1ad0c52dd173c1ae7368ba088491e09"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/internal_only/phase2_0400.npz",
+      "bytes": 7056,
+      "sha256": "3bf8bb4d058c0a1c69c3ce863a84ca27c1ad0c52dd173c1ae7368ba088491e09"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/frozen/phase2_0000.npz",
+      "bytes": 7056,
+      "sha256": "3bf8bb4d058c0a1c69c3ce863a84ca27c1ad0c52dd173c1ae7368ba088491e09"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/frozen/phase2_0100.npz",
+      "bytes": 7056,
+      "sha256": "3bf8bb4d058c0a1c69c3ce863a84ca27c1ad0c52dd173c1ae7368ba088491e09"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/frozen/phase2_0200.npz",
+      "bytes": 7056,
+      "sha256": "3bf8bb4d058c0a1c69c3ce863a84ca27c1ad0c52dd173c1ae7368ba088491e09"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/frozen/phase2_0300.npz",
+      "bytes": 7056,
+      "sha256": "3bf8bb4d058c0a1c69c3ce863a84ca27c1ad0c52dd173c1ae7368ba088491e09"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/linear/frozen/phase2_0400.npz",
+      "bytes": 7056,
+      "sha256": "3bf8bb4d058c0a1c69c3ce863a84ca27c1ad0c52dd173c1ae7368ba088491e09"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/prefix/phase1_0400.npz",
+      "bytes": 88845,
+      "sha256": "552bfaa61fefd5c77a6f8827ca03bc8d8ac5117cc0c476603dade9cfe95c2e0e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/full/phase2_0000.npz",
+      "bytes": 88841,
+      "sha256": "e5158802a4a2f4d5698872e2abc8bef4381f1ddeebdc0b70ab1b2eb3cac9e9f2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/full/phase2_0100.npz",
+      "bytes": 90913,
+      "sha256": "65feb64aaf4fc1520dcf5d722238a43e686f007e825242982b051dd2119d369f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/full/phase2_0200.npz",
+      "bytes": 89513,
+      "sha256": "71b6d86be68d3e14a064c401fed09ac1f1897732840ead726dc9ecd98f064ff5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/full/phase2_0300.npz",
+      "bytes": 88388,
+      "sha256": "f13b2ca45084298f4e1008e99689952118d9163f8f4d3eaddb70cfb27b01aea7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/full/phase2_0400.npz",
+      "bytes": 90944,
+      "sha256": "69c01e2e2953d281690350879c36a7971e27dbf41e3e280140c4393d25df7ac9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/head_only/phase2_0000.npz",
+      "bytes": 88841,
+      "sha256": "e5158802a4a2f4d5698872e2abc8bef4381f1ddeebdc0b70ab1b2eb3cac9e9f2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/head_only/phase2_0100.npz",
+      "bytes": 88848,
+      "sha256": "4183e4b43478874ef6faf5afeb77da588cc0ef5b9f25df0876abc3e2feb6ccf0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/head_only/phase2_0200.npz",
+      "bytes": 88855,
+      "sha256": "6aa584352e16e693a4762f34656676258b8ec0bcd5570d40c46adfd19ae88e58"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/head_only/phase2_0300.npz",
+      "bytes": 88859,
+      "sha256": "61f20a3f5a56441815e8ee54e7191296abc8598a869c65e12cef8a96f3425d37"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/head_only/phase2_0400.npz",
+      "bytes": 88853,
+      "sha256": "dce6a323c92d943da39a7b99a1619de5dd95c4c5eeaba0cad1bdacc9e7c56089"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/internal_only/phase2_0000.npz",
+      "bytes": 88841,
+      "sha256": "e5158802a4a2f4d5698872e2abc8bef4381f1ddeebdc0b70ab1b2eb3cac9e9f2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/internal_only/phase2_0100.npz",
+      "bytes": 90979,
+      "sha256": "b09272c86c90669664d936d1bfba3ee90373d9759acdbb5e76d1c27ee8f8f233"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/internal_only/phase2_0200.npz",
+      "bytes": 90557,
+      "sha256": "c0108a64d6bf568ed5978d66af9c8adc1d7985a235f6005eccd6596f593b8480"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/internal_only/phase2_0300.npz",
+      "bytes": 89331,
+      "sha256": "d9f342e6d72a3e16e5338dca7d8e79ad1757c3625a465d517cac320562b9b206"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/internal_only/phase2_0400.npz",
+      "bytes": 87310,
+      "sha256": "58b43ad663028d5473ffeb9f5bf5e30f0ce2d0a82d15311c421079ed3ebc28ff"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/frozen/phase2_0000.npz",
+      "bytes": 88841,
+      "sha256": "e5158802a4a2f4d5698872e2abc8bef4381f1ddeebdc0b70ab1b2eb3cac9e9f2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/frozen/phase2_0100.npz",
+      "bytes": 88841,
+      "sha256": "e5158802a4a2f4d5698872e2abc8bef4381f1ddeebdc0b70ab1b2eb3cac9e9f2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/frozen/phase2_0200.npz",
+      "bytes": 88841,
+      "sha256": "e5158802a4a2f4d5698872e2abc8bef4381f1ddeebdc0b70ab1b2eb3cac9e9f2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/frozen/phase2_0300.npz",
+      "bytes": 88841,
+      "sha256": "e5158802a4a2f4d5698872e2abc8bef4381f1ddeebdc0b70ab1b2eb3cac9e9f2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/real/frozen/phase2_0400.npz",
+      "bytes": 88841,
+      "sha256": "e5158802a4a2f4d5698872e2abc8bef4381f1ddeebdc0b70ab1b2eb3cac9e9f2"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/prefix/phase1_0400.npz",
+      "bytes": 90548,
+      "sha256": "1705eef2c7a2c9e08a3088fbd660a374aa89456e60f46f670a6dc13084f27c4f"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/full/phase2_0000.npz",
+      "bytes": 90544,
+      "sha256": "758ca3fde5f3f47f2c3cb2a5aa15dd9184dff7eae87745a96e3aa1d2590df2fd"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/full/phase2_0100.npz",
+      "bytes": 92566,
+      "sha256": "a2ad688761ba62b652ba534b65bee4416db1b3e27b2388e41d8e34dce0c969a9"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/full/phase2_0200.npz",
+      "bytes": 91563,
+      "sha256": "8607c0dd39e9b5c12116db1ec3fed185a69f8e33ccdbab22cc05bfabe8e7ee42"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/full/phase2_0300.npz",
+      "bytes": 91296,
+      "sha256": "3bfffc9b22e4235a56f4f6c6dd0d66773bb7592501c9c86aeae18db7e95f98e3"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/full/phase2_0400.npz",
+      "bytes": 92630,
+      "sha256": "f4153678ff7b8a02acb92572bc73e6423b7018ce27c51ec4e77d59ab9008ad83"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/head_only/phase2_0000.npz",
+      "bytes": 90544,
+      "sha256": "758ca3fde5f3f47f2c3cb2a5aa15dd9184dff7eae87745a96e3aa1d2590df2fd"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/head_only/phase2_0100.npz",
+      "bytes": 90549,
+      "sha256": "d6c5e39e399b6d5428ec6f8c05979d8ca57ea5530724cb7ccfde93ca0eda5881"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/head_only/phase2_0200.npz",
+      "bytes": 90557,
+      "sha256": "f904d35188f84ced75db357e3b80544a35c237cd7e20a22e69ab69d12a153741"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/head_only/phase2_0300.npz",
+      "bytes": 90556,
+      "sha256": "022eac87459e59e8f72448a483cd8081b26c4c60a79e91898d4b837c39127428"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/head_only/phase2_0400.npz",
+      "bytes": 90551,
+      "sha256": "8452c5784d89a95f01f198370adf9260c7a041585f7f8184f7126a73dcac0311"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/internal_only/phase2_0000.npz",
+      "bytes": 90544,
+      "sha256": "758ca3fde5f3f47f2c3cb2a5aa15dd9184dff7eae87745a96e3aa1d2590df2fd"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/internal_only/phase2_0100.npz",
+      "bytes": 92590,
+      "sha256": "085358a3f16d3da8a57b752690fef06f8afef9bcbf9ddd1959905bfd2018840c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/internal_only/phase2_0200.npz",
+      "bytes": 92117,
+      "sha256": "40200708940aeaacce6694c770541518f6dad7d7d977814c6cf6a86a773fa9c8"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/internal_only/phase2_0300.npz",
+      "bytes": 90990,
+      "sha256": "739f5663a0c35e2761eeb4c6041e96da3643159bfc59d52461a937ff8576764a"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/internal_only/phase2_0400.npz",
+      "bytes": 89533,
+      "sha256": "996e0b2251ae157065198094b240e86490a11cb2665cf16eba03670fa89ba45c"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/frozen/phase2_0000.npz",
+      "bytes": 90544,
+      "sha256": "758ca3fde5f3f47f2c3cb2a5aa15dd9184dff7eae87745a96e3aa1d2590df2fd"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/frozen/phase2_0100.npz",
+      "bytes": 90544,
+      "sha256": "758ca3fde5f3f47f2c3cb2a5aa15dd9184dff7eae87745a96e3aa1d2590df2fd"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/frozen/phase2_0200.npz",
+      "bytes": 90544,
+      "sha256": "758ca3fde5f3f47f2c3cb2a5aa15dd9184dff7eae87745a96e3aa1d2590df2fd"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/frozen/phase2_0300.npz",
+      "bytes": 90544,
+      "sha256": "758ca3fde5f3f47f2c3cb2a5aa15dd9184dff7eae87745a96e3aa1d2590df2fd"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/rewired/frozen/phase2_0400.npz",
+      "bytes": 90544,
+      "sha256": "758ca3fde5f3f47f2c3cb2a5aa15dd9184dff7eae87745a96e3aa1d2590df2fd"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/prefix/phase1_0400.npz",
+      "bytes": 90676,
+      "sha256": "3dc63351181097cdbd7c6e76743cbeb22da35ec908251d12802459dacfa1b9c0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/full/phase2_0000.npz",
+      "bytes": 90672,
+      "sha256": "cbad8f6187036ab19ab527abf9c3e2663ec2969078b948de7636299e766749d0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/full/phase2_0100.npz",
+      "bytes": 92696,
+      "sha256": "922c53c813757edceeab671bee3069a45c8bf02e2f8e9decf5e7e6d4f12f5717"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/full/phase2_0200.npz",
+      "bytes": 92406,
+      "sha256": "ba7f0f9560eab70e8f20e0e28d5a2d50d48caf1b79d7b572887a91da9ae56faf"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/full/phase2_0300.npz",
+      "bytes": 91906,
+      "sha256": "7c43be61b46cef0d311989744845b8d5e694fc9f3754d2b8c8bb5b6aa596e51e"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/full/phase2_0400.npz",
+      "bytes": 89968,
+      "sha256": "4820fd179f4c01c8d9c4625c4dfaa740e9d3b46138d35aeb4e37648878ed9d1d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/head_only/phase2_0000.npz",
+      "bytes": 90672,
+      "sha256": "cbad8f6187036ab19ab527abf9c3e2663ec2969078b948de7636299e766749d0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/head_only/phase2_0100.npz",
+      "bytes": 90674,
+      "sha256": "967f00f0896c750eb399ec060efd97f3df4f5e9fa444f9743bf41f0d5dece3e5"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/head_only/phase2_0200.npz",
+      "bytes": 90675,
+      "sha256": "b3603555c742933281180e0d3674048d5c31a7485525c536a2f6c6ef8b5a4916"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/head_only/phase2_0300.npz",
+      "bytes": 90673,
+      "sha256": "cd6d9cf7ae14f718b6f31cd4d2667ac1d76add6d5f4c2542275c111bf2ee6b65"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/head_only/phase2_0400.npz",
+      "bytes": 90685,
+      "sha256": "f42510dad67493c3cb3e74289cc9137549e097e01e6375f253e5a47bc23a1fae"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/internal_only/phase2_0000.npz",
+      "bytes": 90672,
+      "sha256": "cbad8f6187036ab19ab527abf9c3e2663ec2969078b948de7636299e766749d0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/internal_only/phase2_0100.npz",
+      "bytes": 92685,
+      "sha256": "09c25c9993ac00844e1b4c98fdc33d61012d60e33ad52818c71cd7164fde289d"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/internal_only/phase2_0200.npz",
+      "bytes": 92656,
+      "sha256": "726636e9f5f7aca360f371506a79eb71d49886c31846b220f8513565a592ff86"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/internal_only/phase2_0300.npz",
+      "bytes": 92324,
+      "sha256": "9e8fa7e139bcfe9af2b56ad0fb65be4ec56dd3e0d8b64085b7d15d16dcab7cfd"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/internal_only/phase2_0400.npz",
+      "bytes": 90284,
+      "sha256": "c5914018021f65c9b29f9a11c90668bd3030be1489cf85faf147b6c653ecbfd7"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/frozen/phase2_0000.npz",
+      "bytes": 90672,
+      "sha256": "cbad8f6187036ab19ab527abf9c3e2663ec2969078b948de7636299e766749d0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/frozen/phase2_0100.npz",
+      "bytes": 90672,
+      "sha256": "cbad8f6187036ab19ab527abf9c3e2663ec2969078b948de7636299e766749d0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/frozen/phase2_0200.npz",
+      "bytes": 90672,
+      "sha256": "cbad8f6187036ab19ab527abf9c3e2663ec2969078b948de7636299e766749d0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/frozen/phase2_0300.npz",
+      "bytes": 90672,
+      "sha256": "cbad8f6187036ab19ab527abf9c3e2663ec2969078b948de7636299e766749d0"
+    },
+    {
+      "path": "results/learning_ablation_v1/seed_12010/ann/frozen/phase2_0400.npz",
+      "bytes": 90672,
+      "sha256": "cbad8f6187036ab19ab527abf9c3e2663ec2969078b948de7636299e766749d0"
+    }
+  ],
+  "gate": {
+    "name": "verified_learning_ablation_before_static_decomposition",
+    "passed": true,
+    "published_commit": "a56a373f2d2458fbf3ec3fa872fe62be33bcc373",
+    "file_sha256": {
+      "configs/learning_ablation_v1.json": "49f56237172c0c4f01b3b7916e3fe7f609f62a4ebcf97e99db05d8f6d28d46f0",
+      "results/registration_learning_ablation_v1.json": "74eaf29957c95abeb97ae6dd150d7e3d4eacabc30e1c0ba55489c20f52d3311a",
+      "results/learning_ablation_v1/metadata.json": "cbd49e76991f06639497891364fcbf5e6f8f7845057fc99c6f24902140041bc7",
+      "results/learning_ablation_v1/summary.json": "368ff86a9264f3fa499c4dc795d310db4669d8c35833658c923eb1b1b70e119c",
+      "results/learning_ablation_v1/verification.json": "d72abfef66a7ca1629b21718cee8258cc5361eda75ac8736c554c9c2ab8a5452",
+      "results/learning_ablation_v1/artifact_hashes.json": "7ed67e13039611cd90c2767ad76bc5352b71ac49ac0b470cf723e7675bd33efd",
+      "results/learning_ablation_final_validation_v1.json": "daa0724c2a053e3120ccc43b4cfb45cc48180d6a643c2e9dd3d7ac2284398b34",
+      "docs/learning-ablation-findings-v2.md": "23d19774ebea237fa9a8211dcc68a87b8035cdd3e4eaf33f167c12ac5dd32c9e",
+      "results/learning_ablation_documentation_correction_v1.json": "550dc55082c96fa53fd37e461d6a1220ea055719b3a1bef61ae73898a7353d1d",
+      "results/learning_ablation_input_freeze_v1.json": "8bfca782535caf96907ab020cabe1d9f38192d9bc3993103c89dbbff05dd2516"
+    },
+    "parent_primary_artifacts_verified": 1058
+  },
+  "notice": "Prospective private Git freeze for static descriptive arithmetic; no new learning or causal behavior hypothesis"
+}
