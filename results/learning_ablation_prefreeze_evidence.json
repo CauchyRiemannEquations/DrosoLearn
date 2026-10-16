@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-16T01:37:55.149963+00:00",
+  "published_commit": "69717e4e4bf91be66b0ee952fd4db1d608361e2f",
+  "source_commit": "ddae9da05f9e7debbc406433912a62eab55aa423",
+  "registration_sha256": "74eaf29957c95abeb97ae6dd150d7e3d4eacabc30e1c0ba55489c20f52d3311a",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/69717e4e4bf91be66b0ee952fd4db1d608361e2f/results/registration_learning_ablation_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "Exploratory source/measurement follow-up frozen before this new registered computation; prior related data inspected"
+}

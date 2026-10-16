@@ -1,0 +1,12 @@
+{
+  "checked_at_utc": "2026-10-16T01:37:56.713546+00:00",
+  "published_commit": "69717e4e4bf91be66b0ee952fd4db1d608361e2f",
+  "source_commit": "ddae9da05f9e7debbc406433912a62eab55aa423",
+  "manifest_path": "results/learning_ablation_input_freeze_v1.json",
+  "manifest_sha256": "8bfca782535caf96907ab020cabe1d9f38192d9bc3993103c89dbbff05dd2516",
+  "registration_sha256": "74eaf29957c95abeb97ae6dd150d7e3d4eacabc30e1c0ba55489c20f52d3311a",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/69717e4e4bf91be66b0ee952fd4db1d608361e2f/results/learning_ablation_input_freeze_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "learning_updates_before_input_freeze": 0
+}

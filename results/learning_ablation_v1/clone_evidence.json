@@ -1,0 +1,1282 @@
+[
+  {
+    "seed": 12001,
+    "model": "linear",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12001,
+    "model": "linear",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12001,
+    "model": "linear",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12001,
+    "model": "linear",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12001,
+    "model": "real",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12001,
+    "model": "real",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12001,
+    "model": "real",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12001,
+    "model": "real",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12001,
+    "model": "rewired",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12001,
+    "model": "rewired",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12001,
+    "model": "rewired",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12001,
+    "model": "rewired",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12001,
+    "model": "ann",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12001,
+    "model": "ann",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12001,
+    "model": "ann",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12001,
+    "model": "ann",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12002,
+    "model": "linear",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12002,
+    "model": "linear",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12002,
+    "model": "linear",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12002,
+    "model": "linear",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12002,
+    "model": "real",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12002,
+    "model": "real",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12002,
+    "model": "real",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12002,
+    "model": "real",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12002,
+    "model": "rewired",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12002,
+    "model": "rewired",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12002,
+    "model": "rewired",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12002,
+    "model": "rewired",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12002,
+    "model": "ann",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12002,
+    "model": "ann",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12002,
+    "model": "ann",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12002,
+    "model": "ann",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12003,
+    "model": "linear",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12003,
+    "model": "linear",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12003,
+    "model": "linear",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12003,
+    "model": "linear",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12003,
+    "model": "real",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12003,
+    "model": "real",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12003,
+    "model": "real",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12003,
+    "model": "real",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12003,
+    "model": "rewired",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12003,
+    "model": "rewired",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12003,
+    "model": "rewired",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12003,
+    "model": "rewired",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12003,
+    "model": "ann",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12003,
+    "model": "ann",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12003,
+    "model": "ann",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12003,
+    "model": "ann",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12004,
+    "model": "linear",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12004,
+    "model": "linear",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12004,
+    "model": "linear",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12004,
+    "model": "linear",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12004,
+    "model": "real",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12004,
+    "model": "real",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12004,
+    "model": "real",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12004,
+    "model": "real",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12004,
+    "model": "rewired",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12004,
+    "model": "rewired",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12004,
+    "model": "rewired",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12004,
+    "model": "rewired",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12004,
+    "model": "ann",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12004,
+    "model": "ann",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12004,
+    "model": "ann",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12004,
+    "model": "ann",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12005,
+    "model": "linear",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12005,
+    "model": "linear",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12005,
+    "model": "linear",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12005,
+    "model": "linear",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12005,
+    "model": "real",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12005,
+    "model": "real",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12005,
+    "model": "real",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12005,
+    "model": "real",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12005,
+    "model": "rewired",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12005,
+    "model": "rewired",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12005,
+    "model": "rewired",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12005,
+    "model": "rewired",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12005,
+    "model": "ann",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12005,
+    "model": "ann",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12005,
+    "model": "ann",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12005,
+    "model": "ann",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12006,
+    "model": "linear",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12006,
+    "model": "linear",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12006,
+    "model": "linear",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12006,
+    "model": "linear",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12006,
+    "model": "real",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12006,
+    "model": "real",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12006,
+    "model": "real",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12006,
+    "model": "real",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12006,
+    "model": "rewired",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12006,
+    "model": "rewired",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12006,
+    "model": "rewired",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12006,
+    "model": "rewired",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12006,
+    "model": "ann",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12006,
+    "model": "ann",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12006,
+    "model": "ann",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12006,
+    "model": "ann",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12007,
+    "model": "linear",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12007,
+    "model": "linear",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12007,
+    "model": "linear",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12007,
+    "model": "linear",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12007,
+    "model": "real",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12007,
+    "model": "real",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12007,
+    "model": "real",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12007,
+    "model": "real",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12007,
+    "model": "rewired",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12007,
+    "model": "rewired",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12007,
+    "model": "rewired",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12007,
+    "model": "rewired",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12007,
+    "model": "ann",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12007,
+    "model": "ann",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12007,
+    "model": "ann",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12007,
+    "model": "ann",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12008,
+    "model": "linear",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12008,
+    "model": "linear",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12008,
+    "model": "linear",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12008,
+    "model": "linear",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12008,
+    "model": "real",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12008,
+    "model": "real",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12008,
+    "model": "real",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12008,
+    "model": "real",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12008,
+    "model": "rewired",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12008,
+    "model": "rewired",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12008,
+    "model": "rewired",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12008,
+    "model": "rewired",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12008,
+    "model": "ann",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12008,
+    "model": "ann",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12008,
+    "model": "ann",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12008,
+    "model": "ann",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12009,
+    "model": "linear",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12009,
+    "model": "linear",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12009,
+    "model": "linear",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12009,
+    "model": "linear",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12009,
+    "model": "real",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12009,
+    "model": "real",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12009,
+    "model": "real",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12009,
+    "model": "real",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12009,
+    "model": "rewired",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12009,
+    "model": "rewired",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12009,
+    "model": "rewired",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12009,
+    "model": "rewired",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12009,
+    "model": "ann",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12009,
+    "model": "ann",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12009,
+    "model": "ann",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12009,
+    "model": "ann",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12010,
+    "model": "linear",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12010,
+    "model": "linear",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12010,
+    "model": "linear",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12010,
+    "model": "linear",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 0
+  },
+  {
+    "seed": 12010,
+    "model": "real",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12010,
+    "model": "real",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12010,
+    "model": "real",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12010,
+    "model": "real",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12010,
+    "model": "rewired",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12010,
+    "model": "rewired",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12010,
+    "model": "rewired",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12010,
+    "model": "rewired",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12010,
+    "model": "ann",
+    "branch": "full",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12010,
+    "model": "ann",
+    "branch": "head_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12010,
+    "model": "ann",
+    "branch": "internal_only",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  },
+  {
+    "seed": 12010,
+    "model": "ann",
+    "branch": "frozen",
+    "all_native_checkpoint_fields_equal": true,
+    "inherited_head_updates": 400,
+    "inherited_internal_updates": 400
+  }
+]

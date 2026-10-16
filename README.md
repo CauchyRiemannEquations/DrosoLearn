@@ -277,4 +277,10 @@ CC0인 OpenNeuro 부분집합 31파일에서 사건 44,262행·선택 사건 14,
 
 [세 단계의 쉬운 결과](docs/stochastic-feedback-continuation-findings.md)를 보존한다. 학습 없는 선택 편향·반복 정책 240 경로/192,000 회로 높은 유지율·피드백별 차이·구간 합산 상쇄가 학습 없이도 생김을 독립 검산했다. 이어 새 10 시드 단순 선형/학습중지 대조의 48,000 회에서 확률적.8/.2 보상의 습득 10/10 및 무정보 대비 평균 48.40%포인트 차이로 사전 H-L이 통과했다. 반전 적응은 0/10 으로 보존했다. 이 gate와 검산을 통과한 뒤 다른 10 시드·8 조건·3 환경 192,000 회의 배선 비교를 실행했다. 확률적 첫 습득은 학습 7 조건 모두 10/10, 반전 후 적응은 2–7/10 이었다.
 
-이는 인공 수량 순서 입력의 보상 연합이며 실제 시각적 수량 인지나 사람과 같은 학습 기작의 증거가 아니다. 실제 배선 우위 가설을 검정하지 않았고, 내부 학습 자원·출력 계수·반전 출발점 차이를 명시했다. 새 자동검사 326 개와 세 주 실행의 독립 검산이 통과했다. [무학습 대조](docs/metric-calibration-findings.md), [단순 모델](docs/stochastic-feedback-linear-findings.md), [배선 비교](docs/stochastic-feedback-network-findings.md)를 각각 `metric-calibration-v1`, `stochastic-feedback-linear-v1`, `stochastic-feedback-network-v1` 태그에서 재현한다. 다음은 같은 학습 상태를 복제해 내부·출력 학습의 기여를 분리하는 별도 대조다.
+이는 인공 수량 순서 입력의 보상 연합이며 실제 시각적 수량 인지나 사람과 같은 학습 기작의 증거가 아니다. 실제 배선 우위 가설을 검정하지 않았고, 내부 학습 자원·출력 계수·반전 출발점 차이를 명시했다. 새 자동검사 326 개와 세 주 실행의 독립 검산이 통과했다. [무학습 대조](docs/metric-calibration-findings.md), [단순 모델](docs/stochastic-feedback-linear-findings.md), [배선 비교](docs/stochastic-feedback-network-findings.md)를 각각 `metric-calibration-v1`, `stochastic-feedback-linear-v1`, `stochastic-feedback-network-v1` 태그에서 재현한다. 이 후속 대조는 [동일 상태 개입 결과](docs/learning-ablation-findings-v2.md)에서 실행했다.
+
+## 후속: 같은 학습 상태에서 내부·출력 갱신을 나눈 개입
+
+[쉬운 결과와 모든 분기](docs/learning-ablation-findings-v2.md)를 보존한다. 새 10시드·네 모델에서 공통 앞 학습 16,000회를 한 번씩 실행하고 같은 상태를 복제해 네 분기의 반전 64,000회를 실행했다. 출력 갱신 48,000회·내부 갱신 36,000회와 실제 경험 80,000회를 구분했다. 실제 부분 배선의 `둘 다−출력만` H-I는 평균 26.12%포인트·양수 9/10·지지, `둘 다−내부만` H-H는 평균 36.94%포인트·양수 10/10·지지였다. 습득 여부로 시드를 제외하지 않았다.
+
+새 자동 시험 166개, 모든 시행·checkpoint 1,000개·사례 확률 256,000개의 독립 검산, 두 선형 동치 대조가 통과했다. [사전 프로토콜](docs/learning-ablation-protocol.md), [등록](results/registration_learning_ablation_v1.json), [독립 검산](results/learning_ablation_v1/verification.json), [보존 검증](results/learning_ablation_archive_validation.json)을 남겼으며 완료 태그는 `learning-ablation-v1`이다. 이것은 계산 갱신 개입의 전체 정책 경로 효과이며 인간·실제 초파리의 같은 기작이나 배선 우위의 증거가 아니다.

@@ -1,0 +1,20 @@
+{
+  "status": "documentation_corrected",
+  "created_at_utc": "2026-10-16T01:44:30.646356+00:00",
+  "original_document": "docs/learning-ablation-findings.md",
+  "original_sha256": "ec5765d8630c298be5eefb9fe38f2a2fe3e1eb959e901dba45657322618bd0e3",
+  "corrected_document": "docs/learning-ablation-findings-v2.md",
+  "corrected_sha256": "23d19774ebea237fa9a8211dcc68a87b8035cdd3e4eaf33f167c12ac5dd32c9e",
+  "prior_archive_sha256": "7407d3fd387b2a59066bf3a5d32be7c0f8adaccc8652ac669eb694b8af879f09",
+  "summary_sha256": "368ff86a9264f3fa499c4dc795d310db4669d8c35833658c923eb1b1b70e119c",
+  "verification_sha256": "d72abfef66a7ca1629b21718cee8258cc5361eda75ac8736c554c9c2ab8a5452",
+  "before": "실패 사유 542건은 같은 경로의 사유와 공통 prefix를 여러 분기에서 다시 표시한 항목이 겹치므로 독립 실패 실험 수가 아니다.",
+  "after": "실패 사유 542건은 271개의 평가 항목(시드·모델·분기·평가 split) 각각에 두 미달 사유를 기록한 건수이므로 독립 실패 실험 수가 아니다. 이번에는 공통 첫 학습의 습득 실패 항목이 없다.",
+  "reason_counts": {
+    "phase2_endpoint_threshold_not_met": 271,
+    "acquired_old_rule_then_phase2_threshold_not_met": 271
+  },
+  "unique_evaluation_items": 271,
+  "scientific_values_or_criteria_changed": false,
+  "additional_learning_updates": 0
+}

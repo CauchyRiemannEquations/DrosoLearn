@@ -1,0 +1,45 @@
+{
+  "study_id": "learning_ablation_v1",
+  "input_hashes": {
+    "metadata.json": "cbd49e76991f06639497891364fcbf5e6f8f7845057fc99c6f24902140041bc7",
+    "registration.json": "74eaf29957c95abeb97ae6dd150d7e3d4eacabc30e1c0ba55489c20f52d3311a",
+    "artifact_hashes.json": "7ed67e13039611cd90c2767ad76bc5352b71ac49ac0b470cf723e7675bd33efd",
+    "summary.json": "368ff86a9264f3fa499c4dc795d310db4669d8c35833658c923eb1b1b70e119c",
+    "learning_curves.csv": "23a61ffd010e7755e346b4e5b24e6073a4a3136912548f83f6653de736ebe634",
+    "verification.json": "d72abfef66a7ca1629b21718cee8258cc5361eda75ac8736c554c9c2ab8a5452"
+  },
+  "plot_script_sha256": "eb073224661193e6a0358c41e7972b7fa7a3bfb855695f42161710725748308f",
+  "figure_language": "ko",
+  "seeds": [
+    12001,
+    12002,
+    12003,
+    12004,
+    12005,
+    12006,
+    12007,
+    12008,
+    12009,
+    12010
+  ],
+  "models": [
+    "linear",
+    "real",
+    "rewired",
+    "ann"
+  ],
+  "branches": [
+    "full",
+    "head_only",
+    "internal_only",
+    "frozen"
+  ],
+  "split": "iid",
+  "scope": "All registered seeds, paired 2x2 endpoint and fixed-checkpoint means; sample SD, no confidence intervals or new hypothesis test; prefix displayed and counted once",
+  "status": "completed",
+  "created_at_utc": "2026-10-16T01:41:09.631580+00:00",
+  "figure_hashes": {
+    "paired_endpoints.png": "6b35b9715d9171e317905f692f5ac7f12b8748d0b57cac001b67195957bab35f",
+    "learning_curves.png": "df2018088d3e599b125d1477eca330ec72856682d95e18abc025c3385ee4a828"
+  }
+}

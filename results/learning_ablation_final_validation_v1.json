@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-16T01:44:51.437631+00:00",
+  "study_id": "learning_ablation_v1",
+  "sealed_archive_sha256": "7407d3fd387b2a59066bf3a5d32be7c0f8adaccc8652ac669eb694b8af879f09",
+  "all_sealed_scientific_and_original_document_bytes_unchanged": true,
+  "documentation_correction": {
+    "status": "documentation_corrected",
+    "created_at_utc": "2026-10-16T01:44:30.646356+00:00",
+    "original_document": "docs/learning-ablation-findings.md",
+    "original_sha256": "ec5765d8630c298be5eefb9fe38f2a2fe3e1eb959e901dba45657322618bd0e3",
+    "corrected_document": "docs/learning-ablation-findings-v2.md",
+    "corrected_sha256": "23d19774ebea237fa9a8211dcc68a87b8035cdd3e4eaf33f167c12ac5dd32c9e",
+    "prior_archive_sha256": "7407d3fd387b2a59066bf3a5d32be7c0f8adaccc8652ac669eb694b8af879f09",
+    "summary_sha256": "368ff86a9264f3fa499c4dc795d310db4669d8c35833658c923eb1b1b70e119c",
+    "verification_sha256": "d72abfef66a7ca1629b21718cee8258cc5361eda75ac8736c554c9c2ab8a5452",
+    "before": "실패 사유 542건은 같은 경로의 사유와 공통 prefix를 여러 분기에서 다시 표시한 항목이 겹치므로 독립 실패 실험 수가 아니다.",
+    "after": "실패 사유 542건은 271개의 평가 항목(시드·모델·분기·평가 split) 각각에 두 미달 사유를 기록한 건수이므로 독립 실패 실험 수가 아니다. 이번에는 공통 첫 학습의 습득 실패 항목이 없다.",
+    "reason_counts": {
+      "phase2_endpoint_threshold_not_met": 271,
+      "acquired_old_rule_then_phase2_threshold_not_met": 271
+    },
+    "unique_evaluation_items": 271,
+    "scientific_values_or_criteria_changed": false,
+    "additional_learning_updates": 0
+  },
+  "prior_tag_literal_bytes": {
+    "tag": "stochastic-feedback-network-v1",
+    "tag_commit": "ab4fb6b8f471b345b766f174004b998dfcf43b1c",
+    "old_tree_files": 17231,
+    "compared_files": 17228,
+    "compared_literal_bytes": 1535633400,
+    "excluded_files": [
+      {
+        "path": "README.md",
+        "bytes": 36909,
+        "unchanged": false
+      },
+      {
+        "path": "docs/repository-status.json",
+        "bytes": 3970,
+        "unchanged": false
+      },
+      {
+        "path": "docs/research-roadmap.md",
+        "bytes": 19162,
+        "unchanged": false
+      }
+    ],
+    "passed": true,
+    "failures": [],
+    "method": "literal Git blob bytes via cat-file --batch compared with filesystem read_bytes; no Git/filesystem mutations"
+  },
+  "file_hashes": {
+    "README.md": "66fce9d9f7dccb3f0179a40888c33d51d144cc499e21fd12ed2bf72eda4d8b99",
+    "docs/learning-ablation-findings-v2.md": "23d19774ebea237fa9a8211dcc68a87b8035cdd3e4eaf33f167c12ac5dd32c9e",
+    "docs/repository-status.json": "415ee989684b80d35c12883e5ee4f1b4f492688358447826fe6294c906287c8a",
+    "docs/research-roadmap.md": "66a6a7b4651bec2ce2b4c3b45e266379cc537f2e7907c5845f0f5eceb339906c",
+    "results/learning_ablation_archive_validation.json": "7407d3fd387b2a59066bf3a5d32be7c0f8adaccc8652ac669eb694b8af879f09",
+    "results/learning_ablation_documentation_correction_v1.json": "550dc55082c96fa53fd37e461d6a1220ea055719b3a1bef61ae73898a7353d1d"
+  },
+  "additional_learning_updates": 0,
+  "validation_helper_sha256": "1d61d9f9b6d5146afd9de543bde0a9d225e0a89009ea72e26a349c223c3bac22"
+}

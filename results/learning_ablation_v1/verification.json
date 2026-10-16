@@ -1,0 +1,52 @@
+{
+  "verified_at_utc": "2026-10-16T01:39:10.300886+00:00",
+  "status": "passed",
+  "passed": true,
+  "method": "independent numpy/stdlib replay; only explicitly named immutable independent-verifier helpers reused",
+  "counts": {
+    "actual_choice_feedback_trials": 80000,
+    "head_update_calls": 48000,
+    "internal_update_calls": 36000,
+    "privileged_update_calls": 0,
+    "prefix_training_trials": 16000,
+    "branch_training_trials": 64000,
+    "checkpoints": 1000,
+    "case_probability_entries": 256000,
+    "prefix_clones": 160,
+    "linear_equivalent_checkpoint_pairs": 100,
+    "linear_equivalent_trial_pairs": 8000,
+    "fixed_initialization_field_checks": 9000,
+    "masked_parameter_checkpoint_checks": 950,
+    "seeds": 10,
+    "models": 4,
+    "branches": 4,
+    "curve_rows": 2000,
+    "artifact_hashes": 1058,
+    "source_hashes": 62,
+    "canonical_fingerprints": 5280
+  },
+  "checks": [
+    "Exact source/config/completed-parent bytes, complete artifact coverage and UTC chronology",
+    "Independent four-split nuisance crossing, canonical disjointness, topology/encoder RNG and TRAIN-only fixed RMS",
+    "Each physical prefix executes once and all four branches inherit exactly its19 native arrays",
+    "Every actual choice/reward and head/internal factorial mask update independently replayed with old-head eligibility",
+    "Phase-local versus inherited cumulative counters and original initialization/clipping bounds stay distinct",
+    "Both exact linear negative-control state/probability/action/reward paths and learned frozen states",
+    "All checkpoint states, total/local weight/activity changes and locked IID/OOD probabilities reconstructed",
+    "All-seed H_I/H_H, 2x2 interactions/main effects, gains/AUCs, failure ledger and actual resource counts"
+  ],
+  "errors": [],
+  "not_verified": [
+    "Private remote Git publication authenticity beyond pinned local bytes and timestamps",
+    "Equal resources or policy/feedback histories after computational mask interventions",
+    "Additive independent biological mechanisms, actual synaptic plasticity, or topology superiority",
+    "Visual quantity extraction, human/fly neural equivalence, or mathematics education effects",
+    "Intrinsic learning speed, fresh-training reversal cost, or computational seeds as animals"
+  ],
+  "study_id": "learning_ablation_v1",
+  "summary_sha256": "368ff86a9264f3fa499c4dc795d310db4669d8c35833658c923eb1b1b70e119c",
+  "registration_sha256": "74eaf29957c95abeb97ae6dd150d7e3d4eacabc30e1c0ba55489c20f52d3311a",
+  "config_sha256": "49f56237172c0c4f01b3b7916e3fe7f609f62a4ebcf97e99db05d8f6d28d46f0",
+  "learning_curves_sha256": "23a61ffd010e7755e346b4e5b24e6073a4a3136912548f83f6653de736ebe634",
+  "artifact_hashes_sha256": "7ed67e13039611cd90c2767ad76bc5352b71ac49ac0b470cf723e7675bd33efd"
+}
