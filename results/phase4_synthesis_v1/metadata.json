@@ -1,0 +1,13 @@
+{
+  "study_id": "phase4_synthesis_v1",
+  "status": "completed",
+  "started_at_utc": "2026-10-18T22:56:45.661184+00:00",
+  "runtime": {
+    "python": "3.12.10",
+    "dependencies": "Python standard library only"
+  },
+  "source_git_commit": "3c4215f4f41429b2039edce676b05d1c6abf1724",
+  "registration_sha256": "b13cc36850f01676be9cfa025aabcbaa83d1c99d7fee312f913653ccc2559c98",
+  "config_sha256": "835f04cce094f09e869fedcf008a107787b997a10b7e44d2e27ed415249c5a76",
+  "completed_at_utc": "2026-10-18T22:56:45.696576+00:00"
+}

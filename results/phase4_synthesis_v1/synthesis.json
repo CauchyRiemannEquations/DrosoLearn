@@ -1,0 +1,148 @@
+{
+  "study_id": "phase4_synthesis_v1",
+  "bounded_phase4_deliverables_completed": true,
+  "direct_level4_test_completed": false,
+  "shared_neural_mechanism_verified": false,
+  "education_effect_tested": false,
+  "all_phase2_phase3_tasks_completed": false,
+  "direct_level4_verdict": "untested_not_testable_with_current_pairing",
+  "feature_count": 6,
+  "human_source_cells": 18,
+  "features": [
+    {
+      "id": "quantity_ratio",
+      "metric": "accuracy by all four quantity ratios; A/B pooled without naming visual conditions",
+      "unit": "human participant x timepoint x ratio; model seed x supplied input pair",
+      "human": {
+        "honore": "descriptive_aggregate",
+        "markovic": "not_quantity_task",
+        "openneuro": "semantic_gate_closed"
+      },
+      "model": "supplied scalar encodes order; encoder and spacing controls already evaluated",
+      "difference": "human visual extraction versus supplied n/8; unknown A/B meaning and stimulus metadata",
+      "unlock": "fixed visual-condition codebook, matched stimulus descriptors and prospectively registered matched task"
+    },
+    {
+      "id": "repeated_experience",
+      "metric": "pre/post observed accuracy change; trialwise learning curve only when actual trial data exist",
+      "unit": "human participant pre/post summary or original trial; computational seed learning trajectory",
+      "human": {
+        "honore": "prepost_only_no_training_curve",
+        "markovic": "source_coded_description_only",
+        "openneuro": "semantic_gate_closed"
+      },
+      "model": "actual trial rewards plus fixed-probe expected choice probability; acquisition criteria retained",
+      "difference": "observed response proportion differs from expected policy probability; queries and feedback schedules differ",
+      "unlock": "verified task version, matched exposure/feedback schedule and separate acquisition criterion"
+    },
+    {
+      "id": "generalization_transfer",
+      "metric": "held-out cases conditional on prior acquisition; task transfer distinct from same-task change",
+      "unit": "human participant across tasks; computational seed x untouched input split",
+      "human": {
+        "honore": "paired_task_summaries_group_mapping_unresolved",
+        "markovic": "not_matched_transfer_design",
+        "openneuro": "semantic_gate_closed"
+      },
+      "model": "nuisance OOD and supplied-quantity probes; no demonstrated discovery of mathematical sequence rules",
+      "difference": "supplied order and arbitrary label symmetry constrain transfer; numerical symbols are artificial model inputs",
+      "unlock": "verified group labels, independent task splits, acquisition gate and equivalent transfer contrast"
+    },
+    {
+      "id": "reward_reversal",
+      "metric": "pre/post-reversal response and acquisition-qualified adaptation; conditional stay/switch is descriptive",
+      "unit": "human original adjacent trial pair nested within person; seed trajectory with one reversal",
+      "human": {
+        "honore": "no_reversal_trials",
+        "markovic": "source_coded_description_only",
+        "openneuro": "semantic_gate_closed"
+      },
+      "model": "probabilistic acquisition and reversal failures preserved; fixed/plastic/rewired/ANN controls",
+      "difference": "multiple human reversals, information requests, shared replayed schedules and losses versus one model reversal and binary rewards",
+      "unlock": "exact historical execution evidence or new verified public task; matched state/exposure/resource design and identifiable metric"
+    },
+    {
+      "id": "learning_interference",
+      "metric": "A performance after B relative to exposure-matched A-only control with acquisition fixed",
+      "unit": "participant or seed nested within an explicitly counterbalanced task sequence",
+      "human": {
+        "honore": "not_interference_design",
+        "markovic": "not_matched_interference_design",
+        "openneuro": "semantic_gate_closed"
+      },
+      "model": "reversal/history interventions exist; no matched human two-rule interference design",
+      "difference": "reversal cost cannot alone separate interference, confidence, output weights and activity",
+      "unlock": "public A-to-B/B-to-A and single-task controls with verified semantics and prospective acquisition gates"
+    },
+    {
+      "id": "learning_order",
+      "metric": "A-to-B versus B-to-A with equal exposure, initial state and acquisition control",
+      "unit": "participant or seed assigned to a task order; repeated windows are not independent subjects",
+      "human": {
+        "honore": "not_counterbalanced_order_data",
+        "markovic": "not_matched_order_design",
+        "openneuro": "semantic_gate_closed"
+      },
+      "model": "history and head attenuation effects investigated; no complete matched order comparison",
+      "difference": "a computational reset is not natural forgetting; seed counts are not fly animal counts",
+      "unlock": "verified public counterbalanced order data plus matched model protocol, including time and interference controls"
+    }
+  ],
+  "source_coded_descriptive_metric_allowed": true,
+  "historical_task_execution_version_verified": false,
+  "openneuro_semantic_mapping_verified": false,
+  "verified_original_human_records": 25,
+  "unverified_original_human_records_retained": 49,
+  "support_counts": {
+    "human": {
+      "streams": 25,
+      "strata": 200,
+      "both_feedback": 194,
+      "feedback_0_only": 6,
+      "feedback_1_only": 0,
+      "neither": 0,
+      "feedback_0_denominator": 6575,
+      "feedback_1_denominator": 14955,
+      "eligible": 21530
+    },
+    "deterministic": {
+      "streams": 80,
+      "strata": 320,
+      "both_feedback": 0,
+      "feedback_0_only": 160,
+      "feedback_1_only": 160,
+      "neither": 0,
+      "feedback_0_denominator": 29280,
+      "feedback_1_denominator": 34560,
+      "eligible": 63840
+    },
+    "probabilistic": {
+      "streams": 80,
+      "strata": 320,
+      "both_feedback": 320,
+      "feedback_0_only": 0,
+      "feedback_1_only": 0,
+      "neither": 0,
+      "feedback_0_denominator": 30449,
+      "feedback_1_denominator": 33391,
+      "eligible": 63840
+    },
+    "uninformative": {
+      "streams": 80,
+      "strata": 320,
+      "both_feedback": 320,
+      "feedback_0_only": 0,
+      "feedback_1_only": 0,
+      "neither": 0,
+      "feedback_0_denominator": 32320,
+      "feedback_1_denominator": 31520,
+      "eligible": 63840
+    }
+  },
+  "support_is_only_denominator_presence": true,
+  "additional_learning_updates": 0,
+  "rng_draws": 0,
+  "new_human_participants": 0,
+  "new_human_effect_estimates": 0,
+  "scope": "evidence map and integer recount of prior verified measurement; no new rate pooling, significance, similarity or biological claim"
+}

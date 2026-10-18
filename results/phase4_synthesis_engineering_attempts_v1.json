@@ -1,0 +1,37 @@
+{
+  "recorded_at_utc": "2026-10-18T22:54:47.018909+00:00",
+  "scope": "handcrafted pre-registration evidence-map engineering history, not actual human effect tests",
+  "attempt1_scratch_file": "phase4-synthesis-verifier-tests-attempt1.json",
+  "attempt1_sha256": "18bf87b7fc598a16223d66cae23a9bea46661a579576da9b03a0ef52afdf1662",
+  "attempt1": {
+    "command": [
+      "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Scripts\\python.exe",
+      "-m",
+      "pytest",
+      "tests/test_phase4_synthesis_verifier.py",
+      "-q"
+    ],
+    "started_at_utc": "2026-10-18T22:50:48.536882+00:00",
+    "completed_at_utc": "2026-10-18T22:52:39.851286+00:00",
+    "duration_seconds": 111.30531100000007,
+    "exit_code": 0,
+    "stdout": "........................................................................ [ 97%]\n..                                                                       [100%]\n74 passed in 108.83s (0:01:48)\n",
+    "stderr": "",
+    "source_sha256": {
+      "scripts/verify_phase4_synthesis.py": "1aa11079089bea7a030cc56d11a48d966d03b0e7ad6ec35e6ce159b8ad14fa29",
+      "tests/test_phase4_synthesis_verifier.py": "6e8c768c6d2633a57b6567c3c5556d70854545e3abc111d31a7befb912bf3e2f"
+    },
+    "source_sha256_after": {
+      "scripts/verify_phase4_synthesis.py": "1aa11079089bea7a030cc56d11a48d966d03b0e7ad6ec35e6ce159b8ad14fa29",
+      "tests/test_phase4_synthesis_verifier.py": "6e8c768c6d2633a57b6567c3c5556d70854545e3abc111d31a7befb912bf3e2f"
+    },
+    "source_unchanged": true
+  },
+  "later_targeted_agent_report": {
+    "passed": 9,
+    "deselected": 73,
+    "duration_seconds": 14.33,
+    "notice": "Reported targeted subset after four provenance bindings and unknown-output rejection were added; raw stdout not separately captured in this record"
+  },
+  "notice": "Earlier 74-pass evidence predates final verifier additions. Only results/phase4_synthesis_test_validation.json supplies the final full-suite count; no counts are added across development reruns."
+}

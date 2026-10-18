@@ -1,0 +1,28 @@
+{
+  "study_id": "phase4_synthesis_v1",
+  "verified_at_utc": "2026-10-18T22:56:45.953479+00:00",
+  "status": "passed",
+  "passed": true,
+  "errors": [],
+  "scope": "independent_frozen_evidence_map_and_integer_partition_check_no_raw_replay_or_effect_estimation",
+  "counts": {
+    "source_files": 7,
+    "evidence_files": 25,
+    "primary_artifacts": 3,
+    "features": 6,
+    "human_source_cells": 18,
+    "streams": 265,
+    "input_trials": 217000,
+    "candidates": 216735,
+    "eligible": 213050,
+    "excluded": 3685,
+    "strata": 1160,
+    "feedback_cells": 2320,
+    "human_records": 25,
+    "model_streams": 240
+  },
+  "config_sha256": "835f04cce094f09e869fedcf008a107787b997a10b7e44d2e27ed415249c5a76",
+  "registration_sha256": "b13cc36850f01676be9cfa025aabcbaa83d1c99d7fee312f913653ccc2559c98",
+  "synthesis_sha256": "e8c2d4d59c93c914050f2604e67595cdd351babe434625fd0cbf31bf527cbddc",
+  "artifact_hashes_sha256": "2459fcdc898f69640bdb958d2e4ba8a93aa491db10ab0798bc2f628fe454b198"
+}

@@ -1,0 +1,37 @@
+{
+  "study_id": "phase4_synthesis_v1",
+  "started_at_utc": "2026-10-18T22:54:05.987052+00:00",
+  "completed_at_utc": "2026-10-18T22:56:10.821047+00:00",
+  "command": [
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "tests/test_phase4_synthesis.py",
+    "tests/test_phase4_synthesis_verifier.py",
+    "-q"
+  ],
+  "exit_code": 0,
+  "stdout": "........................................................................ [ 64%]\n........................................                                 [100%]\n112 passed in 110.60s (0:01:50)\n",
+  "stderr": "",
+  "source_before": {
+    "configs/phase4_synthesis_v1.json": "835f04cce094f09e869fedcf008a107787b997a10b7e44d2e27ed415249c5a76",
+    "docs/phase4-synthesis-protocol.md": "b6d3e6763cc29e84368750263cbd13abc49b81054982968863a4561c1c43c126",
+    "docs/phase4-synthesis.md": "40e2fb7383eb03119ed1a661a1a76e0f134fbfe97555ae1655396d1f056ff921",
+    "scripts/audit_phase4_synthesis.py": "6b76e795178be376f9dacb9d6838a971523a4f1a8c0d2297f8f1466e6f07551f",
+    "scripts/verify_phase4_synthesis.py": "d1339dc04eaccc6640c54cd771255266f1bfef2f7c03ff4b2490b10929faa09a",
+    "tests/test_phase4_synthesis.py": "3dfff1db7424f8af542f88c5680eaeefa31be56081ee9cf987459ef66b638f0f",
+    "tests/test_phase4_synthesis_verifier.py": "fa43e19820ed4725de8b038bda72b13d268d236a6b0d3f0f533e64d55b2a627b"
+  },
+  "source_after": {
+    "configs/phase4_synthesis_v1.json": "835f04cce094f09e869fedcf008a107787b997a10b7e44d2e27ed415249c5a76",
+    "docs/phase4-synthesis-protocol.md": "b6d3e6763cc29e84368750263cbd13abc49b81054982968863a4561c1c43c126",
+    "docs/phase4-synthesis.md": "40e2fb7383eb03119ed1a661a1a76e0f134fbfe97555ae1655396d1f056ff921",
+    "scripts/audit_phase4_synthesis.py": "6b76e795178be376f9dacb9d6838a971523a4f1a8c0d2297f8f1466e6f07551f",
+    "scripts/verify_phase4_synthesis.py": "d1339dc04eaccc6640c54cd771255266f1bfef2f7c03ff4b2490b10929faa09a",
+    "tests/test_phase4_synthesis.py": "3dfff1db7424f8af542f88c5680eaeefa31be56081ee9cf987459ef66b638f0f",
+    "tests/test_phase4_synthesis_verifier.py": "fa43e19820ed4725de8b038bda72b13d268d236a6b0d3f0f533e64d55b2a627b"
+  },
+  "source_unchanged": true,
+  "passed_tests": 112,
+  "passed": true
+}

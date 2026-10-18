@@ -1,0 +1,166 @@
+{
+  "study_id": "phase4_synthesis_v1",
+  "registered_at_utc": "2026-10-18T22:56:33.048881+00:00",
+  "source_git_commit": "3c4215f4f41429b2039edce676b05d1c6abf1724",
+  "config_sha256": "835f04cce094f09e869fedcf008a107787b997a10b7e44d2e27ed415249c5a76",
+  "config": {
+    "study_id": "phase4_synthesis_v1",
+    "scope": "evidence_synthesis_and_measurement_consistency_not_new_human_effect_estimation",
+    "features": [
+      {
+        "id": "quantity_ratio",
+        "metric": "accuracy by all four quantity ratios; A/B pooled without naming visual conditions",
+        "unit": "human participant x timepoint x ratio; model seed x supplied input pair",
+        "human": {
+          "honore": "descriptive_aggregate",
+          "markovic": "not_quantity_task",
+          "openneuro": "semantic_gate_closed"
+        },
+        "model": "supplied scalar encodes order; encoder and spacing controls already evaluated",
+        "difference": "human visual extraction versus supplied n/8; unknown A/B meaning and stimulus metadata",
+        "unlock": "fixed visual-condition codebook, matched stimulus descriptors and prospectively registered matched task"
+      },
+      {
+        "id": "repeated_experience",
+        "metric": "pre/post observed accuracy change; trialwise learning curve only when actual trial data exist",
+        "unit": "human participant pre/post summary or original trial; computational seed learning trajectory",
+        "human": {
+          "honore": "prepost_only_no_training_curve",
+          "markovic": "source_coded_description_only",
+          "openneuro": "semantic_gate_closed"
+        },
+        "model": "actual trial rewards plus fixed-probe expected choice probability; acquisition criteria retained",
+        "difference": "observed response proportion differs from expected policy probability; queries and feedback schedules differ",
+        "unlock": "verified task version, matched exposure/feedback schedule and separate acquisition criterion"
+      },
+      {
+        "id": "generalization_transfer",
+        "metric": "held-out cases conditional on prior acquisition; task transfer distinct from same-task change",
+        "unit": "human participant across tasks; computational seed x untouched input split",
+        "human": {
+          "honore": "paired_task_summaries_group_mapping_unresolved",
+          "markovic": "not_matched_transfer_design",
+          "openneuro": "semantic_gate_closed"
+        },
+        "model": "nuisance OOD and supplied-quantity probes; no demonstrated discovery of mathematical sequence rules",
+        "difference": "supplied order and arbitrary label symmetry constrain transfer; numerical symbols are artificial model inputs",
+        "unlock": "verified group labels, independent task splits, acquisition gate and equivalent transfer contrast"
+      },
+      {
+        "id": "reward_reversal",
+        "metric": "pre/post-reversal response and acquisition-qualified adaptation; conditional stay/switch is descriptive",
+        "unit": "human original adjacent trial pair nested within person; seed trajectory with one reversal",
+        "human": {
+          "honore": "no_reversal_trials",
+          "markovic": "source_coded_description_only",
+          "openneuro": "semantic_gate_closed"
+        },
+        "model": "probabilistic acquisition and reversal failures preserved; fixed/plastic/rewired/ANN controls",
+        "difference": "multiple human reversals, information requests, shared replayed schedules and losses versus one model reversal and binary rewards",
+        "unlock": "exact historical execution evidence or new verified public task; matched state/exposure/resource design and identifiable metric"
+      },
+      {
+        "id": "learning_interference",
+        "metric": "A performance after B relative to exposure-matched A-only control with acquisition fixed",
+        "unit": "participant or seed nested within an explicitly counterbalanced task sequence",
+        "human": {
+          "honore": "not_interference_design",
+          "markovic": "not_matched_interference_design",
+          "openneuro": "semantic_gate_closed"
+        },
+        "model": "reversal/history interventions exist; no matched human two-rule interference design",
+        "difference": "reversal cost cannot alone separate interference, confidence, output weights and activity",
+        "unlock": "public A-to-B/B-to-A and single-task controls with verified semantics and prospective acquisition gates"
+      },
+      {
+        "id": "learning_order",
+        "metric": "A-to-B versus B-to-A with equal exposure, initial state and acquisition control",
+        "unit": "participant or seed assigned to a task order; repeated windows are not independent subjects",
+        "human": {
+          "honore": "not_counterbalanced_order_data",
+          "markovic": "not_matched_order_design",
+          "openneuro": "semantic_gate_closed"
+        },
+        "model": "history and head attenuation effects investigated; no complete matched order comparison",
+        "difference": "a computational reset is not natural forgetting; seed counts are not fly animal counts",
+        "unlock": "verified public counterbalanced order data plus matched model protocol, including time and interference controls"
+      }
+    ],
+    "direct_level4_test_completed": false,
+    "shared_neural_mechanism_verified": false,
+    "education_effect_tested": false,
+    "all_phase2_phase3_tasks_completed": false,
+    "source_files": [
+      "configs/phase4_synthesis_v1.json",
+      "docs/phase4-synthesis-protocol.md",
+      "docs/phase4-synthesis.md",
+      "scripts/audit_phase4_synthesis.py",
+      "scripts/verify_phase4_synthesis.py",
+      "tests/test_phase4_synthesis.py",
+      "tests/test_phase4_synthesis_verifier.py"
+    ],
+    "evidence_files": [
+      "data/human/honore_noel_2016/source-manifest.json",
+      "data/human/honore_noel_2016/schema-audit.json",
+      "data/human/task_structure_evidence_20261015/source-manifest.json",
+      "data/human/stolz_2022_semantics_evidence/source-manifest.json",
+      "results/human_task_structure_v1/audit.json",
+      "results/human_task_structure_v1/verification.json",
+      "results/human_osf_origin_v1/verification.json",
+      "results/human_semantics_v1/verification.json",
+      "results/conditional_transition_v1/metrics.json",
+      "results/conditional_transition_v1/verification.json",
+      "results/conditional_transition_v1/artifact_hashes.json",
+      "results/stochastic_feedback_network_v1/summary.json",
+      "results/stochastic_feedback_network_v1/verification.json",
+      "results/learning_ablation_v1/summary.json",
+      "results/learning_ablation_v1/verification.json",
+      "results/time_mixture_v1/metrics.json",
+      "results/time_mixture_v1/verification.json",
+      "docs/time-mixture-findings.md",
+      "docs/human-data-readiness.md",
+      "docs/human-semantics-findings.md",
+      "docs/human-task-structure-findings.md",
+      "docs/encoding-findings.md",
+      "docs/spacing-findings.md",
+      "docs/learning-ablation-findings-v2.md",
+      "docs/stochastic-feedback-continuation-findings.md"
+    ]
+  },
+  "source_files": {
+    "configs/phase4_synthesis_v1.json": "835f04cce094f09e869fedcf008a107787b997a10b7e44d2e27ed415249c5a76",
+    "docs/phase4-synthesis-protocol.md": "b6d3e6763cc29e84368750263cbd13abc49b81054982968863a4561c1c43c126",
+    "docs/phase4-synthesis.md": "40e2fb7383eb03119ed1a661a1a76e0f134fbfe97555ae1655396d1f056ff921",
+    "scripts/audit_phase4_synthesis.py": "6b76e795178be376f9dacb9d6838a971523a4f1a8c0d2297f8f1466e6f07551f",
+    "scripts/verify_phase4_synthesis.py": "d1339dc04eaccc6640c54cd771255266f1bfef2f7c03ff4b2490b10929faa09a",
+    "tests/test_phase4_synthesis.py": "3dfff1db7424f8af542f88c5680eaeefa31be56081ee9cf987459ef66b638f0f",
+    "tests/test_phase4_synthesis_verifier.py": "fa43e19820ed4725de8b038bda72b13d268d236a6b0d3f0f533e64d55b2a627b"
+  },
+  "evidence_files": {
+    "data/human/honore_noel_2016/source-manifest.json": "cf3c32c0e1b76334c0a646c7e7ec680694d47c88a26544b3fe6dbdce7883053c",
+    "data/human/honore_noel_2016/schema-audit.json": "3b3e8baade0794b1532f24d7b8669f81b60e521a1022c707e1cb54da207d906f",
+    "data/human/task_structure_evidence_20261015/source-manifest.json": "3e39f3e06bb9cc62569eb851fda88d449dcfbe0e1f4a2fa57efe35fd24ac9fe8",
+    "data/human/stolz_2022_semantics_evidence/source-manifest.json": "10968e719296c6596f6a0dd298cf950c7666fe30fdc2635d668d8b7134a3f003",
+    "results/human_task_structure_v1/audit.json": "f4e777748518a1490bc6ec19b4c3c0caf6e560e6cfa1ca85f5e2e8c227b01547",
+    "results/human_task_structure_v1/verification.json": "4482589f64eb4a404dcf55029d899fec2fa95765d90dd87596cce856938bb1e4",
+    "results/human_osf_origin_v1/verification.json": "7a36bd97328e5388dcf7149d8395c957e1d15f02bc6e134498f5df99b741bb98",
+    "results/human_semantics_v1/verification.json": "fbc435b4ef964e30526ae4020ceee3b4debe9e65a6711e7d9cb5671d5c30c4c5",
+    "results/conditional_transition_v1/metrics.json": "055d927aa862fd1dde2a9529871dd87d023ad3e5a4631e61d352c038d8aba1a4",
+    "results/conditional_transition_v1/verification.json": "2e0314df24b73aa53b85a4bc64e2b0a188e15b1afbab5501ccb854ccfb12f573",
+    "results/conditional_transition_v1/artifact_hashes.json": "bc3aa5ee204f21c250118c8836f4d973c59cb905ae27b9ad9660947d38dc411d",
+    "results/stochastic_feedback_network_v1/summary.json": "e826d0eb4a4a02645cc82f6556df028e0f50998f643ddd3b5703bd3654fd44b7",
+    "results/stochastic_feedback_network_v1/verification.json": "72ccbcf336686adf959b8503c2530c9b63f572c566695294c4607e3b1357682f",
+    "results/learning_ablation_v1/summary.json": "368ff86a9264f3fa499c4dc795d310db4669d8c35833658c923eb1b1b70e119c",
+    "results/learning_ablation_v1/verification.json": "d72abfef66a7ca1629b21718cee8258cc5361eda75ac8736c554c9c2ab8a5452",
+    "results/time_mixture_v1/metrics.json": "d200fb671b9f34324585cbc06c97f6f0aed06bc3aeb9e30e920dd0511b1db932",
+    "results/time_mixture_v1/verification.json": "4df094e5bb618cfb7bbcd6f938f97a2ed26ea5899398c8358e2096a90494f902",
+    "docs/time-mixture-findings.md": "8ccc842ccba6121c385b988c6f8b316cc8e5cd067f191a3a17ed5f1af0f44c4c",
+    "docs/human-data-readiness.md": "696272124c2ed17234451074bdfe1c2a6c9e4a08719cac8b58a166428a773420",
+    "docs/human-semantics-findings.md": "a325894ded1b24029874da32dbb7757db117ceb66ce170b274a70654443b3c90",
+    "docs/human-task-structure-findings.md": "fac0dc71af4e10f23f6cec4a9aa0768e4ecb3e8a94887740034e9cf20b766bc3",
+    "docs/encoding-findings.md": "97741f56bd672f2710cb0cad36b42d61044427176c9e780996b80dde367279c1",
+    "docs/spacing-findings.md": "55cb2e5e10ee46cd6f7966666c502a2eb357014e48c68b8020901c8e94fbf6ff",
+    "docs/learning-ablation-findings-v2.md": "23d19774ebea237fa9a8211dcc68a87b8035cdd3e4eaf33f167c12ac5dd32c9e",
+    "docs/stochastic-feedback-continuation-findings.md": "baec3ef584302e704f6e133eab36e9155da712dcea33da7e3e055d8f22558de5"
+  }
+}
