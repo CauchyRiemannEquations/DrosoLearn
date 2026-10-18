@@ -1,0 +1,100 @@
+{
+  "study_id": "phase4_synthesis_v1",
+  "scope": "evidence_synthesis_and_measurement_consistency_not_new_human_effect_estimation",
+  "features": [
+    {
+      "id": "quantity_ratio",
+      "metric": "accuracy by all four quantity ratios; A/B pooled without naming visual conditions",
+      "unit": "human participant x timepoint x ratio; model seed x supplied input pair",
+      "human": {"honore": "descriptive_aggregate", "markovic": "not_quantity_task", "openneuro": "semantic_gate_closed"},
+      "model": "supplied scalar encodes order; encoder and spacing controls already evaluated",
+      "difference": "human visual extraction versus supplied n/8; unknown A/B meaning and stimulus metadata",
+      "unlock": "fixed visual-condition codebook, matched stimulus descriptors and prospectively registered matched task"
+    },
+    {
+      "id": "repeated_experience",
+      "metric": "pre/post observed accuracy change; trialwise learning curve only when actual trial data exist",
+      "unit": "human participant pre/post summary or original trial; computational seed learning trajectory",
+      "human": {"honore": "prepost_only_no_training_curve", "markovic": "source_coded_description_only", "openneuro": "semantic_gate_closed"},
+      "model": "actual trial rewards plus fixed-probe expected choice probability; acquisition criteria retained",
+      "difference": "observed response proportion differs from expected policy probability; queries and feedback schedules differ",
+      "unlock": "verified task version, matched exposure/feedback schedule and separate acquisition criterion"
+    },
+    {
+      "id": "generalization_transfer",
+      "metric": "held-out cases conditional on prior acquisition; task transfer distinct from same-task change",
+      "unit": "human participant across tasks; computational seed x untouched input split",
+      "human": {"honore": "paired_task_summaries_group_mapping_unresolved", "markovic": "not_matched_transfer_design", "openneuro": "semantic_gate_closed"},
+      "model": "nuisance OOD and supplied-quantity probes; no demonstrated discovery of mathematical sequence rules",
+      "difference": "supplied order and arbitrary label symmetry constrain transfer; numerical symbols are artificial model inputs",
+      "unlock": "verified group labels, independent task splits, acquisition gate and equivalent transfer contrast"
+    },
+    {
+      "id": "reward_reversal",
+      "metric": "pre/post-reversal response and acquisition-qualified adaptation; conditional stay/switch is descriptive",
+      "unit": "human original adjacent trial pair nested within person; seed trajectory with one reversal",
+      "human": {"honore": "no_reversal_trials", "markovic": "source_coded_description_only", "openneuro": "semantic_gate_closed"},
+      "model": "probabilistic acquisition and reversal failures preserved; fixed/plastic/rewired/ANN controls",
+      "difference": "multiple human reversals, information requests, shared replayed schedules and losses versus one model reversal and binary rewards",
+      "unlock": "exact historical execution evidence or new verified public task; matched state/exposure/resource design and identifiable metric"
+    },
+    {
+      "id": "learning_interference",
+      "metric": "A performance after B relative to exposure-matched A-only control with acquisition fixed",
+      "unit": "participant or seed nested within an explicitly counterbalanced task sequence",
+      "human": {"honore": "not_interference_design", "markovic": "not_matched_interference_design", "openneuro": "semantic_gate_closed"},
+      "model": "reversal/history interventions exist; no matched human two-rule interference design",
+      "difference": "reversal cost cannot alone separate interference, confidence, output weights and activity",
+      "unlock": "public A-to-B/B-to-A and single-task controls with verified semantics and prospective acquisition gates"
+    },
+    {
+      "id": "learning_order",
+      "metric": "A-to-B versus B-to-A with equal exposure, initial state and acquisition control",
+      "unit": "participant or seed assigned to a task order; repeated windows are not independent subjects",
+      "human": {"honore": "not_counterbalanced_order_data", "markovic": "not_matched_order_design", "openneuro": "semantic_gate_closed"},
+      "model": "history and head attenuation effects investigated; no complete matched order comparison",
+      "difference": "a computational reset is not natural forgetting; seed counts are not fly animal counts",
+      "unlock": "verified public counterbalanced order data plus matched model protocol, including time and interference controls"
+    }
+  ],
+  "direct_level4_test_completed": false,
+  "shared_neural_mechanism_verified": false,
+  "education_effect_tested": false,
+  "all_phase2_phase3_tasks_completed": false,
+  "source_files": [
+    "configs/phase4_synthesis_v1.json",
+    "docs/phase4-synthesis-protocol.md",
+    "docs/phase4-synthesis.md",
+    "scripts/audit_phase4_synthesis.py",
+    "scripts/verify_phase4_synthesis.py",
+    "tests/test_phase4_synthesis.py",
+    "tests/test_phase4_synthesis_verifier.py"
+  ],
+  "evidence_files": [
+    "data/human/honore_noel_2016/source-manifest.json",
+    "data/human/honore_noel_2016/schema-audit.json",
+    "data/human/task_structure_evidence_20261015/source-manifest.json",
+    "data/human/stolz_2022_semantics_evidence/source-manifest.json",
+    "results/human_task_structure_v1/audit.json",
+    "results/human_task_structure_v1/verification.json",
+    "results/human_osf_origin_v1/verification.json",
+    "results/human_semantics_v1/verification.json",
+    "results/conditional_transition_v1/metrics.json",
+    "results/conditional_transition_v1/verification.json",
+    "results/conditional_transition_v1/artifact_hashes.json",
+    "results/stochastic_feedback_network_v1/summary.json",
+    "results/stochastic_feedback_network_v1/verification.json",
+    "results/learning_ablation_v1/summary.json",
+    "results/learning_ablation_v1/verification.json",
+    "results/time_mixture_v1/metrics.json",
+    "results/time_mixture_v1/verification.json",
+    "docs/time-mixture-findings.md",
+    "docs/human-data-readiness.md",
+    "docs/human-semantics-findings.md",
+    "docs/human-task-structure-findings.md",
+    "docs/encoding-findings.md",
+    "docs/spacing-findings.md",
+    "docs/learning-ablation-findings-v2.md",
+    "docs/stochastic-feedback-continuation-findings.md"
+  ]
+}
