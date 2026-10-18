@@ -1,0 +1,126 @@
+{
+  "recorded_at_utc": "2026-10-18T22:51:27.401939+00:00",
+  "scope": "pre-registration handcrafted engineering checks; initial failures retained, not scientific reruns",
+  "receipts": [
+    {
+      "scratch_file": "time-mixture-producer-tests.json",
+      "sha256": "d47ffe256f7c93cfe4b74fef396f97b303f568122ebcdd6edf8822ab59a8dcef",
+      "receipt": {
+        "command": [
+          "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "tests/test_time_mixture.py",
+          "-q"
+        ],
+        "cwd": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\outputs\\DrosoLearn",
+        "started_at_utc": "2026-10-18T22:47:21.785475+00:00",
+        "completed_at_utc": "2026-10-18T22:47:23.346963+00:00",
+        "duration_seconds": 1.5686168999998245,
+        "exit_code": 0,
+        "stdout": "........................................................................ [ 97%]\n..                                                                       [100%]\n74 passed in 0.88s\n",
+        "stderr": "",
+        "source_sha256": {
+          "src/drosolearn/time_mixture.py": "1c06c42dcd8f3dafbf0342b4716e6599b8b46a3cfece400739b04d7efa54e39f",
+          "scripts/run_time_mixture.py": "79e8fe95ee6e587c1cba0309207a302dccf8a619d77a6b3c46f8582f9f2fa296",
+          "tests/test_time_mixture.py": "c697a8d2f0c9436ea2952a935b0d451bd49997f5ec198e28bd203f9c4c45ad9b",
+          "configs/time_mixture_v1.json": "770856c8b58edd406f7fee65690a0e17a619332184d06d3a6451c5e8072e6ce1",
+          "docs/time-mixture-protocol.md": "1f4d65a572d71f42a253f4389eb4e13c1612fabaa7c36f5bdecac8168e67329a"
+        },
+        "source_unchanged": true,
+        "scientific_nine_trial_enumeration_performed": false,
+        "scope": "handcrafted_engineering_vectors_only",
+        "earlier_engineering_attempts": [
+          {
+            "command": "python -m pytest tests/test_time_mixture.py -q",
+            "exit_code": 0,
+            "stdout": "65 passed in 0.49s",
+            "notice": "Before direct-case guards and additional corner tests; superseded by this final run."
+          }
+        ]
+      }
+    },
+    {
+      "scratch_file": "time-mixture-verifier-tests.json",
+      "sha256": "a10c564d83c2b055de0430756ab19326816f29e76045e180bee6bebdc8b2c4ff",
+      "receipt": {
+        "command": [
+          "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Scripts\\python.exe",
+          "-m",
+          "pytest",
+          "tests/test_time_mixture_verifier.py",
+          "-q"
+        ],
+        "cwd": "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\outputs\\DrosoLearn",
+        "started_at_utc": "2026-10-18T22:48:45.912544+00:00",
+        "completed_at_utc": "2026-10-18T22:49:09.443047+00:00",
+        "duration_seconds": 23.534839799999872,
+        "exit_code": 0,
+        "stdout": ".....................................................................    [100%]\n69 passed in 21.45s\n",
+        "stderr": "",
+        "source_sha256": {
+          "src/drosolearn/time_mixture.py": "1c06c42dcd8f3dafbf0342b4716e6599b8b46a3cfece400739b04d7efa54e39f",
+          "scripts/run_time_mixture.py": "79e8fe95ee6e587c1cba0309207a302dccf8a619d77a6b3c46f8582f9f2fa296",
+          "tests/test_time_mixture.py": "c697a8d2f0c9436ea2952a935b0d451bd49997f5ec198e28bd203f9c4c45ad9b",
+          "configs/time_mixture_v1.json": "770856c8b58edd406f7fee65690a0e17a619332184d06d3a6451c5e8072e6ce1",
+          "docs/time-mixture-protocol.md": "1f4d65a572d71f42a253f4389eb4e13c1612fabaa7c36f5bdecac8168e67329a",
+          "scripts/verify_time_mixture.py": "0033e02308c4d49a6b478189a29f1b265928058b6b97f6530de6232868a18451",
+          "tests/test_time_mixture_verifier.py": "7627b5f529b1ccf64119c96396ac55993306c2632efa93134f94bac1f3b005f9",
+          "docs/time-mixture-independent-audit.md": "3c368ebf9a635bc14402f1ad07e41b627acf62c5cf34662f2765b581573ba005",
+          "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+          "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+          "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+          "requirements-human-candidate-audit.txt": "5c27dbfdeac65a074ba9af3efca2b5bbe9e77edd62f97035bcea31228564a523"
+        },
+        "source_unchanged": true,
+        "scientific_nine_trial_enumeration_performed": false,
+        "scope": "handcrafted_engineering_vectors_only",
+        "earlier_engineering_attempts": [
+          {
+            "command": "python -m pytest tests/test_time_mixture_verifier.py -q",
+            "exit_code": 1,
+            "stdout_summary": "2 failed, 61 passed in 18.24s",
+            "failures": [
+              "test_complete_short_producer_independent_integration",
+              "test_cli_exclusive_output_and_failed_result"
+            ],
+            "cause": "Invented fixture writer translated newlines to CRLF while producer copy retained LF; exact byte guard rejected both.",
+            "correction": "Fixture writer now explicitly emits LF; scientific inputs, code, results and criteria had not run or changed.",
+            "stdout_tool_output_chunks": [
+              "....................F................",
+              ".........................F          [100%]\n================================== FAILURES ===================================\n____________ test_complete_short_producer_independent_integration _____________\n\nfixture = (WindowsPath('C:/Users/USER/AppData/Local/Temp/pytest-of-USER/pytest-204/test_complete_short_producer_i0/invented_repo...WindowsPath('C:/Users/USER/AppData/Local/Temp/pytest-of-USER/pytest-204/test_complete_short_producer_i0/short_result'))\n\n    def test_complete_short_producer_independent_integration(fixture):\n        root, reg, out = fixture\n        report = V.verify(root, reg, out)\n>       assert report[\"passed\"], report[\"errors\"]\nE       AssertionError: ['VerificationError: Identical original/copied registration bytes']\nE       assert False\n\ntests\\test_time_mixture_verifier.py:165: AssertionError\n_________________ test_cli_exclusive_output_and_failed_result _________________\n\nfixture = (WindowsPath('C:/Users/USER/AppData/Local/Temp/pytest-of-USER/pytest-204/test_cli_exclusive_output_and_0/invented_repo...WindowsPath('C:/Users/USER/AppData/Local/Temp/pytest-of-USER/pytest-204/test_cli_exclusive_output_and_0/short_result'))\ntmp_path = WindowsPath('C:/Users/USER/AppData/Local/Temp/pytest-of-USER/pytest-204/test_cli_exclusive_output_and_0')\n\n    def test_cli_exclusive_output_and_failed_result(fixture, tmp_path):\n        root, reg, out = fixture\n        target = tmp_path / \"verification.json\"\n>       assert V.main([\"--root\", str(root), \"--registration\", str(reg), \"--result-dir\", str(out), \"--out\", str(target)]) == 0\nE       AssertionError: assert 1 == 0\nE        +  where 1 = <function main at 0x000001A077247CE0>(['--root', 'C:\\\\Users\\\\USER\\\\AppData\\\\Local\\\\Temp\\\\pytest-of-USER\\\\pytest-204\\\\test_cli_exclusive_output_and_0\\\\invent...C:\\\\Users\\\\USER\\\\AppData\\\\Local\\\\Temp\\\\pytest-of-USER\\\\pytest-204\\\\test_cli_exclusive_output_and_0\\\\short_result', ...])\nE        +    where <function main at 0x000001A077247CE0> = V.main\n\ntests\\test_time_mixture_verifier.py:266: AssertionError\n---------------------------- Captured stdout call -----------------------------\n{\"status\": \"failed\", \"counts\": {}, \"errors\": [\"VerificationError: Identical original/copied registration bytes\"]}\n=========================== short test summary info ===========================\nFAILED tests/test_time_mixture_verifier.py::test_complete_short_producer_independent_integration\nFAILED tests/test_time_mixture_verifier.py::test_cli_exclusive_output_and_failed_result\n2 failed, 61 passed in 18.24s\n"
+            ],
+            "output_capture_method": "Text returned by exec_command then write_stdin; original rendering retained including pytest shortened path representations; not a subprocess capture file.",
+            "scientific_nine_trial_enumeration_performed": false
+          },
+          {
+            "command": "python -m pytest tests/test_time_mixture_verifier.py -q",
+            "exit_code": 0,
+            "stdout_summary": "63 passed in 19.14s",
+            "note": "Before six additional semantic/estimand tests; final command follows in this receipt.",
+            "stdout_tool_output_chunks": [
+              "....................................",
+              "...........................          [100%]\n63 passed in 19.14s\n"
+            ],
+            "output_capture_method": "Text returned by exec_command then write_stdin.",
+            "scientific_nine_trial_enumeration_performed": false
+          }
+        ]
+      }
+    }
+  ],
+  "final_unique_time_mixture_tests": 143,
+  "actual_scientific_attempts": {
+    "time_mixture_v1": 1
+  },
+  "workflow_corrections": [
+    {
+      "action": "git commit -m with a multiword quoted message",
+      "exit_code": 1,
+      "cause": "CMD argument quoting split the message into pathspecs",
+      "correction": "unchanged staged bytes committed with --file and a UTF-8 message file",
+      "git_commit_or_scientific_mutation_from_failed_command": false
+    }
+  ],
+  "notice": "Earlier 65/74 and 63/69 test passes are development history, not additive independent tests. Actual registered computation and exhaustive verification both passed without rerun."
+}

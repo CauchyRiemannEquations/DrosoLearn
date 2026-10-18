@@ -1,0 +1,2821 @@
+{
+  "study_id": "time_mixture_v1",
+  "events": [
+    {
+      "case_id": "joint_drift",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_drift",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 32,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 48,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 9,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 1,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 32,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 48,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 9,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 1,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 32,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 48,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 9,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 1,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 32,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 48,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 9,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "p_constant",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 1,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 1,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 9,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 48,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 32,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 1,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 9,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 48,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 32,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 1,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 9,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 48,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 32,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 1,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 9,
+        "denominator": 250
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 48,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "q_constant",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 32,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 1,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 1,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 2,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 2,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 3,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 3,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 4,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 4,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 5,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 5,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 6,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 6,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 7,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 7,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 72,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 8,
+      "current_choice": 0,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 18,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 0,
+      "weight": {
+        "numerator": 12,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 0,
+      "feedback": 1,
+      "weight": {
+        "numerator": 8,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 0,
+      "weight": {
+        "numerator": 3,
+        "denominator": 125
+      }
+    },
+    {
+      "case_id": "joint_constant",
+      "t": 8,
+      "current_choice": 1,
+      "next_choice": 1,
+      "feedback": 1,
+      "weight": {
+        "numerator": 2,
+        "denominator": 125
+      }
+    }
+  ]
+}

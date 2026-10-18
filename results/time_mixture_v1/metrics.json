@@ -1,0 +1,3881 @@
+{
+  "study_id": "time_mixture_v1",
+  "cases": [
+    {
+      "case_id": "joint_drift",
+      "by_current_choice": {
+        "0": {
+          "by_feedback": {
+            "0": {
+              "expected_denominator": {
+                "numerator": 16,
+                "denominator": 25
+              },
+              "expected_stay": {
+                "numerator": 34,
+                "denominator": 125
+              },
+              "expected_switch": {
+                "numerator": 46,
+                "denominator": 125
+              },
+              "expected_count_ratio": {
+                "numerator": 17,
+                "denominator": 40
+              }
+            },
+            "1": {
+              "expected_denominator": {
+                "numerator": 84,
+                "denominator": 25
+              },
+              "expected_stay": {
+                "numerator": 246,
+                "denominator": 125
+              },
+              "expected_switch": {
+                "numerator": 174,
+                "denominator": 125
+              },
+              "expected_count_ratio": {
+                "numerator": 41,
+                "denominator": 70
+              }
+            }
+          },
+          "difference_1_minus_0": {
+            "numerator": 9,
+            "denominator": 56
+          }
+        },
+        "1": {
+          "by_feedback": {
+            "0": {
+              "expected_denominator": {
+                "numerator": 84,
+                "denominator": 25
+              },
+              "expected_stay": {
+                "numerator": 309,
+                "denominator": 125
+              },
+              "expected_switch": {
+                "numerator": 111,
+                "denominator": 125
+              },
+              "expected_count_ratio": {
+                "numerator": 103,
+                "denominator": 140
+              }
+            },
+            "1": {
+              "expected_denominator": {
+                "numerator": 16,
+                "denominator": 25
+              },
+              "expected_stay": {
+                "numerator": 46,
+                "denominator": 125
+              },
+              "expected_switch": {
+                "numerator": 34,
+                "denominator": 125
+              },
+              "expected_count_ratio": {
+                "numerator": 23,
+                "denominator": 40
+              }
+            }
+          },
+          "difference_1_minus_0": {
+            "numerator": -9,
+            "denominator": 56
+          }
+        }
+      },
+      "by_time": [
+        {
+          "t": 1,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 2,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 3,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 4,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 5,
+          "p0_t": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 3,
+            "denominator": 5
+          },
+          "q1_t": {
+            "numerator": 1,
+            "denominator": 10
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 6,
+          "p0_t": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 3,
+            "denominator": 5
+          },
+          "q1_t": {
+            "numerator": 1,
+            "denominator": 10
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 7,
+          "p0_t": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 3,
+            "denominator": 5
+          },
+          "q1_t": {
+            "numerator": 1,
+            "denominator": 10
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 8,
+          "p0_t": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 3,
+            "denominator": 5
+          },
+          "q1_t": {
+            "numerator": 1,
+            "denominator": 10
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "p_constant",
+      "by_current_choice": {
+        "0": {
+          "by_feedback": {
+            "0": {
+              "expected_denominator": {
+                "numerator": 8,
+                "denominator": 5
+              },
+              "expected_stay": {
+                "numerator": 32,
+                "denominator": 25
+              },
+              "expected_switch": {
+                "numerator": 8,
+                "denominator": 25
+              },
+              "expected_count_ratio": {
+                "numerator": 4,
+                "denominator": 5
+              }
+            },
+            "1": {
+              "expected_denominator": {
+                "numerator": 24,
+                "denominator": 5
+              },
+              "expected_stay": {
+                "numerator": 96,
+                "denominator": 25
+              },
+              "expected_switch": {
+                "numerator": 24,
+                "denominator": 25
+              },
+              "expected_count_ratio": {
+                "numerator": 4,
+                "denominator": 5
+              }
+            }
+          },
+          "difference_1_minus_0": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        "1": {
+          "by_feedback": {
+            "0": {
+              "expected_denominator": {
+                "numerator": 6,
+                "denominator": 5
+              },
+              "expected_stay": {
+                "numerator": 6,
+                "denominator": 25
+              },
+              "expected_switch": {
+                "numerator": 24,
+                "denominator": 25
+              },
+              "expected_count_ratio": {
+                "numerator": 1,
+                "denominator": 5
+              }
+            },
+            "1": {
+              "expected_denominator": {
+                "numerator": 2,
+                "denominator": 5
+              },
+              "expected_stay": {
+                "numerator": 2,
+                "denominator": 25
+              },
+              "expected_switch": {
+                "numerator": 8,
+                "denominator": 25
+              },
+              "expected_count_ratio": {
+                "numerator": 1,
+                "denominator": 5
+              }
+            }
+          },
+          "difference_1_minus_0": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        }
+      },
+      "by_time": [
+        {
+          "t": 1,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 2,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 3,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 4,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 5,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 3,
+            "denominator": 5
+          },
+          "q1_t": {
+            "numerator": 1,
+            "denominator": 10
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 8,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 32,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 12,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 48,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 9,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 9,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 1,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 1,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 6,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 3,
+            "denominator": 5
+          },
+          "q1_t": {
+            "numerator": 1,
+            "denominator": 10
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 8,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 32,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 12,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 48,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 9,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 9,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 1,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 1,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 7,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 3,
+            "denominator": 5
+          },
+          "q1_t": {
+            "numerator": 1,
+            "denominator": 10
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 8,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 32,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 12,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 48,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 9,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 9,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 1,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 1,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 8,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 3,
+            "denominator": 5
+          },
+          "q1_t": {
+            "numerator": 1,
+            "denominator": 10
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 8,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 32,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 12,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 48,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 9,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 9,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 1,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 1,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "q_constant",
+      "by_current_choice": {
+        "0": {
+          "by_feedback": {
+            "0": {
+              "expected_denominator": {
+                "numerator": 2,
+                "denominator": 5
+              },
+              "expected_stay": {
+                "numerator": 28,
+                "denominator": 125
+              },
+              "expected_switch": {
+                "numerator": 22,
+                "denominator": 125
+              },
+              "expected_count_ratio": {
+                "numerator": 14,
+                "denominator": 25
+              }
+            },
+            "1": {
+              "expected_denominator": {
+                "numerator": 18,
+                "denominator": 5
+              },
+              "expected_stay": {
+                "numerator": 252,
+                "denominator": 125
+              },
+              "expected_switch": {
+                "numerator": 198,
+                "denominator": 125
+              },
+              "expected_count_ratio": {
+                "numerator": 14,
+                "denominator": 25
+              }
+            }
+          },
+          "difference_1_minus_0": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        "1": {
+          "by_feedback": {
+            "0": {
+              "expected_denominator": {
+                "numerator": 12,
+                "denominator": 5
+              },
+              "expected_stay": {
+                "numerator": 213,
+                "denominator": 125
+              },
+              "expected_switch": {
+                "numerator": 87,
+                "denominator": 125
+              },
+              "expected_count_ratio": {
+                "numerator": 71,
+                "denominator": 100
+              }
+            },
+            "1": {
+              "expected_denominator": {
+                "numerator": 8,
+                "denominator": 5
+              },
+              "expected_stay": {
+                "numerator": 142,
+                "denominator": 125
+              },
+              "expected_switch": {
+                "numerator": 58,
+                "denominator": 125
+              },
+              "expected_count_ratio": {
+                "numerator": 71,
+                "denominator": 100
+              }
+            }
+          },
+          "difference_1_minus_0": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        }
+      },
+      "by_time": [
+        {
+          "t": 1,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 2,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 3,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 4,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 5,
+          "p0_t": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 1,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 1,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 9,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 9,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 12,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 48,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 8,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 32,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 6,
+          "p0_t": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 1,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 1,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 9,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 9,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 12,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 48,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 8,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 32,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 7,
+          "p0_t": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 1,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 1,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 9,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 9,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 12,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 48,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 8,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 32,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 8,
+          "p0_t": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 1,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 1,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 1,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 9,
+                    "denominator": 50
+                  },
+                  "expected_stay": {
+                    "numerator": 9,
+                    "denominator": 250
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 12,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 48,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 8,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 32,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "case_id": "joint_constant",
+      "by_current_choice": {
+        "0": {
+          "by_feedback": {
+            "0": {
+              "expected_denominator": {
+                "numerator": 16,
+                "denominator": 25
+              },
+              "expected_stay": {
+                "numerator": 64,
+                "denominator": 125
+              },
+              "expected_switch": {
+                "numerator": 16,
+                "denominator": 125
+              },
+              "expected_count_ratio": {
+                "numerator": 4,
+                "denominator": 5
+              }
+            },
+            "1": {
+              "expected_denominator": {
+                "numerator": 144,
+                "denominator": 25
+              },
+              "expected_stay": {
+                "numerator": 576,
+                "denominator": 125
+              },
+              "expected_switch": {
+                "numerator": 144,
+                "denominator": 125
+              },
+              "expected_count_ratio": {
+                "numerator": 4,
+                "denominator": 5
+              }
+            }
+          },
+          "difference_1_minus_0": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        },
+        "1": {
+          "by_feedback": {
+            "0": {
+              "expected_denominator": {
+                "numerator": 24,
+                "denominator": 25
+              },
+              "expected_stay": {
+                "numerator": 24,
+                "denominator": 125
+              },
+              "expected_switch": {
+                "numerator": 96,
+                "denominator": 125
+              },
+              "expected_count_ratio": {
+                "numerator": 1,
+                "denominator": 5
+              }
+            },
+            "1": {
+              "expected_denominator": {
+                "numerator": 16,
+                "denominator": 25
+              },
+              "expected_stay": {
+                "numerator": 16,
+                "denominator": 125
+              },
+              "expected_switch": {
+                "numerator": 64,
+                "denominator": 125
+              },
+              "expected_count_ratio": {
+                "numerator": 1,
+                "denominator": 5
+              }
+            }
+          },
+          "difference_1_minus_0": {
+            "numerator": 0,
+            "denominator": 1
+          }
+        }
+      },
+      "by_time": [
+        {
+          "t": 1,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 2,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 3,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 4,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 5,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 6,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 7,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        },
+        {
+          "t": 8,
+          "p0_t": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "p0_next": {
+            "numerator": 4,
+            "denominator": 5
+          },
+          "q0_t": {
+            "numerator": 9,
+            "denominator": 10
+          },
+          "q1_t": {
+            "numerator": 2,
+            "denominator": 5
+          },
+          "by_current_choice": {
+            "0": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 18,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 72,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 18,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 4,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            },
+            "1": {
+              "by_feedback": {
+                "0": {
+                  "expected_denominator": {
+                    "numerator": 3,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 3,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 12,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                },
+                "1": {
+                  "expected_denominator": {
+                    "numerator": 2,
+                    "denominator": 25
+                  },
+                  "expected_stay": {
+                    "numerator": 2,
+                    "denominator": 125
+                  },
+                  "expected_switch": {
+                    "numerator": 8,
+                    "denominator": 125
+                  },
+                  "expected_count_ratio": {
+                    "numerator": 1,
+                    "denominator": 5
+                  }
+                }
+              },
+              "difference_1_minus_0": {
+                "numerator": 0,
+                "denominator": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "hypotheses": {
+    "time_mixture_counterexample": true,
+    "constant_p_control_zero": true,
+    "constant_q_control_zero": true,
+    "joint_constant_control_zero": true,
+    "exact_time_conditional_zero": true
+  },
+  "interpretation": "ratio_of_expected_counts_not_expectation_of_sampled_ratios"
+}

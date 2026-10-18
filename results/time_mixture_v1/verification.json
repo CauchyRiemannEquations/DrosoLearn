@@ -1,0 +1,110 @@
+{
+  "study_id": "time_mixture_v1",
+  "verified_at_utc": "2026-10-18T22:50:30.505355+00:00",
+  "status": "passed",
+  "passed": true,
+  "errors": [],
+  "counts": {
+    "cases": 4,
+    "original_adjacent_pairs": 32,
+    "local_events": 256,
+    "complete_paths_per_case": 131072,
+    "complete_paths_total": 524288,
+    "source_files": 12,
+    "parent_files": 17,
+    "parent_primary_artifacts": 10,
+    "primary_artifacts": 4,
+    "learning_updates": 0,
+    "learner_constructions": 0,
+    "sampled_trials": 0,
+    "rng_draws": 0
+  },
+  "method": "independent_integer_weighted_exhaustive_complete_choice_and_feedback_paths",
+  "not_verified": [
+    "Human/model similarity or differences, historical task identity, causal effects or shared neural mechanisms",
+    "Authenticity of remote publication beyond pinned local bytes; separate archive evidence is required",
+    "Expectation of an empirical random-denominator ratio"
+  ],
+  "scope": "independent_exact_no_learning_logical_counterexample_not_human_model_comparison",
+  "path_counts": [
+    {
+      "case_id": "joint_drift",
+      "complete_paths": 131072,
+      "path_weight_sum": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "original_adjacent_pairs": 8,
+      "local_events": 64
+    },
+    {
+      "case_id": "p_constant",
+      "complete_paths": 131072,
+      "path_weight_sum": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "original_adjacent_pairs": 8,
+      "local_events": 64
+    },
+    {
+      "case_id": "q_constant",
+      "complete_paths": 131072,
+      "path_weight_sum": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "original_adjacent_pairs": 8,
+      "local_events": 64
+    },
+    {
+      "case_id": "joint_constant",
+      "complete_paths": 131072,
+      "path_weight_sum": {
+        "numerator": 1,
+        "denominator": 1
+      },
+      "original_adjacent_pairs": 8,
+      "local_events": 64
+    }
+  ],
+  "hypotheses": {
+    "time_mixture_counterexample": true,
+    "constant_p_control_zero": true,
+    "constant_q_control_zero": true,
+    "joint_constant_control_zero": true,
+    "exact_time_conditional_zero": true
+  },
+  "source_imports": [
+    "__future__",
+    "argparse",
+    "ast",
+    "datetime",
+    "fractions",
+    "hashlib",
+    "itertools",
+    "json",
+    "math",
+    "pathlib",
+    "re",
+    "sys"
+  ],
+  "registration_sha256": "bee6ad755fc03c988af00d98e818cade60177ed09d0ca71e9fa66c68d5391038",
+  "config_sha256": "770856c8b58edd406f7fee65690a0e17a619332184d06d3a6451c5e8072e6ce1",
+  "metrics_sha256": "d200fb671b9f34324585cbc06c97f6f0aed06bc3aeb9e30e920dd0511b1db932",
+  "local_events_sha256": "2c92a3a56ce6d773a9f6f2c86b201b8e61b6584b915a323857e0d8af78639528",
+  "artifact_hashes_sha256": "a644df73c63ddef3f1ebcc9b6b0c05d9d365555c6b03afbea25bf34ee6e0399e",
+  "gate": {
+    "passed": true,
+    "published_commit": "70100478abd7ba86335ae6b277992f40f19b5b9b",
+    "direct_human_model_similarity_allowed": false,
+    "human_raw_records_read": 0,
+    "scope": "synthetic_exact_counterexample_not_reanalysis_of_human_or_model_behaviour"
+  },
+  "checks": [
+    "Full integer-weighted path probability mass equals one exactly in every case",
+    "Every original adjacent coordinate and event, aggregate and time-conditioned rational cell",
+    "All current source, configuration, parent, primary artifact bytes and UTC identities",
+    "Descriptive human gate remains closed; no learning or RNG and no human data reanalysis"
+  ]
+}

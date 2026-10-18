@@ -1,0 +1,335 @@
+{
+  "study_id": "time_mixture_v1",
+  "status": "completed",
+  "started_at_utc": "2026-10-18T22:50:29.619159+00:00",
+  "config": {
+    "study_id": "time_mixture_v1",
+    "scope": "registered_exact_time_mixture_calibration",
+    "trials": 9,
+    "cases": [
+      {
+        "id": "joint_drift",
+        "p0": [
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "q": [
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "3/5",
+            "1/10"
+          ],
+          [
+            "3/5",
+            "1/10"
+          ],
+          [
+            "3/5",
+            "1/10"
+          ],
+          [
+            "3/5",
+            "1/10"
+          ],
+          [
+            "3/5",
+            "1/10"
+          ]
+        ]
+      },
+      {
+        "id": "p_constant",
+        "p0": [
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5"
+        ],
+        "q": [
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "3/5",
+            "1/10"
+          ],
+          [
+            "3/5",
+            "1/10"
+          ],
+          [
+            "3/5",
+            "1/10"
+          ],
+          [
+            "3/5",
+            "1/10"
+          ],
+          [
+            "3/5",
+            "1/10"
+          ]
+        ]
+      },
+      {
+        "id": "q_constant",
+        "p0": [
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5",
+          "1/5"
+        ],
+        "q": [
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ]
+        ]
+      },
+      {
+        "id": "joint_constant",
+        "p0": [
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5",
+          "4/5"
+        ],
+        "q": [
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ],
+          [
+            "9/10",
+            "2/5"
+          ]
+        ]
+      }
+    ],
+    "learning_updates": 0,
+    "learner_constructions": 0,
+    "sampled_trials": 0,
+    "rng_draws": 0,
+    "human_or_species_comparison": false,
+    "causal_effect_estimated": false,
+    "metric": "ratio_of_expected_counts_not_expectation_of_sampled_ratios",
+    "parent_files": [
+      "configs/conditional_transition_v1.json",
+      "results/registration_conditional_transition_v1.json",
+      "results/conditional_transition_v1/metadata.json",
+      "results/conditional_transition_v1/metrics.json",
+      "results/conditional_transition_v1/verification.json",
+      "results/conditional_transition_v1/artifact_hashes.json",
+      "configs/metric_calibration_v1.json",
+      "results/registration_metric_calibration_v1.json",
+      "results/metric_calibration_v1/metadata.json",
+      "results/metric_calibration_v1/metrics.json",
+      "results/metric_calibration_v1/verification.json",
+      "results/metric_calibration_v1/artifact_hashes.json",
+      "results/registration_human_task_structure_v1.json",
+      "results/human_task_structure_v1/audit.json",
+      "results/human_task_structure_v1/verification.json",
+      "docs/conditional-transition-protocol.md",
+      "docs/metric-calibration-protocol.md"
+    ],
+    "parent_gate_identity": {
+      "published_commit": "70100478abd7ba86335ae6b277992f40f19b5b9b",
+      "file_sha256": {
+        "configs/conditional_transition_v1.json": "7568ddfa955f91b635d1b3524fc90c71beb9c3cf5a2553012a039852cda37311",
+        "results/registration_conditional_transition_v1.json": "82f208f2c89fc801fd0b6f9e8f42361e3ddf536d98151b6f280613e5cd02d953",
+        "results/conditional_transition_v1/metadata.json": "28ecd79f624294a75b39c18f42afe74bd322330abc4706dbdef0c83aaf35dc88",
+        "results/conditional_transition_v1/metrics.json": "055d927aa862fd1dde2a9529871dd87d023ad3e5a4631e61d352c038d8aba1a4",
+        "results/conditional_transition_v1/verification.json": "2e0314df24b73aa53b85a4bc64e2b0a188e15b1afbab5501ccb854ccfb12f573",
+        "results/conditional_transition_v1/artifact_hashes.json": "bc3aa5ee204f21c250118c8836f4d973c59cb905ae27b9ad9660947d38dc411d",
+        "configs/metric_calibration_v1.json": "07d3c13ab4a0cdfaec1189292d4b3bea37f0f85b8b688ad5e1096e0943619227",
+        "results/registration_metric_calibration_v1.json": "63044b52770c8b68d9e949580c10f7abf93217bd3c5cae7145de264a18ea1f39",
+        "results/metric_calibration_v1/metadata.json": "10787c17af7fe729f335554e73fad8a657f74ee381005854b19bf0724b7b4978",
+        "results/metric_calibration_v1/metrics.json": "4f97e48674458b9d40c89f449b899d4bd9f2c0442281ab89d082c64b14b8bd1b",
+        "results/metric_calibration_v1/verification.json": "c3595b6c1465c4d859c43261505809e9a562dbdc29ab5ef378d85ffd29973823",
+        "results/metric_calibration_v1/artifact_hashes.json": "053b6fa54d376d3f36d8e26e8368e21f95aa551ccc77ec30c571da35d2d8fe25",
+        "results/registration_human_task_structure_v1.json": "878be6c6fede943059ebfb7a5e5d4df9e4d7e61da1769a97babb51ff9be85dbf",
+        "results/human_task_structure_v1/audit.json": "f4e777748518a1490bc6ec19b4c3c0caf6e560e6cfa1ca85f5e2e8c227b01547",
+        "results/human_task_structure_v1/verification.json": "4482589f64eb4a404dcf55029d899fec2fa95765d90dd87596cce856938bb1e4",
+        "docs/conditional-transition-protocol.md": "4c7c124aea0bfbe7f527fed5ab95e457d30475b6a9ede96249686f95b9b742f7",
+        "docs/metric-calibration-protocol.md": "24ad71af0f9ca8fe0ebdde0470c76fa37b3a2a82fc61537a9fb7ec055fe058dd"
+      }
+    },
+    "frozen_files": [
+      "src/drosolearn/time_mixture.py",
+      "scripts/run_time_mixture.py",
+      "tests/test_time_mixture.py",
+      "configs/time_mixture_v1.json",
+      "docs/time-mixture-protocol.md",
+      "scripts/verify_time_mixture.py",
+      "tests/test_time_mixture_verifier.py",
+      "docs/time-mixture-independent-audit.md",
+      "src/drosolearn/__init__.py",
+      "pyproject.toml",
+      "requirements-lock.txt",
+      "requirements-human-candidate-audit.txt"
+    ]
+  },
+  "config_sha256": "770856c8b58edd406f7fee65690a0e17a619332184d06d3a6451c5e8072e6ce1",
+  "source_git_commit": "9de6508c1f53762d03ae5840beed0a7eded8e470",
+  "registration_sha256": "bee6ad755fc03c988af00d98e818cade60177ed09d0ca71e9fa66c68d5391038",
+  "frozen_files": {
+    "configs/time_mixture_v1.json": "770856c8b58edd406f7fee65690a0e17a619332184d06d3a6451c5e8072e6ce1",
+    "docs/time-mixture-independent-audit.md": "3c368ebf9a635bc14402f1ad07e41b627acf62c5cf34662f2765b581573ba005",
+    "docs/time-mixture-protocol.md": "1f4d65a572d71f42a253f4389eb4e13c1612fabaa7c36f5bdecac8168e67329a",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-human-candidate-audit.txt": "5c27dbfdeac65a074ba9af3efca2b5bbe9e77edd62f97035bcea31228564a523",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_time_mixture.py": "79e8fe95ee6e587c1cba0309207a302dccf8a619d77a6b3c46f8582f9f2fa296",
+    "scripts/verify_time_mixture.py": "0033e02308c4d49a6b478189a29f1b265928058b6b97f6530de6232868a18451",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/time_mixture.py": "1c06c42dcd8f3dafbf0342b4716e6599b8b46a3cfece400739b04d7efa54e39f",
+    "tests/test_time_mixture.py": "c697a8d2f0c9436ea2952a935b0d451bd49997f5ec198e28bd203f9c4c45ad9b",
+    "tests/test_time_mixture_verifier.py": "7627b5f529b1ccf64119c96396ac55993306c2632efa93134f94bac1f3b005f9"
+  },
+  "parent_files": {
+    "configs/conditional_transition_v1.json": "7568ddfa955f91b635d1b3524fc90c71beb9c3cf5a2553012a039852cda37311",
+    "configs/metric_calibration_v1.json": "07d3c13ab4a0cdfaec1189292d4b3bea37f0f85b8b688ad5e1096e0943619227",
+    "docs/conditional-transition-protocol.md": "4c7c124aea0bfbe7f527fed5ab95e457d30475b6a9ede96249686f95b9b742f7",
+    "docs/metric-calibration-protocol.md": "24ad71af0f9ca8fe0ebdde0470c76fa37b3a2a82fc61537a9fb7ec055fe058dd",
+    "results/conditional_transition_v1/artifact_hashes.json": "bc3aa5ee204f21c250118c8836f4d973c59cb905ae27b9ad9660947d38dc411d",
+    "results/conditional_transition_v1/metadata.json": "28ecd79f624294a75b39c18f42afe74bd322330abc4706dbdef0c83aaf35dc88",
+    "results/conditional_transition_v1/metrics.json": "055d927aa862fd1dde2a9529871dd87d023ad3e5a4631e61d352c038d8aba1a4",
+    "results/conditional_transition_v1/verification.json": "2e0314df24b73aa53b85a4bc64e2b0a188e15b1afbab5501ccb854ccfb12f573",
+    "results/human_task_structure_v1/audit.json": "f4e777748518a1490bc6ec19b4c3c0caf6e560e6cfa1ca85f5e2e8c227b01547",
+    "results/human_task_structure_v1/verification.json": "4482589f64eb4a404dcf55029d899fec2fa95765d90dd87596cce856938bb1e4",
+    "results/metric_calibration_v1/artifact_hashes.json": "053b6fa54d376d3f36d8e26e8368e21f95aa551ccc77ec30c571da35d2d8fe25",
+    "results/metric_calibration_v1/metadata.json": "10787c17af7fe729f335554e73fad8a657f74ee381005854b19bf0724b7b4978",
+    "results/metric_calibration_v1/metrics.json": "4f97e48674458b9d40c89f449b899d4bd9f2c0442281ab89d082c64b14b8bd1b",
+    "results/metric_calibration_v1/verification.json": "c3595b6c1465c4d859c43261505809e9a562dbdc29ab5ef378d85ffd29973823",
+    "results/registration_conditional_transition_v1.json": "82f208f2c89fc801fd0b6f9e8f42361e3ddf536d98151b6f280613e5cd02d953",
+    "results/registration_human_task_structure_v1.json": "878be6c6fede943059ebfb7a5e5d4df9e4d7e61da1769a97babb51ff9be85dbf",
+    "results/registration_metric_calibration_v1.json": "63044b52770c8b68d9e949580c10f7abf93217bd3c5cae7145de264a18ea1f39"
+  },
+  "gate": {
+    "passed": true,
+    "published_commit": "70100478abd7ba86335ae6b277992f40f19b5b9b",
+    "direct_human_model_similarity_allowed": false,
+    "human_raw_records_read": 0,
+    "scope": "synthetic_exact_counterexample_not_reanalysis_of_human_or_model_behaviour"
+  },
+  "learning_updates": 0,
+  "learner_constructions": 0,
+  "sampled_trials": 0,
+  "rng_draws": 0,
+  "human_or_species_comparison": false,
+  "causal_effect_estimated": false,
+  "cases": 4,
+  "original_adjacent_pairs": 32,
+  "local_events": 256,
+  "completed_at_utc": "2026-10-18T22:50:29.858613+00:00"
+}

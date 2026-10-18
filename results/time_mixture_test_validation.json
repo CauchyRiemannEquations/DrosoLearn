@@ -1,0 +1,47 @@
+{
+  "study_id": "time_mixture_v1",
+  "started_at_utc": "2026-10-18T22:49:24.471128+00:00",
+  "completed_at_utc": "2026-10-18T22:49:54.302995+00:00",
+  "command": [
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "tests/test_time_mixture.py",
+    "tests/test_time_mixture_verifier.py",
+    "-q"
+  ],
+  "exit_code": 0,
+  "stdout": "........................................................................ [ 50%]\n.......................................................................  [100%]\n143 passed in 26.99s\n",
+  "stderr": "",
+  "source_before": {
+    "src/drosolearn/time_mixture.py": "1c06c42dcd8f3dafbf0342b4716e6599b8b46a3cfece400739b04d7efa54e39f",
+    "scripts/run_time_mixture.py": "79e8fe95ee6e587c1cba0309207a302dccf8a619d77a6b3c46f8582f9f2fa296",
+    "tests/test_time_mixture.py": "c697a8d2f0c9436ea2952a935b0d451bd49997f5ec198e28bd203f9c4c45ad9b",
+    "configs/time_mixture_v1.json": "770856c8b58edd406f7fee65690a0e17a619332184d06d3a6451c5e8072e6ce1",
+    "docs/time-mixture-protocol.md": "1f4d65a572d71f42a253f4389eb4e13c1612fabaa7c36f5bdecac8168e67329a",
+    "scripts/verify_time_mixture.py": "0033e02308c4d49a6b478189a29f1b265928058b6b97f6530de6232868a18451",
+    "tests/test_time_mixture_verifier.py": "7627b5f529b1ccf64119c96396ac55993306c2632efa93134f94bac1f3b005f9",
+    "docs/time-mixture-independent-audit.md": "3c368ebf9a635bc14402f1ad07e41b627acf62c5cf34662f2765b581573ba005",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "requirements-human-candidate-audit.txt": "5c27dbfdeac65a074ba9af3efca2b5bbe9e77edd62f97035bcea31228564a523"
+  },
+  "source_after": {
+    "src/drosolearn/time_mixture.py": "1c06c42dcd8f3dafbf0342b4716e6599b8b46a3cfece400739b04d7efa54e39f",
+    "scripts/run_time_mixture.py": "79e8fe95ee6e587c1cba0309207a302dccf8a619d77a6b3c46f8582f9f2fa296",
+    "tests/test_time_mixture.py": "c697a8d2f0c9436ea2952a935b0d451bd49997f5ec198e28bd203f9c4c45ad9b",
+    "configs/time_mixture_v1.json": "770856c8b58edd406f7fee65690a0e17a619332184d06d3a6451c5e8072e6ce1",
+    "docs/time-mixture-protocol.md": "1f4d65a572d71f42a253f4389eb4e13c1612fabaa7c36f5bdecac8168e67329a",
+    "scripts/verify_time_mixture.py": "0033e02308c4d49a6b478189a29f1b265928058b6b97f6530de6232868a18451",
+    "tests/test_time_mixture_verifier.py": "7627b5f529b1ccf64119c96396ac55993306c2632efa93134f94bac1f3b005f9",
+    "docs/time-mixture-independent-audit.md": "3c368ebf9a635bc14402f1ad07e41b627acf62c5cf34662f2765b581573ba005",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "requirements-human-candidate-audit.txt": "5c27dbfdeac65a074ba9af3efca2b5bbe9e77edd62f97035bcea31228564a523"
+  },
+  "source_unchanged": true,
+  "passed_tests": 143,
+  "passed": true
+}
