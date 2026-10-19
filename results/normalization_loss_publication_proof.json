@@ -1,0 +1,11 @@
+{
+  "study_id": "normalization_loss_v1",
+  "registration_sha256": "c7580b1a5fac578eb644df18c3e57abbc604662ea1195f3d9558f10eab3ebecb",
+  "source_commit": "d9152f2faeb4366ed349a9d23aac8167648def08",
+  "published_commit": "49a06d9568a8190e3168e5c046666f7e08c79b8b",
+  "checked_at_utc": "2026-10-19T22:58:17.467839+00:00",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/49a06d9568a8190e3168e5c046666f7e08c79b8b/results/registration_normalization_loss_v1.json",
+  "method": "Authenticated GitHub contents API literal decoded registration bytes and private main ref verified before retrospective descriptive arithmetic; parent outcomes already known; no secret logged"
+}

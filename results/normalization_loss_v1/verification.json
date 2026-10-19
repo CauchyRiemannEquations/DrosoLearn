@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "study_id": "normalization_loss_v1",
+  "verified_at_utc": "2026-10-19T23:00:46.650878+00:00",
+  "registration_sha256": "c7580b1a5fac578eb644df18c3e57abbc604662ea1195f3d9558f10eab3ebecb",
+  "summary_sha256": "7c8e1cc06372e74088290837a8ce1ec1bfe614e44cbb2affd2a4fae845a088ab",
+  "scientific_producer_imported": false,
+  "new_helper_imported": false,
+  "counts": {
+    "arrays": 11,
+    "parent_trial_records_checked": 96000,
+    "trial_destination_effects_checked": 384000,
+    "measurement_records_checked": 6480,
+    "all_saved_actions_rewards_memory_directions_and_checkpoints_checked": true,
+    "source_destination_orientation_checked": true,
+    "raw_target_and_unit_scale_separated": true,
+    "zero_scalar_trials_have_zero_realized_effect": true,
+    "discovery_trial_included_in_actual_full_known_phase": true,
+    "unknown_category_is_overlapping_not_partition": true,
+    "geometric_helpful_not_same_target_assumption": true,
+    "exact_mass_neutral_tolerance_not_zeroed": true,
+    "undefined_ratios_and_stats_not_zero_filled": true,
+    "trial_direction_stats_not_destination_weighted": true,
+    "same_recorded_scalar_reference_not_counterfactual_policy": true,
+    "no_rng_learner_or_graph_construction_calls": true,
+    "new_training_trials": 0,
+    "new_random_draws": 0
+  }
+}

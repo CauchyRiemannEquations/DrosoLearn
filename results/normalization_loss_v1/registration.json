@@ -1,0 +1,163 @@
+{
+  "study_id": "normalization_loss_v1",
+  "registration_type": "retrospective_descriptive_normalization_loss",
+  "registered_at_utc": "2026-10-19T22:58:05.825507+00:00",
+  "source_git_commit": "d9152f2faeb4366ed349a9d23aac8167648def08",
+  "config": {
+    "study_id": "normalization_loss_v1",
+    "scope": "retrospective_descriptive_normalization_loss",
+    "module": "drosolearn.normalization_loss",
+    "protocol": "docs/normalization-loss-protocol.md",
+    "source_result": "results/selective_spillover_v1",
+    "topologies": [
+      "real",
+      "rewired",
+      "ann"
+    ],
+    "representations": [
+      "raw",
+      "identity"
+    ],
+    "methods": [
+      "shared",
+      "isolated",
+      "oracle_selective",
+      "feedback_selective"
+    ],
+    "model_seeds": [
+      17401,
+      17402,
+      17403,
+      17404,
+      17405,
+      17406,
+      17407,
+      17408,
+      17409,
+      17410
+    ],
+    "training_trials": 400,
+    "checkpoints": [
+      0,
+      50,
+      100,
+      200,
+      400
+    ],
+    "head_lr": 0.1,
+    "numeric_tolerance": 1e-08,
+    "neutral_tolerance": 1e-08,
+    "labels": [
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "phases": [
+      "all",
+      "partial",
+      "full"
+    ],
+    "categories": [
+      "self",
+      "cross_helpful",
+      "cross_harmful",
+      "cross_neutral",
+      "cross_unknown",
+      "cross_same",
+      "cross_opposite",
+      "cross_all",
+      "all"
+    ],
+    "external_manifest": null,
+    "source_files": [
+      "configs/normalization_loss_v1.json",
+      "docs/normalization-loss-protocol.md",
+      "pyproject.toml",
+      "requirements-lock.txt",
+      "scripts/run_normalization_loss.py",
+      "scripts/verify_normalization_loss.py",
+      "src/drosolearn/__init__.py",
+      "src/drosolearn/normalization_envelope.py",
+      "src/drosolearn/normalization_loss.py",
+      "src/drosolearn/representation_envelope.py",
+      "tests/test_normalization_envelope.py",
+      "tests/test_normalization_loss.py",
+      "tests/test_normalization_loss_verify.py"
+    ],
+    "parent_files": [
+      "results/registration_selective_spillover_v1.json",
+      "results/selective_spillover_archive_validation.json",
+      "results/selective_spillover_publication_proof.json",
+      "results/selective_spillover_v1/arrays.npz",
+      "results/selective_spillover_v1/artifact_hashes.json",
+      "results/selective_spillover_v1/measurements.csv",
+      "results/selective_spillover_v1/metadata.json",
+      "results/selective_spillover_v1/registration.json",
+      "results/selective_spillover_v1/summary.json",
+      "results/selective_spillover_v1/verification.json"
+    ],
+    "interpretation": {
+      "new_training": false,
+      "new_seed_draws": false,
+      "new_effect_hypothesis_test": false,
+      "new_human_experiment": false,
+      "shared_neural_mechanism_claim": false,
+      "education_effect_claim": false
+    }
+  },
+  "config_sha256": "852044e63194adaf8d1b550997296a4f5e3752e84815acd37c78e4a5c9720485",
+  "registration_path": "results/registration_normalization_loss_v1.json",
+  "baseline_tag": "selective-spillover-v1",
+  "baseline_commit": "a19a2abafcdb0db4b1ebdcc4b7629d237d112c55",
+  "source_files": {
+    "configs/normalization_loss_v1.json": "852044e63194adaf8d1b550997296a4f5e3752e84815acd37c78e4a5c9720485",
+    "docs/normalization-loss-protocol.md": "aae27607411197c01fb543cc60f3f274ab5c2eb90589ad350b7f42c265a6ba69",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_normalization_loss.py": "1a3d809684d317961cf61124cae75a47c7e22380897b452ca1ebd75075651cf3",
+    "scripts/verify_normalization_loss.py": "47e07caf1ffbdca0105786ae0c39478f48428acc16c82c9dfae7c2feeea0d0ec",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/normalization_envelope.py": "482bc8839c0f435f10776a534601f871014d37a82384d0973f33a191b854a55d",
+    "src/drosolearn/normalization_loss.py": "a79dbf20b07c89309f1bfd31bbe0e30a484b3761475c1885b453a16ab3e5a4fd",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "tests/test_normalization_envelope.py": "fb4b6075d2ba9ed8ee4081f21fc0712891ba8cc680f6bfcf419b36ad70aa95e1",
+    "tests/test_normalization_loss.py": "4dc72f439268e79ca5dd0356d4968123a0b40ff5c0dbfa26c37ec0411e5008c4",
+    "tests/test_normalization_loss_verify.py": "92e375ef7b81e71212dab41738e4d378aa8c79ab2d8f462941257c817ab36d1a"
+  },
+  "parent_files": {
+    "results/registration_selective_spillover_v1.json": "22f2ca0ddc9cdb883be1963d4ae88624c6a9adeb4ba76246b7146a457a706553",
+    "results/selective_spillover_archive_validation.json": "024df54edf5eb8e9d60481c069a7bc02f3d953d40369ea4ba56a7b590a4dcfb5",
+    "results/selective_spillover_publication_proof.json": "bc81b52b0ad49a28d73977a0318d9f51449f4726c7b0f6fc34034e9593dedb8f",
+    "results/selective_spillover_v1/arrays.npz": "cd243384a7b913200cc607137a7e3797df886b69d3f6bbc956f93956c96c27ae",
+    "results/selective_spillover_v1/artifact_hashes.json": "fc2dec073e550f9bb7f29a9b41999ce00e8471f4910012619cec093ddfa6f9a3",
+    "results/selective_spillover_v1/measurements.csv": "79928b9fb9b1997e1e287ef50c02b549b953cbb81874eab4ef0dccb03aad680e",
+    "results/selective_spillover_v1/metadata.json": "0fd94f2dc6917986e51b71cfdbc5660fa5bc23950b4e73bd1d94017949535d72",
+    "results/selective_spillover_v1/registration.json": "22f2ca0ddc9cdb883be1963d4ae88624c6a9adeb4ba76246b7146a457a706553",
+    "results/selective_spillover_v1/summary.json": "814a9d0be4a4146068b567c912b74021cc3bec8a4d43c45f7e28c27a6f7bc2f1",
+    "results/selective_spillover_v1/verification.json": "c6bb6891513ac16890571d44f07b08dd02fd929e00c8db7c2233f60131a943de"
+  },
+  "gate": {
+    "baseline_tag": "selective-spillover-v1",
+    "baseline_commit": "a19a2abafcdb0db4b1ebdcc4b7629d237d112c55",
+    "prior_full_replay_reused_not_rerun": true,
+    "parent_arrays_and_trial_csv_sha256_checked": true,
+    "parent_source_and_data_source_commit_bytes_checked": true,
+    "parent_archive_baseline_snapshot_checked": true,
+    "literal_baseline_receipt_checked": true,
+    "whole_repository_literal_pass_not_repeated": true,
+    "prior_negative_selective_and_acquisition_preserved": true,
+    "prior_human_similarity_and_mechanism_negative_preserved": true,
+    "evolving_indexes_checked_in_baseline_commit_only": [
+      "README.md",
+      "docs/repository-status.json",
+      "docs/research-roadmap.md"
+    ],
+    "pinned_baseline_files": 14,
+    "archive_snapshot_files": 70,
+    "new_training_calls": 0,
+    "new_random_seed_draws": 0,
+    "new_graph_or_feature_constructions": 0
+  },
+  "notice": "Parent outcomes are already known; this saved-results descriptive decomposition and reporting are frozen before its arithmetic. Descriptive analysis only, without new training, seeds, animals or effect hypothesis tests."
+}

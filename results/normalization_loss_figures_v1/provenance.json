@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-10-19T23:01:09.796994+00:00",
+  "source_git_commit": "d9152f2faeb4366ed349a9d23aac8167648def08",
+  "renderer": "drosolearn.normalization_loss.render",
+  "renderer_source_sha256": "a79dbf20b07c89309f1bfd31bbe0e30a484b3761475c1885b453a16ab3e5a4fd",
+  "arrays_sha256": "78cb2bc8683793ef9821b1e03fcae31febd79c22fbb7f71149f1a31c8afc45b7",
+  "summary_sha256": "7c8e1cc06372e74088290837a8ce1ec1bfe614e44cbb2affd2a4fae845a088ab",
+  "verification_sha256": "0f7b31dad700e66221d6bee4da3a07e9984070a6d40a67687b1570905b108a4e",
+  "figure_sha256": {
+    "normalization-retention.png": "52fbe86a551cffdfd3ac78f0a1fb80865aa166476f6b93e3409259cd47d4205c",
+    "primary-normalization-stages.png": "e03a4c7b773606bc08e6da3ac4f3a05b573131cfe47b4277a1248baf20c56fce"
+  },
+  "all48_retention_bars_and_6_phase_points_match_summary": true,
+  "independent_verification_precedes_plotting": true,
+  "pooled_score_mass_ratio_not_accuracy": true
+}

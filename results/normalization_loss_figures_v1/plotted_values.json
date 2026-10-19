@@ -1,0 +1,164 @@
+{
+  "retention": [
+    {
+      "topology": "real",
+      "representation": "raw",
+      "category": "self",
+      "values": [
+        1.0,
+        0.10499585582702238,
+        0.05802942759275435,
+        0.06610499048202283
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "category": "cross_helpful",
+      "values": [
+        1.0,
+        null,
+        0.05779651898172824,
+        0.06587817487340643
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "category": "self",
+      "values": [
+        1.0,
+        0.2719911651907031,
+        0.22408225166509,
+        0.2317925897543264
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "category": "cross_helpful",
+      "values": [
+        1.0,
+        null,
+        0.22459182183982396,
+        0.23221478753427638
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "category": "self",
+      "values": [
+        1.0,
+        0.12696510076515036,
+        0.07083313147531403,
+        0.07855499405162035
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "category": "cross_helpful",
+      "values": [
+        1.0,
+        null,
+        0.07006422914736579,
+        0.07775411807994155
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "category": "self",
+      "values": [
+        1.0,
+        0.288245994986308,
+        0.26592098241531426,
+        0.273098980305803
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "category": "cross_helpful",
+      "values": [
+        1.0,
+        null,
+        0.26584307379494276,
+        0.27305212781630517
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "category": "self",
+      "values": [
+        0.9999999999999999,
+        0.10699253422282308,
+        0.05842460749848129,
+        0.06636135994153695
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "category": "cross_helpful",
+      "values": [
+        1.0,
+        null,
+        0.05836379547834889,
+        0.06629372834341495
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "category": "self",
+      "values": [
+        0.9999999999999999,
+        0.28853577270890696,
+        0.2549947637020663,
+        0.2621970961855681
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "category": "cross_helpful",
+      "values": [
+        1.0,
+        null,
+        0.25268351664671385,
+        0.259788923576708
+      ]
+    }
+  ],
+  "primary_phases": [
+    {
+      "category": "self",
+      "phases": [
+        "all",
+        "partial",
+        "full"
+      ],
+      "helpful_retention": [
+        0.06610499048202283,
+        0.30437819154303125,
+        0.057961213253233286
+      ]
+    },
+    {
+      "category": "cross_helpful",
+      "phases": [
+        "all",
+        "partial",
+        "full"
+      ],
+      "helpful_retention": [
+        0.06587817487340643,
+        0.30431428820822526,
+        0.057730322651014944
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "study_id": "normalization_loss_v1",
+  "status": "completed",
+  "stage": "completed",
+  "started_at_utc": "2026-10-19T22:58:25.137153+00:00",
+  "source_git_commit": "d9152f2faeb4366ed349a9d23aac8167648def08",
+  "registration_sha256": "c7580b1a5fac578eb644df18c3e57abbc604662ea1195f3d9558f10eab3ebecb",
+  "config_sha256": "852044e63194adaf8d1b550997296a4f5e3752e84815acd37c78e4a5c9720485",
+  "publication_proof": "results/normalization_loss_publication_proof.json",
+  "publication_proof_sha256": "d8bf5358c0254a828e69746b33908ba3037d2dc35e5def5b4f8b9ac740aefd45",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "analysis_only": true,
+  "new_training_calls": 0,
+  "new_random_seed_draws": 0,
+  "new_graph_or_feature_constructions": 0,
+  "new_human_experiment": false,
+  "shared_neural_mechanism_tested": false,
+  "education_effect_tested": false,
+  "new_effect_hypothesis_test": false,
+  "counts": {
+    "analyzed_parent_trial_records": 96000,
+    "trial_destination_cells": 384000,
+    "cross_destination_cells": 288000,
+    "conditions": 24,
+    "model_seeds": 10,
+    "measurement_records": 6480,
+    "new_training_trials": 0,
+    "new_head_update_calls": 0,
+    "new_internal_update_calls": 0,
+    "new_value_update_calls": 0,
+    "new_random_draws": 0,
+    "fresh_model_constructions": 0
+  },
+  "measurement_records": 6480,
+  "numeric_arrays": 11,
+  "completed_at_utc": "2026-10-19T22:58:30.581627+00:00"
+}

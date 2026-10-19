@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-19T23:01:44.170938+00:00",
+  "source_git_commit": "d9152f2faeb4366ed349a9d23aac8167648def08",
+  "summary_sha256": "7c8e1cc06372e74088290837a8ce1ec1bfe614e44cbb2affd2a4fae845a088ab",
+  "verification_sha256": "0f7b31dad700e66221d6bee4da3a07e9984070a6d40a67687b1570905b108a4e",
+  "document_sha256": {
+    "docs/normalization-loss-findings.md": "89dd66224eae30bef071864fb1ec84e962b215a0122384958411b025d59bbbdd",
+    "docs/normalization-loss-reproduction.md": "a3d7a2f0bf086efe0448b349805bd888b4ec76b42b68370d38441f03a3f52507"
+  },
+  "local_document_links_checked": 7,
+  "all24_condition_two_ratios_and_primary_stage_masses_and_phases_match": true,
+  "all48_pooled_ratio_values_and6_primary_phase_values_match": true,
+  "figures": {
+    "normalization-retention.png": {
+      "sha256": "52fbe86a551cffdfd3ac78f0a1fb80865aa166476f6b93e3409259cd47d4205c",
+      "width": 2250,
+      "height": 1200,
+      "visually_inspected": true,
+      "title_legend_axes_NA_and_reference_distinction_readable": true
+    },
+    "primary-normalization-stages.png": {
+      "sha256": "e03a4c7b773606bc08e6da3ac4f3a05b573131cfe47b4277a1248baf20c56fce",
+      "width": 1800,
+      "height": 720,
+      "visually_inspected": true,
+      "title_legend_axes_NA_and_reference_distinction_readable": true
+    }
+  },
+  "additional_file_sha256": {
+    "src/drosolearn/normalization_loss.py": "a79dbf20b07c89309f1bfd31bbe0e30a484b3761475c1885b453a16ab3e5a4fd"
+  },
+  "visual_inspection_method": "Both final PNGs viewed with local image tool; title/legend/axes/captions checked. Development layout corrected before science freeze using synthetic values only.",
+  "scope_checks": {
+    "retrospective_known_parent_not_new_behavioral_confirmation": true,
+    "same_recorded_scalar_reference_not_alternative_policy": true,
+    "score_retention_not_accuracy_or_probability_loss": true,
+    "suppression_and_normalization_stages_separate": true,
+    "normalization_can_also_reduce_remaining_harm": true,
+    "own_helpful_harmful_neutral_and_overlapping_unknown_separate": true,
+    "discovery_trial_full_known_after": true,
+    "all_vs_nonzero_direction_stats_not_destination_weighted": true,
+    "pooled_vs_seed_mean_ratios_and_undefined_denominators_explicit": true,
+    "no_new_learning_draws_or_features": true,
+    "prior_negative_human_acquisition_and_generalization_gates_preserved": true,
+    "future_cost_intervention_only_unexecuted_candidate": true,
+    "automatic_continuation_paused": true
+  }
+}
