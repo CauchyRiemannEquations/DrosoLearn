@@ -1,0 +1,87 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-19T22:57:57.701770+00:00",
+  "baseline_commit": "a19a2abafcdb0db4b1ebdcc4b7629d237d112c55",
+  "unique_passed_tests": 362,
+  "new_unique_passed_tests": 293,
+  "unchanged_related_regression_passed_tests": 69,
+  "test_receipts": [
+    {
+      "path": "results/normalization_loss_prefreeze_tests/normalization_core_final_tests.xml",
+      "sha256": "7f4ff06a7e6a035130ae6a72653cb3ea20712797430f5d2049777453921aa58a",
+      "passed_unique_tests": 130,
+      "new_unique_tests": 61,
+      "unchanged_related_regression_tests": 69
+    },
+    {
+      "path": "results/normalization_loss_prefreeze_tests/normalization_envelope_final_tests.xml",
+      "sha256": "aa594b4fe10135b5ef96042f4e5a928d5c406ea83954183dc5375345372944ce",
+      "passed_unique_tests": 104,
+      "new_unique_tests": 104,
+      "unchanged_related_regression_tests": 0
+    },
+    {
+      "path": "results/normalization_loss_prefreeze_tests/normalization_verifier_tests_final.xml",
+      "sha256": "7ce06e64c44476d62b5475c92b6c5080ed985a377d13915131412323064b5433",
+      "passed_unique_tests": 128,
+      "new_unique_tests": 128,
+      "unchanged_related_regression_tests": 0
+    }
+  ],
+  "frozen_source_hashes": {
+    "configs/normalization_loss_v1.json": "852044e63194adaf8d1b550997296a4f5e3752e84815acd37c78e4a5c9720485",
+    "docs/normalization-loss-protocol.md": "aae27607411197c01fb543cc60f3f274ab5c2eb90589ad350b7f42c265a6ba69",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_normalization_loss.py": "1a3d809684d317961cf61124cae75a47c7e22380897b452ca1ebd75075651cf3",
+    "scripts/verify_normalization_loss.py": "47e07caf1ffbdca0105786ae0c39478f48428acc16c82c9dfae7c2feeea0d0ec",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/normalization_envelope.py": "482bc8839c0f435f10776a534601f871014d37a82384d0973f33a191b854a55d",
+    "src/drosolearn/normalization_loss.py": "a79dbf20b07c89309f1bfd31bbe0e30a484b3761475c1885b453a16ab3e5a4fd",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "tests/test_normalization_envelope.py": "fb4b6075d2ba9ed8ee4081f21fc0712891ba8cc680f6bfcf419b36ad70aa95e1",
+    "tests/test_normalization_loss.py": "4dc72f439268e79ca5dd0356d4968123a0b40ff5c0dbfa26c37ec0411e5008c4",
+    "tests/test_normalization_loss_verify.py": "92e375ef7b81e71212dab41738e4d378aa8c79ab2d8f462941257c817ab36d1a"
+  },
+  "actual_saved_normalization_aggregations_before_freeze": 0,
+  "new_training_trials_before_freeze": 0,
+  "actual_parent_gate": {
+    "baseline_tag": "selective-spillover-v1",
+    "baseline_commit": "a19a2abafcdb0db4b1ebdcc4b7629d237d112c55",
+    "prior_full_replay_reused_not_rerun": true,
+    "parent_arrays_and_trial_csv_sha256_checked": true,
+    "parent_source_and_data_source_commit_bytes_checked": true,
+    "parent_archive_baseline_snapshot_checked": true,
+    "literal_baseline_receipt_checked": true,
+    "whole_repository_literal_pass_not_repeated": true,
+    "prior_negative_selective_and_acquisition_preserved": true,
+    "prior_human_similarity_and_mechanism_negative_preserved": true,
+    "evolving_indexes_checked_in_baseline_commit_only": [
+      "README.md",
+      "docs/repository-status.json",
+      "docs/research-roadmap.md"
+    ],
+    "pinned_baseline_files": 14,
+    "archive_snapshot_files": 70,
+    "new_training_calls": 0,
+    "new_random_seed_draws": 0,
+    "new_graph_or_feature_constructions": 0
+  },
+  "previous_learner_replayed_as_new_training": false,
+  "runtime": {
+    "python": "3.12.10"
+  },
+  "design_audits": [
+    "Known parent outcome; descriptive matched-scalar arithmetic only, no new behavioral hypothesis",
+    "Shared baseline, raw desired and actual unit influence separated; all three use same recorded scalar",
+    "Self, true geometric helpful/harmful/neutral and overlapping unknown destinations distinguished",
+    "Discovery trial belongs to full-known-after phase, actual oracle observation still starts unknown",
+    "NoGo direction statistics retained but zero actual score mass; direction means not destination weighted",
+    "Positive/negative exact masses retained even for numerical-neutral classification",
+    "Per-seed ratios and pooled mass ratios reported separately; undefined denominator never filled with zero",
+    "Unit normalization can reduce remaining harm as well as retained help; score mass is not accuracy loss",
+    "Independent synthetic parent replay agrees in11arrays/CSV/summary before actual analysis",
+    "Parent byte closure and original negative human/selective/acquisition outcomes preserved"
+  ],
+  "prior_scientific_failure_modified": false
+}

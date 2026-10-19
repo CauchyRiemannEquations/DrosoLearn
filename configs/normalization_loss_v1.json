@@ -1,0 +1,103 @@
+{
+  "study_id": "normalization_loss_v1",
+  "scope": "retrospective_descriptive_normalization_loss",
+  "module": "drosolearn.normalization_loss",
+  "protocol": "docs/normalization-loss-protocol.md",
+  "source_result": "results/selective_spillover_v1",
+  "topologies": [
+    "real",
+    "rewired",
+    "ann"
+  ],
+  "representations": [
+    "raw",
+    "identity"
+  ],
+  "methods": [
+    "shared",
+    "isolated",
+    "oracle_selective",
+    "feedback_selective"
+  ],
+  "model_seeds": [
+    17401,
+    17402,
+    17403,
+    17404,
+    17405,
+    17406,
+    17407,
+    17408,
+    17409,
+    17410
+  ],
+  "training_trials": 400,
+  "checkpoints": [
+    0,
+    50,
+    100,
+    200,
+    400
+  ],
+  "head_lr": 0.1,
+  "numeric_tolerance": 1e-08,
+  "neutral_tolerance": 1e-08,
+  "labels": [
+    1,
+    1,
+    -1,
+    -1
+  ],
+  "phases": [
+    "all",
+    "partial",
+    "full"
+  ],
+  "categories": [
+    "self",
+    "cross_helpful",
+    "cross_harmful",
+    "cross_neutral",
+    "cross_unknown",
+    "cross_same",
+    "cross_opposite",
+    "cross_all",
+    "all"
+  ],
+  "external_manifest": null,
+  "source_files": [
+    "configs/normalization_loss_v1.json",
+    "docs/normalization-loss-protocol.md",
+    "pyproject.toml",
+    "requirements-lock.txt",
+    "scripts/run_normalization_loss.py",
+    "scripts/verify_normalization_loss.py",
+    "src/drosolearn/__init__.py",
+    "src/drosolearn/normalization_envelope.py",
+    "src/drosolearn/normalization_loss.py",
+    "src/drosolearn/representation_envelope.py",
+    "tests/test_normalization_envelope.py",
+    "tests/test_normalization_loss.py",
+    "tests/test_normalization_loss_verify.py"
+  ],
+  "parent_files": [
+    "results/registration_selective_spillover_v1.json",
+    "results/selective_spillover_archive_validation.json",
+    "results/selective_spillover_publication_proof.json",
+    "results/selective_spillover_v1/arrays.npz",
+    "results/selective_spillover_v1/artifact_hashes.json",
+    "results/selective_spillover_v1/measurements.csv",
+    "results/selective_spillover_v1/metadata.json",
+    "results/selective_spillover_v1/registration.json",
+    "results/selective_spillover_v1/summary.json",
+    "results/selective_spillover_v1/verification.json"
+  ],
+  "interpretation": {
+    "new_training": false,
+    "new_seed_draws": false,
+    "new_effect_hypothesis_test": false,
+    "new_human_experiment": false,
+    "shared_neural_mechanism_claim": false,
+    "education_effect_claim": false
+  }
+}
