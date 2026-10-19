@@ -1,0 +1,1579 @@
+{
+  "study_id": "phase5_synthesis_v1",
+  "registration_type": "prospective_bounded_followup",
+  "registered_at_utc": "2026-10-19T01:52:26.480290+00:00",
+  "source_git_commit": "b8a1e5d54c5941aa5c6d22c698bdd88c9c1674c2",
+  "config": {
+    "study_id": "phase5_synthesis_v1",
+    "scope": "retrospective_bounded_evidence_synthesis",
+    "chunked_parent_manifest": "results/interference_order_v1/arrays.npz.parts.json",
+    "studies": [
+      {
+        "study_id": "smoke_v1",
+        "tag": "v0.1.0-smoke",
+        "verification": "results/smoke_v1/verification.json",
+        "report": "results/smoke_v1/report.md",
+        "primary": "results/smoke_v1/summary.json",
+        "role": "initial_artificial_quantity_learning"
+      },
+      {
+        "study_id": "reversal_v1",
+        "tag": "study-reversal-v1",
+        "verification": "results/reversal_v1/verification.json",
+        "report": "docs/reversal-findings.md",
+        "primary": "results/reversal_v1/summary.json",
+        "role": "quantity_reward_reversal_diagnostic"
+      },
+      {
+        "study_id": "encoding_v1",
+        "tag": "study-encoding-v1",
+        "verification": "results/encoding_v1/verification.json",
+        "report": "docs/encoding-findings.md",
+        "primary": "results/encoding_v1/summary.json",
+        "role": "input_encoding_diagnostic"
+      },
+      {
+        "study_id": "spacing_v1",
+        "tag": "study-spacing-v1",
+        "verification": "results/spacing_v1/verification.json",
+        "report": "docs/spacing-findings.md",
+        "primary": "results/spacing_v1/summary.json",
+        "role": "input_spacing_diagnostic"
+      },
+      {
+        "study_id": "linearity_v1",
+        "tag": "study-linearity-v1",
+        "verification": "results/linearity_v1/verification.json",
+        "report": "docs/linearity-findings.md",
+        "primary": "results/linearity_v1/summary.json",
+        "role": "linear_solvability_diagnostic"
+      },
+      {
+        "study_id": "reward_linear_v1",
+        "tag": "study-reward-linear-v1",
+        "verification": "results/reward_linear_v1/verification.json",
+        "report": "docs/reward-linear-findings.md",
+        "primary": "results/reward_linear_v1/summary.json",
+        "role": "reward_rule_linear_control"
+      },
+      {
+        "study_id": "bandit_reversal_v1",
+        "tag": "study-bandit-reversal-v1",
+        "verification": "results/bandit_reversal_v1/verification.json",
+        "report": "docs/bandit-reversal-findings.md",
+        "primary": "results/bandit_reversal_v1/summary.json",
+        "role": "bandit_reward_reversal"
+      },
+      {
+        "study_id": "head_attenuation_v1",
+        "tag": "study-head-attenuation-v1",
+        "verification": "results/head_attenuation_v1/verification.json",
+        "report": "docs/head-attenuation-findings.md",
+        "primary": "results/head_attenuation_v1/summary.json",
+        "role": "output_weight_scale_diagnostic"
+      },
+      {
+        "study_id": "human_trial_data_audit_v1",
+        "tag": "human-trial-data-audit-v1",
+        "verification": "results/human_trial_data_v1/verification.json",
+        "report": "docs/human-trial-data-findings.md",
+        "primary": "results/human_trial_data_v1/structure-audit.json",
+        "role": "historical_human_source_structure_audit"
+      },
+      {
+        "study_id": "human_trial_linkage_v1",
+        "tag": "human-trial-linkage-v1",
+        "verification": "results/human_trial_linkage_v1/verification.json",
+        "report": "docs/human-trial-linkage-findings.md",
+        "primary": "results/human_trial_linkage_v1/linkage-report.json",
+        "role": "historical_source_row_linkage_audit"
+      },
+      {
+        "study_id": "human_semantics_v1",
+        "tag": "human-semantics-v1",
+        "verification": "results/human_semantics_v1/verification.json",
+        "report": "docs/human-data-continuation-findings.md",
+        "primary": "results/human_semantics_v1/code-cross-tabs.json",
+        "role": "unresolved_historical_field_semantics"
+      },
+      {
+        "study_id": "human_osf_origin_v1",
+        "tag": "human-osf-origin-v1",
+        "verification": "results/human_osf_origin_v1/verification.json",
+        "report": "docs/human-data-continuation-findings.md",
+        "primary": "results/human_osf_origin_v1/comparison.json",
+        "role": "historical_osf_provenance"
+      },
+      {
+        "study_id": "human_task_structure_v1",
+        "tag": "human-task-structure-v1",
+        "verification": "results/human_task_structure_v1/verification.json",
+        "report": "docs/learning-measurement-continuation-findings.md",
+        "primary": "results/human_task_structure_v1/audit.json",
+        "role": "historical_task_source_gate"
+      },
+      {
+        "study_id": "feedback_transition_v1",
+        "tag": "feedback-transition-v1",
+        "verification": "results/feedback_transition_v1/verification.json",
+        "report": "docs/learning-measurement-continuation-findings.md",
+        "primary": "results/feedback_transition_v1/metrics.json",
+        "role": "descriptive_feedback_transition_not_similarity"
+      },
+      {
+        "study_id": "metric_calibration_v1",
+        "tag": "metric-calibration-v1",
+        "verification": "results/metric_calibration_v1/verification.json",
+        "report": "docs/metric-calibration-findings.md",
+        "primary": "results/metric_calibration_v1/metrics.json",
+        "role": "metric_identifiability_counterexamples"
+      },
+      {
+        "study_id": "stochastic_feedback_linear_v1",
+        "tag": "stochastic-feedback-linear-v1",
+        "verification": "results/stochastic_feedback_linear_v1/verification.json",
+        "report": "docs/stochastic-feedback-continuation-findings.md",
+        "primary": "results/stochastic_feedback_linear_v1/summary.json",
+        "role": "stochastic_linear_learning_control"
+      },
+      {
+        "study_id": "stochastic_feedback_network_v1",
+        "tag": "stochastic-feedback-network-v1",
+        "verification": "results/stochastic_feedback_network_v1/verification.json",
+        "report": "docs/stochastic-feedback-continuation-findings.md",
+        "primary": "results/stochastic_feedback_network_v1/summary.json",
+        "role": "stochastic_network_learning_comparison"
+      },
+      {
+        "study_id": "learning_ablation_v1",
+        "tag": "learning-ablation-v1",
+        "verification": "results/learning_ablation_v1/verification.json",
+        "report": "docs/learning-ablation-findings-v2.md",
+        "primary": "results/learning_ablation_v1/summary.json",
+        "role": "quantity_learning_internal_output_ablation"
+      },
+      {
+        "study_id": "state_decomposition_v1",
+        "tag": "state-decomposition-v1",
+        "verification": "results/state_decomposition_v1/verification.json",
+        "report": "docs/state-decomposition-findings.md",
+        "primary": "results/state_decomposition_v1/summary.json",
+        "role": "quantity_frozen_state_decomposition"
+      },
+      {
+        "study_id": "conditional_transition_v1",
+        "tag": "conditional-transition-v1",
+        "verification": "results/conditional_transition_v1/verification.json",
+        "report": "docs/conditional-transition-findings.md",
+        "primary": "results/conditional_transition_v1/metrics.json",
+        "role": "conditional_metric_descriptive_identifiability"
+      },
+      {
+        "study_id": "time_mixture_v1",
+        "tag": "time-mixture-v1",
+        "verification": "results/time_mixture_v1/verification.json",
+        "report": "docs/time-mixture-findings.md",
+        "primary": "results/time_mixture_v1/metrics.json",
+        "role": "exact_time_mixture_counterexample"
+      },
+      {
+        "study_id": "phase4_synthesis_v1",
+        "tag": "phase4-synthesis-v1",
+        "verification": "results/phase4_synthesis_v1/verification.json",
+        "report": "docs/phase4-synthesis.md",
+        "primary": "results/phase4_synthesis_v1/synthesis.json",
+        "role": "bounded_historical_measurement_synthesis"
+      },
+      {
+        "study_id": "human_shell_v1",
+        "tag": "human-shell-v1-design-limited",
+        "verification": "results/human_shell_v1/verification.json",
+        "report": "docs/human-shell-rng-design-note.md",
+        "primary": "results/human_shell_v1/summary.json",
+        "role": "preserved_rng_design_limited_comparison"
+      },
+      {
+        "study_id": "human_shell_rng_v2",
+        "tag": "human-shell-comparison-v2",
+        "verification": "results/human_shell_rng_v2/verification.json",
+        "report": "docs/human-shell-findings.md",
+        "primary": "results/human_shell_rng_v2/summary.json",
+        "role": "repaired_direct_human_model_comparison"
+      },
+      {
+        "study_id": "shell_credit_v1",
+        "tag": "shell-credit-v1",
+        "verification": "results/shell_credit_v1/verification.json",
+        "report": "docs/shell-credit-findings.md",
+        "primary": "results/shell_credit_v1/summary.json",
+        "role": "stationary_cross_cue_update_intervention"
+      },
+      {
+        "study_id": "shell_behavior_v1",
+        "tag": "shell-behavior-v1",
+        "verification": "results/shell_behavior_v1/verification.json",
+        "report": "docs/shell-behavior-findings.md",
+        "primary": "results/shell_behavior_v1/summary.json",
+        "role": "saved_trace_description_and_planned_metric_counterexample"
+      },
+      {
+        "study_id": "pattern_rule_v1",
+        "tag": "pattern-rule-v1",
+        "verification": "results/pattern_rule_v1/verification.json",
+        "report": "docs/pattern-rule-findings.md",
+        "primary": "results/pattern_rule_v1/summary.json",
+        "role": "artificial_pattern_acquisition_then_ood"
+      },
+      {
+        "study_id": "interference_order_v1",
+        "tag": "interference-order-v1",
+        "verification": "results/interference_order_v1/verification.json",
+        "report": "docs/interference-order-findings.md",
+        "primary": "results/interference_order_v1/summary.json",
+        "role": "contextual_curricula_with_acquisition_and_joint_gates"
+      }
+    ],
+    "claims": [
+      {
+        "claim_id": "model_scope",
+        "question": 1,
+        "level": 0,
+        "status": "bounded",
+        "text_ko": "공개 v783 부분집합의 KC→MBON 한 단계 계산 경로를 사용한다.",
+        "limits_ko": "시각 LC11·DAN 동역학·전체 재귀 뇌 회로는 구현하지 않았다.",
+        "observations": [
+          {
+            "file": "docs/drosomem-audit.json",
+            "pointer": "/reuse_plan/first_model",
+            "value": "New independently implemented one-hop KC to MBON projection"
+          },
+          {
+            "file": "docs/drosomem-audit.json",
+            "pointer": "/reuse_plan/data_subset",
+            "value": "flywire_783_mb_left_kc512_s701"
+          },
+          {
+            "file": "docs/drosomem-audit.json",
+            "pointer": "/reuse_plan/ignore_for_initial_model",
+            "value": [
+              "DAN/APL dynamics",
+              "Recurrent whole-graph dynamics",
+              "Visual LC11 circuit"
+            ]
+          }
+        ]
+      },
+      {
+        "claim_id": "quantity_learning",
+        "question": 1,
+        "level": 2,
+        "status": "bounded",
+        "text_ko": "순서가 제공된 인공 수량 입력에서 학습과 표현 의존성이 확인됐다.",
+        "limits_ko": "수량을 시각적으로 추출하거나 초파리의 수학 이해를 재현한 결과가 아니다.",
+        "observations": [
+          {
+            "file": "results/encoding_v1/summary.json",
+            "pointer": "/family_verdicts/1/qualified_seed_count",
+            "value": 10
+          },
+          {
+            "file": "results/encoding_v1/summary.json",
+            "pointer": "/family_verdicts/1/criterion_met",
+            "value": true
+          }
+        ]
+      },
+      {
+        "claim_id": "simple_reward_learning",
+        "question": 1,
+        "level": 2,
+        "status": "supported",
+        "text_ko": "별도 단순 선형 대조도 보상으로 연습 과제를 습득했다.",
+        "limits_ko": "단순한 표현과 학습 규칙으로 설명할 대안이며 실제 배선의 고유 우위를 뜻하지 않는다.",
+        "observations": [
+          {
+            "file": "results/reward_linear_v1/summary.json",
+            "pointer": "/hypotheses/H_R",
+            "value": {
+              "criterion_met": true,
+              "mean_iid_reward_gap": 0.48865709781276045,
+              "positive_seed_count": 10,
+              "acquisition_count": 10
+            }
+          },
+          {
+            "file": "results/stochastic_feedback_linear_v1/summary.json",
+            "pointer": "/primary_hypothesis/probabilistic_acquisition_count",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "claim_id": "pattern_acquisition",
+        "question": 1,
+        "level": 2,
+        "status": "not_supported",
+        "text_ko": "인공 패턴의 주 가소성 모델은 연습 습득 0/10으로 사전 기준을 충족하지 못했다.",
+        "limits_ko": "이 표현·400시행·모델의 결과이며 생물학적 불가능성이나 모든 학습법의 실패가 아니다.",
+        "observations": [
+          {
+            "file": "results/pattern_rule_v1/summary.json",
+            "pointer": "/H_acquisition",
+            "value": {
+              "condition": "plastic",
+              "supported": false
+            }
+          },
+          {
+            "file": "results/pattern_rule_v1/summary.json",
+            "pointer": "/families/1/acquisition_pass_seeds",
+            "value": 0
+          },
+          {
+            "file": "results/pattern_rule_v1/summary.json",
+            "pointer": "/families/8/acquisition_pass_seeds",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "claim_id": "internal_intervention",
+        "question": 2,
+        "level": 2,
+        "status": "supported",
+        "text_ko": "같은 첫 학습 상태의 반전 개입에서 내부 갱신 허용이 결과를 바꿨다.",
+        "limits_ko": "전체 정책 경로 효과이며 추가 갱신 자원·후속 보상 경로까지 같거나 생물학적 규칙이라는 주장은 아니다.",
+        "observations": [
+          {
+            "file": "results/learning_ablation_v1/summary.json",
+            "pointer": "/primary_hypotheses/H_I/criterion_met",
+            "value": true
+          },
+          {
+            "file": "results/learning_ablation_v1/summary.json",
+            "pointer": "/primary_hypotheses/H_I/mean_effect",
+            "value": 0.2611788773506773
+          },
+          {
+            "file": "results/learning_ablation_v1/summary.json",
+            "pointer": "/primary_hypotheses/H_H/mean_effect",
+            "value": 0.3693634218935594
+          }
+        ]
+      },
+      {
+        "claim_id": "state_decomposition",
+        "question": 2,
+        "level": 0,
+        "status": "supported",
+        "text_ko": "저장된 출력·내부 특징·교차항을 별도 산술로 분해했다.",
+        "limits_ko": "정적 재조합을 실제 학습 분기나 생물학적 원인의 기여율로 읽지 않는다.",
+        "observations": [
+          {
+            "file": "results/state_decomposition_v1/summary.json",
+            "pointer": "/arithmetic_identity_passed",
+            "value": true
+          },
+          {
+            "file": "results/state_decomposition_v1/summary.json",
+            "pointer": "/cases",
+            "value": 204800
+          },
+          {
+            "file": "results/state_decomposition_v1/summary.json",
+            "pointer": "/learning_updates",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "claim_id": "cross_cue_credit",
+        "question": 2,
+        "level": 2,
+        "status": "supported",
+        "text_ko": "보상 규칙이 고정된 별도 과제에서 다른 문제로 번지는 출력 갱신을 분리하자 최종 수행이 높아졌다.",
+        "limits_ko": "추가 고정 계수와 행렬 풀이가 필요한 계산적 대조이며 원 인간 과제 실패의 전체 원인이나 신경 기작은 아니다.",
+        "observations": [
+          {
+            "file": "results/shell_credit_v1/summary.json",
+            "pointer": "/H_credit",
+            "value": {
+              "effect_criterion_met": true,
+              "mean_endpoint_effect": 0.2238343002341348,
+              "positive_seeds": 5,
+              "n_seeds": 5,
+              "isolated_acquisition_gate": true,
+              "supported": true,
+              "interpretation": "stationary computational cross-cue update intervention; not the cause of the historical human-task failure"
+            }
+          },
+          {
+            "file": "results/shell_credit_v1/summary.json",
+            "pointer": "/acquisition/0/mean_endpoint_accuracy",
+            "value": 0.6190182634950381
+          },
+          {
+            "file": "results/shell_credit_v1/summary.json",
+            "pointer": "/acquisition/1/mean_endpoint_accuracy",
+            "value": 0.8428525637291729
+          }
+        ]
+      },
+      {
+        "claim_id": "head_scaling",
+        "question": 2,
+        "level": 2,
+        "status": "bounded",
+        "text_ko": "같은 이력에서 출력 계수 축소가 반전 결과를 바꾼 계산 효과를 보존한다.",
+        "limits_ko": "즉시 경계 변화와 이후 학습 효과를 구분하며 자연 망각·본질적 학습 속도·교육 효과로 확대하지 않는다.",
+        "observations": [
+          {
+            "file": "results/head_attenuation_v1/summary.json",
+            "pointer": "/primary_hypothesis/criterion_met",
+            "value": true
+          },
+          {
+            "file": "results/head_attenuation_v1/summary.json",
+            "pointer": "/primary_hypothesis/mean_endpoint_benefit",
+            "value": 0.37025106468720415
+          }
+        ]
+      },
+      {
+        "claim_id": "scalar_transfer",
+        "question": 3,
+        "level": 3,
+        "status": "bounded",
+        "text_ko": "순서를 가진 인공 수량 표현에서는 별도 선형 학습자도 습득 후 새 수량쌍 기준을 통과했다.",
+        "limits_ko": "입력이 순서를 제공한 제한적 전이이며 추상적 수학 규칙 발견이나 커넥톰 고유 성능의 증거가 아니다.",
+        "observations": [
+          {
+            "file": "results/reward_linear_v1/summary.json",
+            "pointer": "/hypotheses/H_G",
+            "value": {
+              "criterion_met": true,
+              "joint_identity_transfer_count": 10
+            }
+          }
+        ]
+      },
+      {
+        "claim_id": "linear_explanation",
+        "question": 3,
+        "level": 0,
+        "status": "bounded",
+        "text_ko": "기존 신경망 선택 확률은 단순 선형 참조로 가까이 설명되는 범위가 있었다.",
+        "limits_ko": "참조는 원 모델 점수를 받았다. 독립 보상 학습이나 같은 내부 기작의 증거가 아니다.",
+        "observations": [
+          {
+            "file": "results/linearity_v1/summary.json",
+            "pointer": "/family_verdicts/1/mean_affine_probability_mae",
+            "value": 0.0038632548605362907
+          },
+          {
+            "file": "results/linearity_v1/summary.json",
+            "pointer": "/family_verdicts/1/criterion_met",
+            "value": true
+          }
+        ]
+      },
+      {
+        "claim_id": "pattern_generalization",
+        "question": 3,
+        "level": 3,
+        "status": "not_assessable",
+        "text_ko": "주 패턴 모델은 습득 gate 미달로 세 새 입력 집합의 일반화 판정을 보류한다.",
+        "limits_ko": "습득을 실패한 수치를 일반화 성공 또는 학습 후 일반화 실패로 대체하지 않는다.",
+        "observations": [
+          {
+            "file": "results/pattern_rule_v1/summary.json",
+            "pointer": "/H_generalization",
+            "value": [
+              {
+                "set": "new_alphabet",
+                "joint_acquisition_and_ood_pass_seeds": 0,
+                "supported": false,
+                "status": "not_assessable_without_acquisition"
+              },
+              {
+                "set": "new_alphabet_phase",
+                "joint_acquisition_and_ood_pass_seeds": 0,
+                "supported": false,
+                "status": "not_assessable_without_acquisition"
+              },
+              {
+                "set": "new_length",
+                "joint_acquisition_and_ood_pass_seeds": 0,
+                "supported": false,
+                "status": "not_assessable_without_acquisition"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "claim_id": "memorization_control",
+        "question": 3,
+        "level": 3,
+        "status": "not_supported",
+        "text_ko": "네 입력을 보상으로 외운 Q는 습득했지만 미학습 입력 전이를 통과하지 못했다.",
+        "limits_ko": "새 입력에서 p=.5인 설계상의 암기 대조다. 다른 일반화 모델의 불가능성은 아니다.",
+        "observations": [
+          {
+            "file": "results/pattern_rule_v1/summary.json",
+            "pointer": "/families/8/acquisition_supported",
+            "value": true
+          },
+          {
+            "file": "results/pattern_rule_v1/summary.json",
+            "pointer": "/families/8/ood",
+            "value": [
+              {
+                "set": "new_alphabet",
+                "joint_acquisition_and_ood_pass_seeds": 0,
+                "supported": false,
+                "status": "not_supported"
+              },
+              {
+                "set": "new_alphabet_phase",
+                "joint_acquisition_and_ood_pass_seeds": 0,
+                "supported": false,
+                "status": "not_supported"
+              },
+              {
+                "set": "new_length",
+                "joint_acquisition_and_ood_pass_seeds": 0,
+                "supported": false,
+                "status": "not_supported"
+              }
+            ]
+          },
+          {
+            "file": "results/pattern_rule_v1/summary.json",
+            "pointer": "/shortcuts/unique_strings",
+            "value": 16
+          },
+          {
+            "file": "results/pattern_rule_v1/summary.json",
+            "pointer": "/shortcuts/phase_is_balanced_generalization_test",
+            "value": false
+          }
+        ]
+      },
+      {
+        "claim_id": "drosomem_failure_retained",
+        "question": 3,
+        "level": 0,
+        "status": "not_supported",
+        "text_ko": "기존 독립 DrosoMem M11의 습득·전이 기준 미달을 그대로 계승한다.",
+        "limits_ko": "이번 종합에서 과거 실험 전체를 재실행한 것이 아니라 고정 원 요약을 감사했다.",
+        "observations": [
+          {
+            "file": "docs/drosomem-audit.json",
+            "pointer": "/repository/commit",
+            "value": "7fb156c193c7a499fc2266a164b705729abbab21"
+          },
+          {
+            "file": "docs/drosomem-audit.json",
+            "pointer": "/repository/upstream_modified",
+            "value": false
+          },
+          {
+            "file": "docs/drosomem-audit.json",
+            "pointer": "/M11_archived_summary/git_blob_sha256",
+            "value": "661bc66ee2a655f8d336747f64c139de2a38b4a149bd6d1fb2cef6fba3e82720"
+          },
+          {
+            "file": "docs/drosomem-audit.json",
+            "pointer": "/M11_archived_summary/content/primary_pass",
+            "value": false
+          }
+        ]
+      },
+      {
+        "claim_id": "reversal_history",
+        "question": 4,
+        "level": 2,
+        "status": "supported",
+        "text_ko": "단순 모델도 이전 반응의 영향을 받아 반전과 처음부터 학습의 결과가 달랐다.",
+        "limits_ko": "생물학적 기억·모델 고유 학습 속도·인간과 동일 원리의 증거가 아니다.",
+        "observations": [
+          {
+            "file": "results/bandit_reversal_v1/summary.json",
+            "pointer": "/primary_hypothesis",
+            "value": {
+              "name": "H_B",
+              "condition": "linear_normalized",
+              "n_seeds": 10,
+              "mean_endpoint_cost": 0.5245449722473937,
+              "sd_endpoint_cost": 0.24080895916800138,
+              "positive_seed_count": 10,
+              "high_prefix_acquisition_count": 10,
+              "fresh_acquisition_count": 10,
+              "criterion_met": true
+            }
+          }
+        ]
+      },
+      {
+        "claim_id": "contextual_interference",
+        "question": 4,
+        "level": 2,
+        "status": "not_assessable",
+        "text_ko": "주 가소성 모델의 상충 과제 뒤 유지 손실의 사전 판정은 not_assessable이다.",
+        "limits_ko": "각 과제 습득과 공동학습·충돌 입력 기준을 먼저 요구한다. gate가 닫히면 기술적 수치만 남기며 효과를 확증하지 않는다.",
+        "observations": [
+          {
+            "file": "results/interference_order_v1/summary.json",
+            "pointer": "/qualification_supported",
+            "value": false
+          },
+          {
+            "file": "results/interference_order_v1/summary.json",
+            "pointer": "/H_interference",
+            "value": {
+              "supported": false,
+              "status": "not_assessable",
+              "mean_retention_loss": -0.019196562148705503,
+              "ci90": [
+                -0.02514287093724811,
+                -0.012845094325649651
+              ]
+            }
+          },
+          {
+            "file": "results/interference_order_v1/summary.json",
+            "pointer": "/families/1/qualification_pass_seeds",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "claim_id": "contextual_order",
+        "question": 4,
+        "level": 2,
+        "status": "not_assessable",
+        "text_ko": "주 가소성 모델의 A→B와 B→A의 학습 순서의 사전 판정은 not_assessable이다.",
+        "limits_ko": "각 과제 습득과 공동학습·충돌 입력 기준을 먼저 요구한다. gate가 닫히면 기술적 수치만 남기며 효과를 확증하지 않는다.",
+        "observations": [
+          {
+            "file": "results/interference_order_v1/summary.json",
+            "pointer": "/qualification_supported",
+            "value": false
+          },
+          {
+            "file": "results/interference_order_v1/summary.json",
+            "pointer": "/H_order",
+            "value": {
+              "supported": false,
+              "status": "not_assessable",
+              "mean_order_delta": -0.0003185509155236188,
+              "ci90": [
+                -0.006545670363546001,
+                0.005929160612490878
+              ]
+            }
+          },
+          {
+            "file": "results/interference_order_v1/summary.json",
+            "pointer": "/families/1/qualification_pass_seeds",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "claim_id": "context_joint_control",
+        "question": 4,
+        "level": 2,
+        "status": "bounded",
+        "text_ko": "맥락별 Q와 신경망의 개별·공동학습 성적을 모두 보존한다.",
+        "limits_ko": "네 일관 문제만 맞혀 전체 평균이 높아지는 지름길을 충돌 문제별 기준으로 막았다.",
+        "observations": [
+          {
+            "file": "results/interference_order_v1/summary.json",
+            "pointer": "/analytic_context_blind_witness",
+            "value": {
+              "consistent_id_accuracy": 1.0,
+              "conflicting_id_accuracy": 0.5,
+              "overall_accuracy": 0.8333333333333334,
+              "each_class_accuracy": 0.8333333333333334,
+              "passes_old_mean_and_class_gate": true,
+              "passes_conflict_qualification": false
+            }
+          },
+          {
+            "file": "results/interference_order_v1/summary.json",
+            "pointer": "/families/8/qualification_pass_seeds",
+            "value": 10
+          }
+        ]
+      },
+      {
+        "claim_id": "idle_scope",
+        "question": 4,
+        "level": 0,
+        "status": "untested",
+        "text_ko": "갱신 없는 대기 복제는 상태 불변 점검이며 자연 시간 망각은 미검증이다.",
+        "limits_ko": "시간 상수·자연 감쇠를 구현하지 않은 모형에서 망각의 생물학적 부재를 주장하지 않는다.",
+        "observations": [
+          {
+            "file": "results/interference_order_v1/summary.json",
+            "pointer": "/interpretation/natural_time_forgetting_tested",
+            "value": false
+          },
+          {
+            "file": "results/interference_order_v1/summary.json",
+            "pointer": "/interpretation/idle_is_state_copy_invariant",
+            "value": true
+          },
+          {
+            "file": "results/interference_order_v1/summary.json",
+            "pointer": "/counts/idle_feedback_trials",
+            "value": 0
+          }
+        ]
+      },
+      {
+        "claim_id": "direct_human_similarity",
+        "question": 5,
+        "level": 4,
+        "status": "not_supported",
+        "text_ko": "실제 공개 조개 과제의 직접 비교에서 주 모델의 등록된 인간 행동 유사성은 지지되지 않았다.",
+        "limits_ko": "한 과제·모델·혼합 코호트의 결과다. 모든 인간/초파리 공통 원리의 부재나 인간 학습 실패를 뜻하지 않는다.",
+        "observations": [
+          {
+            "file": "results/human_shell_rng_v2/summary.json",
+            "pointer": "/H_similarity",
+            "value": {
+              "primary_condition": "plastic",
+              "supported": false,
+              "claim": "behavioral_equivalence_only",
+              "margin": 0.1,
+              "notice": "same three summaries within operational margin; not common mechanism or learning proof"
+            }
+          },
+          {
+            "file": "results/human_shell_rng_v2/summary.json",
+            "pointer": "/learning_qualification",
+            "value": {
+              "human_initial_gain_ci90": [
+                0.11494252873563221,
+                0.25287356321839083
+              ],
+              "model_initial_gain_ci90": [
+                -0.05982758620689659,
+                0.07241379310344824
+              ],
+              "human_gain_observed": true,
+              "model_gain_observed": false,
+              "human_gain_status": "observed",
+              "gated_learning_pattern_supported": false,
+              "notice": "human pretraining/experience prevents interpreting absent gain as absent learning"
+            }
+          },
+          {
+            "file": "results/human_shell_rng_v2/summary.json",
+            "pointer": "/behavior_family_comparisons/1/metrics/2",
+            "value": {
+              "metric": "reversal_recovery",
+              "human_mean": 0.3122605363984674,
+              "model_mean": -0.0030651340996168588,
+              "difference": -0.31532567049808424,
+              "ci90": [
+                -0.4042337164750958,
+                -0.22871647509578547
+              ],
+              "equivalent": false,
+              "status": "outside_margin"
+            }
+          }
+        ]
+      },
+      {
+        "claim_id": "human_prediction",
+        "question": 5,
+        "level": 4,
+        "status": "not_supported",
+        "text_ko": "다음 인간 선택 예측은 균등보다 나았지만 편향·반복 대조를 모두 넘는 기준은 미달했다.",
+        "limits_ko": "세 예측 대조와 자율 행동 유사성을 구분한다. 사람의 사전 연습·시각·운동·실제 시간은 재현하지 않았다.",
+        "observations": [
+          {
+            "file": "results/human_shell_rng_v2/summary.json",
+            "pointer": "/H_prediction",
+            "value": {
+              "primary_condition": "plastic",
+              "supported": false,
+              "minimum_improvement_nats": 0.01,
+              "contrasts": [
+                {
+                  "baseline": "uniform",
+                  "mean_improvement_nats": 0.027100757068630524,
+                  "ci90": [
+                    0.0138171543138575,
+                    0.03997941299582021
+                  ],
+                  "passed": true
+                },
+                {
+                  "baseline": "bias",
+                  "mean_improvement_nats": -0.022574043787609247,
+                  "ci90": [
+                    -0.04015869927073437,
+                    -0.006684220796720543
+                  ],
+                  "passed": false
+                },
+                {
+                  "baseline": "persistence",
+                  "mean_improvement_nats": -0.04275710430798365,
+                  "ci90": [
+                    -0.08659626474177753,
+                    0.006525056187373817
+                  ],
+                  "passed": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "claim_id": "rng_design_history",
+        "question": 5,
+        "level": 0,
+        "status": "design_limited",
+        "text_ko": "첫 인간 비교의 자율 난수 주소 중복과 별도 수정 이력을 보존한다.",
+        "limits_ko": "산술 검산 통과와 추론 설계 타당성은 별개다. 첫 자율 결과를 새 눈가림 증거로 합치지 않는다.",
+        "observations": [
+          {
+            "file": "results/human_shell_rng_v2/verification.json",
+            "pointer": "/original_autonomous_design_limitation_preserved",
+            "value": true
+          },
+          {
+            "file": "results/human_shell_rng_v2/verification.json",
+            "pointer": "/new_calibration_observations",
+            "value": 0
+          },
+          {
+            "file": "results/human_shell_rng_v2/verification.json",
+            "pointer": "/conditional_arrays_byte_identical",
+            "value": true
+          }
+        ]
+      },
+      {
+        "claim_id": "behavior_metric_limits",
+        "question": 5,
+        "level": 0,
+        "status": "supported",
+        "text_ko": "같은 세 점수의 재생 반례와 보상 부호 개입은 점수만으로 학습 기작을 식별할 수 없음을 보인다.",
+        "limits_ko": "계획된 구성적 반례이며 공정한 학습 경쟁자·새 인간 전략·인간 유사성 확증이 아니다.",
+        "observations": [
+          {
+            "file": "results/shell_behavior_v1/summary.json",
+            "pointer": "/metric_identification",
+            "value": {
+              "planned_counterexample_verified": true,
+              "three_summaries_uniquely_identify_reward_learning": false,
+              "scripted_policy_online_updates": 0,
+              "scripted_policy_uses_precomputed_action_tape": true,
+              "scripted_policy_is_eligible_fair_learning_control": false,
+              "notice": "Exact equality was planned by construction; it limits mechanism identification and is not a new human learning effect."
+            }
+          },
+          {
+            "file": "results/shell_behavior_v1/summary.json",
+            "pointer": "/reward_intervention",
+            "value": {
+              "q_vs_fixed_tape_disagreeing_choices": 18201,
+              "evaluated_choices": 50112,
+              "disagreement_fraction": 0.36320641762452105,
+              "fixed_tape_choice_change": 0,
+              "notice": "Reward signs reversed in a synthetic intervention; original human rewards and original comparison are unchanged."
+            }
+          }
+        ]
+      },
+      {
+        "claim_id": "human_source_gate",
+        "question": 5,
+        "level": 0,
+        "status": "bounded",
+        "text_ko": "다른 공개 카드 자료의 25개 원본 구조 검증과 역사적 실행판의 미확인을 구분한다.",
+        "limits_ko": "닫힌 과거 자료 조건은 조개 자료 비교가 완료돼도 열리지 않는다.",
+        "observations": [
+          {
+            "file": "results/human_task_structure_v1/audit.json",
+            "pointer": "/gate",
+            "value": {
+              "source_coded_descriptive_metric_allowed": true,
+              "exact_historical_task_execution_version_verified": false,
+              "direct_human_model_similarity_allowed": false
+            }
+          },
+          {
+            "file": "results/phase4_synthesis_v1/synthesis.json",
+            "pointer": "/verified_original_human_records",
+            "value": 25
+          },
+          {
+            "file": "results/phase4_synthesis_v1/synthesis.json",
+            "pointer": "/unverified_original_human_records_retained",
+            "value": 49
+          }
+        ]
+      },
+      {
+        "claim_id": "time_mixture_counterexample",
+        "question": 5,
+        "level": 0,
+        "status": "supported",
+        "text_ko": "시간별 선택 성향과 보상 확률이 함께 변하는 무학습 반례를 보존한다.",
+        "limits_ko": "피드백별 조건부 차이는 곧 보상의 인과 효과가 아니다. 기존 인간/모델 기록의 실제 원인을 특정한 것은 아니다.",
+        "observations": [
+          {
+            "file": "results/time_mixture_v1/metrics.json",
+            "pointer": "/hypotheses",
+            "value": {
+              "time_mixture_counterexample": true,
+              "constant_p_control_zero": true,
+              "constant_q_control_zero": true,
+              "joint_constant_control_zero": true,
+              "exact_time_conditional_zero": true
+            }
+          }
+        ]
+      },
+      {
+        "claim_id": "biological_education_limits",
+        "question": 5,
+        "level": 0,
+        "status": "untested",
+        "text_ko": "공통 신경 기작과 고등 수학교육 효과는 검증하지 않았다.",
+        "limits_ko": "행동 유사성이 나와도 Level 5를 자동 주장할 수 없다. 이번 직접 유사성도 미지지다.",
+        "observations": [
+          {
+            "file": "results/human_shell_rng_v2/summary.json",
+            "pointer": "/mechanism_claim",
+            "value": false
+          },
+          {
+            "file": "results/human_shell_rng_v2/summary.json",
+            "pointer": "/educational_claim",
+            "value": false
+          }
+        ]
+      }
+    ],
+    "questions": [
+      {
+        "question": 1,
+        "text_ko": "수량과 단순 규칙을 경험으로 학습하는가?",
+        "claim_ids": [
+          "model_scope",
+          "quantity_learning",
+          "simple_reward_learning",
+          "pattern_acquisition"
+        ]
+      },
+      {
+        "question": 2,
+        "text_ko": "학습 중 활성·내부·출력은 어떻게 바뀌는가?",
+        "claim_ids": [
+          "internal_intervention",
+          "state_decomposition",
+          "cross_cue_credit",
+          "head_scaling"
+        ]
+      },
+      {
+        "question": 3,
+        "text_ko": "미학습 사례·규칙에 일반화하는가?",
+        "claim_ids": [
+          "scalar_transfer",
+          "linear_explanation",
+          "pattern_generalization",
+          "memorization_control",
+          "drosomem_failure_retained"
+        ]
+      },
+      {
+        "question": 4,
+        "text_ko": "반복·반전·간섭·순서·유지는 어떤 영향을 주는가?",
+        "claim_ids": [
+          "reversal_history",
+          "contextual_interference",
+          "contextual_order",
+          "context_joint_control",
+          "idle_scope"
+        ]
+      },
+      {
+        "question": 5,
+        "text_ko": "인간 기초 학습과 정량 비교할 공통점과 차이는 무엇인가?",
+        "claim_ids": [
+          "direct_human_similarity",
+          "human_prediction",
+          "rng_design_history",
+          "behavior_metric_limits",
+          "human_source_gate",
+          "time_mixture_counterexample",
+          "biological_education_limits"
+        ]
+      }
+    ],
+    "synthesis_interpretation": {
+      "bounded_synthesis_complete": true,
+      "all_possible_phase2_phase3_work_complete": false,
+      "level4_similarity_supported": false,
+      "shared_neural_mechanism_claim": false,
+      "education_effect_claim": false
+    },
+    "input_files": [
+      "LICENSE",
+      "LIMITATIONS.md",
+      "configs/interference_order_v1.json",
+      "configs/pattern_rule_v1.json",
+      "configs/shell_behavior_v1.json",
+      "configs/shell_credit_v1.json",
+      "data/human/honore_noel_2016/source-manifest.json",
+      "data/human/osf_origin_evidence_20261015/source-manifest.json",
+      "data/human/osf_permissions_20261015/source-manifest.json",
+      "data/human/stolz_2022_linkage_evidence/source-manifest.json",
+      "data/human/stolz_2022_openneuro/source-manifest.json",
+      "data/human/stolz_2022_semantics_evidence/source-manifest.json",
+      "data/human/task_structure_evidence_20261015/source-manifest.json",
+      "data/human/tnu_shell_2024/source-manifest.json",
+      "data/synthetic/interference_order_v1/input_catalog.json",
+      "data/synthetic/pattern_rule_v1/input_catalog.json",
+      "docs/bandit-reversal-findings.md",
+      "docs/conditional-transition-findings.md",
+      "docs/drosomem-audit.json",
+      "docs/drosomem-audit.md",
+      "docs/encoding-findings.md",
+      "docs/head-attenuation-findings.md",
+      "docs/human-data-continuation-findings.md",
+      "docs/human-learning-comparison.md",
+      "docs/human-shell-data-processing-note.md",
+      "docs/human-shell-findings.md",
+      "docs/human-shell-reproduction.md",
+      "docs/human-shell-rng-design-note.md",
+      "docs/human-trial-data-findings.md",
+      "docs/human-trial-linkage-findings.md",
+      "docs/interference-order-findings.md",
+      "docs/interference-order-protocol.md",
+      "docs/learning-ablation-findings-v2.md",
+      "docs/learning-measurement-continuation-findings.md",
+      "docs/linearity-findings.md",
+      "docs/literature-review.md",
+      "docs/metric-calibration-findings.md",
+      "docs/pattern-rule-findings.md",
+      "docs/pattern-rule-protocol.md",
+      "docs/phase4-synthesis.md",
+      "docs/phase5-reproduction.md",
+      "docs/research-question.md",
+      "docs/result-storage.md",
+      "docs/reversal-findings.md",
+      "docs/reward-linear-findings.md",
+      "docs/shell-behavior-findings.md",
+      "docs/shell-behavior-protocol.md",
+      "docs/shell-credit-findings.md",
+      "docs/shell-credit-protocol.md",
+      "docs/spacing-findings.md",
+      "docs/state-decomposition-findings.md",
+      "docs/stochastic-feedback-continuation-findings.md",
+      "docs/time-mixture-findings.md",
+      "results/bandit_reversal_v1/metadata.json",
+      "results/bandit_reversal_v1/summary.json",
+      "results/bandit_reversal_v1/verification.json",
+      "results/conditional_transition_v1/metadata.json",
+      "results/conditional_transition_v1/metrics.json",
+      "results/conditional_transition_v1/verification.json",
+      "results/encoding_v1/metadata.json",
+      "results/encoding_v1/summary.json",
+      "results/encoding_v1/verification.json",
+      "results/feedback_transition_v1/metadata.json",
+      "results/feedback_transition_v1/metrics.json",
+      "results/feedback_transition_v1/verification.json",
+      "results/head_attenuation_v1/metadata.json",
+      "results/head_attenuation_v1/summary.json",
+      "results/head_attenuation_v1/verification.json",
+      "results/human_osf_origin_v1/comparison.json",
+      "results/human_osf_origin_v1/verification.json",
+      "results/human_semantics_v1/code-cross-tabs.json",
+      "results/human_semantics_v1/metadata.json",
+      "results/human_semantics_v1/verification.json",
+      "results/human_shell_rng_v2/metadata.json",
+      "results/human_shell_rng_v2/summary.json",
+      "results/human_shell_rng_v2/verification.json",
+      "results/human_shell_v1/metadata.json",
+      "results/human_shell_v1/summary.json",
+      "results/human_shell_v1/verification.json",
+      "results/human_task_structure_v1/audit.json",
+      "results/human_task_structure_v1/verification.json",
+      "results/human_trial_data_v1/metadata.json",
+      "results/human_trial_data_v1/structure-audit.json",
+      "results/human_trial_data_v1/verification.json",
+      "results/human_trial_linkage_v1/linkage-report.json",
+      "results/human_trial_linkage_v1/metadata.json",
+      "results/human_trial_linkage_v1/verification.json",
+      "results/interference_order_prefreeze_engineering_evidence.json",
+      "results/interference_order_prefreeze_evidence.json",
+      "results/interference_order_v1/arrays.npz.part001",
+      "results/interference_order_v1/arrays.npz.part002",
+      "results/interference_order_v1/arrays.npz.parts.json",
+      "results/interference_order_v1/summary.json",
+      "results/interference_order_v1/verification.json",
+      "results/interference_order_v1_test_validation.json",
+      "results/learning_ablation_v1/metadata.json",
+      "results/learning_ablation_v1/summary.json",
+      "results/learning_ablation_v1/verification.json",
+      "results/linearity_v1/metadata.json",
+      "results/linearity_v1/summary.json",
+      "results/linearity_v1/verification.json",
+      "results/metric_calibration_v1/metadata.json",
+      "results/metric_calibration_v1/metrics.json",
+      "results/metric_calibration_v1/verification.json",
+      "results/pattern_rule_prefreeze_evidence.json",
+      "results/pattern_rule_v1/summary.json",
+      "results/pattern_rule_v1/verification.json",
+      "results/pattern_rule_v1_test_validation.json",
+      "results/phase4_synthesis_v1/metadata.json",
+      "results/phase4_synthesis_v1/synthesis.json",
+      "results/phase4_synthesis_v1/verification.json",
+      "results/registration_bandit_reversal_v1.json",
+      "results/registration_conditional_transition_v1.json",
+      "results/registration_encoding_v1.json",
+      "results/registration_feedback_transition_v1.json",
+      "results/registration_head_attenuation_v1.json",
+      "results/registration_human_osf_origin_v1.json",
+      "results/registration_human_semantics_v1.json",
+      "results/registration_human_shell_rng_v2.json",
+      "results/registration_human_shell_v1.json",
+      "results/registration_human_task_structure_v1.json",
+      "results/registration_human_trial_data_v1.json",
+      "results/registration_human_trial_linkage_v1.json",
+      "results/registration_interference_order_v1.json",
+      "results/registration_learning_ablation_v1.json",
+      "results/registration_linearity_v1.json",
+      "results/registration_metric_calibration_v1.json",
+      "results/registration_pattern_rule_v1.json",
+      "results/registration_phase4_synthesis_v1.json",
+      "results/registration_reversal_v1.json",
+      "results/registration_reward_linear_v1.json",
+      "results/registration_shell_behavior_v1.json",
+      "results/registration_shell_credit_v1.json",
+      "results/registration_smoke_v1.json",
+      "results/registration_spacing_v1.json",
+      "results/registration_state_decomposition_v1.json",
+      "results/registration_stochastic_feedback_linear_v1.json",
+      "results/registration_stochastic_feedback_network_v1.json",
+      "results/registration_time_mixture_v1.json",
+      "results/reversal_v1/metadata.json",
+      "results/reversal_v1/summary.json",
+      "results/reversal_v1/verification.json",
+      "results/reward_linear_v1/metadata.json",
+      "results/reward_linear_v1/summary.json",
+      "results/reward_linear_v1/verification.json",
+      "results/shell_behavior_prefreeze_evidence.json",
+      "results/shell_behavior_v1/summary.json",
+      "results/shell_behavior_v1/verification.json",
+      "results/shell_behavior_v1_test_validation.json",
+      "results/shell_credit_prefreeze_evidence.json",
+      "results/shell_credit_v1/summary.json",
+      "results/shell_credit_v1/verification.json",
+      "results/shell_credit_v1_test_validation.json",
+      "results/smoke_v1/metadata.json",
+      "results/smoke_v1/report.md",
+      "results/smoke_v1/summary.json",
+      "results/smoke_v1/verification.json",
+      "results/spacing_v1/metadata.json",
+      "results/spacing_v1/summary.json",
+      "results/spacing_v1/verification.json",
+      "results/state_decomposition_v1/metadata.json",
+      "results/state_decomposition_v1/summary.json",
+      "results/state_decomposition_v1/verification.json",
+      "results/stochastic_feedback_linear_v1/metadata.json",
+      "results/stochastic_feedback_linear_v1/summary.json",
+      "results/stochastic_feedback_linear_v1/verification.json",
+      "results/stochastic_feedback_network_v1/metadata.json",
+      "results/stochastic_feedback_network_v1/summary.json",
+      "results/stochastic_feedback_network_v1/verification.json",
+      "results/time_mixture_v1/metadata.json",
+      "results/time_mixture_v1/metrics.json",
+      "results/time_mixture_v1/verification.json"
+    ],
+    "parent_files": [
+      "results/human_shell_comparison_archive_validation.json",
+      "results/human_shell_rng_v2/artifact_hashes.json",
+      "results/human_shell_rng_v2/metadata.json",
+      "results/human_shell_rng_v2/summary.json",
+      "results/human_shell_rng_v2/verification.json",
+      "results/human_shell_state_diagnostics.json",
+      "results/interference_order_v1/arrays.npz",
+      "results/interference_order_v1/artifact_hashes.json",
+      "results/interference_order_v1/measurements.csv",
+      "results/interference_order_v1/metadata.json",
+      "results/interference_order_v1/registration.json",
+      "results/interference_order_v1/summary.json",
+      "results/interference_order_v1/verification.json",
+      "results/pattern_rule_v1/arrays.npz",
+      "results/pattern_rule_v1/artifact_hashes.json",
+      "results/pattern_rule_v1/measurements.csv",
+      "results/pattern_rule_v1/metadata.json",
+      "results/pattern_rule_v1/registration.json",
+      "results/pattern_rule_v1/summary.json",
+      "results/pattern_rule_v1/verification.json",
+      "results/registration_human_shell_rng_v2.json",
+      "results/shell_behavior_v1/arrays.npz",
+      "results/shell_behavior_v1/artifact_hashes.json",
+      "results/shell_behavior_v1/measurements.csv",
+      "results/shell_behavior_v1/metadata.json",
+      "results/shell_behavior_v1/registration.json",
+      "results/shell_behavior_v1/summary.json",
+      "results/shell_behavior_v1/verification.json",
+      "results/shell_credit_v1/arrays.npz",
+      "results/shell_credit_v1/artifact_hashes.json",
+      "results/shell_credit_v1/measurements.csv",
+      "results/shell_credit_v1/metadata.json",
+      "results/shell_credit_v1/registration.json",
+      "results/shell_credit_v1/summary.json",
+      "results/shell_credit_v1/verification.json"
+    ],
+    "module": "drosolearn.phase5_report",
+    "protocol": "docs/phase5-report-protocol.md",
+    "source_files": [
+      "configs/human_shell_rng_v2.json",
+      "configs/human_shell_v1.json",
+      "configs/phase5_synthesis_v1.json",
+      "data/human/tnu_shell_2024/record_snapshot.json",
+      "data/human/tnu_shell_2024/source-manifest.json",
+      "docs/human-shell-independent-audit.md",
+      "docs/human-shell-protocol.md",
+      "docs/human-shell-rng-design-note.md",
+      "docs/human-shell-rng-protocol.md",
+      "docs/human-shell-source-review.md",
+      "docs/phase5-report-protocol.md",
+      "docs/prephase5-continuation-plan.md",
+      "pyproject.toml",
+      "requirements-lock.txt",
+      "scripts/plot_human_shell.py",
+      "scripts/run_human_shell.py",
+      "scripts/run_human_shell_rng.py",
+      "scripts/run_prephase5.py",
+      "scripts/verify_human_shell.py",
+      "scripts/verify_human_shell_rng.py",
+      "scripts/verify_phase5_report.py",
+      "src/drosolearn/__init__.py",
+      "src/drosolearn/graph.py",
+      "src/drosolearn/human_shell.py",
+      "src/drosolearn/human_shell_models.py",
+      "src/drosolearn/human_shell_rng.py",
+      "src/drosolearn/human_shell_source.py",
+      "src/drosolearn/model.py",
+      "src/drosolearn/phase5_report.py",
+      "src/drosolearn/prospective.py",
+      "tests/test_human_shell.py",
+      "tests/test_human_shell_models.py",
+      "tests/test_human_shell_rng.py",
+      "tests/test_human_shell_rng_run.py",
+      "tests/test_human_shell_rng_verify.py",
+      "tests/test_human_shell_run.py",
+      "tests/test_human_shell_source.py",
+      "tests/test_human_shell_verify.py",
+      "tests/test_phase5_report.py",
+      "tests/test_phase5_report_verify.py",
+      "tests/test_prospective.py"
+    ],
+    "graph_files": [
+      "data/flywire_783_mb_left_kc512_s701/edges.csv",
+      "data/flywire_783_mb_left_kc512_s701/neurons.json",
+      "data/flywire_783_mb_left_kc512_s701/annotations.csv",
+      "data/flywire_783_mb_left_kc512_s701/provenance.json"
+    ],
+    "external_manifest": null,
+    "interpretation": {
+      "new_human_experiment": false,
+      "shared_neural_mechanism_claim": false,
+      "education_effect_claim": false,
+      "computational_seeds_are_not_animals": true,
+      "old_human_comparison_not_replaced": true
+    }
+  },
+  "config_sha256": "42be9b28d16d8e87303d0b56ccac567539c8db39e1759ae0b6a837fd39e459d5",
+  "source_files": {
+    "configs/human_shell_rng_v2.json": "d43b8061b45e21e05a24bf46bbfdb64014263faac6edf22e1bd301986683bedc",
+    "configs/human_shell_v1.json": "d50a0ab6e21ab76abb72f3f7114bac9b7df398d501488f45258be1ab376b491e",
+    "configs/phase5_synthesis_v1.json": "42be9b28d16d8e87303d0b56ccac567539c8db39e1759ae0b6a837fd39e459d5",
+    "data/human/tnu_shell_2024/record_snapshot.json": "91f74ac10eaa05dae80bc4a4f34d219f304dfbfe69631a1f8b616f7f9d85654a",
+    "data/human/tnu_shell_2024/source-manifest.json": "c37a7068504454a01d3ebb43b35e0274f71c0498c643e0995c392629c23744a4",
+    "docs/human-shell-independent-audit.md": "1bddf49ae3b844e5ed1aa635a5e6f3bb882262c04b08a7d035175d4ba1e3b11f",
+    "docs/human-shell-protocol.md": "1d9ad2735635750f75cfc4eebb040292d5b1f63b100d241e0623c16b448fcedd",
+    "docs/human-shell-rng-design-note.md": "25ca325fb40ebc8672fa33acd0a9167a78a97ff925d1ab74b4648d20fb157500",
+    "docs/human-shell-rng-protocol.md": "578c28165a1c1d51e28ed420a0e82fe9e34c7cd03044662b0784f752e86e7e11",
+    "docs/human-shell-source-review.md": "2e2cd3af3fc2deb33d3a2df36108dd63cfe28215d310c62735000423fdc00d16",
+    "docs/phase5-report-protocol.md": "1537430accc8b49721f42595a17e8e0080c3b11675d52e35001c375b65c2ed3a",
+    "docs/prephase5-continuation-plan.md": "e8007e1a4925a54f24193fd1c7aed5023794dc92adbe3b4696a9098d9e168fe3",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/plot_human_shell.py": "761576535f21fd0488396c28b9fa46e5d38974a0f6fd6b817b7f9503e836bcc6",
+    "scripts/run_human_shell.py": "7366fbdee542488d1ce8aafb365ea94321fbe03b1bb625487fa732fd0cafeebd",
+    "scripts/run_human_shell_rng.py": "6706ffe60aff175949fbb5a94f4f27061212c42a372ea5aa9eed3a3011ba5769",
+    "scripts/run_prephase5.py": "8a5e0dbfe943948d051ff1a06d2c77a1ab76ec363d7d5e7c1d653aaf0d74e30c",
+    "scripts/verify_human_shell.py": "c97bcd08a9c914e1c0c5266cf77adb52e70ed3e2e38585c979619c6c950a0a6f",
+    "scripts/verify_human_shell_rng.py": "de792b33aecc7a306143c1433a03f525a6e4a65b0e1ba2b160fe45d42c7f6d38",
+    "scripts/verify_phase5_report.py": "438c70022426dbc15bbffb46c6d9e983f4b373d1cb2d6cef3951675670160103",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/graph.py": "6c713164943f1e6a4c38c9138ecd9c437b56523d68b58cffb58dc6531ccea2c2",
+    "src/drosolearn/human_shell.py": "8822afa7279ef42a88711bea3d8c69a8c9d2b3cc0a35108ae2ec96f96d1635e9",
+    "src/drosolearn/human_shell_models.py": "e17c3c6218bc1145b7ede1dc90a2d0c9aabff6562e8157a35ae2ad8246e931f5",
+    "src/drosolearn/human_shell_rng.py": "f41f2fe3373be2994ea3c651426a74e53b1c70f86c3cec6e1a2d81e82445d0f0",
+    "src/drosolearn/human_shell_source.py": "506b28be746a05dda261d3da05d46a0d9bdc5450c485919404aa1f46d5043f9d",
+    "src/drosolearn/model.py": "21e855ebbddb6190816a8adad130216065a03a6fc2d757e42466bdc7aaca3497",
+    "src/drosolearn/phase5_report.py": "6e6759ecf54a11f51156cb0ab63843a59147fa8c11b5cd39fa6472847b0b3b07",
+    "src/drosolearn/prospective.py": "ef00db48e4f1cea212129f09126b6ef3fa1bb1d55298895ffef6b43fabe890ef",
+    "tests/test_human_shell.py": "1b56237326ab0e8b55c7cc0f0ae6cd9220d10a84ad838649bf370b9e535c6794",
+    "tests/test_human_shell_models.py": "155b10f1c10417d47f8947e9b123468c873d5b06527cfc9d091b68bd66eabe53",
+    "tests/test_human_shell_rng.py": "3a6bceaaadb1ecdf31e9666f4683671c612e32559581c9ae3fe553845d829efc",
+    "tests/test_human_shell_rng_run.py": "52cf10e94b557f69f2e1e76797378426cebf2163dc49019ee00c1d344c877407",
+    "tests/test_human_shell_rng_verify.py": "f7468b2c4664c8ef8f97d2994205d86c1df624883e53aa02c7d310ffebf5501e",
+    "tests/test_human_shell_run.py": "32a46d9f13177204da23039707581ad5e27c5332db053e98c7cd7c43c2990d1f",
+    "tests/test_human_shell_source.py": "97d946987bebd68276571ce70b9474b67d41d75b738b824756ba8bb82b528363",
+    "tests/test_human_shell_verify.py": "d8ea3653241f6f09d93b25445a5c7fa4d8c1bdb63b4595b51ffc1b5a26d6c1cc",
+    "tests/test_phase5_report.py": "15f2d0f80a85a5994cbdbcc85fa1ea72f2a8e4e7a4126339e2667bfb5bc699c8",
+    "tests/test_phase5_report_verify.py": "1390d9e868db056e6e173837aa8760d1c94b908777cbfdffa43f6166288d87e6",
+    "tests/test_prospective.py": "0c9201faaeaaba04124d9678cde103449e54d855ee21210d69031899892dcca8"
+  },
+  "parent_files": {
+    "results/human_shell_comparison_archive_validation.json": "173d939af0de739128ff7a210c54176a9a13da60a37d94d51865548f58bc90b4",
+    "results/human_shell_rng_v2/artifact_hashes.json": "955f2cefde9ef1ca895286a1e3d6ef9f820145788e93abb72576c4412a566d35",
+    "results/human_shell_rng_v2/metadata.json": "0fb5341794b6cdab8aad5a20b5162c122fdf95bcb4d00522107091781492f521",
+    "results/human_shell_rng_v2/summary.json": "042518425a54e558b1fc99298f9f7f1ca98a734d85f6efdc3931994f5985b838",
+    "results/human_shell_rng_v2/verification.json": "48e4a9240d7cb8f0bc8c4f2a36fde83eecd254032f0671d10b1b786f82ab97ab",
+    "results/human_shell_state_diagnostics.json": "7ebd7e5ef865254f051b4dcecefd953218f022ff1b4b82dd5309233ebd4d1f0c",
+    "results/interference_order_v1/arrays.npz": "eeacc80655813abd1b102ffb90fdd6909ad4a009e037700d15d3c6ae70b9a6d4",
+    "results/interference_order_v1/artifact_hashes.json": "c4eea0bdc94fbb563a6c00306603b05f8e5c539ec667d65831e222c51e71f5a9",
+    "results/interference_order_v1/measurements.csv": "170eeca21c701b53665e1ba5e5242b7f394254862c482273ca71a43e3e87e2a3",
+    "results/interference_order_v1/metadata.json": "5b82ef35d5039c42aa876bae09ca6adc92e4d9f089fae3ec7f7a2ac82fdbe20c",
+    "results/interference_order_v1/registration.json": "bc0a80cfb5a10a79c668d71980b6e1c9dd4d3450a65ccd529b326c26f8ea9643",
+    "results/interference_order_v1/summary.json": "e83f9cb51e6c85f5a50b049091009f9a1ff289598162dd508fbb98c8aee3e5ef",
+    "results/interference_order_v1/verification.json": "175f2e6c7e6c70a8cb8ee967d598e84b6d5dd7efe380a674a6e1c06e52e72c08",
+    "results/pattern_rule_v1/arrays.npz": "61a5c3fdfabdebabbf4045333b26e104ba89923adfd0d43999a68c1a2c9c728b",
+    "results/pattern_rule_v1/artifact_hashes.json": "99028ccb8c913ca87128bfb3bbb55b9f6899841d829feb68f664fbe9c16ca1c6",
+    "results/pattern_rule_v1/measurements.csv": "3e2e1432e1ff71c8e1aacfd9cf5927cd0af6894ba76d26aeb9ccf35120316f0a",
+    "results/pattern_rule_v1/metadata.json": "eb0085339e4f66ab7dc482aa3fcfe1984a7dbd6f2bbac21c7c6693d1fb9de7ff",
+    "results/pattern_rule_v1/registration.json": "159d4219705968701baa937323807395bcefc4b3a44e4924bf2ec0cbdd2a26fd",
+    "results/pattern_rule_v1/summary.json": "815c3f3d2ea37e65fd7f5adb453b5a637b264d159817752041ee728e94cdd961",
+    "results/pattern_rule_v1/verification.json": "7729299b2b77ea2d5e1af85b484c3b672d8488a89c6dbe73a2d9b1a92008688e",
+    "results/registration_human_shell_rng_v2.json": "7b85b27906ef216ad44976860991e6fa4f7a06a4b2b4adad48257596a91208ae",
+    "results/shell_behavior_v1/arrays.npz": "74f7898779aa978eb82f19cd6e236a36c948d25edf4e018e1bfc34b0865ea973",
+    "results/shell_behavior_v1/artifact_hashes.json": "b37e024cdc15a9dce7159d0087228e2e22857b39f9583da3e79fdb219bcf0fa9",
+    "results/shell_behavior_v1/measurements.csv": "2d337787db373535478f96fd6747eeaf0f893f998ddf78fe41162e54125014ac",
+    "results/shell_behavior_v1/metadata.json": "1b87250a54508a8db377394df88d342d18144911e23efe12239aa2536e3d5171",
+    "results/shell_behavior_v1/registration.json": "6c519751a90dbddca97eb350b3bfb7b2431d554cbf9047dedc74b2febdfc2474",
+    "results/shell_behavior_v1/summary.json": "da34b11c2faa0574fc4b314150b0bb6dd6c8a7a8d822765ebaea6289af2cf08a",
+    "results/shell_behavior_v1/verification.json": "f917d78f2680374fb58d1a3bc751878e09f1795e42466019444f4a3e1b92ad24",
+    "results/shell_credit_v1/arrays.npz": "f996d985f2fe89bc8e066ae72f4c0d0d6cffee28bd42720bfe3faf85ceb6f483",
+    "results/shell_credit_v1/artifact_hashes.json": "ceab06bf557561e0409ea86f451ff00f6f0163d6d92c445215a1c5d4c98d4f86",
+    "results/shell_credit_v1/measurements.csv": "1fa2f15488adf9c0a2e87acfaba607cafd5343fc20775627003463a4ad06544d",
+    "results/shell_credit_v1/metadata.json": "f37dbe70fbb0ff0d1e2048eb94ca9f8906c5b5dd14b825f7291abe9d2314d9f6",
+    "results/shell_credit_v1/registration.json": "d5af0c6f61a346c0dc371fcb4393a6e118d36468c0d1e7528c4fbd120a6ad0d0",
+    "results/shell_credit_v1/summary.json": "3bf1d5dc5d384e15b63fdfa07695856aee8d8897c872f9b7e960459d30e828b7",
+    "results/shell_credit_v1/verification.json": "8b2a40954170e685afaed77a2478e8236a0e47af44f73bf5ba4f38acdc4c88d0"
+  },
+  "graph_files": {
+    "data/flywire_783_mb_left_kc512_s701/edges.csv": "d8c47ea1202575994d430f55e5bd8602f939f320ef02f71522fc1bc54b97db51",
+    "data/flywire_783_mb_left_kc512_s701/neurons.json": "05d83a288b1d42337001015be2d54167aed00cdc9fea58b578423d18756aa77b",
+    "data/flywire_783_mb_left_kc512_s701/annotations.csv": "10f9c9d4db8ee2741bd19cf464e4b46fd6e24f086a5ce1dbb550bcea633cdb16",
+    "data/flywire_783_mb_left_kc512_s701/provenance.json": "e1a50d254628fb0573d7853b8e66926697b353da317bd701b17e60bfd4942061"
+  },
+  "input_files": {
+    "LICENSE": "cda829aad0bf481eab805454d8d0a305213b8b36854035c380d43c74ea50508a",
+    "LIMITATIONS.md": "504ffe4e823e1b1ea02b2d128278d80a2e120172993634d97deeea6d2826f3d3",
+    "configs/interference_order_v1.json": "2fa89b1853e11340d2f566106eda4be08545614077ec382b2e806b9c50a8c469",
+    "configs/pattern_rule_v1.json": "e5a900e3dfdadde8ac5c4b9b3bb582fd0d04ed8b56807f93f2beb0c6aa7398b2",
+    "configs/shell_behavior_v1.json": "9bb25f1deda1bc455349ba03857460d2b5395dd4cc19f51ed64774ec466d1e16",
+    "configs/shell_credit_v1.json": "28fbc4df03dfd64576768ea2e298a7e3830f733e64a0900a550d07bcc3673df9",
+    "data/human/honore_noel_2016/source-manifest.json": "cf3c32c0e1b76334c0a646c7e7ec680694d47c88a26544b3fe6dbdce7883053c",
+    "data/human/osf_origin_evidence_20261015/source-manifest.json": "2c8661695866009492b1df75187075c22903e4c22e0fcbd033fc79165861215b",
+    "data/human/osf_permissions_20261015/source-manifest.json": "4150792e4f2911220c945aca08cb8f4861e2894acd9721e7942b547c2c3b74d0",
+    "data/human/stolz_2022_linkage_evidence/source-manifest.json": "98a6fdcc3c48b0000527544ab7d6bf60bba0b251c1e3c9475c1d8ab58b722c4d",
+    "data/human/stolz_2022_openneuro/source-manifest.json": "c5e7b713522bb2349aeff689af90898c5c3bdb2b63176623e4bcf352ee565b57",
+    "data/human/stolz_2022_semantics_evidence/source-manifest.json": "10968e719296c6596f6a0dd298cf950c7666fe30fdc2635d668d8b7134a3f003",
+    "data/human/task_structure_evidence_20261015/source-manifest.json": "3e39f3e06bb9cc62569eb851fda88d449dcfbe0e1f4a2fa57efe35fd24ac9fe8",
+    "data/human/tnu_shell_2024/source-manifest.json": "c37a7068504454a01d3ebb43b35e0274f71c0498c643e0995c392629c23744a4",
+    "data/synthetic/interference_order_v1/input_catalog.json": "81cf5a39bd0b162d7ba0ecd0f281027b24dd8290259e744a76dac1bbd7936054",
+    "data/synthetic/pattern_rule_v1/input_catalog.json": "c4823707063b607b87c6c5647a2115008f361ec5f04e70ad80a4bc0476d7c1db",
+    "docs/bandit-reversal-findings.md": "e20c9fc44863a9b65979351e3a5b48ee79daf2b954a917a6c88990840bd77732",
+    "docs/conditional-transition-findings.md": "ce8d3d0368dcd57339e851042095e730240e1d25577f03e8d95e7ebec46c6b2e",
+    "docs/drosomem-audit.json": "879ed87cbaadc52481c6e93206f7aa86c8345f574c5e142b9f510a936e988ea8",
+    "docs/drosomem-audit.md": "2961fea0e72cb3c251cb8e4eb98b906414aefaf18ae5dbd7d852b48fa44bcf01",
+    "docs/encoding-findings.md": "97741f56bd672f2710cb0cad36b42d61044427176c9e780996b80dde367279c1",
+    "docs/head-attenuation-findings.md": "23981738fe030dfc4e2bc177a197eaa81d750990a93b7de5bbc3a36b86bed321",
+    "docs/human-data-continuation-findings.md": "a04292568b263793d43243fa316dc33a1370d176008f6b6b7853e43475252f73",
+    "docs/human-learning-comparison.md": "3bcf9ec980f98b684804350e4a33cc3ff01a2aa85ead81702a880ea861409b06",
+    "docs/human-shell-data-processing-note.md": "7b4cde717281b712a96d77fcd0fd58d2ada73889a1926a09cd8496144e2cf7f4",
+    "docs/human-shell-findings.md": "bd36101c46cc3595949e6644ce3e63293f1e1db4dbd65e794ccd7e975d6a83e1",
+    "docs/human-shell-reproduction.md": "ad6cb5297db51acc94f7c0cdb6776701493deb65e5dfa6c718a82affbb82c412",
+    "docs/human-shell-rng-design-note.md": "25ca325fb40ebc8672fa33acd0a9167a78a97ff925d1ab74b4648d20fb157500",
+    "docs/human-trial-data-findings.md": "88456d9ed2f4919d4670651554c4f972b7351a4677babb01530b485c3174299b",
+    "docs/human-trial-linkage-findings.md": "9465a2179ea72b50e684be61488d1d5b09cc71a37bfeb672a828362d38fda483",
+    "docs/interference-order-findings.md": "190e84d1390de2c08656a4e6a7093552b3bf7c21f864d82e8888b19213f2d8c3",
+    "docs/interference-order-protocol.md": "ae2c4b5aaf703c5a49663241d8e473d79b5d89096568424e3e62056c7e1d1b19",
+    "docs/learning-ablation-findings-v2.md": "23d19774ebea237fa9a8211dcc68a87b8035cdd3e4eaf33f167c12ac5dd32c9e",
+    "docs/learning-measurement-continuation-findings.md": "2cdf27423ac948a4d3cfb332235c7beebc6d98412b0bfc91908db445abaa65ad",
+    "docs/linearity-findings.md": "eeb53171cfc0784e4e463a2b7564e4f65511029778f63cf634291455f10e8350",
+    "docs/literature-review.md": "035184100c5220d781b441d4eff6899265502b0cf7d3a2605ac8b74f696e6cc2",
+    "docs/metric-calibration-findings.md": "24623092b4aa32093db8c8095369329c93ca37c2846a353a3dd2fc1e07dc071b",
+    "docs/pattern-rule-findings.md": "091979591fd985f670f040f46470fa380767fbebeda9967d622b3e09c87cab25",
+    "docs/pattern-rule-protocol.md": "b7a1871d0e2166eef00c9900a393deaddc8c1b6eec8dd52d1e219e2f1ecfa7a6",
+    "docs/phase4-synthesis.md": "40e2fb7383eb03119ed1a661a1a76e0f134fbfe97555ae1655396d1f056ff921",
+    "docs/phase5-reproduction.md": "a9c741108fd0e9a68aaa71294b5efda9e82ef64c319eb60530f194299480cb49",
+    "docs/research-question.md": "d9030af7f857389ddfb2a1f2b6c57509fa1dbb73741b4e511add0f65ea2614c6",
+    "docs/result-storage.md": "e55634a690cacf837aafb7ecd499d906b0862c11b29ab5b415913dc197eada07",
+    "docs/reversal-findings.md": "7497a1503bb6373dcf6bb501e561cc763709cf2bacea68c00b839e2a5b021d1d",
+    "docs/reward-linear-findings.md": "e16c6b0add46015771ed406f2e9189542255d6321a1b74311aac9aa5d682d798",
+    "docs/shell-behavior-findings.md": "96e1140d115357eebf925c828a108378329902fc6dd4c7cff9b46c76ae239308",
+    "docs/shell-behavior-protocol.md": "0f112b4a9970a87a4cc736a9e674857348b1382d5ddb4e2c9c475c9486a12f9f",
+    "docs/shell-credit-findings.md": "0223db791a073d616d396a7f7c60653c9a2a2ee4eb2d753ad98b99a0b50522f6",
+    "docs/shell-credit-protocol.md": "4720081f10166478058dde988e1e8a164ff49bdc406480c89e945a1cf167d25d",
+    "docs/spacing-findings.md": "55cb2e5e10ee46cd6f7966666c502a2eb357014e48c68b8020901c8e94fbf6ff",
+    "docs/state-decomposition-findings.md": "999bd6eaada4dbbfa14227eee8f7feff8933d534da91be0d4860723d074ce9f3",
+    "docs/stochastic-feedback-continuation-findings.md": "baec3ef584302e704f6e133eab36e9155da712dcea33da7e3e055d8f22558de5",
+    "docs/time-mixture-findings.md": "8ccc842ccba6121c385b988c6f8b316cc8e5cd067f191a3a17ed5f1af0f44c4c",
+    "results/bandit_reversal_v1/metadata.json": "b14c63e8900ac728caa83ddde26f61a5bc4bd8ccedfb73f08c2387da2e0c1405",
+    "results/bandit_reversal_v1/summary.json": "638e40f47b87218d09ed7a552096dbc856e7c245f52db5dbce5baf0b24534d59",
+    "results/bandit_reversal_v1/verification.json": "4078203efb346cd607ec082777555fdc7a7602ec0fa2f52e3cd50831e0326f0c",
+    "results/conditional_transition_v1/metadata.json": "28ecd79f624294a75b39c18f42afe74bd322330abc4706dbdef0c83aaf35dc88",
+    "results/conditional_transition_v1/metrics.json": "055d927aa862fd1dde2a9529871dd87d023ad3e5a4631e61d352c038d8aba1a4",
+    "results/conditional_transition_v1/verification.json": "2e0314df24b73aa53b85a4bc64e2b0a188e15b1afbab5501ccb854ccfb12f573",
+    "results/encoding_v1/metadata.json": "9f5b96accadabbe755ce0c9cbd772d30b0d5cb9f863a4a672af8a904ff8c1cb2",
+    "results/encoding_v1/summary.json": "8ccc391b7c4908ee26e3567bf76c1780156cd7ce198222f35df08bfc0e09486a",
+    "results/encoding_v1/verification.json": "ce8932985f4f1569fc34854de1ec41bfe92e021dd703d2c8e79d7096940cdf9b",
+    "results/feedback_transition_v1/metadata.json": "82f2a9a194b4bf32ec1ee3888ba9c4f0fca77e5c0350f4d8d33efd0a4980044f",
+    "results/feedback_transition_v1/metrics.json": "b348e398ecfdb3e30a1c2971b001d4d657ce034179de1ac34ad4fe7ab939dbcb",
+    "results/feedback_transition_v1/verification.json": "0442351aa89c0b8745974787caba0c8dbfa62fa12c56ba2c9b740c7dfa04c181",
+    "results/head_attenuation_v1/metadata.json": "71694840e2c64baab8668391d1959c18a5cc6b7ce462624247872cb9dad1b3d2",
+    "results/head_attenuation_v1/summary.json": "4aa9e4c68fb0313648357dc9f3562a181b8b7ad8f9b6a864d0c7a0fbb952fc9d",
+    "results/head_attenuation_v1/verification.json": "6254c213e3b4e9a2cca6d86a73f187af78ae367809b2790d7d23d02c792537b0",
+    "results/human_osf_origin_v1/comparison.json": "b00eb9d7fa550aa6e2e3baf33870207e180d05d6756535f239712472352e29e3",
+    "results/human_osf_origin_v1/verification.json": "7a36bd97328e5388dcf7149d8395c957e1d15f02bc6e134498f5df99b741bb98",
+    "results/human_semantics_v1/code-cross-tabs.json": "c3ecd06310ffe2b360a86d10b167a6ab8934d839cdccc5c76997591a9d10c010",
+    "results/human_semantics_v1/metadata.json": "3322732c86527691ff74699fe9dbb673b793ff64b859020f51e7812dbc683dc1",
+    "results/human_semantics_v1/verification.json": "fbc435b4ef964e30526ae4020ceee3b4debe9e65a6711e7d9cb5671d5c30c4c5",
+    "results/human_shell_rng_v2/metadata.json": "0fb5341794b6cdab8aad5a20b5162c122fdf95bcb4d00522107091781492f521",
+    "results/human_shell_rng_v2/summary.json": "042518425a54e558b1fc99298f9f7f1ca98a734d85f6efdc3931994f5985b838",
+    "results/human_shell_rng_v2/verification.json": "48e4a9240d7cb8f0bc8c4f2a36fde83eecd254032f0671d10b1b786f82ab97ab",
+    "results/human_shell_v1/metadata.json": "c83524b3598ea1eac778051ca9ddadb73cd3bc9e22c6d93dade570a1de88e44e",
+    "results/human_shell_v1/summary.json": "9782976dd364cd4f38419e95eb72530bbc59fb7a74b663fe7f693160585da9a4",
+    "results/human_shell_v1/verification.json": "d78566c41e888d67117f2b50f8d71894e21bff295e3b7630b11c459ee0ae00ae",
+    "results/human_task_structure_v1/audit.json": "f4e777748518a1490bc6ec19b4c3c0caf6e560e6cfa1ca85f5e2e8c227b01547",
+    "results/human_task_structure_v1/verification.json": "4482589f64eb4a404dcf55029d899fec2fa95765d90dd87596cce856938bb1e4",
+    "results/human_trial_data_v1/metadata.json": "818d94eb755db323c6c885f891306306bf7e34b58416e7ef0b977fba31abc76d",
+    "results/human_trial_data_v1/structure-audit.json": "39717ad110ac2f0862e2251ffb82a321ddb807ae001aece8b81d7516726a698d",
+    "results/human_trial_data_v1/verification.json": "af35ad489c039aca638cc7218b1cb5de1d7a4a89f5407c3822ba4a1b31acceb4",
+    "results/human_trial_linkage_v1/linkage-report.json": "aaa1c4c61307a3c4b2d459c806627049a9cf8e5f33aa8f7e13a53594c0f2f184",
+    "results/human_trial_linkage_v1/metadata.json": "155bb6ba7ed0fabf6ec9b9f4221ca1174362d654ea82d82e584c02d80f6fb762",
+    "results/human_trial_linkage_v1/verification.json": "abddf65e33f2dae34286a8ec2c854e762e1c77b33e8e1728633833af768daaf0",
+    "results/interference_order_prefreeze_engineering_evidence.json": "bfc3c042238a7781532b5a01f025b65f421fa520a0eef2a44750e5083d2210b4",
+    "results/interference_order_prefreeze_evidence.json": "e72d3448174e7a8a09e1505cd5f4f467c5b238d478b626d354a41fb45cd3e7b2",
+    "results/interference_order_v1/arrays.npz.part001": "b4f08dce9d634265ce2a831478b0a2038e998abbfb578ba9813abe93f3e74d47",
+    "results/interference_order_v1/arrays.npz.part002": "ff5766b12d7a7de6c22fbb5a17e5a2f1d5db10bc698a2a7c26da634f505675c5",
+    "results/interference_order_v1/arrays.npz.parts.json": "e8bc224fcf46447bc0bf1ab9499e0d541522e8bd64e67105f80cf170ee8d7eac",
+    "results/interference_order_v1/summary.json": "e83f9cb51e6c85f5a50b049091009f9a1ff289598162dd508fbb98c8aee3e5ef",
+    "results/interference_order_v1/verification.json": "175f2e6c7e6c70a8cb8ee967d598e84b6d5dd7efe380a674a6e1c06e52e72c08",
+    "results/interference_order_v1_test_validation.json": "6697dfef0f1c6169fdde0a24a3a0f3699699699d164ee242700580f44f2daf96",
+    "results/learning_ablation_v1/metadata.json": "cbd49e76991f06639497891364fcbf5e6f8f7845057fc99c6f24902140041bc7",
+    "results/learning_ablation_v1/summary.json": "368ff86a9264f3fa499c4dc795d310db4669d8c35833658c923eb1b1b70e119c",
+    "results/learning_ablation_v1/verification.json": "d72abfef66a7ca1629b21718cee8258cc5361eda75ac8736c554c9c2ab8a5452",
+    "results/linearity_v1/metadata.json": "f102e447c2e24d72d7097d79192b1d49e3ee0b1bb1e726ba5c39f3116f7d030e",
+    "results/linearity_v1/summary.json": "4c9f6e220813a3eb3664a1223aba0edbf414cab0563993731528ebef5f249fc6",
+    "results/linearity_v1/verification.json": "6b17fb30771a697abcce53c34c2063753d56212102a0a321a2c51175bdeac5fb",
+    "results/metric_calibration_v1/metadata.json": "10787c17af7fe729f335554e73fad8a657f74ee381005854b19bf0724b7b4978",
+    "results/metric_calibration_v1/metrics.json": "4f97e48674458b9d40c89f449b899d4bd9f2c0442281ab89d082c64b14b8bd1b",
+    "results/metric_calibration_v1/verification.json": "c3595b6c1465c4d859c43261505809e9a562dbdc29ab5ef378d85ffd29973823",
+    "results/pattern_rule_prefreeze_evidence.json": "d598aab29fcd09151e54fca4170257e6a6b990c0681ac20bfef27f850f4dd795",
+    "results/pattern_rule_v1/summary.json": "815c3f3d2ea37e65fd7f5adb453b5a637b264d159817752041ee728e94cdd961",
+    "results/pattern_rule_v1/verification.json": "7729299b2b77ea2d5e1af85b484c3b672d8488a89c6dbe73a2d9b1a92008688e",
+    "results/pattern_rule_v1_test_validation.json": "12efde0a9053366aa1b1b6b99234fb710f1b9a1c428fe7747d92463f21c0f28c",
+    "results/phase4_synthesis_v1/metadata.json": "fb14780c1bfc8584c1174f2537b8f614f7e2828ec95cb30d799cd877ec0ca2a3",
+    "results/phase4_synthesis_v1/synthesis.json": "e8c2d4d59c93c914050f2604e67595cdd351babe434625fd0cbf31bf527cbddc",
+    "results/phase4_synthesis_v1/verification.json": "9f2289cf30e6c07273339ae3f3f76b098e5ae444f8aa8e882ce883df07b0d29c",
+    "results/registration_bandit_reversal_v1.json": "3879d6f4cd8cd244ed54cb138de8f3267439710f5d59fd84cc839abdd37de332",
+    "results/registration_conditional_transition_v1.json": "82f208f2c89fc801fd0b6f9e8f42361e3ddf536d98151b6f280613e5cd02d953",
+    "results/registration_encoding_v1.json": "29b77178aee7ef9cce8ed8b5814f0e980cc9a7df272a57b5f8fec64e4bf29379",
+    "results/registration_feedback_transition_v1.json": "0596c178c09bdf48621dc2aff1a87dcc9967832a35765e467cd2f0999f22f68a",
+    "results/registration_head_attenuation_v1.json": "b1ec82068ba6de8e2a4cc8ceebc876e90600dc199eea59af89afe4aa0299e49f",
+    "results/registration_human_osf_origin_v1.json": "2640336a9dee6d0bd2a36a19c412479feca3b69dd90b9da71bc5755329d58a10",
+    "results/registration_human_semantics_v1.json": "805efff34e959e23a6d1ca38224cf9b39f17d306f98a9ccaf2b1ceffa1010037",
+    "results/registration_human_shell_rng_v2.json": "7b85b27906ef216ad44976860991e6fa4f7a06a4b2b4adad48257596a91208ae",
+    "results/registration_human_shell_v1.json": "677d38ec5960ca2e8ce29aa94aa8340d4c7b74e06fd0a066bc18059b7b2d13dc",
+    "results/registration_human_task_structure_v1.json": "878be6c6fede943059ebfb7a5e5d4df9e4d7e61da1769a97babb51ff9be85dbf",
+    "results/registration_human_trial_data_v1.json": "347228dbf756d0110217097e0a20f8c8645003f35619cd8ccb334f8460d3ab44",
+    "results/registration_human_trial_linkage_v1.json": "132e7604751eb96a92746ffd5bea7cc3cd5d265eb1fff1eb22b544ff3eb244e9",
+    "results/registration_interference_order_v1.json": "bc0a80cfb5a10a79c668d71980b6e1c9dd4d3450a65ccd529b326c26f8ea9643",
+    "results/registration_learning_ablation_v1.json": "74eaf29957c95abeb97ae6dd150d7e3d4eacabc30e1c0ba55489c20f52d3311a",
+    "results/registration_linearity_v1.json": "24f1446dd59fd8285d3935a34de2f8c684f3f03ad4af22a914f12845bcfab3a8",
+    "results/registration_metric_calibration_v1.json": "63044b52770c8b68d9e949580c10f7abf93217bd3c5cae7145de264a18ea1f39",
+    "results/registration_pattern_rule_v1.json": "159d4219705968701baa937323807395bcefc4b3a44e4924bf2ec0cbdd2a26fd",
+    "results/registration_phase4_synthesis_v1.json": "b13cc36850f01676be9cfa025aabcbaa83d1c99d7fee312f913653ccc2559c98",
+    "results/registration_reversal_v1.json": "5f84e74969bc5100d1eb69c9c825d717c006e385df2d12dacc912f9ef79f9c8a",
+    "results/registration_reward_linear_v1.json": "fa60645c89a8105164350cf7315fcb7b40287d339943b5cdfbf8db2c290cf741",
+    "results/registration_shell_behavior_v1.json": "6c519751a90dbddca97eb350b3bfb7b2431d554cbf9047dedc74b2febdfc2474",
+    "results/registration_shell_credit_v1.json": "d5af0c6f61a346c0dc371fcb4393a6e118d36468c0d1e7528c4fbd120a6ad0d0",
+    "results/registration_smoke_v1.json": "e834cb924714234cc1b3b7193b1e690d78485e8b39140dcd0d078bab497d8503",
+    "results/registration_spacing_v1.json": "157d712d13abb625c919105bcf9705a4868d79c6cbc1b9ddf29441e5c7f86077",
+    "results/registration_state_decomposition_v1.json": "e29b190e0735ae7e9e62979fb0ac0331802549fd1344315cc2d9350d6f7a4e07",
+    "results/registration_stochastic_feedback_linear_v1.json": "769b130d86bd1a2ca3c26b0526adfb13a1a1c6b1a00013c76b03939c99e8859e",
+    "results/registration_stochastic_feedback_network_v1.json": "1ff8417486bb5fd6f7caae5951f5c0c9c7ac2074e7a8dcaa29eb57ca15c0cd18",
+    "results/registration_time_mixture_v1.json": "bee6ad755fc03c988af00d98e818cade60177ed09d0ca71e9fa66c68d5391038",
+    "results/reversal_v1/metadata.json": "93f96f5ab2e82da5f245d475bc5059e20616d4ed5c96aa4566dd67a49e76c256",
+    "results/reversal_v1/summary.json": "26957b0b33fc80b64f5d668638a696e4757dcffee543b2ce066fc78461c04549",
+    "results/reversal_v1/verification.json": "dd62336d41679c26c563c6964945aff6d030fd2fc811a96c16c86e150b93d060",
+    "results/reward_linear_v1/metadata.json": "3228892d3c858016de7f1b6e5845cef6f03e9f007f2882a10661e7a23173d4b1",
+    "results/reward_linear_v1/summary.json": "5dfa6331685f72ea64fec4a951a80a1fb6fd3c2e633ea780c2411dbde51b5668",
+    "results/reward_linear_v1/verification.json": "5d17d0d7d08a730750d9591670ccb1df1dbb20fc269950008c6e3e7721a9c96e",
+    "results/shell_behavior_prefreeze_evidence.json": "fd0be3adbe9ec4390591eb70de494b4ca023e8bdb402da9c9e931d87cd46ca14",
+    "results/shell_behavior_v1/summary.json": "da34b11c2faa0574fc4b314150b0bb6dd6c8a7a8d822765ebaea6289af2cf08a",
+    "results/shell_behavior_v1/verification.json": "f917d78f2680374fb58d1a3bc751878e09f1795e42466019444f4a3e1b92ad24",
+    "results/shell_behavior_v1_test_validation.json": "21581bc78b058b5643d8cd421ea7c067a77544b828b548fb6783de620e62c771",
+    "results/shell_credit_prefreeze_evidence.json": "1c629e44c9430438f398e7e2fa2aaf4dda7cf892f7fe7a8b4e6f20764a9c0ae6",
+    "results/shell_credit_v1/summary.json": "3bf1d5dc5d384e15b63fdfa07695856aee8d8897c872f9b7e960459d30e828b7",
+    "results/shell_credit_v1/verification.json": "8b2a40954170e685afaed77a2478e8236a0e47af44f73bf5ba4f38acdc4c88d0",
+    "results/shell_credit_v1_test_validation.json": "a9eda56598c6cc5d15119d46e49c44d47480d5f78609730e0f164544494f8ab9",
+    "results/smoke_v1/metadata.json": "af797efdfef805c85b4dca2194ad8f7470cc77c03387e3ff3d885941389810e4",
+    "results/smoke_v1/report.md": "1fa7f741d7e68a6cb1b16a2590edd70fd4e7cbd3696cb541d9228ea0fc5b3992",
+    "results/smoke_v1/summary.json": "1293161c07ae838fe47598053db6797257200297a578e52cb4494f878fa0b777",
+    "results/smoke_v1/verification.json": "c928e89f0966a666bae0c224ca1537352ef60dea4ff965eea41a7a2bce959b8d",
+    "results/spacing_v1/metadata.json": "1b7822fed22e12a8a34288efcd602326c8a63f70e2dfd5fea202800bca544a3e",
+    "results/spacing_v1/summary.json": "0cb7f0c8772280bf3bf2b35e2fc43ecf115743a805d80632ccbd464b0965a75a",
+    "results/spacing_v1/verification.json": "a12a16affcb10854615dd8ac361ee0ade6e84cf4695e591c7c4a2f5688d4be7a",
+    "results/state_decomposition_v1/metadata.json": "7bb23a75264338ab4fdce028d28d1c6a5b489829f6bbcb8b2dad313088a78f21",
+    "results/state_decomposition_v1/summary.json": "0228327afe3eb168b868aea63f400320e88a9b712efd66fa48af96d21499c22d",
+    "results/state_decomposition_v1/verification.json": "8cc18e89dd4da0c44994a7d564ab3679db049b53e28a5075986432699cda4085",
+    "results/stochastic_feedback_linear_v1/metadata.json": "fdeee1240a64c429cb5413752d68db50bd704b8d067ec7c5caa7d8283dd90836",
+    "results/stochastic_feedback_linear_v1/summary.json": "52334621788a665d8a212b254565b3fd9d37254880c8d129a75873086dd0b965",
+    "results/stochastic_feedback_linear_v1/verification.json": "0adfedda8622093275e2f7f441cdbba3e5caafce18fda8af097d483ee7d72f83",
+    "results/stochastic_feedback_network_v1/metadata.json": "3289afd71b7605551d1413baeadca9a704cbb65e5ebaf56718534d57e5b1cee2",
+    "results/stochastic_feedback_network_v1/summary.json": "e826d0eb4a4a02645cc82f6556df028e0f50998f643ddd3b5703bd3654fd44b7",
+    "results/stochastic_feedback_network_v1/verification.json": "72ccbcf336686adf959b8503c2530c9b63f572c566695294c4607e3b1357682f",
+    "results/time_mixture_v1/metadata.json": "6c8a804e2735a5bd0bda3825ef57ea6ba29218204a1e50d8c6a3d389098e9a55",
+    "results/time_mixture_v1/metrics.json": "d200fb671b9f34324585cbc06c97f6f0aed06bc3aeb9e30e920dd0511b1db932",
+    "results/time_mixture_v1/verification.json": "4df094e5bb618cfb7bbcd6f938f97a2ed26ea5899398c8358e2096a90494f902"
+  },
+  "external_files": {},
+  "gate": {
+    "original_comparison_preserved": true,
+    "preceding_studies_verified": [
+      "shell_credit_v1",
+      "shell_behavior_v1",
+      "pattern_rule_v1",
+      "interference_order_v1"
+    ],
+    "original_v1_rng_limitation_preserved": true,
+    "new_human_data_collected": false,
+    "failed_scientific_hypotheses_do_not_block_recorded_next_study": true
+  },
+  "notice": "Prior related outcomes known; new scope, fixed criteria and budget frozen before this computation. Private prospective registration, not blinded human confirmation."
+}
