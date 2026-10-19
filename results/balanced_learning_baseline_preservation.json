@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-19T23:29:15.734451+00:00",
+  "verified_at_utc": "2026-10-19T23:30:13.190578+00:00",
+  "baseline_tag": "cone-frontier-v1",
+  "baseline_commit": "56e1a31537083825e83d4402cfa9445e7e519b9b",
+  "hash_compared_files": 18849,
+  "hash_compared_bytes": 2108889643,
+  "allowed_evolving_indexes": [
+    "README.md",
+    "docs/repository-status.json",
+    "docs/research-roadmap.md"
+  ],
+  "all_old_files_Git_blob_hash_preserved_except_three_indexes": true,
+  "method": "Git SHA1 blob header plus raw current bytes for every prior tracked file; cryptographic hash comparison, not a repeated literal-byte comparison.",
+  "prior_literal_receipt_preserved": "results/cone_frontier_baseline_preservation.json",
+  "new_learning_calls": 0
+}
