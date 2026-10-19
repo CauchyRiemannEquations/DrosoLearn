@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-19T00:42:31.529008+00:00",
+  "published_commit": "5840744d7766618468af1fede3635f570152af41",
+  "source_commit": "a5580ba2a7bb34903bbce95fc3cfe3a7fe9850c1",
+  "registration_sha256": "7b85b27906ef216ad44976860991e6fa4f7a06a4b2b4adad48257596a91208ae",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/5840744d7766618468af1fede3635f570152af41/results/registration_human_shell_rng_v2.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "Exploratory source/measurement follow-up frozen before this new registered computation; prior related data inspected"
+}

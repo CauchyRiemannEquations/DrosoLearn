@@ -1,0 +1,286 @@
+{
+  "diagnostic_id": "human_shell_state_diagnostics_v1",
+  "analysis_scope": "post_run_descriptive_reduction_only; no new hypothesis test or threshold change",
+  "input_sha256": {
+    "results/human_shell_rng_v2/trajectory_metrics.csv": "4e084ce9871cf7130ccbc7896c90d56255021f9f7c9e13b5559eedc3cc73865c",
+    "results/human_shell_rng_v2/summary.json": "042518425a54e558b1fc99298f9f7f1ca98a734d85f6efdc3931994f5985b838",
+    "results/human_shell_rng_v2/verification.json": "48e4a9240d7cb8f0bc8c4f2a36fde83eecd254032f0671d10b1b786f82ab97ab",
+    "results/human_shell_v1/summary.json": "9782976dd364cd4f38419e95eb72530bbc59fb7a74b663fe7f693160585da9a4"
+  },
+  "population": {
+    "primary_condition": "plastic",
+    "mode": "autonomous",
+    "human_test_schedules": 29,
+    "computational_seeds": 5,
+    "trajectories": 145,
+    "trials_per_trajectory": 216,
+    "total_primary_model_trials": 31320,
+    "notice": "five seeds are not five extra humans; trajectories share schedules and model initialization factors"
+  },
+  "calls_and_actual_changes": {
+    "head_update_calls": 31320,
+    "internal_update_calls": 31320,
+    "value_update_calls": 0,
+    "head_nonzero_steps": 9386,
+    "internal_nonzero_steps": 9241,
+    "value_nonzero_steps": 0
+  },
+  "trajectories_with_nonzero_update": {
+    "head_nonzero_steps": 145,
+    "internal_nonzero_steps": 145,
+    "value_nonzero_steps": 0
+  },
+  "initial_to_final_l2": {
+    "head_change_l2": {
+      "minimum": 0.18977835419274128,
+      "mean": 0.48708767628094557,
+      "maximum": 0.9329239355955625,
+      "trajectories_strictly_positive": 145
+    },
+    "internal_change_l2": {
+      "minimum": 0.013959475677755556,
+      "mean": 0.03487599847768885,
+      "maximum": 0.099360598009737,
+      "trajectories_strictly_positive": 145
+    },
+    "value_change_l2": {
+      "minimum": 0.0,
+      "mean": 0.0,
+      "maximum": 0.0,
+      "trajectories_strictly_positive": 0
+    },
+    "probe_kc_change_l2": {
+      "minimum": 0.0,
+      "mean": 0.0,
+      "maximum": 0.0,
+      "trajectories_strictly_positive": 0
+    },
+    "probe_mbon_change_l2": {
+      "minimum": 0.07159912176315254,
+      "mean": 0.16833676270078063,
+      "maximum": 0.4762682735906181,
+      "trajectories_strictly_positive": 145
+    },
+    "probe_decision_change_l2": {
+      "minimum": 0.042701722409876484,
+      "mean": 0.09901556799106262,
+      "maximum": 0.3157133325351731,
+      "trajectories_strictly_positive": 145
+    }
+  },
+  "primary_snapshots": {
+    "human_shell_v1": {
+      "inference_scope": "historical_design_limited_autonomous_inference; retain, do not use as corrected inference",
+      "primary_condition": "plastic",
+      "metrics": [
+        {
+          "metric": "acquisition_gain",
+          "human_mean": 0.1839080459770115,
+          "model_mean": -0.010344827586206896,
+          "difference": -0.1942528735632184,
+          "ci90": [
+            -0.30574712643678154,
+            -0.08844827586206903
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_early",
+          "human_mean": 0.4463601532567049,
+          "model_mean": 0.48659003831417624,
+          "difference": 0.040229885057471326,
+          "ci90": [
+            -0.01879310344827615,
+            0.10268199233716468
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_recovery",
+          "human_mean": 0.3122605363984674,
+          "model_mean": 0.02260536398467433,
+          "difference": -0.28965517241379307,
+          "ci90": [
+            -0.3736015325670499,
+            -0.20459770114942533
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        }
+      ],
+      "H_similarity": {
+        "primary_condition": "plastic",
+        "supported": false,
+        "claim": "behavioral_equivalence_only",
+        "margin": 0.1,
+        "notice": "same three summaries within operational margin; not common mechanism or learning proof"
+      },
+      "H_prediction": {
+        "primary_condition": "plastic",
+        "supported": false,
+        "minimum_improvement_nats": 0.01,
+        "contrasts": [
+          {
+            "baseline": "uniform",
+            "mean_improvement_nats": 0.027100757068630524,
+            "ci90": [
+              0.0138171543138575,
+              0.03997941299582021
+            ],
+            "passed": true
+          },
+          {
+            "baseline": "bias",
+            "mean_improvement_nats": -0.022574043787609247,
+            "ci90": [
+              -0.04015869927073437,
+              -0.006684220796720543
+            ],
+            "passed": false
+          },
+          {
+            "baseline": "persistence",
+            "mean_improvement_nats": -0.04275710430798365,
+            "ci90": [
+              -0.08659626474177753,
+              0.006525056187373817
+            ],
+            "passed": false
+          }
+        ]
+      },
+      "learning_qualification": {
+        "human_initial_gain_ci90": [
+          0.11494252873563221,
+          0.25287356321839083
+        ],
+        "model_initial_gain_ci90": [
+          -0.09890804597701157,
+          0.07471264367816093
+        ],
+        "human_gain_observed": true,
+        "model_gain_observed": false,
+        "human_gain_status": "observed",
+        "gated_learning_pattern_supported": false,
+        "notice": "human pretraining/experience prevents interpreting absent gain as absent learning"
+      }
+    },
+    "human_shell_rng_v2": {
+      "inference_scope": "corrected_action_addresses; separately registered autonomous run",
+      "primary_condition": "plastic",
+      "metrics": [
+        {
+          "metric": "acquisition_gain",
+          "human_mean": 0.1839080459770115,
+          "model_mean": 0.004597701149425289,
+          "difference": -0.1793103448275862,
+          "ci90": [
+            -0.2735632183908046,
+            -0.0873563218390804
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_early",
+          "human_mean": 0.4463601532567049,
+          "model_mean": 0.5045977011494254,
+          "difference": 0.058237547892720454,
+          "ci90": [
+            -0.0011494252873563982,
+            0.12032567049808468
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_recovery",
+          "human_mean": 0.3122605363984674,
+          "model_mean": -0.0030651340996168588,
+          "difference": -0.31532567049808424,
+          "ci90": [
+            -0.4042337164750958,
+            -0.22871647509578547
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        }
+      ],
+      "H_similarity": {
+        "primary_condition": "plastic",
+        "supported": false,
+        "claim": "behavioral_equivalence_only",
+        "margin": 0.1,
+        "notice": "same three summaries within operational margin; not common mechanism or learning proof"
+      },
+      "H_prediction": {
+        "primary_condition": "plastic",
+        "supported": false,
+        "minimum_improvement_nats": 0.01,
+        "contrasts": [
+          {
+            "baseline": "uniform",
+            "mean_improvement_nats": 0.027100757068630524,
+            "ci90": [
+              0.0138171543138575,
+              0.03997941299582021
+            ],
+            "passed": true
+          },
+          {
+            "baseline": "bias",
+            "mean_improvement_nats": -0.022574043787609247,
+            "ci90": [
+              -0.04015869927073437,
+              -0.006684220796720543
+            ],
+            "passed": false
+          },
+          {
+            "baseline": "persistence",
+            "mean_improvement_nats": -0.04275710430798365,
+            "ci90": [
+              -0.08659626474177753,
+              0.006525056187373817
+            ],
+            "passed": false
+          }
+        ]
+      },
+      "learning_qualification": {
+        "human_initial_gain_ci90": [
+          0.11494252873563221,
+          0.25287356321839083
+        ],
+        "model_initial_gain_ci90": [
+          -0.05982758620689659,
+          0.07241379310344824
+        ],
+        "human_gain_observed": true,
+        "model_gain_observed": false,
+        "human_gain_status": "observed",
+        "gated_learning_pattern_supported": false,
+        "notice": "human pretraining/experience prevents interpreting absent gain as absent learning"
+      }
+    }
+  },
+  "arithmetic_checks": {
+    "selected_unique_seed_person_rows": 145,
+    "integer_reductions_match_decimal": true,
+    "float_means_match_decimal_from_literal_csv": true,
+    "upstream_independent_csv_values_verified": true,
+    "upstream_independent_autonomous_rows": 1595,
+    "notice": "independent registered replay verifies source row values; this supplementary reduction is descriptive, not a new registered experiment"
+  },
+  "interpretation": [
+    "Nonzero internal/output parameter changes do not establish adequate behavioral acquisition or human similarity.",
+    "KC probe activation is fixed because encoder and the probe catalog are fixed; MBON and decision probe changes are separate from KC activation.",
+    "Initial-to-final L2 is an endpoint displacement, not the sum of per-trial L2 steps or a causal effect.",
+    "Head/internal/activity norms use different coordinate units and dimensions and must not be ranked as biological contribution sizes.",
+    "The primary model's observed initial behavioral gain is about 0.46 percentage points; the registered gain qualification is not met.",
+    "v1 autonomous confidence intervals retain a known action-address design limitation; corrected v2 is reported separately.",
+    "This is an artificial shell-identity reward-learning benchmark, not numerical cognition or a shared neural-mechanism test."
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "scope": "presentation_only_from_independently_verified_frozen_summary",
+  "summary_sha256": "042518425a54e558b1fc99298f9f7f1ca98a734d85f6efdc3931994f5985b838",
+  "verification_sha256": "48e4a9240d7cb8f0bc8c4f2a36fde83eecd254032f0671d10b1b786f82ab97ab",
+  "source_registration_sha256": "7b85b27906ef216ad44976860991e6fa4f7a06a4b2b4adad48257596a91208ae",
+  "plot_source_sha256": "761576535f21fd0488396c28b9fa46e5d38974a0f6fd6b817b7f9503e836bcc6",
+  "figures": {
+    "behavior_comparison.png": "7604198b46c2e65508db4c3ecd9153511f3cc132b1d9f7fe74902db337e45dc3",
+    "heldout_prediction.png": "a7000b7b143e8343a0d012c4a68910f71035f66b4b6c64c36f5e49a54a96dff9",
+    "reversal_curves.png": "7095080ac19494bdff469d8a4f90cbddd0a2b3b5496fe79b71129cf730dfe376"
+  }
+}

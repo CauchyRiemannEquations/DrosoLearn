@@ -1,0 +1,32 @@
+{
+  "parent_study_id": "human_shell_v1",
+  "parent_result_dir": "results/human_shell_v1",
+  "parent_files": {
+    "calibration.npz": "0df30e128ec0cb62d0940a4d2ffab3413e5cc90b2095b7200bda73bbfd653fc7",
+    "calibration.csv": "ee94cddc43bd49983356acb66de8aae1fa1485aa4aab28d497a547291fdfc322",
+    "registration.json": "677d38ec5960ca2e8ce29aa94aa8340d4c7b74e06fd0a066bc18059b7b2d13dc",
+    "metadata.json": "c83524b3598ea1eac778051ca9ddadb73cd3bc9e22c6d93dade570a1de88e44e",
+    "selection.json": "7c506a881f73826a31a88d919714487e522fec9e6c6425ec039c6bd286df7df2",
+    "trajectories.npz": "983670f463bdcb1e956528b15d6d912a7e5a27c171140ad0eec4ff6e1d8e24dd",
+    "trajectory_metrics.csv": "75fe6012eb0502e66821b38122403db30e4287760fec1512c84d71cb5f9bd878",
+    "witnesses.npz": "cb731e6b01acfc925e4b4731ddf2bfefbd7356c5cc9bf36380b1ae829536322d",
+    "summary.json": "9782976dd364cd4f38419e95eb72530bbc59fb7a74b663fe7f693160585da9a4",
+    "cohort_audit.json": "e498697f8cba7fb8bffe37aa17f0edc573e8f02f20e7456b0c4c009a330ea2e7",
+    "verification.json": "d78566c41e888d67117f2b50f8d71894e21bff295e3b7630b11c459ee0ae00ae",
+    "artifact_hashes.json": "b0136bb5ced49d6115e7a5054f58508707a39e6ff5b470a389c9d4f3d81ba389"
+  },
+  "conditional_half_sha256": {
+    "probabilities": "7fe42017201bc3bf2d0dad0e9b7c62207ae8d17489b1c41d9fd63c2eb0bc76bc",
+    "actions": "68212c9c3c67092043d87686805671b1342b1d01c311da736937994390a7e8f3",
+    "rewards": "ee32c5c6f385f91b0f804be84053b516c11de133977e9d05b6c65a0f9d454abc",
+    "head_steps": "26fd7b39e845fcbbacff83c92d23d62f88a82acb4489ba9ab7bfee309061df60",
+    "internal_steps": "3d683e4e6273f0ef8698b7462fb57b1325c29c9caf9bca5ebd9ed9c912f207fe",
+    "value_steps": "ce3b7166a401081bb571f4552b2006c95a95eda433bdc413bf59ec77788d3d85"
+  },
+  "conditional_csv_sha256": "bd68ab478d1d531b524f46f3d2a44fca53a679caebaba9d77e785450d216234c",
+  "conditional_csv_records": 1595,
+  "conditional_witness_fields": 296,
+  "unchanged_autonomous_initial_witness_fields": 159,
+  "new_calibration_observations": 0,
+  "new_conditional_predictions": 0
+}
