@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "study_id": "cone_frontier_v1",
+  "verified_at_utc": "2026-10-19T23:16:44.285404+00:00",
+  "registration_sha256": "a7b74b79578623d6f982849de89554f54f3f76ac7caae43d56b89b414c4263db",
+  "summary_sha256": "476853adfed1e745f50d7bed36e3a9213e27ed4f0df0f4894483739653527300",
+  "scientific_producer_imported": false,
+  "new_helper_imported": false,
+  "counts": {
+    "arrays": 15,
+    "parent_trial_records_checked": 24000,
+    "candidate_trial_records_checked": 168000,
+    "candidate_destination_effects_checked": 672000,
+    "unique_optimization_cases_checked": 1476,
+    "measurement_records_checked": 1260,
+    "active_faces_reoptimized_in_original_feature_space": true,
+    "nonnegative_dual_upper_bound_independently_checked": true,
+    "certified_direction_not_exact_degenerate_vector_identity": true,
+    "observed_objectives_constraints_use_only_actual_observations": true,
+    "oracle_full_information_separate_from_observed_mode": true,
+    "no_go_cases_skipped_and_all_zero_effects": true,
+    "same_saved_scalar_not_autonomous_policy": true,
+    "parent_full_trajectory_replay_reused_by_frozen_hashes": true,
+    "no_rng_learner_or_graph_construction_calls": true,
+    "new_training_trials": 0,
+    "new_random_draws": 0
+  }
+}

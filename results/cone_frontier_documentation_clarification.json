@@ -1,0 +1,29 @@
+{
+  "status": "editorial_clarification",
+  "recorded_at_utc": "2026-10-19T23:20:02.062403+00:00",
+  "reason": "Independent read-only review requested explicit copy-proof execution command and primary-condition scope for historical0/10. No numerical/scientific change.",
+  "superseded_document_and_QA_receipts_retained": {
+    "docs/cone-frontier-findings.md": {
+      "sha256": "da2e755f94ed93fcd624f19ccf2615c41bcacb0023958cbf073dfc13555ee3c2",
+      "retained_at": "results/cone_frontier_documentation_drafts/findings.initial.md"
+    },
+    "docs/cone-frontier-reproduction.md": {
+      "sha256": "df42008a3775b4392c994b4f13bd7291c38416088124d9986be5b3d0e29575af",
+      "retained_at": "results/cone_frontier_documentation_drafts/reproduction.initial.md"
+    },
+    "results/cone_frontier_presentation_validation.json": {
+      "sha256": "62f13f561dbc594ededba17e5a83a6581a0301ff17a2a671b3734676d7d9f3ba",
+      "retained_at": "results/cone_frontier_documentation_drafts/presentation.initial.json"
+    },
+    "results/cone_frontier_archive_validation.json": {
+      "sha256": "6e518ef67a3d434371b5b44c4788fdedff9cb765a82b67a0458b9ecdb7a7aed8",
+      "retained_at": "results/cone_frontier_documentation_drafts/archive.initial.json"
+    }
+  },
+  "clarified_document_sha256": {
+    "docs/cone-frontier-findings.md": "f7f79963614d67f4dcb863de606290313db039e5047ab437111fcc274bc102ab",
+    "docs/cone-frontier-reproduction.md": "69b59e85211a6eff28f8ae32b489b8250b6a277a80ad474e5ce505b76ec833cf"
+  },
+  "frozen_source_config_protocol_parent_and_results_changed": false,
+  "canonical_presentation_and_archive_receipts_to_be_revalidated_exclusively": true
+}

@@ -1,0 +1,232 @@
+{
+  "ratios": [
+    {
+      "topology": "real",
+      "representation": "raw",
+      "metric": "own_retention",
+      "candidates": [
+        "parent_feedback",
+        "observed_own",
+        "observed_balanced",
+        "oracle_own",
+        "oracle_balanced"
+      ],
+      "values": [
+        1.0,
+        1.7387474762136566,
+        1.0471569894083022,
+        1.5881074735274976,
+        0.8891438574275101
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "metric": "help_retention",
+      "candidates": [
+        "parent_feedback",
+        "observed_own",
+        "observed_balanced",
+        "oracle_own",
+        "oracle_balanced"
+      ],
+      "values": [
+        1.0,
+        0.12815170998190456,
+        1.1067124513215365,
+        7.69059128104822e-15,
+        0.9738644894272019
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "metric": "own_retention",
+      "candidates": [
+        "parent_feedback",
+        "observed_own",
+        "observed_balanced",
+        "oracle_own",
+        "oracle_balanced"
+      ],
+      "values": [
+        1.0,
+        1.2996901221596486,
+        1.0305236728294036,
+        1.266581619349779,
+        0.9919816077081509
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "metric": "help_retention",
+      "candidates": [
+        "parent_feedback",
+        "observed_own",
+        "observed_balanced",
+        "oracle_own",
+        "oracle_balanced"
+      ],
+      "values": [
+        1.0,
+        0.42114278569178376,
+        1.1403206795726741,
+        0.37975041746139143,
+        1.111093763119952
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "metric": "own_retention",
+      "candidates": [
+        "parent_feedback",
+        "observed_own",
+        "observed_balanced",
+        "oracle_own",
+        "oracle_balanced"
+      ],
+      "values": [
+        1.0,
+        1.7418496224402005,
+        1.033391896855263,
+        1.6131803123466872,
+        0.8946440038061375
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "metric": "help_retention",
+      "candidates": [
+        "parent_feedback",
+        "observed_own",
+        "observed_balanced",
+        "oracle_own",
+        "oracle_balanced"
+      ],
+      "values": [
+        1.0,
+        0.10763608163531922,
+        1.1086919092056913,
+        1.1035872448810165e-14,
+        0.9985867768830818
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "metric": "own_retention",
+      "candidates": [
+        "parent_feedback",
+        "observed_own",
+        "observed_balanced",
+        "oracle_own",
+        "oracle_balanced"
+      ],
+      "values": [
+        1.0,
+        1.2232533945134303,
+        1.0153204138984444,
+        1.1969912502448532,
+        0.9844127909307974
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "metric": "help_retention",
+      "candidates": [
+        "parent_feedback",
+        "observed_own",
+        "observed_balanced",
+        "oracle_own",
+        "oracle_balanced"
+      ],
+      "values": [
+        1.0,
+        0.5103401362711556,
+        1.0856506631428469,
+        0.4783506844200482,
+        1.065825810011108
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "metric": "own_retention",
+      "candidates": [
+        "parent_feedback",
+        "observed_own",
+        "observed_balanced",
+        "oracle_own",
+        "oracle_balanced"
+      ],
+      "values": [
+        1.0,
+        1.7696680399016347,
+        1.046263367878144,
+        1.6113599655090578,
+        0.8815388822148353
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "metric": "help_retention",
+      "candidates": [
+        "parent_feedback",
+        "observed_own",
+        "observed_balanced",
+        "oracle_own",
+        "oracle_balanced"
+      ],
+      "values": [
+        1.0,
+        0.11662087996809974,
+        1.1059202169515692,
+        1.245706898179918e-14,
+        0.9731331214686099
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "metric": "own_retention",
+      "candidates": [
+        "parent_feedback",
+        "observed_own",
+        "observed_balanced",
+        "oracle_own",
+        "oracle_balanced"
+      ],
+      "values": [
+        1.0,
+        1.2201038170677916,
+        1.0098151204604615,
+        1.1939183886706584,
+        0.9789984494429691
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "metric": "help_retention",
+      "candidates": [
+        "parent_feedback",
+        "observed_own",
+        "observed_balanced",
+        "oracle_own",
+        "oracle_balanced"
+      ],
+      "values": [
+        1.0,
+        0.48123432241902897,
+        1.1023701489289877,
+        0.4453134207091052,
+        1.079251971617884
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-10-19T23:16:48.595568+00:00",
+  "source_git_commit": "70e13961dd17d6f5b70d75bace03c398ec1bc363",
+  "renderer": "drosolearn.cone_frontier.render",
+  "renderer_source_sha256": "6ef3115c6b24ddd6c234629b64df56fd24299805f42d8d9333f43ef6aad0c3fe",
+  "summary_sha256": "476853adfed1e745f50d7bed36e3a9213e27ed4f0df0f4894483739653527300",
+  "arrays_sha256": "26f0f4e9b7feb2b2d56d1f6b5cf6cda53343e4102ba2ee146e2a37347e37b2a3",
+  "verification_sha256": "86e6bffdbf24af47470b3d136408eba28d0d18d4c4413d2522ecf5307db99dec",
+  "figure_sha256": {
+    "cone-retention.png": "2ab2842bc41a42ec57a5ab99e48660e5c4114031bb65f30fb3127e40ab98d4ea"
+  },
+  "all60_pooled_ratio_values_match_summary": true,
+  "independent_verification_precedes_plotting": true,
+  "same_saved_scalar_not_autonomous_learning": true
+}

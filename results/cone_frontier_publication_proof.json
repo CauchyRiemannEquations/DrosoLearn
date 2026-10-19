@@ -1,0 +1,11 @@
+{
+  "study_id": "cone_frontier_v1",
+  "registration_sha256": "a7b74b79578623d6f982849de89554f54f3f76ac7caae43d56b89b414c4263db",
+  "source_commit": "70e13961dd17d6f5b70d75bace03c398ec1bc363",
+  "published_commit": "33184c1691152d2ad982f248126a20f62d4460f0",
+  "checked_at_utc": "2026-10-19T23:16:18.840834+00:00",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/33184c1691152d2ad982f248126a20f62d4460f0/results/registration_cone_frontier_v1.json",
+  "method": "Authenticated GitHub contents API literal decoded registration bytes and private main ref verified before retrospective descriptive arithmetic; parent outcomes already known; no secret logged"
+}

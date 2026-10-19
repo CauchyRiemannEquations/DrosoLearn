@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-19T23:19:18.673834+00:00",
+  "source_git_commit": "70e13961dd17d6f5b70d75bace03c398ec1bc363",
+  "summary_sha256": "476853adfed1e745f50d7bed36e3a9213e27ed4f0df0f4894483739653527300",
+  "verification_sha256": "86e6bffdbf24af47470b3d136408eba28d0d18d4c4413d2522ecf5307db99dec",
+  "document_sha256": {
+    "docs/cone-frontier-findings.md": "da2e755f94ed93fcd624f19ccf2615c41bcacb0023958cbf073dfc13555ee3c2",
+    "docs/cone-frontier-reproduction.md": "df42008a3775b4392c994b4f13bd7291c38416088124d9986be5b3d0e29575af"
+  },
+  "local_document_links_checked": 6,
+  "primary7candidate_table_and6observed_context_pairs_match": true,
+  "primary_phases_and_joint_counts_match": true,
+  "all60_plotted_ratio_values_match_summary": true,
+  "figures": {
+    "cone-retention.png": {
+      "sha256": "2ab2842bc41a42ec57a5ab99e48660e5c4114031bb65f30fb3127e40ab98d4ea",
+      "width": 2250,
+      "height": 1200,
+      "visually_inspected": true,
+      "title_legend_axes_and_candidate_labels_readable": true
+    }
+  },
+  "additional_file_sha256": {
+    "src/drosolearn/cone_frontier.py": "6ef3115c6b24ddd6c234629b64df56fd24299805f42d8d9333f43ef6aad0c3fe"
+  },
+  "visual_inspection_method": "Final six-panel PNG viewed through local image tool; title, legend, ratios and labels checked.",
+  "scope_checks": {
+    "aggregate_both_positive_not_per_update_dominance": true,
+    "22_of1941_strict_joint_and0_of1877_full_reported": true,
+    "unknown_harm_increase31_42_percent_reported": true,
+    "ratios_against_normalized_stored_actual_not_raw_target": true,
+    "own_only_trades_away_help": true,
+    "observed_vs_full_information_constraint_sets_distinguished": true,
+    "same_saved_g_not_autonomous_learning_or_accuracy": true,
+    "certificates_per_identical_objective_and_constraints_only": true,
+    "two_points_not_complete_Pareto_frontier": true,
+    "Git_blob_hash_pass_not_repeated_literal_comparison": true,
+    "all_prior_failures_and_human_negative_gates_preserved": true,
+    "future_prospective_learning_unexecuted": true,
+    "automatic_continuation_paused": true
+  }
+}

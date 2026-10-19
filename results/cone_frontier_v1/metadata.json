@@ -1,0 +1,42 @@
+{
+  "study_id": "cone_frontier_v1",
+  "status": "completed",
+  "stage": "completed",
+  "started_at_utc": "2026-10-19T23:16:28.251179+00:00",
+  "source_git_commit": "70e13961dd17d6f5b70d75bace03c398ec1bc363",
+  "registration_sha256": "a7b74b79578623d6f982849de89554f54f3f76ac7caae43d56b89b414c4263db",
+  "config_sha256": "d10a1b7d249554a2b47d64ce1991012a72afd2acb391898b09ee967ad1dd01ca",
+  "publication_proof": "results/cone_frontier_publication_proof.json",
+  "publication_proof_sha256": "c5df2cb86be758378a97daf5144c475c5268ab73a25c791a14a9f59de14a1169",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "analysis_only": true,
+  "new_training_calls": 0,
+  "new_random_seed_draws": 0,
+  "new_graph_or_feature_constructions": 0,
+  "new_human_experiment": false,
+  "shared_neural_mechanism_tested": false,
+  "education_effect_tested": false,
+  "new_effect_hypothesis_test": false,
+  "counts": {
+    "analyzed_parent_trial_records": 24000,
+    "nonzero_parent_updates": 11692,
+    "candidate_trial_records": 168000,
+    "candidate_destination_effects": 672000,
+    "unique_optimization_cases": 1476,
+    "measurement_records": 1260,
+    "conditions": 6,
+    "model_seeds": 10,
+    "new_training_trials": 0,
+    "new_head_update_calls": 0,
+    "new_internal_update_calls": 0,
+    "new_value_update_calls": 0,
+    "new_random_draws": 0,
+    "fresh_model_constructions": 0
+  },
+  "measurement_records": 1260,
+  "numeric_arrays": 15,
+  "completed_at_utc": "2026-10-19T23:16:33.046859+00:00"
+}
