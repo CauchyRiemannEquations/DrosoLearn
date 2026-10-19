@@ -1,0 +1,174 @@
+{
+  "study_id": "update_budget_v1",
+  "registration_type": "prospective_update_budget_diagnosis",
+  "registered_at_utc": "2026-10-19T04:57:02.132059+00:00",
+  "source_git_commit": "fc47813f1a18ec762f737a1e035647ff40509646",
+  "config": {
+    "study_id": "update_budget_v1",
+    "scope": "prospective_update_budget_diagnosis",
+    "module": "drosolearn.update_budget",
+    "protocol": "docs/update-budget-protocol.md",
+    "topologies": [
+      "real",
+      "rewired",
+      "ann"
+    ],
+    "representations": [
+      "raw",
+      "identity"
+    ],
+    "updates": [
+      "shared",
+      "projected_own",
+      "projected_l2"
+    ],
+    "model_seeds": [
+      17201,
+      17202,
+      17203,
+      17204,
+      17205,
+      17206,
+      17207,
+      17208,
+      17209,
+      17210
+    ],
+    "training_trials": 400,
+    "checkpoints": [
+      0,
+      50,
+      100,
+      200,
+      400
+    ],
+    "head_lr": 0.1,
+    "rng_namespace": 202610194,
+    "svd_rcond": 1e-12,
+    "numeric_tolerance": 1e-08,
+    "exact_condition_max": 1000000.0,
+    "acquisition_threshold": 0.8,
+    "acquisition_gain": 0.25,
+    "class_threshold": 0.7,
+    "population_pass_count": 8,
+    "effect_threshold": 0.1,
+    "positive_seed_count": 8,
+    "normalization": "per_input_initial_fixed_MBON_gap_unit_L2",
+    "budget_convention": "unit_direction_equal_conditional_L2_and_common_eta_step_ceiling",
+    "input_catalog": "data/synthetic/representation_update_v1/input_catalog.json",
+    "graph": "data/flywire_783_mb_left_kc512_s701",
+    "external_manifest": null,
+    "source_files": [
+      "configs/update_budget_v1.json",
+      "docs/update-budget-protocol.md",
+      "pyproject.toml",
+      "requirements-lock.txt",
+      "scripts/run_update_budget.py",
+      "scripts/verify_human_shell.py",
+      "scripts/verify_pattern_rule.py",
+      "scripts/verify_representation_update.py",
+      "scripts/verify_update_budget.py",
+      "src/drosolearn/__init__.py",
+      "src/drosolearn/graph.py",
+      "src/drosolearn/human_shell_models.py",
+      "src/drosolearn/model.py",
+      "src/drosolearn/pattern_rule.py",
+      "src/drosolearn/representation_envelope.py",
+      "src/drosolearn/representation_geometry.py",
+      "src/drosolearn/representation_update.py",
+      "src/drosolearn/update_budget.py",
+      "src/drosolearn/update_budget_envelope.py",
+      "src/drosolearn/update_budget_geometry.py",
+      "tests/test_update_budget.py",
+      "tests/test_update_budget_envelope.py",
+      "tests/test_update_budget_geometry.py",
+      "tests/test_update_budget_verify.py"
+    ],
+    "parent_files": [
+      "results/registration_representation_update_v1.json",
+      "results/representation_update_archive_validation.json",
+      "results/representation_update_v1/artifact_hashes.json",
+      "results/representation_update_v1/metadata.json",
+      "results/representation_update_v1/summary.json",
+      "results/representation_update_v1/verification.json"
+    ],
+    "graph_files": [
+      "data/flywire_783_mb_left_kc512_s701/annotations.csv",
+      "data/flywire_783_mb_left_kc512_s701/edges.csv",
+      "data/flywire_783_mb_left_kc512_s701/neurons.json",
+      "data/flywire_783_mb_left_kc512_s701/provenance.json"
+    ],
+    "input_files": [
+      "data/synthetic/pattern_rule_v1/input_catalog.json",
+      "data/synthetic/representation_update_v1/input_catalog.json"
+    ],
+    "interpretation": {
+      "new_human_experiment": false,
+      "shared_neural_mechanism_claim": false,
+      "education_effect_claim": false
+    }
+  },
+  "config_sha256": "785e9735cf70f6aaa788c3180f64fd895204eac413ef6e84fba8373aca21f2fe",
+  "registration_path": "results/registration_update_budget_v1.json",
+  "baseline_tag": "representation-update-v1",
+  "baseline_commit": "440f6b57c6176605db37d9a5397e3f82764a5b29",
+  "source_files": {
+    "configs/update_budget_v1.json": "785e9735cf70f6aaa788c3180f64fd895204eac413ef6e84fba8373aca21f2fe",
+    "docs/update-budget-protocol.md": "6f92bfa3b35a020f97955e10c2a4b7e004e01da0dcb478e42bbc782f1785562d",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_update_budget.py": "1d33678435dca11192be4edbfdcb6613b9b9b0a0c358f7a97ef5ff9d7c352ed0",
+    "scripts/verify_human_shell.py": "c97bcd08a9c914e1c0c5266cf77adb52e70ed3e2e38585c979619c6c950a0a6f",
+    "scripts/verify_pattern_rule.py": "aa1c6a8b3bfc143e717a843ce587fb648a20f5eed3897ecc45208afb80010dec",
+    "scripts/verify_representation_update.py": "2d24e60f25c01992355243abe13e6c5862b8f8954572b38ad9654ea4639ddb5f",
+    "scripts/verify_update_budget.py": "527aaec683934ca38f6267e263d85d0391a52a4bc1ea8e5e18d57fba4ac87fd2",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/graph.py": "6c713164943f1e6a4c38c9138ecd9c437b56523d68b58cffb58dc6531ccea2c2",
+    "src/drosolearn/human_shell_models.py": "e17c3c6218bc1145b7ede1dc90a2d0c9aabff6562e8157a35ae2ad8246e931f5",
+    "src/drosolearn/model.py": "21e855ebbddb6190816a8adad130216065a03a6fc2d757e42466bdc7aaca3497",
+    "src/drosolearn/pattern_rule.py": "38b7dd7dee0a2f00ea7ebc98bf4805edc605461ee36183d415ff5f5cd49065f4",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "src/drosolearn/representation_geometry.py": "500a6c7e9e1796f77b297a85191d4052a3526890d2ce866dce3f94ad19436bc2",
+    "src/drosolearn/representation_update.py": "046b8a41c489760b48f56282ba6b194a373fb83c0fbab2315709822a4d9eca9a",
+    "src/drosolearn/update_budget.py": "49bfc0a3fab95d523899521c13c227a9a287027c776e7ad3147f5f47d8af4b9e",
+    "src/drosolearn/update_budget_envelope.py": "2bbc5e34ea6bc9dff45bd89e8dd38fa7dd5e2f47ead2fd8a92d6433fba930fe7",
+    "src/drosolearn/update_budget_geometry.py": "37668f2e0e13637edcb111fd124e2c20512652d8649e0bd4e7017f1846ddd1b6",
+    "tests/test_update_budget.py": "b0b33ca4c5926e01694f08c74d62a5a7d2ede03cd76099239fd30a77b096a0c2",
+    "tests/test_update_budget_envelope.py": "7d1465cd4b5bd3fbf42ab77cd6ca72ce01944236e02862982d8aeab963baf3d9",
+    "tests/test_update_budget_geometry.py": "ab4e51e1b6e9dfa1cda827604f37381ccdf6afe9a6bb312dddf3407bd921ec04",
+    "tests/test_update_budget_verify.py": "4fd00efc6c86f04f41940b14157d925b5dc8aa2fd435365afd1714c47360ddb7"
+  },
+  "parent_files": {
+    "results/registration_representation_update_v1.json": "22fcec19d636cfde84e2ccde56d599226b269e8ae485d3b20ef12dae74aabb3a",
+    "results/representation_update_archive_validation.json": "bc8c6f847bfc47df03c5ef8fd73388884edaf9bdf8b236c98ad106dae38577de",
+    "results/representation_update_v1/artifact_hashes.json": "5528cf4ee4b78e47c1804d3b797a19dd903ea93769686714eeb1e2321df734e9",
+    "results/representation_update_v1/metadata.json": "dd9165b0cb3d85f7aee77edc78f08ba551a656439ddb334faf6cab148068a2f5",
+    "results/representation_update_v1/summary.json": "c7dbeaa3e1ec358babfa0e3e8bcce90e463da839c585960c2f72aad979301208",
+    "results/representation_update_v1/verification.json": "1ad889c423df61e02d719edc7763ba01f05336f4170d9c523b26a82ee7d1e5a1"
+  },
+  "graph_files": {
+    "data/flywire_783_mb_left_kc512_s701/annotations.csv": "10f9c9d4db8ee2741bd19cf464e4b46fd6e24f086a5ce1dbb550bcea633cdb16",
+    "data/flywire_783_mb_left_kc512_s701/edges.csv": "d8c47ea1202575994d430f55e5bd8602f939f320ef02f71522fc1bc54b97db51",
+    "data/flywire_783_mb_left_kc512_s701/neurons.json": "05d83a288b1d42337001015be2d54167aed00cdc9fea58b578423d18756aa77b",
+    "data/flywire_783_mb_left_kc512_s701/provenance.json": "e1a50d254628fb0573d7853b8e66926697b353da317bd701b17e60bfd4942061"
+  },
+  "input_files": {
+    "data/synthetic/pattern_rule_v1/input_catalog.json": "c4823707063b607b87c6c5647a2115008f361ec5f04e70ad80a4bc0476d7c1db",
+    "data/synthetic/representation_update_v1/input_catalog.json": "ee72b0b3180379731930de478318a019da1834824c0be18aacd91fcfce2b1a32"
+  },
+  "gate": {
+    "baseline_tag": "representation-update-v1",
+    "baseline_commit": "440f6b57c6176605db37d9a5397e3f82764a5b29",
+    "small_parent_receipts_independently_verified": [
+      "representation_update_v1"
+    ],
+    "prior_scientific_replays_reused_not_rerun": true,
+    "pinned_baseline_files": 25,
+    "external_human_data_required": false,
+    "large_interference_array_required": false,
+    "negative_prior_results_preserved": true,
+    "prior_learning_qualified": true,
+    "prior_head_L2_cost_unmatched": true
+  },
+  "notice": "Prior supported and failed outcomes known; separate fixed-budget diagnosis with new seeds and criteria frozen before computation. Computational seeds are not animals."
+}
