@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "study_id": "interference_order_v1",
+  "verified_at_utc": "2026-10-19T01:43:17.959438+00:00",
+  "registration_sha256": "bc0a80cfb5a10a79c668d71980b6e1c9dd4d3450a65ccd529b326c26f8ea9643",
+  "summary_sha256": "e83f9cb51e6c85f5a50b049091009f9a1ff289598162dd508fbb98c8aee3e5ef",
+  "scientific_producer_imported": false,
+  "counts": {
+    "arrays": 291,
+    "independently_replayed_feedback_trials": 259200,
+    "checkpoint_static_probes": 46440,
+    "model_seeds": 10,
+    "conditions": 9,
+    "prefix_cloning_and_idle_copies_checked": true,
+    "actual_call_increments_not_cumulative_totals_counted": true,
+    "all_neural_output_activity_and_q_states_checked": true,
+    "conflict_specific_qualification_checked": true,
+    "paired_all_seed_bootstrap_and_loss_practice_identity_checked": true,
+    "new_human_similarity_inference": false,
+    "frozen_input_catalog_sha256": "81cf5a39bd0b162d7ba0ecd0f281027b24dd8290259e744a76dac1bbd7936054"
+  }
+}

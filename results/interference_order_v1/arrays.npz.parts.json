@@ -1,0 +1,19 @@
+{
+  "format": "drosolearn.lossless_file_parts.v1",
+  "original_path": "results/interference_order_v1/arrays.npz",
+  "original_bytes": 104904900,
+  "original_sha256": "eeacc80655813abd1b102ffb90fdd6909ad4a009e037700d15d3c6ae70b9a6d4",
+  "max_part_bytes": 67108864,
+  "parts": [
+    {
+      "path": "results/interference_order_v1/arrays.npz.part001",
+      "bytes": 67108864,
+      "sha256": "b4f08dce9d634265ce2a831478b0a2038e998abbfb578ba9813abe93f3e74d47"
+    },
+    {
+      "path": "results/interference_order_v1/arrays.npz.part002",
+      "bytes": 37796036,
+      "sha256": "ff5766b12d7a7de6c22fbb5a17e5a2f1d5db10bc698a2a7c26da634f505675c5"
+    }
+  ]
+}

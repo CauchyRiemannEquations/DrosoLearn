@@ -1,0 +1,38 @@
+{
+  "study_id": "interference_order_v1",
+  "status": "completed",
+  "stage": "completed",
+  "started_at_utc": "2026-10-19T01:39:52.310345+00:00",
+  "source_git_commit": "49680d9dcf8606695d0b4f333659dfee06d062e5",
+  "registration_sha256": "bc0a80cfb5a10a79c668d71980b6e1c9dd4d3450a65ccd529b326c26f8ea9643",
+  "config_sha256": "2fa89b1853e11340d2f566106eda4be08545614077ec382b2e806b9c50a8c469",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "new_human_experiment": false,
+  "shared_neural_mechanism_tested": false,
+  "education_effect_tested": false,
+  "counts": {
+    "feedback_trials": 259200,
+    "static_probe_cases": 46440,
+    "shared_prefix_feedback_trials": 64800,
+    "active_suffix_feedback_trials": 129600,
+    "joint_feedback_trials": 64800,
+    "logical_active_history_trials": 324000,
+    "prefix_reuse_saved_feedback_trials": 64800,
+    "idle_feedback_trials": 0,
+    "idle_new_probability_evaluations": 0,
+    "model_initializations": 90,
+    "trained_trajectory_clones": 630,
+    "head_update_calls": 201600,
+    "internal_update_calls": 86400,
+    "value_update_calls": 28800,
+    "head_nonzero_steps": 104653,
+    "internal_nonzero_steps": 44971,
+    "value_nonzero_steps": 15485
+  },
+  "measurement_records": 259200,
+  "numeric_arrays": 291,
+  "completed_at_utc": "2026-10-19T01:41:03.138053+00:00"
+}
