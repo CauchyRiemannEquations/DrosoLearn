@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-19T23:51:50.303993+00:00",
+  "verified_at_utc": "2026-10-19T23:53:17.670478+00:00",
+  "baseline_tag": "balanced-learning-v1",
+  "baseline_commit": "b836a780b91d81425e534dad7284485f284799ce",
+  "hash_compared_files": 18884,
+  "hash_compared_bytes": 2176934749,
+  "allowed_evolving_indexes": [
+    "README.md",
+    "docs/repository-status.json",
+    "docs/research-roadmap.md"
+  ],
+  "all_old_files_Git_blob_hash_preserved_except_three_indexes": true,
+  "method": "Git SHA1 blob header plus raw current bytes for every prior tracked file; cryptographic hash comparison, not a repeated literal-byte comparison.",
+  "prior_literal_receipt_preserved": "results/balanced_learning_baseline_preservation.json",
+  "new_learning_calls": 0
+}

@@ -1,0 +1,90 @@
+{
+  "study_id": "balanced_pathways_v1",
+  "scope": "retrospective_descriptive_balanced_pathways",
+  "module": "drosolearn.balanced_pathways",
+  "protocol": "docs/balanced-pathways-protocol.md",
+  "parent_result": "results/balanced_learning_v1",
+  "baseline_tag": "balanced-learning-v1",
+  "baseline_commit": "b836a780b91d81425e534dad7284485f284799ce",
+  "topologies": [
+    "real",
+    "rewired",
+    "ann"
+  ],
+  "representations": [
+    "raw",
+    "identity"
+  ],
+  "methods": [
+    "shared",
+    "isolated",
+    "feedback_selective",
+    "balanced"
+  ],
+  "model_seeds": [
+    17501,
+    17502,
+    17503,
+    17504,
+    17505,
+    17506,
+    17507,
+    17508,
+    17509,
+    17510
+  ],
+  "training_trials": 400,
+  "numeric_tolerance": 1e-08,
+  "phase_definition": "known_before_count_equals_four",
+  "category_definition": "own_known_before_other_unknown_before_other",
+  "bridge_eligibility": "both_actual_Go_only",
+  "bridge_bits": [
+    "state",
+    "scalar",
+    "direction"
+  ],
+  "bridge_allocation": "three_factor_symmetric_Shapley_exact_sigmoid",
+  "objective_eligibility": "both_actual_Go_and_both_known_before_four",
+  "new_confirmatory_hypothesis": false,
+  "external_manifest": null,
+  "source_files": [
+    "configs/balanced_pathways_v1.json",
+    "docs/balanced-pathways-protocol.md",
+    "pyproject.toml",
+    "requirements-lock.txt",
+    "scripts/run_balanced_pathways.py",
+    "scripts/verify_balanced_pathways.py",
+    "src/drosolearn/__init__.py",
+    "src/drosolearn/balanced_envelope.py",
+    "src/drosolearn/balanced_pathways.py",
+    "src/drosolearn/cone_envelope.py",
+    "src/drosolearn/normalization_envelope.py",
+    "src/drosolearn/pathways_envelope.py",
+    "src/drosolearn/representation_envelope.py",
+    "src/drosolearn/selective_envelope.py",
+    "tests/test_balanced_pathways.py",
+    "tests/test_balanced_pathways_verify.py",
+    "tests/test_pathways_envelope.py"
+  ],
+  "parent_files": [
+    "results/balanced_learning_archive_validation.json",
+    "results/balanced_learning_baseline_preservation.json",
+    "results/balanced_learning_publication_proof.json",
+    "results/balanced_learning_v1/arrays.npz",
+    "results/balanced_learning_v1/artifact_hashes.json",
+    "results/balanced_learning_v1/measurements.csv",
+    "results/balanced_learning_v1/metadata.json",
+    "results/balanced_learning_v1/registration.json",
+    "results/balanced_learning_v1/summary.json",
+    "results/balanced_learning_v1/verification.json",
+    "results/registration_balanced_learning_v1.json"
+  ],
+  "interpretation": {
+    "new_human_experiment": false,
+    "shared_neural_mechanism_claim": false,
+    "education_effect_claim": false,
+    "new_training": false,
+    "new_seed_draws": false,
+    "new_effect_hypothesis_test": false
+  }
+}

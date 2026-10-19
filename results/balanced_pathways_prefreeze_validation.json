@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-19T23:55:50.735526+00:00",
+  "baseline_commit": "b836a780b91d81425e534dad7284485f284799ce",
+  "unique_passed_tests": 242,
+  "new_unique_passed_tests": 181,
+  "unchanged_related_regression_passed_tests": 61,
+  "test_receipts": [
+    {
+      "path": "results/balanced_pathways_prefreeze_tests/pathways_prefreeze_tests_final.xml",
+      "sha256": "9bc3359625152d62a64efdfc1a960134f756bf7ce6834772698389edd967edb1",
+      "passed_unique_tests": 242
+    }
+  ],
+  "development_failure_retained": {
+    "path": "results/balanced_pathways_prefreeze_tests/development_integer_fixture_failure.xml",
+    "sha256": "857f5e0574fdf762da23e781a46f7756f54044bf3c080717fe712b51be3b89bb",
+    "reason": "Synthetic integer corner array exposed in-place integer Shapley accumulator; float conversion fixed before freeze; actual parent data not aggregated."
+  },
+  "frozen_source_hashes": {
+    "configs/balanced_pathways_v1.json": "807ba882fa3f72da8363b0b711b26872d446c4b7643814126c520fbc47d916a7",
+    "docs/balanced-pathways-protocol.md": "920b68da1caee68a63f49ec75bb0a55645d9bd62f8005114dd21ea4314815fc7",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_balanced_pathways.py": "4f958efd10f5236f505dbc7b9ffdc315fbfad1d3fd76e9d5db89846c2fd14355",
+    "scripts/verify_balanced_pathways.py": "aac48a3154d2ccd3a57d1ca2396fa5f96c839cbda20e3612c58d8cedece884dc",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/balanced_envelope.py": "9ce6c4b99154af6d44e09b1aa4eaf046e40dd60207adbaab51fa11279085af40",
+    "src/drosolearn/balanced_pathways.py": "3066762524df603e2ae7f8a69a901776fac1658ccbb95d3b48ce90e6b9a0b699",
+    "src/drosolearn/cone_envelope.py": "38a4072690b00f0387f14648843517df7ccf074a3989c3ec8d950e3cc84cef9c",
+    "src/drosolearn/normalization_envelope.py": "482bc8839c0f435f10776a534601f871014d37a82384d0973f33a191b854a55d",
+    "src/drosolearn/pathways_envelope.py": "3cb56134fa85d92c56f3e1d2a55ad86582d279432b107c35cc9452570f35dcd5",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "src/drosolearn/selective_envelope.py": "72597a9ca74a33d3aa1f43f0c432c8310eb32812e7ef0ad8005e0c386e0135f1",
+    "tests/test_balanced_pathways.py": "0609e3de2783504f53f6f5d85eb0973fdc3baa7057b8b143c15f8229a24c34e4",
+    "tests/test_balanced_pathways_verify.py": "c3f31b7686bebb3946b78d3b23a5dbd56bfedd008cd40a93aa367007b37e0c9c",
+    "tests/test_pathways_envelope.py": "1deca13a1d3a392cba7fb5937b40a8395fefc3a555e8939dcd08266ecb6674b2"
+  },
+  "parent_byte_gate": {
+    "baseline_tag": "balanced-learning-v1",
+    "baseline_commit": "b836a780b91d81425e534dad7284485f284799ce",
+    "inherited_parent_gate": {
+      "baseline_tag": "cone-frontier-v1",
+      "baseline_commit": "56e1a31537083825e83d4402cfa9445e7e519b9b",
+      "inherited_parent_gate": {
+        "baseline_tag": "normalization-loss-v1",
+        "baseline_commit": "f1ada01a904283a1036b4dc77b10fb3882194750",
+        "prior_normalization_independent_audit_reused": true,
+        "prior_selective_full_replay_reused_not_rerun": true,
+        "pinned_files": 16,
+        "archive_snapshot_files": 49,
+        "immutable_source_parent_and_baseline_Git_bytes_checked": true,
+        "prior_negative_human_and_acquisition_preserved": true,
+        "new_training_calls": 0,
+        "new_random_seed_draws": 0,
+        "new_graph_or_feature_constructions": 0
+      },
+      "pinned_baseline_files": 43,
+      "historical_archive_snapshot_files": 50,
+      "prior_cone_independent_certificate_and_information_gates_reused": true,
+      "prior_frontier_is_not_actual_learning": true,
+      "parent_source_data_Git_and_archive_bytes_checked": true,
+      "prior_negative_learning_and_human_results_preserved": true,
+      "parent_gate_no_new_learner_graph_or_seed_calls": true,
+      "whole_repository_literal_pass_not_repeated": true
+    },
+    "pinned_baseline_files": 19,
+    "historical_archive_snapshot_files": 80,
+    "prior_complete_96000_action_replay_and_510_optima_reused_not_rerun": true,
+    "parent_raw_arrays_CSV_source_data_Git_and_archive_bytes_checked": true,
+    "prior_three_unsupported_hypotheses_preserved": true,
+    "parent_gate_no_new_learner_graph_or_seed_calls": true,
+    "whole_repository_literal_pass_not_repeated": true
+  },
+  "actual_saved_pathway_aggregations_before_freeze": 0,
+  "new_training_RNG_graph_or_optimization_before_freeze": 0,
+  "synthetic_fixtures_only_before_freeze": true,
+  "design_audits": [
+    "All24 actual recorded methods/paths preserved;96k×4destination accounting",
+    "Known-before partial/full boundary includes final discovery trial in partial",
+    "Own/known-other/unknown-other and exact positive/negative finite-precision changes retained",
+    "Both-actual-Go only8cells; no NoGo missing-direction imputation or new routing solver",
+    "Symmetric three-factor Shapley is recorded one-step accounting, not causal retraining",
+    "Unknown intersection/exclusive exposure differences exactly separated",
+    "Full-known only same objective/constraints; exact sigmoid gain can differ from geometric objective",
+    "Independent arithmetic no new learner/graph/RNG/optimizer; allparent fullreplay reusedbyfrozenhash",
+    "Prior three unsupported hypotheses, closed human/generalization gates and originalPhase5 preserved"
+  ],
+  "raw_development_diagnostic_whitespace_exception": {
+    "path": "results/balanced_pathways_prefreeze_tests/development_integer_fixture_failure.xml",
+    "reason": "Original failed synthetic test diagnostic includes a space after source-location colon; exact XML bytes retained, not edited for whitespace."
+  }
+}
