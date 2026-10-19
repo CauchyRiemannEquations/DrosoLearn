@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-19T05:12:42.347492+00:00",
+  "verified_at_utc": "2026-10-19T05:13:31.658629+00:00",
+  "baseline_tag": "update-budget-v1",
+  "baseline_commit": "ae3818576f9e3cdc4adcb26164484ff42186c179",
+  "old_tree_files": 18671,
+  "literal_compared_files": 18668,
+  "literal_compared_bytes": 1993639689,
+  "allowed_evolving_indexes": [
+    {
+      "path": "README.md",
+      "bytes": 48001,
+      "unchanged": true
+    },
+    {
+      "path": "docs/repository-status.json",
+      "bytes": 13114,
+      "unchanged": true
+    },
+    {
+      "path": "docs/research-roadmap.md",
+      "bytes": 30245,
+      "unchanged": true
+    }
+  ],
+  "old_literal_failures": [],
+  "all_old_baseline_files_literal_preserved_except_three_indexes": true,
+  "method": "Ordered Git cat-file --batch blob bytes compared with read_bytes; no old learner execution"
+}

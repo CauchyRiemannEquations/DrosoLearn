@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-10-19T05:14:41.192957+00:00",
+  "scientific_registration_created": false,
+  "scientific_trials_run": 0,
+  "corrections": [
+    {
+      "path": "scripts/verify_spillover_tradeoff.py",
+      "before_sha256": "1eca78740520f9bf2e00b0ba13d9d8caeaec24dff516fdad190f9cdf3892bacb",
+      "after_sha256": "3433f5af6fee29d8eae54827f027a63d703f154ca44226c3a63919300f6157ef",
+      "only_trailing_blank_lines_removed": true
+    }
+  ]
+}

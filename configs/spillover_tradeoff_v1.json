@@ -1,0 +1,112 @@
+{
+  "study_id": "spillover_tradeoff_v1",
+  "scope": "prospective_spillover_tradeoff_diagnosis",
+  "module": "drosolearn.spillover_tradeoff",
+  "protocol": "docs/spillover-tradeoff-protocol.md",
+  "topologies": [
+    "real",
+    "rewired",
+    "ann"
+  ],
+  "representations": [
+    "raw",
+    "identity"
+  ],
+  "model_seeds": [
+    17301,
+    17302,
+    17303,
+    17304,
+    17305,
+    17306,
+    17307,
+    17308,
+    17309,
+    17310
+  ],
+  "training_trials": 400,
+  "checkpoints": [
+    0,
+    50,
+    100,
+    200,
+    400
+  ],
+  "head_lr": 0.1,
+  "rng_namespace": 202610195,
+  "svd_rcond": 1e-12,
+  "numeric_tolerance": 1e-08,
+  "exact_condition_max": 1000000.0,
+  "acquisition_threshold": 0.8,
+  "acquisition_gain": 0.25,
+  "class_threshold": 0.7,
+  "population_pass_count": 8,
+  "effect_threshold": 0.05,
+  "positive_seed_count": 8,
+  "normalization": "per_input_initial_fixed_MBON_gap_unit_L2",
+  "budget_convention": "all_mixture_directions_unit_L2_common_eta_step_ceiling",
+  "input_catalog": "data/synthetic/representation_update_v1/input_catalog.json",
+  "graph": "data/flywire_783_mb_left_kc512_s701",
+  "external_manifest": null,
+  "alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "primary_alpha": 0.5,
+  "source_files": [
+    "configs/spillover_tradeoff_v1.json",
+    "docs/spillover-tradeoff-protocol.md",
+    "pyproject.toml",
+    "requirements-lock.txt",
+    "scripts/run_spillover_tradeoff.py",
+    "scripts/verify_human_shell.py",
+    "scripts/verify_pattern_rule.py",
+    "scripts/verify_representation_update.py",
+    "scripts/verify_spillover_tradeoff.py",
+    "scripts/verify_update_budget.py",
+    "src/drosolearn/__init__.py",
+    "src/drosolearn/graph.py",
+    "src/drosolearn/human_shell_models.py",
+    "src/drosolearn/model.py",
+    "src/drosolearn/pattern_rule.py",
+    "src/drosolearn/representation_envelope.py",
+    "src/drosolearn/representation_geometry.py",
+    "src/drosolearn/representation_update.py",
+    "src/drosolearn/spillover_envelope.py",
+    "src/drosolearn/spillover_geometry.py",
+    "src/drosolearn/spillover_tradeoff.py",
+    "src/drosolearn/update_budget.py",
+    "src/drosolearn/update_budget_envelope.py",
+    "src/drosolearn/update_budget_geometry.py",
+    "tests/test_spillover_envelope.py",
+    "tests/test_spillover_geometry.py",
+    "tests/test_spillover_tradeoff.py",
+    "tests/test_spillover_tradeoff_verify.py"
+  ],
+  "parent_files": [
+    "results/registration_update_budget_v1.json",
+    "results/update_budget_archive_validation.json",
+    "results/update_budget_v1/artifact_hashes.json",
+    "results/update_budget_v1/metadata.json",
+    "results/update_budget_v1/summary.json",
+    "results/update_budget_v1/verification.json"
+  ],
+  "graph_files": [
+    "data/flywire_783_mb_left_kc512_s701/annotations.csv",
+    "data/flywire_783_mb_left_kc512_s701/edges.csv",
+    "data/flywire_783_mb_left_kc512_s701/neurons.json",
+    "data/flywire_783_mb_left_kc512_s701/provenance.json"
+  ],
+  "input_files": [
+    "data/synthetic/pattern_rule_v1/input_catalog.json",
+    "data/synthetic/representation_update_v1/input_catalog.json"
+  ],
+  "interpretation": {
+    "new_human_experiment": false,
+    "shared_neural_mechanism_claim": false,
+    "education_effect_claim": false
+  }
+}
