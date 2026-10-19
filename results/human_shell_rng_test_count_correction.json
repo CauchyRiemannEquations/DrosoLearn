@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-19T00:42:00.553011+00:00",
+  "status": "passed",
+  "notice": "The test receipt grouped JUnit classnames by the package prefix tests, so its new_unique_passed_tests=0 is a reporting bug. Actual exit_code=0, 199 passed tests and source-byte checks are unchanged. Preserve that receipt and derive the corrected module counts from the original JUnit XML without rerunning tests.",
+  "original_receipt": "results/human_shell_rng_test_validation.json",
+  "original_receipt_sha256": "7ab08bf04f3b8125ce237016c410cb2c8e2cd7ac7172cefb9026aa0b7d351957",
+  "junit_xml_sha256": "05769fab9796b8f8957b7b95f579ef7162e6ddbc4c3a0965c45174c7d47b51b3",
+  "counts_by_file": {
+    "test_human_shell": 14,
+    "test_human_shell_models": 12,
+    "test_human_shell_rng": 15,
+    "test_human_shell_rng_run": 44,
+    "test_human_shell_rng_verify": 34,
+    "test_human_shell_run": 20,
+    "test_human_shell_source": 26,
+    "test_human_shell_verify": 34
+  },
+  "passed_tests": 199,
+  "previous_study_regression_tests": 106,
+  "new_unique_passed_tests": 93,
+  "scientific_source_or_result_changed": false
+}

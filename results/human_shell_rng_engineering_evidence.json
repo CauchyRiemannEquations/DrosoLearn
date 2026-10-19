@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-10-19T00:42:00.555010+00:00",
+  "scope": "Development before RNG-repair registration; actual scientific outcome values not read for the repair decision",
+  "source_study": "human_shell_v1",
+  "repair_study": "human_shell_rng_v2",
+  "pre_freeze_reviews": [
+    "ASCII four-digit participant IDs and unique nonempty axes aligned between producer and independent verifier.",
+    "Required source and parent inventories validated as exact sets, with removal/replacement/duplicate negative tests.",
+    "Current original source, graph and external inventories directly bound to the first registration, with mutation negative tests.",
+    "Parent artifact, conditional arrays/CSV/witnesses, initial autonomous witnesses and selected settings preserved.",
+    "Receipt module-count grouping error preserved and corrected separately from the original JUnit XML."
+  ],
+  "registered_criteria_and_seed_budget_changed": false,
+  "new_actual_calibration_or_conditional_computation": false,
+  "passed_tests": 199,
+  "new_unique_passed_tests": 93,
+  "v1_random_address_design_failure_preserved": "results/human_shell_rng_design_issue_v1.json"
+}
