@@ -1,0 +1,33 @@
+{
+  "study_id": "pattern_rule_v1",
+  "status": "completed",
+  "stage": "completed",
+  "started_at_utc": "2026-10-19T01:27:08.091771+00:00",
+  "source_git_commit": "6763bbd337ebb5593324616a72a41650e2286017",
+  "registration_sha256": "159d4219705968701baa937323807395bcefc4b3a44e4924bf2ec0cbdd2a26fd",
+  "config_sha256": "e5a900e3dfdadde8ac5c4b9b3bb582fd0d04ed8b56807f93f2beb0c6aa7398b2",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "new_human_experiment": false,
+  "shared_neural_mechanism_tested": false,
+  "education_effect_tested": false,
+  "counts": {
+    "training_feedback_trials": 36000,
+    "static_probe_cases": 9000,
+    "model_initializations": 90,
+    "model_seeds": 10,
+    "evaluation_slots_per_checkpoint": 20,
+    "unique_probe_strings": 16,
+    "head_update_calls": 28000,
+    "internal_update_calls": 12000,
+    "value_update_calls": 4000,
+    "head_nonzero_steps": 14010,
+    "internal_nonzero_steps": 5972,
+    "value_nonzero_steps": 2130
+  },
+  "measurement_records": 36000,
+  "numeric_arrays": 152,
+  "completed_at_utc": "2026-10-19T01:27:26.240687+00:00"
+}

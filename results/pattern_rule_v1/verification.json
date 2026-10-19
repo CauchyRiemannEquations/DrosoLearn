@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "study_id": "pattern_rule_v1",
+  "verified_at_utc": "2026-10-19T01:28:43.049873+00:00",
+  "registration_sha256": "159d4219705968701baa937323807395bcefc4b3a44e4924bf2ec0cbdd2a26fd",
+  "summary_sha256": "815c3f3d2ea37e65fd7f5adb453b5a637b264d159817752041ee728e94cdd961",
+  "scientific_producer_imported": false,
+  "counts": {
+    "arrays": 152,
+    "independently_replayed_training_actions": 36000,
+    "model_seeds": 10,
+    "conditions": 9,
+    "checkpoint_static_probes": 9000,
+    "head_update_calls": 28000,
+    "internal_update_calls": 12000,
+    "value_update_calls": 4000,
+    "unique_probe_strings": 16,
+    "evaluation_slots_per_checkpoint": 20,
+    "independent_exact_catalog_and_shortcuts": true,
+    "all_checkpoints_head_internal_and_probe_states_checked": true,
+    "training_only_feature_normalization_checked": true,
+    "no_hidden_nogo_outcome_updates": true,
+    "acquisition_and_joint_ood_gates_separate": true,
+    "phase_novel_single_class_not_generalization": true,
+    "frozen_input_catalog_sha256": "c4823707063b607b87c6c5647a2115008f361ec5f04e70ad80a4bc0476d7c1db"
+  }
+}
