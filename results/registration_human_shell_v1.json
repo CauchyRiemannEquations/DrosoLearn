@@ -1,0 +1,222 @@
+{
+  "study_id": "human_shell_v1",
+  "registration_type": "exploratory_human_trace_comparison",
+  "registered_at_utc": "2026-10-19T00:28:40.914061+00:00",
+  "source_git_commit": "91b5374ae32dcd3acdf25378dfd97a6e39d6cdc3",
+  "config": {
+    "study_id": "human_shell_v1",
+    "scope": "prospectively_registered_exploratory_human_comparison",
+    "manifest": "data/human/tnu_shell_2024/source-manifest.json",
+    "graph": "data/flywire_783_mb_left_kc512_s701",
+    "conditions": [
+      "fixed",
+      "plastic",
+      "rewired_fixed",
+      "rewired_plastic",
+      "ann_fixed",
+      "ann_plastic",
+      "linear",
+      "q",
+      "uniform",
+      "bias",
+      "persistence"
+    ],
+    "adaptive_conditions": [
+      "fixed",
+      "plastic",
+      "rewired_fixed",
+      "rewired_plastic",
+      "ann_fixed",
+      "ann_plastic",
+      "linear",
+      "q"
+    ],
+    "rates": [
+      0.03,
+      0.1,
+      0.3
+    ],
+    "calibration_seeds": [
+      13001,
+      13002,
+      13003
+    ],
+    "test_seeds": [
+      13101,
+      13102,
+      13103,
+      13104,
+      13105
+    ],
+    "calibration_ids": [
+      "A0048",
+      "A0076",
+      "A0072",
+      "A0098",
+      "A0053",
+      "A0086",
+      "A0017",
+      "A0045",
+      "A0066",
+      "A0077",
+      "A0028",
+      "A0049",
+      "A0061",
+      "A0052",
+      "A0030",
+      "A0004",
+      "A0096",
+      "A0005",
+      "A0082",
+      "A0013"
+    ],
+    "test_ids": [
+      "A0021",
+      "A0051",
+      "A0007",
+      "A0014",
+      "A0035",
+      "A0080",
+      "A0050",
+      "A0027",
+      "A0092",
+      "A0034",
+      "A0088",
+      "A0025",
+      "A0008",
+      "A0011",
+      "A0032",
+      "A0090",
+      "A0058",
+      "A0075",
+      "A0073",
+      "A0019",
+      "A0039",
+      "A0062",
+      "A0056",
+      "A0084",
+      "A0099",
+      "A0057",
+      "A0042",
+      "A0071",
+      "A0078"
+    ],
+    "trials_per_person": 216,
+    "bootstrap_repeats": 2000,
+    "bootstrap_seed": 14001,
+    "equivalence_margin": 0.1,
+    "prediction_margin": 0.01,
+    "learning_gain_margin": 0.05,
+    "primary_condition": "plastic",
+    "source_files": [
+      "configs/human_shell_v1.json",
+      "data/human/tnu_shell_2024/source-manifest.json",
+      "docs/human-shell-protocol.md",
+      "docs/human-shell-source-review.md",
+      "docs/human-shell-independent-audit.md",
+      "src/drosolearn/human_shell.py",
+      "src/drosolearn/human_shell_models.py",
+      "src/drosolearn/human_shell_source.py",
+      "scripts/run_human_shell.py",
+      "scripts/verify_human_shell.py",
+      "scripts/plot_human_shell.py",
+      "tests/test_human_shell.py",
+      "tests/test_human_shell_models.py",
+      "tests/test_human_shell_source.py",
+      "tests/test_human_shell_verify.py",
+      "src/drosolearn/__init__.py",
+      "src/drosolearn/graph.py",
+      "src/drosolearn/model.py",
+      "requirements-lock.txt",
+      "pyproject.toml",
+      "tests/test_human_shell_run.py",
+      "data/human/tnu_shell_2024/record_snapshot.json"
+    ],
+    "parent_files": [
+      "results/phase4_synthesis_v1/synthesis.json",
+      "results/phase4_synthesis_v1/verification.json",
+      "results/time_mixture_v1/verification.json",
+      "results/time_mixture_v1/metrics.json",
+      "results/conditional_transition_v1/verification.json",
+      "results/human_task_structure_v1/audit.json"
+    ],
+    "graph_files": [
+      "data/flywire_783_mb_left_kc512_s701/edges.csv",
+      "data/flywire_783_mb_left_kc512_s701/neurons.json",
+      "data/flywire_783_mb_left_kc512_s701/annotations.csv",
+      "data/flywire_783_mb_left_kc512_s701/provenance.json"
+    ],
+    "preserved_parent_commit": "98e9181e4c95862d6ed274e7bc0efd2e3aff761e",
+    "interpretation": {
+      "task": "abstract Go/NoGo shell identity learning; not quantity extraction",
+      "population": "all structurally complete source records; mixed cohort; no medication inference",
+      "shared_neural_mechanism_tested": false,
+      "education_effect_tested": false,
+      "conditional_prediction": "predict original human next action before updating on that person past actions/outcomes",
+      "autonomous_benchmark": "own sampled actions receive only chosen consequences of original complete potential-content trace",
+      "equivalence": "three behavioral measurements within preregistered practical bounds; learning qualification reported separately",
+      "historical_visual_timing_execution_reproduced": false,
+      "human_model_comparison_planned": true
+    }
+  },
+  "config_sha256": "d50a0ab6e21ab76abb72f3f7114bac9b7df398d501488f45258be1ab376b491e",
+  "source_files": {
+    "configs/human_shell_v1.json": "d50a0ab6e21ab76abb72f3f7114bac9b7df398d501488f45258be1ab376b491e",
+    "data/human/tnu_shell_2024/source-manifest.json": "c37a7068504454a01d3ebb43b35e0274f71c0498c643e0995c392629c23744a4",
+    "docs/human-shell-protocol.md": "1d9ad2735635750f75cfc4eebb040292d5b1f63b100d241e0623c16b448fcedd",
+    "docs/human-shell-source-review.md": "2e2cd3af3fc2deb33d3a2df36108dd63cfe28215d310c62735000423fdc00d16",
+    "docs/human-shell-independent-audit.md": "1bddf49ae3b844e5ed1aa635a5e6f3bb882262c04b08a7d035175d4ba1e3b11f",
+    "src/drosolearn/human_shell.py": "8822afa7279ef42a88711bea3d8c69a8c9d2b3cc0a35108ae2ec96f96d1635e9",
+    "src/drosolearn/human_shell_models.py": "e17c3c6218bc1145b7ede1dc90a2d0c9aabff6562e8157a35ae2ad8246e931f5",
+    "src/drosolearn/human_shell_source.py": "506b28be746a05dda261d3da05d46a0d9bdc5450c485919404aa1f46d5043f9d",
+    "scripts/run_human_shell.py": "7366fbdee542488d1ce8aafb365ea94321fbe03b1bb625487fa732fd0cafeebd",
+    "scripts/verify_human_shell.py": "c97bcd08a9c914e1c0c5266cf77adb52e70ed3e2e38585c979619c6c950a0a6f",
+    "scripts/plot_human_shell.py": "761576535f21fd0488396c28b9fa46e5d38974a0f6fd6b817b7f9503e836bcc6",
+    "tests/test_human_shell.py": "1b56237326ab0e8b55c7cc0f0ae6cd9220d10a84ad838649bf370b9e535c6794",
+    "tests/test_human_shell_models.py": "155b10f1c10417d47f8947e9b123468c873d5b06527cfc9d091b68bd66eabe53",
+    "tests/test_human_shell_source.py": "97d946987bebd68276571ce70b9474b67d41d75b738b824756ba8bb82b528363",
+    "tests/test_human_shell_verify.py": "d8ea3653241f6f09d93b25445a5c7fa4d8c1bdb63b4595b51ffc1b5a26d6c1cc",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/graph.py": "6c713164943f1e6a4c38c9138ecd9c437b56523d68b58cffb58dc6531ccea2c2",
+    "src/drosolearn/model.py": "21e855ebbddb6190816a8adad130216065a03a6fc2d757e42466bdc7aaca3497",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "tests/test_human_shell_run.py": "32a46d9f13177204da23039707581ad5e27c5332db053e98c7cd7c43c2990d1f",
+    "data/human/tnu_shell_2024/record_snapshot.json": "91f74ac10eaa05dae80bc4a4f34d219f304dfbfe69631a1f8b616f7f9d85654a"
+  },
+  "parent_files": {
+    "results/phase4_synthesis_v1/synthesis.json": "e8c2d4d59c93c914050f2604e67595cdd351babe434625fd0cbf31bf527cbddc",
+    "results/phase4_synthesis_v1/verification.json": "9f2289cf30e6c07273339ae3f3f76b098e5ae444f8aa8e882ce883df07b0d29c",
+    "results/time_mixture_v1/verification.json": "4df094e5bb618cfb7bbcd6f938f97a2ed26ea5899398c8358e2096a90494f902",
+    "results/time_mixture_v1/metrics.json": "d200fb671b9f34324585cbc06c97f6f0aed06bc3aeb9e30e920dd0511b1db932",
+    "results/conditional_transition_v1/verification.json": "2e0314df24b73aa53b85a4bc64e2b0a188e15b1afbab5501ccb854ccfb12f573",
+    "results/human_task_structure_v1/audit.json": "f4e777748518a1490bc6ec19b4c3c0caf6e560e6cfa1ca85f5e2e8c227b01547"
+  },
+  "graph_files": {
+    "data/flywire_783_mb_left_kc512_s701/edges.csv": "d8c47ea1202575994d430f55e5bd8602f939f320ef02f71522fc1bc54b97db51",
+    "data/flywire_783_mb_left_kc512_s701/neurons.json": "05d83a288b1d42337001015be2d54167aed00cdc9fea58b578423d18756aa77b",
+    "data/flywire_783_mb_left_kc512_s701/annotations.csv": "10f9c9d4db8ee2741bd19cf464e4b46fd6e24f086a5ce1dbb550bcea633cdb16",
+    "data/flywire_783_mb_left_kc512_s701/provenance.json": "e1a50d254628fb0573d7853b8e66926697b353da317bd701b17e60bfd4942061"
+  },
+  "external_files": {
+    "Dataset_TNU.zip": {
+      "bytes": 90591,
+      "sha256": "42421a1764740f11a8eab3924af1854e7a9fe4c8479717f7269b0a1e0cec38b5"
+    },
+    "metadata.json": {
+      "bytes": 4396,
+      "sha256": "91f74ac10eaa05dae80bc4a4f34d219f304dfbfe69631a1f8b616f7f9d85654a"
+    },
+    "readme.pdf": {
+      "bytes": 115471,
+      "sha256": "fdc6a2c4215677eec4ce54ffb7bbff0c0824b1b190f9f9af8110855d91621c59"
+    }
+  },
+  "gate": {
+    "previous_human_data_gate_unchanged": true,
+    "new_source": "TNU 10066829 explicit recorded potential trace and action semantics",
+    "new_source_scope": "conditional prediction and autonomous numeric trace benchmark; original visual/motor runtime not reproduced",
+    "neural_mechanism_or_drug_effect_tested": false
+  },
+  "notice": "Source schema inspected before registration; no human behavioral summaries or model fitting performed before this freeze. Private prospective Git registration, not a blinded confirmatory study."
+}
