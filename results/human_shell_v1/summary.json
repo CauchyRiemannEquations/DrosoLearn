@@ -1,0 +1,775 @@
+{
+  "status": "completed",
+  "human_test_people": 29,
+  "model_seeds": 5,
+  "mode_order": [
+    "conditional",
+    "autonomous"
+  ],
+  "condition_order": [
+    "fixed",
+    "plastic",
+    "rewired_fixed",
+    "rewired_plastic",
+    "ann_fixed",
+    "ann_plastic",
+    "linear",
+    "q",
+    "uniform",
+    "bias",
+    "persistence"
+  ],
+  "behavior_metric_order": [
+    "acquisition_gain",
+    "reversal_early",
+    "reversal_recovery"
+  ],
+  "human_metrics": [
+    {
+      "participant_id": "A0021",
+      "acquisition_gain": 0.3333333333333333,
+      "reversal_early": 0.16666666666666666,
+      "reversal_recovery": 0.7777777777777778
+    },
+    {
+      "participant_id": "A0051",
+      "acquisition_gain": -0.16666666666666666,
+      "reversal_early": 0.3333333333333333,
+      "reversal_recovery": 0.5
+    },
+    {
+      "participant_id": "A0007",
+      "acquisition_gain": 0.5,
+      "reversal_early": 0.5,
+      "reversal_recovery": 0.3333333333333333
+    },
+    {
+      "participant_id": "A0014",
+      "acquisition_gain": 0.16666666666666663,
+      "reversal_early": 0.27777777777777773,
+      "reversal_recovery": 0.5000000000000001
+    },
+    {
+      "participant_id": "A0035",
+      "acquisition_gain": 0.5,
+      "reversal_early": 0.5555555555555555,
+      "reversal_recovery": 0.27777777777777785
+    },
+    {
+      "participant_id": "A0080",
+      "acquisition_gain": 0.0,
+      "reversal_early": 0.4444444444444445,
+      "reversal_recovery": 0.3333333333333333
+    },
+    {
+      "participant_id": "A0050",
+      "acquisition_gain": 0.6666666666666667,
+      "reversal_early": 0.5,
+      "reversal_recovery": 0.11111111111111115
+    },
+    {
+      "participant_id": "A0027",
+      "acquisition_gain": 0.0,
+      "reversal_early": 0.4444444444444444,
+      "reversal_recovery": 0.4444444444444444
+    },
+    {
+      "participant_id": "A0092",
+      "acquisition_gain": 0.16666666666666663,
+      "reversal_early": 0.38888888888888884,
+      "reversal_recovery": 0.5
+    },
+    {
+      "participant_id": "A0034",
+      "acquisition_gain": 0.3333333333333333,
+      "reversal_early": 0.27777777777777773,
+      "reversal_recovery": 0.4444444444444444
+    },
+    {
+      "participant_id": "A0088",
+      "acquisition_gain": 0.16666666666666669,
+      "reversal_early": 0.5555555555555556,
+      "reversal_recovery": 0.2777777777777778
+    },
+    {
+      "participant_id": "A0025",
+      "acquisition_gain": -2.7755575615628914e-17,
+      "reversal_early": 0.3333333333333333,
+      "reversal_recovery": 0.5555555555555556
+    },
+    {
+      "participant_id": "A0008",
+      "acquisition_gain": 0.5,
+      "reversal_early": 0.3333333333333333,
+      "reversal_recovery": 0.4444444444444445
+    },
+    {
+      "participant_id": "A0011",
+      "acquisition_gain": -0.16666666666666669,
+      "reversal_early": 0.7222222222222222,
+      "reversal_recovery": -0.055555555555555546
+    },
+    {
+      "participant_id": "A0032",
+      "acquisition_gain": 0.0,
+      "reversal_early": 0.16666666666666666,
+      "reversal_recovery": 0.5000000000000001
+    },
+    {
+      "participant_id": "A0090",
+      "acquisition_gain": 0.3333333333333333,
+      "reversal_early": 0.3333333333333333,
+      "reversal_recovery": 0.5000000000000001
+    },
+    {
+      "participant_id": "A0058",
+      "acquisition_gain": 0.16666666666666669,
+      "reversal_early": 0.611111111111111,
+      "reversal_recovery": 0.27777777777777773
+    },
+    {
+      "participant_id": "A0075",
+      "acquisition_gain": 0.33333333333333337,
+      "reversal_early": 0.5,
+      "reversal_recovery": 0.22222222222222218
+    },
+    {
+      "participant_id": "A0073",
+      "acquisition_gain": 0.3333333333333333,
+      "reversal_early": 0.4444444444444444,
+      "reversal_recovery": 9.25185853854297e-18
+    },
+    {
+      "participant_id": "A0019",
+      "acquisition_gain": 0.0,
+      "reversal_early": 0.611111111111111,
+      "reversal_recovery": -0.16666666666666666
+    },
+    {
+      "participant_id": "A0039",
+      "acquisition_gain": 0.0,
+      "reversal_early": 0.6666666666666666,
+      "reversal_recovery": 0.11111111111111112
+    },
+    {
+      "participant_id": "A0062",
+      "acquisition_gain": 0.0,
+      "reversal_early": 0.16666666666666666,
+      "reversal_recovery": 0.611111111111111
+    },
+    {
+      "participant_id": "A0056",
+      "acquisition_gain": -2.7755575615628914e-17,
+      "reversal_early": 0.611111111111111,
+      "reversal_recovery": -0.11111111111111112
+    },
+    {
+      "participant_id": "A0084",
+      "acquisition_gain": 0.33333333333333337,
+      "reversal_early": 0.4444444444444444,
+      "reversal_recovery": 0.3888888888888889
+    },
+    {
+      "participant_id": "A0099",
+      "acquisition_gain": 0.33333333333333337,
+      "reversal_early": 0.4444444444444444,
+      "reversal_recovery": 0.16666666666666666
+    },
+    {
+      "participant_id": "A0057",
+      "acquisition_gain": 0.5,
+      "reversal_early": 0.1111111111111111,
+      "reversal_recovery": 0.8333333333333334
+    },
+    {
+      "participant_id": "A0042",
+      "acquisition_gain": -0.16666666666666666,
+      "reversal_early": 0.5,
+      "reversal_recovery": -1.850371707708594e-17
+    },
+    {
+      "participant_id": "A0071",
+      "acquisition_gain": 0.1666666666666667,
+      "reversal_early": 0.7222222222222222,
+      "reversal_recovery": 0.22222222222222224
+    },
+    {
+      "participant_id": "A0078",
+      "acquisition_gain": 0.0,
+      "reversal_early": 0.7777777777777777,
+      "reversal_recovery": 0.05555555555555556
+    }
+  ],
+  "behavior_family_comparisons": [
+    {
+      "condition": "fixed",
+      "metrics": [
+        {
+          "metric": "acquisition_gain",
+          "human_mean": 0.1839080459770115,
+          "model_mean": -0.010344827586206896,
+          "difference": -0.1942528735632184,
+          "ci90": [
+            -0.30574712643678154,
+            -0.08844827586206903
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_early",
+          "human_mean": 0.4463601532567049,
+          "model_mean": 0.4873563218390804,
+          "difference": 0.04099616858237559,
+          "ci90": [
+            -0.018793103448276005,
+            0.10306513409961743
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_recovery",
+          "human_mean": 0.3122605363984674,
+          "model_mean": 0.022222222222222223,
+          "difference": -0.2900383141762452,
+          "ci90": [
+            -0.3747509578544062,
+            -0.20536398467432956
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        }
+      ],
+      "all_three_within_margin": false,
+      "inference_role": "descriptive_control"
+    },
+    {
+      "condition": "plastic",
+      "metrics": [
+        {
+          "metric": "acquisition_gain",
+          "human_mean": 0.1839080459770115,
+          "model_mean": -0.010344827586206896,
+          "difference": -0.1942528735632184,
+          "ci90": [
+            -0.30574712643678154,
+            -0.08844827586206903
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_early",
+          "human_mean": 0.4463601532567049,
+          "model_mean": 0.48659003831417624,
+          "difference": 0.040229885057471326,
+          "ci90": [
+            -0.01879310344827615,
+            0.10268199233716468
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_recovery",
+          "human_mean": 0.3122605363984674,
+          "model_mean": 0.02260536398467433,
+          "difference": -0.28965517241379307,
+          "ci90": [
+            -0.3736015325670499,
+            -0.20459770114942533
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        }
+      ],
+      "all_three_within_margin": false,
+      "inference_role": "primary"
+    },
+    {
+      "condition": "rewired_fixed",
+      "metrics": [
+        {
+          "metric": "acquisition_gain",
+          "human_mean": 0.1839080459770115,
+          "model_mean": -0.01954022988505747,
+          "difference": -0.20344827586206896,
+          "ci90": [
+            -0.30919540229885056,
+            -0.10344827586206895
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        },
+        {
+          "metric": "reversal_early",
+          "human_mean": 0.4463601532567049,
+          "model_mean": 0.48429118773946367,
+          "difference": 0.03793103448275864,
+          "ci90": [
+            -0.02185823754789277,
+            0.09961685823754775
+          ],
+          "equivalent": true,
+          "status": "within_margin"
+        },
+        {
+          "metric": "reversal_recovery",
+          "human_mean": 0.3122605363984674,
+          "model_mean": 0.022988505747126436,
+          "difference": -0.289272030651341,
+          "ci90": [
+            -0.3762643678160919,
+            -0.20344827586206904
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        }
+      ],
+      "all_three_within_margin": false,
+      "inference_role": "descriptive_control"
+    },
+    {
+      "condition": "rewired_plastic",
+      "metrics": [
+        {
+          "metric": "acquisition_gain",
+          "human_mean": 0.1839080459770115,
+          "model_mean": -0.01954022988505747,
+          "difference": -0.20344827586206896,
+          "ci90": [
+            -0.30919540229885056,
+            -0.10344827586206895
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        },
+        {
+          "metric": "reversal_early",
+          "human_mean": 0.4463601532567049,
+          "model_mean": 0.4854406130268199,
+          "difference": 0.039080459770114984,
+          "ci90": [
+            -0.02030651340996165,
+            0.09963601532567053
+          ],
+          "equivalent": true,
+          "status": "within_margin"
+        },
+        {
+          "metric": "reversal_recovery",
+          "human_mean": 0.3122605363984674,
+          "model_mean": 0.02145593869731801,
+          "difference": -0.2908045977011494,
+          "ci90": [
+            -0.37739463601532564,
+            -0.20613026819923372
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        }
+      ],
+      "all_three_within_margin": false,
+      "inference_role": "descriptive_control"
+    },
+    {
+      "condition": "ann_fixed",
+      "metrics": [
+        {
+          "metric": "acquisition_gain",
+          "human_mean": 0.1839080459770115,
+          "model_mean": -0.01494252873563218,
+          "difference": -0.19885057471264367,
+          "ci90": [
+            -0.3045977011494253,
+            -0.09885057471264373
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_early",
+          "human_mean": 0.4463601532567049,
+          "model_mean": 0.48237547892720295,
+          "difference": 0.03601532567049803,
+          "ci90": [
+            -0.02490421455938703,
+            0.09773946360153282
+          ],
+          "equivalent": true,
+          "status": "within_margin"
+        },
+        {
+          "metric": "reversal_recovery",
+          "human_mean": 0.3122605363984674,
+          "model_mean": 0.02567049808429119,
+          "difference": -0.28659003831417623,
+          "ci90": [
+            -0.3709003831417625,
+            -0.20111111111111118
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        }
+      ],
+      "all_three_within_margin": false,
+      "inference_role": "descriptive_control"
+    },
+    {
+      "condition": "ann_plastic",
+      "metrics": [
+        {
+          "metric": "acquisition_gain",
+          "human_mean": 0.1839080459770115,
+          "model_mean": -0.01494252873563218,
+          "difference": -0.19885057471264367,
+          "ci90": [
+            -0.3045977011494253,
+            -0.09885057471264373
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_early",
+          "human_mean": 0.4463601532567049,
+          "model_mean": 0.48045977011494245,
+          "difference": 0.03409961685823765,
+          "ci90": [
+            -0.027969348659004026,
+            0.09731800766283506
+          ],
+          "equivalent": true,
+          "status": "within_margin"
+        },
+        {
+          "metric": "reversal_recovery",
+          "human_mean": 0.3122605363984674,
+          "model_mean": 0.027586206896551724,
+          "difference": -0.2846743295019157,
+          "ci90": [
+            -0.37241379310344835,
+            -0.1965517241379311
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        }
+      ],
+      "all_three_within_margin": false,
+      "inference_role": "descriptive_control"
+    },
+    {
+      "condition": "linear",
+      "metrics": [
+        {
+          "metric": "acquisition_gain",
+          "human_mean": 0.1839080459770115,
+          "model_mean": 0.08735632183908047,
+          "difference": -0.09655172413793102,
+          "ci90": [
+            -0.19885057471264364,
+            -0.0022988505747126562
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_early",
+          "human_mean": 0.4463601532567049,
+          "model_mean": 0.42145593869731796,
+          "difference": -0.02490421455938696,
+          "ci90": [
+            -0.08162835249042154,
+            0.03333333333333284
+          ],
+          "equivalent": true,
+          "status": "within_margin"
+        },
+        {
+          "metric": "reversal_recovery",
+          "human_mean": 0.3122605363984674,
+          "model_mean": 0.09961685823754789,
+          "difference": -0.21264367816091956,
+          "ci90": [
+            -0.29578544061302686,
+            -0.12909961685823768
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        }
+      ],
+      "all_three_within_margin": false,
+      "inference_role": "descriptive_control"
+    },
+    {
+      "condition": "q",
+      "metrics": [
+        {
+          "metric": "acquisition_gain",
+          "human_mean": 0.1839080459770115,
+          "model_mean": 0.18160919540229886,
+          "difference": -0.0022988505747126575,
+          "ci90": [
+            -0.08965517241379303,
+            0.07471264367816093
+          ],
+          "equivalent": true,
+          "status": "within_margin"
+        },
+        {
+          "metric": "reversal_early",
+          "human_mean": 0.4463601532567049,
+          "model_mean": 0.3547892720306513,
+          "difference": -0.09157088122605361,
+          "ci90": [
+            -0.1475287356321841,
+            -0.03563218390804595
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_recovery",
+          "human_mean": 0.3122605363984674,
+          "model_mean": 0.22950191570881232,
+          "difference": -0.08275862068965514,
+          "ci90": [
+            -0.1624904214559387,
+            -0.002662835249042147
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        }
+      ],
+      "all_three_within_margin": false,
+      "inference_role": "descriptive_control"
+    },
+    {
+      "condition": "uniform",
+      "metrics": [
+        {
+          "metric": "acquisition_gain",
+          "human_mean": 0.1839080459770115,
+          "model_mean": -0.029885057471264367,
+          "difference": -0.21379310344827587,
+          "ci90": [
+            -0.31954022988505737,
+            -0.12068965517241378
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        },
+        {
+          "metric": "reversal_early",
+          "human_mean": 0.4463601532567049,
+          "model_mean": 0.5022988505747127,
+          "difference": 0.05593869731800788,
+          "ci90": [
+            -0.0023180076628354462,
+            0.11764367816091964
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_recovery",
+          "human_mean": 0.3122605363984674,
+          "model_mean": 0.0030651340996168557,
+          "difference": -0.30919540229885056,
+          "ci90": [
+            -0.3969348659003832,
+            -0.224904214559387
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        }
+      ],
+      "all_three_within_margin": false,
+      "inference_role": "descriptive_control"
+    },
+    {
+      "condition": "bias",
+      "metrics": [
+        {
+          "metric": "acquisition_gain",
+          "human_mean": 0.1839080459770115,
+          "model_mean": -0.028735632183908042,
+          "difference": -0.21264367816091953,
+          "ci90": [
+            -0.3011494252873563,
+            -0.13333333333333336
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        },
+        {
+          "metric": "reversal_early",
+          "human_mean": 0.4463601532567049,
+          "model_mean": 0.4954022988505748,
+          "difference": 0.04904214559386966,
+          "ci90": [
+            -0.011877394636015398,
+            0.11034482758620678
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_recovery",
+          "human_mean": 0.3122605363984674,
+          "model_mean": 0.00766283524904214,
+          "difference": -0.30459770114942525,
+          "ci90": [
+            -0.3904214559386973,
+            -0.2191570881226054
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        }
+      ],
+      "all_three_within_margin": false,
+      "inference_role": "descriptive_control"
+    },
+    {
+      "condition": "persistence",
+      "metrics": [
+        {
+          "metric": "acquisition_gain",
+          "human_mean": 0.1839080459770115,
+          "model_mean": -0.020689655172413786,
+          "difference": -0.20459770114942527,
+          "ci90": [
+            -0.3298850574712644,
+            -0.09540229885057476
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_early",
+          "human_mean": 0.4463601532567049,
+          "model_mean": 0.49693486590038316,
+          "difference": 0.05057471264367813,
+          "ci90": [
+            -0.011130268199233666,
+            0.11534482758620744
+          ],
+          "equivalent": false,
+          "status": "inconclusive"
+        },
+        {
+          "metric": "reversal_recovery",
+          "human_mean": 0.3122605363984674,
+          "model_mean": -0.005747126436781615,
+          "difference": -0.318007662835249,
+          "ci90": [
+            -0.4088122605363985,
+            -0.23293103448275862
+          ],
+          "equivalent": false,
+          "status": "outside_margin"
+        }
+      ],
+      "all_three_within_margin": false,
+      "inference_role": "descriptive_control"
+    }
+  ],
+  "conditional_family_mean_nll": {
+    "fixed": 0.6675142099053128,
+    "plastic": 0.6660464234913147,
+    "rewired_fixed": 0.6679876424575912,
+    "rewired_plastic": 0.6666854805014072,
+    "ann_fixed": 0.6720876427269049,
+    "ann_plastic": 0.6706691283893021,
+    "linear": 0.653579118396597,
+    "q": 0.6271314698572747,
+    "uniform": 0.6931471805599453,
+    "bias": 0.6434723797037055,
+    "persistence": 0.6232893191833312
+  },
+  "conditional_family_mean_brier": {
+    "fixed": 0.23736219650885576,
+    "plastic": 0.2367081542526564,
+    "rewired_fixed": 0.2375484487056177,
+    "rewired_plastic": 0.23696687110750408,
+    "ann_fixed": 0.23944527733093135,
+    "ann_plastic": 0.23879362899023351,
+    "linear": 0.22798815169097067,
+    "q": 0.21763449627096976,
+    "uniform": 0.25,
+    "bias": 0.22557646309923068,
+    "persistence": 0.19929757343550444
+  },
+  "H_similarity": {
+    "primary_condition": "plastic",
+    "supported": false,
+    "claim": "behavioral_equivalence_only",
+    "margin": 0.1,
+    "notice": "same three summaries within operational margin; not common mechanism or learning proof"
+  },
+  "H_prediction": {
+    "primary_condition": "plastic",
+    "supported": false,
+    "minimum_improvement_nats": 0.01,
+    "contrasts": [
+      {
+        "baseline": "uniform",
+        "mean_improvement_nats": 0.027100757068630524,
+        "ci90": [
+          0.0138171543138575,
+          0.03997941299582021
+        ],
+        "passed": true
+      },
+      {
+        "baseline": "bias",
+        "mean_improvement_nats": -0.022574043787609247,
+        "ci90": [
+          -0.04015869927073437,
+          -0.006684220796720543
+        ],
+        "passed": false
+      },
+      {
+        "baseline": "persistence",
+        "mean_improvement_nats": -0.04275710430798365,
+        "ci90": [
+          -0.08659626474177753,
+          0.006525056187373817
+        ],
+        "passed": false
+      }
+    ]
+  },
+  "learning_qualification": {
+    "human_initial_gain_ci90": [
+      0.11494252873563221,
+      0.25287356321839083
+    ],
+    "model_initial_gain_ci90": [
+      -0.09890804597701157,
+      0.07471264367816093
+    ],
+    "human_gain_observed": true,
+    "model_gain_observed": false,
+    "human_gain_status": "observed",
+    "gated_learning_pattern_supported": false,
+    "notice": "human pretraining/experience prevents interpreting absent gain as absent learning"
+  },
+  "bootstrap": {
+    "repeats": 2000,
+    "seed": 14001,
+    "quantiles": [
+      0.05,
+      0.95
+    ],
+    "method": "crossed participant/seed resampling; same people and shared seeds retained across conditions"
+  },
+  "test_modeled_trials": 689040,
+  "conditional_trials": 344520,
+  "autonomous_trials": 344520,
+  "autonomous_nll_interpreted": false,
+  "mechanism_claim": false,
+  "educational_claim": false
+}

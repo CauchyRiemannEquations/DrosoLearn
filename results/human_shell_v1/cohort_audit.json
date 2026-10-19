@@ -1,0 +1,5768 @@
+{
+  "schema": "drosolearn.tnu-shell-source-audit.v1",
+  "record_id": 10066829,
+  "raw_metadata_participants": 50,
+  "complete_participants": 49,
+  "complete_trials": 10584,
+  "eligible_ids": [
+    "A0004",
+    "A0005",
+    "A0007",
+    "A0008",
+    "A0011",
+    "A0013",
+    "A0014",
+    "A0017",
+    "A0019",
+    "A0021",
+    "A0025",
+    "A0027",
+    "A0028",
+    "A0030",
+    "A0032",
+    "A0034",
+    "A0035",
+    "A0039",
+    "A0042",
+    "A0045",
+    "A0048",
+    "A0049",
+    "A0050",
+    "A0051",
+    "A0052",
+    "A0053",
+    "A0056",
+    "A0057",
+    "A0058",
+    "A0061",
+    "A0062",
+    "A0066",
+    "A0071",
+    "A0072",
+    "A0073",
+    "A0075",
+    "A0076",
+    "A0077",
+    "A0078",
+    "A0080",
+    "A0082",
+    "A0084",
+    "A0086",
+    "A0088",
+    "A0090",
+    "A0092",
+    "A0096",
+    "A0098",
+    "A0099"
+  ],
+  "excluded": {
+    "A0016": [
+      "trace_shortlog_row_count_mismatch",
+      "shortlog_not_five_columns",
+      "response_rt_domain_invalid_or_short_row"
+    ]
+  },
+  "files": {
+    "Dataset_TNU.zip": {
+      "bytes": 90591,
+      "sha256": "42421a1764740f11a8eab3924af1854e7a9fe4c8479717f7269b0a1e0cec38b5"
+    },
+    "metadata.json": {
+      "bytes": 4396,
+      "sha256": "91f74ac10eaa05dae80bc4a4f34d219f304dfbfe69631a1f8b616f7f9d85654a"
+    },
+    "readme.pdf": {
+      "bytes": 115471,
+      "sha256": "fdc6a2c4215677eec4ce54ffb7bbff0c0824b1b190f9f9af8110855d91621c59"
+    }
+  },
+  "member_hashes": {
+    "outer": {
+      "A_Behav.zip": {
+        "bytes": 88478,
+        "sha256": "0152e6b56932f7129dc3722666ef6076b6aa6f26f2aa0b5f61e18d7aacd8fffc"
+      },
+      "A_Data.csv": {
+        "bytes": 2881,
+        "sha256": "336d6908812dd4bc3b1313077a30394857d95c5963ff62571b4655fc3e098893"
+      },
+      "A_OCIR.csv": {
+        "bytes": 1199,
+        "sha256": "baeeeebe828552113bc55d7988f0547e011396680f06c309df33594b0324e86c"
+      }
+    },
+    "behavior": {
+      "behavior/A0004/GONOGO_shortlog_A0004.txt": {
+        "bytes": 3664,
+        "sha256": "8c078dc11cc9e371d41a0c21261e2bd70c78f0bfb0514f782f09e49033e8d978"
+      },
+      "behavior/A0004/GONOGO_trace_A0004.csv": {
+        "bytes": 1310,
+        "sha256": "48b725b7b474759c94a1144fb4a557124539e98bc8acfee601d620a4bef21eef"
+      },
+      "behavior/A0005/GONOGO_shortlog_A0005.txt": {
+        "bytes": 3662,
+        "sha256": "28ddec32d5ebd27b4c10711964e30951876aeef651e25bb55cf6dbc07394f01a"
+      },
+      "behavior/A0005/GONOGO_trace_A0005.csv": {
+        "bytes": 1296,
+        "sha256": "09c6999abe84062113d7ef9115e51fd8591f21189746134219a35390a4ee1e7b"
+      },
+      "behavior/A0007/GONOGO_shortlog_A0007.txt": {
+        "bytes": 3652,
+        "sha256": "9ac4558d4f79f2db90f972a2cbbc8e0d7994b25e86898a00274ae250bc3135bb"
+      },
+      "behavior/A0007/GONOGO_trace_A0007.csv": {
+        "bytes": 1296,
+        "sha256": "331a10fbe766b0a1092119b4092c0d9b0b56977bd0e38b8fa2e5841664ba2407"
+      },
+      "behavior/A0008/GONOGO_shortlog_A0008.txt": {
+        "bytes": 3638,
+        "sha256": "875c5109b20ce1fcdb968331b073966517ba105c4ab8abfccc8b1516d7319fd4"
+      },
+      "behavior/A0008/GONOGO_trace_A0008.csv": {
+        "bytes": 1296,
+        "sha256": "265c19a45c2bfdd6caecb1e11092fa94aef48d528ec1491cf48c6003067abfff"
+      },
+      "behavior/A0011/GONOGO_shortlog_A0011.txt": {
+        "bytes": 3616,
+        "sha256": "b95390e074bdab10eaa1678e8cd42cc2f77521f7f236e9d64f32fd8485a28c43"
+      },
+      "behavior/A0011/GONOGO_trace_A0011.csv": {
+        "bytes": 1296,
+        "sha256": "f802da81c7d26965da43ff2a506ddb5ac5808fd70dd0e3299b7fc4276521ca69"
+      },
+      "behavior/A0013/GONOGO_shortlog_A0013.txt": {
+        "bytes": 3644,
+        "sha256": "326abeb7ec25fbb815a7d2a9fa7718b782f0bd059cf5e4f37ce4bd39ebd7e7a8"
+      },
+      "behavior/A0013/GONOGO_trace_A0013.csv": {
+        "bytes": 1296,
+        "sha256": "f0e0515aca3c0d2b3f1be0bb9e4667b67f06ffe2c6ecf27618e4f208b61ba522"
+      },
+      "behavior/A0014/GONOGO_shortlog_A0014.txt": {
+        "bytes": 3612,
+        "sha256": "cec411da7c1e7d4186cb00ef88a24ef6ea0e758c96115a8140a31409b87e31ff"
+      },
+      "behavior/A0014/GONOGO_trace_A0014.csv": {
+        "bytes": 1296,
+        "sha256": "9fdbe101d56d09159998b3430dbd3d078f213f55a8aa6a0b268723fda66f18de"
+      },
+      "behavior/A0016/GONOGO_shortlog_A0016.txt": {
+        "bytes": 1818,
+        "sha256": "8f06d5a2cfa0e9663e9bd238a5227293bddfd8be66ebf5fac8d85ab477afb1ea"
+      },
+      "behavior/A0016/GONOGO_trace_A0016.csv": {
+        "bytes": 1296,
+        "sha256": "ea829ec67024aa842b47cacb544ff68acb4655ec681f974033ef3b78c42879b8"
+      },
+      "behavior/A0017/GONOGO_shortlog_A0017.txt": {
+        "bytes": 3650,
+        "sha256": "c463321f6a56ec7183d3db17ecc5a293b7a2f586588bcf8abadc89d2ccd3f78c"
+      },
+      "behavior/A0017/GONOGO_trace_A0017.csv": {
+        "bytes": 1296,
+        "sha256": "1c707139220e24ad6e205a05bf0ce5b594904bc033a1b3917adae56b1de7cd1a"
+      },
+      "behavior/A0019/GONOGO_shortlog_A0019.txt": {
+        "bytes": 3747,
+        "sha256": "50d81fc0accaaa855b2fa403ff07a613b5a96164962d3d05071a8322145e0803"
+      },
+      "behavior/A0019/GONOGO_trace_A0019.csv": {
+        "bytes": 1296,
+        "sha256": "5c1e35570546af5aa69cb811dab892407342ba4437b78bb5d06eb21b284ff232"
+      },
+      "behavior/A0021/GONOGO_shortlog_A0021.txt": {
+        "bytes": 3616,
+        "sha256": "381a24f2331c3947e58adb16d33e632dd26095118fe67749b79f15b8c06a855e"
+      },
+      "behavior/A0021/GONOGO_trace_A0021.csv": {
+        "bytes": 1296,
+        "sha256": "88a89811ba3a2b6cf64a3b7191ebfd2016e5c945d54800d6e3151266b5ae9ec3"
+      },
+      "behavior/A0025/GONOGO_shortlog_A0025.txt": {
+        "bytes": 3634,
+        "sha256": "edce5146d19be92b0f043b24fe961a031242c6aea98fa2e30a7a28f3b827c7bc"
+      },
+      "behavior/A0025/GONOGO_trace_A0025.csv": {
+        "bytes": 1308,
+        "sha256": "c153725848fd06be8910751aa017cd8e484176ff26ce135b199606084bbb7039"
+      },
+      "behavior/A0027/GONOGO_shortlog_A0027.txt": {
+        "bytes": 3670,
+        "sha256": "2d3245c36f41cc1dfc3b0ecec2657afa7b062778deea25a0fe4436983f189da9"
+      },
+      "behavior/A0027/GONOGO_trace_A0027.csv": {
+        "bytes": 1296,
+        "sha256": "b479b804e4f71e6bf11dec31351408c001ddbfd343e35291423e2942a4d20e30"
+      },
+      "behavior/A0028/GONOGO_shortlog_A0028.txt": {
+        "bytes": 3594,
+        "sha256": "8bae564c4ddb3b52ce9739d09b1fd5a408ceddf4ca12ffbd12fe7ea5cb68b249"
+      },
+      "behavior/A0028/GONOGO_trace_A0028.csv": {
+        "bytes": 1296,
+        "sha256": "fe8a433a9604fa96eba93fae8b1e7009616b4f0fcba1e29034b5d46d57735766"
+      },
+      "behavior/A0030/GONOGO_shortlog_A0030.txt": {
+        "bytes": 3624,
+        "sha256": "d377f85358236525079d1a9fedb26395ee941bc4fdb8c7092bab5cd9514059b5"
+      },
+      "behavior/A0030/GONOGO_trace_A0030.csv": {
+        "bytes": 1310,
+        "sha256": "50aea2b6e60b261078bd14055c711c092341dcd802cb431256b4fcb0e356a0af"
+      },
+      "behavior/A0032/GONOGO_shortlog_A0032.txt": {
+        "bytes": 3564,
+        "sha256": "55f6917cce2ee8606e96600c952f5f5d0ff8a1b84532e7b32e6554bc69433cc1"
+      },
+      "behavior/A0032/GONOGO_trace_A0032.csv": {
+        "bytes": 1296,
+        "sha256": "1766379bb09c6499d3fb9b4ba2c520cebe1aec51a1760c439e8fae521b7a30ab"
+      },
+      "behavior/A0034/GONOGO_shortlog_A0034.txt": {
+        "bytes": 3538,
+        "sha256": "b9deeb99b2097a3758691366ceceddf9164001b8c456fe0289c1b709310db3b9"
+      },
+      "behavior/A0034/GONOGO_trace_A0034.csv": {
+        "bytes": 1296,
+        "sha256": "64c3dd577ff666d2639fa50a515dd6828dcabd60b92212c70ff3d8b8e415e085"
+      },
+      "behavior/A0035/GONOGO_shortlog_A0035.txt": {
+        "bytes": 3674,
+        "sha256": "2408b77f53f77cbb77f68144929b8e38c8d0eab684b86c8bd60765dda7a23135"
+      },
+      "behavior/A0035/GONOGO_trace_A0035.csv": {
+        "bytes": 1296,
+        "sha256": "8cd9117deee808675c43f1056e90bd995c9252bd66e4d8b8597f52a7c0d56ba4"
+      },
+      "behavior/A0039/GONOGO_shortlog_A0039.txt": {
+        "bytes": 3646,
+        "sha256": "62f8c8d3d675012debe3a6546663aceffb5de464b43458c4d7475d0db4d9c545"
+      },
+      "behavior/A0039/GONOGO_trace_A0039.csv": {
+        "bytes": 1296,
+        "sha256": "1a9575d5976522b6732547f2c1dc46ecef9c007972344e8d1f9acddf1020b55d"
+      },
+      "behavior/A0042/GONOGO_shortlog_A0042.txt": {
+        "bytes": 3702,
+        "sha256": "be16f9a6ee20a98a17a8760755322c8ceba6316734f5b520e47b094e5aa64e46"
+      },
+      "behavior/A0042/GONOGO_trace_A0042.csv": {
+        "bytes": 1296,
+        "sha256": "b3278332bd545873969b2ebbd580fbf28818ec94e6c17dfdb6948aba45da85b1"
+      },
+      "behavior/A0045/GONOGO_shortlog_A0045.txt": {
+        "bytes": 3630,
+        "sha256": "62603cce43338f0ea0c3ad1e3efe5cd930a2c121b85b805510f41a7a96f1c8bd"
+      },
+      "behavior/A0045/GONOGO_trace_A0045.csv": {
+        "bytes": 1296,
+        "sha256": "4a9d827f7bce785c5e5c6af6badf721d3a73655ea1af81b97ef1aa994eb4bd24"
+      },
+      "behavior/A0048/._0009_2_new.txt": {
+        "bytes": 4096,
+        "sha256": "b1b2c779cfa695c6ed3141c91aea91be7e4e63a2cfada1f3b6b58d38d007240b"
+      },
+      "behavior/A0048/A0048_2_new.txt": {
+        "bytes": 3666,
+        "sha256": "1cce84708c06ce6cfc105bc71178ec71228edf84281c181dab998e2e648d697b"
+      },
+      "behavior/A0048/GONOGO_shortlog_A0048.txt": {
+        "bytes": 3668,
+        "sha256": "aaf9804c4c841de2fd15aa4bea85d2f5e01537908988fb03f019385d81256aeb"
+      },
+      "behavior/A0048/GONOGO_trace_A0048.csv": {
+        "bytes": 1296,
+        "sha256": "bedc142e41c169efb92c623be5acd7568c86b44b195cc05bb69b393e5838120d"
+      },
+      "behavior/A0049/GONOGO_shortlog_A0049.txt": {
+        "bytes": 3620,
+        "sha256": "3f173087a2423b8cf1e591206f0442a103236b1be0b7e99820626e61710b0dac"
+      },
+      "behavior/A0049/GONOGO_trace_A0049.csv": {
+        "bytes": 1296,
+        "sha256": "37c7c79fa46a3ab78a905bb8ff07db80f6d7b81702f542277cea70b98120e6c0"
+      },
+      "behavior/A0050/GONOGO_shortlog_A0050.txt": {
+        "bytes": 3602,
+        "sha256": "f532a1af4242db863dd86cc65c8cfdef54a63afa8802acbccf1097323a8d13ac"
+      },
+      "behavior/A0050/GONOGO_trace_A0050.csv": {
+        "bytes": 1310,
+        "sha256": "50aea2b6e60b261078bd14055c711c092341dcd802cb431256b4fcb0e356a0af"
+      },
+      "behavior/A0051/GONOGO_shortlog_A0051.txt": {
+        "bytes": 3648,
+        "sha256": "a07d64fbee4f7e32e5a1b8ea31b832a9a43068883dafe5f2d1d1101583679e3b"
+      },
+      "behavior/A0051/GONOGO_trace_A0051.csv": {
+        "bytes": 1310,
+        "sha256": "0b4f87fd218544e1f7f5dd73658a84f0ca5c39152b316565eb254d371164a605"
+      },
+      "behavior/A0052/GONOGO_shortlog_A0052.txt": {
+        "bytes": 3594,
+        "sha256": "e1101d4c4feb06df8643bbce76d508e46348a7ffc06164c15afe062090a83e03"
+      },
+      "behavior/A0052/GONOGO_trace_A0052.csv": {
+        "bytes": 1296,
+        "sha256": "3cc32be0e980ddc8723c78e9c89c217e40852a079a2a467f6f6187739e1416fa"
+      },
+      "behavior/A0053/GONOGO_shortlog_A0053.txt": {
+        "bytes": 3640,
+        "sha256": "7fd31883e31f9b86ebc84b9480c180846e1006e378a1e480b605508466a79180"
+      },
+      "behavior/A0053/GONOGO_trace_A0053.csv": {
+        "bytes": 1296,
+        "sha256": "23ebca37e1918ec8571939b1fab7f9f195586a1406fe216b66fbb2653f8c4822"
+      },
+      "behavior/A0056/GONOGO_shortlog_A0056.txt": {
+        "bytes": 3628,
+        "sha256": "30fadf08edaecdeb444ff2010b299607f2bd6b117bc45582c62e063c66e95e04"
+      },
+      "behavior/A0056/GONOGO_trace_A0056.csv": {
+        "bytes": 1296,
+        "sha256": "28e22aca36dcc15c3583b89b0601bb4c244194d5ec3c9847bc89286844c47e12"
+      },
+      "behavior/A0057/GONOGO_shortlog_A0057.txt": {
+        "bytes": 3586,
+        "sha256": "789da320b0a839660c60a077e55f6251283fdba1f737dd136cc89105be58151c"
+      },
+      "behavior/A0057/GONOGO_trace_A0057.csv": {
+        "bytes": 1296,
+        "sha256": "e60822edb6ebe81012cd9b147830c6ba2505cab71c66e694d01715671d52d87b"
+      },
+      "behavior/A0058/GONOGO_shortlog_A0058.txt": {
+        "bytes": 3652,
+        "sha256": "30621906e688bf0c4ada9bb759a61bce995c3ee31e10e8c90492576fae484b2b"
+      },
+      "behavior/A0058/GONOGO_trace_A0058.csv": {
+        "bytes": 1296,
+        "sha256": "84c8e6c76c071c8f7f3fd114e44c09be4dc0ddd77d217e45460ba8c2777459fe"
+      },
+      "behavior/A0061/GONOGO_shortlog_A0061.txt": {
+        "bytes": 3642,
+        "sha256": "6534405f6ce4c6efc4c5d26b4a55bcfb1e25b5f16973c1c5f3facd22b5e998dc"
+      },
+      "behavior/A0061/GONOGO_trace_A0061.csv": {
+        "bytes": 1296,
+        "sha256": "32592e4e4aaef1a3af11d5d16e2820a8ecad28390e1b94ed9a88682658a32b0c"
+      },
+      "behavior/A0062/GONOGO_shortlog_A0062.txt": {
+        "bytes": 3638,
+        "sha256": "2f6b58071188eef2906a8df0e24a7b88b84e8d58e2c6a707e5f17bc711354303"
+      },
+      "behavior/A0062/GONOGO_trace_A0062.csv": {
+        "bytes": 1296,
+        "sha256": "f24d69bf269a39dcaf42e68f941129603f7cfa66ac03060bc7b994af281db16d"
+      },
+      "behavior/A0066/GONOGO_shortlog_A0066.txt": {
+        "bytes": 3606,
+        "sha256": "70b1da3fb1e067609ffb5020e86bb3792f0e350842f9b766375da9d8c053ec7d"
+      },
+      "behavior/A0066/GONOGO_trace_A0066.csv": {
+        "bytes": 1311,
+        "sha256": "7f68361f7c36c7fd2024455198125cacbf2fca4ff180ccf9d83325ef54195677"
+      },
+      "behavior/A0071/GONOGO_shortlog_A0071.txt": {
+        "bytes": 3614,
+        "sha256": "64e7f564797236478caa45b15aa3cf418bcc65bc266422853bca60208b38c2e7"
+      },
+      "behavior/A0071/GONOGO_trace_A0071.csv": {
+        "bytes": 1296,
+        "sha256": "86ec7ae2cbe907f380e28093f74cd5d24d880578df25f018d8b8ba59f3e007d7"
+      },
+      "behavior/A0072/GONOGO_shortlog_A0072.txt": {
+        "bytes": 3682,
+        "sha256": "c0022333a9256c9de9ba20f796b22274036868b0e0061ff9325a1279a299b8a3"
+      },
+      "behavior/A0072/GONOGO_trace_A0072.csv": {
+        "bytes": 1296,
+        "sha256": "992030ecb1e9004167dc2e0db925d4bf14f99669063712c67096baf4494d273d"
+      },
+      "behavior/A0073/GONOGO_shortlog_A0073.txt": {
+        "bytes": 3542,
+        "sha256": "fa6add5e0b85d0137318be5601f16a68a7f174c5eeddac836c9887f4db5db99e"
+      },
+      "behavior/A0073/GONOGO_trace_A0073.csv": {
+        "bytes": 1310,
+        "sha256": "48b725b7b474759c94a1144fb4a557124539e98bc8acfee601d620a4bef21eef"
+      },
+      "behavior/A0075/GONOGO_shortlog_A0075.txt": {
+        "bytes": 3646,
+        "sha256": "b3a58e06d14df174ae3ff2ba2d5dbc7db8387532785ff70f8127fee1aa625026"
+      },
+      "behavior/A0075/GONOGO_trace_A0075.csv": {
+        "bytes": 1296,
+        "sha256": "6a24009fd1db4940332cc2b2ea630390f231dac4cb1ff6d687ebfa8e29f042e3"
+      },
+      "behavior/A0076/GONOGO_shortlog_A0076.txt": {
+        "bytes": 3592,
+        "sha256": "9324103beb523d884fda0ea5f495fc495a066e9455c273474754e7f3bddcb0e3"
+      },
+      "behavior/A0076/GONOGO_trace_A0076.csv": {
+        "bytes": 1296,
+        "sha256": "06d59cc5654d502203c94dbbb072608c028850a521f8c973a690b865432fb836"
+      },
+      "behavior/A0077/GONOGO_shortlog_A0077.txt": {
+        "bytes": 3590,
+        "sha256": "e21a9cfb3ee23e379aa14ac983d0b454fdf8fc378affc6c924bbfb8fbcc8e318"
+      },
+      "behavior/A0077/GONOGO_trace_A0077.csv": {
+        "bytes": 1296,
+        "sha256": "94a996468a8a6b4ef1967407e6eb6e1eb5e776c9c96398f6c24569711b47e13c"
+      },
+      "behavior/A0078/GONOGO_shortlog_A0078.txt": {
+        "bytes": 3668,
+        "sha256": "f4d6f1de38e981342d6252c762be96c5c65989d5c249aac929ced34de2caa6d5"
+      },
+      "behavior/A0078/GONOGO_trace_A0078.csv": {
+        "bytes": 1296,
+        "sha256": "1bdad6aee44712e6b660da69e0b14f731fb12ccf1c51b0a59a28a1522c0e6abc"
+      },
+      "behavior/A0080/GONOGO_shortlog_A0080.txt": {
+        "bytes": 3636,
+        "sha256": "c78665634ba28c0df6ddd9cbbe6544ff6193fcddbf90ad9d4ebdcccd9321975a"
+      },
+      "behavior/A0080/GONOGO_trace_A0080.csv": {
+        "bytes": 1296,
+        "sha256": "1343e2bacaf1c5575ef21001c4e03ba3a0311ad584c39735d8b8570b8329f2a5"
+      },
+      "behavior/A0082/GONOGO_shortlog_A0082.txt": {
+        "bytes": 3608,
+        "sha256": "279a23aaf2fad20d7cd70b2e4d7c324e7ee41418b3edb8715a12cc7062bbe5c6"
+      },
+      "behavior/A0082/GONOGO_trace_A0082.csv": {
+        "bytes": 1296,
+        "sha256": "0f5a7a531fa7411855f386cfea9e6146adfff25277d29d83bf9e99f82fce0bc3"
+      },
+      "behavior/A0084/GONOGO_shortlog_A0084.txt": {
+        "bytes": 3606,
+        "sha256": "5ed4c01f7abf883f5bb31dd45064286853142844eca01e27aca88cc8aec95d94"
+      },
+      "behavior/A0084/GONOGO_trace_A0084.csv": {
+        "bytes": 1296,
+        "sha256": "795df774170ad44af63ef3f080c295dd2099c877a45eabe1a8cc2a5bf0751b89"
+      },
+      "behavior/A0086/GONOGO_shortlog_A0086.txt": {
+        "bytes": 3576,
+        "sha256": "2495b8c829f68606fed7c7672cd3573e284cc4dca3d71e40bbd2134cda77db8c"
+      },
+      "behavior/A0086/GONOGO_trace_A0086.csv": {
+        "bytes": 1296,
+        "sha256": "93d490014dabba858b3384bb6361b2cd4d7a6fc0d2753234ceece11c48c577b6"
+      },
+      "behavior/A0088/GONOGO_shortlog_A0088.txt": {
+        "bytes": 3668,
+        "sha256": "068d2b2d06dbb5598e2dde978e9418ac62f243b4eed47267e72c9460b6593ced"
+      },
+      "behavior/A0088/GONOGO_trace_A0088.csv": {
+        "bytes": 1296,
+        "sha256": "be470e7d3846fd22c5cb1185a662b35a29f83e57b574c66835c6c11b3c8fb63f"
+      },
+      "behavior/A0090/GONOGO_shortlog_A0090.txt": {
+        "bytes": 3642,
+        "sha256": "a757c6b4b4f234f8022a2c0e0834332f2023e41c13b63b099c1701a07f4a6a9b"
+      },
+      "behavior/A0090/GONOGO_trace_A0090.csv": {
+        "bytes": 1310,
+        "sha256": "0b4f87fd218544e1f7f5dd73658a84f0ca5c39152b316565eb254d371164a605"
+      },
+      "behavior/A0092/GONOGO_shortlog_A0092.txt": {
+        "bytes": 3608,
+        "sha256": "d3d2dc00c783f042c167d88fc6ced1f2aa763831f6d88681f4f9e6287970908d"
+      },
+      "behavior/A0092/GONOGO_trace_A0092.csv": {
+        "bytes": 1296,
+        "sha256": "aa6f293ef58ea7a4425698794a67a9ba3af356a2272ff4fc333a5d1a1dce0e47"
+      },
+      "behavior/A0096/GONOGO_shortlog_A0096.txt": {
+        "bytes": 3678,
+        "sha256": "61cbdad557037644c111157256932960cc2d4755a0df58998674756064ce94ca"
+      },
+      "behavior/A0096/GONOGO_trace_A0096.csv": {
+        "bytes": 1296,
+        "sha256": "b5d1173c0e3fc15787ce04813c1b1fc21682807b39f2f8705af6fab050381915"
+      },
+      "behavior/A0098/GONOGO_shortlog_A0098.txt": {
+        "bytes": 3652,
+        "sha256": "30d241ceebc8514775929b8ad91c04035d10321b4169ee079a13246a1f464a91"
+      },
+      "behavior/A0098/GONOGO_trace_A0098.csv": {
+        "bytes": 1296,
+        "sha256": "f8aa81f1264af1188f928587fb1e636c2f28ff8ec860219a3d12b52ace2be69a"
+      },
+      "behavior/A0099/GONOGO_shortlog_A0099.txt": {
+        "bytes": 3620,
+        "sha256": "069ac2222eeb73dfc847e33a2119b23571ed630cde360f2dd302cc45237a8544"
+      },
+      "behavior/A0099/GONOGO_trace_A0099.csv": {
+        "bytes": 1296,
+        "sha256": "4e346f9e97a6ffe43a724e153c9d51bc84ddf14c4263390653a2a81d136ed12d"
+      }
+    }
+  },
+  "participants": {
+    "A0004": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            5,
+            11,
+            9
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            12,
+            6,
+            8
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            9,
+            8,
+            11
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            7,
+            10,
+            13
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            7,
+            12,
+            7
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            11,
+            9,
+            9
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0005": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            5,
+            10,
+            9
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            10,
+            9,
+            10
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            11,
+            7,
+            9
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            7,
+            13,
+            13
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            9,
+            12,
+            5
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            8,
+            6,
+            12
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0007": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            5,
+            10,
+            9
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            9,
+            8,
+            11
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            9,
+            8,
+            11
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            9,
+            7,
+            5
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            9,
+            7,
+            11
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0008": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            8,
+            10,
+            6
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            12,
+            5,
+            8
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            11,
+            8,
+            9
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            12,
+            13,
+            8
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            7,
+            7,
+            7
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            9,
+            7,
+            11
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0011": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            8,
+            13,
+            6
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            7,
+            9,
+            13
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            11,
+            13,
+            9
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            9,
+            11,
+            11
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            9,
+            8,
+            5
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            7,
+            7,
+            13
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0013": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            6,
+            8,
+            8
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            8,
+            5,
+            12
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            13,
+            11,
+            7
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            12,
+            11,
+            8
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            5,
+            10,
+            9
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            10,
+            8,
+            10
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0014": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            7,
+            7,
+            7
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            11,
+            7,
+            9
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            8,
+            13,
+            12
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            10,
+            7,
+            10
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            6,
+            11,
+            8
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            8,
+            6,
+            12
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0016": {
+      "trace_trials": 216,
+      "shortlog_trials": 120,
+      "shortlog_column_counts": [
+        3,
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": false,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            7,
+            7,
+            7
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            11,
+            9,
+            9
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            8,
+            10,
+            12
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            11,
+            10,
+            9
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            8,
+            11,
+            6
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            10,
+            6,
+            10
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [
+        "trace_shortlog_row_count_mismatch",
+        "shortlog_not_five_columns",
+        "response_rt_domain_invalid_or_short_row"
+      ],
+      "complete_pair_eligible": false
+    },
+    "A0017": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            5,
+            13,
+            9
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            8,
+            8,
+            12
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            12,
+            12,
+            8
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            10,
+            11,
+            10
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            5,
+            7,
+            9
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            10,
+            5,
+            10
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0019": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            8,
+            12,
+            6
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            13,
+            8,
+            7
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            7,
+            10,
+            13
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            8,
+            11,
+            12
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            6,
+            11,
+            8
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            8,
+            5,
+            12
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0021": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            6,
+            8,
+            8
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            9,
+            8,
+            11
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            7,
+            13,
+            13
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            13,
+            10,
+            7
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            7,
+            7,
+            7
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            8,
+            5,
+            12
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0025": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            7,
+            10,
+            7
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            10,
+            5,
+            10
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            7,
+            11,
+            13
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            11,
+            11,
+            9
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            7,
+            12,
+            7
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            10,
+            8,
+            10
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0027": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            8,
+            8,
+            6
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            9,
+            7,
+            11
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            11,
+            11,
+            9
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            7,
+            10,
+            13
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            5,
+            7,
+            9
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            10,
+            5,
+            10
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0028": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            7,
+            11,
+            7
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            13,
+            7,
+            7
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            9,
+            11,
+            11
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            9,
+            11,
+            11
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            7,
+            7,
+            7
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            11,
+            7,
+            9
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0030": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            5,
+            11,
+            9
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            12,
+            8,
+            8
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            8,
+            9,
+            12
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            8,
+            10,
+            12
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            7,
+            10,
+            7
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            9,
+            9,
+            11
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0032": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            9,
+            10,
+            5
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            9,
+            5,
+            11
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            7,
+            7,
+            13
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            7,
+            9,
+            13
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            5,
+            13,
+            9
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            11,
+            5,
+            9
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0034": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            9,
+            12,
+            5
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            12,
+            9,
+            8
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            8,
+            13,
+            12
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            12,
+            8,
+            8
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            9,
+            8,
+            5
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            8,
+            5,
+            12
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0035": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            6,
+            7,
+            8
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            10,
+            6,
+            10
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            13,
+            7,
+            7
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            11,
+            8,
+            9
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            8,
+            13,
+            6
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            12,
+            9,
+            8
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0039": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            6,
+            9,
+            8
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            11,
+            9,
+            9
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            12,
+            8,
+            8
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            13,
+            9,
+            7
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            8,
+            7,
+            6
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            11,
+            5,
+            9
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0042": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            8,
+            13,
+            6
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            7,
+            7,
+            13
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            7,
+            12,
+            13
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            11,
+            9,
+            9
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            5,
+            12,
+            9
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            12,
+            9,
+            8
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0045": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            9,
+            7,
+            5
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            9,
+            7,
+            11
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            7,
+            10,
+            13
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            7,
+            8,
+            13
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            7,
+            10,
+            7
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            10,
+            8,
+            10
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0048": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            5,
+            9,
+            9
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            11,
+            6,
+            9
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            13,
+            13,
+            7
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            7,
+            9,
+            13
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            9,
+            9,
+            5
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            10,
+            7,
+            10
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0049": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            6,
+            13,
+            8
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            13,
+            8,
+            7
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            9,
+            12,
+            11
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            10,
+            8,
+            10
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            6,
+            10,
+            8
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            10,
+            8,
+            10
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0050": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            5,
+            11,
+            9
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            12,
+            8,
+            8
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            8,
+            9,
+            12
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            8,
+            10,
+            12
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            7,
+            10,
+            7
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            9,
+            9,
+            11
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0051": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            6,
+            10,
+            8
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            9,
+            8,
+            11
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            10,
+            11,
+            10
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            7,
+            9,
+            13
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            7,
+            11,
+            7
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            8,
+            9,
+            12
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0052": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            5,
+            13,
+            9
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            13,
+            5,
+            7
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            7,
+            12,
+            13
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            7,
+            8,
+            13
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            9,
+            9,
+            5
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            12,
+            6,
+            8
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0053": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            6,
+            7,
+            8
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            10,
+            7,
+            10
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            8,
+            7,
+            12
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            9,
+            9,
+            11
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            8,
+            13,
+            6
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            12,
+            9,
+            8
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0056": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            7,
+            9,
+            7
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            10,
+            6,
+            10
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            11,
+            12,
+            9
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            8,
+            9,
+            12
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            5,
+            11,
+            9
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            13,
+            9,
+            7
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0057": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            8,
+            8,
+            6
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            9,
+            8,
+            11
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            8,
+            12,
+            12
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            11,
+            9,
+            9
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            6,
+            9,
+            8
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            10,
+            9,
+            10
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0058": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            8,
+            11,
+            6
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            11,
+            6,
+            9
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            12,
+            7,
+            8
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            12,
+            10,
+            8
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            9,
+            9,
+            5
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            11,
+            7,
+            9
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0061": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            8,
+            8,
+            6
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            10,
+            5,
+            10
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            12,
+            7,
+            8
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            8,
+            8,
+            12
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            5,
+            12,
+            9
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            12,
+            9,
+            8
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0062": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            7,
+            10,
+            7
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            10,
+            7,
+            10
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            13,
+            12,
+            7
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            11,
+            12,
+            9
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            9,
+            13,
+            5
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            13,
+            9,
+            7
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0066": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            8,
+            10,
+            6
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            9,
+            7,
+            11
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            8,
+            8,
+            12
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            7,
+            11,
+            7
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            10,
+            6,
+            10
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0071": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            8,
+            13,
+            6
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            7,
+            5,
+            13
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            12,
+            7,
+            8
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            12,
+            10,
+            8
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            6,
+            12,
+            8
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            13,
+            9,
+            7
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0072": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            9,
+            12,
+            5
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            10,
+            7,
+            10
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            8,
+            10,
+            12
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            10,
+            13,
+            10
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            5,
+            8,
+            9
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            12,
+            9,
+            8
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0073": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            5,
+            11,
+            9
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            12,
+            6,
+            8
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            9,
+            8,
+            11
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            7,
+            10,
+            13
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            7,
+            12,
+            7
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            11,
+            9,
+            9
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0075": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            6,
+            12,
+            8
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            11,
+            8,
+            9
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            8,
+            11,
+            12
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            12,
+            12,
+            8
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            9,
+            9,
+            5
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            8,
+            5,
+            12
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0076": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            7,
+            8,
+            7
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            13,
+            8,
+            7
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            11,
+            7,
+            9
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            11,
+            9,
+            9
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            6,
+            13,
+            8
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            10,
+            6,
+            10
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0077": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            9,
+            10,
+            5
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            8,
+            8,
+            12
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            8,
+            10,
+            12
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            11,
+            8,
+            9
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            6,
+            9,
+            8
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            11,
+            8,
+            9
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0078": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            9,
+            10,
+            5
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            8,
+            9,
+            12
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            13,
+            9,
+            7
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            13,
+            13,
+            7
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            9,
+            9,
+            5
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            8,
+            5,
+            12
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0080": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            7,
+            12,
+            7
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            9,
+            5,
+            11
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            11,
+            9,
+            9
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            12,
+            12,
+            8
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            5,
+            10,
+            9
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            8,
+            7,
+            12
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0082": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            6,
+            8,
+            8
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            8,
+            7,
+            12
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            11,
+            10,
+            9
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            7,
+            9,
+            13
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            5,
+            10,
+            9
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            13,
+            6,
+            7
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0084": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            8,
+            10,
+            6
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            10,
+            7,
+            10
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            12,
+            7,
+            8
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            13,
+            13,
+            7
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            9,
+            7,
+            5
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            9,
+            8,
+            11
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0086": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            9,
+            7,
+            5
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            11,
+            7,
+            9
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            13,
+            12,
+            7
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            12,
+            8,
+            8
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            5,
+            13,
+            9
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            7,
+            7,
+            13
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0088": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            7,
+            12,
+            7
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            12,
+            9,
+            8
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            13,
+            9,
+            7
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            9,
+            12,
+            11
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            8,
+            10,
+            6
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            7,
+            7,
+            13
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0090": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            6,
+            10,
+            8
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            9,
+            8,
+            11
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            10,
+            11,
+            10
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            7,
+            9,
+            13
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            7,
+            11,
+            7
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            5,
+            8,
+            9,
+            12
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0092": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            13,
+            7,
+            7,
+            7
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            8,
+            6,
+            12
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            11,
+            9,
+            9
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            13,
+            12,
+            7
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            7,
+            9,
+            7
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            13,
+            5,
+            7
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0096": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            5,
+            12,
+            9
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            9,
+            6,
+            11
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            13,
+            12,
+            7
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            8,
+            9,
+            6
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            9,
+            7,
+            11
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0098": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            8,
+            13,
+            6
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            12,
+            6,
+            8
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            7,
+            10,
+            13,
+            10
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            13,
+            11,
+            7
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            8,
+            9,
+            6
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            8,
+            9,
+            6,
+            11
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    },
+    "A0099": {
+      "trace_trials": 216,
+      "shortlog_trials": 216,
+      "shortlog_column_counts": [
+        5
+      ],
+      "input_output_match_on_available_pairs": true,
+      "original_trial_sequence_contiguous": true,
+      "response_rt_domain_valid": true,
+      "state_content_mapping_valid": true,
+      "shell_input_structure": {
+        "1": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            12,
+            6,
+            8,
+            8
+          ]
+        },
+        "2": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            6,
+            8,
+            8,
+            12
+          ]
+        },
+        "3": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            10,
+            10,
+            10
+          ]
+        },
+        "4": {
+          "input_occurrences": 40,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            10,
+            11,
+            10,
+            9
+          ]
+        },
+        "5": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            11,
+            9,
+            9,
+            5
+          ]
+        },
+        "6": {
+          "input_occurrences": 34,
+          "state_run_sequence": [
+            1,
+            2,
+            1,
+            2
+          ],
+          "phase_lengths": [
+            9,
+            13,
+            5,
+            7
+          ]
+        }
+      },
+      "structural_exclusion_reasons": [],
+      "complete_pair_eligible": true
+    }
+  },
+  "potential_content_is_environment_only": true,
+  "raw_files_modified": false,
+  "raw_files_extracted": false,
+  "behavioral_performance_aggregated": false,
+  "medication_groups_compared": false,
+  "license_conflict_preserved": true
+}

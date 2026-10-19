@@ -1,0 +1,51 @@
+{
+  "study_id": "human_shell_v1",
+  "engineering_scope": "Development and integrity evidence; scientific outcomes not inspected for the RNG repair decision",
+  "development_before_registration": [
+    "Original CSV delimiter parsing initially assumed whitespace-only; actual comma/colon syntax was corrected before source freeze and covered by synthetic parser tests.",
+    "Producer and independent implementation were reconciled on exact condition names, variable 7..13 strict-shell phase lengths, conditional Brier definition, and actual nonzero L2 updates before registration.",
+    "Final unique synthetic test suite: 106 passed; 14 matplotlib/pyparsing deprecation warnings retained in the test receipt."
+  ],
+  "post_registration_design_failure": {
+    "issue": "Unintended equal additive action RNG keys across different participant/seed cells",
+    "record": "results/human_shell_rng_design_issue_v1.json",
+    "v1_preserved": true,
+    "v1_numeric_arithmetic_verification": "passed",
+    "v1_autonomous_bootstrap_inference_design_limited": true,
+    "conditional_prediction_and_calibration_affected": false,
+    "separate_repair": "human_shell_rng_v2; one change, no fitting, no participant/seed-budget/criterion changes"
+  },
+  "test_receipt": "results/human_shell_test_validation.json",
+  "prospective_publication_proof": "results/human_shell_prefreeze_evidence.json",
+  "previous_literal_preservation_audit": {
+    "tag": "phase4-synthesis-v1",
+    "tag_commit": "98e9181e4c95862d6ed274e7bc0efd2e3aff761e",
+    "old_tree_files": 18419,
+    "compared_files": 18416,
+    "compared_literal_bytes": 1768888377,
+    "excluded_files": [
+      {
+        "path": "README.md",
+        "bytes": 42300,
+        "unchanged": true
+      },
+      {
+        "path": "docs/repository-status.json",
+        "bytes": 6832,
+        "unchanged": true
+      },
+      {
+        "path": "docs/research-roadmap.md",
+        "bytes": 22177,
+        "unchanged": true
+      }
+    ],
+    "passed": true,
+    "failures": [],
+    "method": "literal Git blob bytes via cat-file --batch compared with filesystem read_bytes; no Git/filesystem mutations"
+  },
+  "source_commit": "91b5374ae32dcd3acdf25378dfd97a6e39d6cdc3",
+  "registration_publication_commit": "9a6da7a7d93e0f5bb3b7ca466480505ecc7d9a29",
+  "numeric_verification_sha256": "d78566c41e888d67117f2b50f8d71894e21bff295e3b7630b11c459ee0ae00ae",
+  "interpretation": "An arithmetic pass cannot clear an experimental-design error; keep both records."
+}

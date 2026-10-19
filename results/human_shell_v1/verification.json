@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "study_id": "human_shell_v1",
+  "verified_at_utc": "2026-10-19T00:32:48.366438+00:00",
+  "registration_sha256": "677d38ec5960ca2e8ce29aa94aa8340d4c7b74e06fd0a066bc18059b7b2d13dc",
+  "summary_sha256": "9782976dd364cd4f38419e95eb72530bbc59fb7a74b663fe7f693160585da9a4",
+  "source_files": 22,
+  "parent_files": 6,
+  "graph_files": 4,
+  "external_files": 3,
+  "primary_artifacts": 10,
+  "human_people": 49,
+  "human_original_trials": 10584,
+  "calibration_people": 20,
+  "test_people": 29,
+  "structural_exclusions": {
+    "A0016": {
+      "trace_rows": 216,
+      "shortlog_rows": 120,
+      "last_shortlog_columns": 3
+    }
+  },
+  "independent_calibration_trajectories": 1440,
+  "independent_calibration_observations": 311040,
+  "independent_test_trajectories": 3190,
+  "independent_test_observations": 689040,
+  "independent_witness_array_checks": 2960,
+  "verifier_imports_producer": false,
+  "all_frozen_inputs_match": true,
+  "verifier_modifies_original_results": false,
+  "registered_parent_files_match": true,
+  "interpretation": "independent numerical replay of existing recorded traces and measurements"
+}

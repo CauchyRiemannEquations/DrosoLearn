@@ -1,0 +1,25 @@
+{
+  "study_id": "human_shell_v1",
+  "status": "completed",
+  "started_at_utc": "2026-10-19T00:28:53.095752+00:00",
+  "source_git_commit": "91b5374ae32dcd3acdf25378dfd97a6e39d6cdc3",
+  "registration_sha256": "677d38ec5960ca2e8ce29aa94aa8340d4c7b74e06fd0a066bc18059b7b2d13dc",
+  "config_sha256": "d50a0ab6e21ab76abb72f3f7114bac9b7df398d501488f45258be1ab376b491e",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "stage": "completed",
+  "human_model_comparison_tested": true,
+  "shared_neural_mechanism_tested": false,
+  "drug_effect_tested": false,
+  "original_human_people": 49,
+  "original_human_trials": 10584,
+  "calibration_people": 20,
+  "heldout_people": 29,
+  "calibration_conditional_observations": 311040,
+  "test_conditional_predictions": 344520,
+  "autonomous_model_choices": 344520,
+  "interpretation": "Predictive and bounded behavioral comparison of the recorded mixed cohort; seeds are not people or animals",
+  "completed_at_utc": "2026-10-19T00:30:02.274404+00:00"
+}
