@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-10-19T01:18:10.850731+00:00",
+  "published_commit": "2c8df3eae013beb3ff116c485fab0fa6c002d961",
+  "source_commit": "905d62469d3c8db96f271074dfae70df11811248",
+  "registration_sha256": "6c519751a90dbddca97eb350b3bfb7b2431d554cbf9047dedc74b2febdfc2474",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/2c8df3eae013beb3ff116c485fab0fa6c002d961/results/registration_shell_behavior_v1.json",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "notice": "Exploratory source/measurement follow-up frozen before this new registered computation; prior related data inspected"
+}

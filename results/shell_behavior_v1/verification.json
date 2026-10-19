@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "study_id": "shell_behavior_v1",
+  "verified_at_utc": "2026-10-19T01:19:23.025641+00:00",
+  "registration_sha256": "6c519751a90dbddca97eb350b3bfb7b2431d554cbf9047dedc74b2febdfc2474",
+  "summary_sha256": "da34b11c2faa0574fc4b314150b0bb6dd6c8a7a8d822765ebaea6289af2cf08a",
+  "scientific_producer_imported": false,
+  "counts": {
+    "arrays": 13,
+    "measurement_records": 11912,
+    "independently_replayed_synthetic_choices": 200448,
+    "saved_action_streams": 56,
+    "complete_strata_including_empty_cells": 5376,
+    "within_phase_pairs": 311808,
+    "tape_equal_metrics_and_zero_online_updates_checked": true,
+    "new_human_inference": false
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "status": "completed",
+  "scope": "exploratory_saved_trace_description_and_planned_metric_counterexample",
+  "counts": {
+    "human_records_reanalyzed": 29,
+    "old_model_streams": 1595,
+    "old_total_streams": 1624,
+    "old_recorded_trials_reduced": 350784,
+    "next_same_shell_candidates": 341040,
+    "excluded_phase_boundary_pairs": 29232,
+    "eligible_within_phase_pairs": 311808,
+    "new_synthetic_policy_choices": 200448,
+    "scripted_tape_reads": 50112,
+    "new_human_experiments": 0,
+    "new_neural_parameter_updates": 0,
+    "new_value_update_calls": 100224,
+    "nonzero_value_update_steps": 46693
+  },
+  "event_order": [
+    "nogo_hidden",
+    "go_empty",
+    "go_gain",
+    "go_loss"
+  ],
+  "synthetic_policy_results": [
+    {
+      "policy": "uniform",
+      "metric_means": {
+        "acquisition_gain": -0.010775862068965514,
+        "reversal_early": 0.5021551724137931,
+        "reversal_recovery": -0.013888888888888885
+      },
+      "online_value_update_calls": 0
+    },
+    {
+      "policy": "persistence",
+      "metric_means": {
+        "acquisition_gain": -0.025143678160919565,
+        "reversal_early": 0.5035919540229883,
+        "reversal_recovery": 0.007183908045977006
+      },
+      "online_value_update_calls": 0
+    },
+    {
+      "policy": "q",
+      "metric_means": {
+        "acquisition_gain": 0.18606321839080453,
+        "reversal_early": 0.3488984674329496,
+        "reversal_recovery": 0.23108237547892715
+      },
+      "online_value_update_calls": 50112
+    }
+  ],
+  "saved_transition_summary": {
+    "stream_order": [
+      "human",
+      "fixed",
+      "plastic",
+      "rewired_fixed",
+      "rewired_plastic",
+      "ann_fixed",
+      "ann_plastic",
+      "linear",
+      "q",
+      "uniform",
+      "bias",
+      "persistence"
+    ],
+    "per_stream_eligible_pairs": [
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568,
+      5568
+    ],
+    "conditional_rates_are_descriptive_not_causal_reward_effects": true,
+    "missing_denominators_are_null": true
+  },
+  "metric_identification": {
+    "planned_counterexample_verified": true,
+    "three_summaries_uniquely_identify_reward_learning": false,
+    "scripted_policy_online_updates": 0,
+    "scripted_policy_uses_precomputed_action_tape": true,
+    "scripted_policy_is_eligible_fair_learning_control": false,
+    "notice": "Exact equality was planned by construction; it limits mechanism identification and is not a new human learning effect."
+  },
+  "reward_intervention": {
+    "q_vs_fixed_tape_disagreeing_choices": 18201,
+    "evaluated_choices": 50112,
+    "disagreement_fraction": 0.36320641762452105,
+    "fixed_tape_choice_change": 0,
+    "notice": "Reward signs reversed in a synthetic intervention; original human rewards and original comparison are unchanged."
+  },
+  "original_similarity_verdict_changed": false,
+  "new_human_similarity_confirmation": false,
+  "shared_neural_mechanism_claim": false,
+  "education_effect_claim": false,
+  "notice": "Known old outcomes informed this separate exploratory plan. Do not interpret pooled transitions, shared schedules, computational seeds or tape copies as independent people."
+}

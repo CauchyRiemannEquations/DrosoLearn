@@ -1,0 +1,34 @@
+{
+  "study_id": "shell_behavior_v1",
+  "status": "completed",
+  "stage": "completed",
+  "started_at_utc": "2026-10-19T01:18:20.069294+00:00",
+  "source_git_commit": "905d62469d3c8db96f271074dfae70df11811248",
+  "registration_sha256": "6c519751a90dbddca97eb350b3bfb7b2431d554cbf9047dedc74b2febdfc2474",
+  "config_sha256": "9bb25f1deda1bc455349ba03857460d2b5395dd4cc19f51ed64774ec466d1e16",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "new_human_experiment": false,
+  "shared_neural_mechanism_tested": false,
+  "education_effect_tested": false,
+  "counts": {
+    "human_records_reanalyzed": 29,
+    "old_model_streams": 1595,
+    "old_total_streams": 1624,
+    "old_recorded_trials_reduced": 350784,
+    "next_same_shell_candidates": 341040,
+    "excluded_phase_boundary_pairs": 29232,
+    "eligible_within_phase_pairs": 311808,
+    "new_synthetic_policy_choices": 200448,
+    "scripted_tape_reads": 50112,
+    "new_human_experiments": 0,
+    "new_neural_parameter_updates": 0,
+    "new_value_update_calls": 100224,
+    "nonzero_value_update_steps": 46693
+  },
+  "measurement_records": 11912,
+  "numeric_arrays": 13,
+  "completed_at_utc": "2026-10-19T01:18:25.360087+00:00"
+}
