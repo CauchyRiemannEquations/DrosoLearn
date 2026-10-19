@@ -1,0 +1,538 @@
+{
+  "learning": [
+    {
+      "topology": "real",
+      "representation": "raw",
+      "method": "shared",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5002801027786887,
+        0.5006480837026936,
+        0.5014355426615451,
+        0.5022981196519695
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "method": "isolated",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5086295434932484,
+        0.5172048468335025,
+        0.5334938981058455,
+        0.5645560496356596
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "method": "oracle_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5091732659898346,
+        0.5183418068347826,
+        0.5355272658167567,
+        0.5683882862658587
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "method": "feedback_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5085863361232443,
+        0.5175209118916139,
+        0.5349739887238367,
+        0.5677692589235284
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "method": "shared",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5054112116215449,
+        0.5110923506076365,
+        0.5212321286308729,
+        0.5392530338585118
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "method": "isolated",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5226744806800514,
+        0.5447625343295027,
+        0.5855231448343868,
+        0.6575599194052918
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "method": "oracle_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5351118723067424,
+        0.5692484755265459,
+        0.6293749642059485,
+        0.7242811900887303
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "method": "feedback_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5310481241162204,
+        0.5656155333833679,
+        0.6254155328955975,
+        0.7221079022729747
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "method": "shared",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5004248487551626,
+        0.5008786137869375,
+        0.5017924097414,
+        0.5038640063935544
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "method": "isolated",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5103914821826192,
+        0.5208287535582639,
+        0.5400508087195646,
+        0.5776529071799189
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "method": "oracle_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5110356085445841,
+        0.5221048647395301,
+        0.5424378781685883,
+        0.581997496496
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "method": "feedback_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5100915619525017,
+        0.5207868687292009,
+        0.5413238361238365,
+        0.5808041148960562
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "method": "shared",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5071084222583389,
+        0.5151744824849347,
+        0.5284400817325408,
+        0.5536065723594767
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "method": "isolated",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5236895237839254,
+        0.5467670828121437,
+        0.5898690072828758,
+        0.6656283832964591
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "method": "oracle_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5422607354910632,
+        0.5833523509744919,
+        0.6518087763350348,
+        0.7510290089042579
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "method": "feedback_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5370060979162357,
+        0.5782864700441079,
+        0.6471261950550773,
+        0.7472931025480151
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "method": "shared",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5004429146950745,
+        0.5007974802759132,
+        0.5012876700559199,
+        0.5023864498901758
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "method": "isolated",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5088857543075378,
+        0.5174476536823409,
+        0.5341487254251136,
+        0.5656382602850821
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "method": "oracle_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5093555545035509,
+        0.5183831447420013,
+        0.5358053266808016,
+        0.5690510677024309
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "method": "feedback_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5086963395308389,
+        0.5174577176868664,
+        0.5351172287146276,
+        0.5683284853183347
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "method": "shared",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5062941625599986,
+        0.5128910687196585,
+        0.525058253072698,
+        0.546338685687038
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "method": "isolated",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5233099973323149,
+        0.5466710510583663,
+        0.5901599912985189,
+        0.6645659954198633
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "method": "oracle_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.539369468140987,
+        0.5791471343563058,
+        0.6454689963877374,
+        0.7468737067607676
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "method": "feedback_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_expected_accuracy": [
+        0.5,
+        0.5344277473699778,
+        0.5744255834108185,
+        0.6412734209649524,
+        0.7430980419718626
+      ]
+    }
+  ],
+  "primary_memory": [
+    {
+      "method": "shared",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_observed_signs": [
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "mean_final_head_accuracy": 0.5022981196519695,
+      "mean_final_static_lookup_accuracy": 1.0
+    },
+    {
+      "method": "isolated",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_observed_signs": [
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "mean_final_head_accuracy": 0.5645560496356596,
+      "mean_final_static_lookup_accuracy": 1.0
+    },
+    {
+      "method": "oracle_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_observed_signs": [
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "mean_final_head_accuracy": 0.5683882862658587,
+      "mean_final_static_lookup_accuracy": 1.0
+    },
+    {
+      "method": "feedback_selective",
+      "checkpoints": [
+        0,
+        50,
+        100,
+        200,
+        400
+      ],
+      "mean_observed_signs": [
+        0.0,
+        4.0,
+        4.0,
+        4.0,
+        4.0
+      ],
+      "mean_final_head_accuracy": 0.5677692589235284,
+      "mean_final_static_lookup_accuracy": 1.0
+    }
+  ]
+}

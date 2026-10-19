@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-10-19T06:48:54.658708+00:00",
+  "source_git_commit": "7f1f67aa1d2355cd00851cf1f9d7196198cf0c9a",
+  "renderer": "drosolearn.selective_spillover.render",
+  "renderer_source_sha256": "043b05f220316251132d5e1a8378cf0a2a41815d70671a57eef2f1b74b59442a",
+  "arrays_sha256": "cd243384a7b913200cc607137a7e3797df886b69d3f6bbc956f93956c96c27ae",
+  "summary_sha256": "814a9d0be4a4146068b567c912b74021cc3bec8a4d43c45f7e28c27a6f7bc2f1",
+  "verification_sha256": "c6bb6891513ac16890571d44f07b08dd02fd929e00c8db7c2233f60131a943de",
+  "figure_sha256": {
+    "learning-curves.png": "dd8f8c21506f0bd157b86167892eb3bcaf831c1ec6fbbba6073703891f533309",
+    "memory-and-output.png": "356b4f844baf7f988b95a8db87edf7979364099516dc7727a1f90f121a2e25f2"
+  },
+  "numeric_endpoint_memory_and_lookup_summary_agreement_atol": 1e-12,
+  "independent_verification_precedes_plotting": true
+}

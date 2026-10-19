@@ -1,0 +1,11 @@
+{
+  "study_id": "selective_spillover_v1",
+  "registration_sha256": "22f2ca0ddc9cdb883be1963d4ae88624c6a9adeb4ba76246b7146a457a706553",
+  "source_commit": "7f1f67aa1d2355cd00851cf1f9d7196198cf0c9a",
+  "published_commit": "ae22169faa375e222906dd66cf3a61afd6047af5",
+  "checked_at_utc": "2026-10-19T06:46:38.840085+00:00",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/ae22169faa375e222906dd66cf3a61afd6047af5/results/registration_selective_spillover_v1.json",
+  "method": "Authenticated GitHub contents API literal decoded registration bytes and private main ref verified before new scientific geometry or behavior; no secret logged"
+}

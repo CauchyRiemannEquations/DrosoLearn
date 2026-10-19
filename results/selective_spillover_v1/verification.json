@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "study_id": "selective_spillover_v1",
+  "verified_at_utc": "2026-10-19T06:48:20.852951+00:00",
+  "registration_sha256": "22f2ca0ddc9cdb883be1963d4ae88624c6a9adeb4ba76246b7146a457a706553",
+  "summary_sha256": "814a9d0be4a4146068b567c912b74021cc3bec8a4d43c45f7e28c27a6f7bc2f1",
+  "scientific_producer_imported": false,
+  "counts": {
+    "arrays": 175,
+    "independently_replayed_training_actions": 96000,
+    "model_seeds": 10,
+    "conditions": 24,
+    "checkpoint_static_probes": 4800,
+    "head_update_calls": 96000,
+    "internal_update_calls": 0,
+    "value_update_calls": 0,
+    "all_checkpoints_and_trial_head_states_replayed": true,
+    "fixed_internal_weights_encoder_and_probe_activity_checked": true,
+    "all_81_label_free_sign_states_preflight_before_behavioral_rng_checked": true,
+    "feedback_memory_from_obtained_Go_only_checked": true,
+    "NoGo_hidden_target_and_current_feedback_order_checked": true,
+    "oracle_prior_information_separate_from_observed_memory_checked": true,
+    "all_dynamic_directions_masks_targets_and_numeric_residuals_checked": true,
+    "all_actual_step_path_energy_and_endpoint_norms_checked": true,
+    "lookup_reference_is_static_and_not_an_autonomous_agent_checked": true,
+    "primary_feedback_compared_against_both_controls_checked": true,
+    "acquisition_and_selective_advantage_gates_separate_checked": true,
+    "actual_autonomous_costs_equalized": false,
+    "extra_solver_and_information_processing_cost_equalized": false,
+    "no_generalization_or_human_mechanism_claim": true,
+    "frozen_input_catalog_sha256": "ee72b0b3180379731930de478318a019da1834824c0be18aacd91fcfce2b1a32"
+  }
+}

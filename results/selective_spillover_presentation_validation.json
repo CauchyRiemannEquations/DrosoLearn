@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-19T06:55:52.323111+00:00",
+  "source_git_commit": "7f1f67aa1d2355cd00851cf1f9d7196198cf0c9a",
+  "summary_sha256": "814a9d0be4a4146068b567c912b74021cc3bec8a4d43c45f7e28c27a6f7bc2f1",
+  "verification_sha256": "c6bb6891513ac16890571d44f07b08dd02fd929e00c8db7c2233f60131a943de",
+  "document_sha256": {
+    "docs/selective-spillover-findings.md": "38451576f536fd6a0c9dded9f08a70f44a7d278c82f650a2b34274436fe6f440",
+    "docs/selective-spillover-reproduction.md": "2d7cf29183e98e1f66ae7421266ef9eed51450f5e184b2b4d31a6ef76243796f"
+  },
+  "local_document_links_checked": 8,
+  "all24_rounded_condition_cells_and_acquisition_counts_match_summary": true,
+  "primary_four_means_paths_and_two_paired_effects_match": true,
+  "primary_discovery_range_and_mean_and_all240_static_lookup_match": true,
+  "all24_plot_endpoints_and_four_memory_lookup_references_match_atol": 1e-12,
+  "figures": {
+    "learning-curves.png": {
+      "sha256": "dd8f8c21506f0bd157b86167892eb3bcaf831c1ec6fbbba6073703891f533309",
+      "width": 2250,
+      "height": 1200,
+      "visually_inspected": true,
+      "title_legend_axes_and_reference_distinction_readable": true
+    },
+    "memory-and-output.png": {
+      "sha256": "356b4f844baf7f988b95a8db87edf7979364099516dc7727a1f90f121a2e25f2",
+      "width": 1800,
+      "height": 720,
+      "visually_inspected": true,
+      "title_legend_axes_and_reference_distinction_readable": true
+    }
+  },
+  "additional_file_sha256": {
+    "src/drosolearn/selective_spillover.py": "043b05f220316251132d5e1a8378cf0a2a41815d70671a57eef2f1b74b59442a"
+  },
+  "visual_inspection_method": "Both final PNGs inspected through local image tool; legends, axes, reference bars and captions checked.",
+  "scope_checks": {
+    "two_preregistered_hypotheses_unsupported_separately": true,
+    "oracle_cannot_replace_primary": true,
+    "only_obtained_Go_feedback_updates_observed_record": true,
+    "NoGo_unknown_sign_not_revealed": true,
+    "observed_record_additional_state_separate_from_head_and_fixed_internal_synapses": true,
+    "observed_oracle_record_separate_from_privileged_labels": true,
+    "static_lookup_not_autonomous_policy_or_acquisition_replacement": true,
+    "raw_helpful_targets_preserved_but_normalized_magnitudes_not_preserved": true,
+    "common_L2_ceiling_not_equal_actual_total_or_processing_resources": true,
+    "old_and_new_seed_cohorts_not_conflated": true,
+    "250_new_plus82_old_unique_tests_not_repeated_JUnit_count": true,
+    "new175_arrays_and96000_feedback_rows_independently_replayed": true,
+    "closed_generalization_interference_human_biological_gates_preserved": true,
+    "normalization_decomposition_only_unexecuted_next_candidate": true,
+    "automatic_continuation_remains_paused": true
+  }
+}

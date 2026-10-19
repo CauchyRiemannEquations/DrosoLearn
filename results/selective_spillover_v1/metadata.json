@@ -1,0 +1,40 @@
+{
+  "study_id": "selective_spillover_v1",
+  "status": "completed",
+  "stage": "completed",
+  "started_at_utc": "2026-10-19T06:46:42.016751+00:00",
+  "source_git_commit": "7f1f67aa1d2355cd00851cf1f9d7196198cf0c9a",
+  "registration_sha256": "22f2ca0ddc9cdb883be1963d4ae88624c6a9adeb4ba76246b7146a457a706553",
+  "config_sha256": "41977a48b63cde4e96f207636f6071455fb90ff0053750a48881b973d70b7b46",
+  "publication_proof": "results/selective_spillover_publication_proof.json",
+  "publication_proof_sha256": "bc81b52b0ad49a28d73977a0318d9f51449f4726c7b0f6fc34034e9593dedb8f",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "new_human_experiment": false,
+  "shared_neural_mechanism_tested": false,
+  "education_effect_tested": false,
+  "counts": {
+    "training_feedback_trials": 96000,
+    "static_probe_cases": 4800,
+    "model_initializations": 240,
+    "fixed_feature_constructions": 60,
+    "model_seeds": 10,
+    "head_update_calls": 96000,
+    "head_nonzero_steps": 47260,
+    "internal_update_calls": 0,
+    "value_update_calls": 0,
+    "internal_nonzero_steps": 0,
+    "value_nonzero_steps": 0,
+    "auxiliary_memory_observation_calls": 47260,
+    "auxiliary_memory_discoveries": 960,
+    "preflight_direction_evaluations": 19440,
+    "runtime_selective_direction_evaluations": 48000,
+    "lookup_static_cases": 4800,
+    "lookup_autonomous_training_trials": 0
+  },
+  "measurement_records": 96000,
+  "numeric_arrays": 175,
+  "completed_at_utc": "2026-10-19T06:47:06.925208+00:00"
+}
