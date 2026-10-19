@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "study_id": "representation_update_v1",
+  "verified_at_utc": "2026-10-19T04:23:40.669955+00:00",
+  "registration_sha256": "22fcec19d636cfde84e2ccde56d599226b269e8ae485d3b20ef12dae74aabb3a",
+  "summary_sha256": "c7dbeaa3e1ec358babfa0e3e8bcce90e463da839c585960c2f72aad979301208",
+  "scientific_producer_imported": false,
+  "counts": {
+    "arrays": 559,
+    "independently_replayed_training_actions": 48000,
+    "model_seeds": 10,
+    "conditions": 12,
+    "checkpoint_static_probes": 2400,
+    "head_update_calls": 48000,
+    "internal_update_calls": 0,
+    "value_update_calls": 0,
+    "all_checkpoints_and_trial_head_states_replayed": true,
+    "fixed_internal_weights_encoder_and_probe_activity_checked": true,
+    "full_static_geometry_and_15_margin_candidates_checked": true,
+    "raw_input_integer_certificate_independently_checked": true,
+    "same_input_L2_norm_and_label_free_lexicographic_ID_checked": true,
+    "retained_subspace_and_own_step_numeric_qualification_checked": true,
+    "head_L2_budget_not_equalized": true,
+    "no_hidden_nogo_outcome_updates": true,
+    "no_generalization_or_human_mechanism_claim": true,
+    "frozen_input_catalog_sha256": "ee72b0b3180379731930de478318a019da1834824c0be18aacd91fcfce2b1a32"
+  }
+}

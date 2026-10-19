@@ -1,0 +1,11 @@
+{
+  "study_id": "representation_update_v1",
+  "registration_sha256": "22fcec19d636cfde84e2ccde56d599226b269e8ae485d3b20ef12dae74aabb3a",
+  "source_commit": "6f112178879425f8c91c30daee261e81198e1c73",
+  "published_commit": "21c7e366d4efcb75fbd432c9a50bbe39f3f978b4",
+  "checked_at_utc": "2026-10-19T04:23:11.757510+00:00",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/21c7e366d4efcb75fbd432c9a50bbe39f3f978b4/results/registration_representation_update_v1.json",
+  "method": "Authenticated GitHub contents API literal base64-decoded registration bytes and main ref; no secret logged"
+}

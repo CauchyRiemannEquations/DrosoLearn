@@ -1,0 +1,34 @@
+{
+  "study_id": "representation_update_v1",
+  "status": "completed",
+  "stage": "completed",
+  "started_at_utc": "2026-10-19T04:23:12.780427+00:00",
+  "source_git_commit": "6f112178879425f8c91c30daee261e81198e1c73",
+  "registration_sha256": "22fcec19d636cfde84e2ccde56d599226b269e8ae485d3b20ef12dae74aabb3a",
+  "config_sha256": "4cd21bf8d8f6f318ee4c40bab7a3835dd7a8e1332521d00a7ca32034fff24637",
+  "publication_proof": "results/representation_update_publication_proof.json",
+  "publication_proof_sha256": "5c8950d9623089cc124b930e16820696d8e7d8d7891ed59c7fb663c79eca9832",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "new_human_experiment": false,
+  "shared_neural_mechanism_tested": false,
+  "education_effect_tested": false,
+  "counts": {
+    "training_feedback_trials": 48000,
+    "static_probe_cases": 2400,
+    "model_initializations": 120,
+    "model_seeds": 10,
+    "fixed_feature_constructions": 60,
+    "head_update_calls": 48000,
+    "internal_update_calls": 0,
+    "value_update_calls": 0,
+    "head_nonzero_steps": 23425,
+    "internal_nonzero_steps": 0,
+    "value_nonzero_steps": 0
+  },
+  "measurement_records": 48000,
+  "numeric_arrays": 559,
+  "completed_at_utc": "2026-10-19T04:23:18.572119+00:00"
+}

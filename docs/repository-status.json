@@ -11,7 +11,7 @@
   "spacing_diagnostic_source_commit": "d4cbe9542c8ec5846b4a877ee36deb47e456ea20",
   "linearity_diagnostic_source_commit": "30323325bc2dc2b8825be7be5cadee153dce8add",
   "reward_linear_diagnostic_source_commit": "cc836c61055ca32a5205f8685a5a4171c43b77e7",
-  "current_diagnostic_source_commit": "9de6508c1f53762d03ae5840beed0a7eded8e470",
+  "current_diagnostic_source_commit": "6f112178879425f8c91c30daee261e81198e1c73",
   "study_tags": {
     "smoke_v1": "v0.1.0-smoke",
     "reversal_v1": "study-reversal-v1",
@@ -41,9 +41,10 @@
     "shell_behavior_v1": "shell-behavior-v1",
     "pattern_rule_v1": "pattern-rule-v1",
     "interference_order_v1": "interference-order-v1",
-    "phase5_synthesis_v1": "phase5-synthesis-v1"
+    "phase5_synthesis_v1": "phase5-synthesis-v1",
+    "representation_update_v1": "representation-update-v1"
   },
-  "current_diagnostic": "time_mixture_v1",
+  "current_diagnostic": "representation_update_v1",
   "bandit_reversal_diagnostic_source_commit": "fceca94dc6e8137085112ad3a5b75a3cf3894e50",
   "current_data_readiness_audit": "human_task_structure_v1",
   "human_trial_data_audit_source_commit": "c8b0e0b97133d105d07c28aca116974100ddf6d3",
@@ -82,12 +83,13 @@
     "meaningful_changes_only": true,
     "status": "PAUSED",
     "user_requested_stop": false,
-    "verified_at_utc": "2026-10-18T22:56:55.248470+00:00",
+    "verified_at_utc": "2026-10-19T04:27:02.730890+00:00",
     "single_task_resumed_by_user": true,
     "automatic_continuation_enabled": false,
     "continuous_through_phase4_requested_by_user": true,
-    "pause_reason": "User-authorized four ordered local studies and first bounded Phase5 synthesis completed; automatic continuation was not reactivated",
-    "single_task_completed_at_utc": "2026-10-19T01:55:28.630668+00:00"
+    "pause_reason": "User-authorized single representation/update diagnostic completed; no new automatic continuation requested",
+    "single_task_completed_at_utc": "2026-10-19T04:23:18.572119+00:00",
+    "single_task_completed": true
   },
   "learning_ablation_source_commit": "ddae9da05f9e7debbc406433912a62eab55aa423",
   "learning_ablation_H_I": true,
@@ -95,15 +97,15 @@
   "learning_ablation_actual_choice_feedback_trials": 80000,
   "learning_ablation_head_update_calls": 48000,
   "learning_ablation_internal_update_calls": 36000,
-  "current_findings_document": "docs/phase5-final-report.md",
+  "current_findings_document": "docs/representation-update-findings.md",
   "learning_ablation_documentation_correction": "results/learning_ablation_documentation_correction_v1.json",
   "state_decomposition_source_commit": "afdfe3dcb3e6fd18a659cc7e5ca13b8926d759f3",
   "state_decomposition_cases": 204800,
   "state_decomposition_crossed_policy_values": 819200,
   "state_decomposition_additional_learning_updates": 0,
-  "continuation_scope": "four_ordered_followups_and_bounded_phase5_completed",
+  "continuation_scope": "single_representation_update_followup_completed_after_bounded_phase5",
   "conditional_transition_source_commit": "ed9aa5fbf1128c2b8d502650e26cb6a78aac9589",
-  "current_phase": "phase5_bounded_synthesis_completed",
+  "current_phase": "post_phase5_representation_update_completed",
   "conditional_transition_streams": 265,
   "conditional_transition_trials": 217000,
   "conditional_transition_candidate_pairs": 216735,
@@ -124,11 +126,12 @@
   "time_mixture_complete_possible_paths": 524288,
   "new_phase4_unique_passed_tests": 255,
   "next_research_prerequisites": [
-    "A new separately registered representation/update experiment must establish individual and joint acquisition before interference or rule generalization claims",
+    "Pattern acquisition is now established only for the new fixed-feature projected computational control; a separately registered L2/own-score budget comparison is the next candidate. Generalization and contextual individual/joint qualification remain separate gates.",
     "Keep current pattern and contextual qualification failures, original human negative comparison and RNG design history unchanged; no seed replacement or budget extension under these registrations",
     "Visual numerosity needs controlled images and validated LC11/input pathways; actual DAN/physiological response and independent connectome replication remain unimplemented",
     "Any later human comparison needs task/pretraining/reward/observation-unit correspondence and genuinely independent public evaluation; old Markovic historical-version/semantic gates remain closed",
-    "No positive Level4 or Level5, new human experimentation, high-school education effect or full exhaustion of all Phase2/3 work is claimed"
+    "No positive Level4 or Level5, new human experimentation, high-school education effect or full exhaustion of all Phase2/3 work is claimed",
+    "Projected updates used extra fixed direction coefficients, solver computation and larger head L2 steps; same-own-score and same-L2 budgets generally cannot both be matched, so distinguish them prospectively."
   ],
   "level4_similarity_supported": false,
   "current_human_comparison": "human_shell_rng_v2",
@@ -184,6 +187,23 @@
     "shell_behavior_v1": "905d62469d3c8db96f271074dfae70df11811248",
     "pattern_rule_v1": "6763bbd337ebb5593324616a72a41650e2286017",
     "interference_order_v1": "49680d9dcf8606695d0b4f333659dfee06d062e5",
-    "phase5_synthesis_v1": "b8a1e5d54c5941aa5c6d22c698bdd88c9c1674c2"
-  }
+    "phase5_synthesis_v1": "b8a1e5d54c5941aa5c6d22c698bdd88c9c1674c2",
+    "representation_update_v1": "6f112178879425f8c91c30daee261e81198e1c73"
+  },
+  "representation_update_completed": true,
+  "representation_update_source_commit": "6f112178879425f8c91c30daee261e81198e1c73",
+  "representation_update_H_update": true,
+  "representation_update_H_representation": false,
+  "representation_update_training_feedback_trials": 48000,
+  "representation_update_static_probe_cases": 2400,
+  "representation_update_raw_shared_mean": 0.5028849410756661,
+  "representation_update_raw_projected_mean": 0.8653534908377847,
+  "representation_update_identity_shared_mean": 0.5430108809046732,
+  "representation_update_raw_projected_acquisition_pass_seeds": 10,
+  "representation_update_new_unique_passed_tests": 162,
+  "representation_update_related_regression_passed_tests": 103,
+  "representation_update_generalization_tested": false,
+  "representation_update_findings": "docs/representation-update-findings.md",
+  "representation_update_reproduction": "docs/representation-update-reproduction.md",
+  "representation_update_completed_at_utc": "2026-10-19T04:23:18.572119+00:00"
 }

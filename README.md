@@ -1,5 +1,7 @@
 # DrosoLearn
 
+2026-10-19 새 후속 완료: **입력 표현·출력 갱신 원인 분리 실험을 실행·독립 검산했다.** 원 입력에서 갱신 번짐을 억제하자 정답 선택 기대 확률이 **50.29→86.54%**, 습득 **0/10→10/10**이었다. 이름표만 바꾼 조건은 **54.30%·0/10**으로 사전 기준 미달이다. 추가 계산과 더 큰 출력 가중치 이동을 썼으며, 네 연습문제의 출력 학습 결과다. 일반화·인간 유사성·생물학 기작을 새로 입증하지 않았다. [쉬운 결과](docs/representation-update-findings.md), [실행 전 계획](docs/representation-update-protocol.md), [재현 안내](docs/representation-update-reproduction.md)를 제공한다. 기존 Phase 5와 실패 기록은 보존하며 자동 이어가기는 PAUSED다.
+
 2026-10-19 최신 상태: **승인한 추가 연구 네 개와 Phase 5의 첫 종합을 실행·독립 검산했다.** [쉬운 최종 보고서](docs/phase5-final-report.md), [28개 연구·25개 주장·60개 근거](docs/phase5-evidence-appendix.md), [재현 안내](docs/phase5-reproduction.md)를 제공한다. 갱신 분리 효과는 지지됐고, 패턴 습득은 미달, 새 간섭·순서는 주 모델 자격 미충족으로 판정 보류다. 기존 인간 유사성 미지지를 보존했다. 최종 검사 643개가 통과했으며 자동 이어가기는 PAUSED다. 전체 Phase 2·3의 추가 가능한 연구는 남아 있다. 아래 과거 미검정·중지 설명은 당시의 기록이다.
 
 **Exploring the Foundations of Mathematical Learning Through a Drosophila Connectome**

@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-19T04:27:02.757296+00:00",
+  "summary_sha256": "c7dbeaa3e1ec358babfa0e3e8bcce90e463da839c585960c2f72aad979301208",
+  "verification_sha256": "1ad889c423df61e02d719edc7763ba01f05336f4170d9c523b26a82ee7d1e5a1",
+  "images": [
+    {
+      "path": "results/representation_update_figures_v1/learning-curves.png",
+      "size": [
+        2080,
+        640
+      ],
+      "sha256": "fe5c7abab085a53db66b0cd82a86c7efbc16d40862a27f6fac8dfa7062372e79",
+      "visually_inspected_in_conversation": true,
+      "labels_titles_legend_and_annotations_readable": true
+    },
+    {
+      "path": "results/representation_update_figures_v1/update-spillover.png",
+      "size": [
+        1280,
+        1120
+      ],
+      "sha256": "7b1facfda17eacdcbcd10448dc0d4f513f944096a28ea567289209ec93c75e2d",
+      "visually_inspected_in_conversation": true,
+      "labels_titles_legend_and_annotations_readable": true
+    }
+  ],
+  "new_document_local_links_checked": 6,
+  "projected_learning_curves_overlap_by_construction_disclosed": true,
+  "rounded_negative_zero_heatmap_disclosed": true,
+  "expected_choice_probability_distinguished_from_sampled_accuracy": true,
+  "extra_solver_and_head_L2_costs_disclosed": true,
+  "old_phase5_report_edited": false,
+  "new_docs_sha256": {
+    "docs/representation-update-findings.md": "532f2e5864be25d5e5de3e7f9b5c4fa92aef174db6ea243be7dcf6584a5106ce",
+    "docs/representation-update-reproduction.md": "a95a03df64d581b29f562822ca2a03f2b2f9c6acfa444d94da5c85918bd7da5e",
+    "docs/representation-update-protocol.md": "7da3dbe42bc7f8beb9d4775edad7e3ac71e878ac9ec83bdda93a3610b2abd735"
+  }
+}
