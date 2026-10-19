@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-19T05:25:21.056653+00:00",
+  "source_git_commit": "38a53fbd5096e277548e310d980fbc476ad5a383",
+  "summary_sha256": "7de0bf4d5f8e70d1a630c7bd4382674f30b3db3d0860cb9fa45c10efd290e5f8",
+  "verification_sha256": "eb98bfe274ba2b77c451f9f8c341b361517fd3b6145bec480943bf3e81a734a2",
+  "document_sha256": {
+    "docs/spillover-tradeoff-findings.md": "efd266843819d0c791187724da184761afb035a9936600da50a6a756ac456e2c",
+    "docs/spillover-tradeoff-reproduction.md": "2a2050b15696a6416335d1e7484315800064712d142a6b6c349f9b38bcbf005b"
+  },
+  "local_document_links_checked": 8,
+  "all_30_rounded_condition_means_match_summary": true,
+  "primary_five_rounded_actual_path_costs_match_summary": true,
+  "figures": {
+    "performance-by-alpha.png": {
+      "sha256": "a9670f71a23200023a5823f3601382649ed4571c659c893a5e378ee32669ec0e",
+      "width": 2080,
+      "height": 640,
+      "visually_inspected": true,
+      "axes_legend_titles_readable": true
+    },
+    "static-tradeoff.png": {
+      "sha256": "492b7cfa1e2570ea94c33edeaca1a12ae6e0eb3d318974803167df889c8ce65e",
+      "width": 1760,
+      "height": 640,
+      "visually_inspected": true,
+      "axes_legend_titles_readable": true
+    }
+  },
+  "visual_inspection_method": "Both final PNGs inspected through local image tool before final document receipt",
+  "caption_and_scope_checks": {
+    "error_bars_are_seed_SD_not_CI_or_animals": true,
+    "alpha_is_direction_mixture_not_fraction_of_spillover_removed": true,
+    "static_score_influence_not_probability_or_learning_curve": true,
+    "unit_step_ceilings_not_equal_realized_cumulative_cost": true,
+    "960_direction_coefficients_not_total_storage": true,
+    "mean_monotonicity_not_every_seed_or_global_optimum": true,
+    "both_unsupported_hypotheses_and_all_conditions_reported": true,
+    "old_and_current_cohort_endpoint_values_not_conflated": true,
+    "internal_output_and_activity_changes_distinguished": true,
+    "generalization_human_and_biological_gates_preserved": true,
+    "next_read_only_analysis_is_unexecuted_candidate": true
+  },
+  "final_read_only_document_audits": {
+    "independent_verifier": "No numerical, provenance or scope errors found; no new scientific actions",
+    "design_review": "Clarified that signed cross-input influence can help or harm either target grouping; no scientific artifact changed"
+  }
+}

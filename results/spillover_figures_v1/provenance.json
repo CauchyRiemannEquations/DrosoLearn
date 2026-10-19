@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-10-19T05:18:35.974017+00:00",
+  "source_git_commit": "38a53fbd5096e277548e310d980fbc476ad5a383",
+  "renderer": "drosolearn.spillover_tradeoff.render",
+  "renderer_source_sha256": "e159a9f8a7459aa85a0bd32c80e7bf2d43c985dc7fba40e2d55a9db493f890d0",
+  "arrays_sha256": "e7a93a8fd5d416510940ad37a1056155a162e0cd1c2c8f6dccd8081d7d684412",
+  "summary_sha256": "7de0bf4d5f8e70d1a630c7bd4382674f30b3db3d0860cb9fa45c10efd290e5f8",
+  "verification_sha256": "eb98bfe274ba2b77c451f9f8c341b361517fd3b6145bec480943bf3e81a734a2",
+  "plotted_values_sha256": "68a8babcf43ec7f7d15851bd79d09945dfe45735dbc9d1a8e45c5c7076ec777c",
+  "figure_sha256": {
+    "performance-by-alpha.png": "a9670f71a23200023a5823f3601382649ed4571c659c893a5e378ee32669ec0e",
+    "static-tradeoff.png": "492b7cfa1e2570ea94c33edeaca1a12ae6e0eb3d318974803167df889c8ce65e"
+  },
+  "numeric_endpoint_and_actual_cost_summary_agreement_atol": 1e-12,
+  "independent_scientific_verification_precedes_plotting": true
+}

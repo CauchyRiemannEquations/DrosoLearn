@@ -1,0 +1,34 @@
+{
+  "study_id": "spillover_tradeoff_v1",
+  "status": "completed",
+  "stage": "completed",
+  "started_at_utc": "2026-10-19T05:15:38.999899+00:00",
+  "source_git_commit": "38a53fbd5096e277548e310d980fbc476ad5a383",
+  "registration_sha256": "e1b4b628f0cb162ac664b99d6183e97d4277526494dfc19507e7937613d076a9",
+  "config_sha256": "05c6332f0abb3939419f567bd03ae984fd0154240cd3da4bcd17609fa6f9a612",
+  "publication_proof": "results/spillover_tradeoff_publication_proof.json",
+  "publication_proof_sha256": "ec90c276b42117d255f477da149f463e288d8b951ca23fd78ce0e7f4e74bc241",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "new_human_experiment": false,
+  "shared_neural_mechanism_tested": false,
+  "education_effect_tested": false,
+  "counts": {
+    "training_feedback_trials": 120000,
+    "static_probe_cases": 6000,
+    "model_initializations": 300,
+    "fixed_feature_constructions": 60,
+    "model_seeds": 10,
+    "head_update_calls": 120000,
+    "head_nonzero_steps": 58054,
+    "internal_update_calls": 0,
+    "value_update_calls": 0,
+    "internal_nonzero_steps": 0,
+    "value_nonzero_steps": 0
+  },
+  "measurement_records": 120000,
+  "numeric_arrays": 698,
+  "completed_at_utc": "2026-10-19T05:15:51.751701+00:00"
+}

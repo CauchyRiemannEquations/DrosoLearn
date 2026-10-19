@@ -1,0 +1,11 @@
+{
+  "study_id": "spillover_tradeoff_v1",
+  "registration_sha256": "e1b4b628f0cb162ac664b99d6183e97d4277526494dfc19507e7937613d076a9",
+  "source_commit": "38a53fbd5096e277548e310d980fbc476ad5a383",
+  "published_commit": "180faf5405005b021e94914e4cb6c1fb65d5bbac",
+  "checked_at_utc": "2026-10-19T05:15:37.967711+00:00",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/180faf5405005b021e94914e4cb6c1fb65d5bbac/results/registration_spillover_tradeoff_v1.json",
+  "method": "Authenticated GitHub contents API literal decoded bytes and main ref verified before simulation; no secret logged"
+}
