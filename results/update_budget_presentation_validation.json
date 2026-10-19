@@ -1,0 +1,39 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-19T05:02:14.911508+00:00",
+  "summary_sha256": "428ca57a337b87209121e320817c39cfca019c99564835d2e5d27a202d7267f9",
+  "verification_sha256": "b2fa18b2de1d583d2afe62d8ef3ea2e391ab2ad50fc7e38fa036fe9a31722bd5",
+  "new_document_local_links_checked": 7,
+  "images": [
+    {
+      "path": "results/update_budget_figures_v1/actual-movement-costs.png",
+      "size": [
+        1760,
+        640
+      ],
+      "sha256": "889824d31dd90e637fd189bd6e65fb9370f29691ad43d750a0e24e44cf725e36",
+      "visually_inspected_in_conversation": true,
+      "labels_titles_legend_readable": true
+    },
+    {
+      "path": "results/update_budget_figures_v1/learning-curves.png",
+      "size": [
+        2080,
+        1120
+      ],
+      "sha256": "cb00b7c8188ddf7da7e950bb8cd13ad899fa513d6c058e13dd03ec6f36a3e954",
+      "visually_inspected_in_conversation": true,
+      "labels_titles_legend_readable": true
+    }
+  ],
+  "cost_plot_panel_y_axis_ranges_differ_and_disclosed": true,
+  "same_ceiling_distinguished_from_equal_actual_cost": true,
+  "expected_choice_probability_distinguished_from_sampled_accuracy": true,
+  "negative_primary_hypothesis_not_replaced_by_positive_anchor": true,
+  "old_phase5_and_prior_scientific_reports_edited": false,
+  "new_docs_sha256": {
+    "docs/update-budget-findings.md": "6a64f474f2964c2d4c790f7be964fce9994bd291e556f195d85c03b759801a84",
+    "docs/update-budget-reproduction.md": "00510b7250d981bd7f510929d76c69ccc1169be04d211bcfec6d61264caf9bdf",
+    "docs/update-budget-protocol.md": "6f92bfa3b35a020f97955e10c2a4b7e004e01da0dcb478e42bbc782f1785562d"
+  }
+}

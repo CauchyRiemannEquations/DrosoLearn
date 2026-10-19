@@ -1,0 +1,11 @@
+{
+  "study_id": "update_budget_v1",
+  "registration_sha256": "c99a559a22deeb5b6d7c99fadcf377d295c6f7bd503d20bd7a438f668eda2f54",
+  "source_commit": "fc47813f1a18ec762f737a1e035647ff40509646",
+  "published_commit": "7ac10804219146127b34364b7dd464ed979239bc",
+  "checked_at_utc": "2026-10-19T04:57:12.165009+00:00",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/7ac10804219146127b34364b7dd464ed979239bc/results/registration_update_budget_v1.json",
+  "method": "Authenticated GitHub contents API literal decoded bytes and main ref verified before simulation; no secret logged"
+}

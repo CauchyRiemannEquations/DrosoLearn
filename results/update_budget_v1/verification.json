@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "study_id": "update_budget_v1",
+  "verified_at_utc": "2026-10-19T04:57:51.987331+00:00",
+  "registration_sha256": "c99a559a22deeb5b6d7c99fadcf377d295c6f7bd503d20bd7a438f668eda2f54",
+  "summary_sha256": "428ca57a337b87209121e320817c39cfca019c99564835d2e5d27a202d7267f9",
+  "scientific_producer_imported": false,
+  "counts": {
+    "arrays": 535,
+    "independently_replayed_training_actions": 72000,
+    "model_seeds": 10,
+    "conditions": 18,
+    "checkpoint_static_probes": 3600,
+    "head_update_calls": 72000,
+    "internal_update_calls": 0,
+    "value_update_calls": 0,
+    "all_checkpoints_and_trial_head_states_replayed": true,
+    "fixed_internal_weights_encoder_and_probe_activity_checked": true,
+    "conditional_scalar_unit_L2_and_own_effect_attenuation_checked": true,
+    "all_actual_step_path_energy_and_head_norms_replayed": true,
+    "unit_direction_common_actual_step_and_path_ceiling_checked": true,
+    "balanced_presentation_absolute_logit_and_probability_ceiling_checked": true,
+    "actual_autonomous_costs_equalized": false,
+    "extra_solver_cost_equalized": false,
+    "no_hidden_nogo_outcome_updates": true,
+    "no_generalization_or_human_mechanism_claim": true,
+    "frozen_input_catalog_sha256": "ee72b0b3180379731930de478318a019da1834824c0be18aacd91fcfce2b1a32"
+  }
+}

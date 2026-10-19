@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-10-19T04:58:48.225006+00:00",
+  "source_git_commit": "fc47813f1a18ec762f737a1e035647ff40509646",
+  "renderer": "drosolearn.update_budget.render",
+  "renderer_source_sha256": "49bfc0a3fab95d523899521c13c227a9a287027c776e7ad3147f5f47d8af4b9e",
+  "arrays_sha256": "21052291b4aeb3f2cf0c5ea2efa8294727773c1d30c3adbf43a752e08fb996fd",
+  "summary_sha256": "428ca57a337b87209121e320817c39cfca019c99564835d2e5d27a202d7267f9",
+  "verification_sha256": "b2fa18b2de1d583d2afe62d8ef3ea2e391ab2ad50fc7e38fa036fe9a31722bd5",
+  "plotted_values_sha256": "0135da79f3657adf9c0e45d19a38f6c5561030a379dd55baddbb0c94c51b60cf",
+  "figure_sha256": {
+    "actual-movement-costs.png": "889824d31dd90e637fd189bd6e65fb9370f29691ad43d750a0e24e44cf725e36",
+    "learning-curves.png": "cb00b7c8188ddf7da7e950bb8cd13ad899fa513d6c058e13dd03ec6f36a3e954"
+  },
+  "numeric_endpoint_and_actual_cost_summary_agreement_atol": 1e-12,
+  "independent_scientific_verification_precedes_plotting": true
+}
