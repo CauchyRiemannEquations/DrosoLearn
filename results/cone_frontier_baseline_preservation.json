@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-19T23:11:58.135158+00:00",
+  "verified_at_utc": "2026-10-19T23:12:29.678341+00:00",
+  "baseline_tag": "normalization-loss-v1",
+  "baseline_commit": "f1ada01a904283a1036b4dc77b10fb3882194750",
+  "hash_compared_files": 18812,
+  "hash_compared_bytes": 2105281712,
+  "allowed_evolving_indexes": [
+    "README.md",
+    "docs/repository-status.json",
+    "docs/research-roadmap.md"
+  ],
+  "all_old_files_Git_blob_hash_preserved_except_three_indexes": true,
+  "method": "Git SHA1 blob header plus raw current bytes for every prior tracked file; cryptographic hash comparison, not a repeated literal-byte comparison.",
+  "prior_literal_receipt_preserved": "results/normalization_loss_baseline_preservation.json",
+  "new_learning_calls": 0
+}

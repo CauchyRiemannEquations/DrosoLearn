@@ -1,0 +1,94 @@
+{
+  "study_id": "cone_frontier_v1",
+  "scope": "retrospective_descriptive_cone_frontier",
+  "module": "drosolearn.cone_frontier",
+  "protocol": "docs/cone-frontier-protocol.md",
+  "source_result": "results/selective_spillover_v1",
+  "topologies": [
+    "real",
+    "rewired",
+    "ann"
+  ],
+  "representations": [
+    "raw",
+    "identity"
+  ],
+  "model_seeds": [
+    17401,
+    17402,
+    17403,
+    17404,
+    17405,
+    17406,
+    17407,
+    17408,
+    17409,
+    17410
+  ],
+  "training_trials": 400,
+  "head_lr": 0.1,
+  "numeric_tolerance": 1e-08,
+  "neutral_tolerance": 1e-08,
+  "svd_rcond": 1e-12,
+  "labels": [
+    1,
+    1,
+    -1,
+    -1
+  ],
+  "parent_method": "feedback_selective",
+  "phases": [
+    "all",
+    "partial",
+    "full"
+  ],
+  "candidates": [
+    "parent_feedback",
+    "shared_reference",
+    "isolated_reference",
+    "observed_own",
+    "observed_balanced",
+    "oracle_own",
+    "oracle_balanced"
+  ],
+  "external_manifest": null,
+  "source_files": [
+    "configs/cone_frontier_v1.json",
+    "docs/cone-frontier-protocol.md",
+    "pyproject.toml",
+    "requirements-lock.txt",
+    "scripts/run_cone_frontier.py",
+    "scripts/verify_cone_frontier.py",
+    "src/drosolearn/__init__.py",
+    "src/drosolearn/cone_envelope.py",
+    "src/drosolearn/cone_frontier.py",
+    "src/drosolearn/cone_geometry.py",
+    "src/drosolearn/normalization_envelope.py",
+    "src/drosolearn/representation_envelope.py",
+    "tests/test_cone_envelope.py",
+    "tests/test_cone_frontier.py",
+    "tests/test_cone_frontier_verify.py",
+    "tests/test_cone_geometry.py"
+  ],
+  "parent_files": [
+    "results/normalization_loss_archive_validation.json",
+    "results/normalization_loss_publication_proof.json",
+    "results/normalization_loss_v1/arrays.npz",
+    "results/normalization_loss_v1/artifact_hashes.json",
+    "results/normalization_loss_v1/measurements.csv",
+    "results/normalization_loss_v1/metadata.json",
+    "results/normalization_loss_v1/registration.json",
+    "results/normalization_loss_v1/summary.json",
+    "results/normalization_loss_v1/verification.json",
+    "results/registration_normalization_loss_v1.json",
+    "results/selective_spillover_v1/arrays.npz"
+  ],
+  "interpretation": {
+    "new_training": false,
+    "new_seed_draws": false,
+    "new_effect_hypothesis_test": false,
+    "new_human_experiment": false,
+    "shared_neural_mechanism_claim": false,
+    "education_effect_claim": false
+  }
+}

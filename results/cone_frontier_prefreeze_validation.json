@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-19T23:16:00.912646+00:00",
+  "baseline_commit": "f1ada01a904283a1036b4dc77b10fb3882194750",
+  "unique_passed_tests": 234,
+  "new_unique_passed_tests": 165,
+  "unchanged_related_regression_passed_tests": 69,
+  "test_receipts": [
+    {
+      "path": "results/cone_frontier_prefreeze_tests/cone_prefreeze_tests_final.xml",
+      "sha256": "bc1cdb0bed953ebd0eac30bcf2c53d9fbbb7e87787918c33b4e0091a0e13f532",
+      "passed_unique_tests": 234,
+      "new_unique_tests": 165,
+      "unchanged_related_regression_tests": 69
+    }
+  ],
+  "frozen_source_hashes": {
+    "configs/cone_frontier_v1.json": "d10a1b7d249554a2b47d64ce1991012a72afd2acb391898b09ee967ad1dd01ca",
+    "docs/cone-frontier-protocol.md": "81aed4b7405122f3a52e1027e1a00f96766af0183bca9423d6a7e69feb7ebbe8",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_cone_frontier.py": "36dbd2cab738ac47673497cb5948598c7ac80e576fae6a0fac26247fe95b1603",
+    "scripts/verify_cone_frontier.py": "cfdfbc1aa506af6cc2cb3ffc7520e7b1f79ddc0de475a786745e8aec61a2c064",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/cone_envelope.py": "38a4072690b00f0387f14648843517df7ccf074a3989c3ec8d950e3cc84cef9c",
+    "src/drosolearn/cone_frontier.py": "6ef3115c6b24ddd6c234629b64df56fd24299805f42d8d9333f43ef6aad0c3fe",
+    "src/drosolearn/cone_geometry.py": "01c31caecc2ab1a9d777ccfb694a0557b42f728f6823bbf5e5a6a55438d20564",
+    "src/drosolearn/normalization_envelope.py": "482bc8839c0f435f10776a534601f871014d37a82384d0973f33a191b854a55d",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "tests/test_cone_envelope.py": "ed3d912bb67acae349e6a690a748b9b5d7a82b86efa70f5662c9fb4e97a40afc",
+    "tests/test_cone_frontier.py": "3819797f48726f00769528d2db49c3b55f906c4bc864e5206a4d6609f2b3b364",
+    "tests/test_cone_frontier_verify.py": "b832d9c2dd5b38ab0c8f25e430b5b45b5521f8496c621fb1ffc3208f499a58f0",
+    "tests/test_cone_geometry.py": "9d57cf5cd0160bd4069870270def94c64a1a0c3a9aacb88d1384ad4e02f0eea2"
+  },
+  "actual_saved_cone_aggregations_before_freeze": 0,
+  "new_learning_or_RNG_before_freeze": 0,
+  "actual_parent_gate": {
+    "baseline_tag": "normalization-loss-v1",
+    "baseline_commit": "f1ada01a904283a1036b4dc77b10fb3882194750",
+    "prior_normalization_independent_audit_reused": true,
+    "prior_selective_full_replay_reused_not_rerun": true,
+    "pinned_files": 16,
+    "archive_snapshot_files": 49,
+    "immutable_source_parent_and_baseline_Git_bytes_checked": true,
+    "prior_negative_human_and_acquisition_preserved": true,
+    "new_training_calls": 0,
+    "new_random_seed_draws": 0,
+    "new_graph_or_feature_constructions": 0
+  },
+  "design_audits": [
+    "Only six saved feedback paths; same recorded g for every candidate; all original paths preserved",
+    "Observed constraints/objective see actual known_after only; oracle gets explicit full signs separately",
+    "Sign safety replaces exact influence-ratio preservation; unknown harm separately evaluated",
+    "Two fixed objectives; not a full Pareto curve or guarantee both improve",
+    "Projection active-row SVD and nonnegative dual witness certify each identical objective/constraint set",
+    "NoGo has zero effects, steps and caseindex-1; actual Go-only cached optimization",
+    "Ratios refer to already normalized stored actual direction, not prior raw target",
+    "Old independent replay reused; no new autonomous learner; geometric score changes not accuracy"
+  ],
+  "prior_failure_modified": false
+}
