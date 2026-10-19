@@ -1,0 +1,155 @@
+{
+  "study_id": "signed_spillover_v1",
+  "registration_type": "retrospective_descriptive_signed_spillover",
+  "registered_at_utc": "2026-10-19T06:15:05.836187+00:00",
+  "source_git_commit": "fd2c1ace641621e58f6d20a7c0f2ff48e6f94631",
+  "config": {
+    "study_id": "signed_spillover_v1",
+    "scope": "retrospective_descriptive_signed_spillover",
+    "module": "drosolearn.signed_spillover",
+    "protocol": "docs/signed-spillover-protocol.md",
+    "source_result": "results/spillover_tradeoff_v1",
+    "topologies": [
+      "real",
+      "rewired",
+      "ann"
+    ],
+    "representations": [
+      "raw",
+      "identity"
+    ],
+    "alphas": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "model_seeds": [
+      17301,
+      17302,
+      17303,
+      17304,
+      17305,
+      17306,
+      17307,
+      17308,
+      17309,
+      17310
+    ],
+    "training_trials": 400,
+    "checkpoints": [
+      0,
+      50,
+      100,
+      200,
+      400
+    ],
+    "head_lr": 0.1,
+    "numeric_tolerance": 1e-08,
+    "neutral_tolerance": 1e-08,
+    "labels": [
+      1,
+      1,
+      -1,
+      -1
+    ],
+    "categories": [
+      "self",
+      "cross_same",
+      "cross_opposite",
+      "cross_all",
+      "all"
+    ],
+    "external_manifest": null,
+    "source_files": [
+      "configs/signed_spillover_v1.json",
+      "docs/signed-spillover-protocol.md",
+      "pyproject.toml",
+      "requirements-lock.txt",
+      "scripts/run_signed_spillover.py",
+      "scripts/verify_signed_spillover.py",
+      "src/drosolearn/__init__.py",
+      "src/drosolearn/representation_envelope.py",
+      "src/drosolearn/signed_envelope.py",
+      "src/drosolearn/signed_geometry.py",
+      "src/drosolearn/signed_spillover.py",
+      "tests/test_signed_envelope.py",
+      "tests/test_signed_geometry.py",
+      "tests/test_signed_spillover.py",
+      "tests/test_signed_spillover_verify.py"
+    ],
+    "parent_files": [
+      "results/registration_spillover_tradeoff_v1.json",
+      "results/spillover_archive_validation.json",
+      "results/spillover_tradeoff_publication_proof.json",
+      "results/spillover_tradeoff_v1/arrays.npz",
+      "results/spillover_tradeoff_v1/artifact_hashes.json",
+      "results/spillover_tradeoff_v1/measurements.csv",
+      "results/spillover_tradeoff_v1/metadata.json",
+      "results/spillover_tradeoff_v1/registration.json",
+      "results/spillover_tradeoff_v1/summary.json",
+      "results/spillover_tradeoff_v1/verification.json"
+    ],
+    "interpretation": {
+      "new_training": false,
+      "new_seed_draws": false,
+      "new_effect_hypothesis_test": false,
+      "new_human_experiment": false,
+      "shared_neural_mechanism_claim": false,
+      "education_effect_claim": false
+    }
+  },
+  "config_sha256": "421d1245b247a59a19cb4082b571fcc1debefd25f5ff9f1af6e1adaeeb81c437",
+  "registration_path": "results/registration_signed_spillover_v1.json",
+  "baseline_tag": "spillover-tradeoff-v1",
+  "baseline_commit": "a9a60a82f73310c983f64589e631b2b8a9e3a052",
+  "source_files": {
+    "configs/signed_spillover_v1.json": "421d1245b247a59a19cb4082b571fcc1debefd25f5ff9f1af6e1adaeeb81c437",
+    "docs/signed-spillover-protocol.md": "1d7f84f39f3c420873c8532fc90e81f0d58be95c119beb708f1c09445d1f3761",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_signed_spillover.py": "7b0cad16e4bf34e94d478fd1016f76594cc739317df433399062f09f78d5e11e",
+    "scripts/verify_signed_spillover.py": "b07d0fab8cd6e617c6f02a0c21eecac0271d4e9c75adf8e8b6d9fa28157fe015",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "src/drosolearn/signed_envelope.py": "1a331a315cf2dda47ca46a65883496bd59486f43ebf361094494b7fa1ad1deda",
+    "src/drosolearn/signed_geometry.py": "24b43f77ee8d701f81df6bb63be86bc4bc3459494d0d7d3b9194bd3e030bb225",
+    "src/drosolearn/signed_spillover.py": "3fe8dfb6c714d3073c7c3233b688724644dd55962d48e5b946940ae80f82a844",
+    "tests/test_signed_envelope.py": "94ccb27bd6e173443c6fecaedfee18784bc11c92f3f700416a2019dae2bd1f84",
+    "tests/test_signed_geometry.py": "3c8d2f4cb4c5005bc4544131d64a01a88ed9fb2729f17d8d642e9225ad335e1b",
+    "tests/test_signed_spillover.py": "f2447981ca63115c07acb892fb10bec726a398ffb4ca9205ec576b59d67550df",
+    "tests/test_signed_spillover_verify.py": "93866f6bd624684c62879c8309032d044874e6d6f640cc143df2e79327619bee"
+  },
+  "parent_files": {
+    "results/registration_spillover_tradeoff_v1.json": "e1b4b628f0cb162ac664b99d6183e97d4277526494dfc19507e7937613d076a9",
+    "results/spillover_archive_validation.json": "18cfc225f4d6afd260992dad9683cee9d4cce1f6f5f2e7aedd69c5a6ea26153f",
+    "results/spillover_tradeoff_publication_proof.json": "ec90c276b42117d255f477da149f463e288d8b951ca23fd78ce0e7f4e74bc241",
+    "results/spillover_tradeoff_v1/arrays.npz": "e7a93a8fd5d416510940ad37a1056155a162e0cd1c2c8f6dccd8081d7d684412",
+    "results/spillover_tradeoff_v1/artifact_hashes.json": "e3f6599a5c8d5d81bb0517e59a0bd3c0ee40dedfcc314101edaa69b470b3f283",
+    "results/spillover_tradeoff_v1/measurements.csv": "88e45b5114a4fda006d1c93c1655c427e361a7fe4ef9b13b60d36e9285150051",
+    "results/spillover_tradeoff_v1/metadata.json": "4c9bf4a9a98cc60dd9110f3bbe2ac993114671627e676249483da1427f3f3c81",
+    "results/spillover_tradeoff_v1/registration.json": "e1b4b628f0cb162ac664b99d6183e97d4277526494dfc19507e7937613d076a9",
+    "results/spillover_tradeoff_v1/summary.json": "7de0bf4d5f8e70d1a630c7bd4382674f30b3db3d0860cb9fa45c10efd290e5f8",
+    "results/spillover_tradeoff_v1/verification.json": "eb98bfe274ba2b77c451f9f8c341b361517fd3b6145bec480943bf3e81a734a2"
+  },
+  "gate": {
+    "baseline_tag": "spillover-tradeoff-v1",
+    "baseline_commit": "a9a60a82f73310c983f64589e631b2b8a9e3a052",
+    "prior_full_replay_reused_not_rerun": true,
+    "parent_arrays_and_trial_csv_sha256_checked": true,
+    "parent_source_and_data_source_commit_bytes_checked": true,
+    "parent_archive_baseline_snapshot_checked": true,
+    "prior_negative_tradeoff_and_acquisition_preserved": true,
+    "evolving_indexes_checked_in_baseline_commit_only": [
+      "README.md",
+      "docs/repository-status.json",
+      "docs/research-roadmap.md"
+    ],
+    "pinned_baseline_files": 14,
+    "archive_snapshot_files": 64,
+    "new_training_calls": 0,
+    "new_random_seed_draws": 0
+  },
+  "notice": "Prior outcomes known; decomposition and reporting frozen before this saved-results audit. Descriptive analysis only, without new training, seeds, animals or effect hypothesis tests."
+}
