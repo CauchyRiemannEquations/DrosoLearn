@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "study_id": "shell_credit_v1",
+  "verified_at_utc": "2026-10-19T01:12:20.978926+00:00",
+  "registration_sha256": "d5af0c6f61a346c0dc371fcb4393a6e118d36468c0d1e7528c4fbd120a6ad0d0",
+  "summary_sha256": "3bf1d5dc5d384e15b63fdfa07695856aee8d8897c872f9b7e960459d30e828b7",
+  "scientific_producer_imported": false,
+  "counts": {
+    "arrays": 38,
+    "trial_records": 10800,
+    "independently_replayed_actions": 10800,
+    "seeds": 5,
+    "conditions": 3,
+    "head_update_calls": 7200,
+    "internal_update_calls": 0,
+    "initial_influence_entries": 1080,
+    "summary_and_resource_fields_checked": true,
+    "no_hidden_potential_content_updates": true,
+    "all_anatomical_weights_and_feature_activations_fixed": true
+  }
+}

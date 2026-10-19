@@ -1,0 +1,27 @@
+{
+  "study_id": "shell_credit_v1",
+  "status": "completed",
+  "stage": "completed",
+  "started_at_utc": "2026-10-19T01:12:06.584219+00:00",
+  "source_git_commit": "634799583c854f319a4414230e8e60f78dc8f223",
+  "registration_sha256": "d5af0c6f61a346c0dc371fcb4393a6e118d36468c0d1e7528c4fbd120a6ad0d0",
+  "config_sha256": "28fbc4df03dfd64576768ea2e298a7e3830f733e64a0900a550d07bcc3673df9",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "new_human_experiment": false,
+  "shared_neural_mechanism_tested": false,
+  "education_effect_tested": false,
+  "counts": {
+    "actual_choice_feedback_trials": 10800,
+    "head_update_calls": 7200,
+    "internal_update_calls": 0,
+    "new_human_observations": 0,
+    "static_signed_source_cases": 60,
+    "computational_seed_units": 5
+  },
+  "measurement_records": 10800,
+  "numeric_arrays": 38,
+  "completed_at_utc": "2026-10-19T01:12:07.286855+00:00"
+}
