@@ -1,0 +1,27 @@
+{
+  "status": "corrected_before_first_scientific_run",
+  "checked_at_utc": "2026-10-19T01:39:10.738600+00:00",
+  "source_commit": "49680d9dcf8606695d0b4f333659dfee06d062e5",
+  "registration_sha256": "bc0a80cfb5a10a79c668d71980b6e1c9dd4d3450a65ccd529b326c26f8ea9643",
+  "registration_unchanged": true,
+  "scientific_draws_or_feedback_before_correction": 0,
+  "event": "A verifier-only extra guard edit raced with source commit. Unregistered edits saved outside Git; exact committed bytes restored before remote publication and actual run.",
+  "changes": [
+    {
+      "file": "scripts/verify_interference_order.py",
+      "unregistered_extra_guard_sha256": "e92999cd69e7013326b226bd2dbd588ef1c70c15686b8e822e38ec16d36d6873",
+      "restored_frozen_sha256": "4206c522a3a1e1c708f2132ce3312fae645f1a2317e85f5a06e4cd0d6c3c81ba",
+      "matches_source_commit_and_registration": true
+    },
+    {
+      "file": "tests/test_interference_order_verify.py",
+      "unregistered_extra_guard_sha256": "0dca7f3104020c754a8d9f28761e2ea133fba30303c736a960103756a46f47f9",
+      "restored_frozen_sha256": "1a0d689563afc5d8cc6e0dcd1519384be94a9c0069e03ff86201a001b3a6283a",
+      "matches_source_commit_and_registration": true
+    }
+  ],
+  "all_registered_source_bytes_restored": true,
+  "original_passed_test_count": 93,
+  "unused_extra_guard_test_count": 53,
+  "unused_extra_guards_are_not_new_scientific_results": true
+}
