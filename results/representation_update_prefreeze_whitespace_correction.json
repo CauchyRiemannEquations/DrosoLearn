@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-10-19T04:22:55.344727+00:00",
+  "preliminary_receipt_sha256": "d3f588bba775c8f68779c6945c4fb72514bc4739680f0e6da06082169ef55291",
+  "scientific_registration_created": false,
+  "scientific_trials_run": 0,
+  "corrections": [
+    {
+      "path": "scripts/verify_representation_update.py",
+      "before_sha256": "80814f59b53d39d7a0a0544fda1f69475709d8484671136cedd81f20e5b38b50",
+      "after_sha256": "2d24e60f25c01992355243abe13e6c5862b8f8954572b38ad9654ea4639ddb5f",
+      "only_trailing_blank_line_removed": true
+    },
+    {
+      "path": "tests/test_representation_update_verify.py",
+      "before_sha256": "9f061c46435f787bf675f18fa82b744b73bb0a7976993beb42c9203e4c432116",
+      "after_sha256": "c0c9508996af2a8aa5081dbc61a4553f8a53b77f7e39156e1b5bcaeb9683dc79",
+      "only_trailing_blank_line_removed": true
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "study_id": "representation_update_v1",
+  "scope": "prospective_representation_update_diagnosis",
+  "module": "drosolearn.representation_update",
+  "protocol": "docs/representation-update-protocol.md",
+  "topologies": [
+    "real",
+    "rewired",
+    "ann"
+  ],
+  "representations": [
+    "raw",
+    "identity"
+  ],
+  "updates": [
+    "shared",
+    "projected"
+  ],
+  "model_seeds": [
+    17101,
+    17102,
+    17103,
+    17104,
+    17105,
+    17106,
+    17107,
+    17108,
+    17109,
+    17110
+  ],
+  "training_trials": 400,
+  "checkpoints": [
+    0,
+    50,
+    100,
+    200,
+    400
+  ],
+  "head_lr": 0.1,
+  "rng_namespace": 202610193,
+  "svd_rcond": 1e-12,
+  "numeric_tolerance": 1e-08,
+  "exact_condition_max": 1000000.0,
+  "acquisition_threshold": 0.8,
+  "acquisition_gain": 0.25,
+  "class_threshold": 0.7,
+  "population_pass_count": 8,
+  "effect_threshold": 0.1,
+  "positive_seed_count": 8,
+  "normalization": "per_input_initial_fixed_MBON_gap_unit_L2",
+  "input_catalog": "data/synthetic/representation_update_v1/input_catalog.json",
+  "graph": "data/flywire_783_mb_left_kc512_s701",
+  "external_manifest": null,
+  "source_files": [
+    "configs/representation_update_v1.json",
+    "docs/representation-update-protocol.md",
+    "pyproject.toml",
+    "requirements-lock.txt",
+    "scripts/run_representation_update.py",
+    "scripts/verify_human_shell.py",
+    "scripts/verify_pattern_rule.py",
+    "scripts/verify_representation_update.py",
+    "src/drosolearn/__init__.py",
+    "src/drosolearn/graph.py",
+    "src/drosolearn/human_shell_models.py",
+    "src/drosolearn/model.py",
+    "src/drosolearn/pattern_rule.py",
+    "src/drosolearn/representation_envelope.py",
+    "src/drosolearn/representation_geometry.py",
+    "src/drosolearn/representation_update.py",
+    "tests/test_representation_envelope.py",
+    "tests/test_representation_geometry.py",
+    "tests/test_representation_update.py",
+    "tests/test_representation_update_verify.py"
+  ],
+  "parent_files": [
+    "results/pattern_rule_v1/artifact_hashes.json",
+    "results/pattern_rule_v1/metadata.json",
+    "results/pattern_rule_v1/summary.json",
+    "results/pattern_rule_v1/verification.json",
+    "results/phase5_synthesis_archive_validation.json",
+    "results/phase5_synthesis_v1/artifact_hashes.json",
+    "results/phase5_synthesis_v1/metadata.json",
+    "results/phase5_synthesis_v1/summary.json",
+    "results/phase5_synthesis_v1/verification.json",
+    "results/registration_pattern_rule_v1.json",
+    "results/registration_phase5_synthesis_v1.json"
+  ],
+  "graph_files": [
+    "data/flywire_783_mb_left_kc512_s701/annotations.csv",
+    "data/flywire_783_mb_left_kc512_s701/edges.csv",
+    "data/flywire_783_mb_left_kc512_s701/neurons.json",
+    "data/flywire_783_mb_left_kc512_s701/provenance.json"
+  ],
+  "input_files": [
+    "data/synthetic/pattern_rule_v1/input_catalog.json",
+    "data/synthetic/representation_update_v1/input_catalog.json"
+  ],
+  "interpretation": {
+    "new_human_experiment": false,
+    "shared_neural_mechanism_claim": false,
+    "education_effect_claim": false
+  }
+}
