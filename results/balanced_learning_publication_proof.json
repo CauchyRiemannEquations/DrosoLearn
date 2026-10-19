@@ -1,0 +1,11 @@
+{
+  "study_id": "balanced_learning_v1",
+  "registration_sha256": "42de880c7b962e39eed9850281892555477d1d118694e2ec233d692d8c8b9802",
+  "source_commit": "f23a94725f5e76378e5dcc7a2c36552a309947b5",
+  "published_commit": "223362749d09e6588eb8476ab1abc654e75b9c1c",
+  "checked_at_utc": "2026-10-19T23:32:51.800604+00:00",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/223362749d09e6588eb8476ab1abc654e75b9c1c/results/registration_balanced_learning_v1.json",
+  "method": "Authenticated GitHub contents API literal decoded registration bytes and private main ref verified before actual new-cohort graph construction and autonomous learning; prior research outcomes already known; no secret logged"
+}

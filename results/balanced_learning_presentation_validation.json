@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "study_id": "balanced_learning_v1",
+  "figures_visually_inspected": true,
+  "independent_read_only_presentation_audit": true,
+  "scientific_producer_imported": false,
+  "new_training_trials": 0,
+  "new_parameter_selection": false,
+  "all24_table_rows": 24,
+  "all10_seed_table_rows": 10,
+  "all240_seed_metrics_rechecked": true,
+  "learning_checkpoint_values_checked": 120,
+  "primary_seed_values_checked": 120,
+  "cumulative_unknown_values_checked": 1600,
+  "unique_tests_checked": 323,
+  "test_groups": {
+    "tests.test_balanced_learning": 61,
+    "tests.test_balanced_envelope": 48,
+    "tests.test_balanced_learning_verify": 130,
+    "tests.test_cone_geometry": 45,
+    "tests.test_selective_geometry": 39
+  },
+  "local_links_checked": 8,
+  "document_sha256": {
+    "docs/balanced-learning-findings.md": "5269d9f9639bf4035efa58808f28177ee170aaa3a9793e65d2c4fd0f51f8d38f",
+    "docs/balanced-learning-reproduction.md": "dab531ae21341b4feec301dedf2580df50367e4a54646bcf97bc6f5eabde8e50"
+  },
+  "additional_file_sha256": {
+    "results/balanced_learning_v1/summary.json": "38d25b109819dcce836096ce696fa6d52be8a2bb63e2a62065b947732c10084f",
+    "results/balanced_learning_v1/verification.json": "0642dd51665d0b812b1f018dc483a45ca7c38cf4e0c26b837852883a2d0d2e3b",
+    "results/balanced_learning_v1/metadata.json": "bdebddb2ee6e41eb77160e5e8de7e960b6891552e408cfa75286600921c7ab0e",
+    "results/registration_balanced_learning_v1.json": "42de880c7b962e39eed9850281892555477d1d118694e2ec233d692d8c8b9802",
+    "results/balanced_learning_publication_proof.json": "b3f49a610874cff72da2f1793ababa982cbf8ed471db97623b1864544c235449",
+    "results/balanced_learning_prefreeze_validation.json": "ea7ef552d3f803e1612b0ecf76fd11804d9b8aa6b141b220f4dac740ab508b59",
+    "results/balanced_learning_prefreeze_tests/balanced_prefreeze_tests_final.xml": "b3be2a8b1f5913cd25dfd6e7a3d83c5bb1443a91e297c32b08498508a0337b6f",
+    "results/balanced_learning_prefreeze_tests/prefreeze_validation_before_EOF_cleanup.json": "5fc036d6bea229a96faf0475f372ef8497427acf5df130e99b71b396cd9f926a",
+    "results/balanced_learning_figures_v1/provenance.json": "6c6a42d0ae2d22ea8e33180d013ce73d4e975e5a882d78cedbb0ba18f3e6eedc",
+    "results/balanced_learning_figures_v1/plotted_values.json": "a7b56372555973456c17074876c26d7974e120c4f41c61aded31608b8ae337ef",
+    "results/balanced_learning_figures_v1/render_source.py": "5f3f6a33f8f48f07d4e8f329982bcc74c11376a17dc9da31de6dd009a8c4aaa8",
+    "scripts/render_balanced_learning.py": "97083fb007839ef1af4d275fca5eb453d5671cfd0c4a99ebcb4effb68f875c75",
+    "results/balanced_learning_figures_v1/learning-curves.png": "9e576c1f284e091973133555e3ae6603e75e9f905eb2846999231f6333a25d35",
+    "results/balanced_learning_figures_v1/primary-outcomes.png": "a0415c7932c76861e6a01a37c3d33a403e3d1fe818f5127a66dfc7208d79185a",
+    "results/balanced_learning_figures_v1/unknown-harm.png": "ffc7522ad5cd23fc0b39ac6bc0e16254a57d11d450339a5d37180c8018fa486f",
+    "README.md": "cb475ff2f0ca1732c0dd6eaae142d6daea1dae7fcd3220cb1637983f286f708e",
+    "docs/research-roadmap.md": "03ba7eea4257577f9384f96bccd219933920fd24d67aa43f7f5ae1103d0da083",
+    "docs/repository-status.json": "70657031888034987c73ff7cec3e2f98fe2cc3d58e552a78f5340e49105b06b7"
+  },
+  "figure_dimensions": {
+    "learning-curves.png": [
+      2100,
+      1200
+    ],
+    "primary-outcomes.png": [
+      2250,
+      750
+    ],
+    "unknown-harm.png": [
+      1350,
+      720
+    ]
+  },
+  "figure_visual_checks": {
+    "all_three_figures_viewed": true,
+    "legends_and_axes_readable": true,
+    "no_label_or_title_overlap_observed": true,
+    "means_and_seed_points_are_distinguished": true,
+    "unknown_harm_is_labeled_cumulative_probability_mass": true,
+    "accuracy_shown_as_expected_choice_probability": true
+  },
+  "renderer_reproduction": {
+    "original_source_matches_generation_provenance": true,
+    "cli_diff_only_root_output_argument_handling": true,
+    "fresh_cli_all_plotted_json_bytes_identical": true,
+    "fresh_cli_all_three_png_bytes_identical": true,
+    "no_new_scientific_trajectories_computed": true
+  },
+  "claim_checks": {
+    "same_new_cohort_control_comparison": true,
+    "no_old_56_78_control_substitution": true,
+    "three_unsupported_hypotheses_preserved": true,
+    "unknown_harm_increase_not_called_final_accuracy_drop": true,
+    "unknown_reward_problem_not_novel_input_generalization": true,
+    "fixed_internal_weights_output_head_and_auxiliary_memory_distinguished": true,
+    "common_movement_caps_not_equal_actual_total_or_processing_cost": true,
+    "identity_one_seed_passes_not_primary_population_acquisition": true,
+    "level3_4_5_and_human_education_claims_not_added": true,
+    "paused_automation_and_prior_negative_human_result_preserved": true
+  },
+  "prefreeze_receipts": {
+    "final_unique_tests": 323,
+    "new_unique_tests": 239,
+    "related_regressions": 84,
+    "earlier_EOF_receipt_retained_not_added_again": true,
+    "main_before_equals_frozen_after_plus_one_terminal_newline": true
+  },
+  "checked_at_utc": "2026-10-19T23:38:34.804987+00:00"
+}

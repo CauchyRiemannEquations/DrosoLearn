@@ -1,0 +1,17 @@
+{
+  "study_id": "balanced_learning_v1",
+  "generated_at_utc": "2026-10-19T23:35:53.614232+00:00",
+  "verified_arrays_only": true,
+  "new_training_trials": 0,
+  "new_parameter_selection": false,
+  "arrays_sha256": "2813caabc9bdc7e8d3c8443bac3f467b80a1ecf74cd0940aecac1e32a395807b",
+  "summary_sha256": "38d25b109819dcce836096ce696fa6d52be8a2bb63e2a62065b947732c10084f",
+  "verification_sha256": "0642dd51665d0b812b1f018dc483a45ca7c38cf4e0c26b837852883a2d0d2e3b",
+  "render_script_sha256": "5f3f6a33f8f48f07d4e8f329982bcc74c11376a17dc9da31de6dd009a8c4aaa8",
+  "plotted_values_sha256": "a7b56372555973456c17074876c26d7974e120c4f41c61aded31608b8ae337ef",
+  "figure_sha256": {
+    "learning-curves.png": "9e576c1f284e091973133555e3ae6603e75e9f905eb2846999231f6333a25d35",
+    "primary-outcomes.png": "a0415c7932c76861e6a01a37c3d33a403e3d1fe818f5127a66dfc7208d79185a",
+    "unknown-harm.png": "ffc7522ad5cd23fc0b39ac6bc0e16254a57d11d450339a5d37180c8018fa486f"
+  }
+}
