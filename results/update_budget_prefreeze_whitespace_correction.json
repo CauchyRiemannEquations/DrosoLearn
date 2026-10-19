@@ -1,0 +1,9 @@
+{
+  "corrected_at_utc": "2026-10-19T04:54:36.087329+00:00",
+  "path": "tests/test_update_budget_envelope.py",
+  "before_sha256": "b653a62ddb7a62013a5217d697259a0cbbd704e35033e9d1c6356cc5a4f5b2a3",
+  "after_sha256": "7d1465cd4b5bd3fbf42ab77cd6ca72ce01944236e02862982d8aeab963baf3d9",
+  "only_trailing_blank_line_removed": true,
+  "scientific_registration_created": false,
+  "scientific_trials_run": 0
+}
