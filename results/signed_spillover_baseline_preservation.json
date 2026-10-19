@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-19T06:13:09.183549+00:00",
+  "verified_at_utc": "2026-10-19T06:13:57.779126+00:00",
+  "baseline_tag": "spillover-tradeoff-v1",
+  "baseline_commit": "a9a60a82f73310c983f64589e631b2b8a9e3a052",
+  "old_tree_files": 18706,
+  "literal_compared_files": 18703,
+  "literal_compared_bytes": 2032301687,
+  "allowed_evolving_indexes": [
+    {
+      "path": "README.md",
+      "bytes": 48711,
+      "unchanged": true
+    },
+    {
+      "path": "docs/repository-status.json",
+      "bytes": 14754,
+      "unchanged": true
+    },
+    {
+      "path": "docs/research-roadmap.md",
+      "bytes": 32751,
+      "unchanged": true
+    }
+  ],
+  "old_literal_failures": [],
+  "all_old_baseline_files_literal_preserved_except_three_indexes": true,
+  "method": "Ordered Git cat-file --batch blob bytes compared with read_bytes; no old learner execution"
+}

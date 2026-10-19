@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-19T06:14:43.606438+00:00",
+  "baseline_commit": "a9a60a82f73310c983f64589e631b2b8a9e3a052",
+  "unique_passed_tests": 270,
+  "new_unique_passed_tests": 228,
+  "unchanged_related_regression_passed_tests": 42,
+  "test_receipts": [
+    {
+      "path": "results/signed_spillover_prefreeze_tests/signed_prefreeze_final_tests.xml",
+      "sha256": "e39332183e08c8f80428c7ce20b25e5ea1d7dcc5fd450dda75b1320320b19bb6",
+      "passed_unique_tests": 198,
+      "new_unique_tests": 156,
+      "unchanged_related_regression_tests": 42
+    },
+    {
+      "path": "results/signed_spillover_prefreeze_tests/signed_envelope_tests.xml",
+      "sha256": "677d98a976f613314916517c77ebcf45c3f5f78235ec51f3e977762f5b3830a9",
+      "passed_unique_tests": 72,
+      "new_unique_tests": 72,
+      "unchanged_related_regression_tests": 0
+    }
+  ],
+  "frozen_source_hashes": {
+    "configs/signed_spillover_v1.json": "421d1245b247a59a19cb4082b571fcc1debefd25f5ff9f1af6e1adaeeb81c437",
+    "docs/signed-spillover-protocol.md": "1d7f84f39f3c420873c8532fc90e81f0d58be95c119beb708f1c09445d1f3761",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_signed_spillover.py": "7b0cad16e4bf34e94d478fd1016f76594cc739317df433399062f09f78d5e11e",
+    "scripts/verify_signed_spillover.py": "b07d0fab8cd6e617c6f02a0c21eecac0271d4e9c75adf8e8b6d9fa28157fe015",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "src/drosolearn/signed_envelope.py": "1a331a315cf2dda47ca46a65883496bd59486f43ebf361094494b7fa1ad1deda",
+    "src/drosolearn/signed_geometry.py": "24b43f77ee8d701f81df6bb63be86bc4bc3459494d0d7d3b9194bd3e030bb225",
+    "src/drosolearn/signed_spillover.py": "3fe8dfb6c714d3073c7c3233b688724644dd55962d48e5b946940ae80f82a844",
+    "tests/test_signed_envelope.py": "94ccb27bd6e173443c6fecaedfee18784bc11c92f3f700416a2019dae2bd1f84",
+    "tests/test_signed_geometry.py": "3c8d2f4cb4c5005bc4544131d64a01a88ed9fb2729f17d8d642e9225ad335e1b",
+    "tests/test_signed_spillover.py": "f2447981ca63115c07acb892fb10bec726a398ffb4ca9205ec576b59d67550df",
+    "tests/test_signed_spillover_verify.py": "93866f6bd624684c62879c8309032d044874e6d6f640cc143df2e79327619bee"
+  },
+  "actual_saved_signed_aggregations_before_freeze": 0,
+  "new_scientific_learning_calls_before_freeze": 0,
+  "actual_parent_gate": {
+    "baseline_tag": "spillover-tradeoff-v1",
+    "baseline_commit": "a9a60a82f73310c983f64589e631b2b8a9e3a052",
+    "prior_full_replay_reused_not_rerun": true,
+    "parent_arrays_and_trial_csv_sha256_checked": true,
+    "parent_source_and_data_source_commit_bytes_checked": true,
+    "parent_archive_baseline_snapshot_checked": true,
+    "prior_negative_tradeoff_and_acquisition_preserved": true,
+    "evolving_indexes_checked_in_baseline_commit_only": [
+      "README.md",
+      "docs/repository-status.json",
+      "docs/research-roadmap.md"
+    ],
+    "pinned_baseline_files": 14,
+    "archive_snapshot_files": 64,
+    "new_training_calls": 0,
+    "new_random_seed_draws": 0
+  },
+  "scientific_parent_replayed_as_new_training": false,
+  "runtime": {
+    "python": "3.12.10"
+  },
+  "design_audits": [
+    "Row source and column destination; signed target effect, not unsigned size",
+    "Positive/negative exact masses retained separately from tolerance-neutral counts",
+    "Score and nonlinear probability effects each telescope only along the fixed saved path",
+    "Five categories overlap only in aggregate unions; mass and partition identities explicitly gated",
+    "Uniform-source checkpoint expectations enumerate Go and NoGo before nonlinear averaging",
+    "Retrospective descriptive accounting, no new confirmatory behavioral H or source/seed/alpha search",
+    "No graph or model construction, random draw, observation, reward or learning call in analysis"
+  ],
+  "prior_scientific_failure_modified": false
+}

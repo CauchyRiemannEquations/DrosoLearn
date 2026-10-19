@@ -1,0 +1,97 @@
+{
+  "study_id": "signed_spillover_v1",
+  "scope": "retrospective_descriptive_signed_spillover",
+  "module": "drosolearn.signed_spillover",
+  "protocol": "docs/signed-spillover-protocol.md",
+  "source_result": "results/spillover_tradeoff_v1",
+  "topologies": [
+    "real",
+    "rewired",
+    "ann"
+  ],
+  "representations": [
+    "raw",
+    "identity"
+  ],
+  "alphas": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "model_seeds": [
+    17301,
+    17302,
+    17303,
+    17304,
+    17305,
+    17306,
+    17307,
+    17308,
+    17309,
+    17310
+  ],
+  "training_trials": 400,
+  "checkpoints": [
+    0,
+    50,
+    100,
+    200,
+    400
+  ],
+  "head_lr": 0.1,
+  "numeric_tolerance": 1e-08,
+  "neutral_tolerance": 1e-08,
+  "labels": [
+    1,
+    1,
+    -1,
+    -1
+  ],
+  "categories": [
+    "self",
+    "cross_same",
+    "cross_opposite",
+    "cross_all",
+    "all"
+  ],
+  "external_manifest": null,
+  "source_files": [
+    "configs/signed_spillover_v1.json",
+    "docs/signed-spillover-protocol.md",
+    "pyproject.toml",
+    "requirements-lock.txt",
+    "scripts/run_signed_spillover.py",
+    "scripts/verify_signed_spillover.py",
+    "src/drosolearn/__init__.py",
+    "src/drosolearn/representation_envelope.py",
+    "src/drosolearn/signed_envelope.py",
+    "src/drosolearn/signed_geometry.py",
+    "src/drosolearn/signed_spillover.py",
+    "tests/test_signed_envelope.py",
+    "tests/test_signed_geometry.py",
+    "tests/test_signed_spillover.py",
+    "tests/test_signed_spillover_verify.py"
+  ],
+  "parent_files": [
+    "results/registration_spillover_tradeoff_v1.json",
+    "results/spillover_archive_validation.json",
+    "results/spillover_tradeoff_publication_proof.json",
+    "results/spillover_tradeoff_v1/arrays.npz",
+    "results/spillover_tradeoff_v1/artifact_hashes.json",
+    "results/spillover_tradeoff_v1/measurements.csv",
+    "results/spillover_tradeoff_v1/metadata.json",
+    "results/spillover_tradeoff_v1/registration.json",
+    "results/spillover_tradeoff_v1/summary.json",
+    "results/spillover_tradeoff_v1/verification.json"
+  ],
+  "interpretation": {
+    "new_training": false,
+    "new_seed_draws": false,
+    "new_effect_hypothesis_test": false,
+    "new_human_experiment": false,
+    "shared_neural_mechanism_claim": false,
+    "education_effect_claim": false
+  }
+}
