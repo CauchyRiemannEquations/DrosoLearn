@@ -1,0 +1,186 @@
+{
+  "study_id": "spillover_tradeoff_v1",
+  "registration_type": "prospective_spillover_tradeoff_diagnosis",
+  "registered_at_utc": "2026-10-19T05:15:23.244366+00:00",
+  "source_git_commit": "38a53fbd5096e277548e310d980fbc476ad5a383",
+  "config": {
+    "study_id": "spillover_tradeoff_v1",
+    "scope": "prospective_spillover_tradeoff_diagnosis",
+    "module": "drosolearn.spillover_tradeoff",
+    "protocol": "docs/spillover-tradeoff-protocol.md",
+    "topologies": [
+      "real",
+      "rewired",
+      "ann"
+    ],
+    "representations": [
+      "raw",
+      "identity"
+    ],
+    "model_seeds": [
+      17301,
+      17302,
+      17303,
+      17304,
+      17305,
+      17306,
+      17307,
+      17308,
+      17309,
+      17310
+    ],
+    "training_trials": 400,
+    "checkpoints": [
+      0,
+      50,
+      100,
+      200,
+      400
+    ],
+    "head_lr": 0.1,
+    "rng_namespace": 202610195,
+    "svd_rcond": 1e-12,
+    "numeric_tolerance": 1e-08,
+    "exact_condition_max": 1000000.0,
+    "acquisition_threshold": 0.8,
+    "acquisition_gain": 0.25,
+    "class_threshold": 0.7,
+    "population_pass_count": 8,
+    "effect_threshold": 0.05,
+    "positive_seed_count": 8,
+    "normalization": "per_input_initial_fixed_MBON_gap_unit_L2",
+    "budget_convention": "all_mixture_directions_unit_L2_common_eta_step_ceiling",
+    "input_catalog": "data/synthetic/representation_update_v1/input_catalog.json",
+    "graph": "data/flywire_783_mb_left_kc512_s701",
+    "external_manifest": null,
+    "alphas": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "primary_alpha": 0.5,
+    "source_files": [
+      "configs/spillover_tradeoff_v1.json",
+      "docs/spillover-tradeoff-protocol.md",
+      "pyproject.toml",
+      "requirements-lock.txt",
+      "scripts/run_spillover_tradeoff.py",
+      "scripts/verify_human_shell.py",
+      "scripts/verify_pattern_rule.py",
+      "scripts/verify_representation_update.py",
+      "scripts/verify_spillover_tradeoff.py",
+      "scripts/verify_update_budget.py",
+      "src/drosolearn/__init__.py",
+      "src/drosolearn/graph.py",
+      "src/drosolearn/human_shell_models.py",
+      "src/drosolearn/model.py",
+      "src/drosolearn/pattern_rule.py",
+      "src/drosolearn/representation_envelope.py",
+      "src/drosolearn/representation_geometry.py",
+      "src/drosolearn/representation_update.py",
+      "src/drosolearn/spillover_envelope.py",
+      "src/drosolearn/spillover_geometry.py",
+      "src/drosolearn/spillover_tradeoff.py",
+      "src/drosolearn/update_budget.py",
+      "src/drosolearn/update_budget_envelope.py",
+      "src/drosolearn/update_budget_geometry.py",
+      "tests/test_spillover_envelope.py",
+      "tests/test_spillover_geometry.py",
+      "tests/test_spillover_tradeoff.py",
+      "tests/test_spillover_tradeoff_verify.py"
+    ],
+    "parent_files": [
+      "results/registration_update_budget_v1.json",
+      "results/update_budget_archive_validation.json",
+      "results/update_budget_v1/artifact_hashes.json",
+      "results/update_budget_v1/metadata.json",
+      "results/update_budget_v1/summary.json",
+      "results/update_budget_v1/verification.json"
+    ],
+    "graph_files": [
+      "data/flywire_783_mb_left_kc512_s701/annotations.csv",
+      "data/flywire_783_mb_left_kc512_s701/edges.csv",
+      "data/flywire_783_mb_left_kc512_s701/neurons.json",
+      "data/flywire_783_mb_left_kc512_s701/provenance.json"
+    ],
+    "input_files": [
+      "data/synthetic/pattern_rule_v1/input_catalog.json",
+      "data/synthetic/representation_update_v1/input_catalog.json"
+    ],
+    "interpretation": {
+      "new_human_experiment": false,
+      "shared_neural_mechanism_claim": false,
+      "education_effect_claim": false
+    }
+  },
+  "config_sha256": "05c6332f0abb3939419f567bd03ae984fd0154240cd3da4bcd17609fa6f9a612",
+  "registration_path": "results/registration_spillover_tradeoff_v1.json",
+  "baseline_tag": "update-budget-v1",
+  "baseline_commit": "ae3818576f9e3cdc4adcb26164484ff42186c179",
+  "source_files": {
+    "configs/spillover_tradeoff_v1.json": "05c6332f0abb3939419f567bd03ae984fd0154240cd3da4bcd17609fa6f9a612",
+    "docs/spillover-tradeoff-protocol.md": "221c00cedfdaa2cffe67a3eb708d2a3a71d532b159b440c2ac2028a85d82a87b",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_spillover_tradeoff.py": "79b5465ea510d07f57d966c8ec5fadc70ac1d5a7ba7a1908db06794fa172c341",
+    "scripts/verify_human_shell.py": "c97bcd08a9c914e1c0c5266cf77adb52e70ed3e2e38585c979619c6c950a0a6f",
+    "scripts/verify_pattern_rule.py": "aa1c6a8b3bfc143e717a843ce587fb648a20f5eed3897ecc45208afb80010dec",
+    "scripts/verify_representation_update.py": "2d24e60f25c01992355243abe13e6c5862b8f8954572b38ad9654ea4639ddb5f",
+    "scripts/verify_spillover_tradeoff.py": "3433f5af6fee29d8eae54827f027a63d703f154ca44226c3a63919300f6157ef",
+    "scripts/verify_update_budget.py": "527aaec683934ca38f6267e263d85d0391a52a4bc1ea8e5e18d57fba4ac87fd2",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/graph.py": "6c713164943f1e6a4c38c9138ecd9c437b56523d68b58cffb58dc6531ccea2c2",
+    "src/drosolearn/human_shell_models.py": "e17c3c6218bc1145b7ede1dc90a2d0c9aabff6562e8157a35ae2ad8246e931f5",
+    "src/drosolearn/model.py": "21e855ebbddb6190816a8adad130216065a03a6fc2d757e42466bdc7aaca3497",
+    "src/drosolearn/pattern_rule.py": "38b7dd7dee0a2f00ea7ebc98bf4805edc605461ee36183d415ff5f5cd49065f4",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "src/drosolearn/representation_geometry.py": "500a6c7e9e1796f77b297a85191d4052a3526890d2ce866dce3f94ad19436bc2",
+    "src/drosolearn/representation_update.py": "046b8a41c489760b48f56282ba6b194a373fb83c0fbab2315709822a4d9eca9a",
+    "src/drosolearn/spillover_envelope.py": "d46ae84795a2c0ac0f3adb0f5e5a7e9b3045e2d76ce89f5d45d08c047d4a5d71",
+    "src/drosolearn/spillover_geometry.py": "dc06fdf392cfd5f0bea5fcc4c1b6fb10d20671a4971fda066569aa5daf0e9cd3",
+    "src/drosolearn/spillover_tradeoff.py": "e159a9f8a7459aa85a0bd32c80e7bf2d43c985dc7fba40e2d55a9db493f890d0",
+    "src/drosolearn/update_budget.py": "49bfc0a3fab95d523899521c13c227a9a287027c776e7ad3147f5f47d8af4b9e",
+    "src/drosolearn/update_budget_envelope.py": "2bbc5e34ea6bc9dff45bd89e8dd38fa7dd5e2f47ead2fd8a92d6433fba930fe7",
+    "src/drosolearn/update_budget_geometry.py": "37668f2e0e13637edcb111fd124e2c20512652d8649e0bd4e7017f1846ddd1b6",
+    "tests/test_spillover_envelope.py": "ac334ba9896d072b146612df65e917be5f69c764ac91f34cd38d7e405f1b2cdc",
+    "tests/test_spillover_geometry.py": "119fd4088e450562ff3b97e7d7f804ee9246e7ccbef303c9757791ec3a2c518e",
+    "tests/test_spillover_tradeoff.py": "23bd88c25f76fda413aae8b83d20262c9f92f9b8c954c51876ace883d30f63c4",
+    "tests/test_spillover_tradeoff_verify.py": "81c0ef3f7d63ff7c54b510306b563213f083cbedc54478a7716fbeeed2747e61"
+  },
+  "parent_files": {
+    "results/registration_update_budget_v1.json": "c99a559a22deeb5b6d7c99fadcf377d295c6f7bd503d20bd7a438f668eda2f54",
+    "results/update_budget_archive_validation.json": "c3fbaa33021ae8d79645c44bfabe126ee27d9e95c659f73a516fa27a01078834",
+    "results/update_budget_v1/artifact_hashes.json": "8198c9899e332ed4359113cf08ecea86b686783165d93581ba3d7956e214c152",
+    "results/update_budget_v1/metadata.json": "bd2397494e1bfe6cc92235c46720ef95c224440ded4015c5044ce6a8a76528ec",
+    "results/update_budget_v1/summary.json": "428ca57a337b87209121e320817c39cfca019c99564835d2e5d27a202d7267f9",
+    "results/update_budget_v1/verification.json": "b2fa18b2de1d583d2afe62d8ef3ea2e391ab2ad50fc7e38fa036fe9a31722bd5"
+  },
+  "graph_files": {
+    "data/flywire_783_mb_left_kc512_s701/annotations.csv": "10f9c9d4db8ee2741bd19cf464e4b46fd6e24f086a5ce1dbb550bcea633cdb16",
+    "data/flywire_783_mb_left_kc512_s701/edges.csv": "d8c47ea1202575994d430f55e5bd8602f939f320ef02f71522fc1bc54b97db51",
+    "data/flywire_783_mb_left_kc512_s701/neurons.json": "05d83a288b1d42337001015be2d54167aed00cdc9fea58b578423d18756aa77b",
+    "data/flywire_783_mb_left_kc512_s701/provenance.json": "e1a50d254628fb0573d7853b8e66926697b353da317bd701b17e60bfd4942061"
+  },
+  "input_files": {
+    "data/synthetic/pattern_rule_v1/input_catalog.json": "c4823707063b607b87c6c5647a2115008f361ec5f04e70ad80a4bc0476d7c1db",
+    "data/synthetic/representation_update_v1/input_catalog.json": "ee72b0b3180379731930de478318a019da1834824c0be18aacd91fcfce2b1a32"
+  },
+  "gate": {
+    "baseline_tag": "update-budget-v1",
+    "baseline_commit": "ae3818576f9e3cdc4adcb26164484ff42186c179",
+    "small_parent_receipts_independently_verified": [
+      "update_budget_v1"
+    ],
+    "prior_scientific_replays_reused_not_rerun": true,
+    "pinned_baseline_files": 29,
+    "external_human_data_required": false,
+    "large_interference_array_required": false,
+    "negative_prior_results_preserved": true,
+    "prior_unit_budget_learning_not_qualified": true,
+    "prior_numeric_budget_qualified": true,
+    "prior_actual_autonomous_costs_not_equalized": true
+  },
+  "notice": "Prior supported and failed outcomes known; separate fixed-budget spillover tradeoff diagnosis with new seeds and criteria frozen before computation. Computational seeds are not animals."
+}
