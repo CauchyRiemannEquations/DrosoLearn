@@ -1,6 +1,6 @@
 # DrosoLearn
 
-2026-10-19 최신 상태: **새 공개 조개 과제에서 인간·모델 학습의 실제 비교와 독립 검산을 완료**했다. 주 모델의 학습 유사성·종합 예측 기준은 미지지였다. [쉬운 직접 비교 결과](docs/human-shell-findings.md)에 차이·실패·수정 전 결과까지 보존했다. Phase 5 전체 종합은 아직 시작하지 않았고, Phase 2·3 전체가 끝난 것은 아니다. 아래의 미검정·중지 진술은 각 과거 작업 당시의 상태다.
+2026-10-19 최신 상태: **승인한 추가 연구 네 개와 Phase 5의 첫 종합을 실행·독립 검산했다.** [쉬운 최종 보고서](docs/phase5-final-report.md), [28개 연구·25개 주장·60개 근거](docs/phase5-evidence-appendix.md), [재현 안내](docs/phase5-reproduction.md)를 제공한다. 갱신 분리 효과는 지지됐고, 패턴 습득은 미달, 새 간섭·순서는 주 모델 자격 미충족으로 판정 보류다. 기존 인간 유사성 미지지를 보존했다. 최종 검사 643개가 통과했으며 자동 이어가기는 PAUSED다. 전체 Phase 2·3의 추가 가능한 연구는 남아 있다. 아래 과거 미검정·중지 설명은 당시의 기록이다.
 
 **Exploring the Foundations of Mathematical Learning Through a Drosophila Connectome**
 
@@ -320,3 +320,14 @@ CC0인 OpenNeuro 부분집합 31파일에서 사건 44,262행·선택 사건 14,
 첫 실행의 난수 주소가 서로 다른 사람·시드 일부에서 겹친 오류는 성적을 읽기 전 설정 검토로 발견했다. 원 `human_shell_v1` 전체를 `human-shell-v1-design-limited`에 보존하고, 새 등록 `human_shell_rng_v2`에서는 난수 주소만 바꿔 자율 선택 344,520회를 실행했다. 학습률·사람 분할·5시드·판정 기준은 같고 기존 조건부 기록은 바이트 그대로 재사용했다. 두 독립 산술 검산과 최종 자동검사 199개(원 106+새 93)가 통과했다. 첫 실행의 자율 구간은 설계 한계가 있는 역사로 남긴다.
 
 [쉬운 결과·세 그림](docs/human-shell-findings.md), [원 사전 계획](docs/human-shell-protocol.md), [수정 계획](docs/human-shell-rng-protocol.md), [수정 검산](results/human_shell_rng_v2/verification.json), [파생 자료 저장 범위](docs/human-shell-data-processing-note.md), [환경·캐시·재현 명령](docs/human-shell-reproduction.md)을 보존한다. 완료 태그는 `human-shell-comparison-v2`다. 기존 Marković 자료의 닫힌 비교 조건을 바꾸지 않았다. 이번 단일 재개 작업을 마쳤으며 자동 이어가기는 PAUSED, Phase 5는 미시작이다.
+
+
+## 승인된 추가 연구와 Phase 5 완료
+
+추가 연구는 갱신 영향 분리 → 보상별 반응·지표의 식별 한계 → 최소 기호 패턴 → 맥락별 간섭·학습 순서 → Phase 5 순서로 수행했다. 모든 실행은 새 등록과 고정 예산을 사용했고, 실패한 기준을 더 많은 시드나 시행으로 바꾸지 않았다.
+
+갱신 분리의 평균 유리한 선택은 61.90→84.29%로 향상했다. 패턴 주 모델은 연습 50.38%·습득 0/10이어서 일반화 판정을 보류했다. 맥락 과제 주 모델의 개별·공동학습 자격도 0/10이므로 간섭·순서의 확증 판정은 불가다. Q 대조의 습득과 구조적 한계, 인간 비교의 음성 결과도 보존했다. 최종 643개 검사는 기존 199개와 신규 고유 444개이며 공유 검사를 중복 계산하지 않았다.
+
+다음 별도 연구에서는 입력 표현/갱신 공유를 분리하고 개별·공동 습득을 먼저 확보해야 한다. 생리학·시각 회로/LC11 입력, 독립 커넥톰 반복, 새 규칙 계열, 대응 인간 공개 자료·사전 연습 차이는 남은 연구 근거다. 교육 효과와 공통 신경 기작은 미검증이다. 이번 연속 작업을 마쳤으며 기존 자동 이어가기는 PAUSED를 유지한다.
+
+[Phase 5 보고서](docs/phase5-final-report.md) · [실행/복원/검산](docs/phase5-reproduction.md) · 완료 태그 `phase5-synthesis-v1`.

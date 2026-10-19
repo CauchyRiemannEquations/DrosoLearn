@@ -1,0 +1,29 @@
+{
+  "study_id": "phase5_synthesis_v1",
+  "status": "completed",
+  "stage": "completed",
+  "started_at_utc": "2026-10-19T01:53:34.223934+00:00",
+  "source_git_commit": "b8a1e5d54c5941aa5c6d22c698bdd88c9c1674c2",
+  "registration_sha256": "542bae1ee4c4f1d4b0d9c6a1433e42b704911b7fcadce0bfc219b53f374ba31b",
+  "config_sha256": "42be9b28d16d8e87303d0b56ccac567539c8db39e1759ae0b6a837fd39e459d5",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "new_human_experiment": false,
+  "shared_neural_mechanism_tested": false,
+  "education_effect_tested": false,
+  "counts": {
+    "studies": 28,
+    "claims": 25,
+    "observations": 60,
+    "questions": 5,
+    "new_learning_updates": 0,
+    "new_rng_draws": 0,
+    "new_human_experiments": 0,
+    "new_effect_tests": 0
+  },
+  "measurement_records": 25,
+  "numeric_arrays": 2,
+  "completed_at_utc": "2026-10-19T01:53:35.588786+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "archive_helper_corrected",
+  "recorded_at_utc": "2026-10-19T01:59:20.510147+00:00",
+  "failed_attempts": [
+    {
+      "exit_code": 1,
+      "error": "KeyError: study_id in archived shell_behavior_v1 summary",
+      "meaning": "The immutable summary omits this optional field; original registration, metadata, verification and summary SHA identify the study."
+    }
+  ],
+  "correction_scope": "archive_helper_only",
+  "original_scientific_results_changed": false,
+  "existing_summary_rewritten": false,
+  "new_scientific_trials": 0,
+  "correction": "Only the known shell_behavior_v1 field absence is allowed; explicit mismatch and every other study remain rejected. Verification binds the original summary SHA.",
+  "reproducible_helpers": [
+    "scripts/verify_phase5_archive.py",
+    "scripts/check_prephase5_baseline.py"
+  ]
+}

@@ -1,0 +1,1150 @@
+{
+  "status": "completed",
+  "study_id": "phase5_synthesis_v1",
+  "scope": "retrospective_bounded_evidence_synthesis",
+  "studies": [
+    {
+      "study_id": "smoke_v1",
+      "tag": "v0.1.0-smoke",
+      "verification": "results/smoke_v1/verification.json",
+      "report": "results/smoke_v1/report.md",
+      "primary": "results/smoke_v1/summary.json",
+      "role": "initial_artificial_quantity_learning",
+      "verified": true,
+      "verification_sha256": "c928e89f0966a666bae0c224ca1537352ef60dea4ff965eea41a7a2bce959b8d",
+      "report_sha256": "1fa7f741d7e68a6cb1b16a2590edd70fd4e7cbd3696cb541d9228ea0fc5b3992",
+      "primary_sha256": "1293161c07ae838fe47598053db6797257200297a578e52cb4494f878fa0b777"
+    },
+    {
+      "study_id": "reversal_v1",
+      "tag": "study-reversal-v1",
+      "verification": "results/reversal_v1/verification.json",
+      "report": "docs/reversal-findings.md",
+      "primary": "results/reversal_v1/summary.json",
+      "role": "quantity_reward_reversal_diagnostic",
+      "verified": true,
+      "verification_sha256": "dd62336d41679c26c563c6964945aff6d030fd2fc811a96c16c86e150b93d060",
+      "report_sha256": "7497a1503bb6373dcf6bb501e561cc763709cf2bacea68c00b839e2a5b021d1d",
+      "primary_sha256": "26957b0b33fc80b64f5d668638a696e4757dcffee543b2ce066fc78461c04549"
+    },
+    {
+      "study_id": "encoding_v1",
+      "tag": "study-encoding-v1",
+      "verification": "results/encoding_v1/verification.json",
+      "report": "docs/encoding-findings.md",
+      "primary": "results/encoding_v1/summary.json",
+      "role": "input_encoding_diagnostic",
+      "verified": true,
+      "verification_sha256": "ce8932985f4f1569fc34854de1ec41bfe92e021dd703d2c8e79d7096940cdf9b",
+      "report_sha256": "97741f56bd672f2710cb0cad36b42d61044427176c9e780996b80dde367279c1",
+      "primary_sha256": "8ccc391b7c4908ee26e3567bf76c1780156cd7ce198222f35df08bfc0e09486a"
+    },
+    {
+      "study_id": "spacing_v1",
+      "tag": "study-spacing-v1",
+      "verification": "results/spacing_v1/verification.json",
+      "report": "docs/spacing-findings.md",
+      "primary": "results/spacing_v1/summary.json",
+      "role": "input_spacing_diagnostic",
+      "verified": true,
+      "verification_sha256": "a12a16affcb10854615dd8ac361ee0ade6e84cf4695e591c7c4a2f5688d4be7a",
+      "report_sha256": "55cb2e5e10ee46cd6f7966666c502a2eb357014e48c68b8020901c8e94fbf6ff",
+      "primary_sha256": "0cb7f0c8772280bf3bf2b35e2fc43ecf115743a805d80632ccbd464b0965a75a"
+    },
+    {
+      "study_id": "linearity_v1",
+      "tag": "study-linearity-v1",
+      "verification": "results/linearity_v1/verification.json",
+      "report": "docs/linearity-findings.md",
+      "primary": "results/linearity_v1/summary.json",
+      "role": "linear_solvability_diagnostic",
+      "verified": true,
+      "verification_sha256": "6b17fb30771a697abcce53c34c2063753d56212102a0a321a2c51175bdeac5fb",
+      "report_sha256": "eeb53171cfc0784e4e463a2b7564e4f65511029778f63cf634291455f10e8350",
+      "primary_sha256": "4c9f6e220813a3eb3664a1223aba0edbf414cab0563993731528ebef5f249fc6"
+    },
+    {
+      "study_id": "reward_linear_v1",
+      "tag": "study-reward-linear-v1",
+      "verification": "results/reward_linear_v1/verification.json",
+      "report": "docs/reward-linear-findings.md",
+      "primary": "results/reward_linear_v1/summary.json",
+      "role": "reward_rule_linear_control",
+      "verified": true,
+      "verification_sha256": "5d17d0d7d08a730750d9591670ccb1df1dbb20fc269950008c6e3e7721a9c96e",
+      "report_sha256": "e16c6b0add46015771ed406f2e9189542255d6321a1b74311aac9aa5d682d798",
+      "primary_sha256": "5dfa6331685f72ea64fec4a951a80a1fb6fd3c2e633ea780c2411dbde51b5668"
+    },
+    {
+      "study_id": "bandit_reversal_v1",
+      "tag": "study-bandit-reversal-v1",
+      "verification": "results/bandit_reversal_v1/verification.json",
+      "report": "docs/bandit-reversal-findings.md",
+      "primary": "results/bandit_reversal_v1/summary.json",
+      "role": "bandit_reward_reversal",
+      "verified": true,
+      "verification_sha256": "4078203efb346cd607ec082777555fdc7a7602ec0fa2f52e3cd50831e0326f0c",
+      "report_sha256": "e20c9fc44863a9b65979351e3a5b48ee79daf2b954a917a6c88990840bd77732",
+      "primary_sha256": "638e40f47b87218d09ed7a552096dbc856e7c245f52db5dbce5baf0b24534d59"
+    },
+    {
+      "study_id": "head_attenuation_v1",
+      "tag": "study-head-attenuation-v1",
+      "verification": "results/head_attenuation_v1/verification.json",
+      "report": "docs/head-attenuation-findings.md",
+      "primary": "results/head_attenuation_v1/summary.json",
+      "role": "output_weight_scale_diagnostic",
+      "verified": true,
+      "verification_sha256": "6254c213e3b4e9a2cca6d86a73f187af78ae367809b2790d7d23d02c792537b0",
+      "report_sha256": "23981738fe030dfc4e2bc177a197eaa81d750990a93b7de5bbc3a36b86bed321",
+      "primary_sha256": "4aa9e4c68fb0313648357dc9f3562a181b8b7ad8f9b6a864d0c7a0fbb952fc9d"
+    },
+    {
+      "study_id": "human_trial_data_audit_v1",
+      "tag": "human-trial-data-audit-v1",
+      "verification": "results/human_trial_data_v1/verification.json",
+      "report": "docs/human-trial-data-findings.md",
+      "primary": "results/human_trial_data_v1/structure-audit.json",
+      "role": "historical_human_source_structure_audit",
+      "verified": true,
+      "verification_sha256": "af35ad489c039aca638cc7218b1cb5de1d7a4a89f5407c3822ba4a1b31acceb4",
+      "report_sha256": "88456d9ed2f4919d4670651554c4f972b7351a4677babb01530b485c3174299b",
+      "primary_sha256": "39717ad110ac2f0862e2251ffb82a321ddb807ae001aece8b81d7516726a698d"
+    },
+    {
+      "study_id": "human_trial_linkage_v1",
+      "tag": "human-trial-linkage-v1",
+      "verification": "results/human_trial_linkage_v1/verification.json",
+      "report": "docs/human-trial-linkage-findings.md",
+      "primary": "results/human_trial_linkage_v1/linkage-report.json",
+      "role": "historical_source_row_linkage_audit",
+      "verified": true,
+      "verification_sha256": "abddf65e33f2dae34286a8ec2c854e762e1c77b33e8e1728633833af768daaf0",
+      "report_sha256": "9465a2179ea72b50e684be61488d1d5b09cc71a37bfeb672a828362d38fda483",
+      "primary_sha256": "aaa1c4c61307a3c4b2d459c806627049a9cf8e5f33aa8f7e13a53594c0f2f184"
+    },
+    {
+      "study_id": "human_semantics_v1",
+      "tag": "human-semantics-v1",
+      "verification": "results/human_semantics_v1/verification.json",
+      "report": "docs/human-data-continuation-findings.md",
+      "primary": "results/human_semantics_v1/code-cross-tabs.json",
+      "role": "unresolved_historical_field_semantics",
+      "verified": true,
+      "verification_sha256": "fbc435b4ef964e30526ae4020ceee3b4debe9e65a6711e7d9cb5671d5c30c4c5",
+      "report_sha256": "a04292568b263793d43243fa316dc33a1370d176008f6b6b7853e43475252f73",
+      "primary_sha256": "c3ecd06310ffe2b360a86d10b167a6ab8934d839cdccc5c76997591a9d10c010"
+    },
+    {
+      "study_id": "human_osf_origin_v1",
+      "tag": "human-osf-origin-v1",
+      "verification": "results/human_osf_origin_v1/verification.json",
+      "report": "docs/human-data-continuation-findings.md",
+      "primary": "results/human_osf_origin_v1/comparison.json",
+      "role": "historical_osf_provenance",
+      "verified": true,
+      "verification_sha256": "7a36bd97328e5388dcf7149d8395c957e1d15f02bc6e134498f5df99b741bb98",
+      "report_sha256": "a04292568b263793d43243fa316dc33a1370d176008f6b6b7853e43475252f73",
+      "primary_sha256": "b00eb9d7fa550aa6e2e3baf33870207e180d05d6756535f239712472352e29e3"
+    },
+    {
+      "study_id": "human_task_structure_v1",
+      "tag": "human-task-structure-v1",
+      "verification": "results/human_task_structure_v1/verification.json",
+      "report": "docs/learning-measurement-continuation-findings.md",
+      "primary": "results/human_task_structure_v1/audit.json",
+      "role": "historical_task_source_gate",
+      "verified": true,
+      "verification_sha256": "4482589f64eb4a404dcf55029d899fec2fa95765d90dd87596cce856938bb1e4",
+      "report_sha256": "2cdf27423ac948a4d3cfb332235c7beebc6d98412b0bfc91908db445abaa65ad",
+      "primary_sha256": "f4e777748518a1490bc6ec19b4c3c0caf6e560e6cfa1ca85f5e2e8c227b01547"
+    },
+    {
+      "study_id": "feedback_transition_v1",
+      "tag": "feedback-transition-v1",
+      "verification": "results/feedback_transition_v1/verification.json",
+      "report": "docs/learning-measurement-continuation-findings.md",
+      "primary": "results/feedback_transition_v1/metrics.json",
+      "role": "descriptive_feedback_transition_not_similarity",
+      "verified": true,
+      "verification_sha256": "0442351aa89c0b8745974787caba0c8dbfa62fa12c56ba2c9b740c7dfa04c181",
+      "report_sha256": "2cdf27423ac948a4d3cfb332235c7beebc6d98412b0bfc91908db445abaa65ad",
+      "primary_sha256": "b348e398ecfdb3e30a1c2971b001d4d657ce034179de1ac34ad4fe7ab939dbcb"
+    },
+    {
+      "study_id": "metric_calibration_v1",
+      "tag": "metric-calibration-v1",
+      "verification": "results/metric_calibration_v1/verification.json",
+      "report": "docs/metric-calibration-findings.md",
+      "primary": "results/metric_calibration_v1/metrics.json",
+      "role": "metric_identifiability_counterexamples",
+      "verified": true,
+      "verification_sha256": "c3595b6c1465c4d859c43261505809e9a562dbdc29ab5ef378d85ffd29973823",
+      "report_sha256": "24623092b4aa32093db8c8095369329c93ca37c2846a353a3dd2fc1e07dc071b",
+      "primary_sha256": "4f97e48674458b9d40c89f449b899d4bd9f2c0442281ab89d082c64b14b8bd1b"
+    },
+    {
+      "study_id": "stochastic_feedback_linear_v1",
+      "tag": "stochastic-feedback-linear-v1",
+      "verification": "results/stochastic_feedback_linear_v1/verification.json",
+      "report": "docs/stochastic-feedback-continuation-findings.md",
+      "primary": "results/stochastic_feedback_linear_v1/summary.json",
+      "role": "stochastic_linear_learning_control",
+      "verified": true,
+      "verification_sha256": "0adfedda8622093275e2f7f441cdbba3e5caafce18fda8af097d483ee7d72f83",
+      "report_sha256": "baec3ef584302e704f6e133eab36e9155da712dcea33da7e3e055d8f22558de5",
+      "primary_sha256": "52334621788a665d8a212b254565b3fd9d37254880c8d129a75873086dd0b965"
+    },
+    {
+      "study_id": "stochastic_feedback_network_v1",
+      "tag": "stochastic-feedback-network-v1",
+      "verification": "results/stochastic_feedback_network_v1/verification.json",
+      "report": "docs/stochastic-feedback-continuation-findings.md",
+      "primary": "results/stochastic_feedback_network_v1/summary.json",
+      "role": "stochastic_network_learning_comparison",
+      "verified": true,
+      "verification_sha256": "72ccbcf336686adf959b8503c2530c9b63f572c566695294c4607e3b1357682f",
+      "report_sha256": "baec3ef584302e704f6e133eab36e9155da712dcea33da7e3e055d8f22558de5",
+      "primary_sha256": "e826d0eb4a4a02645cc82f6556df028e0f50998f643ddd3b5703bd3654fd44b7"
+    },
+    {
+      "study_id": "learning_ablation_v1",
+      "tag": "learning-ablation-v1",
+      "verification": "results/learning_ablation_v1/verification.json",
+      "report": "docs/learning-ablation-findings-v2.md",
+      "primary": "results/learning_ablation_v1/summary.json",
+      "role": "quantity_learning_internal_output_ablation",
+      "verified": true,
+      "verification_sha256": "d72abfef66a7ca1629b21718cee8258cc5361eda75ac8736c554c9c2ab8a5452",
+      "report_sha256": "23d19774ebea237fa9a8211dcc68a87b8035cdd3e4eaf33f167c12ac5dd32c9e",
+      "primary_sha256": "368ff86a9264f3fa499c4dc795d310db4669d8c35833658c923eb1b1b70e119c"
+    },
+    {
+      "study_id": "state_decomposition_v1",
+      "tag": "state-decomposition-v1",
+      "verification": "results/state_decomposition_v1/verification.json",
+      "report": "docs/state-decomposition-findings.md",
+      "primary": "results/state_decomposition_v1/summary.json",
+      "role": "quantity_frozen_state_decomposition",
+      "verified": true,
+      "verification_sha256": "8cc18e89dd4da0c44994a7d564ab3679db049b53e28a5075986432699cda4085",
+      "report_sha256": "999bd6eaada4dbbfa14227eee8f7feff8933d534da91be0d4860723d074ce9f3",
+      "primary_sha256": "0228327afe3eb168b868aea63f400320e88a9b712efd66fa48af96d21499c22d"
+    },
+    {
+      "study_id": "conditional_transition_v1",
+      "tag": "conditional-transition-v1",
+      "verification": "results/conditional_transition_v1/verification.json",
+      "report": "docs/conditional-transition-findings.md",
+      "primary": "results/conditional_transition_v1/metrics.json",
+      "role": "conditional_metric_descriptive_identifiability",
+      "verified": true,
+      "verification_sha256": "2e0314df24b73aa53b85a4bc64e2b0a188e15b1afbab5501ccb854ccfb12f573",
+      "report_sha256": "ce8d3d0368dcd57339e851042095e730240e1d25577f03e8d95e7ebec46c6b2e",
+      "primary_sha256": "055d927aa862fd1dde2a9529871dd87d023ad3e5a4631e61d352c038d8aba1a4"
+    },
+    {
+      "study_id": "time_mixture_v1",
+      "tag": "time-mixture-v1",
+      "verification": "results/time_mixture_v1/verification.json",
+      "report": "docs/time-mixture-findings.md",
+      "primary": "results/time_mixture_v1/metrics.json",
+      "role": "exact_time_mixture_counterexample",
+      "verified": true,
+      "verification_sha256": "4df094e5bb618cfb7bbcd6f938f97a2ed26ea5899398c8358e2096a90494f902",
+      "report_sha256": "8ccc842ccba6121c385b988c6f8b316cc8e5cd067f191a3a17ed5f1af0f44c4c",
+      "primary_sha256": "d200fb671b9f34324585cbc06c97f6f0aed06bc3aeb9e30e920dd0511b1db932"
+    },
+    {
+      "study_id": "phase4_synthesis_v1",
+      "tag": "phase4-synthesis-v1",
+      "verification": "results/phase4_synthesis_v1/verification.json",
+      "report": "docs/phase4-synthesis.md",
+      "primary": "results/phase4_synthesis_v1/synthesis.json",
+      "role": "bounded_historical_measurement_synthesis",
+      "verified": true,
+      "verification_sha256": "9f2289cf30e6c07273339ae3f3f76b098e5ae444f8aa8e882ce883df07b0d29c",
+      "report_sha256": "40e2fb7383eb03119ed1a661a1a76e0f134fbfe97555ae1655396d1f056ff921",
+      "primary_sha256": "e8c2d4d59c93c914050f2604e67595cdd351babe434625fd0cbf31bf527cbddc"
+    },
+    {
+      "study_id": "human_shell_v1",
+      "tag": "human-shell-v1-design-limited",
+      "verification": "results/human_shell_v1/verification.json",
+      "report": "docs/human-shell-rng-design-note.md",
+      "primary": "results/human_shell_v1/summary.json",
+      "role": "preserved_rng_design_limited_comparison",
+      "verified": true,
+      "verification_sha256": "d78566c41e888d67117f2b50f8d71894e21bff295e3b7630b11c459ee0ae00ae",
+      "report_sha256": "25ca325fb40ebc8672fa33acd0a9167a78a97ff925d1ab74b4648d20fb157500",
+      "primary_sha256": "9782976dd364cd4f38419e95eb72530bbc59fb7a74b663fe7f693160585da9a4"
+    },
+    {
+      "study_id": "human_shell_rng_v2",
+      "tag": "human-shell-comparison-v2",
+      "verification": "results/human_shell_rng_v2/verification.json",
+      "report": "docs/human-shell-findings.md",
+      "primary": "results/human_shell_rng_v2/summary.json",
+      "role": "repaired_direct_human_model_comparison",
+      "verified": true,
+      "verification_sha256": "48e4a9240d7cb8f0bc8c4f2a36fde83eecd254032f0671d10b1b786f82ab97ab",
+      "report_sha256": "bd36101c46cc3595949e6644ce3e63293f1e1db4dbd65e794ccd7e975d6a83e1",
+      "primary_sha256": "042518425a54e558b1fc99298f9f7f1ca98a734d85f6efdc3931994f5985b838"
+    },
+    {
+      "study_id": "shell_credit_v1",
+      "tag": "shell-credit-v1",
+      "verification": "results/shell_credit_v1/verification.json",
+      "report": "docs/shell-credit-findings.md",
+      "primary": "results/shell_credit_v1/summary.json",
+      "role": "stationary_cross_cue_update_intervention",
+      "verified": true,
+      "verification_sha256": "8b2a40954170e685afaed77a2478e8236a0e47af44f73bf5ba4f38acdc4c88d0",
+      "report_sha256": "0223db791a073d616d396a7f7c60653c9a2a2ee4eb2d753ad98b99a0b50522f6",
+      "primary_sha256": "3bf1d5dc5d384e15b63fdfa07695856aee8d8897c872f9b7e960459d30e828b7"
+    },
+    {
+      "study_id": "shell_behavior_v1",
+      "tag": "shell-behavior-v1",
+      "verification": "results/shell_behavior_v1/verification.json",
+      "report": "docs/shell-behavior-findings.md",
+      "primary": "results/shell_behavior_v1/summary.json",
+      "role": "saved_trace_description_and_planned_metric_counterexample",
+      "verified": true,
+      "verification_sha256": "f917d78f2680374fb58d1a3bc751878e09f1795e42466019444f4a3e1b92ad24",
+      "report_sha256": "96e1140d115357eebf925c828a108378329902fc6dd4c7cff9b46c76ae239308",
+      "primary_sha256": "da34b11c2faa0574fc4b314150b0bb6dd6c8a7a8d822765ebaea6289af2cf08a"
+    },
+    {
+      "study_id": "pattern_rule_v1",
+      "tag": "pattern-rule-v1",
+      "verification": "results/pattern_rule_v1/verification.json",
+      "report": "docs/pattern-rule-findings.md",
+      "primary": "results/pattern_rule_v1/summary.json",
+      "role": "artificial_pattern_acquisition_then_ood",
+      "verified": true,
+      "verification_sha256": "7729299b2b77ea2d5e1af85b484c3b672d8488a89c6dbe73a2d9b1a92008688e",
+      "report_sha256": "091979591fd985f670f040f46470fa380767fbebeda9967d622b3e09c87cab25",
+      "primary_sha256": "815c3f3d2ea37e65fd7f5adb453b5a637b264d159817752041ee728e94cdd961"
+    },
+    {
+      "study_id": "interference_order_v1",
+      "tag": "interference-order-v1",
+      "verification": "results/interference_order_v1/verification.json",
+      "report": "docs/interference-order-findings.md",
+      "primary": "results/interference_order_v1/summary.json",
+      "role": "contextual_curricula_with_acquisition_and_joint_gates",
+      "verified": true,
+      "verification_sha256": "175f2e6c7e6c70a8cb8ee967d598e84b6d5dd7efe380a674a6e1c06e52e72c08",
+      "report_sha256": "190e84d1390de2c08656a4e6a7093552b3bf7c21f864d82e8888b19213f2d8c3",
+      "primary_sha256": "e83f9cb51e6c85f5a50b049091009f9a1ff289598162dd508fbb98c8aee3e5ef"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "model_scope",
+      "question": 1,
+      "level": 0,
+      "status": "bounded",
+      "text_ko": "공개 v783 부분집합의 KC→MBON 한 단계 계산 경로를 사용한다.",
+      "limits_ko": "시각 LC11·DAN 동역학·전체 재귀 뇌 회로는 구현하지 않았다.",
+      "observations": [
+        {
+          "file": "docs/drosomem-audit.json",
+          "pointer": "/reuse_plan/first_model",
+          "value": "New independently implemented one-hop KC to MBON projection"
+        },
+        {
+          "file": "docs/drosomem-audit.json",
+          "pointer": "/reuse_plan/data_subset",
+          "value": "flywire_783_mb_left_kc512_s701"
+        },
+        {
+          "file": "docs/drosomem-audit.json",
+          "pointer": "/reuse_plan/ignore_for_initial_model",
+          "value": [
+            "DAN/APL dynamics",
+            "Recurrent whole-graph dynamics",
+            "Visual LC11 circuit"
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "quantity_learning",
+      "question": 1,
+      "level": 2,
+      "status": "bounded",
+      "text_ko": "순서가 제공된 인공 수량 입력에서 학습과 표현 의존성이 확인됐다.",
+      "limits_ko": "수량을 시각적으로 추출하거나 초파리의 수학 이해를 재현한 결과가 아니다.",
+      "observations": [
+        {
+          "file": "results/encoding_v1/summary.json",
+          "pointer": "/family_verdicts/1/qualified_seed_count",
+          "value": 10
+        },
+        {
+          "file": "results/encoding_v1/summary.json",
+          "pointer": "/family_verdicts/1/criterion_met",
+          "value": true
+        }
+      ]
+    },
+    {
+      "claim_id": "simple_reward_learning",
+      "question": 1,
+      "level": 2,
+      "status": "supported",
+      "text_ko": "별도 단순 선형 대조도 보상으로 연습 과제를 습득했다.",
+      "limits_ko": "단순한 표현과 학습 규칙으로 설명할 대안이며 실제 배선의 고유 우위를 뜻하지 않는다.",
+      "observations": [
+        {
+          "file": "results/reward_linear_v1/summary.json",
+          "pointer": "/hypotheses/H_R",
+          "value": {
+            "criterion_met": true,
+            "mean_iid_reward_gap": 0.48865709781276045,
+            "positive_seed_count": 10,
+            "acquisition_count": 10
+          }
+        },
+        {
+          "file": "results/stochastic_feedback_linear_v1/summary.json",
+          "pointer": "/primary_hypothesis/probabilistic_acquisition_count",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "claim_id": "pattern_acquisition",
+      "question": 1,
+      "level": 2,
+      "status": "not_supported",
+      "text_ko": "인공 패턴의 주 가소성 모델은 연습 습득 0/10으로 사전 기준을 충족하지 못했다.",
+      "limits_ko": "이 표현·400시행·모델의 결과이며 생물학적 불가능성이나 모든 학습법의 실패가 아니다.",
+      "observations": [
+        {
+          "file": "results/pattern_rule_v1/summary.json",
+          "pointer": "/H_acquisition",
+          "value": {
+            "condition": "plastic",
+            "supported": false
+          }
+        },
+        {
+          "file": "results/pattern_rule_v1/summary.json",
+          "pointer": "/families/1/acquisition_pass_seeds",
+          "value": 0
+        },
+        {
+          "file": "results/pattern_rule_v1/summary.json",
+          "pointer": "/families/8/acquisition_pass_seeds",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "claim_id": "internal_intervention",
+      "question": 2,
+      "level": 2,
+      "status": "supported",
+      "text_ko": "같은 첫 학습 상태의 반전 개입에서 내부 갱신 허용이 결과를 바꿨다.",
+      "limits_ko": "전체 정책 경로 효과이며 추가 갱신 자원·후속 보상 경로까지 같거나 생물학적 규칙이라는 주장은 아니다.",
+      "observations": [
+        {
+          "file": "results/learning_ablation_v1/summary.json",
+          "pointer": "/primary_hypotheses/H_I/criterion_met",
+          "value": true
+        },
+        {
+          "file": "results/learning_ablation_v1/summary.json",
+          "pointer": "/primary_hypotheses/H_I/mean_effect",
+          "value": 0.2611788773506773
+        },
+        {
+          "file": "results/learning_ablation_v1/summary.json",
+          "pointer": "/primary_hypotheses/H_H/mean_effect",
+          "value": 0.3693634218935594
+        }
+      ]
+    },
+    {
+      "claim_id": "state_decomposition",
+      "question": 2,
+      "level": 0,
+      "status": "supported",
+      "text_ko": "저장된 출력·내부 특징·교차항을 별도 산술로 분해했다.",
+      "limits_ko": "정적 재조합을 실제 학습 분기나 생물학적 원인의 기여율로 읽지 않는다.",
+      "observations": [
+        {
+          "file": "results/state_decomposition_v1/summary.json",
+          "pointer": "/arithmetic_identity_passed",
+          "value": true
+        },
+        {
+          "file": "results/state_decomposition_v1/summary.json",
+          "pointer": "/cases",
+          "value": 204800
+        },
+        {
+          "file": "results/state_decomposition_v1/summary.json",
+          "pointer": "/learning_updates",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "claim_id": "cross_cue_credit",
+      "question": 2,
+      "level": 2,
+      "status": "supported",
+      "text_ko": "보상 규칙이 고정된 별도 과제에서 다른 문제로 번지는 출력 갱신을 분리하자 최종 수행이 높아졌다.",
+      "limits_ko": "추가 고정 계수와 행렬 풀이가 필요한 계산적 대조이며 원 인간 과제 실패의 전체 원인이나 신경 기작은 아니다.",
+      "observations": [
+        {
+          "file": "results/shell_credit_v1/summary.json",
+          "pointer": "/H_credit",
+          "value": {
+            "effect_criterion_met": true,
+            "mean_endpoint_effect": 0.2238343002341348,
+            "positive_seeds": 5,
+            "n_seeds": 5,
+            "isolated_acquisition_gate": true,
+            "supported": true,
+            "interpretation": "stationary computational cross-cue update intervention; not the cause of the historical human-task failure"
+          }
+        },
+        {
+          "file": "results/shell_credit_v1/summary.json",
+          "pointer": "/acquisition/0/mean_endpoint_accuracy",
+          "value": 0.6190182634950381
+        },
+        {
+          "file": "results/shell_credit_v1/summary.json",
+          "pointer": "/acquisition/1/mean_endpoint_accuracy",
+          "value": 0.8428525637291729
+        }
+      ]
+    },
+    {
+      "claim_id": "head_scaling",
+      "question": 2,
+      "level": 2,
+      "status": "bounded",
+      "text_ko": "같은 이력에서 출력 계수 축소가 반전 결과를 바꾼 계산 효과를 보존한다.",
+      "limits_ko": "즉시 경계 변화와 이후 학습 효과를 구분하며 자연 망각·본질적 학습 속도·교육 효과로 확대하지 않는다.",
+      "observations": [
+        {
+          "file": "results/head_attenuation_v1/summary.json",
+          "pointer": "/primary_hypothesis/criterion_met",
+          "value": true
+        },
+        {
+          "file": "results/head_attenuation_v1/summary.json",
+          "pointer": "/primary_hypothesis/mean_endpoint_benefit",
+          "value": 0.37025106468720415
+        }
+      ]
+    },
+    {
+      "claim_id": "scalar_transfer",
+      "question": 3,
+      "level": 3,
+      "status": "bounded",
+      "text_ko": "순서를 가진 인공 수량 표현에서는 별도 선형 학습자도 습득 후 새 수량쌍 기준을 통과했다.",
+      "limits_ko": "입력이 순서를 제공한 제한적 전이이며 추상적 수학 규칙 발견이나 커넥톰 고유 성능의 증거가 아니다.",
+      "observations": [
+        {
+          "file": "results/reward_linear_v1/summary.json",
+          "pointer": "/hypotheses/H_G",
+          "value": {
+            "criterion_met": true,
+            "joint_identity_transfer_count": 10
+          }
+        }
+      ]
+    },
+    {
+      "claim_id": "linear_explanation",
+      "question": 3,
+      "level": 0,
+      "status": "bounded",
+      "text_ko": "기존 신경망 선택 확률은 단순 선형 참조로 가까이 설명되는 범위가 있었다.",
+      "limits_ko": "참조는 원 모델 점수를 받았다. 독립 보상 학습이나 같은 내부 기작의 증거가 아니다.",
+      "observations": [
+        {
+          "file": "results/linearity_v1/summary.json",
+          "pointer": "/family_verdicts/1/mean_affine_probability_mae",
+          "value": 0.0038632548605362907
+        },
+        {
+          "file": "results/linearity_v1/summary.json",
+          "pointer": "/family_verdicts/1/criterion_met",
+          "value": true
+        }
+      ]
+    },
+    {
+      "claim_id": "pattern_generalization",
+      "question": 3,
+      "level": 3,
+      "status": "not_assessable",
+      "text_ko": "주 패턴 모델은 습득 gate 미달로 세 새 입력 집합의 일반화 판정을 보류한다.",
+      "limits_ko": "습득을 실패한 수치를 일반화 성공 또는 학습 후 일반화 실패로 대체하지 않는다.",
+      "observations": [
+        {
+          "file": "results/pattern_rule_v1/summary.json",
+          "pointer": "/H_generalization",
+          "value": [
+            {
+              "set": "new_alphabet",
+              "joint_acquisition_and_ood_pass_seeds": 0,
+              "supported": false,
+              "status": "not_assessable_without_acquisition"
+            },
+            {
+              "set": "new_alphabet_phase",
+              "joint_acquisition_and_ood_pass_seeds": 0,
+              "supported": false,
+              "status": "not_assessable_without_acquisition"
+            },
+            {
+              "set": "new_length",
+              "joint_acquisition_and_ood_pass_seeds": 0,
+              "supported": false,
+              "status": "not_assessable_without_acquisition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "memorization_control",
+      "question": 3,
+      "level": 3,
+      "status": "not_supported",
+      "text_ko": "네 입력을 보상으로 외운 Q는 습득했지만 미학습 입력 전이를 통과하지 못했다.",
+      "limits_ko": "새 입력에서 p=.5인 설계상의 암기 대조다. 다른 일반화 모델의 불가능성은 아니다.",
+      "observations": [
+        {
+          "file": "results/pattern_rule_v1/summary.json",
+          "pointer": "/families/8/acquisition_supported",
+          "value": true
+        },
+        {
+          "file": "results/pattern_rule_v1/summary.json",
+          "pointer": "/families/8/ood",
+          "value": [
+            {
+              "set": "new_alphabet",
+              "joint_acquisition_and_ood_pass_seeds": 0,
+              "supported": false,
+              "status": "not_supported"
+            },
+            {
+              "set": "new_alphabet_phase",
+              "joint_acquisition_and_ood_pass_seeds": 0,
+              "supported": false,
+              "status": "not_supported"
+            },
+            {
+              "set": "new_length",
+              "joint_acquisition_and_ood_pass_seeds": 0,
+              "supported": false,
+              "status": "not_supported"
+            }
+          ]
+        },
+        {
+          "file": "results/pattern_rule_v1/summary.json",
+          "pointer": "/shortcuts/unique_strings",
+          "value": 16
+        },
+        {
+          "file": "results/pattern_rule_v1/summary.json",
+          "pointer": "/shortcuts/phase_is_balanced_generalization_test",
+          "value": false
+        }
+      ]
+    },
+    {
+      "claim_id": "drosomem_failure_retained",
+      "question": 3,
+      "level": 0,
+      "status": "not_supported",
+      "text_ko": "기존 독립 DrosoMem M11의 습득·전이 기준 미달을 그대로 계승한다.",
+      "limits_ko": "이번 종합에서 과거 실험 전체를 재실행한 것이 아니라 고정 원 요약을 감사했다.",
+      "observations": [
+        {
+          "file": "docs/drosomem-audit.json",
+          "pointer": "/repository/commit",
+          "value": "7fb156c193c7a499fc2266a164b705729abbab21"
+        },
+        {
+          "file": "docs/drosomem-audit.json",
+          "pointer": "/repository/upstream_modified",
+          "value": false
+        },
+        {
+          "file": "docs/drosomem-audit.json",
+          "pointer": "/M11_archived_summary/git_blob_sha256",
+          "value": "661bc66ee2a655f8d336747f64c139de2a38b4a149bd6d1fb2cef6fba3e82720"
+        },
+        {
+          "file": "docs/drosomem-audit.json",
+          "pointer": "/M11_archived_summary/content/primary_pass",
+          "value": false
+        }
+      ]
+    },
+    {
+      "claim_id": "reversal_history",
+      "question": 4,
+      "level": 2,
+      "status": "supported",
+      "text_ko": "단순 모델도 이전 반응의 영향을 받아 반전과 처음부터 학습의 결과가 달랐다.",
+      "limits_ko": "생물학적 기억·모델 고유 학습 속도·인간과 동일 원리의 증거가 아니다.",
+      "observations": [
+        {
+          "file": "results/bandit_reversal_v1/summary.json",
+          "pointer": "/primary_hypothesis",
+          "value": {
+            "name": "H_B",
+            "condition": "linear_normalized",
+            "n_seeds": 10,
+            "mean_endpoint_cost": 0.5245449722473937,
+            "sd_endpoint_cost": 0.24080895916800138,
+            "positive_seed_count": 10,
+            "high_prefix_acquisition_count": 10,
+            "fresh_acquisition_count": 10,
+            "criterion_met": true
+          }
+        }
+      ]
+    },
+    {
+      "claim_id": "contextual_interference",
+      "question": 4,
+      "level": 2,
+      "status": "not_assessable",
+      "text_ko": "주 가소성 모델의 상충 과제 뒤 유지 손실의 사전 판정은 not_assessable이다.",
+      "limits_ko": "각 과제 습득과 공동학습·충돌 입력 기준을 먼저 요구한다. gate가 닫히면 기술적 수치만 남기며 효과를 확증하지 않는다.",
+      "observations": [
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/qualification_supported",
+          "value": false
+        },
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/H_interference",
+          "value": {
+            "supported": false,
+            "status": "not_assessable",
+            "mean_retention_loss": -0.019196562148705503,
+            "ci90": [
+              -0.02514287093724811,
+              -0.012845094325649651
+            ]
+          }
+        },
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/families/1/qualification_pass_seeds",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "claim_id": "contextual_order",
+      "question": 4,
+      "level": 2,
+      "status": "not_assessable",
+      "text_ko": "주 가소성 모델의 A→B와 B→A의 학습 순서의 사전 판정은 not_assessable이다.",
+      "limits_ko": "각 과제 습득과 공동학습·충돌 입력 기준을 먼저 요구한다. gate가 닫히면 기술적 수치만 남기며 효과를 확증하지 않는다.",
+      "observations": [
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/qualification_supported",
+          "value": false
+        },
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/H_order",
+          "value": {
+            "supported": false,
+            "status": "not_assessable",
+            "mean_order_delta": -0.0003185509155236188,
+            "ci90": [
+              -0.006545670363546001,
+              0.005929160612490878
+            ]
+          }
+        },
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/families/1/qualification_pass_seeds",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "claim_id": "context_joint_control",
+      "question": 4,
+      "level": 2,
+      "status": "bounded",
+      "text_ko": "맥락별 Q와 신경망의 개별·공동학습 성적을 모두 보존한다.",
+      "limits_ko": "네 일관 문제만 맞혀 전체 평균이 높아지는 지름길을 충돌 문제별 기준으로 막았다.",
+      "observations": [
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/analytic_context_blind_witness",
+          "value": {
+            "consistent_id_accuracy": 1.0,
+            "conflicting_id_accuracy": 0.5,
+            "overall_accuracy": 0.8333333333333334,
+            "each_class_accuracy": 0.8333333333333334,
+            "passes_old_mean_and_class_gate": true,
+            "passes_conflict_qualification": false
+          }
+        },
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/families/8/qualification_pass_seeds",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "claim_id": "idle_scope",
+      "question": 4,
+      "level": 0,
+      "status": "untested",
+      "text_ko": "갱신 없는 대기 복제는 상태 불변 점검이며 자연 시간 망각은 미검증이다.",
+      "limits_ko": "시간 상수·자연 감쇠를 구현하지 않은 모형에서 망각의 생물학적 부재를 주장하지 않는다.",
+      "observations": [
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/interpretation/natural_time_forgetting_tested",
+          "value": false
+        },
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/interpretation/idle_is_state_copy_invariant",
+          "value": true
+        },
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/counts/idle_feedback_trials",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "claim_id": "direct_human_similarity",
+      "question": 5,
+      "level": 4,
+      "status": "not_supported",
+      "text_ko": "실제 공개 조개 과제의 직접 비교에서 주 모델의 등록된 인간 행동 유사성은 지지되지 않았다.",
+      "limits_ko": "한 과제·모델·혼합 코호트의 결과다. 모든 인간/초파리 공통 원리의 부재나 인간 학습 실패를 뜻하지 않는다.",
+      "observations": [
+        {
+          "file": "results/human_shell_rng_v2/summary.json",
+          "pointer": "/H_similarity",
+          "value": {
+            "primary_condition": "plastic",
+            "supported": false,
+            "claim": "behavioral_equivalence_only",
+            "margin": 0.1,
+            "notice": "same three summaries within operational margin; not common mechanism or learning proof"
+          }
+        },
+        {
+          "file": "results/human_shell_rng_v2/summary.json",
+          "pointer": "/learning_qualification",
+          "value": {
+            "human_initial_gain_ci90": [
+              0.11494252873563221,
+              0.25287356321839083
+            ],
+            "model_initial_gain_ci90": [
+              -0.05982758620689659,
+              0.07241379310344824
+            ],
+            "human_gain_observed": true,
+            "model_gain_observed": false,
+            "human_gain_status": "observed",
+            "gated_learning_pattern_supported": false,
+            "notice": "human pretraining/experience prevents interpreting absent gain as absent learning"
+          }
+        },
+        {
+          "file": "results/human_shell_rng_v2/summary.json",
+          "pointer": "/behavior_family_comparisons/1/metrics/2",
+          "value": {
+            "metric": "reversal_recovery",
+            "human_mean": 0.3122605363984674,
+            "model_mean": -0.0030651340996168588,
+            "difference": -0.31532567049808424,
+            "ci90": [
+              -0.4042337164750958,
+              -0.22871647509578547
+            ],
+            "equivalent": false,
+            "status": "outside_margin"
+          }
+        }
+      ]
+    },
+    {
+      "claim_id": "human_prediction",
+      "question": 5,
+      "level": 4,
+      "status": "not_supported",
+      "text_ko": "다음 인간 선택 예측은 균등보다 나았지만 편향·반복 대조를 모두 넘는 기준은 미달했다.",
+      "limits_ko": "세 예측 대조와 자율 행동 유사성을 구분한다. 사람의 사전 연습·시각·운동·실제 시간은 재현하지 않았다.",
+      "observations": [
+        {
+          "file": "results/human_shell_rng_v2/summary.json",
+          "pointer": "/H_prediction",
+          "value": {
+            "primary_condition": "plastic",
+            "supported": false,
+            "minimum_improvement_nats": 0.01,
+            "contrasts": [
+              {
+                "baseline": "uniform",
+                "mean_improvement_nats": 0.027100757068630524,
+                "ci90": [
+                  0.0138171543138575,
+                  0.03997941299582021
+                ],
+                "passed": true
+              },
+              {
+                "baseline": "bias",
+                "mean_improvement_nats": -0.022574043787609247,
+                "ci90": [
+                  -0.04015869927073437,
+                  -0.006684220796720543
+                ],
+                "passed": false
+              },
+              {
+                "baseline": "persistence",
+                "mean_improvement_nats": -0.04275710430798365,
+                "ci90": [
+                  -0.08659626474177753,
+                  0.006525056187373817
+                ],
+                "passed": false
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "claim_id": "rng_design_history",
+      "question": 5,
+      "level": 0,
+      "status": "design_limited",
+      "text_ko": "첫 인간 비교의 자율 난수 주소 중복과 별도 수정 이력을 보존한다.",
+      "limits_ko": "산술 검산 통과와 추론 설계 타당성은 별개다. 첫 자율 결과를 새 눈가림 증거로 합치지 않는다.",
+      "observations": [
+        {
+          "file": "results/human_shell_rng_v2/verification.json",
+          "pointer": "/original_autonomous_design_limitation_preserved",
+          "value": true
+        },
+        {
+          "file": "results/human_shell_rng_v2/verification.json",
+          "pointer": "/new_calibration_observations",
+          "value": 0
+        },
+        {
+          "file": "results/human_shell_rng_v2/verification.json",
+          "pointer": "/conditional_arrays_byte_identical",
+          "value": true
+        }
+      ]
+    },
+    {
+      "claim_id": "behavior_metric_limits",
+      "question": 5,
+      "level": 0,
+      "status": "supported",
+      "text_ko": "같은 세 점수의 재생 반례와 보상 부호 개입은 점수만으로 학습 기작을 식별할 수 없음을 보인다.",
+      "limits_ko": "계획된 구성적 반례이며 공정한 학습 경쟁자·새 인간 전략·인간 유사성 확증이 아니다.",
+      "observations": [
+        {
+          "file": "results/shell_behavior_v1/summary.json",
+          "pointer": "/metric_identification",
+          "value": {
+            "planned_counterexample_verified": true,
+            "three_summaries_uniquely_identify_reward_learning": false,
+            "scripted_policy_online_updates": 0,
+            "scripted_policy_uses_precomputed_action_tape": true,
+            "scripted_policy_is_eligible_fair_learning_control": false,
+            "notice": "Exact equality was planned by construction; it limits mechanism identification and is not a new human learning effect."
+          }
+        },
+        {
+          "file": "results/shell_behavior_v1/summary.json",
+          "pointer": "/reward_intervention",
+          "value": {
+            "q_vs_fixed_tape_disagreeing_choices": 18201,
+            "evaluated_choices": 50112,
+            "disagreement_fraction": 0.36320641762452105,
+            "fixed_tape_choice_change": 0,
+            "notice": "Reward signs reversed in a synthetic intervention; original human rewards and original comparison are unchanged."
+          }
+        }
+      ]
+    },
+    {
+      "claim_id": "human_source_gate",
+      "question": 5,
+      "level": 0,
+      "status": "bounded",
+      "text_ko": "다른 공개 카드 자료의 25개 원본 구조 검증과 역사적 실행판의 미확인을 구분한다.",
+      "limits_ko": "닫힌 과거 자료 조건은 조개 자료 비교가 완료돼도 열리지 않는다.",
+      "observations": [
+        {
+          "file": "results/human_task_structure_v1/audit.json",
+          "pointer": "/gate",
+          "value": {
+            "source_coded_descriptive_metric_allowed": true,
+            "exact_historical_task_execution_version_verified": false,
+            "direct_human_model_similarity_allowed": false
+          }
+        },
+        {
+          "file": "results/phase4_synthesis_v1/synthesis.json",
+          "pointer": "/verified_original_human_records",
+          "value": 25
+        },
+        {
+          "file": "results/phase4_synthesis_v1/synthesis.json",
+          "pointer": "/unverified_original_human_records_retained",
+          "value": 49
+        }
+      ]
+    },
+    {
+      "claim_id": "time_mixture_counterexample",
+      "question": 5,
+      "level": 0,
+      "status": "supported",
+      "text_ko": "시간별 선택 성향과 보상 확률이 함께 변하는 무학습 반례를 보존한다.",
+      "limits_ko": "피드백별 조건부 차이는 곧 보상의 인과 효과가 아니다. 기존 인간/모델 기록의 실제 원인을 특정한 것은 아니다.",
+      "observations": [
+        {
+          "file": "results/time_mixture_v1/metrics.json",
+          "pointer": "/hypotheses",
+          "value": {
+            "time_mixture_counterexample": true,
+            "constant_p_control_zero": true,
+            "constant_q_control_zero": true,
+            "joint_constant_control_zero": true,
+            "exact_time_conditional_zero": true
+          }
+        }
+      ]
+    },
+    {
+      "claim_id": "biological_education_limits",
+      "question": 5,
+      "level": 0,
+      "status": "untested",
+      "text_ko": "공통 신경 기작과 고등 수학교육 효과는 검증하지 않았다.",
+      "limits_ko": "행동 유사성이 나와도 Level 5를 자동 주장할 수 없다. 이번 직접 유사성도 미지지다.",
+      "observations": [
+        {
+          "file": "results/human_shell_rng_v2/summary.json",
+          "pointer": "/mechanism_claim",
+          "value": false
+        },
+        {
+          "file": "results/human_shell_rng_v2/summary.json",
+          "pointer": "/educational_claim",
+          "value": false
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "question": 1,
+      "text_ko": "수량과 단순 규칙을 경험으로 학습하는가?",
+      "claim_ids": [
+        "model_scope",
+        "quantity_learning",
+        "simple_reward_learning",
+        "pattern_acquisition"
+      ]
+    },
+    {
+      "question": 2,
+      "text_ko": "학습 중 활성·내부·출력은 어떻게 바뀌는가?",
+      "claim_ids": [
+        "internal_intervention",
+        "state_decomposition",
+        "cross_cue_credit",
+        "head_scaling"
+      ]
+    },
+    {
+      "question": 3,
+      "text_ko": "미학습 사례·규칙에 일반화하는가?",
+      "claim_ids": [
+        "scalar_transfer",
+        "linear_explanation",
+        "pattern_generalization",
+        "memorization_control",
+        "drosomem_failure_retained"
+      ]
+    },
+    {
+      "question": 4,
+      "text_ko": "반복·반전·간섭·순서·유지는 어떤 영향을 주는가?",
+      "claim_ids": [
+        "reversal_history",
+        "contextual_interference",
+        "contextual_order",
+        "context_joint_control",
+        "idle_scope"
+      ]
+    },
+    {
+      "question": 5,
+      "text_ko": "인간 기초 학습과 정량 비교할 공통점과 차이는 무엇인가?",
+      "claim_ids": [
+        "direct_human_similarity",
+        "human_prediction",
+        "rng_design_history",
+        "behavior_metric_limits",
+        "human_source_gate",
+        "time_mixture_counterexample",
+        "biological_education_limits"
+      ]
+    }
+  ],
+  "counts": {
+    "studies": 28,
+    "claims": 25,
+    "observations": 60,
+    "questions": 5,
+    "new_learning_updates": 0,
+    "new_rng_draws": 0,
+    "new_human_experiments": 0,
+    "new_effect_tests": 0
+  },
+  "interpretation": {
+    "bounded_synthesis_complete": true,
+    "all_possible_phase2_phase3_work_complete": false,
+    "level4_similarity_supported": false,
+    "shared_neural_mechanism_claim": false,
+    "education_effect_claim": false
+  }
+}

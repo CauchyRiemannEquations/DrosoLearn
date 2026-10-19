@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "study_id": "phase5_synthesis_v1",
+  "verified_at_utc": "2026-10-19T01:54:06.868423+00:00",
+  "registration_sha256": "542bae1ee4c4f1d4b0d9c6a1433e42b704911b7fcadce0bfc219b53f374ba31b",
+  "summary_sha256": "aeb713ff230d2f71e2023e14ee5c29dea551e4d5fc4b2cc2d677112e2abe9eeb",
+  "scientific_producer_imported": false,
+  "counts": {
+    "verified_historical_studies": 28,
+    "independently_checked_claims": 25,
+    "literal_json_observations": 60,
+    "original_research_questions": 5,
+    "exact_int64_ledgers": 2,
+    "all_study_report_primary_and_verification_hashes_checked": true,
+    "all_observations_resolved_from_frozen_files": true,
+    "negative_and_design_limited_evidence_preserved": true,
+    "claims_are_bounded_synthesis_not_new_effect_tests": true,
+    "new_learning_updates": 0,
+    "new_rng_draws": 0,
+    "new_human_experiments": 0,
+    "new_effect_tests": 0
+  }
+}

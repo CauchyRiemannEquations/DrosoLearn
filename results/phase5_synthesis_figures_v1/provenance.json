@@ -1,0 +1,24 @@
+{
+  "matplotlib_version": "3.10.3",
+  "files": {
+    "credit_endpoints.png": "2072ef651200978d763426c248ccc9cdd17cbb66eb02fecccdcc22351aaa2248",
+    "interference_order.png": "f90cba8b8f38d5002ba0035016513b42baadbfe51d3afad31dbd8fb3ea809b84",
+    "pattern_learning.png": "f62085735484b6681fa6c95f2dd3445534e27a47368a3c1ac0c8c3537655a409",
+    "plotted_values.json": "dbdbcf06dec40125b34a0191e82b5f108c85631f427a6230d47f8706682f56cb"
+  },
+  "created_at_utc": "2026-10-19T01:54:34.775321+00:00",
+  "source_registration_sha256": "542bae1ee4c4f1d4b0d9c6a1433e42b704911b7fcadce0bfc219b53f374ba31b",
+  "summary_sha256": "aeb713ff230d2f71e2023e14ee5c29dea551e4d5fc4b2cc2d677112e2abe9eeb",
+  "verification_sha256": "17689ea97d8e0a7789d8de0a2c8b41cff3c612bf18022e53f10a0229a3c8b55f",
+  "plot_source": "src/drosolearn/phase5_report.py",
+  "plot_source_sha256": "6e6759ecf54a11f51156cb0ab63843a59147fa8c11b5cd39fa6472847b0b3b07",
+  "inputs": {
+    "results/shell_credit_v1/summary.json": "3bf1d5dc5d384e15b63fdfa07695856aee8d8897c872f9b7e960459d30e828b7",
+    "configs/pattern_rule_v1.json": "e5a900e3dfdadde8ac5c4b9b3bb582fd0d04ed8b56807f93f2beb0c6aa7398b2",
+    "results/pattern_rule_v1/arrays.npz": "61a5c3fdfabdebabbf4045333b26e104ba89923adfd0d43999a68c1a2c9c728b",
+    "results/interference_order_v1/summary.json": "e83f9cb51e6c85f5a50b049091009f9a1ff289598162dd508fbb98c8aee3e5ef"
+  },
+  "new_effect_tests": 0,
+  "new_learning_updates": 0,
+  "notice": "Descriptive rendering of independently verified saved results; failed qualification remains failed."
+}

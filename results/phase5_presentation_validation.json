@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T01:56:14.841282+00:00",
+  "numeric_plot_values_match_saved_evidence": true,
+  "all_registered_conditions_retained": true,
+  "gate_failures_visible_in_plot_caption_and_hatches": true,
+  "plot_value_comparison_tolerance": 1e-14,
+  "figure_sha256": {
+    "credit_endpoints.png": "2072ef651200978d763426c248ccc9cdd17cbb66eb02fecccdcc22351aaa2248",
+    "interference_order.png": "f90cba8b8f38d5002ba0035016513b42baadbfe51d3afad31dbd8fb3ea809b84",
+    "pattern_learning.png": "f62085735484b6681fa6c95f2dd3445534e27a47368a3c1ac0c8c3537655a409"
+  },
+  "dimensions": {
+    "credit_endpoints.png": [
+      1248,
+      736
+    ],
+    "interference_order.png": [
+      2528,
+      1024
+    ],
+    "pattern_learning.png": [
+      2112,
+      848
+    ]
+  },
+  "root_visual_inspection": "All three PNGs viewed in tool output; axes, titles, nine condition labels, legends, intervals and hatches readable; no clipping observed.",
+  "new_learning_updates": 0,
+  "new_effect_tests": 0
+}

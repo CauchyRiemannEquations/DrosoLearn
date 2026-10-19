@@ -1,0 +1,902 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-10-19T02:01:52.782269+00:00",
+  "scope": "Final bounded-synthesis archival preservation, prospective provenance, unchanged-source tests, presentation and documentation; no new learning or hypothesis tests",
+  "previous_literal_preservation": {
+    "tag": "human-shell-comparison-v2",
+    "tag_commit": "3ee71a97fa9d6ffc7fce3bd4d7c3832437977171",
+    "old_tree_files": 18489,
+    "compared_files": 18486,
+    "compared_literal_bytes": 1795868006,
+    "excluded_files": [
+      {
+        "path": "README.md",
+        "bytes": 44868,
+        "unchanged": false
+      },
+      {
+        "path": "docs/repository-status.json",
+        "bytes": 8427,
+        "unchanged": false
+      },
+      {
+        "path": "docs/research-roadmap.md",
+        "bytes": 24523,
+        "unchanged": false
+      }
+    ],
+    "passed": true,
+    "failures": [],
+    "method": "Literal Git cat-file --batch blob bytes compared with read_bytes; no mutations"
+  },
+  "old_changed_files": [
+    "README.md",
+    "docs/repository-status.json",
+    "docs/research-roadmap.md"
+  ],
+  "allowed_evolving_indexes": [
+    "README.md",
+    "docs/repository-status.json",
+    "docs/research-roadmap.md"
+  ],
+  "studies": {
+    "shell_credit_v1": {
+      "source_commit": "634799583c854f319a4414230e8e60f78dc8f223",
+      "published_registration_commit": "38d03dbada365f3ba754a863a2ddb1852afb04d6",
+      "source_files": 41,
+      "parent_files": 8,
+      "input_files": 0,
+      "graph_files": 4,
+      "external_files": 0,
+      "chronology": [
+        "2026-10-19T01:11:46.404767+00:00",
+        "2026-10-19T01:11:59.293563+00:00",
+        "2026-10-19T01:12:06.584219+00:00",
+        "2026-10-19T01:12:07.286855+00:00",
+        "2026-10-19T01:12:20.978926+00:00"
+      ],
+      "completed_tag": "shell-credit-v1",
+      "completed_tag_commit": "844d559e66e887e92b1b22f16c99029309e1f67a",
+      "independent_verification_sha256": "8b2a40954170e685afaed77a2478e8236a0e47af44f73bf5ba4f38acdc4c88d0"
+    },
+    "shell_behavior_v1": {
+      "source_commit": "905d62469d3c8db96f271074dfae70df11811248",
+      "published_registration_commit": "2c8df3eae013beb3ff116c485fab0fa6c002d961",
+      "source_files": 41,
+      "parent_files": 17,
+      "input_files": 0,
+      "graph_files": 0,
+      "external_files": 3,
+      "chronology": [
+        "2026-10-19T01:17:56.039502+00:00",
+        "2026-10-19T01:18:10.850731+00:00",
+        "2026-10-19T01:18:20.069294+00:00",
+        "2026-10-19T01:18:25.360087+00:00",
+        "2026-10-19T01:19:23.025641+00:00"
+      ],
+      "completed_tag": "shell-behavior-v1",
+      "completed_tag_commit": "9bae3e32a45d3a99e4d6edd9bee53afa865ca140",
+      "independent_verification_sha256": "f917d78f2680374fb58d1a3bc751878e09f1795e42466019444f4a3e1b92ad24"
+    },
+    "pattern_rule_v1": {
+      "source_commit": "6763bbd337ebb5593324616a72a41650e2286017",
+      "published_registration_commit": "2c5203a4dc260a7b442c372a5480f5875a8a9e73",
+      "source_files": 41,
+      "parent_files": 21,
+      "input_files": 1,
+      "graph_files": 4,
+      "external_files": 0,
+      "chronology": [
+        "2026-10-19T01:26:46.096439+00:00",
+        "2026-10-19T01:26:54.825682+00:00",
+        "2026-10-19T01:27:08.091771+00:00",
+        "2026-10-19T01:27:26.240687+00:00",
+        "2026-10-19T01:28:43.049873+00:00"
+      ],
+      "completed_tag": "pattern-rule-v1",
+      "completed_tag_commit": "c05e296a5aa634ec190ce602d517d1577a365d25",
+      "independent_verification_sha256": "7729299b2b77ea2d5e1af85b484c3b672d8488a89c6dbe73a2d9b1a92008688e"
+    },
+    "interference_order_v1": {
+      "source_commit": "49680d9dcf8606695d0b4f333659dfee06d062e5",
+      "published_registration_commit": "15b4885afdd869691055fad48470f002584fbf45",
+      "source_files": 47,
+      "parent_files": 28,
+      "input_files": 1,
+      "graph_files": 4,
+      "external_files": 0,
+      "chronology": [
+        "2026-10-19T01:38:12.415397+00:00",
+        "2026-10-19T01:39:39.744938+00:00",
+        "2026-10-19T01:39:52.310345+00:00",
+        "2026-10-19T01:41:03.138053+00:00",
+        "2026-10-19T01:43:17.959438+00:00"
+      ],
+      "completed_tag": "interference-order-v1",
+      "completed_tag_commit": "fbcbf61fc959166d50f71424af6fb4a065ea26f5",
+      "independent_verification_sha256": "175f2e6c7e6c70a8cb8ee967d598e84b6d5dd7efe380a674a6e1c06e52e72c08"
+    },
+    "phase5_synthesis_v1": {
+      "source_commit": "b8a1e5d54c5941aa5c6d22c698bdd88c9c1674c2",
+      "published_registration_commit": "28618ffa97671619f716c1135e984370e2702854",
+      "source_files": 41,
+      "parent_files": 35,
+      "input_files": 172,
+      "graph_files": 4,
+      "external_files": 0,
+      "chronology": [
+        "2026-10-19T01:52:26.480290+00:00",
+        "2026-10-19T01:53:22.849173+00:00",
+        "2026-10-19T01:53:34.223934+00:00",
+        "2026-10-19T01:53:35.588786+00:00",
+        "2026-10-19T01:54:06.868423+00:00"
+      ],
+      "completed_tag": null,
+      "completed_tag_commit": null,
+      "independent_verification_sha256": "17689ea97d8e0a7789d8de0a2c8b41cff3c612bf18022e53f10a0229a3c8b55f"
+    }
+  },
+  "new_study_test_receipts": {
+    "shell_credit_v1": {
+      "receipt": "results/shell_credit_v1_test_validation.json",
+      "passed_tests": 78,
+      "counts_by_file": {
+        "test_prospective": 12,
+        "test_shell_credit": 24,
+        "test_shell_credit_verify": 42
+      },
+      "started_at_utc": "2026-10-19T01:11:19.324240+00:00",
+      "completed_at_utc": "2026-10-19T01:11:20.989257+00:00",
+      "source_files": 41,
+      "sha256": "a9eda56598c6cc5d15119d46e49c44d47480d5f78609730e0f164544494f8ab9"
+    },
+    "shell_behavior_v1": {
+      "receipt": "results/shell_behavior_v1_test_validation.json",
+      "passed_tests": 71,
+      "counts_by_file": {
+        "test_prospective": 12,
+        "test_shell_behavior": 19,
+        "test_shell_behavior_verify": 40
+      },
+      "started_at_utc": "2026-10-19T01:17:27.058929+00:00",
+      "completed_at_utc": "2026-10-19T01:17:29.327422+00:00",
+      "source_files": 41,
+      "sha256": "21581bc78b058b5643d8cd421ea7c067a77544b828b548fb6783de620e62c771"
+    },
+    "pattern_rule_v1": {
+      "receipt": "results/pattern_rule_v1_test_validation.json",
+      "passed_tests": 91,
+      "counts_by_file": {
+        "test_prospective": 12,
+        "test_pattern_rule": 36,
+        "test_pattern_rule_verify": 43
+      },
+      "started_at_utc": "2026-10-19T01:26:36.331016+00:00",
+      "completed_at_utc": "2026-10-19T01:26:38.685327+00:00",
+      "source_files": 41,
+      "sha256": "12efde0a9053366aa1b1b6b99234fb710f1b9a1c428fe7747d92463f21c0f28c"
+    },
+    "interference_order_v1": {
+      "receipt": "results/interference_order_v1_test_validation.json",
+      "passed_tests": 93,
+      "counts_by_file": {
+        "test_prospective": 12,
+        "test_interference_order": 31,
+        "test_interference_order_verify": 50
+      },
+      "started_at_utc": "2026-10-19T01:37:52.108424+00:00",
+      "completed_at_utc": "2026-10-19T01:37:55.996049+00:00",
+      "source_files": 47,
+      "sha256": "6697dfef0f1c6169fdde0a24a3a0f3699699699d164ee242700580f44f2daf96"
+    },
+    "phase5_synthesis_v1": {
+      "receipt": "results/phase5_synthesis_v1_final_test_validation.json",
+      "passed_tests": 159,
+      "counts_by_file": {
+        "test_prospective": 12,
+        "test_phase5_report": 43,
+        "test_phase5_report_verify": 104
+      },
+      "started_at_utc": "2026-10-19T01:50:16.197484+00:00",
+      "completed_at_utc": "2026-10-19T01:50:57.974795+00:00",
+      "source_files": 41,
+      "sha256": "41bb4935c641dc0edf2af4e4163ca83d245d29d8206bd31eeaf3dc3695048e3e"
+    }
+  },
+  "all_28_historical_completion_tag_bindings": [
+    {
+      "study_id": "smoke_v1",
+      "tag": "v0.1.0-smoke",
+      "tag_commit": "ef5ffdb70c037e4b9617e7ada8969a6e9a5bfda7",
+      "verification_and_primary_sha256": {
+        "results/smoke_v1/verification.json": "c928e89f0966a666bae0c224ca1537352ef60dea4ff965eea41a7a2bce959b8d",
+        "results/smoke_v1/summary.json": "1293161c07ae838fe47598053db6797257200297a578e52cb4494f878fa0b777"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "reversal_v1",
+      "tag": "study-reversal-v1",
+      "tag_commit": "560fdadda6bb6890e670166c4989ca8c18481226",
+      "verification_and_primary_sha256": {
+        "results/reversal_v1/verification.json": "dd62336d41679c26c563c6964945aff6d030fd2fc811a96c16c86e150b93d060",
+        "results/reversal_v1/summary.json": "26957b0b33fc80b64f5d668638a696e4757dcffee543b2ce066fc78461c04549"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "encoding_v1",
+      "tag": "study-encoding-v1",
+      "tag_commit": "a918ae47bc74b8e8e6882bd76c96a3275a955b6b",
+      "verification_and_primary_sha256": {
+        "results/encoding_v1/verification.json": "ce8932985f4f1569fc34854de1ec41bfe92e021dd703d2c8e79d7096940cdf9b",
+        "results/encoding_v1/summary.json": "8ccc391b7c4908ee26e3567bf76c1780156cd7ce198222f35df08bfc0e09486a"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "spacing_v1",
+      "tag": "study-spacing-v1",
+      "tag_commit": "ae06002bd7c9161aec2126f93abc9aceab9b2ffb",
+      "verification_and_primary_sha256": {
+        "results/spacing_v1/verification.json": "a12a16affcb10854615dd8ac361ee0ade6e84cf4695e591c7c4a2f5688d4be7a",
+        "results/spacing_v1/summary.json": "0cb7f0c8772280bf3bf2b35e2fc43ecf115743a805d80632ccbd464b0965a75a"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "linearity_v1",
+      "tag": "study-linearity-v1",
+      "tag_commit": "8007577ea6b51558f6e7e47ad807b5f11fd8433e",
+      "verification_and_primary_sha256": {
+        "results/linearity_v1/verification.json": "6b17fb30771a697abcce53c34c2063753d56212102a0a321a2c51175bdeac5fb",
+        "results/linearity_v1/summary.json": "4c9f6e220813a3eb3664a1223aba0edbf414cab0563993731528ebef5f249fc6"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "reward_linear_v1",
+      "tag": "study-reward-linear-v1",
+      "tag_commit": "fb208a77c49a8a82a8da9da3d1c3060877dac172",
+      "verification_and_primary_sha256": {
+        "results/reward_linear_v1/verification.json": "5d17d0d7d08a730750d9591670ccb1df1dbb20fc269950008c6e3e7721a9c96e",
+        "results/reward_linear_v1/summary.json": "5dfa6331685f72ea64fec4a951a80a1fb6fd3c2e633ea780c2411dbde51b5668"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "bandit_reversal_v1",
+      "tag": "study-bandit-reversal-v1",
+      "tag_commit": "784f1d8d7497ce3df1fa1fc5a31903f4217177cc",
+      "verification_and_primary_sha256": {
+        "results/bandit_reversal_v1/verification.json": "4078203efb346cd607ec082777555fdc7a7602ec0fa2f52e3cd50831e0326f0c",
+        "results/bandit_reversal_v1/summary.json": "638e40f47b87218d09ed7a552096dbc856e7c245f52db5dbce5baf0b24534d59"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "head_attenuation_v1",
+      "tag": "study-head-attenuation-v1",
+      "tag_commit": "f80443a4cad65e878d88dcb0a777971fcbb7ce88",
+      "verification_and_primary_sha256": {
+        "results/head_attenuation_v1/verification.json": "6254c213e3b4e9a2cca6d86a73f187af78ae367809b2790d7d23d02c792537b0",
+        "results/head_attenuation_v1/summary.json": "4aa9e4c68fb0313648357dc9f3562a181b8b7ad8f9b6a864d0c7a0fbb952fc9d"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "human_trial_data_audit_v1",
+      "tag": "human-trial-data-audit-v1",
+      "tag_commit": "0433dd441b865e42303d33bb9310b3ea572e610b",
+      "verification_and_primary_sha256": {
+        "results/human_trial_data_v1/verification.json": "af35ad489c039aca638cc7218b1cb5de1d7a4a89f5407c3822ba4a1b31acceb4",
+        "results/human_trial_data_v1/structure-audit.json": "39717ad110ac2f0862e2251ffb82a321ddb807ae001aece8b81d7516726a698d"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "human_trial_linkage_v1",
+      "tag": "human-trial-linkage-v1",
+      "tag_commit": "12d38e1fec4b6c00dbe833dd888ee0721c69b6da",
+      "verification_and_primary_sha256": {
+        "results/human_trial_linkage_v1/verification.json": "abddf65e33f2dae34286a8ec2c854e762e1c77b33e8e1728633833af768daaf0",
+        "results/human_trial_linkage_v1/linkage-report.json": "aaa1c4c61307a3c4b2d459c806627049a9cf8e5f33aa8f7e13a53594c0f2f184"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "human_semantics_v1",
+      "tag": "human-semantics-v1",
+      "tag_commit": "e61819e5c3629b1b1ea804bc01189f684112857c",
+      "verification_and_primary_sha256": {
+        "results/human_semantics_v1/verification.json": "fbc435b4ef964e30526ae4020ceee3b4debe9e65a6711e7d9cb5671d5c30c4c5",
+        "results/human_semantics_v1/code-cross-tabs.json": "c3ecd06310ffe2b360a86d10b167a6ab8934d839cdccc5c76997591a9d10c010"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "human_osf_origin_v1",
+      "tag": "human-osf-origin-v1",
+      "tag_commit": "78e6f091c9fc0b25b523aea7a8958786750c07df",
+      "verification_and_primary_sha256": {
+        "results/human_osf_origin_v1/verification.json": "7a36bd97328e5388dcf7149d8395c957e1d15f02bc6e134498f5df99b741bb98",
+        "results/human_osf_origin_v1/comparison.json": "b00eb9d7fa550aa6e2e3baf33870207e180d05d6756535f239712472352e29e3"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "human_task_structure_v1",
+      "tag": "human-task-structure-v1",
+      "tag_commit": "1e259ceafb115b5b1fc994c130839512a5e459fe",
+      "verification_and_primary_sha256": {
+        "results/human_task_structure_v1/verification.json": "4482589f64eb4a404dcf55029d899fec2fa95765d90dd87596cce856938bb1e4",
+        "results/human_task_structure_v1/audit.json": "f4e777748518a1490bc6ec19b4c3c0caf6e560e6cfa1ca85f5e2e8c227b01547"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "feedback_transition_v1",
+      "tag": "feedback-transition-v1",
+      "tag_commit": "408c8c9a834c9e335b468c6481743f0291736a22",
+      "verification_and_primary_sha256": {
+        "results/feedback_transition_v1/verification.json": "0442351aa89c0b8745974787caba0c8dbfa62fa12c56ba2c9b740c7dfa04c181",
+        "results/feedback_transition_v1/metrics.json": "b348e398ecfdb3e30a1c2971b001d4d657ce034179de1ac34ad4fe7ab939dbcb"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "metric_calibration_v1",
+      "tag": "metric-calibration-v1",
+      "tag_commit": "14b2686833ff1b70f363983198bf7bdeec60f861",
+      "verification_and_primary_sha256": {
+        "results/metric_calibration_v1/verification.json": "c3595b6c1465c4d859c43261505809e9a562dbdc29ab5ef378d85ffd29973823",
+        "results/metric_calibration_v1/metrics.json": "4f97e48674458b9d40c89f449b899d4bd9f2c0442281ab89d082c64b14b8bd1b"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "stochastic_feedback_linear_v1",
+      "tag": "stochastic-feedback-linear-v1",
+      "tag_commit": "3d35d5eaa1db2cb0aa91d93a429f4586675cfb66",
+      "verification_and_primary_sha256": {
+        "results/stochastic_feedback_linear_v1/verification.json": "0adfedda8622093275e2f7f441cdbba3e5caafce18fda8af097d483ee7d72f83",
+        "results/stochastic_feedback_linear_v1/summary.json": "52334621788a665d8a212b254565b3fd9d37254880c8d129a75873086dd0b965"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "stochastic_feedback_network_v1",
+      "tag": "stochastic-feedback-network-v1",
+      "tag_commit": "ab4fb6b8f471b345b766f174004b998dfcf43b1c",
+      "verification_and_primary_sha256": {
+        "results/stochastic_feedback_network_v1/verification.json": "72ccbcf336686adf959b8503c2530c9b63f572c566695294c4607e3b1357682f",
+        "results/stochastic_feedback_network_v1/summary.json": "e826d0eb4a4a02645cc82f6556df028e0f50998f643ddd3b5703bd3654fd44b7"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "learning_ablation_v1",
+      "tag": "learning-ablation-v1",
+      "tag_commit": "a56a373f2d2458fbf3ec3fa872fe62be33bcc373",
+      "verification_and_primary_sha256": {
+        "results/learning_ablation_v1/verification.json": "d72abfef66a7ca1629b21718cee8258cc5361eda75ac8736c554c9c2ab8a5452",
+        "results/learning_ablation_v1/summary.json": "368ff86a9264f3fa499c4dc795d310db4669d8c35833658c923eb1b1b70e119c"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "state_decomposition_v1",
+      "tag": "state-decomposition-v1",
+      "tag_commit": "addf9dca471bcb97dfc686e0f77a713a195e59e6",
+      "verification_and_primary_sha256": {
+        "results/state_decomposition_v1/verification.json": "8cc18e89dd4da0c44994a7d564ab3679db049b53e28a5075986432699cda4085",
+        "results/state_decomposition_v1/summary.json": "0228327afe3eb168b868aea63f400320e88a9b712efd66fa48af96d21499c22d"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "conditional_transition_v1",
+      "tag": "conditional-transition-v1",
+      "tag_commit": "70100478abd7ba86335ae6b277992f40f19b5b9b",
+      "verification_and_primary_sha256": {
+        "results/conditional_transition_v1/verification.json": "2e0314df24b73aa53b85a4bc64e2b0a188e15b1afbab5501ccb854ccfb12f573",
+        "results/conditional_transition_v1/metrics.json": "055d927aa862fd1dde2a9529871dd87d023ad3e5a4631e61d352c038d8aba1a4"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "time_mixture_v1",
+      "tag": "time-mixture-v1",
+      "tag_commit": "115b0aefa0090d206ef51de2053eb390296f8a57",
+      "verification_and_primary_sha256": {
+        "results/time_mixture_v1/verification.json": "4df094e5bb618cfb7bbcd6f938f97a2ed26ea5899398c8358e2096a90494f902",
+        "results/time_mixture_v1/metrics.json": "d200fb671b9f34324585cbc06c97f6f0aed06bc3aeb9e30e920dd0511b1db932"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "phase4_synthesis_v1",
+      "tag": "phase4-synthesis-v1",
+      "tag_commit": "98e9181e4c95862d6ed274e7bc0efd2e3aff761e",
+      "verification_and_primary_sha256": {
+        "results/phase4_synthesis_v1/verification.json": "9f2289cf30e6c07273339ae3f3f76b098e5ae444f8aa8e882ce883df07b0d29c",
+        "results/phase4_synthesis_v1/synthesis.json": "e8c2d4d59c93c914050f2604e67595cdd351babe434625fd0cbf31bf527cbddc"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "human_shell_v1",
+      "tag": "human-shell-v1-design-limited",
+      "tag_commit": "375de064723b6daa1343726e5c30ad5a7ebcdbd6",
+      "verification_and_primary_sha256": {
+        "results/human_shell_v1/verification.json": "d78566c41e888d67117f2b50f8d71894e21bff295e3b7630b11c459ee0ae00ae",
+        "results/human_shell_v1/summary.json": "9782976dd364cd4f38419e95eb72530bbc59fb7a74b663fe7f693160585da9a4"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "human_shell_rng_v2",
+      "tag": "human-shell-comparison-v2",
+      "tag_commit": "3ee71a97fa9d6ffc7fce3bd4d7c3832437977171",
+      "verification_and_primary_sha256": {
+        "results/human_shell_rng_v2/verification.json": "48e4a9240d7cb8f0bc8c4f2a36fde83eecd254032f0671d10b1b786f82ab97ab",
+        "results/human_shell_rng_v2/summary.json": "042518425a54e558b1fc99298f9f7f1ca98a734d85f6efdc3931994f5985b838"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "shell_credit_v1",
+      "tag": "shell-credit-v1",
+      "tag_commit": "844d559e66e887e92b1b22f16c99029309e1f67a",
+      "verification_and_primary_sha256": {
+        "results/shell_credit_v1/verification.json": "8b2a40954170e685afaed77a2478e8236a0e47af44f73bf5ba4f38acdc4c88d0",
+        "results/shell_credit_v1/summary.json": "3bf1d5dc5d384e15b63fdfa07695856aee8d8897c872f9b7e960459d30e828b7"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "shell_behavior_v1",
+      "tag": "shell-behavior-v1",
+      "tag_commit": "9bae3e32a45d3a99e4d6edd9bee53afa865ca140",
+      "verification_and_primary_sha256": {
+        "results/shell_behavior_v1/verification.json": "f917d78f2680374fb58d1a3bc751878e09f1795e42466019444f4a3e1b92ad24",
+        "results/shell_behavior_v1/summary.json": "da34b11c2faa0574fc4b314150b0bb6dd6c8a7a8d822765ebaea6289af2cf08a"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "pattern_rule_v1",
+      "tag": "pattern-rule-v1",
+      "tag_commit": "c05e296a5aa634ec190ce602d517d1577a365d25",
+      "verification_and_primary_sha256": {
+        "results/pattern_rule_v1/verification.json": "7729299b2b77ea2d5e1af85b484c3b672d8488a89c6dbe73a2d9b1a92008688e",
+        "results/pattern_rule_v1/summary.json": "815c3f3d2ea37e65fd7f5adb453b5a637b264d159817752041ee728e94cdd961"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    },
+    {
+      "study_id": "interference_order_v1",
+      "tag": "interference-order-v1",
+      "tag_commit": "fbcbf61fc959166d50f71424af6fb4a065ea26f5",
+      "verification_and_primary_sha256": {
+        "results/interference_order_v1/verification.json": "175f2e6c7e6c70a8cb8ee967d598e84b6d5dd7efe380a674a6e1c06e52e72c08",
+        "results/interference_order_v1/summary.json": "e83f9cb51e6c85f5a50b049091009f9a1ff289598162dd508fbb98c8aee3e5ef"
+      },
+      "later_corrected_report_not_bound_to_historical_tag": true
+    }
+  ],
+  "final_union_tests": {
+    "receipt": "results/prephase5_final_test_validation.json",
+    "passed_tests": 643,
+    "counts_by_file": {
+      "test_human_shell": 14,
+      "test_human_shell_models": 12,
+      "test_human_shell_rng": 15,
+      "test_human_shell_rng_run": 44,
+      "test_human_shell_rng_verify": 34,
+      "test_human_shell_run": 20,
+      "test_human_shell_source": 26,
+      "test_human_shell_verify": 34,
+      "test_interference_order": 31,
+      "test_interference_order_verify": 50,
+      "test_pattern_rule": 36,
+      "test_pattern_rule_verify": 43,
+      "test_phase5_report": 43,
+      "test_phase5_report_verify": 104,
+      "test_prospective": 12,
+      "test_shell_behavior": 19,
+      "test_shell_behavior_verify": 40,
+      "test_shell_credit": 24,
+      "test_shell_credit_verify": 42
+    },
+    "started_at_utc": "2026-10-19T01:53:00.028960+00:00",
+    "completed_at_utc": "2026-10-19T01:54:10.303877+00:00",
+    "source_files": 65,
+    "sha256": "e8fb4746c30c2d753330dd4f14a9ac9992128080221ffa573ce231de943c30c9"
+  },
+  "all_frozen_source_input_parent_graph_external_and_primary_hashes_checked": true,
+  "passed_unique_tests": 643,
+  "previous_unique_tests": 199,
+  "new_package_unique_tests": 444,
+  "phase5_final_test_receipt": "results/phase5_synthesis_v1_final_test_validation.json",
+  "phase5_preliminary_test_history": {
+    "receipt": "results/phase5_synthesis_v1_test_validation.json",
+    "sha256": "3a7d67bd5ab3a7e8b2fce1189773efd1a93398f10f460abf9bb4da4820411b23",
+    "passed_tests": 159,
+    "historical_different_source_paths": [
+      "configs/phase5_synthesis_v1.json"
+    ],
+    "all_other_40_source_hashes_match_final_registration": true,
+    "preliminary_config_sha_not_misrepresented_as_final": true
+  },
+  "source_and_parent_git_blobs_checked": true,
+  "remote_registration_proofs_precede_all_actual_computation": true,
+  "one_exact_parent_lossless_git_parts": {
+    "original_path": "results/interference_order_v1/arrays.npz",
+    "original_bytes": 104904900,
+    "original_sha256": "eeacc80655813abd1b102ffb90fdd6909ad4a009e037700d15d3c6ae70b9a6d4",
+    "manifest": "results/interference_order_v1/arrays.npz.parts.json",
+    "ordered_parts": [
+      "results/interference_order_v1/arrays.npz.part001",
+      "results/interference_order_v1/arrays.npz.part002"
+    ],
+    "exact_join_matches_original_artifact_and_local_raw": true,
+    "all_other_committed_byte_gates_unchanged": true
+  },
+  "all_old_baseline_files_literal_preserved_except_three_indexes": true,
+  "presentation": {
+    "png_dimensions": {
+      "credit_endpoints.png": [
+        1248,
+        736
+      ],
+      "interference_order.png": [
+        2528,
+        1024
+      ],
+      "pattern_learning.png": [
+        2112,
+        848
+      ]
+    },
+    "provenance_sha256": "b4bb057dad1d43a798d1417fd0ffd58a6d709ce421b7c9f956036ffd865a769e",
+    "literal_plot_values_sha256": "dbdbcf06dec40125b34a0191e82b5f108c85631f427a6230d47f8706682f56cb",
+    "visual_inspection_not_claimed_by_this_helper": true
+  },
+  "documentation_local_link_counts": {
+    "docs/phase5-final-report.md": 24,
+    "docs/phase5-evidence-appendix.md": 0,
+    "docs/phase5-reproduction.md": 4,
+    "README.md": 90,
+    "docs/repository-status.json": 0,
+    "docs/research-roadmap.md": 36,
+    "docs/result-storage.md": 2
+  },
+  "engineering_events": [
+    {
+      "event": "Plain whitespace check treated preserved CRLF line endings as trailing whitespace",
+      "corrected_command_receipt": "results/prephase5_whitespace_check.json",
+      "corrected_check_passed": true,
+      "frozen_scientific_source_or_results_changed": false
+    },
+    {
+      "event": "Verifier-only unregistered extra guard edits raced with the source freeze",
+      "preserved_evidence": "results/interference_order_prefreeze_engineering_evidence.json",
+      "restored_before_first_scientific_run": true,
+      "original_registration_unchanged": true,
+      "scientific_draws_or_feedback_before_correction": 0
+    },
+    {
+      "event": "Original array exceeded ordinary Git single-file size limit by 47300 bytes",
+      "storage_documentation": "docs/result-storage.md",
+      "original_result_bytes_unchanged": true,
+      "two_lossless_git_parts_match_original_sha256": true,
+      "new_learning_or_effect_tests": 0
+    },
+    {
+      "event": "Two scope/wording clarifications followed the preliminary Phase5 tests",
+      "preliminary_receipt_preserved": "results/phase5_synthesis_v1_test_validation.json",
+      "final_wording_tested_receipt": "results/phase5_synthesis_v1_final_test_validation.json",
+      "only_config_wording_source_hash_differs": true,
+      "all_final_registered_sources_tested_unchanged": true
+    }
+  ],
+  "bounded_phase5_synthesis_completed": true,
+  "all_possible_phase2_phase3_work_complete": false,
+  "human_model_similarity_supported": false,
+  "shared_neural_mechanism_verified": false,
+  "education_effect_tested": false,
+  "continuation_automation_status": "PAUSED",
+  "new_learning_updates": 0,
+  "new_rng_draws": 0,
+  "new_human_experiments": 0,
+  "new_effect_tests": 0,
+  "checked_file_sha256": {
+    "configs/human_shell_rng_v2.json": "d43b8061b45e21e05a24bf46bbfdb64014263faac6edf22e1bd301986683bedc",
+    "configs/human_shell_v1.json": "d50a0ab6e21ab76abb72f3f7114bac9b7df398d501488f45258be1ab376b491e",
+    "configs/shell_credit_v1.json": "28fbc4df03dfd64576768ea2e298a7e3830f733e64a0900a550d07bcc3673df9",
+    "data/human/tnu_shell_2024/record_snapshot.json": "91f74ac10eaa05dae80bc4a4f34d219f304dfbfe69631a1f8b616f7f9d85654a",
+    "data/human/tnu_shell_2024/source-manifest.json": "c37a7068504454a01d3ebb43b35e0274f71c0498c643e0995c392629c23744a4",
+    "docs/human-shell-independent-audit.md": "1bddf49ae3b844e5ed1aa635a5e6f3bb882262c04b08a7d035175d4ba1e3b11f",
+    "docs/human-shell-protocol.md": "1d9ad2735635750f75cfc4eebb040292d5b1f63b100d241e0623c16b448fcedd",
+    "docs/human-shell-rng-design-note.md": "25ca325fb40ebc8672fa33acd0a9167a78a97ff925d1ab74b4648d20fb157500",
+    "docs/human-shell-rng-protocol.md": "578c28165a1c1d51e28ed420a0e82fe9e34c7cd03044662b0784f752e86e7e11",
+    "docs/human-shell-source-review.md": "2e2cd3af3fc2deb33d3a2df36108dd63cfe28215d310c62735000423fdc00d16",
+    "docs/prephase5-continuation-plan.md": "e8007e1a4925a54f24193fd1c7aed5023794dc92adbe3b4696a9098d9e168fe3",
+    "docs/shell-credit-protocol.md": "4720081f10166478058dde988e1e8a164ff49bdc406480c89e945a1cf167d25d",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/plot_human_shell.py": "761576535f21fd0488396c28b9fa46e5d38974a0f6fd6b817b7f9503e836bcc6",
+    "scripts/run_human_shell.py": "7366fbdee542488d1ce8aafb365ea94321fbe03b1bb625487fa732fd0cafeebd",
+    "scripts/run_human_shell_rng.py": "6706ffe60aff175949fbb5a94f4f27061212c42a372ea5aa9eed3a3011ba5769",
+    "scripts/run_prephase5.py": "8a5e0dbfe943948d051ff1a06d2c77a1ab76ec363d7d5e7c1d653aaf0d74e30c",
+    "scripts/verify_human_shell.py": "c97bcd08a9c914e1c0c5266cf77adb52e70ed3e2e38585c979619c6c950a0a6f",
+    "scripts/verify_human_shell_rng.py": "de792b33aecc7a306143c1433a03f525a6e4a65b0e1ba2b160fe45d42c7f6d38",
+    "scripts/verify_shell_credit.py": "b79b824d363dd91e33b0aecad3479a9743f4170e30d9d51189e561e86c4eedc6",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/graph.py": "6c713164943f1e6a4c38c9138ecd9c437b56523d68b58cffb58dc6531ccea2c2",
+    "src/drosolearn/human_shell.py": "8822afa7279ef42a88711bea3d8c69a8c9d2b3cc0a35108ae2ec96f96d1635e9",
+    "src/drosolearn/human_shell_models.py": "e17c3c6218bc1145b7ede1dc90a2d0c9aabff6562e8157a35ae2ad8246e931f5",
+    "src/drosolearn/human_shell_rng.py": "f41f2fe3373be2994ea3c651426a74e53b1c70f86c3cec6e1a2d81e82445d0f0",
+    "src/drosolearn/human_shell_source.py": "506b28be746a05dda261d3da05d46a0d9bdc5450c485919404aa1f46d5043f9d",
+    "src/drosolearn/model.py": "21e855ebbddb6190816a8adad130216065a03a6fc2d757e42466bdc7aaca3497",
+    "src/drosolearn/prospective.py": "ef00db48e4f1cea212129f09126b6ef3fa1bb1d55298895ffef6b43fabe890ef",
+    "src/drosolearn/shell_credit.py": "1363cc36ea20064bc82d14a2233a76e4661ad30e201fb32b61e974dccf09067e",
+    "tests/test_human_shell.py": "1b56237326ab0e8b55c7cc0f0ae6cd9220d10a84ad838649bf370b9e535c6794",
+    "tests/test_human_shell_models.py": "155b10f1c10417d47f8947e9b123468c873d5b06527cfc9d091b68bd66eabe53",
+    "tests/test_human_shell_rng.py": "3a6bceaaadb1ecdf31e9666f4683671c612e32559581c9ae3fe553845d829efc",
+    "tests/test_human_shell_rng_run.py": "52cf10e94b557f69f2e1e76797378426cebf2163dc49019ee00c1d344c877407",
+    "tests/test_human_shell_rng_verify.py": "f7468b2c4664c8ef8f97d2994205d86c1df624883e53aa02c7d310ffebf5501e",
+    "tests/test_human_shell_run.py": "32a46d9f13177204da23039707581ad5e27c5332db053e98c7cd7c43c2990d1f",
+    "tests/test_human_shell_source.py": "97d946987bebd68276571ce70b9474b67d41d75b738b824756ba8bb82b528363",
+    "tests/test_human_shell_verify.py": "d8ea3653241f6f09d93b25445a5c7fa4d8c1bdb63b4595b51ffc1b5a26d6c1cc",
+    "tests/test_prospective.py": "0c9201faaeaaba04124d9678cde103449e54d855ee21210d69031899892dcca8",
+    "tests/test_shell_credit.py": "bba73ea735fed3946c38daa425f0ad7152215e7a846fa61846f3fb38551a7b62",
+    "tests/test_shell_credit_verify.py": "4473f97bfe32b912d7e08d5915cffb69b80b90d36efc2f463fe2199183266da0",
+    "results/human_shell_comparison_archive_validation.json": "173d939af0de739128ff7a210c54176a9a13da60a37d94d51865548f58bc90b4",
+    "results/human_shell_rng_v2/artifact_hashes.json": "955f2cefde9ef1ca895286a1e3d6ef9f820145788e93abb72576c4412a566d35",
+    "results/human_shell_rng_v2/metadata.json": "0fb5341794b6cdab8aad5a20b5162c122fdf95bcb4d00522107091781492f521",
+    "results/human_shell_rng_v2/summary.json": "042518425a54e558b1fc99298f9f7f1ca98a734d85f6efdc3931994f5985b838",
+    "results/human_shell_rng_v2/verification.json": "48e4a9240d7cb8f0bc8c4f2a36fde83eecd254032f0671d10b1b786f82ab97ab",
+    "results/human_shell_state_diagnostics.json": "7ebd7e5ef865254f051b4dcecefd953218f022ff1b4b82dd5309233ebd4d1f0c",
+    "results/human_shell_v1/selection.json": "7c506a881f73826a31a88d919714487e522fec9e6c6425ec039c6bd286df7df2",
+    "results/registration_human_shell_rng_v2.json": "7b85b27906ef216ad44976860991e6fa4f7a06a4b2b4adad48257596a91208ae",
+    "data/flywire_783_mb_left_kc512_s701/edges.csv": "d8c47ea1202575994d430f55e5bd8602f939f320ef02f71522fc1bc54b97db51",
+    "data/flywire_783_mb_left_kc512_s701/neurons.json": "05d83a288b1d42337001015be2d54167aed00cdc9fea58b578423d18756aa77b",
+    "data/flywire_783_mb_left_kc512_s701/annotations.csv": "10f9c9d4db8ee2741bd19cf464e4b46fd6e24f086a5ce1dbb550bcea633cdb16",
+    "data/flywire_783_mb_left_kc512_s701/provenance.json": "e1a50d254628fb0573d7853b8e66926697b353da317bd701b17e60bfd4942061",
+    "results/shell_credit_v1/arrays.npz": "f996d985f2fe89bc8e066ae72f4c0d0d6cffee28bd42720bfe3faf85ceb6f483",
+    "results/shell_credit_v1/measurements.csv": "1fa2f15488adf9c0a2e87acfaba607cafd5343fc20775627003463a4ad06544d",
+    "results/shell_credit_v1/metadata.json": "f37dbe70fbb0ff0d1e2048eb94ca9f8906c5b5dd14b825f7291abe9d2314d9f6",
+    "results/shell_credit_v1/registration.json": "d5af0c6f61a346c0dc371fcb4393a6e118d36468c0d1e7528c4fbd120a6ad0d0",
+    "results/shell_credit_v1/summary.json": "3bf1d5dc5d384e15b63fdfa07695856aee8d8897c872f9b7e960459d30e828b7",
+    "results/shell_credit_v1_test_validation.json": "a9eda56598c6cc5d15119d46e49c44d47480d5f78609730e0f164544494f8ab9",
+    "results/registration_shell_credit_v1.json": "d5af0c6f61a346c0dc371fcb4393a6e118d36468c0d1e7528c4fbd120a6ad0d0",
+    "results/shell_credit_prefreeze_evidence.json": "1c629e44c9430438f398e7e2fa2aaf4dda7cf892f7fe7a8b4e6f20764a9c0ae6",
+    "results/shell_credit_v1/verification.json": "8b2a40954170e685afaed77a2478e8236a0e47af44f73bf5ba4f38acdc4c88d0",
+    "results/shell_credit_v1/artifact_hashes.json": "ceab06bf557561e0409ea86f451ff00f6f0163d6d92c445215a1c5d4c98d4f86",
+    "configs/shell_behavior_v1.json": "9bb25f1deda1bc455349ba03857460d2b5395dd4cc19f51ed64774ec466d1e16",
+    "docs/shell-behavior-protocol.md": "0f112b4a9970a87a4cc736a9e674857348b1382d5ddb4e2c9c475c9486a12f9f",
+    "scripts/verify_shell_behavior.py": "ab07864cea7379388f2c9d4c8fb06870d6451c7fbe017a5d8f2d9a364a16b564",
+    "src/drosolearn/shell_behavior.py": "d6bcd322eff9ff0f7d1078413e1a1e72046019e564032e3c88bab2d5579a4b77",
+    "tests/test_shell_behavior.py": "42e824a40c8704eed16fe777b1f2ba564568a5d05506d63562cbbfdf6a14da7d",
+    "tests/test_shell_behavior_verify.py": "a1f176a5673faceda2e4ec586dc91a23a472d4e14c1a8fcd053340c748e6278b",
+    "results/human_shell_rng_v2/cohort_audit.json": "e498697f8cba7fb8bffe37aa17f0edc573e8f02f20e7456b0c4c009a330ea2e7",
+    "results/human_shell_rng_v2/trajectories.npz": "15a5f394a5fae542e3138677e2ad032dab05e6074001fb768ee7ffff4b925565",
+    "results/human_shell_rng_v2/trajectory_metrics.csv": "4e084ce9871cf7130ccbc7896c90d56255021f9f7c9e13b5559eedc3cc73865c",
+    "results/shell_behavior_v1/arrays.npz": "74f7898779aa978eb82f19cd6e236a36c948d25edf4e018e1bfc34b0865ea973",
+    "results/shell_behavior_v1/measurements.csv": "2d337787db373535478f96fd6747eeaf0f893f998ddf78fe41162e54125014ac",
+    "results/shell_behavior_v1/metadata.json": "1b87250a54508a8db377394df88d342d18144911e23efe12239aa2536e3d5171",
+    "results/shell_behavior_v1/registration.json": "6c519751a90dbddca97eb350b3bfb7b2431d554cbf9047dedc74b2febdfc2474",
+    "results/shell_behavior_v1/summary.json": "da34b11c2faa0574fc4b314150b0bb6dd6c8a7a8d822765ebaea6289af2cf08a",
+    "results/shell_behavior_v1_test_validation.json": "21581bc78b058b5643d8cd421ea7c067a77544b828b548fb6783de620e62c771",
+    "results/registration_shell_behavior_v1.json": "6c519751a90dbddca97eb350b3bfb7b2431d554cbf9047dedc74b2febdfc2474",
+    "results/shell_behavior_prefreeze_evidence.json": "fd0be3adbe9ec4390591eb70de494b4ca023e8bdb402da9c9e931d87cd46ca14",
+    "results/shell_behavior_v1/verification.json": "f917d78f2680374fb58d1a3bc751878e09f1795e42466019444f4a3e1b92ad24",
+    "results/shell_behavior_v1/artifact_hashes.json": "b37e024cdc15a9dce7159d0087228e2e22857b39f9583da3e79fdb219bcf0fa9",
+    "configs/pattern_rule_v1.json": "e5a900e3dfdadde8ac5c4b9b3bb582fd0d04ed8b56807f93f2beb0c6aa7398b2",
+    "docs/pattern-rule-protocol.md": "b7a1871d0e2166eef00c9900a393deaddc8c1b6eec8dd52d1e219e2f1ecfa7a6",
+    "scripts/verify_pattern_rule.py": "aa1c6a8b3bfc143e717a843ce587fb648a20f5eed3897ecc45208afb80010dec",
+    "src/drosolearn/pattern_rule.py": "38b7dd7dee0a2f00ea7ebc98bf4805edc605461ee36183d415ff5f5cd49065f4",
+    "tests/test_pattern_rule.py": "48d1cdb887a72e0d57387bfbf41790319ddec734b9c966df5ea8b07f58f61946",
+    "tests/test_pattern_rule_verify.py": "94915d8188350708701575c1d0b8c3c56ad0f16e972e3aa3a3686ad67c6e21da",
+    "data/synthetic/pattern_rule_v1/input_catalog.json": "c4823707063b607b87c6c5647a2115008f361ec5f04e70ad80a4bc0476d7c1db",
+    "results/pattern_rule_v1/arrays.npz": "61a5c3fdfabdebabbf4045333b26e104ba89923adfd0d43999a68c1a2c9c728b",
+    "results/pattern_rule_v1/measurements.csv": "3e2e1432e1ff71c8e1aacfd9cf5927cd0af6894ba76d26aeb9ccf35120316f0a",
+    "results/pattern_rule_v1/metadata.json": "eb0085339e4f66ab7dc482aa3fcfe1984a7dbd6f2bbac21c7c6693d1fb9de7ff",
+    "results/pattern_rule_v1/registration.json": "159d4219705968701baa937323807395bcefc4b3a44e4924bf2ec0cbdd2a26fd",
+    "results/pattern_rule_v1/summary.json": "815c3f3d2ea37e65fd7f5adb453b5a637b264d159817752041ee728e94cdd961",
+    "results/pattern_rule_v1_test_validation.json": "12efde0a9053366aa1b1b6b99234fb710f1b9a1c428fe7747d92463f21c0f28c",
+    "results/registration_pattern_rule_v1.json": "159d4219705968701baa937323807395bcefc4b3a44e4924bf2ec0cbdd2a26fd",
+    "results/pattern_rule_prefreeze_evidence.json": "d598aab29fcd09151e54fca4170257e6a6b990c0681ac20bfef27f850f4dd795",
+    "results/pattern_rule_v1/verification.json": "7729299b2b77ea2d5e1af85b484c3b672d8488a89c6dbe73a2d9b1a92008688e",
+    "results/pattern_rule_v1/artifact_hashes.json": "99028ccb8c913ca87128bfb3bbb55b9f6899841d829feb68f664fbe9c16ca1c6",
+    "configs/interference_order_v1.json": "2fa89b1853e11340d2f566106eda4be08545614077ec382b2e806b9c50a8c469",
+    "docs/interference-order-protocol.md": "ae2c4b5aaf703c5a49663241d8e473d79b5d89096568424e3e62056c7e1d1b19",
+    "scripts/verify_interference_order.py": "4206c522a3a1e1c708f2132ce3312fae645f1a2317e85f5a06e4cd0d6c3c81ba",
+    "src/drosolearn/interference_order.py": "1e2c59171be3001b19880452e1a7bb2317cd8e45480600a413f5811839e50c4f",
+    "tests/test_interference_order.py": "83081c5a7016e5972a0505c707cb9444aa32425675ff2c68620df010b74f07b4",
+    "tests/test_interference_order_verify.py": "1a0d689563afc5d8cc6e0dcd1519384be94a9c0069e03ff86201a001b3a6283a",
+    "data/synthetic/interference_order_v1/input_catalog.json": "81cf5a39bd0b162d7ba0ecd0f281027b24dd8290259e744a76dac1bbd7936054",
+    "results/interference_order_v1/arrays.npz": "eeacc80655813abd1b102ffb90fdd6909ad4a009e037700d15d3c6ae70b9a6d4",
+    "results/interference_order_v1/measurements.csv": "170eeca21c701b53665e1ba5e5242b7f394254862c482273ca71a43e3e87e2a3",
+    "results/interference_order_v1/metadata.json": "5b82ef35d5039c42aa876bae09ca6adc92e4d9f089fae3ec7f7a2ac82fdbe20c",
+    "results/interference_order_v1/registration.json": "bc0a80cfb5a10a79c668d71980b6e1c9dd4d3450a65ccd529b326c26f8ea9643",
+    "results/interference_order_v1/summary.json": "e83f9cb51e6c85f5a50b049091009f9a1ff289598162dd508fbb98c8aee3e5ef",
+    "results/interference_order_v1_test_validation.json": "6697dfef0f1c6169fdde0a24a3a0f3699699699d164ee242700580f44f2daf96",
+    "results/registration_interference_order_v1.json": "bc0a80cfb5a10a79c668d71980b6e1c9dd4d3450a65ccd529b326c26f8ea9643",
+    "results/interference_order_prefreeze_evidence.json": "e72d3448174e7a8a09e1505cd5f4f467c5b238d478b626d354a41fb45cd3e7b2",
+    "results/interference_order_v1/verification.json": "175f2e6c7e6c70a8cb8ee967d598e84b6d5dd7efe380a674a6e1c06e52e72c08",
+    "results/interference_order_v1/artifact_hashes.json": "c4eea0bdc94fbb563a6c00306603b05f8e5c539ec667d65831e222c51e71f5a9",
+    "configs/phase5_synthesis_v1.json": "42be9b28d16d8e87303d0b56ccac567539c8db39e1759ae0b6a837fd39e459d5",
+    "docs/phase5-report-protocol.md": "1537430accc8b49721f42595a17e8e0080c3b11675d52e35001c375b65c2ed3a",
+    "scripts/verify_phase5_report.py": "438c70022426dbc15bbffb46c6d9e983f4b373d1cb2d6cef3951675670160103",
+    "src/drosolearn/phase5_report.py": "6e6759ecf54a11f51156cb0ab63843a59147fa8c11b5cd39fa6472847b0b3b07",
+    "tests/test_phase5_report.py": "15f2d0f80a85a5994cbdbcc85fa1ea72f2a8e4e7a4126339e2667bfb5bc699c8",
+    "tests/test_phase5_report_verify.py": "1390d9e868db056e6e173837aa8760d1c94b908777cbfdffa43f6166288d87e6",
+    "LICENSE": "cda829aad0bf481eab805454d8d0a305213b8b36854035c380d43c74ea50508a",
+    "LIMITATIONS.md": "504ffe4e823e1b1ea02b2d128278d80a2e120172993634d97deeea6d2826f3d3",
+    "data/human/honore_noel_2016/source-manifest.json": "cf3c32c0e1b76334c0a646c7e7ec680694d47c88a26544b3fe6dbdce7883053c",
+    "data/human/osf_origin_evidence_20261015/source-manifest.json": "2c8661695866009492b1df75187075c22903e4c22e0fcbd033fc79165861215b",
+    "data/human/osf_permissions_20261015/source-manifest.json": "4150792e4f2911220c945aca08cb8f4861e2894acd9721e7942b547c2c3b74d0",
+    "data/human/stolz_2022_linkage_evidence/source-manifest.json": "98a6fdcc3c48b0000527544ab7d6bf60bba0b251c1e3c9475c1d8ab58b722c4d",
+    "data/human/stolz_2022_openneuro/source-manifest.json": "c5e7b713522bb2349aeff689af90898c5c3bdb2b63176623e4bcf352ee565b57",
+    "data/human/stolz_2022_semantics_evidence/source-manifest.json": "10968e719296c6596f6a0dd298cf950c7666fe30fdc2635d668d8b7134a3f003",
+    "data/human/task_structure_evidence_20261015/source-manifest.json": "3e39f3e06bb9cc62569eb851fda88d449dcfbe0e1f4a2fa57efe35fd24ac9fe8",
+    "docs/bandit-reversal-findings.md": "e20c9fc44863a9b65979351e3a5b48ee79daf2b954a917a6c88990840bd77732",
+    "docs/conditional-transition-findings.md": "ce8d3d0368dcd57339e851042095e730240e1d25577f03e8d95e7ebec46c6b2e",
+    "docs/drosomem-audit.json": "879ed87cbaadc52481c6e93206f7aa86c8345f574c5e142b9f510a936e988ea8",
+    "docs/drosomem-audit.md": "2961fea0e72cb3c251cb8e4eb98b906414aefaf18ae5dbd7d852b48fa44bcf01",
+    "docs/encoding-findings.md": "97741f56bd672f2710cb0cad36b42d61044427176c9e780996b80dde367279c1",
+    "docs/head-attenuation-findings.md": "23981738fe030dfc4e2bc177a197eaa81d750990a93b7de5bbc3a36b86bed321",
+    "docs/human-data-continuation-findings.md": "a04292568b263793d43243fa316dc33a1370d176008f6b6b7853e43475252f73",
+    "docs/human-learning-comparison.md": "3bcf9ec980f98b684804350e4a33cc3ff01a2aa85ead81702a880ea861409b06",
+    "docs/human-shell-data-processing-note.md": "7b4cde717281b712a96d77fcd0fd58d2ada73889a1926a09cd8496144e2cf7f4",
+    "docs/human-shell-findings.md": "bd36101c46cc3595949e6644ce3e63293f1e1db4dbd65e794ccd7e975d6a83e1",
+    "docs/human-shell-reproduction.md": "ad6cb5297db51acc94f7c0cdb6776701493deb65e5dfa6c718a82affbb82c412",
+    "docs/human-trial-data-findings.md": "88456d9ed2f4919d4670651554c4f972b7351a4677babb01530b485c3174299b",
+    "docs/human-trial-linkage-findings.md": "9465a2179ea72b50e684be61488d1d5b09cc71a37bfeb672a828362d38fda483",
+    "docs/interference-order-findings.md": "190e84d1390de2c08656a4e6a7093552b3bf7c21f864d82e8888b19213f2d8c3",
+    "docs/learning-ablation-findings-v2.md": "23d19774ebea237fa9a8211dcc68a87b8035cdd3e4eaf33f167c12ac5dd32c9e",
+    "docs/learning-measurement-continuation-findings.md": "2cdf27423ac948a4d3cfb332235c7beebc6d98412b0bfc91908db445abaa65ad",
+    "docs/linearity-findings.md": "eeb53171cfc0784e4e463a2b7564e4f65511029778f63cf634291455f10e8350",
+    "docs/literature-review.md": "035184100c5220d781b441d4eff6899265502b0cf7d3a2605ac8b74f696e6cc2",
+    "docs/metric-calibration-findings.md": "24623092b4aa32093db8c8095369329c93ca37c2846a353a3dd2fc1e07dc071b",
+    "docs/pattern-rule-findings.md": "091979591fd985f670f040f46470fa380767fbebeda9967d622b3e09c87cab25",
+    "docs/phase4-synthesis.md": "40e2fb7383eb03119ed1a661a1a76e0f134fbfe97555ae1655396d1f056ff921",
+    "docs/phase5-reproduction.md": "a9c741108fd0e9a68aaa71294b5efda9e82ef64c319eb60530f194299480cb49",
+    "docs/research-question.md": "d9030af7f857389ddfb2a1f2b6c57509fa1dbb73741b4e511add0f65ea2614c6",
+    "docs/result-storage.md": "e55634a690cacf837aafb7ecd499d906b0862c11b29ab5b415913dc197eada07",
+    "docs/reversal-findings.md": "7497a1503bb6373dcf6bb501e561cc763709cf2bacea68c00b839e2a5b021d1d",
+    "docs/reward-linear-findings.md": "e16c6b0add46015771ed406f2e9189542255d6321a1b74311aac9aa5d682d798",
+    "docs/shell-behavior-findings.md": "96e1140d115357eebf925c828a108378329902fc6dd4c7cff9b46c76ae239308",
+    "docs/shell-credit-findings.md": "0223db791a073d616d396a7f7c60653c9a2a2ee4eb2d753ad98b99a0b50522f6",
+    "docs/spacing-findings.md": "55cb2e5e10ee46cd6f7966666c502a2eb357014e48c68b8020901c8e94fbf6ff",
+    "docs/state-decomposition-findings.md": "999bd6eaada4dbbfa14227eee8f7feff8933d534da91be0d4860723d074ce9f3",
+    "docs/stochastic-feedback-continuation-findings.md": "baec3ef584302e704f6e133eab36e9155da712dcea33da7e3e055d8f22558de5",
+    "docs/time-mixture-findings.md": "8ccc842ccba6121c385b988c6f8b316cc8e5cd067f191a3a17ed5f1af0f44c4c",
+    "results/bandit_reversal_v1/metadata.json": "b14c63e8900ac728caa83ddde26f61a5bc4bd8ccedfb73f08c2387da2e0c1405",
+    "results/bandit_reversal_v1/summary.json": "638e40f47b87218d09ed7a552096dbc856e7c245f52db5dbce5baf0b24534d59",
+    "results/bandit_reversal_v1/verification.json": "4078203efb346cd607ec082777555fdc7a7602ec0fa2f52e3cd50831e0326f0c",
+    "results/conditional_transition_v1/metadata.json": "28ecd79f624294a75b39c18f42afe74bd322330abc4706dbdef0c83aaf35dc88",
+    "results/conditional_transition_v1/metrics.json": "055d927aa862fd1dde2a9529871dd87d023ad3e5a4631e61d352c038d8aba1a4",
+    "results/conditional_transition_v1/verification.json": "2e0314df24b73aa53b85a4bc64e2b0a188e15b1afbab5501ccb854ccfb12f573",
+    "results/encoding_v1/metadata.json": "9f5b96accadabbe755ce0c9cbd772d30b0d5cb9f863a4a672af8a904ff8c1cb2",
+    "results/encoding_v1/summary.json": "8ccc391b7c4908ee26e3567bf76c1780156cd7ce198222f35df08bfc0e09486a",
+    "results/encoding_v1/verification.json": "ce8932985f4f1569fc34854de1ec41bfe92e021dd703d2c8e79d7096940cdf9b",
+    "results/feedback_transition_v1/metadata.json": "82f2a9a194b4bf32ec1ee3888ba9c4f0fca77e5c0350f4d8d33efd0a4980044f",
+    "results/feedback_transition_v1/metrics.json": "b348e398ecfdb3e30a1c2971b001d4d657ce034179de1ac34ad4fe7ab939dbcb",
+    "results/feedback_transition_v1/verification.json": "0442351aa89c0b8745974787caba0c8dbfa62fa12c56ba2c9b740c7dfa04c181",
+    "results/head_attenuation_v1/metadata.json": "71694840e2c64baab8668391d1959c18a5cc6b7ce462624247872cb9dad1b3d2",
+    "results/head_attenuation_v1/summary.json": "4aa9e4c68fb0313648357dc9f3562a181b8b7ad8f9b6a864d0c7a0fbb952fc9d",
+    "results/head_attenuation_v1/verification.json": "6254c213e3b4e9a2cca6d86a73f187af78ae367809b2790d7d23d02c792537b0",
+    "results/human_osf_origin_v1/comparison.json": "b00eb9d7fa550aa6e2e3baf33870207e180d05d6756535f239712472352e29e3",
+    "results/human_osf_origin_v1/verification.json": "7a36bd97328e5388dcf7149d8395c957e1d15f02bc6e134498f5df99b741bb98",
+    "results/human_semantics_v1/code-cross-tabs.json": "c3ecd06310ffe2b360a86d10b167a6ab8934d839cdccc5c76997591a9d10c010",
+    "results/human_semantics_v1/metadata.json": "3322732c86527691ff74699fe9dbb673b793ff64b859020f51e7812dbc683dc1",
+    "results/human_semantics_v1/verification.json": "fbc435b4ef964e30526ae4020ceee3b4debe9e65a6711e7d9cb5671d5c30c4c5",
+    "results/human_shell_v1/metadata.json": "c83524b3598ea1eac778051ca9ddadb73cd3bc9e22c6d93dade570a1de88e44e",
+    "results/human_shell_v1/summary.json": "9782976dd364cd4f38419e95eb72530bbc59fb7a74b663fe7f693160585da9a4",
+    "results/human_shell_v1/verification.json": "d78566c41e888d67117f2b50f8d71894e21bff295e3b7630b11c459ee0ae00ae",
+    "results/human_task_structure_v1/audit.json": "f4e777748518a1490bc6ec19b4c3c0caf6e560e6cfa1ca85f5e2e8c227b01547",
+    "results/human_task_structure_v1/verification.json": "4482589f64eb4a404dcf55029d899fec2fa95765d90dd87596cce856938bb1e4",
+    "results/human_trial_data_v1/metadata.json": "818d94eb755db323c6c885f891306306bf7e34b58416e7ef0b977fba31abc76d",
+    "results/human_trial_data_v1/structure-audit.json": "39717ad110ac2f0862e2251ffb82a321ddb807ae001aece8b81d7516726a698d",
+    "results/human_trial_data_v1/verification.json": "af35ad489c039aca638cc7218b1cb5de1d7a4a89f5407c3822ba4a1b31acceb4",
+    "results/human_trial_linkage_v1/linkage-report.json": "aaa1c4c61307a3c4b2d459c806627049a9cf8e5f33aa8f7e13a53594c0f2f184",
+    "results/human_trial_linkage_v1/metadata.json": "155bb6ba7ed0fabf6ec9b9f4221ca1174362d654ea82d82e584c02d80f6fb762",
+    "results/human_trial_linkage_v1/verification.json": "abddf65e33f2dae34286a8ec2c854e762e1c77b33e8e1728633833af768daaf0",
+    "results/interference_order_prefreeze_engineering_evidence.json": "bfc3c042238a7781532b5a01f025b65f421fa520a0eef2a44750e5083d2210b4",
+    "results/interference_order_v1/arrays.npz.part001": "b4f08dce9d634265ce2a831478b0a2038e998abbfb578ba9813abe93f3e74d47",
+    "results/interference_order_v1/arrays.npz.part002": "ff5766b12d7a7de6c22fbb5a17e5a2f1d5db10bc698a2a7c26da634f505675c5",
+    "results/interference_order_v1/arrays.npz.parts.json": "e8bc224fcf46447bc0bf1ab9499e0d541522e8bd64e67105f80cf170ee8d7eac",
+    "results/learning_ablation_v1/metadata.json": "cbd49e76991f06639497891364fcbf5e6f8f7845057fc99c6f24902140041bc7",
+    "results/learning_ablation_v1/summary.json": "368ff86a9264f3fa499c4dc795d310db4669d8c35833658c923eb1b1b70e119c",
+    "results/learning_ablation_v1/verification.json": "d72abfef66a7ca1629b21718cee8258cc5361eda75ac8736c554c9c2ab8a5452",
+    "results/linearity_v1/metadata.json": "f102e447c2e24d72d7097d79192b1d49e3ee0b1bb1e726ba5c39f3116f7d030e",
+    "results/linearity_v1/summary.json": "4c9f6e220813a3eb3664a1223aba0edbf414cab0563993731528ebef5f249fc6",
+    "results/linearity_v1/verification.json": "6b17fb30771a697abcce53c34c2063753d56212102a0a321a2c51175bdeac5fb",
+    "results/metric_calibration_v1/metadata.json": "10787c17af7fe729f335554e73fad8a657f74ee381005854b19bf0724b7b4978",
+    "results/metric_calibration_v1/metrics.json": "4f97e48674458b9d40c89f449b899d4bd9f2c0442281ab89d082c64b14b8bd1b",
+    "results/metric_calibration_v1/verification.json": "c3595b6c1465c4d859c43261505809e9a562dbdc29ab5ef378d85ffd29973823",
+    "results/phase4_synthesis_v1/metadata.json": "fb14780c1bfc8584c1174f2537b8f614f7e2828ec95cb30d799cd877ec0ca2a3",
+    "results/phase4_synthesis_v1/synthesis.json": "e8c2d4d59c93c914050f2604e67595cdd351babe434625fd0cbf31bf527cbddc",
+    "results/phase4_synthesis_v1/verification.json": "9f2289cf30e6c07273339ae3f3f76b098e5ae444f8aa8e882ce883df07b0d29c",
+    "results/registration_bandit_reversal_v1.json": "3879d6f4cd8cd244ed54cb138de8f3267439710f5d59fd84cc839abdd37de332",
+    "results/registration_conditional_transition_v1.json": "82f208f2c89fc801fd0b6f9e8f42361e3ddf536d98151b6f280613e5cd02d953",
+    "results/registration_encoding_v1.json": "29b77178aee7ef9cce8ed8b5814f0e980cc9a7df272a57b5f8fec64e4bf29379",
+    "results/registration_feedback_transition_v1.json": "0596c178c09bdf48621dc2aff1a87dcc9967832a35765e467cd2f0999f22f68a",
+    "results/registration_head_attenuation_v1.json": "b1ec82068ba6de8e2a4cc8ceebc876e90600dc199eea59af89afe4aa0299e49f",
+    "results/registration_human_osf_origin_v1.json": "2640336a9dee6d0bd2a36a19c412479feca3b69dd90b9da71bc5755329d58a10",
+    "results/registration_human_semantics_v1.json": "805efff34e959e23a6d1ca38224cf9b39f17d306f98a9ccaf2b1ceffa1010037",
+    "results/registration_human_shell_v1.json": "677d38ec5960ca2e8ce29aa94aa8340d4c7b74e06fd0a066bc18059b7b2d13dc",
+    "results/registration_human_task_structure_v1.json": "878be6c6fede943059ebfb7a5e5d4df9e4d7e61da1769a97babb51ff9be85dbf",
+    "results/registration_human_trial_data_v1.json": "347228dbf756d0110217097e0a20f8c8645003f35619cd8ccb334f8460d3ab44",
+    "results/registration_human_trial_linkage_v1.json": "132e7604751eb96a92746ffd5bea7cc3cd5d265eb1fff1eb22b544ff3eb244e9",
+    "results/registration_learning_ablation_v1.json": "74eaf29957c95abeb97ae6dd150d7e3d4eacabc30e1c0ba55489c20f52d3311a",
+    "results/registration_linearity_v1.json": "24f1446dd59fd8285d3935a34de2f8c684f3f03ad4af22a914f12845bcfab3a8",
+    "results/registration_metric_calibration_v1.json": "63044b52770c8b68d9e949580c10f7abf93217bd3c5cae7145de264a18ea1f39",
+    "results/registration_phase4_synthesis_v1.json": "b13cc36850f01676be9cfa025aabcbaa83d1c99d7fee312f913653ccc2559c98",
+    "results/registration_reversal_v1.json": "5f84e74969bc5100d1eb69c9c825d717c006e385df2d12dacc912f9ef79f9c8a",
+    "results/registration_reward_linear_v1.json": "fa60645c89a8105164350cf7315fcb7b40287d339943b5cdfbf8db2c290cf741",
+    "results/registration_smoke_v1.json": "e834cb924714234cc1b3b7193b1e690d78485e8b39140dcd0d078bab497d8503",
+    "results/registration_spacing_v1.json": "157d712d13abb625c919105bcf9705a4868d79c6cbc1b9ddf29441e5c7f86077",
+    "results/registration_state_decomposition_v1.json": "e29b190e0735ae7e9e62979fb0ac0331802549fd1344315cc2d9350d6f7a4e07",
+    "results/registration_stochastic_feedback_linear_v1.json": "769b130d86bd1a2ca3c26b0526adfb13a1a1c6b1a00013c76b03939c99e8859e",
+    "results/registration_stochastic_feedback_network_v1.json": "1ff8417486bb5fd6f7caae5951f5c0c9c7ac2074e7a8dcaa29eb57ca15c0cd18",
+    "results/registration_time_mixture_v1.json": "bee6ad755fc03c988af00d98e818cade60177ed09d0ca71e9fa66c68d5391038",
+    "results/reversal_v1/metadata.json": "93f96f5ab2e82da5f245d475bc5059e20616d4ed5c96aa4566dd67a49e76c256",
+    "results/reversal_v1/summary.json": "26957b0b33fc80b64f5d668638a696e4757dcffee543b2ce066fc78461c04549",
+    "results/reversal_v1/verification.json": "dd62336d41679c26c563c6964945aff6d030fd2fc811a96c16c86e150b93d060",
+    "results/reward_linear_v1/metadata.json": "3228892d3c858016de7f1b6e5845cef6f03e9f007f2882a10661e7a23173d4b1",
+    "results/reward_linear_v1/summary.json": "5dfa6331685f72ea64fec4a951a80a1fb6fd3c2e633ea780c2411dbde51b5668",
+    "results/reward_linear_v1/verification.json": "5d17d0d7d08a730750d9591670ccb1df1dbb20fc269950008c6e3e7721a9c96e",
+    "results/smoke_v1/metadata.json": "af797efdfef805c85b4dca2194ad8f7470cc77c03387e3ff3d885941389810e4",
+    "results/smoke_v1/report.md": "1fa7f741d7e68a6cb1b16a2590edd70fd4e7cbd3696cb541d9228ea0fc5b3992",
+    "results/smoke_v1/summary.json": "1293161c07ae838fe47598053db6797257200297a578e52cb4494f878fa0b777",
+    "results/smoke_v1/verification.json": "c928e89f0966a666bae0c224ca1537352ef60dea4ff965eea41a7a2bce959b8d",
+    "results/spacing_v1/metadata.json": "1b7822fed22e12a8a34288efcd602326c8a63f70e2dfd5fea202800bca544a3e",
+    "results/spacing_v1/summary.json": "0cb7f0c8772280bf3bf2b35e2fc43ecf115743a805d80632ccbd464b0965a75a",
+    "results/spacing_v1/verification.json": "a12a16affcb10854615dd8ac361ee0ade6e84cf4695e591c7c4a2f5688d4be7a",
+    "results/state_decomposition_v1/metadata.json": "7bb23a75264338ab4fdce028d28d1c6a5b489829f6bbcb8b2dad313088a78f21",
+    "results/state_decomposition_v1/summary.json": "0228327afe3eb168b868aea63f400320e88a9b712efd66fa48af96d21499c22d",
+    "results/state_decomposition_v1/verification.json": "8cc18e89dd4da0c44994a7d564ab3679db049b53e28a5075986432699cda4085",
+    "results/stochastic_feedback_linear_v1/metadata.json": "fdeee1240a64c429cb5413752d68db50bd704b8d067ec7c5caa7d8283dd90836",
+    "results/stochastic_feedback_linear_v1/summary.json": "52334621788a665d8a212b254565b3fd9d37254880c8d129a75873086dd0b965",
+    "results/stochastic_feedback_linear_v1/verification.json": "0adfedda8622093275e2f7f441cdbba3e5caafce18fda8af097d483ee7d72f83",
+    "results/stochastic_feedback_network_v1/metadata.json": "3289afd71b7605551d1413baeadca9a704cbb65e5ebaf56718534d57e5b1cee2",
+    "results/stochastic_feedback_network_v1/summary.json": "e826d0eb4a4a02645cc82f6556df028e0f50998f643ddd3b5703bd3654fd44b7",
+    "results/stochastic_feedback_network_v1/verification.json": "72ccbcf336686adf959b8503c2530c9b63f572c566695294c4607e3b1357682f",
+    "results/time_mixture_v1/metadata.json": "6c8a804e2735a5bd0bda3825ef57ea6ba29218204a1e50d8c6a3d389098e9a55",
+    "results/time_mixture_v1/metrics.json": "d200fb671b9f34324585cbc06c97f6f0aed06bc3aeb9e30e920dd0511b1db932",
+    "results/time_mixture_v1/verification.json": "4df094e5bb618cfb7bbcd6f938f97a2ed26ea5899398c8358e2096a90494f902",
+    "results/phase5_synthesis_v1/arrays.npz": "2101db8159eace51b84f1a46b4135da5143f13ed655c6ecc69c26887868e9b03",
+    "results/phase5_synthesis_v1/measurements.csv": "ef5b845161b6ad52e81340a8f3d37e39f536cb45a47a93b2834411964a66144c",
+    "results/phase5_synthesis_v1/metadata.json": "d4ca334763b4e32921fc77c5622d11f9f67661913e20fe530ae60f3902f7922e",
+    "results/phase5_synthesis_v1/registration.json": "542bae1ee4c4f1d4b0d9c6a1433e42b704911b7fcadce0bfc219b53f374ba31b",
+    "results/phase5_synthesis_v1/summary.json": "aeb713ff230d2f71e2023e14ee5c29dea551e4d5fc4b2cc2d677112e2abe9eeb",
+    "results/phase5_synthesis_v1_final_test_validation.json": "41bb4935c641dc0edf2af4e4163ca83d245d29d8206bd31eeaf3dc3695048e3e",
+    "results/registration_phase5_synthesis_v1.json": "542bae1ee4c4f1d4b0d9c6a1433e42b704911b7fcadce0bfc219b53f374ba31b",
+    "results/phase5_synthesis_prefreeze_evidence.json": "6497d4e052c1991207436b800ca42714f54ddb35afb095d8a985bf8439e2faff",
+    "results/phase5_synthesis_v1/verification.json": "17689ea97d8e0a7789d8de0a2c8b41cff3c612bf18022e53f10a0229a3c8b55f",
+    "results/phase5_synthesis_v1/artifact_hashes.json": "9ff6dff9504cb963bf2f7a7866eca21c6ef5cccc273ee9b38d4aabb8822d083d",
+    "results/prephase5_final_test_validation.json": "e8fb4746c30c2d753330dd4f14a9ac9992128080221ffa573ce231de943c30c9",
+    "results/phase5_synthesis_v1_test_validation.json": "3a7d67bd5ab3a7e8b2fce1189773efd1a93398f10f460abf9bb4da4820411b23",
+    "results/phase5_synthesis_figures_v1/credit_endpoints.png": "2072ef651200978d763426c248ccc9cdd17cbb66eb02fecccdcc22351aaa2248",
+    "results/phase5_synthesis_figures_v1/interference_order.png": "f90cba8b8f38d5002ba0035016513b42baadbfe51d3afad31dbd8fb3ea809b84",
+    "results/phase5_synthesis_figures_v1/pattern_learning.png": "f62085735484b6681fa6c95f2dd3445534e27a47368a3c1ac0c8c3537655a409",
+    "results/phase5_synthesis_figures_v1/plotted_values.json": "dbdbcf06dec40125b34a0191e82b5f108c85631f427a6230d47f8706682f56cb",
+    "results/phase5_synthesis_figures_v1/provenance.json": "b4bb057dad1d43a798d1417fd0ffd58a6d709ce421b7c9f956036ffd865a769e",
+    "docs/phase5-final-report.md": "6369b74e9e746c5381d7715600e0492917a26c71d9d773a10dddcd767b5a230e",
+    "docs/phase5-evidence-appendix.md": "86a5204cdca1a73a95671ad53abbf6ad62723b06b22a04d5d4ff09e5664cc279",
+    "README.md": "b25679381514d3e2b8485a8a032ad3037bfc359bb089fd743cf6103e23206d1b",
+    "docs/repository-status.json": "3d1847864642182f6b47b8377c4d1aaaf36194716089b65951d33699b67b7ebf",
+    "docs/research-roadmap.md": "78895ef50d44ff417158b89088381905b05c7c44572b16785ded30d2a498c34a",
+    "results/phase5_presentation_validation.json": "cf5e53a4ea841182527cfd3c55a931bc862311d8a4e27a48664088a30f3762d4",
+    "results/phase5_archive_engineering_evidence.json": "1d70ccaf54f9f9e94ad86abbcbfe58ca6d1fe0461a2ba361356098478c434c53",
+    "scripts/verify_phase5_archive.py": "e35e1e61e1f5d3e86d7081bd329df598e9e1617f667593098f70a8e434257509",
+    "scripts/check_prephase5_baseline.py": "83bbf38a2bab8447265d08786ba17ab789ef48bbe3d85d738c0263fe42b7d591",
+    "results/prephase5_whitespace_check.json": "de10b7cbb866b48a51820f942d4415d5070732229861ff7be4ae91cecfbb019d"
+  },
+  "notice": "Prior literal baseline and independent numerical verifications are reused; no old learner is rerun. This archive does not hash itself or claim future final-tag/remote state. Final completion-tag and remote equality are checked after committing this archive."
+}

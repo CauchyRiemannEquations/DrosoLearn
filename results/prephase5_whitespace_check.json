@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-19T01:56:49.383408+00:00",
+  "original_plain_diff_false_positive": true,
+  "returncode": 0,
+  "command": [
+    "git",
+    "-c",
+    "core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol",
+    "diff",
+    "3ee71a97fa9d6ffc7fce3bd4d7c3832437977171",
+    "--check"
+  ],
+  "output": "",
+  "notice": "Preserved CSV CRLF bytes are allowed; genuine end-of-line blanks, extra EOF blanks and space-before-tab remain checked."
+}
