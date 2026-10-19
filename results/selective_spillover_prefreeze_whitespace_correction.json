@@ -1,0 +1,28 @@
+{
+  "corrected_at_utc": "2026-10-19T06:45:02.747894+00:00",
+  "only_new_unregistered_files_changed": true,
+  "scientific_trials_already_run": 0,
+  "changes": [
+    {
+      "path": "scripts/verify_selective_spillover.py",
+      "before_sha256": "f9aba11ba564a8427d29182915d77bd9ffc31eb9fd1f98dfc653dcd2a271bd30",
+      "after_sha256": "fb05f37540c9835b4ba39e6d6cae8d947d7edb8d0fe1666e3e4255091cc74db0",
+      "AST_identical": true
+    },
+    {
+      "path": "tests/test_selective_geometry.py",
+      "before_sha256": "05d4a0011a274c3a3f6b03f293c7febc726913a3ef42bc729096f99fcb0a721c",
+      "after_sha256": "d06138e3c1c3b68bce5fbc08f32cbd7b8cf3c1075f5194790bf4a16ab78d4cd8",
+      "AST_identical": true
+    },
+    {
+      "path": "tests/test_selective_spillover_verify.py",
+      "before_sha256": "c0c10abc44dd7c5b69d0023386420d45d0d2eb1466dd1aa5873265cb03b0a5d0",
+      "after_sha256": "6c760c64dc6522db4ac528720feee62c24b433ce1f48492d0fd211bdf6a44099",
+      "AST_identical": true
+    }
+  ],
+  "previous_prefreeze_draft_sha256": "7c04d81eac96575688a8a54b84fc111df474b8c379924365eba683c1e7840053",
+  "previous_prefreeze_draft_path": "results/selective_spillover_prefreeze_format_draft.json",
+  "reason": "Whitespace gate reported extra EOF blank lines; removed without changing any executable AST. Aggregate tests rerun before registration."
+}

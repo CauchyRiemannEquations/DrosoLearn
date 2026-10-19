@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-19T06:42:27.564406+00:00",
+  "verified_at_utc": "2026-10-19T06:43:18.137687+00:00",
+  "baseline_tag": "signed-spillover-v1",
+  "baseline_commit": "4ee00454500b03e2ccae08ba22f2a6625526be83",
+  "old_tree_files": 18745,
+  "literal_compared_files": 18742,
+  "literal_compared_bytes": 2039126449,
+  "allowed_evolving_indexes": [
+    {
+      "path": "README.md",
+      "bytes": 49492,
+      "unchanged": true
+    },
+    {
+      "path": "docs/repository-status.json",
+      "bytes": 16252,
+      "unchanged": true
+    },
+    {
+      "path": "docs/research-roadmap.md",
+      "bytes": 35107,
+      "unchanged": true
+    }
+  ],
+  "old_literal_failures": [],
+  "all_old_baseline_files_literal_preserved_except_three_indexes": true,
+  "method": "Ordered Git cat-file --batch blob bytes compared with read_bytes; no old learner execution"
+}
