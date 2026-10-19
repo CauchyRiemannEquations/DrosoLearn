@@ -1,0 +1,11 @@
+{
+  "study_id": "signed_spillover_v1",
+  "registration_sha256": "8e3d7961964183d2949d6f2b4a07ba59531bf8de365b6d98506de736229b25d6",
+  "source_commit": "fd2c1ace641621e58f6d20a7c0f2ff48e6f94631",
+  "published_commit": "0f1303721777b88bddb5a587b2275c34f56739b8",
+  "checked_at_utc": "2026-10-19T06:15:42.445150+00:00",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/0f1303721777b88bddb5a587b2275c34f56739b8/results/registration_signed_spillover_v1.json",
+  "method": "Authenticated GitHub contents API exact decoded registration bytes and private main ref checked before saved-result signed arithmetic; no secret logged"
+}

@@ -1,0 +1,15 @@
+{
+  "created_at_utc": "2026-10-19T06:17:13.367263+00:00",
+  "source_git_commit": "fd2c1ace641621e58f6d20a7c0f2ff48e6f94631",
+  "renderer": "drosolearn.signed_spillover.render",
+  "renderer_source_sha256": "3fe8dfb6c714d3073c7c3233b688724644dd55962d48e5b946940ae80f82a844",
+  "arrays_sha256": "c446817a9426f682f59f9fb862ab049e5cdf1b15436edf4dba8e4cc8c501b0ff",
+  "summary_sha256": "fb3d02498abf37538e5a3ee16ab568db05cc10862d6f981c579d0fd802fd4745",
+  "verification_sha256": "fbf417a4fe009d2a13a4e94bd9abfbbcb3654c1cf491b1d52e585989bca7e360",
+  "figure_sha256": {
+    "probability-accounting.png": "36a14abe7e55cc554e2daba9e1abc52da82e4c45cd6960ea0468454a16ee9ea5",
+    "signed-static-influence.png": "e4760fbe1b73a6982c41f9126d8e35c6176aef54b3e759b11cf920c31f48b8da"
+  },
+  "numeric_plot_summary_agreement_atol": 1e-12,
+  "independent_verification_precedes_plotting": true
+}

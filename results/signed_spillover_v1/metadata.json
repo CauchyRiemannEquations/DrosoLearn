@@ -1,0 +1,43 @@
+{
+  "study_id": "signed_spillover_v1",
+  "status": "completed",
+  "stage": "completed",
+  "started_at_utc": "2026-10-19T06:15:44.539323+00:00",
+  "source_git_commit": "fd2c1ace641621e58f6d20a7c0f2ff48e6f94631",
+  "registration_sha256": "8e3d7961964183d2949d6f2b4a07ba59531bf8de365b6d98506de736229b25d6",
+  "config_sha256": "421d1245b247a59a19cb4082b571fcc1debefd25f5ff9f1af6e1adaeeb81c437",
+  "publication_proof": "results/signed_spillover_publication_proof.json",
+  "publication_proof_sha256": "c63b600968ef91b9e20ce242a22d2ab4d9003222e1108e385b667050eb558a9d",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "analysis_only": true,
+  "new_training_calls": 0,
+  "new_random_seed_draws": 0,
+  "new_human_experiment": false,
+  "shared_neural_mechanism_tested": false,
+  "education_effect_tested": false,
+  "new_effect_hypothesis_test": false,
+  "counts": {
+    "analyzed_parent_trial_records": 120000,
+    "trial_destination_cells": 480000,
+    "cross_destination_cells": 360000,
+    "static_ordered_input_pairs": 4800,
+    "checkpoint_destination_cells": 6000,
+    "checkpoint_source_destination_cells": 24000,
+    "analysis_groups": 300,
+    "conditions": 30,
+    "model_seeds": 10,
+    "measurement_records": 1500,
+    "new_training_trials": 0,
+    "new_head_update_calls": 0,
+    "new_internal_update_calls": 0,
+    "new_value_update_calls": 0,
+    "new_random_draws": 0,
+    "fresh_model_constructions": 0
+  },
+  "measurement_records": 1500,
+  "numeric_arrays": 8,
+  "completed_at_utc": "2026-10-19T06:15:47.711317+00:00"
+}

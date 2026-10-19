@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "study_id": "signed_spillover_v1",
+  "verified_at_utc": "2026-10-19T06:16:30.498083+00:00",
+  "registration_sha256": "8e3d7961964183d2949d6f2b4a07ba59531bf8de365b6d98506de736229b25d6",
+  "summary_sha256": "fb3d02498abf37538e5a3ee16ab568db05cc10862d6f981c579d0fd802fd4745",
+  "scientific_producer_imported": false,
+  "new_helper_imported": false,
+  "counts": {
+    "arrays": 8,
+    "parent_trial_records_checked": 120000,
+    "trial_destination_effects_checked": 480000,
+    "static_ordered_input_pairs_checked": 4800,
+    "checkpoint_source_destination_effects_checked": 24000,
+    "category_measurement_records_checked": 1500,
+    "no_rng_or_learner_calls": true,
+    "source_destination_orientation_checked": true,
+    "all_saved_checkpoints_checked": true,
+    "obtained_reward_only_nogo_zero_checked": true,
+    "actual_margin_and_probability_telescoping_checked": true,
+    "exact_masses_separate_from_tolerance_counts_checked": true,
+    "finite_go_branch_expectation_not_sigmoid_of_expected_margin_checked": true,
+    "pathwise_groups_not_isolated_causal_effect": true,
+    "no_new_behavioral_hypothesis_claim": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "reason": "Visual inspection found initial probability title overlapping legend and long heatmap colorbar title near crop edge",
+  "changed_only": "Legend/title spacing, margins, shorter colorbar label, rounded display of near-zero signed values",
+  "initial_pngs_preserved": {
+    "probability-accounting.png": "36a14abe7e55cc554e2daba9e1abc52da82e4c45cd6960ea0468454a16ee9ea5",
+    "signed-static-influence.png": "e4760fbe1b73a6982c41f9126d8e35c6176aef54b3e759b11cf920c31f48b8da"
+  },
+  "final_pngs": {
+    "probability-accounting-final.png": "f50f311df28915e2ead71782e22e4944776c8d4546893e289568e4bc6a372908",
+    "signed-static-influence-final.png": "49d650a51f7c2c2f9d39c89137ef26018bc537e0d0a16d29cf69a872cb2b86ad"
+  },
+  "all30_bar_values_and3_mean_signed_matrices_unchanged": true,
+  "frozen_scientific_sources_changed": false
+}

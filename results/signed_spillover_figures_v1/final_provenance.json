@@ -1,0 +1,16 @@
+{
+  "created_at_utc": "2026-10-19T06:18:15.832261+00:00",
+  "source_git_commit": "fd2c1ace641621e58f6d20a7c0f2ff48e6f94631",
+  "renderer_script": "scripts/render_signed_figures.py",
+  "renderer_script_sha256": "c001321251f870a064b0e6a6d1e2e380aee5cdfcb6bed41ddea2eec302c7ebaf",
+  "summary_sha256": "fb3d02498abf37538e5a3ee16ab568db05cc10862d6f981c579d0fd802fd4745",
+  "arrays_sha256": "c446817a9426f682f59f9fb862ab049e5cdf1b15436edf4dba8e4cc8c501b0ff",
+  "verification_sha256": "fbf417a4fe009d2a13a4e94bd9abfbbcb3654c1cf491b1d52e585989bca7e360",
+  "plotted_values_sha256": "7def32b596798eb872ceee6591e0980ddcb190effa59f1a60f1dc4bd68e6dc68",
+  "numeric_plot_summary_agreement_atol": 1e-12,
+  "scientific_analysis_changed": false,
+  "figure_sha256": {
+    "probability-accounting-final.png": "f50f311df28915e2ead71782e22e4944776c8d4546893e289568e4bc6a372908",
+    "signed-static-influence-final.png": "49d650a51f7c2c2f9d39c89137ef26018bc537e0d0a16d29cf69a872cb2b86ad"
+  }
+}

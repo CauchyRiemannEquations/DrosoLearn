@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-19T06:23:10.648320+00:00",
+  "source_git_commit": "fd2c1ace641621e58f6d20a7c0f2ff48e6f94631",
+  "summary_sha256": "fb3d02498abf37538e5a3ee16ab568db05cc10862d6f981c579d0fd802fd4745",
+  "verification_sha256": "fbf417a4fe009d2a13a4e94bd9abfbbcb3654c1cf491b1d52e585989bca7e360",
+  "document_sha256": {
+    "docs/signed-spillover-findings.md": "f8f24f769784d4247b56b5dcaf70fdd59f801deb71c6edaf26c89e67bccd6524",
+    "docs/signed-spillover-reproduction.md": "edbb7a9a71f35db82b3ad9c4f6641e240b3c1263bfdc657a1675437392dade1c"
+  },
+  "local_document_links_checked": 8,
+  "all30_rounded_cross_effect_rows_match_summary": true,
+  "primary5_probability_contributions_and_endpoints_match": true,
+  "primary_uniform_source_checkpoint_drift_table_matches": true,
+  "figures": {
+    "probability-accounting-final.png": {
+      "sha256": "f50f311df28915e2ead71782e22e4944776c8d4546893e289568e4bc6a372908",
+      "width": 2250,
+      "height": 1200,
+      "visually_inspected": true,
+      "title_legend_axes_and_colorbar_readable": true
+    },
+    "signed-static-influence-final.png": {
+      "sha256": "49d650a51f7c2c2f9d39c89137ef26018bc537e0d0a16d29cf69a872cb2b86ad",
+      "width": 2100,
+      "height": 720,
+      "visually_inspected": true,
+      "title_legend_axes_and_colorbar_readable": true
+    }
+  },
+  "additional_file_sha256": {
+    "scripts/render_signed_figures.py": "c001321251f870a064b0e6a6d1e2e380aee5cdfcb6bed41ddea2eec302c7ebaf"
+  },
+  "visual_inspection_method": "Both final-layout PNGs inspected through local image tool; initial layout defects retained with correction receipt",
+  "scope_checks": {
+    "retrospective_descriptive_not_new_behavioral_confirmation": true,
+    "actual_saved_path_accounting_not_intervention_prediction": true,
+    "source_same1_opposite2_denominators_explicit": true,
+    "exact_masses_not_zeroed_by_neutral_classification": true,
+    "probability_variation_can_exceed_100pp_and_is_not_final_accuracy": true,
+    "static_score_effects_not_probability_effects": true,
+    "uniform_source_drift_not_actual_next_schedule": true,
+    "different_saved_states_not_controlled_common_state_effect": true,
+    "means_SD_not_human_or_animal_uncertainty": true,
+    "prior_negative_acquisition_human_and_generalization_gates_preserved": true,
+    "new_learning_RNG_and_model_constructions_zero": true,
+    "cost_analysis_is_unexecuted_candidate": true
+  }
+}
