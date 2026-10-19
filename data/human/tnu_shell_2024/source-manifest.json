@@ -1,0 +1,194 @@
+{
+  "schema": "drosolearn.tnu-shell-source.v1",
+  "record_id": 10066829,
+  "doi": "10.5281/zenodo.10066829",
+  "record_url": "https://zenodo.org/records/10066829",
+  "files": {
+    "Dataset_TNU.zip": {
+      "bytes": 90591,
+      "sha256": "42421a1764740f11a8eab3924af1854e7a9fe4c8479717f7269b0a1e0cec38b5",
+      "url": "https://zenodo.org/records/10066829/files/Dataset_TNU.zip"
+    },
+    "metadata.json": {
+      "bytes": 4396,
+      "sha256": "91f74ac10eaa05dae80bc4a4f34d219f304dfbfe69631a1f8b616f7f9d85654a",
+      "url": "https://zenodo.org/api/records/10066829"
+    },
+    "readme.pdf": {
+      "bytes": 115471,
+      "sha256": "fdc6a2c4215677eec4ce54ffb7bbff0c0824b1b190f9f9af8110855d91621c59",
+      "url": "https://zenodo.org/records/10066829/files/readme.pdf"
+    }
+  },
+  "expected_trials_per_trace": 216,
+  "raw_metadata_ids": [
+    "A0004",
+    "A0005",
+    "A0007",
+    "A0008",
+    "A0011",
+    "A0013",
+    "A0014",
+    "A0016",
+    "A0017",
+    "A0019",
+    "A0021",
+    "A0025",
+    "A0027",
+    "A0028",
+    "A0030",
+    "A0032",
+    "A0034",
+    "A0035",
+    "A0039",
+    "A0042",
+    "A0045",
+    "A0048",
+    "A0049",
+    "A0050",
+    "A0051",
+    "A0052",
+    "A0053",
+    "A0056",
+    "A0057",
+    "A0058",
+    "A0061",
+    "A0062",
+    "A0066",
+    "A0071",
+    "A0072",
+    "A0073",
+    "A0075",
+    "A0076",
+    "A0077",
+    "A0078",
+    "A0080",
+    "A0082",
+    "A0084",
+    "A0086",
+    "A0088",
+    "A0090",
+    "A0092",
+    "A0096",
+    "A0098",
+    "A0099"
+  ],
+  "allowed_complete_ids": [
+    "A0004",
+    "A0005",
+    "A0007",
+    "A0008",
+    "A0011",
+    "A0013",
+    "A0014",
+    "A0017",
+    "A0019",
+    "A0021",
+    "A0025",
+    "A0027",
+    "A0028",
+    "A0030",
+    "A0032",
+    "A0034",
+    "A0035",
+    "A0039",
+    "A0042",
+    "A0045",
+    "A0048",
+    "A0049",
+    "A0050",
+    "A0051",
+    "A0052",
+    "A0053",
+    "A0056",
+    "A0057",
+    "A0058",
+    "A0061",
+    "A0062",
+    "A0066",
+    "A0071",
+    "A0072",
+    "A0073",
+    "A0075",
+    "A0076",
+    "A0077",
+    "A0078",
+    "A0080",
+    "A0082",
+    "A0084",
+    "A0086",
+    "A0088",
+    "A0090",
+    "A0092",
+    "A0096",
+    "A0098",
+    "A0099"
+  ],
+  "expected_exclusions": {
+    "A0016": [
+      "trace_shortlog_row_count_mismatch",
+      "shortlog_not_five_columns",
+      "response_rt_domain_invalid_or_short_row"
+    ]
+  },
+  "additional_behavior_members": {
+    "behavior/A0048/._0009_2_new.txt": {
+      "bytes": 4096,
+      "sha256": "b1b2c779cfa695c6ed3141c91aea91be7e4e63a2cfada1f3b6b58d38d007240b"
+    },
+    "behavior/A0048/A0048_2_new.txt": {
+      "bytes": 3666,
+      "sha256": "1cce84708c06ce6cfc105bc71178ec71228edf84281c181dab998e2e648d697b"
+    }
+  },
+  "cohort_selection": "all structurally complete standard trace-shortlog pairs; no behavioral performance or medication code selection",
+  "medication_semantics": "mixed recorded cohort; README arm labels and recorded concentrations require clarification; no drug or arm comparison",
+  "licenses": {
+    "metadata": {
+      "reported_id": "cc-by-4.0",
+      "location": "metadata.json:metadata.license.id"
+    },
+    "readme": {
+      "reported_id": "CC-BY-NC-4.0",
+      "location": "readme.pdf:License section",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    "conflict_preserved": true,
+    "scope": "noncommercial local research satisfying both reported constraints; source attribution retained; raw source files remain outside repository and are not redistributed"
+  },
+  "source_review": "docs/human-shell-source-review.md",
+  "raw_cache_policy": "external cache only; no extraction or redistribution",
+  "source_task_semantics": {
+    "shell_seasons": {
+      "1": "RNRN",
+      "2": "NRNR",
+      "3": "RPRP",
+      "4": "PRPR",
+      "5": "PNPN",
+      "6": "NPNP"
+    },
+    "state_code": "1=initial shell season,2=other shell season",
+    "content_code": {
+      "0": "empty",
+      "1": "pearl",
+      "2": "dirt"
+    },
+    "action_code": {
+      "0": "NoGo",
+      "1": "Go"
+    },
+    "go_outcome_points": {
+      "0": 0,
+      "1": 1,
+      "2": -1
+    },
+    "nogo_points": 0,
+    "nogo_content_observed": false,
+    "N_go_and_nogo_equal_expected_score": true,
+    "trace_environment_exogenous_replay": true,
+    "historical_visual_runtime_version_verified": false,
+    "direct_neural_mechanism_comparison_allowed": false
+  },
+  "metadata_snapshot": "data/human/tnu_shell_2024/record_snapshot.json",
+  "cache_reproduction": "Download the two static dataset files using their exact URLs and SHA-256; copy the preserved record_snapshot.json bytes to the external cache as metadata.json. Do not expect a future live API response with changing statistics to have the same bytes."
+}
