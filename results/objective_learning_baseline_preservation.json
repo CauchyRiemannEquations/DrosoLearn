@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-20T23:23:34.176592+00:00",
+  "verified_at_utc": "2026-10-20T23:24:06.276717+00:00",
+  "baseline_tag": "probability-alignment-v1",
+  "baseline_commit": "9159aa764d44183c21468974ba3b0f208d676731",
+  "hash_compared_files": 19134,
+  "hash_compared_bytes": 2434059223,
+  "allowed_evolving_indexes": [
+    "README.md",
+    "docs/repository-status.json",
+    "docs/research-roadmap.md"
+  ],
+  "all_old_files_Git_blob_hash_preserved_except_three_indexes": true,
+  "method": "Git SHA1 blob header plus raw current bytes for every prior tracked file; cryptographic hash comparison, not a repeated literal-byte comparison.",
+  "prior_baseline_receipt_preserved": "results/probability_alignment_baseline_preservation.json",
+  "new_learning_calls": 0
+}
