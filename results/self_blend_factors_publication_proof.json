@@ -1,0 +1,11 @@
+{
+  "study_id": "self_blend_factors_v1",
+  "registration_sha256": "e5a87a98b7fe485464de6d743a07514701450ee8257c98d2aa840b1af41709cf",
+  "source_commit": "a050fda72e31683961872c8d6c2c7d197d4face3",
+  "published_commit": "64f5bca3a889da56c2244c958cc842c5b90c55a4",
+  "remote_bytes_match": true,
+  "checked_at_utc": "2026-10-20T03:33:59.605884+00:00",
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/64f5bca3a889da56c2244c958cc842c5b90c55a4/results/registration_self_blend_factors_v1.json",
+  "method": "Authenticated private remote main and literal decoded registration bytes checked before first saved factor arithmetic; parent outcomes already known; no new cohort, graph, RNG, learning or optimization; no secrets logged"
+}

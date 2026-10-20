@@ -1,0 +1,17 @@
+{
+  "study_id": "self_blend_factors_v1",
+  "generated_at_utc": "2026-10-20T03:36:54.223211+00:00",
+  "verified_arrays_only": true,
+  "new_training_trials": 0,
+  "new_parameter_selection": false,
+  "arrays_sha256": "a9a4aed88b7532dd551eac936c05419aa94fdb2d778ff1ed3b1c0f887ff126d0",
+  "summary_sha256": "0407fb71c6f22bbe3c21bcbbb7726450589d6f47420b1c2c9c13312b644034a9",
+  "verification_sha256": "a29ccfd8f9c4c1fc42ce39d477e55fe4fc3a0f4e3a5e8f9e0e125e232c8f8bce",
+  "render_script_sha256": "b4e8548d766b7c23ad94f9c8bcb9a0b7a066e7b4248ec875b68369e7fba6744c",
+  "plotted_values_sha256": "b0ad54dab7d20e155dfe3c7a67c45f847c49a521c26d29c93f8ceb71ede9de01",
+  "figure_sha256": {
+    "all-contrasts.png": "b661909d53256d646b768a82fa50ff3d24ed2e42eb7693c6f6bbb43a2e2be8a4",
+    "factor-accounting.png": "c53731708ab075f296fea30a0adde5d6c393f4621f8b9e2c47e17a6bc75139e6",
+    "paired-diagnostics.png": "3178b3717be7c782c2406f5a5e80f599d5e1103001ba2e3ddea45938f57a5880"
+  }
+}

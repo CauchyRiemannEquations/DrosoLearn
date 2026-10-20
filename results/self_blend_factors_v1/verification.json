@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "study_id": "self_blend_factors_v1",
+  "verified_at_utc": "2026-10-20T03:36:14.340626+00:00",
+  "registration_sha256": "e5a87a98b7fe485464de6d743a07514701450ee8257c98d2aa840b1af41709cf",
+  "summary_sha256": "0407fb71c6f22bbe3c21bcbbb7726450589d6f47420b1c2c9c13312b644034a9",
+  "scientific_producer_imported": false,
+  "new_helper_imported": false,
+  "counts": {
+    "arrays": 14,
+    "parent_trial_records_checked": 144000,
+    "destination_effects_checked": 576000,
+    "measurement_records_checked": 3600,
+    "factual_head_prefixes_and_parent_effects_checked": true,
+    "original_primary_post_display_bookkeeping_checked": true,
+    "same_actual_paired_Go_unit_mixture_equations_checked": true,
+    "only_post_both_actual_Go_eight_corners_checked": true,
+    "state_scalar_direction_symmetric_allocations_checked": true,
+    "signed_positive_and_negative_mass_allocations_checked": true,
+    "own_other_and_all_unpaired_actual_actions_accounted": true,
+    "factual_diagnostics_and_nullable_seed_means_checked": true,
+    "partial_control_information_not_silently_equalized": true,
+    "no_rng_model_graph_solver_or_future_policy_calls": true,
+    "new_training_trials": 0,
+    "new_random_draws": 0,
+    "new_optimization_calls": 0
+  }
+}

@@ -1,0 +1,1298 @@
+{
+  "primary_component_difference_pp": [
+    [
+      0.040985025249831025,
+      0.01661279572841186,
+      2.261946445381665,
+      -0.06950449131485709,
+      0.12407292196135636,
+      0.0
+    ],
+    [
+      0.029761352156798374,
+      0.00016067398647010592,
+      -2.7631946366678317,
+      -0.09255335065022033,
+      0.013139973173521141,
+      0.0
+    ]
+  ],
+  "primary_positive_endpoint_allocations_pp": [
+    [
+      0.040985025249830886,
+      0.016612795728412,
+      2.261946445381633,
+      -0.06950449131485736,
+      0.12407292196135636,
+      0.0
+    ],
+    [
+      0.029761352156803828,
+      0.00016067398647022084,
+      -2.763194636667966,
+      -0.09255335065022435,
+      0.01313997317352128,
+      0.0
+    ]
+  ],
+  "primary_negative_endpoint_allocations_pp": [
+    [
+      -1.3877787807814457e-16,
+      1.3877787807814457e-16,
+      -3.2196467714129533e-14,
+      -2.7755575615628914e-16,
+      0.0,
+      0.0
+    ],
+    [
+      5.458596537740352e-15,
+      1.1564823173178715e-16,
+      -1.3463767138214658e-13,
+      -4.0245584642661925e-15,
+      1.3877787807814457e-16,
+      0.0
+    ]
+  ],
+  "mixture_geometry": [
+    {
+      "topology": "real",
+      "representation": "raw",
+      "seeds": [
+        {
+          "seed": 17701,
+          "eligible_both_Go_trials": 189,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9839679987307599,
+          "balanced_weight_after_normalization_mean": 0.2541428712862689,
+          "balanced_weight_after_normalization_min": 0.25000000000000006,
+          "balanced_weight_after_normalization_max": 0.2599386822469058,
+          "self_weight_after_normalization_mean": 0.7624286138588069,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 2.592465532064031e-16,
+          "unit_own_mixture_residual_max": 9.71445146547012e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17702,
+          "eligible_both_Go_trials": 189,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9859823892363756,
+          "balanced_weight_after_normalization_mean": 0.2535957912732722,
+          "balanced_weight_after_normalization_min": 0.25108339986540584,
+          "balanced_weight_after_normalization_max": 0.25933286368588104,
+          "self_weight_after_normalization_mean": 0.7607873738198165,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.525927406329901e-16,
+          "unit_own_mixture_residual_max": 2.7755575615628914e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17703,
+          "eligible_both_Go_trials": 183,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9895970982714958,
+          "balanced_weight_after_normalization_mean": 0.2526732775023442,
+          "balanced_weight_after_normalization_min": 0.25,
+          "balanced_weight_after_normalization_max": 0.25859398995388083,
+          "self_weight_after_normalization_mean": 0.7580198325070324,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 5.121322768925147e-16,
+          "unit_own_mixture_residual_max": 2.0876971991618303e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17704,
+          "eligible_both_Go_trials": 197,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9701809266110116,
+          "balanced_weight_after_normalization_mean": 0.2577772987030182,
+          "balanced_weight_after_normalization_min": 0.2519216494895996,
+          "balanced_weight_after_normalization_max": 0.2660334641246431,
+          "self_weight_after_normalization_mean": 0.7733318961090545,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 9.71445146547012e-17,
+          "unit_own_mixture_residual_max": 1.1796119636642288e-16,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17705,
+          "eligible_both_Go_trials": 192,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9736066060903625,
+          "balanced_weight_after_normalization_mean": 0.2568259710219911,
+          "balanced_weight_after_normalization_min": 0.251285383103834,
+          "balanced_weight_after_normalization_max": 0.2613232229769951,
+          "self_weight_after_normalization_mean": 0.7704779130659732,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.2498079632338356e-16,
+          "unit_own_mixture_residual_max": 6.938893903907228e-18,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17706,
+          "eligible_both_Go_trials": 199,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9924767781593176,
+          "balanced_weight_after_normalization_mean": 0.2519070608457581,
+          "balanced_weight_after_normalization_min": 0.25000000000000006,
+          "balanced_weight_after_normalization_max": 0.2540804517476378,
+          "self_weight_after_normalization_mean": 0.7557211825372744,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 3.53586659815468e-16,
+          "unit_own_mixture_residual_max": 5.204170427930421e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17707,
+          "eligible_both_Go_trials": 178,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9962486522836015,
+          "balanced_weight_after_normalization_mean": 0.2509464517178894,
+          "balanced_weight_after_normalization_min": 0.25,
+          "balanced_weight_after_normalization_max": 0.2528035107076683,
+          "self_weight_after_normalization_mean": 0.7528393551536681,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 9.06641933043007e-17,
+          "unit_own_mixture_residual_max": 3.122502256758253e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17708,
+          "eligible_both_Go_trials": 180,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9911204457596647,
+          "balanced_weight_after_normalization_mean": 0.2522572365060777,
+          "balanced_weight_after_normalization_min": 0.25000000000000006,
+          "balanced_weight_after_normalization_max": 0.2546669936052502,
+          "self_weight_after_normalization_mean": 0.7567717095182328,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 2.4175369780046707e-16,
+          "unit_own_mixture_residual_max": 3.5845520152160174e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17709,
+          "eligible_both_Go_trials": 204,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9869290116201492,
+          "balanced_weight_after_normalization_mean": 0.25334552386548403,
+          "balanced_weight_after_normalization_min": 0.25000000000000006,
+          "balanced_weight_after_normalization_max": 0.2567890973046497,
+          "self_weight_after_normalization_mean": 0.7600365715964519,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.2836953722228372e-16,
+          "unit_own_mixture_residual_max": 2.1900893925248958e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17710,
+          "eligible_both_Go_trials": 210,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9757353025360666,
+          "balanced_weight_after_normalization_mean": 0.2564409319377227,
+          "balanced_weight_after_normalization_min": 0.2501034836145857,
+          "balanced_weight_after_normalization_max": 0.2687512731617497,
+          "self_weight_after_normalization_mean": 0.7693227958131682,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 8.033723247508851e-17,
+          "unit_own_mixture_residual_max": 8.326672684688674e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        }
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "seeds": [
+        {
+          "seed": 17701,
+          "eligible_both_Go_trials": 186,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9124210453351139,
+          "balanced_weight_after_normalization_mean": 0.2742302048257261,
+          "balanced_weight_after_normalization_min": 0.2631015762676728,
+          "balanced_weight_after_normalization_max": 0.2818518845961866,
+          "self_weight_after_normalization_mean": 0.8226906144771784,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.654787452187476e-16,
+          "unit_own_mixture_residual_max": 9.71445146547012e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17702,
+          "eligible_both_Go_trials": 180,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9356931711060844,
+          "balanced_weight_after_normalization_mean": 0.2672753084302404,
+          "balanced_weight_after_normalization_min": 0.2582254236472967,
+          "balanced_weight_after_normalization_max": 0.2730871627978942,
+          "self_weight_after_normalization_mean": 0.8018259252907214,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 3.0531133177191805e-16,
+          "unit_own_mixture_residual_max": 7.632783294297951e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17703,
+          "eligible_both_Go_trials": 186,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9476070678075728,
+          "balanced_weight_after_normalization_mean": 0.2640406222637284,
+          "balanced_weight_after_normalization_min": 0.25566935611018965,
+          "balanced_weight_after_normalization_max": 0.2730845194031513,
+          "self_weight_after_normalization_mean": 0.792121866791185,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 2.932380431660667e-16,
+          "unit_own_mixture_residual_max": 4.5102810375396984e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17704,
+          "eligible_both_Go_trials": 196,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9141912504873222,
+          "balanced_weight_after_normalization_mean": 0.27348812243222753,
+          "balanced_weight_after_normalization_min": 0.2682827774461734,
+          "balanced_weight_after_normalization_max": 0.2760558571137772,
+          "self_weight_after_normalization_mean": 0.8204643672966825,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 2.0183494114909075e-16,
+          "unit_own_mixture_residual_max": 9.71445146547012e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17705,
+          "eligible_both_Go_trials": 188,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9092055546246957,
+          "balanced_weight_after_normalization_mean": 0.27506168317794216,
+          "balanced_weight_after_normalization_min": 0.2715890703179837,
+          "balanced_weight_after_normalization_max": 0.285875148847315,
+          "self_weight_after_normalization_mean": 0.8251850495338267,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.8912858506636562e-16,
+          "unit_own_mixture_residual_max": 4.163336342344337e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17706,
+          "eligible_both_Go_trials": 187,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9350948654447199,
+          "balanced_weight_after_normalization_mean": 0.26756561725876793,
+          "balanced_weight_after_normalization_min": 0.25636227321314825,
+          "balanced_weight_after_normalization_max": 0.27415214968803914,
+          "self_weight_after_normalization_mean": 0.8026968517763037,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 2.0604040311216993e-16,
+          "unit_own_mixture_residual_max": 1.1102230246251565e-16,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17707,
+          "eligible_both_Go_trials": 180,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9605617301407264,
+          "balanced_weight_after_normalization_mean": 0.2604077435956605,
+          "balanced_weight_after_normalization_min": 0.2536354449962786,
+          "balanced_weight_after_normalization_max": 0.26732540419384293,
+          "self_weight_after_normalization_mean": 0.7812232307869815,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.1449174941446927e-16,
+          "unit_own_mixture_residual_max": 6.938893903907228e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17708,
+          "eligible_both_Go_trials": 184,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9046909176781945,
+          "balanced_weight_after_normalization_mean": 0.2764498904091808,
+          "balanced_weight_after_normalization_min": 0.2704495268414007,
+          "balanced_weight_after_normalization_max": 0.28263743612587666,
+          "self_weight_after_normalization_mean": 0.8293496712275423,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.1102230246251565e-16,
+          "unit_own_mixture_residual_max": 1.8041124150158794e-16,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17709,
+          "eligible_both_Go_trials": 196,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9145623941184585,
+          "balanced_weight_after_normalization_mean": 0.27351306503252537,
+          "balanced_weight_after_normalization_min": 0.2673589798790794,
+          "balanced_weight_after_normalization_max": 0.2864868944354456,
+          "self_weight_after_normalization_mean": 0.8205391950975761,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.7411375059396902e-16,
+          "unit_own_mixture_residual_max": 1.3877787807814457e-16,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17710,
+          "eligible_both_Go_trials": 187,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.8464468203247947,
+          "balanced_weight_after_normalization_mean": 0.2953934222005215,
+          "balanced_weight_after_normalization_min": 0.2897718749032789,
+          "balanced_weight_after_normalization_max": 0.2982394772979457,
+          "self_weight_after_normalization_mean": 0.8861802666015645,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.9722217696719714e-16,
+          "unit_own_mixture_residual_max": 8.326672684688674e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        }
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "seeds": [
+        {
+          "seed": 17701,
+          "eligible_both_Go_trials": 193,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9927272377206253,
+          "balanced_weight_after_normalization_mean": 0.2518409581326544,
+          "balanced_weight_after_normalization_min": 0.25,
+          "balanced_weight_after_normalization_max": 0.25417029535439,
+          "self_weight_after_normalization_mean": 0.7555228743979632,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.9784331489656152e-16,
+          "unit_own_mixture_residual_max": 6.938893903907228e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17702,
+          "eligible_both_Go_trials": 189,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9926103544475537,
+          "balanced_weight_after_normalization_mean": 0.25187473491074247,
+          "balanced_weight_after_normalization_min": 0.25,
+          "balanced_weight_after_normalization_max": 0.253842336438599,
+          "self_weight_after_normalization_mean": 0.7556242047322276,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.2465924962175429e-16,
+          "unit_own_mixture_residual_max": 5.742648117441832e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17703,
+          "eligible_both_Go_trials": 186,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9917692907563455,
+          "balanced_weight_after_normalization_mean": 0.25209378066529253,
+          "balanced_weight_after_normalization_min": 0.2500352586821476,
+          "balanced_weight_after_normalization_max": 0.2555812693551559,
+          "self_weight_after_normalization_mean": 0.7562813419958777,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 2.5619800577826657e-16,
+          "unit_own_mixture_residual_max": 6.006480035569695e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17704,
+          "eligible_both_Go_trials": 196,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9905957614544625,
+          "balanced_weight_after_normalization_mean": 0.2523992201539952,
+          "balanced_weight_after_normalization_min": 0.2503947072419513,
+          "balanced_weight_after_normalization_max": 0.2567407177710184,
+          "self_weight_after_normalization_mean": 0.7571976604619857,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.3877787807814457e-16,
+          "unit_own_mixture_residual_max": 4.5102810375396984e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17705,
+          "eligible_both_Go_trials": 188,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9934565242381317,
+          "balanced_weight_after_normalization_mean": 0.25165845535618053,
+          "balanced_weight_after_normalization_min": 0.25,
+          "balanced_weight_after_normalization_max": 0.25378575355643224,
+          "self_weight_after_normalization_mean": 0.7549753660685418,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.1389726357847998e-16,
+          "unit_own_mixture_residual_max": 2.0816681711721685e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17706,
+          "eligible_both_Go_trials": 201,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9783707701228316,
+          "balanced_weight_after_normalization_mean": 0.2555999371316688,
+          "balanced_weight_after_normalization_min": 0.25284328537838535,
+          "balanced_weight_after_normalization_max": 0.26338999605474794,
+          "self_weight_after_normalization_mean": 0.7667998113950062,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.0758650501597668e-16,
+          "unit_own_mixture_residual_max": 9.71445146547012e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17707,
+          "eligible_both_Go_trials": 179,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9889805293334608,
+          "balanced_weight_after_normalization_mean": 0.25280617443919035,
+          "balanced_weight_after_normalization_min": 0.25,
+          "balanced_weight_after_normalization_max": 0.2558270010668003,
+          "self_weight_after_normalization_mean": 0.7584185233175712,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 5.583900156235531e-17,
+          "unit_own_mixture_residual_max": 2.168404344971009e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17708,
+          "eligible_both_Go_trials": 185,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.96753517370795,
+          "balanced_weight_after_normalization_mean": 0.2587066677114045,
+          "balanced_weight_after_normalization_min": 0.2516051028896214,
+          "balanced_weight_after_normalization_max": 0.27282053606888207,
+          "self_weight_after_normalization_mean": 0.7761200031342137,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.0739818026805391e-16,
+          "unit_own_mixture_residual_max": 6.331740687315346e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17709,
+          "eligible_both_Go_trials": 208,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9888341404367028,
+          "balanced_weight_after_normalization_mean": 0.25286799291950235,
+          "balanced_weight_after_normalization_min": 0.25000000000000006,
+          "balanced_weight_after_normalization_max": 0.25855191432825664,
+          "self_weight_after_normalization_mean": 0.7586039787585068,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 9.333777168743369e-17,
+          "unit_own_mixture_residual_max": 1.734723475976807e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17710,
+          "eligible_both_Go_trials": 209,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9925425844853929,
+          "balanced_weight_after_normalization_mean": 0.25188810678152745,
+          "balanced_weight_after_normalization_min": 0.25003360143399,
+          "balanced_weight_after_normalization_max": 0.2537437268867894,
+          "self_weight_after_normalization_mean": 0.7556643203445823,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.2617957949710457e-15,
+          "unit_own_mixture_residual_max": 6.938893903907228e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        }
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "seeds": [
+        {
+          "seed": 17701,
+          "eligible_both_Go_trials": 192,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9236661805032771,
+          "balanced_weight_after_normalization_mean": 0.27119306913860775,
+          "balanced_weight_after_normalization_min": 0.2540390029189628,
+          "balanced_weight_after_normalization_max": 0.28567500536349144,
+          "self_weight_after_normalization_mean": 0.8135792074158235,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.6801118860646555e-16,
+          "unit_own_mixture_residual_max": 6.938893903907228e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17702,
+          "eligible_both_Go_trials": 182,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9120547134223739,
+          "balanced_weight_after_normalization_mean": 0.27416641841616723,
+          "balanced_weight_after_normalization_min": 0.26909674470373784,
+          "balanced_weight_after_normalization_max": 0.2791777029147864,
+          "self_weight_after_normalization_mean": 0.8224992552485019,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.2628786905111156e-15,
+          "unit_own_mixture_residual_max": 9.71445146547012e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17703,
+          "eligible_both_Go_trials": 182,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.8962309199830942,
+          "balanced_weight_after_normalization_mean": 0.2789698953729672,
+          "balanced_weight_after_normalization_min": 0.27520869456558666,
+          "balanced_weight_after_normalization_max": 0.28225044709874464,
+          "self_weight_after_normalization_mean": 0.8369096861189015,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 8.43042056895259e-17,
+          "unit_own_mixture_residual_max": 8.326672684688674e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17704,
+          "eligible_both_Go_trials": 194,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.8759221379383174,
+          "balanced_weight_after_normalization_mean": 0.2854590298366967,
+          "balanced_weight_after_normalization_min": 0.28182805540677347,
+          "balanced_weight_after_normalization_max": 0.28962845257670966,
+          "self_weight_after_normalization_mean": 0.8563770895100898,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 2.0816681711721685e-16,
+          "unit_own_mixture_residual_max": 8.326672684688674e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17705,
+          "eligible_both_Go_trials": 192,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9160000094524746,
+          "balanced_weight_after_normalization_mean": 0.27298339115578263,
+          "balanced_weight_after_normalization_min": 0.26797711318960354,
+          "balanced_weight_after_normalization_max": 0.2783011291899909,
+          "self_weight_after_normalization_mean": 0.8189501734673478,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 2.739788552168903e-16,
+          "unit_own_mixture_residual_max": 1.8041124150158794e-16,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17706,
+          "eligible_both_Go_trials": 188,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9191452644123385,
+          "balanced_weight_after_normalization_mean": 0.2720369131026958,
+          "balanced_weight_after_normalization_min": 0.26885458410912416,
+          "balanced_weight_after_normalization_max": 0.2773800910003838,
+          "self_weight_after_normalization_mean": 0.8161107393080874,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.942890293094024e-16,
+          "unit_own_mixture_residual_max": 8.326672684688674e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17707,
+          "eligible_both_Go_trials": 175,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9463153814223437,
+          "balanced_weight_after_normalization_mean": 0.26427300484125144,
+          "balanced_weight_after_normalization_min": 0.2581993509142903,
+          "balanced_weight_after_normalization_max": 0.2707553809104386,
+          "self_weight_after_normalization_mean": 0.7928190145237544,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 5.448494315699741e-16,
+          "unit_own_mixture_residual_max": 9.71445146547012e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17708,
+          "eligible_both_Go_trials": 185,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.921500006280077,
+          "balanced_weight_after_normalization_mean": 0.27140880001594875,
+          "balanced_weight_after_normalization_min": 0.2647578397446629,
+          "balanced_weight_after_normalization_max": 0.2796334904396077,
+          "self_weight_after_normalization_mean": 0.8142264000478463,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 2.0816681711721685e-16,
+          "unit_own_mixture_residual_max": 7.632783294297951e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17709,
+          "eligible_both_Go_trials": 201,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9465033970480141,
+          "balanced_weight_after_normalization_mean": 0.2641879535611328,
+          "balanced_weight_after_normalization_min": 0.26025262178525743,
+          "balanced_weight_after_normalization_max": 0.27191419357524865,
+          "self_weight_after_normalization_mean": 0.7925638606833983,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 2.0295411005884323e-16,
+          "unit_own_mixture_residual_max": 1.1102230246251565e-16,
+          "raw_norm_residual_max": 2.220446049250313e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17710,
+          "eligible_both_Go_trials": 202,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9229470359740437,
+          "balanced_weight_after_normalization_mean": 0.27116409054466695,
+          "balanced_weight_after_normalization_min": 0.257911540304677,
+          "balanced_weight_after_normalization_max": 0.28143354491832406,
+          "self_weight_after_normalization_mean": 0.8134922716340006,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 4.411694166766236e-16,
+          "unit_own_mixture_residual_max": 1.1102230246251565e-16,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        }
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "seeds": [
+        {
+          "seed": 17701,
+          "eligible_both_Go_trials": 191,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9708024494093751,
+          "balanced_weight_after_normalization_mean": 0.25761412855889093,
+          "balanced_weight_after_normalization_min": 0.25125028556975326,
+          "balanced_weight_after_normalization_max": 0.2655561811063225,
+          "self_weight_after_normalization_mean": 0.7728423856766727,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.366686614566257e-16,
+          "unit_own_mixture_residual_max": 7.632783294297951e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17702,
+          "eligible_both_Go_trials": 181,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9764188590471972,
+          "balanced_weight_after_normalization_mean": 0.25615063335382143,
+          "balanced_weight_after_normalization_min": 0.25,
+          "balanced_weight_after_normalization_max": 0.261954676665746,
+          "self_weight_after_normalization_mean": 0.7684519000614644,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 8.413408858487514e-17,
+          "unit_own_mixture_residual_max": 5.551115123125783e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17703,
+          "eligible_both_Go_trials": 187,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9950710697834267,
+          "balanced_weight_after_normalization_mean": 0.25124064225145837,
+          "balanced_weight_after_normalization_min": 0.25034135849574063,
+          "balanced_weight_after_normalization_max": 0.2521528606472577,
+          "self_weight_after_normalization_mean": 0.7537219267543749,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 3.5388358909926865e-16,
+          "unit_own_mixture_residual_max": 1.3877787807814457e-16,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17704,
+          "eligible_both_Go_trials": 202,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9681115473009474,
+          "balanced_weight_after_normalization_mean": 0.2582857026694496,
+          "balanced_weight_after_normalization_min": 0.2525125941854921,
+          "balanced_weight_after_normalization_max": 0.2631595838041647,
+          "self_weight_after_normalization_mean": 0.7748571080083488,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.5816545874652782e-16,
+          "unit_own_mixture_residual_max": 3.469446951953614e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17705,
+          "eligible_both_Go_trials": 192,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9563980957817728,
+          "balanced_weight_after_normalization_mean": 0.26140746265505044,
+          "balanced_weight_after_normalization_min": 0.25865231730121746,
+          "balanced_weight_after_normalization_max": 0.26320537639772434,
+          "self_weight_after_normalization_mean": 0.7842223879651514,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.8041124150158794e-16,
+          "unit_own_mixture_residual_max": 7.28583859910259e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17706,
+          "eligible_both_Go_trials": 195,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9835866649404181,
+          "balanced_weight_after_normalization_mean": 0.25423041190891854,
+          "balanced_weight_after_normalization_min": 0.25,
+          "balanced_weight_after_normalization_max": 0.2582441813410433,
+          "self_weight_after_normalization_mean": 0.7626912357267557,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.1981567653760984e-15,
+          "unit_own_mixture_residual_max": 6.938893903907228e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17707,
+          "eligible_both_Go_trials": 177,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9947962378578713,
+          "balanced_weight_after_normalization_mean": 0.2513109403424614,
+          "balanced_weight_after_normalization_min": 0.25,
+          "balanced_weight_after_normalization_max": 0.25228362950260586,
+          "self_weight_after_normalization_mean": 0.7539328210273841,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 6.153659857415443e-16,
+          "unit_own_mixture_residual_max": 7.025630077706069e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17708,
+          "eligible_both_Go_trials": 182,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.982114627676465,
+          "balanced_weight_after_normalization_mean": 0.25461302033190175,
+          "balanced_weight_after_normalization_min": 0.25000085631844904,
+          "balanced_weight_after_normalization_max": 0.2597123800184459,
+          "self_weight_after_normalization_mean": 0.7638390609957054,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.0408340855860843e-16,
+          "unit_own_mixture_residual_max": 3.469446951953614e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17709,
+          "eligible_both_Go_trials": 206,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9774712791813815,
+          "balanced_weight_after_normalization_mean": 0.25582263048098014,
+          "balanced_weight_after_normalization_min": 0.25,
+          "balanced_weight_after_normalization_max": 0.2620174820723264,
+          "self_weight_after_normalization_mean": 0.7674678914429405,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 7.808595054684057e-17,
+          "unit_own_mixture_residual_max": 1.1102230246251565e-16,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17710,
+          "eligible_both_Go_trials": 210,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9889319495727964,
+          "balanced_weight_after_normalization_mean": 0.25283140165805534,
+          "balanced_weight_after_normalization_min": 0.2500093393386816,
+          "balanced_weight_after_normalization_max": 0.2564468930916498,
+          "self_weight_after_normalization_mean": 0.7584942049741661,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 8.584601560733191e-17,
+          "unit_own_mixture_residual_max": 2.688821387764051e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        }
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "seeds": [
+        {
+          "seed": 17701,
+          "eligible_both_Go_trials": 187,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9125346560785293,
+          "balanced_weight_after_normalization_mean": 0.2739997763983744,
+          "balanced_weight_after_normalization_min": 0.2709507182600167,
+          "balanced_weight_after_normalization_max": 0.2805561418171291,
+          "self_weight_after_normalization_mean": 0.8219993291951232,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.5959455978986625e-16,
+          "unit_own_mixture_residual_max": 9.020562075079397e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17702,
+          "eligible_both_Go_trials": 177,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.8890509347107665,
+          "balanced_weight_after_normalization_mean": 0.2812098518075637,
+          "balanced_weight_after_normalization_min": 0.2774354855995395,
+          "balanced_weight_after_normalization_max": 0.28260333573261925,
+          "self_weight_after_normalization_mean": 0.8436295554226909,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.6232782846123067e-16,
+          "unit_own_mixture_residual_max": 1.942890293094024e-16,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17703,
+          "eligible_both_Go_trials": 183,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.924260365014894,
+          "balanced_weight_after_normalization_mean": 0.270895102893091,
+          "balanced_weight_after_normalization_min": 0.262494174438075,
+          "balanced_weight_after_normalization_max": 0.2862884757020869,
+          "self_weight_after_normalization_mean": 0.812685308679273,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.6104723729250037e-16,
+          "unit_own_mixture_residual_max": 9.71445146547012e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17704,
+          "eligible_both_Go_trials": 193,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.8993770081145109,
+          "balanced_weight_after_normalization_mean": 0.27807232738232457,
+          "balanced_weight_after_normalization_min": 0.27155443134153506,
+          "balanced_weight_after_normalization_max": 0.28436218107242195,
+          "self_weight_after_normalization_mean": 0.8342169821469739,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 2.42861286636753e-16,
+          "unit_own_mixture_residual_max": 9.71445146547012e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17705,
+          "eligible_both_Go_trials": 191,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9186249345409403,
+          "balanced_weight_after_normalization_mean": 0.27218830005263184,
+          "balanced_weight_after_normalization_min": 0.2661464684878744,
+          "balanced_weight_after_normalization_max": 0.2755312065351932,
+          "self_weight_after_normalization_mean": 0.8165649001578956,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 5.89494937674362e-16,
+          "unit_own_mixture_residual_max": 6.938893903907228e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17706,
+          "eligible_both_Go_trials": 182,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9006797872507545,
+          "balanced_weight_after_normalization_mean": 0.2777089174162514,
+          "balanced_weight_after_normalization_min": 0.27042619353218145,
+          "balanced_weight_after_normalization_max": 0.28579153193060053,
+          "self_weight_after_normalization_mean": 0.833126752248754,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.3877787807814457e-16,
+          "unit_own_mixture_residual_max": 1.942890293094024e-16,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17707,
+          "eligible_both_Go_trials": 175,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.8963446769670471,
+          "balanced_weight_after_normalization_mean": 0.2790618688263457,
+          "balanced_weight_after_normalization_min": 0.2688173047455627,
+          "balanced_weight_after_normalization_max": 0.286223763808411,
+          "self_weight_after_normalization_mean": 0.8371856064790372,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 2.555981096505063e-16,
+          "unit_own_mixture_residual_max": 1.249000902703301e-16,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17708,
+          "eligible_both_Go_trials": 182,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9430517003642437,
+          "balanced_weight_after_normalization_mean": 0.26539915773112327,
+          "balanced_weight_after_normalization_min": 0.2582836734086836,
+          "balanced_weight_after_normalization_max": 0.2843483764113988,
+          "self_weight_after_normalization_mean": 0.7961974731933698,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.9392994997399807e-15,
+          "unit_own_mixture_residual_max": 9.71445146547012e-17,
+          "raw_norm_residual_max": 0.0,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17709,
+          "eligible_both_Go_trials": 196,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.8956116476619347,
+          "balanced_weight_after_normalization_mean": 0.2791865325495716,
+          "balanced_weight_after_normalization_min": 0.27521609126901125,
+          "balanced_weight_after_normalization_max": 0.28562627585644357,
+          "self_weight_after_normalization_mean": 0.8375595976487148,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 1.5298808998907898e-16,
+          "unit_own_mixture_residual_max": 6.938893903907228e-17,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        },
+        {
+          "seed": 17710,
+          "eligible_both_Go_trials": 200,
+          "has_both_Go_evidence": true,
+          "raw_norm_mean": 0.9137757562209946,
+          "balanced_weight_after_normalization_mean": 0.273634742101707,
+          "balanced_weight_after_normalization_min": 0.2680176518593216,
+          "balanced_weight_after_normalization_max": 0.27700119131337014,
+          "self_weight_after_normalization_mean": 0.820904226305121,
+          "balanced_ingredient_control_residual_max": 0.0,
+          "unit_other_scaling_residual_max": 2.1138915279512965e-16,
+          "unit_own_mixture_residual_max": 1.5265566588595902e-16,
+          "raw_norm_residual_max": 1.1102230246251565e-16,
+          "mixed_direction_equation_residual_max": 0.0
+        }
+      ]
+    }
+  ],
+  "diagnostic_order": [
+    "aligned_source_logit_before",
+    "correct_source_probability",
+    "logistic_sensitivity_value",
+    "abs_update_factor",
+    "head_step_l2",
+    "own_unit_direction_influence",
+    "other_unit_aligned_influence_mean",
+    "direction_l2"
+  ],
+  "primary_diagnostic_means": [
+    [
+      0.15906871400516778,
+      0.5392865221528816,
+      0.24676696133605408,
+      0.0492181094478279,
+      0.0492181094478279,
+      0.0625543134740825,
+      0.021154744649596772,
+      1.0
+    ],
+    [
+      0.14856457923685285,
+      0.5369241026244648,
+      0.24785042156340334,
+      0.04932461924994523,
+      0.04932461924994523,
+      0.1006695240501256,
+      0.005433169254856504,
+      1.0
+    ]
+  ],
+  "all_contrasts": [
+    {
+      "topology": "real",
+      "representation": "raw",
+      "control": "gated_balanced",
+      "own_other_post_difference_pp": [
+        2.374112697006407,
+        -2.8126859880012622
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "control": "isolated",
+      "own_other_post_difference_pp": [
+        -0.6791533460641744,
+        0.9746015222691331
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "control": "balanced",
+      "own_other_post_difference_pp": [
+        2.390200299578309,
+        -2.7948480514212095
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "control": "feedback_selective",
+      "own_other_post_difference_pp": [
+        2.3412038821226657,
+        -2.3979687280528794
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "control": "shared",
+      "own_other_post_difference_pp": [
+        -52.373257938050486,
+        58.99658253111439
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "control": "gated_balanced",
+      "own_other_post_difference_pp": [
+        3.8945871635534424,
+        -8.590621476311563
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "control": "isolated",
+      "own_other_post_difference_pp": [
+        0.17379133122380716,
+        3.8692280104578396
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "control": "balanced",
+      "own_other_post_difference_pp": [
+        3.9696891466406496,
+        -8.510400342198718
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "control": "feedback_selective",
+      "own_other_post_difference_pp": [
+        3.4760278170635246,
+        -7.7207925580933745
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "control": "shared",
+      "own_other_post_difference_pp": [
+        -41.83922581335165,
+        56.493703809843
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "control": "gated_balanced",
+      "own_other_post_difference_pp": [
+        2.2013260424986254,
+        -2.4152239385294942
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "control": "isolated",
+      "own_other_post_difference_pp": [
+        -0.6256136959450302,
+        0.8310863567813459
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "control": "balanced",
+      "own_other_post_difference_pp": [
+        2.196094302136143,
+        -2.4231034766134787
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "control": "feedback_selective",
+      "own_other_post_difference_pp": [
+        2.0987156817383203,
+        -2.1692996593182285
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "control": "shared",
+      "own_other_post_difference_pp": [
+        -53.18089336948108,
+        59.21067966436965
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "control": "gated_balanced",
+      "own_other_post_difference_pp": [
+        3.861583331028689,
+        -8.338598053028502
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "control": "isolated",
+      "own_other_post_difference_pp": [
+        0.031101677371262598,
+        3.6484514341950143
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "control": "balanced",
+      "own_other_post_difference_pp": [
+        3.91769275478599,
+        -8.25895831602067
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "control": "feedback_selective",
+      "own_other_post_difference_pp": [
+        3.6246354733447657,
+        -7.541439971364527
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "control": "shared",
+      "own_other_post_difference_pp": [
+        -42.236013011293466,
+        57.22485650306615
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "control": "gated_balanced",
+      "own_other_post_difference_pp": [
+        2.655372717043285,
+        -3.22789876718967
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "control": "isolated",
+      "own_other_post_difference_pp": [
+        -0.6284988201429134,
+        1.1385386576499301
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "control": "balanced",
+      "own_other_post_difference_pp": [
+        2.6406132803259603,
+        -3.2173440382936014
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "control": "feedback_selective",
+      "own_other_post_difference_pp": [
+        2.572135227456434,
+        -2.805117272790513
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "control": "shared",
+      "own_other_post_difference_pp": [
+        -51.491476971675795,
+        59.02992492659893
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "control": "gated_balanced",
+      "own_other_post_difference_pp": [
+        3.4699622393827303,
+        -8.798368815381954
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "control": "isolated",
+      "own_other_post_difference_pp": [
+        0.41154556368590783,
+        3.916725471006724
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "control": "balanced",
+      "own_other_post_difference_pp": [
+        3.5273275983005377,
+        -8.748272018741412
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "control": "feedback_selective",
+      "own_other_post_difference_pp": [
+        3.128091534790698,
+        -8.09364279888828
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "control": "shared",
+      "own_other_post_difference_pp": [
+        -42.20528132367594,
+        57.178652018142806
+      ]
+    }
+  ]
+}
