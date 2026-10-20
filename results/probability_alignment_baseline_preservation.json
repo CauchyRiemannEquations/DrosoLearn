@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-20T23:00:53.708765+00:00",
+  "verified_at_utc": "2026-10-20T23:02:33.709328+00:00",
+  "baseline_tag": "self-blend-factors-v1",
+  "baseline_commit": "2715f1eada36207ce77709f08874688b1425d676",
+  "hash_compared_files": 19095,
+  "hash_compared_bytes": 2411077072,
+  "allowed_evolving_indexes": [
+    "README.md",
+    "docs/repository-status.json",
+    "docs/research-roadmap.md"
+  ],
+  "all_old_files_Git_blob_hash_preserved_except_three_indexes": true,
+  "method": "Git SHA1 blob header plus raw current bytes for every prior tracked file; cryptographic hash comparison, not a repeated literal-byte comparison.",
+  "prior_baseline_receipt_preserved": "results/self_blend_factors_baseline_preservation.json",
+  "new_learning_calls": 0
+}

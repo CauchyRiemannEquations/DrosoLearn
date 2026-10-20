@@ -1,0 +1,16 @@
+{
+  "status": "preserved_development_fixture_failure",
+  "archive": "probability_alignment_envelope_development_failure_01.zip",
+  "archive_sha256": "543cb7b348b0321b00f221a67458d56b6f87e5427e8eaf499799ef0a8319ebe4",
+  "member_sha256": {
+    "tests\\test_probability_alignment_envelope.py": "d517f59e01284083bd6a1f7f1fc5f687140952bb6e6c2af30ceec768c05d918d",
+    "probability_alignment_envelope_tests.xml": "eaa17ea2e1ebcea5ff03e76149711a262a9b3485954da247987906d3cf066e7d"
+  },
+  "test_count": 48,
+  "failed_test_count": 2,
+  "cause": "Two invented run fixtures omitted their fake results parent directory; no registered science was run.",
+  "actual_saved_parent_aggregation_started": false,
+  "actual_new_learning_or_direction_optimization_started": false,
+  "scientific_design_or_threshold_change": false,
+  "preserved_at_utc": "2026-10-20T23:02:26.635342+00:00"
+}

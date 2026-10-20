@@ -1,0 +1,113 @@
+{
+  "study_id": "probability_alignment_v1",
+  "scope": "retrospective_descriptive_probability_alignment",
+  "module": "drosolearn.probability_alignment",
+  "protocol": "docs/probability-alignment-protocol.md",
+  "learning_result": "results/self_blend_learning_v1",
+  "reference_method": "gated_balanced",
+  "reference_method_index": 4,
+  "baseline_tag": "self-blend-factors-v1",
+  "baseline_commit": "2715f1eada36207ce77709f08874688b1425d676",
+  "topologies": [
+    "real",
+    "rewired",
+    "ann"
+  ],
+  "representations": [
+    "raw",
+    "identity"
+  ],
+  "candidates": [
+    "balanced",
+    "isolated",
+    "self_blend",
+    "uniform_score",
+    "state_probability"
+  ],
+  "objective_order": [
+    "legacy",
+    "uniform",
+    "probability"
+  ],
+  "destination_groups": [
+    "own",
+    "other",
+    "total"
+  ],
+  "model_seeds": [
+    17701,
+    17702,
+    17703,
+    17704,
+    17705,
+    17706,
+    17707,
+    17708,
+    17709,
+    17710
+  ],
+  "training_trials": 400,
+  "numeric_tolerance": 1e-08,
+  "svd_rcond": 1e-12,
+  "head_lr": 0.1,
+  "blend_isolated_weight": 0.75,
+  "blend_balanced_weight": 0.25,
+  "eligibility": "reference_own_known_before_full_and_actual_Go",
+  "probability_gradient_domain": "all_abs_logits_strictly_less_than_40",
+  "primary_comparison": "state_probability_minus_uniform_score_exact_finite_Q_per_eligible_update",
+  "new_confirmatory_hypothesis": false,
+  "external_manifest": null,
+  "source_files": [
+    "configs/probability_alignment_v1.json",
+    "docs/probability-alignment-protocol.md",
+    "pyproject.toml",
+    "requirements-lock.txt",
+    "scripts/run_probability_alignment.py",
+    "scripts/verify_probability_alignment.py",
+    "src/drosolearn/__init__.py",
+    "src/drosolearn/balanced_envelope.py",
+    "src/drosolearn/cone_envelope.py",
+    "src/drosolearn/cone_geometry.py",
+    "src/drosolearn/gated_envelope.py",
+    "src/drosolearn/gated_factors_envelope.py",
+    "src/drosolearn/gated_pathways_envelope.py",
+    "src/drosolearn/normalization_envelope.py",
+    "src/drosolearn/pathways_envelope.py",
+    "src/drosolearn/probability_alignment.py",
+    "src/drosolearn/probability_envelope.py",
+    "src/drosolearn/representation_envelope.py",
+    "src/drosolearn/selective_envelope.py",
+    "src/drosolearn/self_blend_envelope.py",
+    "src/drosolearn/self_blend_factors_envelope.py",
+    "tests/test_probability_alignment.py",
+    "tests/test_probability_alignment_envelope.py",
+    "tests/test_probability_alignment_verify.py"
+  ],
+  "parent_files": [
+    "results/registration_self_blend_factors_v1.json",
+    "results/self_blend_factors_archive_validation.json",
+    "results/self_blend_factors_baseline_preservation.json",
+    "results/self_blend_factors_publication_proof.json",
+    "results/self_blend_factors_v1/arrays.npz",
+    "results/self_blend_factors_v1/artifact_hashes.json",
+    "results/self_blend_factors_v1/measurements.csv",
+    "results/self_blend_factors_v1/metadata.json",
+    "results/self_blend_factors_v1/registration.json",
+    "results/self_blend_factors_v1/summary.json",
+    "results/self_blend_factors_v1/verification.json",
+    "results/self_blend_learning_v1/arrays.npz",
+    "results/self_blend_learning_v1/artifact_hashes.json",
+    "results/self_blend_learning_v1/metadata.json",
+    "results/self_blend_learning_v1/registration.json",
+    "results/self_blend_learning_v1/summary.json",
+    "results/self_blend_learning_v1/verification.json"
+  ],
+  "interpretation": {
+    "new_human_experiment": false,
+    "shared_neural_mechanism_claim": false,
+    "education_effect_claim": false,
+    "new_training": false,
+    "new_seed_draws": false,
+    "new_effect_hypothesis_test": false
+  }
+}

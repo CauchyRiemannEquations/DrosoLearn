@@ -1,0 +1,198 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-20T23:07:13.766827+00:00",
+  "baseline_commit": "2715f1eada36207ce77709f08874688b1425d676",
+  "unique_passed_tests": 261,
+  "new_unique_passed_tests": 169,
+  "unchanged_related_regression_passed_tests": 92,
+  "unique_passed_tests_by_class": {
+    "tests.test_probability_alignment": 38,
+    "tests.test_probability_alignment_envelope": 48,
+    "tests.test_probability_alignment_verify": 83,
+    "tests.test_cone_geometry": 45,
+    "tests.test_self_blend_learning": 47
+  },
+  "test_receipts": [
+    {
+      "path": "results/probability_alignment_prefreeze_tests/probability_alignment_prefreeze_final.xml",
+      "sha256": "2f69655442eaada57ad847911266666fe709126c123dc46d96a6e91c191fd1bb",
+      "passed_unique_tests": 261
+    }
+  ],
+  "development_failure_artifacts": [
+    {
+      "path": "results/probability_alignment_development/probability_alignment_envelope_development_failure_01.json",
+      "sha256": "c3aeba4016b8b6a1200802e08c5c9cb22576dee9de85c04ba87e63e8332048e4"
+    },
+    {
+      "path": "results/probability_alignment_development/probability_alignment_envelope_development_failure_01.zip",
+      "sha256": "543cb7b348b0321b00f221a67458d56b6f87e5427e8eaf499799ef0a8319ebe4"
+    }
+  ],
+  "frozen_source_hashes": {
+    "configs/probability_alignment_v1.json": "98c88faa5f1a23fe12fa73cb64ff8e1b693d3aead7d2930bf37246618bbf208c",
+    "docs/probability-alignment-protocol.md": "7c15965f6fa2fdb44f0a1a2ed57eedb8ac0ecafa47fc489f3c1f6d831821fb5b",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_probability_alignment.py": "b91bb0601b7ca445387f1359103a0665cfe0e3a4cc41057cb5ca94eb35349b08",
+    "scripts/verify_probability_alignment.py": "787009007531b84cdc1bec98bb2cd3fb23471400907b06b88c3886a47daecd15",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/balanced_envelope.py": "9ce6c4b99154af6d44e09b1aa4eaf046e40dd60207adbaab51fa11279085af40",
+    "src/drosolearn/cone_envelope.py": "38a4072690b00f0387f14648843517df7ccf074a3989c3ec8d950e3cc84cef9c",
+    "src/drosolearn/cone_geometry.py": "01c31caecc2ab1a9d777ccfb694a0557b42f728f6823bbf5e5a6a55438d20564",
+    "src/drosolearn/gated_envelope.py": "e1d32225f67c174c2e8027b27ceeb322db32cfc9e57261740e2a6516a56e57ea",
+    "src/drosolearn/gated_factors_envelope.py": "6e88df46ba3ab955bf1a5624ee1d7d3697acdeec7953260ab00a4c24e27c5345",
+    "src/drosolearn/gated_pathways_envelope.py": "cedfb18cd74caab54d71dd4ef57884155fbe603f8304a3c46a7dc3399d741269",
+    "src/drosolearn/normalization_envelope.py": "482bc8839c0f435f10776a534601f871014d37a82384d0973f33a191b854a55d",
+    "src/drosolearn/pathways_envelope.py": "3cb56134fa85d92c56f3e1d2a55ad86582d279432b107c35cc9452570f35dcd5",
+    "src/drosolearn/probability_alignment.py": "cfc1c0c54eecc38e13d5a848adea03b2d481904bc0a04ca00b4f84fe5983767d",
+    "src/drosolearn/probability_envelope.py": "cf8c8d57f081fe646401afaa406de36603440dbbd58d86343b7ba0431d8a4186",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "src/drosolearn/selective_envelope.py": "72597a9ca74a33d3aa1f43f0c432c8310eb32812e7ef0ad8005e0c386e0135f1",
+    "src/drosolearn/self_blend_envelope.py": "875f7e7ed20786f1d10da664b0eb4fba5559cca82d9bca70d5c6b94f696a4ef8",
+    "src/drosolearn/self_blend_factors_envelope.py": "9d89ab835fdab8675ff158b9591de2eb0a0848ab8dc51a61558798b7cf8d3fad",
+    "tests/test_probability_alignment.py": "7aa3942cf36e2a3fe9b62036440c1869c59a53c0d7cbe1dbf5c084240dcac1e9",
+    "tests/test_probability_alignment_envelope.py": "c21ef92d336e0afb93ab8e3fa547c6ff615189e184a4731e9f62720f41eeee9b",
+    "tests/test_probability_alignment_verify.py": "59b6ef194e54a54b14fb5c00766a0235085ce93488c06bbdeaea34d97c0a8d71"
+  },
+  "parent_byte_gate": {
+    "baseline_tag": "self-blend-factors-v1",
+    "baseline_commit": "2715f1eada36207ce77709f08874688b1425d676",
+    "inherited_parent_gate": {
+      "baseline_tag": "self-blend-learning-v1",
+      "baseline_commit": "0d1a7abaf35e564eb397a52bb9f44a4f1b723907",
+      "inherited_parent_gate": {
+        "baseline_tag": "gated-factors-v1",
+        "baseline_commit": "d94922361e8a17e156bed0d5c4f240750f75f5ef",
+        "inherited_parent_gate": {
+          "baseline_tag": "gated-pathways-v1",
+          "baseline_commit": "e74604a67479299825e2ab5572fd3efd8f9970d6",
+          "inherited_parent_gate": {
+            "baseline_tag": "gated-learning-v1",
+            "baseline_commit": "b89e9f2baf1aed91b4451538c85ba3e9458df53b",
+            "inherited_parent_gate": {
+              "baseline_tag": "balanced-pathways-v1",
+              "baseline_commit": "f291f1f22e7ce83a0c836924530ca93e9bc12d33",
+              "inherited_parent_gate": {
+                "baseline_tag": "balanced-learning-v1",
+                "baseline_commit": "b836a780b91d81425e534dad7284485f284799ce",
+                "inherited_parent_gate": {
+                  "baseline_tag": "cone-frontier-v1",
+                  "baseline_commit": "56e1a31537083825e83d4402cfa9445e7e519b9b",
+                  "inherited_parent_gate": {
+                    "baseline_tag": "normalization-loss-v1",
+                    "baseline_commit": "f1ada01a904283a1036b4dc77b10fb3882194750",
+                    "prior_normalization_independent_audit_reused": true,
+                    "prior_selective_full_replay_reused_not_rerun": true,
+                    "pinned_files": 16,
+                    "archive_snapshot_files": 49,
+                    "immutable_source_parent_and_baseline_Git_bytes_checked": true,
+                    "prior_negative_human_and_acquisition_preserved": true,
+                    "new_training_calls": 0,
+                    "new_random_seed_draws": 0,
+                    "new_graph_or_feature_constructions": 0
+                  },
+                  "pinned_baseline_files": 43,
+                  "historical_archive_snapshot_files": 50,
+                  "prior_cone_independent_certificate_and_information_gates_reused": true,
+                  "prior_frontier_is_not_actual_learning": true,
+                  "parent_source_data_Git_and_archive_bytes_checked": true,
+                  "prior_negative_learning_and_human_results_preserved": true,
+                  "parent_gate_no_new_learner_graph_or_seed_calls": true,
+                  "whole_repository_literal_pass_not_repeated": true
+                },
+                "pinned_baseline_files": 19,
+                "historical_archive_snapshot_files": 80,
+                "prior_complete_96000_action_replay_and_510_optima_reused_not_rerun": true,
+                "parent_raw_arrays_CSV_source_data_Git_and_archive_bytes_checked": true,
+                "prior_three_unsupported_hypotheses_preserved": true,
+                "parent_gate_no_new_learner_graph_or_seed_calls": true,
+                "whole_repository_literal_pass_not_repeated": true
+              },
+              "pinned_baseline_files": 47,
+              "historical_archive_snapshot_files": 55,
+              "prior_complete_pathways_accounting_reused_not_rerun": true,
+              "parent_raw_arrays_CSV_source_data_Git_and_archive_bytes_checked": true,
+              "prior_three_unsupported_hypotheses_and_noncausal_accounting_preserved": true,
+              "parent_gate_no_new_learner_graph_or_seed_calls": true,
+              "whole_repository_literal_pass_not_repeated": true
+            },
+            "pinned_baseline_files": 21,
+            "historical_archive_snapshot_files": 84,
+            "prior_complete_120000_action_replay_and_720_optima_reused_not_rerun": true,
+            "parent_raw_arrays_CSV_source_data_Git_and_archive_bytes_checked": true,
+            "prior_unsupported_gain_acquisition_and_operational_protection_preserved": true,
+            "original_parent_prefreeze_finalization_gate": {
+              "source_committed_prefreeze_receipts_checked": 4,
+              "retained_initial_commit_ancestry_and_exact_four_finalized_paths_checked": true,
+              "initial_model_and_configuration_source_bytes_unchanged": true,
+              "parent_finalization_precedes_original_registration_and_learning": true
+            },
+            "parent_gate_no_new_learner_graph_or_seed_calls": true,
+            "whole_repository_literal_pass_not_repeated": true
+          },
+          "pinned_baseline_files": 23,
+          "historical_archive_snapshot_files": 56,
+          "parent_saved_accounting_and_original_autonomous_replay_reused_not_rerun": true,
+          "parent_raw_source_data_Git_archive_and_prefreeze_bytes_checked": true,
+          "prior_unsupported_gain_acquisition_and_operational_protection_preserved": true,
+          "parent_gate_no_new_learner_graph_seed_or_optimizer_calls": true,
+          "whole_repository_literal_pass_not_repeated": true
+        },
+        "pinned_baseline_files": 52,
+        "historical_archive_snapshot_files": 62,
+        "parent_saved_factor_accounting_and_original_autonomous_replay_reused_not_rerun": true,
+        "original_factor_prefreeze_failure_and_exception_gate": {
+          "prefreeze_source_committed_receipts_checked": 7,
+          "original_269_unique_tests_and_three_failure_artifacts_checked": true,
+          "raw_failed_xml_whitespace_preserved_without_science_change": true,
+          "parent_prefreeze_and_exception_precede_original_analysis": true
+        },
+        "parent_raw_source_data_Git_archive_and_prefreeze_bytes_checked": true,
+        "prior_unsupported_gain_acquisition_and_operational_protection_preserved": true,
+        "parent_gate_no_new_learner_graph_seed_or_optimizer_calls": true,
+        "whole_repository_literal_pass_not_repeated": true
+      },
+      "pinned_baseline_files": 26,
+      "historical_archive_snapshot_files": 91,
+      "prior_complete_144000_action_replay_and_943_B_states_reused_not_rerun": true,
+      "original_learning_prefreeze_and_development_ZIP_gate": {
+        "source_committed_prefreeze_receipts_checked": 7,
+        "original_342_tests_and_four_failure_archive_paths_checked": true,
+        "prior_ZIP_member_hash_validation_reused_by_raw_bytes": true,
+        "parent_prefreeze_and_failure_preservation_precede_actual_learning": true
+      },
+      "raw_source_graph_input_and_plotted_accounting_Git_archive_bytes_checked": true,
+      "prior_unsupported_gain_acquisition_and_operational_protection_preserved": true,
+      "parent_gate_no_new_learner_graph_seed_or_optimizer_calls": true,
+      "whole_repository_literal_pass_not_repeated": true
+    },
+    "pinned_baseline_files": 32,
+    "historical_archive_snapshot_files": 63,
+    "prior_complete_saved_factors_and_original_144000_action_replay_reused_not_rerun": true,
+    "original_parent_prefreeze_style_finalization_gate": {
+      "source_committed_prefreeze_and_style_receipts_checked": 5,
+      "original_295_passing_tests_and_style_ZIP_preserved": true,
+      "independent_two_LF_only_finalization_and_all_other_sources_reused_by_frozen_hashes": true,
+      "no_parent_scientific_replay_or_solver_calls": true
+    },
+    "parent_raw_source_data_Git_archive_and_prefreeze_bytes_checked": true,
+    "prior_unsupported_gain_acquisition_and_operational_protection_preserved": true,
+    "parent_gate_no_new_learner_graph_seed_or_optimizer_calls": true,
+    "whole_repository_literal_pass_not_repeated": true
+  },
+  "actual_new_saved_alignment_aggregation_before_freeze": 0,
+  "actual_new_direction_optimizations_before_freeze": 0,
+  "new_training_random_graph_calls_before_freeze": 0,
+  "synthetic_fixtures_only_before_freeze": true,
+  "design_audits": [
+    "Same factual prefeedback state, observed signs, actual action/reward and signed update for all five candidates",
+    "No partial-observation, fourth discovery or NoGo solver calls; zero-factor actual Go remains eligible",
+    "Separate all-input uniform U and current probability-gradient P; P minus U finite Q is primary descriptive comparison",
+    "U/P linear global support certification is an integrity property, not nonlinear finite-Q optimum or learned performance",
+    "Same unit directions and actual signed step per saved state; computation work not resource equalized",
+    "P optimized per eligible record; U cached by feature/source/observed signs; new solves counted rather than relabeled zero",
+    "No new learning, actions, future transitions, randomness, graphs, hidden feedback or human/biological inference",
+    "All seed/condition rows, exact finite and tangent changes, negative signs and empty subsets retained; closed gates preserved"
+  ]
+}
