@@ -1,0 +1,306 @@
+{
+  "primary_component_difference_pp": [
+    [
+      -0.05710834171478485,
+      -0.019985568059563794,
+      -2.8731463208552848,
+      -0.19296237687163528,
+      0.0821282206873035,
+      0.0
+    ],
+    [
+      -0.03373077970431497,
+      0.0007332511909304471,
+      3.695754715147366,
+      0.0,
+      0.0791479526682172,
+      0.0
+    ]
+  ],
+  "primary_positive_endpoint_allocations_pp": [
+    [
+      -0.05710834171478506,
+      -0.019985568059564487,
+      -2.873146320855221,
+      -0.19296237687163528,
+      0.08212822068730655,
+      0.0
+    ],
+    [
+      -0.0337307797043164,
+      0.0007332511909301231,
+      3.6957547151474945,
+      0.0,
+      0.0791479526682215,
+      0.0
+    ]
+  ],
+  "primary_negative_endpoint_allocations_pp": [
+    [
+      -2.0816681711721693e-16,
+      -6.938893903907228e-16,
+      6.3352101342673e-14,
+      0.0,
+      3.053113317719181e-15,
+      0.0
+    ],
+    [
+      -1.4340380734741607e-15,
+      -3.2381504884900407e-16,
+      1.2887838944190358e-13,
+      0.0,
+      4.3021142204224816e-15,
+      0.0
+    ]
+  ],
+  "diagnostic_order": [
+    "aligned_source_logit_before",
+    "correct_source_probability",
+    "logistic_sensitivity_value",
+    "abs_update_factor",
+    "head_step_l2",
+    "own_unit_direction_influence",
+    "other_unit_aligned_influence_mean",
+    "direction_l2"
+  ],
+  "primary_diagnostic_means": [
+    [
+      0.1415528843962794,
+      0.5352588661577351,
+      0.24830933662456736,
+      0.04970188726440048,
+      0.049701887264400474,
+      0.11439694479841696,
+      -8.063575991697285e-18,
+      1.0
+    ],
+    [
+      0.15565027409409887,
+      0.5384189390315255,
+      0.2468040483876782,
+      0.04954444885521548,
+      0.04954444885521548,
+      0.06396640054529398,
+      0.02185700482043267,
+      1.0
+    ]
+  ],
+  "all_contrasts": [
+    {
+      "topology": "real",
+      "representation": "raw",
+      "control": "isolated",
+      "own_other_post_difference_pp": [
+        -3.061074386813965,
+        3.7419051393021983
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "control": "balanced",
+      "own_other_post_difference_pp": [
+        0.024250313483027974,
+        0.024821558135792173
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "control": "feedback_selective",
+      "own_other_post_difference_pp": [
+        -0.022859367433155087,
+        0.4376103929492549
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "control": "shared",
+      "own_other_post_difference_pp": [
+        -49.64944914387768,
+        56.732164078893874
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "control": "isolated",
+      "own_other_post_difference_pp": [
+        -4.970899454228384,
+        11.410503221465033
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "control": "balanced",
+      "own_other_post_difference_pp": [
+        0.07230585161979594,
+        0.07254580579565739
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "control": "feedback_selective",
+      "own_other_post_difference_pp": [
+        -0.6708972439690238,
+        1.0697828914470016
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "control": "shared",
+      "own_other_post_difference_pp": [
+        -43.89645323854355,
+        62.59686227396812
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "control": "isolated",
+      "own_other_post_difference_pp": [
+        -3.7050498385977315,
+        4.550775735295063
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "control": "balanced",
+      "own_other_post_difference_pp": [
+        -0.013742988462567692,
+        -0.020904481741028658
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "control": "feedback_selective",
+      "own_other_post_difference_pp": [
+        -0.16382333768265492,
+        0.32073547953210363
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "control": "shared",
+      "own_other_post_difference_pp": [
+        -48.36979323943631,
+        57.0181576252897
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "control": "isolated",
+      "own_other_post_difference_pp": [
+        -4.129733228395714,
+        12.0217574505849
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "control": "balanced",
+      "own_other_post_difference_pp": [
+        0.07602313726989149,
+        0.06754846532346141
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "control": "feedback_selective",
+      "own_other_post_difference_pp": [
+        -0.4447437944735026,
+        0.7307401535852458
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "control": "shared",
+      "own_other_post_difference_pp": [
+        -42.9157832103524,
+        62.78839903262264
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "control": "isolated",
+      "own_other_post_difference_pp": [
+        -3.4763237663742825,
+        4.117895582543167
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "control": "balanced",
+      "own_other_post_difference_pp": [
+        -0.026076086126586153,
+        -0.03000883550740671
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "control": "feedback_selective",
+      "own_other_post_difference_pp": [
+        -0.14329454050676926,
+        0.3503919528744029
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "control": "shared",
+      "own_other_post_difference_pp": [
+        -49.044067489653074,
+        56.86316788100586
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "control": "isolated",
+      "own_other_post_difference_pp": [
+        -3.9414391187303623,
+        12.526807013203111
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "control": "balanced",
+      "own_other_post_difference_pp": [
+        0.025281857846923377,
+        0.029140598964133017
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "control": "feedback_selective",
+      "own_other_post_difference_pp": [
+        -0.5901763290904537,
+        0.8828081601820364
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "control": "shared",
+      "own_other_post_difference_pp": [
+        -42.85185009487769,
+        63.25076361007312
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "study_id": "gated_factors_v1",
+  "verified_at_utc": "2026-10-20T01:10:05.028590+00:00",
+  "registration_sha256": "3b7efbea0a0503a34a30118588a5cb54588d9a3cd3bef4c67689d753346a35a2",
+  "summary_sha256": "fd9e7e1e219c15f810b32ed06492c70aa5cf9a398ccc400e9c6499a2a85bf02a",
+  "scientific_producer_imported": false,
+  "new_helper_imported": false,
+  "counts": {
+    "arrays": 14,
+    "parent_trial_records_checked": 120000,
+    "destination_effects_checked": 480000,
+    "measurement_records_checked": 2880,
+    "factual_head_prefixes_and_prior_accounting_checked": true,
+    "only_post_both_actual_Go_eight_corners_checked": true,
+    "state_scalar_direction_symmetric_allocations_checked": true,
+    "signed_positive_and_negative_mass_allocations_checked": true,
+    "own_other_and_all_unpaired_actual_actions_accounted": true,
+    "factual_diagnostics_and_nullable_seed_means_checked": true,
+    "partial_control_information_not_silently_equalized": true,
+    "no_rng_model_graph_solver_or_future_policy_calls": true,
+    "new_training_trials": 0,
+    "new_random_draws": 0,
+    "new_optimization_calls": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "study_id": "gated_factors_v1",
+  "generated_at_utc": "2026-10-20T01:10:33.361271+00:00",
+  "verified_arrays_only": true,
+  "new_training_trials": 0,
+  "new_parameter_selection": false,
+  "arrays_sha256": "6ce4f12e207532be440d0e72e17f0ad640c49744a9224063cc7cc990ae66a18e",
+  "summary_sha256": "fd9e7e1e219c15f810b32ed06492c70aa5cf9a398ccc400e9c6499a2a85bf02a",
+  "verification_sha256": "419ad9cfef8aebb2a377bf02af9c9a3c4c08c51acee857fe6ad22c13185af7b8",
+  "render_script_sha256": "2f4cf7f61a6c66199442c829c53357093f84b1dc119c164a9b3b78d7e948a8cd",
+  "plotted_values_sha256": "ba0d207bdde10eb4eb9f93935f2e7355d7db4768690331c4c1a7bbf1222f64fa",
+  "figure_sha256": {
+    "all-contrasts.png": "f260283859998f38398defe78f3e3a44bd4d846a8f91a0519b26701fea7376d5",
+    "factor-accounting.png": "fe4f611b66ee3950c02f626ec99b54b2f1b862715153ca8b4b06bc2e0185c266",
+    "paired-diagnostics.png": "acac4582f78be2d073761c18a847dcc861dcd9da770f1cfacebae738ff9f1b8e"
+  }
+}

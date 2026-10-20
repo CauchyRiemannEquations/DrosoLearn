@@ -1,0 +1,11 @@
+{
+  "study_id": "gated_factors_v1",
+  "registration_sha256": "3b7efbea0a0503a34a30118588a5cb54588d9a3cd3bef4c67689d753346a35a2",
+  "source_commit": "6ee94716af68f22c9feef3b1e3b7085e57b31109",
+  "published_commit": "a5f3868f638f98ca9256beeb07c2944fca24204d",
+  "remote_bytes_match": true,
+  "checked_at_utc": "2026-10-20T01:08:26.945805+00:00",
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/a5f3868f638f98ca9256beeb07c2944fca24204d/results/registration_gated_factors_v1.json",
+  "method": "Authenticated private remote main and literal decoded registration bytes checked before first saved-path arithmetic; parent outcomes already known; no secrets logged"
+}

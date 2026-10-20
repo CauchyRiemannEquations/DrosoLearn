@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "study_id": "gated_factors_v1",
+  "checked_at_utc": "2026-10-20T01:17:06.873736+00:00",
+  "independent_read_only_presentation_audit": true,
+  "scientific_producer_imported": false,
+  "additional_scientific_runs": 0,
+  "all24_comparisons240_seed_records_signed_positive_negative_components_and2880_CSV_rows_checked": true,
+  "all48_display_table_rows_and_primary_secondary_component_tables_checked": true,
+  "all_conditional_diagnostic_seed_means_and_primary_eight_diagnostic_table_checked": true,
+  "same_gated_paths_reused_across_controls_not240_independent_seeds_explicit": true,
+  "both_actual_Go_common_post_only_direction_identity_for_all6_balanced_comparisons_checked": true,
+  "primary_own_minus3_0611_other_plus3_7419_and_one_sided_minus0_1108_pp_checked": true,
+  "unit_direction_influence_distinguished_from_signed_scalar_actual_step_and_final_accuracy": true,
+  "mixed_g_not_recomputed_from_crossed_state_and_no_feasible_intervention_claim_checked": true,
+  "state_negative_allocation_not_bad_state_and_positive_mass_allocation_can_be_negative_explicit": true,
+  "all_plot_values_and_reproduced_three_PNG_and_JSON_bytes_identical": true,
+  "unique_passed_tests_checked": 269,
+  "new_tests": 158,
+  "related_tests": 111,
+  "test_groups": {
+    "tests.test_gated_factors": 45,
+    "tests.test_gated_factors_envelope": 48,
+    "tests.test_gated_factors_verify": 65,
+    "tests.test_balanced_pathways": 67,
+    "tests.test_gated_pathways": 44
+  },
+  "original8_pass1_fail_artifacts_and_single_XML_style_exception_preserved": true,
+  "source20_parent12_registration_publication_before_analysis_chronology_checked": true,
+  "parent_unsupported_gain_acquisition_supported_operational_protection_and_negative_human_result_preserved": true,
+  "three_evolving_indexes_PAUSED_checked": true,
+  "figure_visual_checks": {
+    "all_three_viewed": true,
+    "labels_and_legends_readable": true,
+    "all_plotted_bars_inside_axes": true,
+    "no_overlap_or_cutoff_observed": true
+  },
+  "figure_dimensions": {
+    "all-contrasts.png": [
+      1950,
+      1200
+    ],
+    "factor-accounting.png": [
+      1950,
+      750
+    ],
+    "paired-diagnostics.png": [
+      2100,
+      1050
+    ]
+  },
+  "local_document_links_checked": 8,
+  "document_sha256": {
+    "docs/gated-factors-findings.md": "094a952183289011a0473024f7116c69677504c268bb5a5a7c6d8701eead32de",
+    "docs/gated-factors-reproduction.md": "3ae78657425b3fc7d9598be2ff4628681dfc7390ccdcf6ad38ee643b28835ee6",
+    "README.md": "8a372b3a209d73a6ed17cc458fb02289d642320947653c91f102f5ff93b777de",
+    "docs/research-roadmap.md": "a485539dc805fd478ce700a5e2933d4e0094bfc04ccdceb9ed096f31f3f61042",
+    "docs/repository-status.json": "a956923a90515c145e5195fcaac0c4cc27a685cb959460ac63a40a1ccf4dbb68"
+  },
+  "additional_file_sha256": {
+    "results/gated_factors_v1/summary.json": "fd9e7e1e219c15f810b32ed06492c70aa5cf9a398ccc400e9c6499a2a85bf02a",
+    "results/gated_factors_v1/metadata.json": "5cae1e2575458e4b25d946449c463570e8793d5525784bccace98bb07483d928",
+    "results/gated_factors_v1/verification.json": "419ad9cfef8aebb2a377bf02af9c9a3c4c08c51acee857fe6ad22c13185af7b8",
+    "results/gated_factors_v1/artifact_hashes.json": "1710192728ebc0affe1e5ca2e5259cca8b078ca06af6b5271a921ce5438cfdea",
+    "results/registration_gated_factors_v1.json": "3b7efbea0a0503a34a30118588a5cb54588d9a3cd3bef4c67689d753346a35a2",
+    "results/gated_factors_publication_proof.json": "fc6a409c5e594c96e331bebef55290a2c9c2d60737565a03f215466a71fee8bf",
+    "results/gated_factors_prefreeze_validation.json": "4d1c958093e144e751b21cfcffdc55f61b91e63ff96e521fda13b42ed6577703",
+    "results/gated_factors_prefreeze_evidence_exception.json": "73b915de35fc49de645276b904997c890bf3e0fe632f9dc0b45a3d7aa7dfbeb9",
+    "results/gated_factors_baseline_preservation.json": "5f5f576c6193c6cbb3ec40ec1870b63435f8974eef97bed8ad7c4def834ed262",
+    "results/gated_factors_prefreeze_tests/gated_factors_prefreeze_final.xml": "da4700c95cf6632014f8948ee6b1356e22b1c1ea9174a261eb4c7bf465b4ec99",
+    "results/gated_factors_development/gated_factors_verify_failure_01.py": "1f739c63b39d36a5898a5ee940a62051f01c0f51251021e15bfc69935939145d",
+    "results/gated_factors_development/gated_factors_verify_tests_failure_01.py": "59e6bfc2a2bc8440bb46f7e17db7bcc334e7a2c91f53de6c1e36940855165aa9",
+    "results/gated_factors_development/gated_factors_verify_development_failure_01.xml": "b1ee2f5adbf1fe9922389191dd19cee51f85d7099c612c2306fa125686659c22",
+    "results/gated_factors_figures_v1/provenance.json": "13a92edc8f8bc1d0baafbc5eb8006b7f75af84660d45fb84bee7524afa3b72f6",
+    "results/gated_factors_figures_v1/plotted_values.json": "ba0d207bdde10eb4eb9f93935f2e7355d7db4768690331c4c1a7bbf1222f64fa",
+    "scripts/render_gated_factors.py": "2f4cf7f61a6c66199442c829c53357093f84b1dc119c164a9b3b78d7e948a8cd",
+    "results/gated_factors_figures_v1/all-contrasts.png": "f260283859998f38398defe78f3e3a44bd4d846a8f91a0519b26701fea7376d5",
+    "results/gated_factors_figures_v1/factor-accounting.png": "fe4f611b66ee3950c02f626ec99b54b2f1b862715153ca8b4b06bc2e0185c266",
+    "results/gated_factors_figures_v1/paired-diagnostics.png": "acac4582f78be2d073761c18a847dcc861dcd9da770f1cfacebae738ff9f1b8e"
+  }
+}
