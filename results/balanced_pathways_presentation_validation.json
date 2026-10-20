@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "study_id": "balanced_pathways_v1",
+  "checked_at_utc": "2026-10-20T00:04:05.921954+00:00",
+  "independent_read_only_presentation_audit": true,
+  "scientific_producer_imported": false,
+  "all24_family_rows_checked": true,
+  "all6_contrast_rows_checked": true,
+  "all240_seed_phase_category_accounts_checked": true,
+  "primary_6_phase_and_5_endpoint_bridge_and_3_harm_bridge_cells_checked": true,
+  "all1912_objective_plot_points_values_and_sources_checked": true,
+  "primary_objective_and_matched_probability_improve_all1912": true,
+  "primary_objective_probability_mismatch_explanation_rejected": true,
+  "exact_same_first_full_trials_and_unknown_masks_checked": true,
+  "direction_99_91_percent_is_declared_allocation_not_universal_causal_fraction": true,
+  "negative_state_component_not_called_bad_state": true,
+  "probability_mass_to_endpoint_pp_divide_by_four_checked": true,
+  "identity_unknown_harm_opposite_sign_preserved": true,
+  "parent_three_hypotheses_remain_unsupported": true,
+  "new_training_trials": 0,
+  "new_random_draws": 0,
+  "new_optimization_calls": 0,
+  "unique_tests_checked": 242,
+  "new_tests": 181,
+  "related_tests": 61,
+  "test_groups": {
+    "tests.test_balanced_pathways": 67,
+    "tests.test_pathways_envelope": 40,
+    "tests.test_balanced_pathways_verify": 74,
+    "tests.test_balanced_learning": 61
+  },
+  "original_one_failed_integer_fixture_preserved_not_counted_as_pass": true,
+  "local_links_checked": 8,
+  "figure_visual_checks": {
+    "all_three_viewed": true,
+    "labels_readable": true,
+    "no_title_or_axis_overlap_observed": true,
+    "distinct_endpoint_pp_and_accumulated_mass_units": true
+  },
+  "renderer_reproduction_all_three_png_bytes_and_plotted_JSON_bytes_identical": true,
+  "figure_dimensions": {
+    "bridge-accounting.png": [
+      2100,
+      855
+    ],
+    "objective-gain.png": [
+      1350,
+      750
+    ],
+    "phase-accounting.png": [
+      1800,
+      750
+    ]
+  },
+  "document_sha256": {
+    "docs/balanced-pathways-findings.md": "5e5d50bb0ab75f7ef1b62b759902c40c66a30a075620c16ea310bd0a84e45c65",
+    "docs/balanced-pathways-reproduction.md": "1ccdeb0674da9ce1976517a7b090f25fa2394c32f3419a5ea09e5bc7f822d058"
+  },
+  "three_current_indexes_numeric_and_scope_checked": true,
+  "additional_file_sha256": {
+    "results/balanced_pathways_v1/summary.json": "20ad09156f0473951df6c872a748fb819fd649c4168bc3c6527f7fdc037b4b4b",
+    "results/balanced_pathways_v1/verification.json": "bbea0b8ed1c4f5339f6f868936611af6f8099c7455d91436805a79ded0129bdd",
+    "results/balanced_pathways_v1/metadata.json": "00af1030a9e3f0036203962dbe6d29e0f5c80121df0f02e87184cc396d2772fb",
+    "results/registration_balanced_pathways_v1.json": "f37513eb3a382c8676e76089a405a18ef00db58ec57ddcda68b38359794ce6b6",
+    "results/balanced_pathways_publication_proof.json": "5aa645b59b4eb4df3cc200755f0e18943fe9969c6b7db54fef5239ae1cee2f4d",
+    "results/balanced_pathways_prefreeze_validation.json": "8e3144bff4739b327e2541cd445fe5ea5bd26b1125cdc7bc1b41dbcb7ac845f9",
+    "results/balanced_pathways_prefreeze_tests/pathways_prefreeze_tests_final.xml": "9bc3359625152d62a64efdfc1a960134f756bf7ce6834772698389edd967edb1",
+    "results/balanced_pathways_prefreeze_tests/development_integer_fixture_failure.xml": "857f5e0574fdf762da23e781a46f7756f54044bf3c080717fe712b51be3b89bb",
+    "results/balanced_pathways_baseline_preservation.json": "cbca9f393a91e12af73c89649ff8e5cccd991856f4424e453e369191435c20a3",
+    "results/balanced_pathways_figures_v1/provenance.json": "e02c7ccf635b06e824cb44b37411d871b68b3a85961c107c937894819151894c",
+    "results/balanced_pathways_figures_v1/plotted_values.json": "a0cda2404092a835aae516c6f36ea5fe7de6ce1ad0b273596671724fc49fe7b1",
+    "scripts/render_balanced_pathways.py": "04ddc92ec02218d5e396d5652d3c4129392fab6893ca8ff993778e722e4bd623",
+    "results/balanced_pathways_figures_v1/bridge-accounting.png": "8a036f4d9b34bddc78a4e0723a9aa5034fb916c4728be5c0d892c37e6c9bffea",
+    "results/balanced_pathways_figures_v1/objective-gain.png": "4266aa9cf8473c106ccaa1109163cdc32701ff92227350dc247717cadcaa8106",
+    "results/balanced_pathways_figures_v1/phase-accounting.png": "eaa4ed005271a10a5ff277e449103f26ff5c69bf815c2d5ef34b6cdf753012c1",
+    "README.md": "7469b4abc02c980d5f7284c65bbff693190dca89d8b2a38500705313bac10e41",
+    "docs/research-roadmap.md": "a5f875b683a7700ef46a31d40968da3b3fe75118d4ed8369af6a30dbcf19bbf4",
+    "docs/repository-status.json": "f8fc87ff61a1cf1590df67b125d280f881cc60f3a192dc6a784b4fb211130363"
+  }
+}

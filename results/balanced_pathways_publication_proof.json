@@ -1,0 +1,11 @@
+{
+  "study_id": "balanced_pathways_v1",
+  "registration_sha256": "f37513eb3a382c8676e76089a405a18ef00db58ec57ddcda68b38359794ce6b6",
+  "source_commit": "6c60a36e45bb4f0fff6c48f4c5df766b92489a69",
+  "published_commit": "93015c75e3d5b45d561b4c7d3f928fb1369307a2",
+  "checked_at_utc": "2026-10-19T23:56:25.399319+00:00",
+  "remote_bytes_match": true,
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/93015c75e3d5b45d561b4c7d3f928fb1369307a2/results/registration_balanced_pathways_v1.json",
+  "method": "Authenticated private GitHub main ref and literal decoded registration bytes checked before new saved-pathway arithmetic; parent outcomes already known; no secrets logged"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "study_id": "balanced_pathways_v1",
+  "verified_at_utc": "2026-10-19T23:57:15.545798+00:00",
+  "registration_sha256": "f37513eb3a382c8676e76089a405a18ef00db58ec57ddcda68b38359794ce6b6",
+  "summary_sha256": "20ad09156f0473951df6c872a748fb819fd649c4168bc3c6527f7fdc037b4b4b",
+  "scientific_producer_imported": false,
+  "new_helper_imported": false,
+  "counts": {
+    "arrays": 19,
+    "parent_trial_records_checked": 96000,
+    "destination_effects_checked": 384000,
+    "measurement_records_checked": 1440,
+    "all_fixed_saved_head_prefixes_feedback_and_checkpoints_checked": true,
+    "phase_uses_prefeedback_memory_and_last_discovery_is_partial": true,
+    "roundoff_signs_and_zero_effects_preserved_without_threshold": true,
+    "all_destination_and_phase_endpoint_contributions_telescope": true,
+    "all_eight_both_Go_corners_independently_reconstructed": true,
+    "state_scalar_direction_Shapley_efficiency_checked": true,
+    "unknown_mask_intersection_and_exposure_difference_separated": true,
+    "full_known_objective_and_matched_exact_probability_separated": true,
+    "prior_full_autonomous_replay_reused_by_frozen_hashes": true,
+    "no_rng_learner_graph_or_optimizer_calls": true,
+    "new_training_trials": 0,
+    "new_random_draws": 0,
+    "new_optimization_calls": 0
+  }
+}
