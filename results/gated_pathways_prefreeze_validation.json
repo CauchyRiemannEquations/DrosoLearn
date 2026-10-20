@@ -1,0 +1,112 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-20T00:46:43.737950+00:00",
+  "baseline_commit": "b89e9f2baf1aed91b4451538c85ba3e9458df53b",
+  "unique_passed_tests": 256,
+  "new_unique_passed_tests": 142,
+  "unchanged_related_regression_passed_tests": 114,
+  "test_receipts": [
+    {
+      "path": "results/gated_pathways_prefreeze_tests/gated_pathways_prefreeze_final2.xml",
+      "sha256": "e4a900aa802dd96ab6f298be1c748ccbf2e35ec0e177ca94783075705ac53bc7",
+      "passed_unique_tests": 256
+    }
+  ],
+  "frozen_source_hashes": {
+    "configs/gated_pathways_v1.json": "ac3d23c7627d5123213c2e563e43d1b5d6c338af71a03fc71e7ade9edbde48c4",
+    "docs/gated-pathways-protocol.md": "e6557ac742ec30310d48e521c6e5f9d21c4331827c01007fc4a4cbe289551263",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_gated_pathways.py": "8332deb84c2e3f04eae395df94e4f76f6af7fe4104907b51539cd3ce1ae5f2c9",
+    "scripts/verify_gated_pathways.py": "c478398b563fdf88ec3773a5e95c5c2ce197ec5c2ac793a1eecf741dbdb98c7e",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/balanced_envelope.py": "9ce6c4b99154af6d44e09b1aa4eaf046e40dd60207adbaab51fa11279085af40",
+    "src/drosolearn/cone_envelope.py": "38a4072690b00f0387f14648843517df7ccf074a3989c3ec8d950e3cc84cef9c",
+    "src/drosolearn/gated_envelope.py": "e1d32225f67c174c2e8027b27ceeb322db32cfc9e57261740e2a6516a56e57ea",
+    "src/drosolearn/gated_pathways.py": "8f641c28231b86b1b1738bb269764230269599d12f7f24aae9bd369d4c91b125",
+    "src/drosolearn/gated_pathways_envelope.py": "cedfb18cd74caab54d71dd4ef57884155fbe603f8304a3c46a7dc3399d741269",
+    "src/drosolearn/normalization_envelope.py": "482bc8839c0f435f10776a534601f871014d37a82384d0973f33a191b854a55d",
+    "src/drosolearn/pathways_envelope.py": "3cb56134fa85d92c56f3e1d2a55ad86582d279432b107c35cc9452570f35dcd5",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "src/drosolearn/selective_envelope.py": "72597a9ca74a33d3aa1f43f0c432c8310eb32812e7ef0ad8005e0c386e0135f1",
+    "tests/test_gated_pathways.py": "7a2c5cbd282ba56b3800a028ebe970f6276f969752c719c13f675131ab0c691f",
+    "tests/test_gated_pathways_envelope.py": "6d7ac86785562814eaacf0720146a187c1ca36da1468beeecbec281a03e6092e",
+    "tests/test_gated_pathways_verify.py": "382546e588f1ee0a6a4176f6b1a9ce5dd7301eaae24368abed94cba4189558a7"
+  },
+  "parent_byte_gate": {
+    "baseline_tag": "gated-learning-v1",
+    "baseline_commit": "b89e9f2baf1aed91b4451538c85ba3e9458df53b",
+    "inherited_parent_gate": {
+      "baseline_tag": "balanced-pathways-v1",
+      "baseline_commit": "f291f1f22e7ce83a0c836924530ca93e9bc12d33",
+      "inherited_parent_gate": {
+        "baseline_tag": "balanced-learning-v1",
+        "baseline_commit": "b836a780b91d81425e534dad7284485f284799ce",
+        "inherited_parent_gate": {
+          "baseline_tag": "cone-frontier-v1",
+          "baseline_commit": "56e1a31537083825e83d4402cfa9445e7e519b9b",
+          "inherited_parent_gate": {
+            "baseline_tag": "normalization-loss-v1",
+            "baseline_commit": "f1ada01a904283a1036b4dc77b10fb3882194750",
+            "prior_normalization_independent_audit_reused": true,
+            "prior_selective_full_replay_reused_not_rerun": true,
+            "pinned_files": 16,
+            "archive_snapshot_files": 49,
+            "immutable_source_parent_and_baseline_Git_bytes_checked": true,
+            "prior_negative_human_and_acquisition_preserved": true,
+            "new_training_calls": 0,
+            "new_random_seed_draws": 0,
+            "new_graph_or_feature_constructions": 0
+          },
+          "pinned_baseline_files": 43,
+          "historical_archive_snapshot_files": 50,
+          "prior_cone_independent_certificate_and_information_gates_reused": true,
+          "prior_frontier_is_not_actual_learning": true,
+          "parent_source_data_Git_and_archive_bytes_checked": true,
+          "prior_negative_learning_and_human_results_preserved": true,
+          "parent_gate_no_new_learner_graph_or_seed_calls": true,
+          "whole_repository_literal_pass_not_repeated": true
+        },
+        "pinned_baseline_files": 19,
+        "historical_archive_snapshot_files": 80,
+        "prior_complete_96000_action_replay_and_510_optima_reused_not_rerun": true,
+        "parent_raw_arrays_CSV_source_data_Git_and_archive_bytes_checked": true,
+        "prior_three_unsupported_hypotheses_preserved": true,
+        "parent_gate_no_new_learner_graph_or_seed_calls": true,
+        "whole_repository_literal_pass_not_repeated": true
+      },
+      "pinned_baseline_files": 47,
+      "historical_archive_snapshot_files": 55,
+      "prior_complete_pathways_accounting_reused_not_rerun": true,
+      "parent_raw_arrays_CSV_source_data_Git_and_archive_bytes_checked": true,
+      "prior_three_unsupported_hypotheses_and_noncausal_accounting_preserved": true,
+      "parent_gate_no_new_learner_graph_or_seed_calls": true,
+      "whole_repository_literal_pass_not_repeated": true
+    },
+    "pinned_baseline_files": 21,
+    "historical_archive_snapshot_files": 84,
+    "prior_complete_120000_action_replay_and_720_optima_reused_not_rerun": true,
+    "parent_raw_arrays_CSV_source_data_Git_and_archive_bytes_checked": true,
+    "prior_unsupported_gain_acquisition_and_operational_protection_preserved": true,
+    "original_parent_prefreeze_finalization_gate": {
+      "source_committed_prefreeze_receipts_checked": 4,
+      "retained_initial_commit_ancestry_and_exact_four_finalized_paths_checked": true,
+      "initial_model_and_configuration_source_bytes_unchanged": true,
+      "parent_finalization_precedes_original_registration_and_learning": true
+    },
+    "parent_gate_no_new_learner_graph_or_seed_calls": true,
+    "whole_repository_literal_pass_not_repeated": true
+  },
+  "actual_new_saved_path_aggregation_before_freeze": 0,
+  "new_training_random_graph_or_optimization_calls": 0,
+  "synthetic_fixtures_only_before_freeze": true,
+  "design_audits": [
+    "Common gated pre-feedback boundary across all five methods; fourth discovery remains pre",
+    "Each destination category uses its own method actual observations; early complete/late partial mismatches retained",
+    "Positive helpful and negative harmful probability masses kept separate; tiny signs preserved; endpoint division by four",
+    "All30conditions/300condition-seedpaths/fourpairedcontrols retained; totals telescope to actual saved endpoint differences",
+    "Actual phase Go/nonzero/path/energy and seed-mean ratios; zero denominators null; no equal-realized-cost causal claim",
+    "Independent reconstruction imports no new producer/helper; no new learner/RNG/graph/solver or future policy",
+    "Prior gain/acquisition unsupported and expected-by-design protection supported; closed human/generalization/Phase5 evidence preserved"
+  ]
+}
