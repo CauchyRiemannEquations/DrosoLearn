@@ -1,0 +1,203 @@
+{
+  "status": "passed",
+  "study_id": "objective_learning_v1",
+  "checked_at_utc": "2026-10-20T23:46:23.753789+00:00",
+  "document_sha256": {
+    "docs/objective-learning-findings.md": "0d71ac968d0ee0afa23bd5ceb2eb95b46f5a4ca1f2c91d19096786c7eb15e9e8",
+    "docs/objective-learning-reproduction.md": "6be711587cd540a3f72604d64325af804ad553d61b8e13dedcb6e55137d5c268",
+    "README.md": "084f7015b1b190149eb8ff176639a38cda0afbbcee506c8eb9233ec8f9d080b4",
+    "docs/research-roadmap.md": "cf92f267a9ca671d4b4392b59eb78dae85fec8015deaba9014bdfb2d6ebed669",
+    "docs/repository-status.json": "760190beaab3e55671717f96c3309343b999cdd7b777d92e3a466e1e6d9a4e9a"
+  },
+  "additional_file_sha256": {
+    "configs/objective_learning_v1.json": "d916c397402b3fe0c1dad489fcb98238038e3b7d5f1bfd91be1b9da6f3bf42e4",
+    "data/flywire_783_mb_left_kc512_s701/annotations.csv": "10f9c9d4db8ee2741bd19cf464e4b46fd6e24f086a5ce1dbb550bcea633cdb16",
+    "data/flywire_783_mb_left_kc512_s701/edges.csv": "d8c47ea1202575994d430f55e5bd8602f939f320ef02f71522fc1bc54b97db51",
+    "data/flywire_783_mb_left_kc512_s701/neurons.json": "05d83a288b1d42337001015be2d54167aed00cdc9fea58b578423d18756aa77b",
+    "data/flywire_783_mb_left_kc512_s701/provenance.json": "e1a50d254628fb0573d7853b8e66926697b353da317bd701b17e60bfd4942061",
+    "data/synthetic/pattern_rule_v1/input_catalog.json": "c4823707063b607b87c6c5647a2115008f361ec5f04e70ad80a4bc0476d7c1db",
+    "data/synthetic/representation_update_v1/input_catalog.json": "ee72b0b3180379731930de478318a019da1834824c0be18aacd91fcfce2b1a32",
+    "docs/objective-learning-protocol.md": "cea7ec26e6072b9ec94e9df64dd4802f5f1d6c58736dd0b87b19f2ae53828021",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "results/objective_learning_baseline_preservation.json": "79a0abc66881997a08ee8f112ab1ed00eeefc7a124739d61adc2eb836948ec78",
+    "results/objective_learning_figures_v1/all-conditions.png": "c863cfbc0902a6176163e024805077e674da619dde23b83f402d077431654597",
+    "results/objective_learning_figures_v1/learning-curves.png": "f8eb94da984dc89688ba914c8f379bb822fd1d07399d10bec610ca960e6140d9",
+    "results/objective_learning_figures_v1/plotted_values.json": "18665f003d5940a84b246cbb9a14583ffe8199123f49fd7916eebd02801781d4",
+    "results/objective_learning_figures_v1/protection-and-cost.png": "44de2d6137d0065604a236d5731a58eb95fa61baebd7f9819a8957bcca660ccd",
+    "results/objective_learning_figures_v1/provenance.json": "9cf86220adf39e2f4fecb59fe59aa06994e07a4f66c2f6c0fa603cef2e919362",
+    "results/objective_learning_prefreeze_tests/objective_learning_prefreeze_final.xml": "4f8584ddad8a2873eedf0daaee5431a481f646a816056ae525cb17b4fcb3f817",
+    "results/objective_learning_prefreeze_validation.json": "872a6e03ffacdfba1a10f6a2aabb61b28cae3b7f0caeccd13578d48597224e0a",
+    "results/objective_learning_publication_proof.json": "454f7eb30868be2733dbc3219169825f431c0850ab06a203937938090a0df40a",
+    "results/objective_learning_v1/arrays.npz": "82df8abbbc2cedbf9b086169ab6b7f3ba908b338a715111f59d836d92f8980aa",
+    "results/objective_learning_v1/artifact_hashes.json": "72b4428248c4a6b40509b59cf71fc87aedb3b45d7dc120724f81f23dd1dc8613",
+    "results/objective_learning_v1/measurements.csv.gz": "dd8f362ab74dd3fe73f7f8988f6a21951d57088f1cda9790ee2e7cdf8d6cfdd4",
+    "results/objective_learning_v1/metadata.json": "d0dba46ecbb8a8ff8116c68b7aa2ed908c9b149497a975beeb3ec2e2e587b23b",
+    "results/objective_learning_v1/registration.json": "ee64b391757703aedbf5ae3ed58580beb81e01ef8d991ebb0ae98b37677401f4",
+    "results/objective_learning_v1/summary.json": "63ef1d5f4d6513f2dea536771db412b42dca921e1399fe7d26852a419dcac131",
+    "results/objective_learning_v1/verification.json": "cbd6389a76a9abd2523ba72a00eb36ff3b42d8cbabf75548b516ee9d504a95aa",
+    "results/probability_alignment_archive_finalization_attempt01.json": "bd25b9a30bd655dd64c49d4d43f777108b836a3fe0d7f7da4a74a303297adcb6",
+    "results/probability_alignment_archive_finalization_attempt01.zip": "4d5454b3cbb069e90ecd4b813e6fda53189b3e851f8f415281e8312b83a97f10",
+    "results/probability_alignment_archive_validation.json": "c3dc32025347eab462eaf32be40560c234aa09ff62b5d3608eaef09da3a36eb5",
+    "results/probability_alignment_baseline_preservation.json": "715999f761b586e2aaef5cc44c3ee831d134c2f6690f09ff402d5470ce17a969",
+    "results/probability_alignment_presentation_validation.json": "951406584d0c1c42dfb497a51cb4c6c1468270f562fad70f86cb29ca4170e317",
+    "results/probability_alignment_publication_proof.json": "0a81725019fee3c77afffe7f924bd567e5002528eab998af67046dac38157119",
+    "results/probability_alignment_v1/arrays.npz": "2cfa77cc68229e0579dc2b7b813adaf0e38f9b3d873b769c247c1ed52fd26fc9",
+    "results/probability_alignment_v1/artifact_hashes.json": "57ab2c412f66c3ff1581269ffdd9415dc41c46392efa089c44939d1593eeef76",
+    "results/probability_alignment_v1/measurements.csv": "acce4751e040bb31e628602c886d08cae797669cdd8233f1907bf8e649ed3a9d",
+    "results/probability_alignment_v1/metadata.json": "e2c281ac72c555c2854d75db6a0a4a1512968339acd9155184a0e242e72de816",
+    "results/probability_alignment_v1/registration.json": "047181c1336e4d7bea74fe2ca4689bee559ed1e2a91795cfa2fbdc81f3adcaf6",
+    "results/probability_alignment_v1/summary.json": "757ed2f4014ad804467df55fa3ace89ef3ea5e9d1384e2d4c4a5db636a40f361",
+    "results/probability_alignment_v1/verification.json": "40004907be8e60f553c34dbff5380e66cb0e06d56206ee9996b3ace7f46c3f17",
+    "results/registration_objective_learning_v1.json": "ee64b391757703aedbf5ae3ed58580beb81e01ef8d991ebb0ae98b37677401f4",
+    "results/registration_probability_alignment_v1.json": "047181c1336e4d7bea74fe2ca4689bee559ed1e2a91795cfa2fbdc81f3adcaf6",
+    "scripts/render_objective_learning.py": "f3a7370b58a70182b1256e9e144f785e1d5f334ac59034168ba0c8457676381d",
+    "scripts/run_objective_learning.py": "030409ca2c785cccf86a77adb4b86549398ec722453b803f97b2313959be95f4",
+    "scripts/verify_balanced_learning.py": "e1afa4cf77a554714ebb540352c58a71f93c4f483023f4a1508e028c7358d8d5",
+    "scripts/verify_cone_frontier.py": "cfdfbc1aa506af6cc2cb3ffc7520e7b1f79ddc0de475a786745e8aec61a2c064",
+    "scripts/verify_gated_learning.py": "6d5702764f434731cf319a4f6057cef614484c263b675d2d6e02bf377c32e46d",
+    "scripts/verify_human_shell.py": "c97bcd08a9c914e1c0c5266cf77adb52e70ed3e2e38585c979619c6c950a0a6f",
+    "scripts/verify_normalization_loss.py": "47e07caf1ffbdca0105786ae0c39478f48428acc16c82c9dfae7c2feeea0d0ec",
+    "scripts/verify_objective_learning.py": "d6c6cb2d358033f9258c543eef62df829b45fff5c34c366995e9946500d76c8a",
+    "scripts/verify_pattern_rule.py": "aa1c6a8b3bfc143e717a843ce587fb648a20f5eed3897ecc45208afb80010dec",
+    "scripts/verify_representation_update.py": "2d24e60f25c01992355243abe13e6c5862b8f8954572b38ad9654ea4639ddb5f",
+    "scripts/verify_selective_spillover.py": "fb05f37540c9835b4ba39e6d6cae8d947d7edb8d0fe1666e3e4255091cc74db0",
+    "scripts/verify_self_blend_learning.py": "3b8c13d9c8717cb075e002cf1f2e73bfbc7aca82b7a31c3d21cbcce5d32fdfd1",
+    "scripts/verify_update_budget.py": "527aaec683934ca38f6267e263d85d0391a52a4bc1ea8e5e18d57fba4ac87fd2",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/balanced_envelope.py": "9ce6c4b99154af6d44e09b1aa4eaf046e40dd60207adbaab51fa11279085af40",
+    "src/drosolearn/balanced_learning.py": "31b2d52594a290b9252111df48efe4dc0821a963a9952aebcdf5e037fe8f9c6a",
+    "src/drosolearn/cone_envelope.py": "38a4072690b00f0387f14648843517df7ccf074a3989c3ec8d950e3cc84cef9c",
+    "src/drosolearn/cone_geometry.py": "01c31caecc2ab1a9d777ccfb694a0557b42f728f6823bbf5e5a6a55438d20564",
+    "src/drosolearn/gated_envelope.py": "e1d32225f67c174c2e8027b27ceeb322db32cfc9e57261740e2a6516a56e57ea",
+    "src/drosolearn/gated_factors_envelope.py": "6e88df46ba3ab955bf1a5624ee1d7d3697acdeec7953260ab00a4c24e27c5345",
+    "src/drosolearn/gated_learning.py": "db9d69f16b9415192f9bfc3c7849e168e0a8c585c683370de7c4b30b51666701",
+    "src/drosolearn/gated_pathways_envelope.py": "cedfb18cd74caab54d71dd4ef57884155fbe603f8304a3c46a7dc3399d741269",
+    "src/drosolearn/graph.py": "6c713164943f1e6a4c38c9138ecd9c437b56523d68b58cffb58dc6531ccea2c2",
+    "src/drosolearn/human_shell_models.py": "e17c3c6218bc1145b7ede1dc90a2d0c9aabff6562e8157a35ae2ad8246e931f5",
+    "src/drosolearn/model.py": "21e855ebbddb6190816a8adad130216065a03a6fc2d757e42466bdc7aaca3497",
+    "src/drosolearn/normalization_envelope.py": "482bc8839c0f435f10776a534601f871014d37a82384d0973f33a191b854a55d",
+    "src/drosolearn/objective_envelope.py": "2a5837a68a98143b744296ca53bf2dfd9bb1584d7881acb30bcc41be733755c9",
+    "src/drosolearn/objective_learning.py": "e5e05eca8cb038b56aae5600f6bb9a5ed97bb0f68d081728ceee28b9adc18841",
+    "src/drosolearn/pathways_envelope.py": "3cb56134fa85d92c56f3e1d2a55ad86582d279432b107c35cc9452570f35dcd5",
+    "src/drosolearn/pattern_rule.py": "38b7dd7dee0a2f00ea7ebc98bf4805edc605461ee36183d415ff5f5cd49065f4",
+    "src/drosolearn/probability_envelope.py": "cf8c8d57f081fe646401afaa406de36603440dbbd58d86343b7ba0431d8a4186",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "src/drosolearn/representation_geometry.py": "500a6c7e9e1796f77b297a85191d4052a3526890d2ce866dce3f94ad19436bc2",
+    "src/drosolearn/representation_update.py": "046b8a41c489760b48f56282ba6b194a373fb83c0fbab2315709822a4d9eca9a",
+    "src/drosolearn/selective_envelope.py": "72597a9ca74a33d3aa1f43f0c432c8310eb32812e7ef0ad8005e0c386e0135f1",
+    "src/drosolearn/selective_geometry.py": "3cca0af801e1fddaa8bf79ec2aeec879f6f5cac11909ebe04f611362ab72d7ce",
+    "src/drosolearn/selective_spillover.py": "043b05f220316251132d5e1a8378cf0a2a41815d70671a57eef2f1b74b59442a",
+    "src/drosolearn/self_blend_envelope.py": "875f7e7ed20786f1d10da664b0eb4fba5559cca82d9bca70d5c6b94f696a4ef8",
+    "src/drosolearn/self_blend_factors_envelope.py": "9d89ab835fdab8675ff158b9591de2eb0a0848ab8dc51a61558798b7cf8d3fad",
+    "src/drosolearn/self_blend_learning.py": "c3d1b226252c92ca486a3d09c2cf1c79724f3144752d3ac7836cffb3feaf07d9",
+    "src/drosolearn/update_budget.py": "49bfc0a3fab95d523899521c13c227a9a287027c776e7ad3147f5f47d8af4b9e",
+    "src/drosolearn/update_budget_envelope.py": "2bbc5e34ea6bc9dff45bd89e8dd38fa7dd5e2f47ead2fd8a92d6433fba930fe7",
+    "src/drosolearn/update_budget_geometry.py": "37668f2e0e13637edcb111fd124e2c20512652d8649e0bd4e7017f1846ddd1b6",
+    "tests/test_objective_learning.py": "5bb175a845a3c54ffdd944196ad6426d1f43b04a817c3fa1d5700b488f750424",
+    "tests/test_objective_learning_envelope.py": "fb94003fff38403013e54cdf2ff5c03ba120ed2532530dedc6d842db27b06a3e",
+    "tests/test_objective_learning_verify.py": "90b04918ecb24c42fa6c1eed4e00fdd19039e03b5c08a0d13b62f556f4ac535f"
+  },
+  "checks": {
+    "all_48_families_and_480_seed_paths_checked": true,
+    "all_seven_hypotheses_independently_recomputed": true,
+    "six_primary_paired_effects_and_separate_P_minus_U_checked": true,
+    "all_report_table_values_and_percentage_units_checked": true,
+    "same_cap_and_different_realized_costs_kept_distinct": true,
+    "unknown_other_negative_mass_and_pre_feedback_gate_checked": true,
+    "all_192000_compressed_csv_rows_and_96_columns_read_losslessly": true,
+    "three_pngs_visually_inspected": true,
+    "all_plotted_curves_seed_points_protection_and_costs_checked": true,
+    "source49_parent14_graph4_input2_hashes_unchanged": true,
+    "preregistration_and_private_byte_publication_precede_first_run": true,
+    "no_new_learning_graph_rng_solver_or_full_autonomous_replay": true,
+    "no_novel_input_human_or_shared_mechanism_claim": true
+  },
+  "presentation_values": {
+    "primary_final_expected_accuracy_by_method": [
+      0.5036538723201724,
+      0.5763330662958974,
+      0.5796733951942142,
+      0.581990101690875,
+      0.5845420564847277,
+      0.5800631868374231,
+      0.5826715430651213,
+      0.5852237737243156
+    ],
+    "primary_comparisons": {
+      "gated_uniform": {
+        "gated_balanced": {
+          "mean_effect": -0.0018705134196065677,
+          "positive_seeds": 2
+        },
+        "isolated": {
+          "mean_effect": 0.006338476769223856,
+          "positive_seeds": 10
+        },
+        "gated_self_blend": {
+          "mean_effect": 0.0026083562276982275,
+          "positive_seeds": 9
+        }
+      },
+      "gated_probability": {
+        "gated_balanced": {
+          "mean_effect": 0.0006817172395877757,
+          "positive_seeds": 8
+        },
+        "isolated": {
+          "mean_effect": 0.008890707428418198,
+          "positive_seeds": 10
+        },
+        "gated_self_blend": {
+          "mean_effect": 0.005160586886892571,
+          "positive_seeds": 10
+        }
+      }
+    },
+    "P_minus_U_mean_effect": 0.002552230659194343,
+    "P_minus_U_positive_seeds": 10,
+    "seven_hypothesis_verdicts": {
+      "gated_uniform": {
+        "gain": false,
+        "acquisition": false,
+        "protection": true
+      },
+      "gated_probability": {
+        "gain": false,
+        "acquisition": false,
+        "protection": true
+      },
+      "state": false
+    },
+    "maximum_actual_single_step": 0.09148488447787598,
+    "maximum_actual_path": 11.323385870087755,
+    "maximum_actual_squared_step_sum": 0.629947866072595,
+    "maximum_P_applied_absolute_logit": 2.3739217967796287,
+    "B_W_certified_states": 972,
+    "U_certified_states": 240,
+    "P_certified_states": 11777
+  },
+  "compressed_csv_validation": {
+    "records": 192000,
+    "columns": 96,
+    "uncompressed_CRLF_lines": 192001,
+    "uncompressed_bytes": 116583553,
+    "uncompressed_sha256": "7419ac23bf5e01fc3bbb848df5b72d42e1b3161bbfc24d7f41d51c0bb55004b1",
+    "all_original_numeric_fields_exact_roundtrip": true,
+    "derived_vector_norm_columns_recomputed": true
+  },
+  "png_dimensions": {
+    "all-conditions.png": [
+      2400,
+      1350
+    ],
+    "learning-curves.png": [
+      2250,
+      1275
+    ],
+    "protection-and-cost.png": [
+      2025,
+      825
+    ]
+  }
+}

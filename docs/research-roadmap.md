@@ -408,3 +408,12 @@ P의 일차 최적성과 유한 확률의 실제 차이·음수 반례를 구분
 후속 실제 U/P학습은 관측정보/자원/실제 경로/습득·보호 기준을 별도 전향 등록해야 한다.
 부모 개선·습득 미지지/보호 통과, 인간 음성 결과·닫힌 일반화/간섭/순서 문턱과 원래Phase5를 유지한다.
 새 비율 탐색이나 자동 반복은 실행하지 않았으며 자동화는PAUSED다.
+
+
+## 2026-10-21 — 전체 평가 목표와 상태 가중의 실제 학습 완료
+
+[결과](objective-learning-findings.md)·[계획](objective-learning-protocol.md)·[재현](objective-learning-reproduction.md). 새17801..17810 시드의8방법/48조건/192,000시행·9,600정적평가·215배열/96열을 실행 전 source49/parent14/graph4/input2 동결·원격 게시 뒤 실행했다. 사전385검사와 전수 독립 재생을 통과했다. gzip은 원시행을 무손실 보존하는 실행 전 저장 선택이며 이전CSV는 보존했다.
+
+주 real/raw U 58.26715%·P 58.52238%·기존 gated B 58.45421%. U/P별 개선={'gated_uniform': False, 'gated_probability': False}, 습득={'gated_uniform': False, 'gated_probability': False}, 보호={'gated_uniform': True, 'gated_probability': True}, 상태 가중 추가효과=False. 이 판정들과 작은 수치 차이를 구분한다. 같은400시행/수정량 상한이지만 실제 경로·Go횟수·누적 이동·solver처리 비용은 달라진다.
+
+이전 고정상태 대입에서 실제 학습 경로로 확장했으며, 자기 현재 상태와 직접 관측한 네 부호만 사용했다. 아직 보상을 모르는 다른 연습문제의 보호와 새로운 입력 일반화를 구분한다. 원래 Phase5/인간음성결과/완료자료를 유지하며 새로운 일반화·간섭·순서 판정에는 해당 과제의 습득 및 별도 사전계획이 필요하다. 단일 요청 완료 뒤 자동화PAUSED다.

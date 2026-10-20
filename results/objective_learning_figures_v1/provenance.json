@@ -1,0 +1,18 @@
+{
+  "study_id": "objective_learning_v1",
+  "generated_at_utc": "2026-10-20T23:41:08.363913+00:00",
+  "verified_arrays_only": true,
+  "new_training_trials": 0,
+  "new_parameter_selection": false,
+  "new_optimization_calls": 0,
+  "arrays_sha256": "82df8abbbc2cedbf9b086169ab6b7f3ba908b338a715111f59d836d92f8980aa",
+  "summary_sha256": "63ef1d5f4d6513f2dea536771db412b42dca921e1399fe7d26852a419dcac131",
+  "verification_sha256": "cbd6389a76a9abd2523ba72a00eb36ff3b42d8cbabf75548b516ee9d504a95aa",
+  "render_script_sha256": "f3a7370b58a70182b1256e9e144f785e1d5f334ac59034168ba0c8457676381d",
+  "plotted_values_sha256": "18665f003d5940a84b246cbb9a14583ffe8199123f49fd7916eebd02801781d4",
+  "figure_sha256": {
+    "all-conditions.png": "c863cfbc0902a6176163e024805077e674da619dde23b83f402d077431654597",
+    "learning-curves.png": "f8eb94da984dc89688ba914c8f379bb822fd1d07399d10bec610ca960e6140d9",
+    "protection-and-cost.png": "44de2d6137d0065604a236d5731a58eb95fa61baebd7f9819a8957bcca660ccd"
+  }
+}

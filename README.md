@@ -1,5 +1,7 @@
 # DrosoLearn
 
+최신 완료: [전체 목표 U·현재 확률 P 실제 학습](docs/objective-learning-findings.md). 주 조건 U 58.2672%·P 58.5224%·기존 gated B 58.4542%. 개선·충분한 습득·상태 가중 추가 효과는 미지지, 미관측 보호는 두 방식 모두 통과했다. 같은 수정량 상한이며 실제 누적·계산 비용은 다르다. 385검사·192,000시행/215배열 독립 재생. [재현](docs/objective-learning-reproduction.md), 태그 `objective-learning-v1`.
+
 최신 완료: [수정 목표와 실제 정답 확률 정렬 분석](docs/probability-alignment-findings.md). 같은 저장 상태의 한 번 수정에서 U−B +0.00120739%p, P−U +0.0000389332%p. 새 학습 성적이 아닌 고정 상태 비교다. 261검사·27배열 독립 검산, 새 방향 최적화11,949회·새 학습0회. [재현](docs/probability-alignment-reproduction.md), 태그 `probability-alignment-v1`.
 
 최신 완료: [자기 회복과 도움 손실의 세 요소 분석](docs/self-blend-factors-findings.md). 주 비교의 방향 몫은 자기+2.2619%p·다른 문제-2.7632%p, 실제 한 번 수정 크기는 비슷했다. 같은 대상의 균형 방향 성분은 평균약25.40%로 남았다(확률 비율 보장 아님). 295검사·144,000기록 독립 산술 통과, 새 학습0회. [재현](docs/self-blend-factors-reproduction.md), 태그 `self-blend-factors-v1`.

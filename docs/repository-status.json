@@ -11,7 +11,7 @@
   "spacing_diagnostic_source_commit": "d4cbe9542c8ec5846b4a877ee36deb47e456ea20",
   "linearity_diagnostic_source_commit": "30323325bc2dc2b8825be7be5cadee153dce8add",
   "reward_linear_diagnostic_source_commit": "cc836c61055ca32a5205f8685a5a4171c43b77e7",
-  "current_diagnostic_source_commit": "104d4a2038ae33cea0ae774d896380353af8b7dc",
+  "current_diagnostic_source_commit": "adeed238058cfb9fb9d2e186846d310bf1f0c296",
   "study_tags": {
     "smoke_v1": "v0.1.0-smoke",
     "reversal_v1": "study-reversal-v1",
@@ -56,9 +56,10 @@
     "gated_factors_v1": "gated-factors-v1",
     "self_blend_learning_v1": "self-blend-learning-v1",
     "self_blend_factors_v1": "self-blend-factors-v1",
-    "probability_alignment_v1": "probability-alignment-v1"
+    "probability_alignment_v1": "probability-alignment-v1",
+    "objective_learning_v1": "objective-learning-v1"
   },
-  "current_diagnostic": "probability_alignment_v1",
+  "current_diagnostic": "objective_learning_v1",
   "bandit_reversal_diagnostic_source_commit": "fceca94dc6e8137085112ad3a5b75a3cf3894e50",
   "current_data_readiness_audit": "human_task_structure_v1",
   "human_trial_data_audit_source_commit": "c8b0e0b97133d105d07c28aca116974100ddf6d3",
@@ -97,12 +98,12 @@
     "meaningful_changes_only": true,
     "status": "PAUSED",
     "user_requested_stop": false,
-    "verified_at_utc": "2026-10-20T23:10:20.058394+00:00",
+    "verified_at_utc": "2026-10-20T23:40:35.004543+00:00",
     "single_task_resumed_by_user": true,
     "automatic_continuation_enabled": false,
     "continuous_through_phase4_requested_by_user": true,
-    "pause_reason": "User-requested single saved-state objective-alignment analysis completed; new directions optimized but no actual learning or automatic continuation",
-    "single_task_completed_at_utc": "2026-10-20T23:09:18.933859+00:00",
+    "pause_reason": "User-requested fixed prospective U/P actual learning comparison completed; no automatic continuation or seed/budget search",
+    "single_task_completed_at_utc": "2026-10-20T23:37:42.892471+00:00",
     "single_task_completed": true
   },
   "learning_ablation_source_commit": "ddae9da05f9e7debbc406433912a62eab55aa423",
@@ -111,15 +112,15 @@
   "learning_ablation_actual_choice_feedback_trials": 80000,
   "learning_ablation_head_update_calls": 48000,
   "learning_ablation_internal_update_calls": 36000,
-  "current_findings_document": "docs/probability-alignment-findings.md",
+  "current_findings_document": "docs/objective-learning-findings.md",
   "learning_ablation_documentation_correction": "results/learning_ablation_documentation_correction_v1.json",
   "state_decomposition_source_commit": "afdfe3dcb3e6fd18a659cc7e5ca13b8926d759f3",
   "state_decomposition_cases": 204800,
   "state_decomposition_crossed_policy_values": 819200,
   "state_decomposition_additional_learning_updates": 0,
-  "continuation_scope": "single_user_requested_saved_state_objective_alignment_completed",
+  "continuation_scope": "single_user_requested_actual_uniform_and_current_probability_objective_learning_completed",
   "conditional_transition_source_commit": "ed9aa5fbf1128c2b8d502650e26cb6a78aac9589",
-  "current_phase": "post_phase5_probability_alignment_completed",
+  "current_phase": "post_phase5_objective_learning_completed",
   "conditional_transition_streams": 265,
   "conditional_transition_trials": 217000,
   "conditional_transition_candidate_pairs": 216735,
@@ -140,11 +141,11 @@
   "time_mixture_complete_possible_paths": 524288,
   "new_phase4_unique_passed_tests": 255,
   "next_research_prerequisites": [
-    "Fixed-state direction optimization and finite probability increments do not establish new trajectory performance or acquisition.",
-    "Primary equal-seed mean per-update U-minus-B +0.0012073939pp and P-minus-U +0.000038933151pp separate objective scope from current-state sensitivity.",
-    "Any actual U/P intervention needs a separately frozen observed-information rule, processing-resource comparison, fixed cohort/budget and acquisition/protection criteria.",
-    "P tangent optimality is an expected linear integrity property; negative finite P-minus-U outcomes remain preserved and no nonlinear global optimum is asserted.",
-    "Retain previous negative learning/human results, operational protection, original Phase5 and closed novel-input/rule generalization/interference/order gates. Automation stays PAUSED."
+    "Retain separate U/P practical-gain, sufficient-acquisition, expected unknown-protection and state-weighting decisions; numerical gains alone do not open generalization gates.",
+    "Compare the new policies using their actual saved trajectories; effects include changed state, signed update, choices and rewards rather than a fixed-state direction substitution.",
+    "Same maximum single step and 400-trial ceilings do not equal realized movement or U/P processing costs; retain each source-cache/fresh-state solver count.",
+    "Unknown refers to feedback-unobserved other training inputs, not unseen inputs. Expected early-isolation protection is not a new biological mechanism.",
+    "Any next diagnostic or intervention requires a new fixed protocol and paths, with source/input publication before new arithmetic or cohort work; preserve original Phase5/human negatives/closed task-specific transfer and interference/order gates."
   ],
   "level4_similarity_supported": false,
   "current_human_comparison": "human_shell_rng_v2",
@@ -801,5 +802,227 @@
   "probability_alignment_generalization_tested": false,
   "probability_alignment_parent_H_gain": false,
   "probability_alignment_parent_H_acquisition": false,
-  "probability_alignment_parent_H_protection": true
+  "probability_alignment_parent_H_protection": true,
+  "objective_learning_completed": true,
+  "objective_learning_completed_at_utc": "2026-10-20T23:37:42.892471+00:00",
+  "objective_learning_source_commit": "adeed238058cfb9fb9d2e186846d310bf1f0c296",
+  "objective_learning_registration_publication_commit": "6215953da6ed59cbbdabffe63d6c2eebff426c3b",
+  "objective_learning_scope": "prospective_observed_objective_learning",
+  "objective_learning_findings": "docs/objective-learning-findings.md",
+  "objective_learning_reproduction": "docs/objective-learning-reproduction.md",
+  "objective_learning_counts": {
+    "training_feedback_trials": 192000,
+    "static_probe_cases": 9600,
+    "model_initializations": 480,
+    "fixed_feature_constructions": 60,
+    "model_seeds": 10,
+    "head_update_calls": 192000,
+    "head_nonzero_steps": 96929,
+    "internal_update_calls": 0,
+    "value_update_calls": 0,
+    "internal_nonzero_steps": 0,
+    "value_nonzero_steps": 0,
+    "auxiliary_memory_observation_calls": 96929,
+    "auxiliary_memory_discoveries": 1920,
+    "preflight_direction_evaluations": 19440,
+    "runtime_selective_direction_evaluations": 24000,
+    "balanced_direction_requests": 35670,
+    "always_balanced_direction_requests": 12138,
+    "gated_balanced_direction_requests": 11761,
+    "gated_isolated_direction_evaluations": 786,
+    "gated_balanced_mode_trials": 23214,
+    "gated_gate_activations": 60,
+    "self_blend_gate_activations": 60,
+    "self_blend_direction_requests": 11771,
+    "self_blend_mode_trials": 23214,
+    "self_blend_isolated_direction_evaluations": 786,
+    "balanced_unique_solver_cases": 972,
+    "balanced_NoGo_solver_skips": 34758,
+    "uniform_direction_requests": 11826,
+    "probability_direction_requests": 11777,
+    "uniform_unique_solver_cases": 240,
+    "probability_unique_solver_cases": 11777,
+    "objective_unique_solver_cases": 12017,
+    "total_unique_solver_cases": 12989,
+    "uniform_gate_activations": 60,
+    "probability_gate_activations": 60,
+    "uniform_mode_trials": 23214,
+    "probability_mode_trials": 23214,
+    "uniform_isolated_direction_evaluations": 786,
+    "probability_isolated_direction_evaluations": 786,
+    "objective_NoGo_solver_skips": 22825,
+    "unknown_other_destination_exposures": 9768,
+    "source_inclusive_unknown_exposures_before_feedback": 13806,
+    "source_inclusive_unknown_exposures_after_feedback": 11886,
+    "lookup_static_cases": 9600,
+    "lookup_autonomous_training_trials": 0,
+    "numeric_arrays": 215,
+    "measurement_columns": 96
+  },
+  "objective_learning_H_gain": {
+    "gated_uniform": false,
+    "gated_probability": false
+  },
+  "objective_learning_H_acquisition": {
+    "gated_uniform": false,
+    "gated_probability": false
+  },
+  "objective_learning_H_protection": {
+    "gated_uniform": true,
+    "gated_probability": true
+  },
+  "objective_learning_H_state": false,
+  "objective_learning_primary_means": {
+    "shared": 0.5036538723201724,
+    "isolated": 0.5763330662958974,
+    "feedback_selective": 0.5796733951942142,
+    "balanced": 0.581990101690875,
+    "gated_balanced": 0.5845420564847277,
+    "gated_self_blend": 0.5800631868374231,
+    "gated_uniform": 0.5826715430651213,
+    "gated_probability": 0.5852237737243156
+  },
+  "objective_learning_comparisons": {
+    "gated_uniform": {
+      "supported": false,
+      "endpoint_comparisons": {
+        "gated_balanced": {
+          "mean_effect": -0.0018705134196065677,
+          "positive_seeds": 2,
+          "practical_advantage_pass": false
+        },
+        "isolated": {
+          "mean_effect": 0.006338476769223856,
+          "positive_seeds": 10,
+          "practical_advantage_pass": false
+        },
+        "gated_self_blend": {
+          "mean_effect": 0.0026083562276982275,
+          "positive_seeds": 9,
+          "practical_advantage_pass": false
+        }
+      },
+      "all_numeric_and_information_gates_passed": true,
+      "requires_acquisition": false
+    },
+    "gated_probability": {
+      "supported": false,
+      "endpoint_comparisons": {
+        "gated_balanced": {
+          "mean_effect": 0.0006817172395877757,
+          "positive_seeds": 8,
+          "practical_advantage_pass": false
+        },
+        "isolated": {
+          "mean_effect": 0.008890707428418198,
+          "positive_seeds": 10,
+          "practical_advantage_pass": false
+        },
+        "gated_self_blend": {
+          "mean_effect": 0.005160586886892571,
+          "positive_seeds": 10,
+          "practical_advantage_pass": false
+        }
+      },
+      "all_numeric_and_information_gates_passed": true,
+      "requires_acquisition": false
+    }
+  },
+  "objective_learning_state_comparison": {
+    "supported": false,
+    "comparison": "gated_probability_minus_gated_uniform",
+    "mean_effect": 0.002552230659194343,
+    "positive_seeds": 10,
+    "all_numeric_and_information_gates_passed": true,
+    "requires_acquisition": false
+  },
+  "objective_learning_primary_acquisition": {
+    "gated_uniform": {
+      "supported": false,
+      "acquisition_pass_seeds": 0,
+      "all_numeric_and_information_gates_passed": true,
+      "requires_gain": false
+    },
+    "gated_probability": {
+      "supported": false,
+      "acquisition_pass_seeds": 0,
+      "all_numeric_and_information_gates_passed": true,
+      "requires_gain": false
+    }
+  },
+  "objective_learning_primary_protection": {
+    "gated_uniform": {
+      "supported": true,
+      "maximum_primary_seed_unknown_damage": 0.0,
+      "absolute_tolerance": 1e-08,
+      "comparisons": {
+        "gated_balanced": {
+          "mean_effect": 0.0,
+          "nonworsening_seeds": 10,
+          "all_seeds_nonworsening": true
+        },
+        "isolated": {
+          "mean_effect": 0.0,
+          "nonworsening_seeds": 10,
+          "all_seeds_nonworsening": true
+        }
+      },
+      "operational_protection_expected_by_design": true,
+      "novel_learning_mechanism_demonstrated": false,
+      "all_numeric_and_information_gates_passed": true
+    },
+    "gated_probability": {
+      "supported": true,
+      "maximum_primary_seed_unknown_damage": 0.0,
+      "absolute_tolerance": 1e-08,
+      "comparisons": {
+        "gated_balanced": {
+          "mean_effect": 0.0,
+          "nonworsening_seeds": 10,
+          "all_seeds_nonworsening": true
+        },
+        "isolated": {
+          "mean_effect": 0.0,
+          "nonworsening_seeds": 10,
+          "all_seeds_nonworsening": true
+        }
+      },
+      "operational_protection_expected_by_design": true,
+      "novel_learning_mechanism_demonstrated": false,
+      "all_numeric_and_information_gates_passed": true
+    }
+  },
+  "objective_learning_gate_validation": {
+    "mode_uses_known_before_only": true,
+    "fourth_discovery_update_is_isolated": true,
+    "first_balanced_mode_follows_full_discovery": true,
+    "first_blend_mode_follows_full_discovery": true,
+    "first_uniform_mode_follows_full_discovery": true,
+    "first_probability_mode_follows_full_discovery": true,
+    "exact_isolated_prefix_through_full_discovery": true,
+    "exact_gated_balanced_prefix_through_full_discovery": true,
+    "gated_and_isolated_discovery_trials_equal": true,
+    "partial_gated_has_no_balanced_case": true,
+    "only_full_observation_states_in_gated_case_cache": true,
+    "full_NoGo_has_zero_direction_and_no_case": true,
+    "gate_switch_once_at_first_full_mode": true,
+    "all_methods_record_memory_before_gate": true
+  },
+  "objective_learning_objective_validation": {
+    "only_actual_full_Go_has_objective_diagnostics": true,
+    "inactive_objective_padding_zero_and_sentinel": true,
+    "current_own_preupdate_state_and_observed_objective_checked": true,
+    "uniform_source_cache_probability_each_actual_trial": true,
+    "all_probability_logits_strictly_unclipped": true,
+    "all_objective_global_support_certificates_passed": true,
+    "max_certificate_residual": 1.5681900222830336e-15
+  },
+  "objective_learning_unique_passed_tests": 385,
+  "objective_learning_new_unique_passed_tests": 255,
+  "objective_learning_related_regression_passed_tests": 130,
+  "objective_learning_actual_cumulative_cost_equalized": false,
+  "objective_learning_generalization_tested": false,
+  "objective_learning_human_similarity_tested": false,
+  "objective_learning_measurement_storage": "lossless_deterministic_gzip_csv_crlf",
+  "objective_learning_all_numeric_gates_passed": true
 }
