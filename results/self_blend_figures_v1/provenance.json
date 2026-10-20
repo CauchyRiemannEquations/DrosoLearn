@@ -1,0 +1,17 @@
+{
+  "study_id": "self_blend_learning_v1",
+  "generated_at_utc": "2026-10-20T01:54:43.763903+00:00",
+  "verified_arrays_only": true,
+  "new_training_trials": 0,
+  "new_parameter_selection": false,
+  "arrays_sha256": "398bbee5365a80322e1fdabc428eafbd89e768925305276e87d6b910b206c2eb",
+  "summary_sha256": "6358ea2d9ac5b34980e02d39338c40e4c50fb5983632f3b044731cd3ec35fb9c",
+  "verification_sha256": "df3cc0d8f2d40de781eb057f107e7a55373fbbfc23deee5d1fd5e0247153793d",
+  "render_script_sha256": "a41b49c4502a24ef6be9d8a5a0051de3bc1fc343d1d62f762a735b8fb483e020",
+  "plotted_values_sha256": "8c97a95ebfcd60faa3214ba2b0732761c9b34eac593f339ab26f6fbd47f7e34d",
+  "figure_sha256": {
+    "all-conditions.png": "834c0fa24b9d39f98481cfdd3bcb092b9e3a473e2a08ef46d3bd9369e88c963d",
+    "learning-curves.png": "210b1535a7f06289411b6e8e14075d05b154c1dd40630f7c16ee9f690b60d715",
+    "unit-direction-and-pathways.png": "ee2e8a890cce2a6c541f968def2d7ad03040ec19476f7b46ebab7b7903523ffa"
+  }
+}

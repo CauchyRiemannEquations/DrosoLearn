@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "study_id": "self_blend_learning_v1",
+  "checked_at_utc": "2026-10-20T01:58:08.638609+00:00",
+  "independent_read_only_presentation_audit": true,
+  "scientific_producer_imported": false,
+  "additional_scientific_runs": 0,
+  "complete_behavioral_replay_repeated": false,
+  "fresh_graph_RNG_or_optimizer_calls": 0,
+  "all36_learning_and_condition_plot_values_independently_recomputed": true,
+  "all_five_display_tables_and_all36_condition_endpoints_checked": true,
+  "same_actual_mixed_Go_ingredient_influences_equal_seed_weighting_checked": true,
+  "primary_1954_mixed_Go_states_checked": 1954,
+  "all_six_actual_primary_paths_post_effects_reconstructed_from_saved_head_increments": true,
+  "reference_new_gate_before_memory_and_NoGo_factual_choices_retained": true,
+  "primary_saved_effect_max_absolute_residual": 5.551115123125783e-16,
+  "post_endpoint_telescoping_max_absolute_residual": 1.1102230246251565e-16,
+  "unit_influence_not_actual_probability_or_cost_retention_explicit": true,
+  "negative_gain_acquisition_and_operational_only_protection_honestly_preserved": true,
+  "no_novel_input_generalization_human_or_biological_mechanism_claim": true,
+  "source44_parent11_graph4_input2_and_publication_chronology_checked": true,
+  "source_commit_Git_bytes_and_frozen_hashes_checked": true,
+  "unique_passed_tests_checked": 342,
+  "new_tests": 234,
+  "related_tests": 108,
+  "test_groups": {
+    "tests.test_self_blend_learning": 47,
+    "tests.test_self_blend_envelope": 56,
+    "tests.test_self_blend_learning_verify": 131,
+    "tests.test_gated_learning": 47,
+    "tests.test_balanced_learning": 61
+  },
+  "original_development_ZIP_members_raw_hashes_and_failed_JUnit_checked": [
+    {
+      "archive": "core_failure_01.zip",
+      "testcases": 45,
+      "failed": 6
+    },
+    {
+      "archive": "failure_01.zip",
+      "testcases": 101,
+      "failed": 6
+    }
+  ],
+  "prefreeze_receipts_original_test_XML_and_failure_archives_match_source_commit": 7,
+  "three_evolving_indexes_latest_state_and_PAUSED_checked": true,
+  "figure_dimensions": {
+    "all-conditions.png": [
+      2250,
+      1200
+    ],
+    "learning-curves.png": [
+      2100,
+      1200
+    ],
+    "unit-direction-and-pathways.png": [
+      1800,
+      720
+    ]
+  },
+  "local_document_links_checked": 3,
+  "primary_direction_means": {
+    "isolated_own_unit_influence_mean": 0.11141976708735783,
+    "isolated_other_aligned_unit_influence_mean": -5.538145858282239e-18,
+    "balanced_own_unit_influence_mean": 0.06280721201609779,
+    "balanced_other_aligned_unit_influence_mean": 0.021080894725572348,
+    "blend_own_unit_influence_mean": 0.10082172882455967,
+    "blend_other_aligned_unit_influence_mean": 0.0054138569337967655
+  },
+  "primary_factual_post_endpoint_contributions": {
+    "isolated": [
+      0.06743923383391194,
+      -1.2073675392798576e-16,
+      0.06743923383391182
+    ],
+    "gated_balanced": [
+      0.03690657340320595,
+      0.03787287510270382,
+      0.07477944850590977
+    ],
+    "gated_self_blend": [
+      0.06064770037327004,
+      0.009746015222691428,
+      0.07039371559596147
+    ]
+  },
+  "figure_visual_checks": {
+    "all_three_viewed": true,
+    "labels_and_legends_readable": true,
+    "all_plotted_bars_and_points_inside_axes": true,
+    "no_overlap_or_cutoff_observed": true,
+    "original_learning_title_legend_overlap_fixed_and_reopened": true,
+    "earlier_presentation_draft_preserved_in_work": true,
+    "plotted_values_unchanged_by_layout_correction": true,
+    "other_two_figure_bytes_unchanged_by_layout_correction": true
+  },
+  "document_sha256": {
+    "docs/self-blend-learning-findings.md": "0a00fcdf0c4d7fce2951289ce51ee4eb9ce4dc828daf6bc4bf4d22158e06cd9a",
+    "docs/self-blend-learning-reproduction.md": "8251019cb18372f5d4eb7f65772ae0f9aff0d1a4a8a7c579dc77efdc666eaa86",
+    "README.md": "610158cbbde9607108aada560a8ce913a655f6bca56d464d23fc500bdacafc1a",
+    "docs/research-roadmap.md": "f7bc8e78ea4c2dfc470061d1d2acabcd4abf280ebe38a72cf99df95a9d532801",
+    "docs/repository-status.json": "7269803773a511e6734247a7aa7e3c00d80fc02e6f54f5a2bb1da0fa30625cfd"
+  },
+  "additional_file_sha256": {
+    "results/self_blend_learning_v1/arrays.npz": "398bbee5365a80322e1fdabc428eafbd89e768925305276e87d6b910b206c2eb",
+    "results/self_blend_learning_v1/summary.json": "6358ea2d9ac5b34980e02d39338c40e4c50fb5983632f3b044731cd3ec35fb9c",
+    "results/self_blend_learning_v1/metadata.json": "280b777666dfc41fe5e829324883cda49c2384002be4b65012ec29ef9c7e76c2",
+    "results/self_blend_learning_v1/verification.json": "df3cc0d8f2d40de781eb057f107e7a55373fbbfc23deee5d1fd5e0247153793d",
+    "results/self_blend_learning_v1/artifact_hashes.json": "25ddd0e27b3478bf39ea2f3ec2c7e9cc619bea178ca16b5abdb60e0af95daa59",
+    "results/self_blend_learning_v1/registration.json": "90543cf2ed2209f0e626ab2d9b4160daf4eb7af90ac7fcf64fd14ef930b02f34",
+    "results/registration_self_blend_learning_v1.json": "90543cf2ed2209f0e626ab2d9b4160daf4eb7af90ac7fcf64fd14ef930b02f34",
+    "results/self_blend_learning_publication_proof.json": "cb3e0c438addcb187d37c7376a031a140e21ba9218d81963b4a5d5bc41adc3f0",
+    "results/self_blend_prefreeze_validation.json": "9f2a8b10db3caa209916590c1baa6d5bfe8fb2e793b0894e23e4266d456a743b",
+    "results/self_blend_baseline_preservation.json": "9ac8c989d177bc6dd64ae615dd53c47800fd71dd4b55be7159bb37c1dba1ddf8",
+    "results/self_blend_prefreeze_tests/self_blend_prefreeze_final.xml": "8d19480613b01f35fbc92a556b9a566a8f11a7dba0956fb7f15ddf855d96872d",
+    "results/self_blend_development/core_failure_01.zip": "8f9437e9fb293a7c1354861cad94ebe969ea3d1447c2dbc2832253c5e94a7f77",
+    "results/self_blend_development/core_failure_01_manifest.json": "a63de8fbdb3fbbef351178834dc88da759579e94e64740454aabfc6a0d2f008a",
+    "results/self_blend_development/failure_01.json": "9b05fb1dad8ada5d59b1fcba05b676e74d1acee23cf397d20b2dfcc7355b350c",
+    "results/self_blend_development/failure_01.zip": "8b0d4a724582652b0ae9221b9c0fa019eefe6e69f56eba21495fa42c43020c8b",
+    "configs/self_blend_learning_v1.json": "cfe60ea0fbb13eb5f14fe9e98dd4cd70f35584034e96bd8890842818cd8be579",
+    "docs/self-blend-learning-protocol.md": "f3dc8561251e58d6346a9b12a5f40dabfdc675ee32105dbc8b6476c1d3c1f69c",
+    "scripts/render_self_blend_learning.py": "a41b49c4502a24ef6be9d8a5a0051de3bc1fc343d1d62f762a735b8fb483e020",
+    "results/self_blend_figures_v1/provenance.json": "f1f3a102a54d7ceb58ece7647b4e1e85215538ccef10aeab220cdfb5450c62ea",
+    "results/self_blend_figures_v1/plotted_values.json": "8c97a95ebfcd60faa3214ba2b0732761c9b34eac593f339ab26f6fbd47f7e34d",
+    "results/self_blend_figures_v1/learning-curves.png": "210b1535a7f06289411b6e8e14075d05b154c1dd40630f7c16ee9f690b60d715",
+    "results/self_blend_figures_v1/all-conditions.png": "834c0fa24b9d39f98481cfdd3bcb092b9e3a473e2a08ef46d3bd9369e88c963d",
+    "results/self_blend_figures_v1/unit-direction-and-pathways.png": "ee2e8a890cce2a6c541f968def2d7ad03040ec19476f7b46ebab7b7903523ffa"
+  }
+}

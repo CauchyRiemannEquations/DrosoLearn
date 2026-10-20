@@ -11,7 +11,7 @@
   "spacing_diagnostic_source_commit": "d4cbe9542c8ec5846b4a877ee36deb47e456ea20",
   "linearity_diagnostic_source_commit": "30323325bc2dc2b8825be7be5cadee153dce8add",
   "reward_linear_diagnostic_source_commit": "cc836c61055ca32a5205f8685a5a4171c43b77e7",
-  "current_diagnostic_source_commit": "6ee94716af68f22c9feef3b1e3b7085e57b31109",
+  "current_diagnostic_source_commit": "7507ba8321b556652d3f2fd33b0b4dc7d3798e6a",
   "study_tags": {
     "smoke_v1": "v0.1.0-smoke",
     "reversal_v1": "study-reversal-v1",
@@ -53,9 +53,10 @@
     "balanced_pathways_v1": "balanced-pathways-v1",
     "gated_learning_v1": "gated-learning-v1",
     "gated_pathways_v1": "gated-pathways-v1",
-    "gated_factors_v1": "gated-factors-v1"
+    "gated_factors_v1": "gated-factors-v1",
+    "self_blend_learning_v1": "self-blend-learning-v1"
   },
-  "current_diagnostic": "gated_factors_v1",
+  "current_diagnostic": "self_blend_learning_v1",
   "bandit_reversal_diagnostic_source_commit": "fceca94dc6e8137085112ad3a5b75a3cf3894e50",
   "current_data_readiness_audit": "human_task_structure_v1",
   "human_trial_data_audit_source_commit": "c8b0e0b97133d105d07c28aca116974100ddf6d3",
@@ -94,12 +95,12 @@
     "meaningful_changes_only": true,
     "status": "PAUSED",
     "user_requested_stop": false,
-    "verified_at_utc": "2026-10-20T01:10:05.028590+00:00",
+    "verified_at_utc": "2026-10-20T01:53:18.384938+00:00",
     "single_task_resumed_by_user": true,
     "automatic_continuation_enabled": false,
     "continuous_through_phase4_requested_by_user": true,
-    "pause_reason": "User-authorized single saved post-gate factor analysis completed; no new learning or automatic continuation",
-    "single_task_completed_at_utc": "2026-10-20T01:08:59.226221+00:00",
+    "pause_reason": "User-authorized single prospective self-blend learning completed; no further experiment or automatic continuation",
+    "single_task_completed_at_utc": "2026-10-20T01:53:18.384938+00:00",
     "single_task_completed": true
   },
   "learning_ablation_source_commit": "ddae9da05f9e7debbc406433912a62eab55aa423",
@@ -108,15 +109,15 @@
   "learning_ablation_actual_choice_feedback_trials": 80000,
   "learning_ablation_head_update_calls": 48000,
   "learning_ablation_internal_update_calls": 36000,
-  "current_findings_document": "docs/gated-factors-findings.md",
+  "current_findings_document": "docs/self-blend-learning-findings.md",
   "learning_ablation_documentation_correction": "results/learning_ablation_documentation_correction_v1.json",
   "state_decomposition_source_commit": "afdfe3dcb3e6fd18a659cc7e5ca13b8926d759f3",
   "state_decomposition_cases": 204800,
   "state_decomposition_crossed_policy_values": 819200,
   "state_decomposition_additional_learning_updates": 0,
-  "continuation_scope": "single_user_requested_saved_post_gate_factor_analysis_completed",
+  "continuation_scope": "single_user_requested_self_emphasized_post_gate_learning_completed",
   "conditional_transition_source_commit": "ed9aa5fbf1128c2b8d502650e26cb6a78aac9589",
-  "current_phase": "post_phase5_gated_factors_completed",
+  "current_phase": "post_phase5_self_blend_learning_completed",
   "conditional_transition_streams": 265,
   "conditional_transition_trials": 217000,
   "conditional_transition_candidate_pairs": 216735,
@@ -137,11 +138,11 @@
   "time_mixture_complete_possible_paths": 524288,
   "new_phase4_unique_passed_tests": 255,
   "next_research_prerequisites": [
-    "Primary post gated-minus-isolated own difference-3.06107pp allocates state-0.05711/scalar-0.01999/direction-2.87315pp plus one-sided actual actions-0.11083pp. Other-input difference+3.74191pp includes direction+3.69575pp. These are symmetric arithmetic allocations, not universal causal shares.",
-    "Conditional factual unit direction lengths are1 for both; own influence0.114397 to0.063966, other aligned mean approximately0 to0.021857. Step lengths0.049702/0.049544 are close, but cumulative actual costs are not equalized. State/scalar/direction diagnostics are equal-seed means conditional on both actual Go.",
-    "All six post gated-minus-always-balanced paired-Go direction vectors and direction allocations are equal/zero. Do not carry the isolated-control direction explanation to every comparator; one-sided actions retained separately.",
-    "Any follow-up needs the actual information/feasible direction geometry and existing cone/budget evidence, plus a state-scalar-consistent learning intervention and explicit resource/acquisition/protection criteria if new learning is proposed. Mixed stored g is not recomputed from mixed state; do not predict an implementable new policy by deleting a negative accounting term.",
-    "Preserve parent practical-gain/acquisition failures and operational protection success, closed generalization/interference/order gates, human comparison negatives and originalPhase5. Fixed internal weights/activation differ from output and auxiliary reward-memory states. No Level3/4/5 or educational claim; single task complete and recurring automation remainsPAUSED."
+    "Use the new self_blend_learning_v1 factual logs to describe recovered own learning versus retained/lost other-input help; distinguish unit direction from scalar, action and output state.",
+    "Primary practical-gain and acquisition gates retain their fixed decisions; no ratio, seed, budget or primary-condition search within the same registration.",
+    "Common movement ceilings do not equal common realized cost; post score bookkeeping does not uniquely identify causes or prove a biological mechanism.",
+    "Novel-input/rule generalization and interference/order gates remain closed until their preregistered acquisition prerequisites pass; retain original Phase5 and negative human comparison.",
+    "Any next learning study needs its own fixed protocol/config/ID/paths and published source/input hashes before new cohort work; no automatic continuation enabled."
   ],
   "level4_similarity_supported": false,
   "current_human_comparison": "human_shell_rng_v2",
@@ -594,5 +595,71 @@
   "gated_factors_original_failure_XML_whitespace_preserved": true,
   "gated_factors_parent_H_gain": false,
   "gated_factors_parent_H_acquisition": false,
-  "gated_factors_parent_H_protection": true
+  "gated_factors_parent_H_protection": true,
+  "self_blend_learning_completed": true,
+  "self_blend_learning_completed_at_utc": "2026-10-20T01:49:27.604572+00:00",
+  "self_blend_learning_source_commit": "7507ba8321b556652d3f2fd33b0b4dc7d3798e6a",
+  "self_blend_learning_registration_publication_commit": "7eb5e4d35216ed3cf6245196f01cc27e3760f771",
+  "self_blend_learning_scope": "prospective_observed_gated_self_blend_learning",
+  "self_blend_learning_findings": "docs/self-blend-learning-findings.md",
+  "self_blend_learning_reproduction": "docs/self-blend-learning-reproduction.md",
+  "self_blend_learning_H_gain": false,
+  "self_blend_learning_H_acquisition": false,
+  "self_blend_learning_H_protection": true,
+  "self_blend_learning_training_feedback_trials": 144000,
+  "self_blend_learning_static_probe_cases": 7200,
+  "self_blend_learning_numeric_arrays": 201,
+  "self_blend_learning_measurement_columns": 87,
+  "self_blend_learning_unique_passed_tests": 342,
+  "self_blend_learning_new_unique_passed_tests": 234,
+  "self_blend_learning_related_regression_passed_tests": 108,
+  "self_blend_learning_primary_mean": 0.5724866755007445,
+  "self_blend_learning_comparisons": {
+    "gated_balanced": {
+      "mean_effect": -0.0043857329099483144,
+      "positive_seeds": 1,
+      "practical_advantage_pass": false
+    },
+    "balanced": {
+      "mean_effect": -0.0026480081884590057,
+      "positive_seeds": 3,
+      "practical_advantage_pass": false
+    },
+    "isolated": {
+      "mean_effect": 0.0029544817620496765,
+      "positive_seeds": 10,
+      "practical_advantage_pass": false
+    }
+  },
+  "self_blend_learning_primary_acquisition_pass_seeds": 0,
+  "self_blend_learning_primary_unknown_damage_max": 0.0,
+  "self_blend_learning_blend_validation": {
+    "only_actual_post_Go_has_blend_diagnostics": true,
+    "all_unit_mix_and_unit_score_retention_residuals_pass": true,
+    "inactive_blend_padding_zero": true,
+    "raw_mix_norm_in_half_to_one": true,
+    "max_residual": 4.801714581503802e-15,
+    "residual_names": [
+      "exact_mix_l2",
+      "unit_norm_abs",
+      "known_safety_deficit",
+      "own_floor_deficit",
+      "help_floor_deficit"
+    ]
+  },
+  "self_blend_learning_internal_update_calls": 0,
+  "self_blend_learning_actual_cumulative_cost_equalized": false,
+  "self_blend_learning_generalization_tested": false,
+  "self_blend_learning_human_similarity_tested": false,
+  "self_blend_learning_primary_direction_diagnostics": {
+    "isolated_own_unit_influence_mean": 0.11141976708735783,
+    "isolated_other_aligned_unit_influence_mean": -9.27512610563502e-18,
+    "balanced_own_unit_influence_mean": 0.06280721201609778,
+    "balanced_other_aligned_unit_influence_mean": 0.021080894725572348,
+    "blend_own_unit_influence_mean": 0.10082172882455968,
+    "blend_other_aligned_unit_influence_mean": 0.005413856933796764
+  },
+  "self_blend_learning_primary_post_own_effect_vs_gated": 0.023741126970064093,
+  "self_blend_learning_primary_post_other_effect_vs_gated": -0.02812685988001242,
+  "self_blend_learning_development_failures_preserved": true
 }
