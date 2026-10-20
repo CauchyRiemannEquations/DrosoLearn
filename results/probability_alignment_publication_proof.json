@@ -1,0 +1,11 @@
+{
+  "study_id": "probability_alignment_v1",
+  "registration_sha256": "047181c1336e4d7bea74fe2ca4689bee559ed1e2a91795cfa2fbdc81f3adcaf6",
+  "source_commit": "104d4a2038ae33cea0ae774d896380353af8b7dc",
+  "published_commit": "82273c65a6ea3102190cbeae24a7da191e68e483",
+  "remote_bytes_match": true,
+  "checked_at_utc": "2026-10-20T23:08:12.387277+00:00",
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/82273c65a6ea3102190cbeae24a7da191e68e483/results/registration_probability_alignment_v1.json",
+  "method": "Authenticated private remote main and literal decoded registration bytes checked before first new objective optimization and saved-state arithmetic; parent outcomes already known; no new cohort, graph, RNG or learning; new U/P optimizations explicitly counted; no secrets logged"
+}

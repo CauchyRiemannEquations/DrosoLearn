@@ -1,0 +1,18 @@
+{
+  "study_id": "probability_alignment_v1",
+  "created_at_utc": "2026-10-20T23:11:41.582600+00:00",
+  "renderer": "scripts/render_probability_alignment.py",
+  "renderer_sha256": "c04b8a292211c20311668d2ba7d74f979f024e35423cd556aee8e9498e9b2ecb",
+  "input_sha256": {
+    "results/probability_alignment_v1/summary.json": "757ed2f4014ad804467df55fa3ace89ef3ea5e9d1384e2d4c4a5db636a40f361",
+    "results/probability_alignment_v1/verification.json": "40004907be8e60f553c34dbff5380e66cb0e06d56206ee9996b3ace7f46c3f17"
+  },
+  "output_sha256": {
+    "all-conditions.png": "bcedc6ce39147d870fea2090d67995005c5e7a7533c7bb26ccea291a78708744",
+    "plotted_values.json": "946e51488439840af05f119efc6d340a46d2992c1e6c579975cae2ea2ac052a2",
+    "primary-gains.png": "18155b4e582799823b62058285f5b02f30e571d8971950fd299ae572c9c49f4b",
+    "state-weighting-by-seed.png": "037b04760f69fb3623cba2ae376ff19ae4259e468573d6fbafbf64abeb6699d4"
+  },
+  "new_learning_calls": 0,
+  "new_optimization_calls": 0
+}

@@ -1,0 +1,156 @@
+{
+  "status": "passed",
+  "study_id": "probability_alignment_v1",
+  "exactchecked_at_utc": "2026-10-20T23:13:38.509533+00:00",
+  "document_sha256": {
+    "docs/probability-alignment-findings.md": "d2f1df60bfc5c9ffa97f61be178afb3769fd7ffa943b282832a327e2b97efd92",
+    "docs/probability-alignment-reproduction.md": "85ab528722b6028a62b0424da07cab20df8ba2eba1ed4310d619c7b2cb76727b",
+    "README.md": "473fcda0a752cf2f8dfc9b4877022c239b9fac1f913d13a56c9f1b9c44e78c2c",
+    "docs/research-roadmap.md": "dad8ab12625ef2ef233ca88acfee8e7c5a1cf37277178855e15223c9f44db562",
+    "docs/repository-status.json": "fe543da8d481d30aee5e1299d010ea360cf5cf1b792c06804ba3408451e6bd1f"
+  },
+  "additional_file_sha256": {
+    "configs/probability_alignment_v1.json": "98c88faa5f1a23fe12fa73cb64ff8e1b693d3aead7d2930bf37246618bbf208c",
+    "docs/probability-alignment-protocol.md": "7c15965f6fa2fdb44f0a1a2ed57eedb8ac0ecafa47fc489f3c1f6d831821fb5b",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "results/probability_alignment_archive_development/archive_tool_smoke_attempt01.json": "4dbf88f46a554e93f46a40135bf9600f5134a04addd8ff34614c7527f63d4d57",
+    "results/probability_alignment_archive_development/archive_tool_smoke_attempt01.zip": "cdd7ba1925e7db7a5930ae0e76c3cdb2a26cd3bca9d2e417aa7ce5dbc40c8a60",
+    "results/probability_alignment_baseline_preservation.json": "715999f761b586e2aaef5cc44c3ee831d134c2f6690f09ff402d5470ce17a969",
+    "results/probability_alignment_development/probability_alignment_envelope_development_failure_01.json": "c3aeba4016b8b6a1200802e08c5c9cb22576dee9de85c04ba87e63e8332048e4",
+    "results/probability_alignment_development/probability_alignment_envelope_development_failure_01.zip": "543cb7b348b0321b00f221a67458d56b6f87e5427e8eaf499799ef0a8319ebe4",
+    "results/probability_alignment_figures_v1/all-conditions.png": "bcedc6ce39147d870fea2090d67995005c5e7a7533c7bb26ccea291a78708744",
+    "results/probability_alignment_figures_v1/plotted_values.json": "946e51488439840af05f119efc6d340a46d2992c1e6c579975cae2ea2ac052a2",
+    "results/probability_alignment_figures_v1/primary-gains.png": "18155b4e582799823b62058285f5b02f30e571d8971950fd299ae572c9c49f4b",
+    "results/probability_alignment_figures_v1/provenance.json": "5df68f237e6407508df5bbd8e8b9a6d88efee7ea2965ff85c8e1b6a760803ea5",
+    "results/probability_alignment_figures_v1/state-weighting-by-seed.png": "037b04760f69fb3623cba2ae376ff19ae4259e468573d6fbafbf64abeb6699d4",
+    "results/probability_alignment_prefreeze_tests/probability_alignment_prefreeze_final.xml": "2f69655442eaada57ad847911266666fe709126c123dc46d96a6e91c191fd1bb",
+    "results/probability_alignment_prefreeze_validation.json": "f2f937abb252870f73a910f4be9adbd822f09bc4304bc336d97c6ef83efb157e",
+    "results/probability_alignment_publication_proof.json": "0a81725019fee3c77afffe7f924bd567e5002528eab998af67046dac38157119",
+    "results/probability_alignment_v1/arrays.npz": "2cfa77cc68229e0579dc2b7b813adaf0e38f9b3d873b769c247c1ed52fd26fc9",
+    "results/probability_alignment_v1/artifact_hashes.json": "57ab2c412f66c3ff1581269ffdd9415dc41c46392efa089c44939d1593eeef76",
+    "results/probability_alignment_v1/measurements.csv": "acce4751e040bb31e628602c886d08cae797669cdd8233f1907bf8e649ed3a9d",
+    "results/probability_alignment_v1/metadata.json": "e2c281ac72c555c2854d75db6a0a4a1512968339acd9155184a0e242e72de816",
+    "results/probability_alignment_v1/registration.json": "047181c1336e4d7bea74fe2ca4689bee559ed1e2a91795cfa2fbdc81f3adcaf6",
+    "results/probability_alignment_v1/summary.json": "757ed2f4014ad804467df55fa3ace89ef3ea5e9d1384e2d4c4a5db636a40f361",
+    "results/probability_alignment_v1/verification.json": "40004907be8e60f553c34dbff5380e66cb0e06d56206ee9996b3ace7f46c3f17",
+    "results/registration_probability_alignment_v1.json": "047181c1336e4d7bea74fe2ca4689bee559ed1e2a91795cfa2fbdc81f3adcaf6",
+    "results/registration_self_blend_factors_v1.json": "e5a87a98b7fe485464de6d743a07514701450ee8257c98d2aa840b1af41709cf",
+    "results/self_blend_factors_archive_validation.json": "0ac3952cd718a7a4b04e93e9d35ce5efe4a3e83fe02da786e1bf87137faa1d8c",
+    "results/self_blend_factors_baseline_preservation.json": "273298dcab5d769bd22d09a08d1942552ac026b998cbb42fb4c95443132bf487",
+    "results/self_blend_factors_publication_proof.json": "ebf5bb01877ecff1f1626ca2468fd0c73f5803b8795396b1e99e585b8e628f2a",
+    "results/self_blend_factors_v1/arrays.npz": "a9a4aed88b7532dd551eac936c05419aa94fdb2d778ff1ed3b1c0f887ff126d0",
+    "results/self_blend_factors_v1/artifact_hashes.json": "bca3138e3b8b7f134ff6bf9ba380709ce0485202c76fe4cf76c408d1a95024d2",
+    "results/self_blend_factors_v1/measurements.csv": "13315ae2fc1350baa1ee988598521625890ceafd44c6e62992d80a3e4976e1fd",
+    "results/self_blend_factors_v1/metadata.json": "97c905676be297ba21c1c2bfc65bca101f433249289a0b8f8633d11bda40ea4a",
+    "results/self_blend_factors_v1/registration.json": "e5a87a98b7fe485464de6d743a07514701450ee8257c98d2aa840b1af41709cf",
+    "results/self_blend_factors_v1/summary.json": "0407fb71c6f22bbe3c21bcbbb7726450589d6f47420b1c2c9c13312b644034a9",
+    "results/self_blend_factors_v1/verification.json": "a29ccfd8f9c4c1fc42ce39d477e55fe4fc3a0f4e3a5e8f9e0e125e232c8f8bce",
+    "results/self_blend_learning_v1/arrays.npz": "398bbee5365a80322e1fdabc428eafbd89e768925305276e87d6b910b206c2eb",
+    "results/self_blend_learning_v1/artifact_hashes.json": "25ddd0e27b3478bf39ea2f3ec2c7e9cc619bea178ca16b5abdb60e0af95daa59",
+    "results/self_blend_learning_v1/metadata.json": "280b777666dfc41fe5e829324883cda49c2384002be4b65012ec29ef9c7e76c2",
+    "results/self_blend_learning_v1/registration.json": "90543cf2ed2209f0e626ab2d9b4160daf4eb7af90ac7fcf64fd14ef930b02f34",
+    "results/self_blend_learning_v1/summary.json": "6358ea2d9ac5b34980e02d39338c40e4c50fb5983632f3b044731cd3ec35fb9c",
+    "results/self_blend_learning_v1/verification.json": "df3cc0d8f2d40de781eb057f107e7a55373fbbfc23deee5d1fd5e0247153793d",
+    "scripts/render_probability_alignment.py": "c04b8a292211c20311668d2ba7d74f979f024e35423cd556aee8e9498e9b2ecb",
+    "scripts/run_probability_alignment.py": "b91bb0601b7ca445387f1359103a0665cfe0e3a4cc41057cb5ca94eb35349b08",
+    "scripts/verify_probability_alignment.py": "787009007531b84cdc1bec98bb2cd3fb23471400907b06b88c3886a47daecd15",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/balanced_envelope.py": "9ce6c4b99154af6d44e09b1aa4eaf046e40dd60207adbaab51fa11279085af40",
+    "src/drosolearn/cone_envelope.py": "38a4072690b00f0387f14648843517df7ccf074a3989c3ec8d950e3cc84cef9c",
+    "src/drosolearn/cone_geometry.py": "01c31caecc2ab1a9d777ccfb694a0557b42f728f6823bbf5e5a6a55438d20564",
+    "src/drosolearn/gated_envelope.py": "e1d32225f67c174c2e8027b27ceeb322db32cfc9e57261740e2a6516a56e57ea",
+    "src/drosolearn/gated_factors_envelope.py": "6e88df46ba3ab955bf1a5624ee1d7d3697acdeec7953260ab00a4c24e27c5345",
+    "src/drosolearn/gated_pathways_envelope.py": "cedfb18cd74caab54d71dd4ef57884155fbe603f8304a3c46a7dc3399d741269",
+    "src/drosolearn/normalization_envelope.py": "482bc8839c0f435f10776a534601f871014d37a82384d0973f33a191b854a55d",
+    "src/drosolearn/pathways_envelope.py": "3cb56134fa85d92c56f3e1d2a55ad86582d279432b107c35cc9452570f35dcd5",
+    "src/drosolearn/probability_alignment.py": "cfc1c0c54eecc38e13d5a848adea03b2d481904bc0a04ca00b4f84fe5983767d",
+    "src/drosolearn/probability_envelope.py": "cf8c8d57f081fe646401afaa406de36603440dbbd58d86343b7ba0431d8a4186",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "src/drosolearn/selective_envelope.py": "72597a9ca74a33d3aa1f43f0c432c8310eb32812e7ef0ad8005e0c386e0135f1",
+    "src/drosolearn/self_blend_envelope.py": "875f7e7ed20786f1d10da664b0eb4fba5559cca82d9bca70d5c6b94f696a4ef8",
+    "src/drosolearn/self_blend_factors_envelope.py": "9d89ab835fdab8675ff158b9591de2eb0a0848ab8dc51a61558798b7cf8d3fad",
+    "tests/test_probability_alignment.py": "7aa3942cf36e2a3fe9b62036440c1869c59a53c0d7cbe1dbf5c084240dcac1e9",
+    "tests/test_probability_alignment_envelope.py": "c21ef92d336e0afb93ab8e3fa547c6ff615189e184a4731e9f62720f41eeee9b",
+    "tests/test_probability_alignment_verify.py": "59b6ef194e54a54b14fb5c00766a0235085ce93488c06bbdeaea34d97c0a8d71"
+  },
+  "checks": {
+    "all_thirty_conditions_and_three_hundred_seed_results_checked": true,
+    "exact_sigmoid_saved_candidate_effects_recomputed": true,
+    "all_four_report_tables_checked": true,
+    "equal_seed_means_and_probability_to_percentage_point_units_checked": true,
+    "positive_negative_tiny_and_exact_zero_counts_retained": true,
+    "private_preregistered_frozen_sources_and_parents_checked": true,
+    "no_future_learning_generalization_human_or_mechanism_claim": true,
+    "three_pngs_visually_inspected": true,
+    "source24_and_science_results_unmodified": true,
+    "new_learner_rng_graph_solver_calls": 0
+  },
+  "presentation_values": {
+    "primary_mean_P_minus_U": [
+      7.824816376229799e-07,
+      -3.9315012591756467e-07,
+      3.893315117054017e-07
+    ],
+    "primary_mean_U_minus_B": [
+      -9.058909859469673e-05,
+      0.00010266303711666913,
+      1.2073938521972409e-05
+    ],
+    "primary_positive_mass_equal_seed_mean": [
+      0.07477944850591202,
+      0.0665719906893805,
+      0.06982998072956434,
+      0.07724214770391774,
+      0.07732006066274347
+    ],
+    "primary_negative_mass_equal_seed_mean": [
+      -2.1108115255685788e-15,
+      -9.020562075079397e-17,
+      -4.1494585545365224e-16,
+      -2.7755575615628914e-17,
+      -2.3592239273284576e-17
+    ],
+    "primary_finite_sign_counts": {
+      "mean_exact_P_minus_U_per_update": 3.8933151170545127e-07,
+      "positive_seed_means": 9,
+      "pooled_positive_trials": 1548,
+      "pooled_negative_trials": 72,
+      "pooled_zero_trials": 345,
+      "pooled_negative_beyond_tolerance_trials": 0,
+      "worst_Q_difference": -1.4814359461379212e-10,
+      "new_learned_performance_claim": false
+    },
+    "maximum_absolute_eligible_logit": 2.0667146338694455,
+    "eligible_zero_scalar_records": 0,
+    "maximum_independent_probability_recalculation_residual": 0.0,
+    "maximum_independent_margin_recalculation_residual": 0.0,
+    "maximum_same_single_step_length_residual": 2.7755575615628914e-17
+  },
+  "png_dimensions": {
+    "primary-gains.png": [
+      1440,
+      896
+    ],
+    "state-weighting-by-seed.png": [
+      1920,
+      768
+    ],
+    "all-conditions.png": [
+      1920,
+      896
+    ]
+  },
+  "development_archive_checks": [
+    {
+      "manifest": "results/probability_alignment_development/probability_alignment_envelope_development_failure_01.json",
+      "archive_sha256": "543cb7b348b0321b00f221a67458d56b6f87e5427e8eaf499799ef0a8319ebe4",
+      "members_checked": 2
+    },
+    {
+      "manifest": "results/probability_alignment_archive_development/archive_tool_smoke_attempt01.json",
+      "archive_sha256": "cdd7ba1925e7db7a5930ae0e76c3cdb2a26cd3bca9d2e417aa7ce5dbc40c8a60",
+      "members_checked": 7
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "preserved_archive_tool_development",
+  "created_at_utc": "2026-10-20T23:08:54.339006+00:00",
+  "archive": "results/probability_alignment_archive_development/archive_tool_smoke_attempt01.zip",
+  "archive_sha256": "cdd7ba1925e7db7a5930ae0e76c3cdb2a26cd3bca9d2e417aa7ce5dbc40c8a60",
+  "member_sha256": {
+    "probability_alignment_archive_fixture_failure_01.py": "76a26eeac67f5aecfd7141bdb2f8c0265a84825bdf0455f2d3c38d15d502fad2",
+    "test_probability_archive_fixture.py": "29979dd060c5d69297eb1df4dd0ae83aa619e5cc473e139f343a900d2df7eed0",
+    "probability_alignment_archive_fixture_validation.json": "3415dc3a8e81718744c2a7a4704b052b2f7f29878242b73f31df062c6a06c34d",
+    "probability_alignment_archive_reproduce_first_failure.py": "66427b8bb33ff6ac7e740ef9fefd00c0d53a4f6095a1442ed855182d2ce4dead",
+    "first_draft_synthetic_failure_reproduced_stdout.bin": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "first_draft_synthetic_failure_reproduced_stderr.bin": "7b55b9a4afbd08782ecafd65384cadab196c268bd3258120569b4be34e38a188",
+    "archive_tool_development_diagnostics.json": "1f8efd54b3762fe72d173cdbda1a87c731c6133d2dffbc4775027bd721be2e7b"
+  },
+  "final_smoke_passed_checks": 6,
+  "original_first_draft_failure_preserved": true,
+  "fresh_original_draft_synthetic_failure_reproduction_is_explicitly_labeled": true,
+  "registered_scientific_failure": false,
+  "scientific_registered_source_config_thresholds_or_parent_inputs_changed": false,
+  "actual_saved_parent_aggregation_calls": 0,
+  "actual_new_direction_optimization_calls": 0,
+  "archive_checker_main_executed": false,
+  "frozen_scientific_development_directory_untouched": true
+}

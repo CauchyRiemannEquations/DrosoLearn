@@ -1,0 +1,16 @@
+{
+  "status": "preserved_archive_glue_failure",
+  "checked_at_utc": "2026-10-20T23:15:12.260406+00:00",
+  "archive": "results/probability_alignment_archive_finalization_attempt01.zip",
+  "archive_sha256": "4d5454b3cbb069e90ecd4b813e6fda53189b3e851f8f415281e8312b83a97f10",
+  "member_sha256": {
+    "scripts/check_probability_alignment_archive.py": "0d0fcbbcbd6a2d05a9f54b1ba68d86278f7af2638a2829dc10629e9908491c26",
+    "results/probability_alignment_presentation_validation.json": "951406584d0c1c42dfb497a51cb4c6c1468270f562fad70f86cb29ca4170e317",
+    "tool_reported_failure.txt": "381845ae59001d37087eea7222fe93c3287681352077dd71147096f082786456"
+  },
+  "cause": "Root requested exactchecked_at_utc in presentation QA but archive consumer expected checked_at_utc; KeyError after substantive checks.",
+  "failure_diagnostic_is_tool_text_transcription_not_raw_stderr": true,
+  "scientific_registered_source_config_inputs_thresholds_results_or_verification_changed": false,
+  "existing_presentation_receipt_not_rewritten": true,
+  "actual_learning_or_direction_optimization_repeated": false
+}

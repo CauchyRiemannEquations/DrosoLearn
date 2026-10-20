@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "study_id": "probability_alignment_v1",
+  "verified_at_utc": "2026-10-20T23:10:20.058394+00:00",
+  "registration_sha256": "047181c1336e4d7bea74fe2ca4689bee559ed1e2a91795cfa2fbdc81f3adcaf6",
+  "summary_sha256": "757ed2f4014ad804467df55fa3ace89ef3ea5e9d1384e2d4c4a5db636a40f361",
+  "scientific_producer_imported": false,
+  "new_helper_imported": false,
+  "counts": {
+    "numeric_arrays_checked": 27,
+    "saved_reference_records_checked": 24000,
+    "saved_reference_destination_effects_checked": 96000,
+    "eligible_actual_Go_records_checked": 11709,
+    "candidate_destination_effects_checked": 234180,
+    "measurement_records_checked": 900,
+    "head_prefixes_and_factual_scalar_effects_checked": true,
+    "own_prefeedback_observed_signs_and_full_gate_checked": true,
+    "all_five_same_state_signed_updates_checked": true,
+    "uniform_and_probability_global_support_independently_reoptimized": true,
+    "independent_ambient_support_reoptimizations": 11949,
+    "independent_active_faces_per_support": 16,
+    "legacy_balanced_global_support_independently_reoptimized": true,
+    "independent_legacy_support_reoptimizations": 240,
+    "signed_finite_probability_failures_and_null_means_retained": true,
+    "new_training_trials": 0,
+    "new_random_draws": 0,
+    "fresh_model_constructions": 0,
+    "scientific_producer_imported": false,
+    "new_cone_solver_imported": false
+  }
+}
