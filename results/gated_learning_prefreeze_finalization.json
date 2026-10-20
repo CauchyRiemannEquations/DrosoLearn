@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-20T00:25:05.106145+00:00",
+  "premature_unpublished_source_commit": "32de2f9d5165108d711f2c7d9ae3d431059d19ca",
+  "event": "Commit started while the prefreeze receipt helper was still running; final verifier test bytes were not yet staged. Registration correctly rejected Git/working-byte mismatch; no registration or actual-learning output was created.",
+  "registration_rejected_file": "tests/test_gated_learning_verify.py",
+  "prefreeze_helper_final_stage_assertion_rejected_changed_HEAD": true,
+  "resolution": "Retain initial commit; verify all39 final source hashes and242 passed tests, stage final test snapshot and completed receipts, then commit before first successful registration.",
+  "all39_final_source_hashes_verified": true,
+  "passed_unique_tests": 242,
+  "new_cohort_graph_or_learning_started": false,
+  "configuration_seeds_budget_thresholds_or_model_source_changed": false,
+  "final_prefreeze_receipt_sha256": "b33edf17b5ffa7b6c6ece8011f8903e1a5fcb3ce3c102c1c2390eef674e99a8a"
+}
