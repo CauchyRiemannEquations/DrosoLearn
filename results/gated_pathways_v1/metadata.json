@@ -1,0 +1,43 @@
+{
+  "study_id": "gated_pathways_v1",
+  "status": "completed",
+  "stage": "completed",
+  "started_at_utc": "2026-10-20T00:47:33.014884+00:00",
+  "source_git_commit": "856963ed7b3699f34d392ffc93a842507319a95a",
+  "registration_sha256": "5f73a5e4961e4f531f0027a284d30fac821303f34217d087ede04b468a58918a",
+  "config_sha256": "ac3d23c7627d5123213c2e563e43d1b5d6c338af71a03fc71e7ade9edbde48c4",
+  "publication_proof": "results/gated_pathways_publication_proof.json",
+  "publication_proof_sha256": "ba102b211020b6df350aac75e31c9b5c7d44fc0152f0accd5b32eafa8ee1f374",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "analysis_only": true,
+  "new_training_calls": 0,
+  "new_random_seed_draws": 0,
+  "new_graph_or_feature_constructions": 0,
+  "new_optimization_calls": 0,
+  "new_human_experiment": false,
+  "shared_neural_mechanism_tested": false,
+  "education_effect_tested": false,
+  "new_effect_hypothesis_test": false,
+  "counts": {
+    "analyzed_parent_trial_records": 120000,
+    "analyzed_destination_effects": 480000,
+    "reference_gate_paths": 60,
+    "paired_comparison_paths": 240,
+    "paired_comparison_trial_records": 96000,
+    "measurement_records": 1800,
+    "numeric_arrays": 12,
+    "new_training_trials": 0,
+    "new_head_update_calls": 0,
+    "new_internal_update_calls": 0,
+    "new_value_update_calls": 0,
+    "new_random_draws": 0,
+    "fresh_model_constructions": 0,
+    "new_optimization_calls": 0
+  },
+  "measurement_records": 1800,
+  "numeric_arrays": 12,
+  "completed_at_utc": "2026-10-20T00:47:34.727892+00:00"
+}

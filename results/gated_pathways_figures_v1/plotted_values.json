@@ -1,0 +1,539 @@
+{
+  "primary_phase_category_difference_pp": [
+    [
+      -0.5175158363681378,
+      -0.2698065075826511,
+      0.9247221064752172
+    ],
+    [
+      0.024250313483027974,
+      0.024821558135792173,
+      0.0
+    ]
+  ],
+  "primary_methods": [
+    {
+      "method": "shared",
+      "net_endpoint_contribution_pp": [
+        [
+          2.1368430618373138,
+          -1.0147877049744378,
+          -1.104111857412137
+        ],
+        [
+          53.248751632294635,
+          -52.99025893959168,
+          0.0
+        ]
+      ],
+      "positive_endpoint_contribution_pp": [
+        [
+          2.1368430618373138,
+          1.1713791669466298,
+          0.7931637142521604
+        ],
+        [
+          53.248751632294635,
+          48.64326723849813,
+          0.0
+        ]
+      ],
+      "negative_endpoint_contribution_pp": [
+        [
+          0.0,
+          2.186166871921068,
+          1.8972755716642975
+        ],
+        [
+          0.0,
+          101.63352617808978,
+          0.0
+        ]
+      ],
+      "phase_costs": [
+        {
+          "trial_count": 14.7,
+          "go_trials": 6.9,
+          "nonzero_head_steps": 6.9,
+          "head_path_l2": 0.34249806784733494,
+          "head_squared_l2": 0.017028280953410278,
+          "endpoint_contribution": 0.0001794349945073895,
+          "gain_per_Go": 2.7297751706129664e-05,
+          "gain_per_path": 0.000537974797790406
+        },
+        {
+          "trial_count": 385.3,
+          "go_trials": 175.7,
+          "nonzero_head_steps": 175.7,
+          "head_path_l2": 8.923377054407249,
+          "head_squared_l2": 0.47155683892777533,
+          "endpoint_contribution": 0.00258492692702936,
+          "gain_per_Go": 1.608699390052161e-05,
+          "gain_per_path": 0.00029064776630863184
+        }
+      ]
+    },
+    {
+      "method": "isolated",
+      "net_endpoint_contribution_pp": [
+        [
+          0.25399427996225177,
+          0.0,
+          0.0
+        ],
+        [
+          6.6603768752309085,
+          5.551115123125783e-16,
+          0.0
+        ]
+      ],
+      "positive_endpoint_contribution_pp": [
+        [
+          0.25399427996225177,
+          0.0,
+          0.0
+        ],
+        [
+          6.6603768752309085,
+          1.942890293094024e-15,
+          0.0
+        ]
+      ],
+      "negative_endpoint_contribution_pp": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.3877787807814457e-15,
+          0.0
+        ]
+      ],
+      "phase_costs": [
+        {
+          "trial_count": 14.7,
+          "go_trials": 7.2,
+          "nonzero_head_steps": 7.2,
+          "head_path_l2": 0.36005450349180673,
+          "head_squared_l2": 0.018005612918387752,
+          "endpoint_contribution": 0.0025399427996225174,
+          "gain_per_Go": 0.0003554215469334976,
+          "gain_per_path": 0.007108072388793685
+        },
+        {
+          "trial_count": 385.3,
+          "go_trials": 188.5,
+          "nonzero_head_steps": 188.5,
+          "head_path_l2": 9.378688986051845,
+          "head_squared_l2": 0.4698827041702577,
+          "endpoint_contribution": 0.06660376875230911,
+          "gain_per_Go": 0.0003537641086799739,
+          "gain_per_path": 0.007110002692112732
+        }
+      ]
+    },
+    {
+      "method": "feedback_selective",
+      "net_endpoint_contribution_pp": [
+        [
+          0.6077028402229098,
+          0.17263417769584344,
+          -0.5719693166840943
+        ],
+        [
+          3.6221618558500994,
+          3.304294746352945,
+          0.0
+        ]
+      ],
+      "positive_endpoint_contribution_pp": [
+        [
+          0.6077028402229098,
+          0.17263417769584344,
+          0.38957705382252406
+        ],
+        [
+          3.6221618558500994,
+          3.304294746352945,
+          0.0
+        ]
+      ],
+      "negative_endpoint_contribution_pp": [
+        [
+          0.0,
+          0.0,
+          0.9615463705066184
+        ],
+        [
+          0.0,
+          2.7755575615628914e-16,
+          0.0
+        ]
+      ],
+      "phase_costs": [
+        {
+          "trial_count": 14.7,
+          "go_trials": 7.1,
+          "nonzero_head_steps": 7.1,
+          "head_path_l2": 0.34982133857534314,
+          "head_squared_l2": 0.017249778298962494,
+          "endpoint_contribution": 0.0020836770123465894,
+          "gain_per_Go": 0.0002916648668509289,
+          "gain_per_path": 0.005891534284564117
+        },
+        {
+          "trial_count": 385.3,
+          "go_trials": 190.7,
+          "nonzero_head_steps": 190.7,
+          "head_path_l2": 9.361692798241853,
+          "head_squared_l2": 0.4633872243858271,
+          "endpoint_contribution": 0.06926456602203043,
+          "gain_per_Go": 0.00036406396779473576,
+          "gain_per_path": 0.0074071008621553625
+        }
+      ]
+    },
+    {
+      "method": "balanced",
+      "net_endpoint_contribution_pp": [
+        [
+          0.7715101163303895,
+          0.2698065075826511,
+          -0.9247221064752172
+        ],
+        [
+          3.575052174933916,
+          3.7170835811664067,
+          0.0
+        ]
+      ],
+      "positive_endpoint_contribution_pp": [
+        [
+          0.7715101163303907,
+          0.26980650758265334,
+          0.35247958896203957
+        ],
+        [
+          3.575052174933982,
+          3.717083581166541,
+          0.0
+        ]
+      ],
+      "negative_endpoint_contribution_pp": [
+        [
+          1.2490009027033011e-15,
+          2.220446049250313e-15,
+          1.2772016954372567
+        ],
+        [
+          6.647460359943125e-14,
+          1.3322676295501878e-13,
+          0.0
+        ]
+      ],
+      "phase_costs": [
+        {
+          "trial_count": 14.7,
+          "go_trials": 7.1,
+          "nonzero_head_steps": 7.1,
+          "head_path_l2": 0.3500444397859789,
+          "head_squared_l2": 0.017279324243906144,
+          "endpoint_contribution": 0.0011659451743782343,
+          "gain_per_Go": 0.0001669699955237878,
+          "gain_per_path": 0.0033466806567960658
+        },
+        {
+          "trial_count": 385.3,
+          "go_trials": 189.8,
+          "nonzero_head_steps": 189.8,
+          "head_path_l2": 9.257082589671098,
+          "head_squared_l2": 0.45806067896884983,
+          "endpoint_contribution": 0.07292135756100322,
+          "gain_per_Go": 0.00038585722080221844,
+          "gain_per_path": 0.007892277424948356
+        }
+      ]
+    },
+    {
+      "method": "gated_balanced",
+      "net_endpoint_contribution_pp": [
+        [
+          0.25399427996225177,
+          0.0,
+          0.0
+        ],
+        [
+          3.5993024884169436,
+          3.741905139302199,
+          0.0
+        ]
+      ],
+      "positive_endpoint_contribution_pp": [
+        [
+          0.25399427996225177,
+          0.0,
+          0.0
+        ],
+        [
+          3.599302488417009,
+          3.7419051393023324,
+          0.0
+        ]
+      ],
+      "negative_endpoint_contribution_pp": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          6.550315845288424e-14,
+          1.3281042932078435e-13,
+          0.0
+        ]
+      ],
+      "phase_costs": [
+        {
+          "trial_count": 14.7,
+          "go_trials": 7.2,
+          "nonzero_head_steps": 7.2,
+          "head_path_l2": 0.36005450349180673,
+          "head_squared_l2": 0.018005612918387752,
+          "endpoint_contribution": 0.0025399427996225174,
+          "gain_per_Go": 0.0003554215469334976,
+          "gain_per_path": 0.007108072388793685
+        },
+        {
+          "trial_count": 385.3,
+          "go_trials": 188.2,
+          "nonzero_head_steps": 188.2,
+          "head_path_l2": 9.3036991595885,
+          "head_squared_l2": 0.46599431931896096,
+          "endpoint_contribution": 0.07341207627719143,
+          "gain_per_Go": 0.0003901023196583545,
+          "gain_per_path": 0.007893942657822466
+        }
+      ]
+    }
+  ],
+  "all_contrasts": [
+    {
+      "topology": "real",
+      "representation": "raw",
+      "control": "balanced",
+      "pre_post_difference_pp": [
+        0.13739976252442831,
+        0.04907187161882015
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "control": "isolated",
+      "pre_post_difference_pp": [
+        0.0,
+        0.6808307524882333
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "control": "feedback_selective",
+      "pre_post_difference_pp": [
+        0.04562657872759279,
+        0.4147510255160998
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "raw",
+      "control": "shared",
+      "pre_post_difference_pp": [
+        0.23605078051151276,
+        7.082714935016204
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "control": "balanced",
+      "pre_post_difference_pp": [
+        -0.04245489469512684,
+        0.1448516574154532
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "control": "isolated",
+      "pre_post_difference_pp": [
+        0.0,
+        6.439603767236648
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "control": "feedback_selective",
+      "pre_post_difference_pp": [
+        0.041053854980434845,
+        0.3988856474779779
+      ]
+    },
+    {
+      "topology": "real",
+      "representation": "identity",
+      "control": "shared",
+      "pre_post_difference_pp": [
+        0.5349728269733693,
+        18.700409035424574
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "control": "balanced",
+      "pre_post_difference_pp": [
+        0.16379592199494364,
+        -0.03464747020359621
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "control": "isolated",
+      "pre_post_difference_pp": [
+        0.0,
+        0.8457258966973311
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "control": "feedback_selective",
+      "pre_post_difference_pp": [
+        0.0637335858328314,
+        0.1569121418494486
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "raw",
+      "control": "shared",
+      "pre_post_difference_pp": [
+        0.3033755394129281,
+        8.648364385853395
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "control": "balanced",
+      "pre_post_difference_pp": [
+        -0.12843697369637433,
+        0.14357160259335255
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "control": "isolated",
+      "pre_post_difference_pp": [
+        0.0,
+        7.892024222189185
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "control": "feedback_selective",
+      "pre_post_difference_pp": [
+        0.0026647165320872745,
+        0.2859963591117434
+      ]
+    },
+    {
+      "topology": "rewired",
+      "representation": "identity",
+      "control": "shared",
+      "pre_post_difference_pp": [
+        0.5391595509689183,
+        19.87261582227024
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "control": "balanced",
+      "pre_post_difference_pp": [
+        0.15560504367545705,
+        -0.05608492163399287
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "control": "isolated",
+      "pre_post_difference_pp": [
+        0.0,
+        0.6415718161688859
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "control": "feedback_selective",
+      "pre_post_difference_pp": [
+        0.05882209057354537,
+        0.20709741236763363
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "raw",
+      "control": "shared",
+      "pre_post_difference_pp": [
+        0.27700479868770844,
+        7.819100391352787
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "control": "balanced",
+      "pre_post_difference_pp": [
+        -0.1764852862361399,
+        0.05442245681105574
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "control": "isolated",
+      "pre_post_difference_pp": [
+        0.0,
+        8.585367894472748
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "control": "feedback_selective",
+      "pre_post_difference_pp": [
+        -0.030845334692757572,
+        0.29263183109158236
+      ]
+    },
+    {
+      "topology": "ann",
+      "representation": "identity",
+      "control": "shared",
+      "pre_post_difference_pp": [
+        0.48569413309837667,
+        20.398913515195442
+      ]
+    }
+  ]
+}

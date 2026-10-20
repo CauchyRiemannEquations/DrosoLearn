@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "study_id": "gated_pathways_v1",
+  "checked_at_utc": "2026-10-20T00:54:20.230884+00:00",
+  "independent_read_only_presentation_audit": true,
+  "scientific_producer_imported": false,
+  "additional_scientific_runs": 0,
+  "all30_family_table_rows_and300_seed_phase_cost_accounts_checked": true,
+  "all24_contrasts_and240_seed_accounts_checked": true,
+  "common_gated_time_boundary_and_individual_knowledge_two_mismatch_types_checked": true,
+  "primary_pre_full6_post_partial0_all36_and0_unknown_mask5_cells_checked": true,
+  "raw_probability_mass_divided_by_four_before_percentage_points_checked": true,
+  "early_harm_reduction1_2772pp_and_losses1_1398pp_reconstruct_pre0_1374pp": true,
+  "gated_minus_isolated_post_own_minus3_0611_and_help_plus3_7419_pp_checked": true,
+  "seed_mean_cost_ratios_not_pooled_or_equal_cost_causal_claim_checked": true,
+  "all_primary_plot_values_and24_contrast_plot_pairs_checked": true,
+  "parent_unsupported_gain_acquisition_and_supported_operational_protection_preserved": true,
+  "unique_passed_tests_checked": 256,
+  "new_tests": 142,
+  "related_tests": 114,
+  "test_groups": {
+    "tests.test_gated_pathways": 44,
+    "tests.test_gated_pathways_envelope": 41,
+    "tests.test_gated_pathways_verify": 57,
+    "tests.test_balanced_pathways": 67,
+    "tests.test_gated_learning": 47
+  },
+  "renderer_reproduction_all_three_png_and_plotted_JSON_bytes_identical": true,
+  "figure_visual_checks": {
+    "all_three_viewed": true,
+    "labels_and_legends_readable": true,
+    "stacked_positive_and_negative_bars_inside_y_limits": true,
+    "above100pp_accumulated_mass_not_final_accuracy_explicit": true,
+    "no_overlap_or_cutoff_observed": true
+  },
+  "figure_dimensions": {
+    "all-contrasts.png": [
+      1950,
+      1200
+    ],
+    "help-and-harm.png": [
+      1950,
+      750
+    ],
+    "phase-accounting.png": [
+      1650,
+      720
+    ]
+  },
+  "local_document_links_checked": 8,
+  "three_evolving_indexes_PAUSED_and_prior_negative_human_result_checked": true,
+  "document_sha256": {
+    "docs/gated-pathways-findings.md": "4ca8b71227bfbace9efc51d404f07befe6717642d7333bc90617a0c1d6debb1f",
+    "docs/gated-pathways-reproduction.md": "9377a743ef5822517c1b2cab367e65badf9daa5dc5e5466da3cb626a59decded"
+  },
+  "additional_file_sha256": {
+    "results/gated_pathways_v1/summary.json": "ad08104cf638954f9cb94b427b380a65b7ba5e220912ea2adf76d23eee7e967e",
+    "results/gated_pathways_v1/metadata.json": "958a3ea38d95fc4b19c42016581443e3eb51fd488ac3166b64b8ccf12f2a8528",
+    "results/gated_pathways_v1/verification.json": "fa3f4365149e8fadda0b18395095fa8afc878fe2b7facc8efc8cee1401cc3371",
+    "results/registration_gated_pathways_v1.json": "5f73a5e4961e4f531f0027a284d30fac821303f34217d087ede04b468a58918a",
+    "results/gated_pathways_publication_proof.json": "ba102b211020b6df350aac75e31c9b5c7d44fc0152f0accd5b32eafa8ee1f374",
+    "results/gated_pathways_prefreeze_validation.json": "0144cd36beae120c4065d7e0bb621d02006f69dc11e0f6da664794717ab2caf8",
+    "results/gated_pathways_prefreeze_tests/gated_pathways_prefreeze_final2.xml": "e4a900aa802dd96ab6f298be1c748ccbf2e35ec0e177ca94783075705ac53bc7",
+    "results/gated_pathways_baseline_preservation.json": "dc2571c790b4e11c166afdfd96f00cc18ae04e3f6c0b1d5d419dfa2df58469b0",
+    "results/gated_pathways_figures_v1/provenance.json": "33f6c188833cb7a62157d34b71265ff036ebbc06142d467a9687e651b9da8e68",
+    "results/gated_pathways_figures_v1/plotted_values.json": "b9e5203c4c670f535887f51a81789a33f999b41ad6835cfbe47a06a4bd901c27",
+    "scripts/render_gated_pathways.py": "8de75aaa7d7417aa422067ea9d2c93f64d0d7bfc7e42e9a409800eb07b71d5a5",
+    "results/gated_pathways_figures_v1/all-contrasts.png": "d72f5962481cf555c405f181eea6d5e4849d53ec5ff5d52d538551db82ff1d09",
+    "results/gated_pathways_figures_v1/help-and-harm.png": "bd7a01dbb56761629a300688490ebdd899d062212b7e0be465796ba63d11dd73",
+    "results/gated_pathways_figures_v1/phase-accounting.png": "11c339160f584c726c8562c911ca7c38c749047fe45766a6ad2baa453dc4a99f",
+    "README.md": "7e8ce03209966163c333e196bc964fdb9593ffc930cf8768cf9b66664b88af43",
+    "docs/research-roadmap.md": "e5fd644b3f7808317edcc3a299abee7e1cc660a34ed2d4342ef32d7fa82f7c01",
+    "docs/repository-status.json": "0eda8a8357fbf9bbc7be6ad4cc43398095b913f58886b5b89db01dab92ce60fc"
+  }
+}

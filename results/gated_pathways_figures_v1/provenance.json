@@ -1,0 +1,17 @@
+{
+  "study_id": "gated_pathways_v1",
+  "generated_at_utc": "2026-10-20T00:51:49.859680+00:00",
+  "verified_arrays_only": true,
+  "new_training_trials": 0,
+  "new_parameter_selection": false,
+  "arrays_sha256": "32b8beae87a5d55728a024dbcd1ff13ce4c87bad60939571b5e9a74f8a9ff6d0",
+  "summary_sha256": "ad08104cf638954f9cb94b427b380a65b7ba5e220912ea2adf76d23eee7e967e",
+  "verification_sha256": "fa3f4365149e8fadda0b18395095fa8afc878fe2b7facc8efc8cee1401cc3371",
+  "render_script_sha256": "8de75aaa7d7417aa422067ea9d2c93f64d0d7bfc7e42e9a409800eb07b71d5a5",
+  "plotted_values_sha256": "b9e5203c4c670f535887f51a81789a33f999b41ad6835cfbe47a06a4bd901c27",
+  "figure_sha256": {
+    "all-contrasts.png": "d72f5962481cf555c405f181eea6d5e4849d53ec5ff5d52d538551db82ff1d09",
+    "help-and-harm.png": "bd7a01dbb56761629a300688490ebdd899d062212b7e0be465796ba63d11dd73",
+    "phase-accounting.png": "11c339160f584c726c8562c911ca7c38c749047fe45766a6ad2baa453dc4a99f"
+  }
+}

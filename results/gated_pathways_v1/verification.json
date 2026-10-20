@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "study_id": "gated_pathways_v1",
+  "verified_at_utc": "2026-10-20T00:47:54.157186+00:00",
+  "registration_sha256": "5f73a5e4961e4f531f0027a284d30fac821303f34217d087ede04b468a58918a",
+  "summary_sha256": "ad08104cf638954f9cb94b427b380a65b7ba5e220912ea2adf76d23eee7e967e",
+  "scientific_producer_imported": false,
+  "new_helper_imported": false,
+  "counts": {
+    "arrays": 12,
+    "parent_trial_records_checked": 120000,
+    "destination_effects_checked": 480000,
+    "measurement_records_checked": 1800,
+    "all_factual_head_prefixes_and_parent_effects_reconstructed": true,
+    "all_methods_use_same_reference_prefeedback_time_boundary": true,
+    "own_method_observations_used_for_known_unknown_categories": true,
+    "last_discovery_trial_pre_and_next_trial_post_checked": true,
+    "positive_negative_masses_and_endpoint_contributions_separated": true,
+    "costs_Go_counts_and_nullable_descriptive_ratios_checked": true,
+    "all_four_controls_and_all_thirty_families_checked": true,
+    "parent_full_autonomous_replay_and_byte_gate_reused_by_frozen_hashes": true,
+    "no_counterfactual_direction_policy_rng_graph_or_solver_calls": true,
+    "new_training_trials": 0,
+    "new_random_draws": 0,
+    "new_optimization_calls": 0
+  }
+}

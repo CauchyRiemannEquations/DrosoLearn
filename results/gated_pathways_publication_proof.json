@@ -1,0 +1,11 @@
+{
+  "study_id": "gated_pathways_v1",
+  "registration_sha256": "5f73a5e4961e4f531f0027a284d30fac821303f34217d087ede04b468a58918a",
+  "source_commit": "856963ed7b3699f34d392ffc93a842507319a95a",
+  "published_commit": "3686ab10a28b538434e385e05e834f042b93c2a8",
+  "remote_bytes_match": true,
+  "checked_at_utc": "2026-10-20T00:47:14.982273+00:00",
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/3686ab10a28b538434e385e05e834f042b93c2a8/results/registration_gated_pathways_v1.json",
+  "method": "Authenticated private remote main and literal decoded registration bytes checked before first saved-path arithmetic; parent outcomes already known; no secrets logged"
+}
