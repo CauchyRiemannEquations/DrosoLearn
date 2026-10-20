@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-20T00:20:04.833416+00:00",
+  "verified_at_utc": "2026-10-20T00:20:38.802873+00:00",
+  "baseline_tag": "balanced-pathways-v1",
+  "baseline_commit": "f291f1f22e7ce83a0c836924530ca93e9bc12d33",
+  "hash_compared_files": 18918,
+  "hash_compared_bytes": 2182824549,
+  "allowed_evolving_indexes": [
+    "README.md",
+    "docs/repository-status.json",
+    "docs/research-roadmap.md"
+  ],
+  "all_old_files_Git_blob_hash_preserved_except_three_indexes": true,
+  "method": "Git SHA1 blob header plus raw current bytes for every prior tracked file; cryptographic hash comparison, not a repeated literal-byte comparison.",
+  "prior_literal_receipt_preserved": "results/balanced_pathways_baseline_preservation.json",
+  "new_learning_calls": 0
+}
