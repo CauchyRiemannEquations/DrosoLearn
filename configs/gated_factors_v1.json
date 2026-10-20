@@ -1,0 +1,104 @@
+{
+  "study_id": "gated_factors_v1",
+  "scope": "retrospective_descriptive_gated_factors",
+  "module": "drosolearn.gated_factors",
+  "protocol": "docs/gated-factors-protocol.md",
+  "parent_result": "results/gated_pathways_v1",
+  "learning_result": "results/gated_learning_v1",
+  "baseline_tag": "gated-pathways-v1",
+  "baseline_commit": "e74604a67479299825e2ab5572fd3efd8f9970d6",
+  "topologies": [
+    "real",
+    "rewired",
+    "ann"
+  ],
+  "representations": [
+    "raw",
+    "identity"
+  ],
+  "methods": [
+    "shared",
+    "isolated",
+    "feedback_selective",
+    "balanced",
+    "gated_balanced"
+  ],
+  "contrast_controls": [
+    "isolated",
+    "balanced",
+    "feedback_selective",
+    "shared"
+  ],
+  "model_seeds": [
+    17601,
+    17602,
+    17603,
+    17604,
+    17605,
+    17606,
+    17607,
+    17608,
+    17609,
+    17610
+  ],
+  "training_trials": 400,
+  "numeric_tolerance": 1e-08,
+  "phase_definition": "reference_gated_known_before_count_equals_four",
+  "bridge_eligibility": "reference_post_and_both_actual_Go",
+  "bridge_bits": [
+    "state",
+    "scalar",
+    "direction"
+  ],
+  "bridge_allocation": "three_factor_symmetric_Shapley_exact_sigmoid",
+  "destination_groups": [
+    "own",
+    "other"
+  ],
+  "new_confirmatory_hypothesis": false,
+  "external_manifest": null,
+  "source_files": [
+    "configs/gated_factors_v1.json",
+    "docs/gated-factors-protocol.md",
+    "pyproject.toml",
+    "requirements-lock.txt",
+    "scripts/run_gated_factors.py",
+    "scripts/verify_gated_factors.py",
+    "src/drosolearn/__init__.py",
+    "src/drosolearn/balanced_envelope.py",
+    "src/drosolearn/cone_envelope.py",
+    "src/drosolearn/gated_envelope.py",
+    "src/drosolearn/gated_factors.py",
+    "src/drosolearn/gated_factors_envelope.py",
+    "src/drosolearn/gated_pathways_envelope.py",
+    "src/drosolearn/normalization_envelope.py",
+    "src/drosolearn/pathways_envelope.py",
+    "src/drosolearn/representation_envelope.py",
+    "src/drosolearn/selective_envelope.py",
+    "tests/test_gated_factors.py",
+    "tests/test_gated_factors_envelope.py",
+    "tests/test_gated_factors_verify.py"
+  ],
+  "parent_files": [
+    "results/gated_learning_v1/arrays.npz",
+    "results/gated_pathways_archive_validation.json",
+    "results/gated_pathways_baseline_preservation.json",
+    "results/gated_pathways_publication_proof.json",
+    "results/gated_pathways_v1/arrays.npz",
+    "results/gated_pathways_v1/artifact_hashes.json",
+    "results/gated_pathways_v1/measurements.csv",
+    "results/gated_pathways_v1/metadata.json",
+    "results/gated_pathways_v1/registration.json",
+    "results/gated_pathways_v1/summary.json",
+    "results/gated_pathways_v1/verification.json",
+    "results/registration_gated_pathways_v1.json"
+  ],
+  "interpretation": {
+    "new_human_experiment": false,
+    "shared_neural_mechanism_claim": false,
+    "education_effect_claim": false,
+    "new_training": false,
+    "new_seed_draws": false,
+    "new_effect_hypothesis_test": false
+  }
+}

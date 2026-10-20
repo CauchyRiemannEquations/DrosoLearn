@@ -1,0 +1,140 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-20T01:06:58.029848+00:00",
+  "baseline_commit": "e74604a67479299825e2ab5572fd3efd8f9970d6",
+  "unique_passed_tests": 269,
+  "new_unique_passed_tests": 158,
+  "unchanged_related_regression_passed_tests": 111,
+  "test_receipts": [
+    {
+      "path": "results/gated_factors_prefreeze_tests/gated_factors_prefreeze_final.xml",
+      "sha256": "da4700c95cf6632014f8948ee6b1356e22b1c1ea9174a261eb4c7bf465b4ec99",
+      "passed_unique_tests": 269
+    }
+  ],
+  "development_failure_artifacts": [
+    {
+      "path": "results/gated_factors_development/gated_factors_verify_failure_01.py",
+      "sha256": "1f739c63b39d36a5898a5ee940a62051f01c0f51251021e15bfc69935939145d"
+    },
+    {
+      "path": "results/gated_factors_development/gated_factors_verify_tests_failure_01.py",
+      "sha256": "59e6bfc2a2bc8440bb46f7e17db7bcc334e7a2c91f53de6c1e36940855165aa9"
+    },
+    {
+      "path": "results/gated_factors_development/gated_factors_verify_development_failure_01.xml",
+      "sha256": "b1ee2f5adbf1fe9922389191dd19cee51f85d7099c612c2306fa125686659c22"
+    }
+  ],
+  "development_failure_notice": "Early invented integer-cell arithmetic comparison used the expected integer dtype to classify the floating Shapley output; the test comparator was fixed before actual aggregation. Original script, test, and 8-pass/1-fail JUnit are preserved.",
+  "frozen_source_hashes": {
+    "configs/gated_factors_v1.json": "f4d6877e76d4bff75439387301d6d4e6fbee38f0634868cc042fe113674da05f",
+    "docs/gated-factors-protocol.md": "fb38bb579359e2dce201bebdaac3b10410b0b433dbbdca4760f7c5848b13ae48",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_gated_factors.py": "80cd3bb18e926f025b2137e9e912b04ca2d5a9747ec581b1cb10fbcbeb32f0c6",
+    "scripts/verify_gated_factors.py": "703c17578adb5fa791775d7e8c8ec03c066cea3aa73cb420083586ab4836bbca",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/balanced_envelope.py": "9ce6c4b99154af6d44e09b1aa4eaf046e40dd60207adbaab51fa11279085af40",
+    "src/drosolearn/cone_envelope.py": "38a4072690b00f0387f14648843517df7ccf074a3989c3ec8d950e3cc84cef9c",
+    "src/drosolearn/gated_envelope.py": "e1d32225f67c174c2e8027b27ceeb322db32cfc9e57261740e2a6516a56e57ea",
+    "src/drosolearn/gated_factors.py": "2572db4208dc9b0941442c19bb1d07a3e4ecea490fcc96c7bbb08e9c96b5e171",
+    "src/drosolearn/gated_factors_envelope.py": "6e88df46ba3ab955bf1a5624ee1d7d3697acdeec7953260ab00a4c24e27c5345",
+    "src/drosolearn/gated_pathways_envelope.py": "cedfb18cd74caab54d71dd4ef57884155fbe603f8304a3c46a7dc3399d741269",
+    "src/drosolearn/normalization_envelope.py": "482bc8839c0f435f10776a534601f871014d37a82384d0973f33a191b854a55d",
+    "src/drosolearn/pathways_envelope.py": "3cb56134fa85d92c56f3e1d2a55ad86582d279432b107c35cc9452570f35dcd5",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "src/drosolearn/selective_envelope.py": "72597a9ca74a33d3aa1f43f0c432c8310eb32812e7ef0ad8005e0c386e0135f1",
+    "tests/test_gated_factors.py": "d5b418a97de4a5dfd38344382672bf8e805c89a7250eefc725ad0e54aed18931",
+    "tests/test_gated_factors_envelope.py": "63a61860e7b524b0db1ae72c82728b427946ea05182437f134e4d6ce144e4be3",
+    "tests/test_gated_factors_verify.py": "61f6c44b37a0191be55c777e9989452200b3c764e561c41b1b8449bd577ffd4d"
+  },
+  "parent_byte_gate": {
+    "baseline_tag": "gated-pathways-v1",
+    "baseline_commit": "e74604a67479299825e2ab5572fd3efd8f9970d6",
+    "inherited_parent_gate": {
+      "baseline_tag": "gated-learning-v1",
+      "baseline_commit": "b89e9f2baf1aed91b4451538c85ba3e9458df53b",
+      "inherited_parent_gate": {
+        "baseline_tag": "balanced-pathways-v1",
+        "baseline_commit": "f291f1f22e7ce83a0c836924530ca93e9bc12d33",
+        "inherited_parent_gate": {
+          "baseline_tag": "balanced-learning-v1",
+          "baseline_commit": "b836a780b91d81425e534dad7284485f284799ce",
+          "inherited_parent_gate": {
+            "baseline_tag": "cone-frontier-v1",
+            "baseline_commit": "56e1a31537083825e83d4402cfa9445e7e519b9b",
+            "inherited_parent_gate": {
+              "baseline_tag": "normalization-loss-v1",
+              "baseline_commit": "f1ada01a904283a1036b4dc77b10fb3882194750",
+              "prior_normalization_independent_audit_reused": true,
+              "prior_selective_full_replay_reused_not_rerun": true,
+              "pinned_files": 16,
+              "archive_snapshot_files": 49,
+              "immutable_source_parent_and_baseline_Git_bytes_checked": true,
+              "prior_negative_human_and_acquisition_preserved": true,
+              "new_training_calls": 0,
+              "new_random_seed_draws": 0,
+              "new_graph_or_feature_constructions": 0
+            },
+            "pinned_baseline_files": 43,
+            "historical_archive_snapshot_files": 50,
+            "prior_cone_independent_certificate_and_information_gates_reused": true,
+            "prior_frontier_is_not_actual_learning": true,
+            "parent_source_data_Git_and_archive_bytes_checked": true,
+            "prior_negative_learning_and_human_results_preserved": true,
+            "parent_gate_no_new_learner_graph_or_seed_calls": true,
+            "whole_repository_literal_pass_not_repeated": true
+          },
+          "pinned_baseline_files": 19,
+          "historical_archive_snapshot_files": 80,
+          "prior_complete_96000_action_replay_and_510_optima_reused_not_rerun": true,
+          "parent_raw_arrays_CSV_source_data_Git_and_archive_bytes_checked": true,
+          "prior_three_unsupported_hypotheses_preserved": true,
+          "parent_gate_no_new_learner_graph_or_seed_calls": true,
+          "whole_repository_literal_pass_not_repeated": true
+        },
+        "pinned_baseline_files": 47,
+        "historical_archive_snapshot_files": 55,
+        "prior_complete_pathways_accounting_reused_not_rerun": true,
+        "parent_raw_arrays_CSV_source_data_Git_and_archive_bytes_checked": true,
+        "prior_three_unsupported_hypotheses_and_noncausal_accounting_preserved": true,
+        "parent_gate_no_new_learner_graph_or_seed_calls": true,
+        "whole_repository_literal_pass_not_repeated": true
+      },
+      "pinned_baseline_files": 21,
+      "historical_archive_snapshot_files": 84,
+      "prior_complete_120000_action_replay_and_720_optima_reused_not_rerun": true,
+      "parent_raw_arrays_CSV_source_data_Git_and_archive_bytes_checked": true,
+      "prior_unsupported_gain_acquisition_and_operational_protection_preserved": true,
+      "original_parent_prefreeze_finalization_gate": {
+        "source_committed_prefreeze_receipts_checked": 4,
+        "retained_initial_commit_ancestry_and_exact_four_finalized_paths_checked": true,
+        "initial_model_and_configuration_source_bytes_unchanged": true,
+        "parent_finalization_precedes_original_registration_and_learning": true
+      },
+      "parent_gate_no_new_learner_graph_or_seed_calls": true,
+      "whole_repository_literal_pass_not_repeated": true
+    },
+    "pinned_baseline_files": 23,
+    "historical_archive_snapshot_files": 56,
+    "parent_saved_accounting_and_original_autonomous_replay_reused_not_rerun": true,
+    "parent_raw_source_data_Git_archive_and_prefreeze_bytes_checked": true,
+    "prior_unsupported_gain_acquisition_and_operational_protection_preserved": true,
+    "parent_gate_no_new_learner_graph_seed_or_optimizer_calls": true,
+    "whole_repository_literal_pass_not_repeated": true
+  },
+  "actual_new_saved_factor_aggregation_before_freeze": 0,
+  "new_training_random_graph_or_optimization_calls": 0,
+  "synthetic_fixtures_only_before_freeze": true,
+  "design_audits": [
+    "Common reference post and both actual Go only for eight symmetric state/scalar/direction corners",
+    "Control-only and gated-only actual actions separately retained; no zero-direction proxy for a missing action",
+    "Signed, positive-part and negative-part allocation separately retained; mass allocation itself may be negative",
+    "All24comparisons/240pairedpaths/own-versus-other3 groups; exact post endpoint and previous factual accounting binding",
+    "Eight conditional diagnostics distinguish signed scalar, actual step and unit-direction influence; logistic sensitivity is descriptive",
+    "Equal-seed diagnostic means and null empty subsets; no equal-realized-cost or unique causal claim",
+    "Independent verifier imports no new producer/helper; no future policy, learner/RNG/graph/solver",
+    "Prior gain/acquisition unsupported and expected operational protection supported; human/generalization gates and originalPhase5 preserved"
+  ]
+}

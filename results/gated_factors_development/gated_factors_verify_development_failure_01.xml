@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="9" time="0.267" timestamp="2026-10-20T09:58:44.912305+09:00" hostname="오지훈"><testcase classname="tests.test_gated_factors_verify" name="test_all_eight_corners_use_the_declared_bits_and_exact_sigmoid" time="0.001" /><testcase classname="tests.test_gated_factors_verify" name="test_shapley_is_symmetric_for_a_three_way_interaction_and_preserves_efficiency" time="0.001"><failure message="ValueError: Symmetric Shapley efficiency exact">def test_shapley_is_symmetric_for_a_three_way_interaction_and_preserves_efficiency():
+        value = np.zeros((8, 4), int)
+        value[7] = np.array([3, -3, 6, -6])
+&gt;       result = audit.independent_shapley(value)
+
+tests\test_gated_factors_verify.py:27: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+scripts\verify_gated_factors.py:79: in independent_shapley
+    close(result.sum(axis=-2), value[..., 7, :] - value[..., 0, :], "Symmetric Shapley efficiency")
+scripts\verify_gated_factors.py:34: in close
+    demand(actual.dtype.kind in "biu" and np.array_equal(actual, expected), label + " exact")
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+condition = False, label = 'Symmetric Shapley efficiency exact'
+
+    def demand(condition, label):
+&gt;       if not condition: raise ValueError(label)
+E       ValueError: Symmetric Shapley efficiency exact
+
+scripts\verify_gated_factors.py:27: ValueError</failure></testcase><testcase classname="tests.test_gated_factors_verify" name="test_a_single_factor_effect_is_assigned_only_to_that_factor[4-0]" time="0.001" /><testcase classname="tests.test_gated_factors_verify" name="test_a_single_factor_effect_is_assigned_only_to_that_factor[2-1]" time="0.001" /><testcase classname="tests.test_gated_factors_verify" name="test_a_single_factor_effect_is_assigned_only_to_that_factor[1-2]" time="0.001" /><testcase classname="tests.test_gated_factors_verify" name="test_state_saturation_changes_finite_probability_effect_without_changing_margin_step" time="0.001" /><testcase classname="tests.test_gated_factors_verify" name="test_bad_corner_state_is_rejected[bad0]" time="0.000" /><testcase classname="tests.test_gated_factors_verify" name="test_bad_corner_state_is_rejected[bad1]" time="0.000" /><testcase classname="tests.test_gated_factors_verify" name="test_bad_corner_state_is_rejected[bad2]" time="0.001" /></testsuite></testsuites>

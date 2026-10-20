@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-20T01:07:39.954067+00:00",
+  "event": "The strict staged whitespace check stopped on trailing spaces within an original failed-test traceback line in JUnit XML. No source commit, registration or actual aggregation had occurred.",
+  "resolution": "Keep the original failure XML bytes unchanged and hash-bound. Exclude only this literal raw-evidence file from the whitespace style check; every other staged file receives the original strict check.",
+  "original_failure_xml": "results/gated_factors_development/gated_factors_verify_development_failure_01.xml",
+  "original_failure_xml_sha256": "b1ee2f5adbf1fe9922389191dd19cee51f85d7099c612c2306fa125686659c22",
+  "development_failure_test_count": 9,
+  "development_failure_failed_tests": 1,
+  "scientific_sources_configuration_thresholds_or_parent_inputs_changed": false,
+  "actual_factor_aggregation_started": false,
+  "prefreeze_validation_sha256": "4d1c958093e144e751b21cfcffdc55f61b91e63ff96e521fda13b42ed6577703"
+}
