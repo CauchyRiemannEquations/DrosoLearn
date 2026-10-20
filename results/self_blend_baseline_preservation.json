@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-20T01:44:00.524653+00:00",
+  "verified_at_utc": "2026-10-20T01:44:19.780479+00:00",
+  "baseline_tag": "gated-factors-v1",
+  "baseline_commit": "d94922361e8a17e156bed0d5c4f240750f75f5ef",
+  "hash_compared_files": 19023,
+  "hash_compared_bytes": 2287582857,
+  "allowed_evolving_indexes": [
+    "README.md",
+    "docs/repository-status.json",
+    "docs/research-roadmap.md"
+  ],
+  "all_old_files_Git_blob_hash_preserved_except_three_indexes": true,
+  "method": "Git SHA1 blob header plus raw current bytes for every prior tracked file; cryptographic hash comparison, not a repeated literal-byte comparison.",
+  "prior_baseline_receipt_preserved": "results/gated_factors_baseline_preservation.json",
+  "new_learning_calls": 0
+}

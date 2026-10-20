@@ -1,0 +1,19 @@
+{
+  "status": "development_failure_retained",
+  "study_id": "self_blend_learning_v1",
+  "preserved_at_utc": "2026-10-20T01:44:12.034041+00:00",
+  "synthetic_tests_only": true,
+  "actual_new_cohort_runs": 0,
+  "total_tests": 45,
+  "passed_tests": 39,
+  "failed_tests": 6,
+  "same_source_failure_also_detected_by_root_in_101_test_run": true,
+  "archive": "results/self_blend_development/core_failure_01.zip",
+  "archive_sha256": "8f9437e9fb293a7c1354861cad94ebe969ea3d1447c2dbc2832253c5e94a7f77",
+  "member_sha256": {
+    "self_blend_learning.py": "df0a2897a5ece0b367fbfba0f8e85e841bac73bd4ac5e0d4646eb82da3c9fcdd",
+    "test_self_blend_learning.py": "47ed7b790d3025e00c110e5b4880bcb186fd7c48c35975d74790b32e60a6ade6",
+    "core_tests_01.xml": "ed333ab3589db57753cce1d6dd27e4e5f7c5abd1d35f3395b61bcf53e403e174"
+  },
+  "notice": "Separate core-only invocation of the same pre-fix source: four failures from wrong cone projection return key and two from implicit memory/complex casts. Original bytes retained; no additional scientific execution."
+}

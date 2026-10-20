@@ -1,0 +1,13 @@
+{
+  "status": "preserved_development_failure",
+  "failed": 6,
+  "passed": 95,
+  "actual_cohort_started": false,
+  "artifacts": {
+    "self_blend_initial_tests.xml": "16070c9dd7f66c24ea063a53c79e12fb2817cbfca166f60eaf826674f92e883b",
+    "self_blend_learning.py": "91bd61e9628e5042367dba3aa7ce0cab08f4bf3f30ae9568e96c9bdec5638ab4",
+    "test_self_blend_learning.py": "47ed7b790d3025e00c110e5b4880bcb186fd7c48c35975d74790b32e60a6ade6",
+    "test_self_blend_envelope.py": "b28262c51ec6831fbdf873daf2420237c3726033d1af25c5d02b7f2d063ef6c0"
+  },
+  "notice": "Invented fixtures exposed a copied cone projection result-key mismatch and missing float-memory/complex-direction input rejection. Original sources, tests and raw JUnit are byte-preserved inside ZIP before fixes; no cohort, seed, budget or scientific criterion was changed."
+}
