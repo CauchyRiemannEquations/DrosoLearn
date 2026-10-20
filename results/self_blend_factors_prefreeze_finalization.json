@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-20T03:32:48.200336+00:00",
+  "notice": "Initial finalization was stopped by the strict staged whitespace checker because the new envelope test ended with one extra blank line. Original prefreeze receipt, test and 295-pass JUnit bytes are preserved in ZIP. Only that trailing empty line was removed before a fresh final passing suite and new source hashes; no registration or actual aggregation had begun.",
+  "archive": "results/self_blend_factors_prefreeze_style_attempt01.zip",
+  "archive_sha256": "2fa0cec230db5641d1fd992e2661a8c9746be5c4f6198bd4d95e2568e6c883ed",
+  "member_sha256": {
+    "results/self_blend_factors_prefreeze_validation.json": "f1788e34eb083bb4ef926ba733bfd7544431c66f253c959fb8b5ef97772b0ae6",
+    "results/self_blend_factors_prefreeze_tests/self_blend_factors_prefreeze_final.xml": "0ddc5ef7785e294ea735053f6607cc12158e8348ab50ec2a3c892d19ed7e73b8",
+    "tests/test_self_blend_factors_envelope.py": "dd6115be6b949c1cf63a0ca51e605687c9cc8b5cf33c39b32c24108c25b90843"
+  },
+  "test_path": "tests/test_self_blend_factors_envelope.py",
+  "original_test_sha256": "dd6115be6b949c1cf63a0ca51e605687c9cc8b5cf33c39b32c24108c25b90843",
+  "final_test_sha256": "cff6135a3b01cfc36ebf0146fbdfca6660076cc1d87b9cf4015c11a2d0fc9402",
+  "removed_only_trailing_blank_line": true,
+  "original_passed_tests": 295,
+  "original_failed_tests": 0,
+  "scientific_design_thresholds_or_parent_inputs_changed": false,
+  "actual_saved_factor_aggregation_started": false
+}

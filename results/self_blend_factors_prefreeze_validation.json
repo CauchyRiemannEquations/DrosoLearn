@@ -1,0 +1,171 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-20T03:32:56.245242+00:00",
+  "baseline_commit": "0d1a7abaf35e564eb397a52bb9f44a4f1b723907",
+  "unique_passed_tests": 295,
+  "new_unique_passed_tests": 203,
+  "unchanged_related_regression_passed_tests": 92,
+  "test_receipts": [
+    {
+      "path": "results/self_blend_factors_prefreeze_tests/self_blend_factors_prefreeze_final.xml",
+      "sha256": "fa926fea9cd77219ef9747beac2b7de7edaad868b3c8336ca2ce602f8ac40726",
+      "passed_unique_tests": 295
+    }
+  ],
+  "development_failure_artifacts": [
+    {
+      "path": "results/self_blend_factors_prefreeze_style_attempt01.zip",
+      "sha256": "2fa0cec230db5641d1fd992e2661a8c9746be5c4f6198bd4d95e2568e6c883ed"
+    },
+    {
+      "path": "results/self_blend_factors_prefreeze_finalization.json",
+      "sha256": "2009c0fce7a3581cd1b44d591437a9bee186a6c56d45c5b937555b585aab8006"
+    }
+  ],
+  "frozen_source_hashes": {
+    "configs/self_blend_factors_v1.json": "b1689edf7be08fb780e04e901a2696c84a5f449017daaed1c48513e3e99de607",
+    "docs/self-blend-factors-protocol.md": "5582bfcba7ef888ce1812d70f85382ad02a331ed6d2f89ba1531f4025c21242e",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "scripts/run_self_blend_factors.py": "72683a85d013af8ef6d8b059cf92ead7746ffcb086733b52f227e08c58d8f7e5",
+    "scripts/verify_self_blend_factors.py": "ff5409a2839a44ad3d270a1a1484cacee96df9a4ffa403f0043df9f7e6345a52",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/balanced_envelope.py": "9ce6c4b99154af6d44e09b1aa4eaf046e40dd60207adbaab51fa11279085af40",
+    "src/drosolearn/cone_envelope.py": "38a4072690b00f0387f14648843517df7ccf074a3989c3ec8d950e3cc84cef9c",
+    "src/drosolearn/gated_envelope.py": "e1d32225f67c174c2e8027b27ceeb322db32cfc9e57261740e2a6516a56e57ea",
+    "src/drosolearn/gated_factors_envelope.py": "6e88df46ba3ab955bf1a5624ee1d7d3697acdeec7953260ab00a4c24e27c5345",
+    "src/drosolearn/gated_pathways_envelope.py": "cedfb18cd74caab54d71dd4ef57884155fbe603f8304a3c46a7dc3399d741269",
+    "src/drosolearn/normalization_envelope.py": "482bc8839c0f435f10776a534601f871014d37a82384d0973f33a191b854a55d",
+    "src/drosolearn/pathways_envelope.py": "3cb56134fa85d92c56f3e1d2a55ad86582d279432b107c35cc9452570f35dcd5",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "src/drosolearn/selective_envelope.py": "72597a9ca74a33d3aa1f43f0c432c8310eb32812e7ef0ad8005e0c386e0135f1",
+    "src/drosolearn/self_blend_envelope.py": "875f7e7ed20786f1d10da664b0eb4fba5559cca82d9bca70d5c6b94f696a4ef8",
+    "src/drosolearn/self_blend_factors.py": "1ecf705bcfc374ea89efe665123b384ccc16c73f261714fe78415033f39f87cc",
+    "src/drosolearn/self_blend_factors_envelope.py": "9d89ab835fdab8675ff158b9591de2eb0a0848ab8dc51a61558798b7cf8d3fad",
+    "tests/test_self_blend_factors.py": "53d25fc64c5e5cc9d42541881aa385acd362338297e1450496774df5ba4ea603",
+    "tests/test_self_blend_factors_envelope.py": "cff6135a3b01cfc36ebf0146fbdfca6660076cc1d87b9cf4015c11a2d0fc9402",
+    "tests/test_self_blend_factors_verify.py": "9de52f523942e47e5ffb6a94ec60bc89880dd6a142a579bc294abd202e203ddd"
+  },
+  "parent_byte_gate": {
+    "baseline_tag": "self-blend-learning-v1",
+    "baseline_commit": "0d1a7abaf35e564eb397a52bb9f44a4f1b723907",
+    "inherited_parent_gate": {
+      "baseline_tag": "gated-factors-v1",
+      "baseline_commit": "d94922361e8a17e156bed0d5c4f240750f75f5ef",
+      "inherited_parent_gate": {
+        "baseline_tag": "gated-pathways-v1",
+        "baseline_commit": "e74604a67479299825e2ab5572fd3efd8f9970d6",
+        "inherited_parent_gate": {
+          "baseline_tag": "gated-learning-v1",
+          "baseline_commit": "b89e9f2baf1aed91b4451538c85ba3e9458df53b",
+          "inherited_parent_gate": {
+            "baseline_tag": "balanced-pathways-v1",
+            "baseline_commit": "f291f1f22e7ce83a0c836924530ca93e9bc12d33",
+            "inherited_parent_gate": {
+              "baseline_tag": "balanced-learning-v1",
+              "baseline_commit": "b836a780b91d81425e534dad7284485f284799ce",
+              "inherited_parent_gate": {
+                "baseline_tag": "cone-frontier-v1",
+                "baseline_commit": "56e1a31537083825e83d4402cfa9445e7e519b9b",
+                "inherited_parent_gate": {
+                  "baseline_tag": "normalization-loss-v1",
+                  "baseline_commit": "f1ada01a904283a1036b4dc77b10fb3882194750",
+                  "prior_normalization_independent_audit_reused": true,
+                  "prior_selective_full_replay_reused_not_rerun": true,
+                  "pinned_files": 16,
+                  "archive_snapshot_files": 49,
+                  "immutable_source_parent_and_baseline_Git_bytes_checked": true,
+                  "prior_negative_human_and_acquisition_preserved": true,
+                  "new_training_calls": 0,
+                  "new_random_seed_draws": 0,
+                  "new_graph_or_feature_constructions": 0
+                },
+                "pinned_baseline_files": 43,
+                "historical_archive_snapshot_files": 50,
+                "prior_cone_independent_certificate_and_information_gates_reused": true,
+                "prior_frontier_is_not_actual_learning": true,
+                "parent_source_data_Git_and_archive_bytes_checked": true,
+                "prior_negative_learning_and_human_results_preserved": true,
+                "parent_gate_no_new_learner_graph_or_seed_calls": true,
+                "whole_repository_literal_pass_not_repeated": true
+              },
+              "pinned_baseline_files": 19,
+              "historical_archive_snapshot_files": 80,
+              "prior_complete_96000_action_replay_and_510_optima_reused_not_rerun": true,
+              "parent_raw_arrays_CSV_source_data_Git_and_archive_bytes_checked": true,
+              "prior_three_unsupported_hypotheses_preserved": true,
+              "parent_gate_no_new_learner_graph_or_seed_calls": true,
+              "whole_repository_literal_pass_not_repeated": true
+            },
+            "pinned_baseline_files": 47,
+            "historical_archive_snapshot_files": 55,
+            "prior_complete_pathways_accounting_reused_not_rerun": true,
+            "parent_raw_arrays_CSV_source_data_Git_and_archive_bytes_checked": true,
+            "prior_three_unsupported_hypotheses_and_noncausal_accounting_preserved": true,
+            "parent_gate_no_new_learner_graph_or_seed_calls": true,
+            "whole_repository_literal_pass_not_repeated": true
+          },
+          "pinned_baseline_files": 21,
+          "historical_archive_snapshot_files": 84,
+          "prior_complete_120000_action_replay_and_720_optima_reused_not_rerun": true,
+          "parent_raw_arrays_CSV_source_data_Git_and_archive_bytes_checked": true,
+          "prior_unsupported_gain_acquisition_and_operational_protection_preserved": true,
+          "original_parent_prefreeze_finalization_gate": {
+            "source_committed_prefreeze_receipts_checked": 4,
+            "retained_initial_commit_ancestry_and_exact_four_finalized_paths_checked": true,
+            "initial_model_and_configuration_source_bytes_unchanged": true,
+            "parent_finalization_precedes_original_registration_and_learning": true
+          },
+          "parent_gate_no_new_learner_graph_or_seed_calls": true,
+          "whole_repository_literal_pass_not_repeated": true
+        },
+        "pinned_baseline_files": 23,
+        "historical_archive_snapshot_files": 56,
+        "parent_saved_accounting_and_original_autonomous_replay_reused_not_rerun": true,
+        "parent_raw_source_data_Git_archive_and_prefreeze_bytes_checked": true,
+        "prior_unsupported_gain_acquisition_and_operational_protection_preserved": true,
+        "parent_gate_no_new_learner_graph_seed_or_optimizer_calls": true,
+        "whole_repository_literal_pass_not_repeated": true
+      },
+      "pinned_baseline_files": 52,
+      "historical_archive_snapshot_files": 62,
+      "parent_saved_factor_accounting_and_original_autonomous_replay_reused_not_rerun": true,
+      "original_factor_prefreeze_failure_and_exception_gate": {
+        "prefreeze_source_committed_receipts_checked": 7,
+        "original_269_unique_tests_and_three_failure_artifacts_checked": true,
+        "raw_failed_xml_whitespace_preserved_without_science_change": true,
+        "parent_prefreeze_and_exception_precede_original_analysis": true
+      },
+      "parent_raw_source_data_Git_archive_and_prefreeze_bytes_checked": true,
+      "prior_unsupported_gain_acquisition_and_operational_protection_preserved": true,
+      "parent_gate_no_new_learner_graph_seed_or_optimizer_calls": true,
+      "whole_repository_literal_pass_not_repeated": true
+    },
+    "pinned_baseline_files": 26,
+    "historical_archive_snapshot_files": 91,
+    "prior_complete_144000_action_replay_and_943_B_states_reused_not_rerun": true,
+    "original_learning_prefreeze_and_development_ZIP_gate": {
+      "source_committed_prefreeze_receipts_checked": 7,
+      "original_342_tests_and_four_failure_archive_paths_checked": true,
+      "prior_ZIP_member_hash_validation_reused_by_raw_bytes": true,
+      "parent_prefreeze_and_failure_preservation_precede_actual_learning": true
+    },
+    "raw_source_graph_input_and_plotted_accounting_Git_archive_bytes_checked": true,
+    "prior_unsupported_gain_acquisition_and_operational_protection_preserved": true,
+    "parent_gate_no_new_learner_graph_seed_or_optimizer_calls": true,
+    "whole_repository_literal_pass_not_repeated": true
+  },
+  "actual_new_saved_factor_aggregation_before_freeze": 0,
+  "new_training_random_graph_or_optimization_calls": 0,
+  "synthetic_fixtures_only_before_freeze": true,
+  "design_audits": [
+    "Recorded 144000 actions and 576000 destination effects, not fresh learning or biological replicates",
+    "Common new-method prefeedback full-observation post and both actual Go only for eight exact sigmoid state/scalar/direction cells",
+    "Actual control-only, blend-only and neither action cases retained, signed and positive/negative masses separately allocated",
+    "Five controls and six topology/representation conditions; conditional equal-seed diagnostics and explicit null empty subsets",
+    "Primary six-method prior post bookkeeping bound by frozen plotted values and original independent presentation receipt",
+    "Unit mixture I/B/W and normalized coefficients independently decoded on paired old-gated/new-blend actual Go only",
+    "A symmetric descriptive allocation, not unique causes, a relearned mixed policy, probability retention guarantee or budget equivalence",
+    "Prior negative gain/acquisition/human evidence and expected operational protection, closed gates and all failure artifacts preserved"
+  ]
+}
