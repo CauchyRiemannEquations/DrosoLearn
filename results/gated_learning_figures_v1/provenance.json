@@ -1,0 +1,18 @@
+{
+  "study_id": "gated_learning_v1",
+  "generated_at_utc": "2026-10-20T00:31:19.569090+00:00",
+  "verified_arrays_only": true,
+  "new_training_trials": 0,
+  "new_parameter_selection": false,
+  "arrays_sha256": "98c5575434a5cf211fe3487640a22174829883dd478df3b9b6ac4d96a316df8e",
+  "summary_sha256": "a076d7d049f2cbb8c63faf093e32820b6bb0071b5cb7aebcc88dd2f0475e952b",
+  "verification_sha256": "f31a9b727d6249ad72ca69c1e48fbb0b2b73e168a90fa2565ec623669dccfd75",
+  "render_script_sha256": "d2df23b44a210e0f6b5468f787ca7b9dd6b6af25f7391b1e1c0f52be4c9db8c1",
+  "plotted_values_sha256": "f7cc21e14620d37884eb4e5c9571e571af3ff831cdbe5f0b1c23b38de927a58d",
+  "figure_sha256": {
+    "gate-switch.png": "4d1c2b7b113a26be48a6c019953cf2190a5325a4efb6a1bda9aeea4794098a92",
+    "learning-curves.png": "9d2643983faae12fa92aa04ed994967a26c2051b5facf1424c40817c1424fb5b",
+    "primary-outcomes.png": "7d3045806020b50e53d8e34716734662ad97683f792fa251cdbd23f1c890a1b6",
+    "unknown-harm.png": "aa9bf0d995d1aaa5be1d4724fd1b8512b0be18e324db074aab6afe5903ea7fc3"
+  }
+}

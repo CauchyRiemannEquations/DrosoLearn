@@ -1,0 +1,78 @@
+{
+  "status": "passed",
+  "study_id": "gated_learning_v1",
+  "checked_at_utc": "2026-10-20T00:36:34.184560+00:00",
+  "independent_read_only_presentation_audit": true,
+  "scientific_producer_imported": false,
+  "additional_scientific_runs": 0,
+  "all30_condition_rows_and_all300_seed_outcomes_checked": true,
+  "primary_five_method_and_ten_switch_rows_checked": true,
+  "all60_isolated_prefixes_through_discovery_literal_bytes_checked": true,
+  "gate_known_before_and_fourth_discovery_isolated_then_next_trial_switch_checked": true,
+  "all150_learning_plot_values_150primary_seed_metrics_2000cumulative_values_checked": true,
+  "H_gain_and_H_acquisition_unsupported_and_H_protection_operational_supported_preserved": true,
+  "operational_near_zero_not_biological_mechanism_or_universal_mathematical_zero": true,
+  "different_cohort_not_used_as_paired_control": true,
+  "actual_movement_and_processing_costs_not_called_equal": true,
+  "initial_finalization_race_history_model_and_config_unchanged_verified": true,
+  "frozen_files_checked_against_current_and_Git": 56,
+  "unique_passed_tests_checked": 242,
+  "test_groups": {
+    "tests.test_gated_learning": 47,
+    "tests.test_gated_envelope": 48,
+    "tests.test_gated_learning_verify": 86,
+    "tests.test_balanced_learning": 61
+  },
+  "renderer_reproduction_all_four_png_and_plotted_JSON_bytes_identical": true,
+  "figure_visual_checks": {
+    "all_four_viewed": true,
+    "labels_and_legends_readable": true,
+    "no_cutoff_or_overlap_observed": true,
+    "accuracy_probability_damage_mass_and_actual_movement_distinguished": true
+  },
+  "figure_dimensions": {
+    "gate-switch.png": [
+      1800,
+      720
+    ],
+    "learning-curves.png": [
+      2100,
+      1200
+    ],
+    "primary-outcomes.png": [
+      2250,
+      750
+    ],
+    "unknown-harm.png": [
+      1350,
+      720
+    ]
+  },
+  "local_document_links_checked": 10,
+  "three_evolving_indexes_PAUSED_and_prior_negative_human_result_checked": true,
+  "document_sha256": {
+    "docs/gated-learning-findings.md": "ec5121ea433fe04818b6794c4abab64f74a6c86053b5a5354c633fe41dc42a2d",
+    "docs/gated-learning-reproduction.md": "49fd320f08b65e4fd423fcd53ad1b7eda771f1a5dc08d1a5023c375874fc2a09"
+  },
+  "additional_file_sha256": {
+    "results/gated_learning_v1/summary.json": "a076d7d049f2cbb8c63faf093e32820b6bb0071b5cb7aebcc88dd2f0475e952b",
+    "results/gated_learning_v1/metadata.json": "0463daed369acaaa307706058e889cc79235c02629f047a9bc82657b5140dd91",
+    "results/gated_learning_v1/verification.json": "f31a9b727d6249ad72ca69c1e48fbb0b2b73e168a90fa2565ec623669dccfd75",
+    "results/registration_gated_learning_v1.json": "fa4791c1c32e3c13b9fbf16184b9e8a5f092647075a8c7b2f32ff389530acce5",
+    "results/gated_learning_publication_proof.json": "d574b14e6a1e9ba31df3499ecc14ec3926a98e148d45a909e434835c1f61fe63",
+    "results/gated_learning_prefreeze_validation.json": "b33edf17b5ffa7b6c6ece8011f8903e1a5fcb3ce3c102c1c2390eef674e99a8a",
+    "results/gated_learning_prefreeze_tests/gated_prefreeze_tests_final.xml": "85a34fb4344b055d44f9bc6c130f7408884fa13d2e2179586b60df6fd5390b39",
+    "results/gated_learning_prefreeze_finalization.json": "f32b26afe9bbbe1b82a0f8941d6d5b60a45816c41471517f977292297fbdf27a",
+    "results/gated_learning_baseline_preservation.json": "15029585591cf2d1a4be6ceb3816a61db22f110c761288ebf1c7d5ee0fbff89f",
+    "results/gated_learning_figures_v1/provenance.json": "58ca3452001a4fd5b022d3f91098c91fd66725931018387cdb486ed3bdf268ba",
+    "results/gated_learning_figures_v1/plotted_values.json": "f7cc21e14620d37884eb4e5c9571e571af3ff831cdbe5f0b1c23b38de927a58d",
+    "scripts/render_gated_learning.py": "d2df23b44a210e0f6b5468f787ca7b9dd6b6af25f7391b1e1c0f52be4c9db8c1",
+    "results/gated_learning_figures_v1/gate-switch.png": "4d1c2b7b113a26be48a6c019953cf2190a5325a4efb6a1bda9aeea4794098a92",
+    "results/gated_learning_figures_v1/learning-curves.png": "9d2643983faae12fa92aa04ed994967a26c2051b5facf1424c40817c1424fb5b",
+    "results/gated_learning_figures_v1/primary-outcomes.png": "7d3045806020b50e53d8e34716734662ad97683f792fa251cdbd23f1c890a1b6",
+    "results/gated_learning_figures_v1/unknown-harm.png": "aa9bf0d995d1aaa5be1d4724fd1b8512b0be18e324db074aab6afe5903ea7fc3",
+    "README.md": "6612a6d6a742d7302908362f4777d99dec57821800eecfb7dc9b20761c552a82",
+    "docs/research-roadmap.md": "79bd535c816b40a448233fbefdae9b79097572fd8c9a0929f4a0acc1077aea9b",
+    "docs/repository-status.json": "f323176d2db86b5efa485326b776c4edd1c60463ac0963009d22f24b43a23001"
+  }
+}
