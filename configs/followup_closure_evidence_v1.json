@@ -1,0 +1,2741 @@
+{
+  "manifest_version": 1,
+  "study_id": "followup_closure_v1",
+  "baseline": {
+    "tag": "objective-pathways-v1",
+    "commit": "beec7eb421b4574231f74ea0b2ede4dbc99e1ecc"
+  },
+  "notice": "Ex-post literals selected from completed known results. No new effect estimates, pooled performance ranking, test-count sum, learning, optimization, biological or human-mechanism claim.",
+  "studies": [
+    {
+      "id": "representation_update_v1",
+      "kind": "actual_learning",
+      "completion_tag": "representation-update-v1",
+      "completion_commit": "440f6b57c6176605db37d9a5397e3f82764a5b29",
+      "source_commit": "6f112178879425f8c91c30daee261e81198e1c73",
+      "registration": "results/registration_representation_update_v1.json",
+      "summary": "results/representation_update_v1/summary.json",
+      "verification": "results/representation_update_v1/verification.json",
+      "archive": "results/representation_update_archive_validation.json",
+      "protocol": "docs/representation-update-protocol.md",
+      "reproduction": "docs/representation-update-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17101,
+          17102,
+          17103,
+          17104,
+          17105,
+          17106,
+          17107,
+          17108,
+          17109,
+          17110
+        ],
+        "training_trials": 400,
+        "parent_learning_result": null
+      },
+      "result_dir": "results/representation_update_v1",
+      "publication_proof": "results/representation_update_publication_proof.json",
+      "artifact_hashes": "results/representation_update_v1/artifact_hashes.json",
+      "metadata": "results/representation_update_v1/metadata.json",
+      "findings": "docs/representation-update-findings.md",
+      "raw_files": [
+        "results/representation_update_v1/registration.json",
+        "results/representation_update_v1/metadata.json",
+        "results/representation_update_v1/arrays.npz",
+        "results/representation_update_v1/measurements.csv",
+        "results/representation_update_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/H_update",
+          "expected": {
+            "supported": true,
+            "mean_effect": 0.36246854976211856,
+            "positive_seeds": 10,
+            "treated_acquisition_pass_seeds": 10,
+            "numeric_update_qualified_all": true,
+            "mean_spillover_squared_reduction": 2.693120842211743
+          }
+        },
+        {
+          "pointer": "/H_representation",
+          "expected": {
+            "supported": false,
+            "mean_effect": 0.04012593982900708,
+            "positive_seeds": 10,
+            "treated_acquisition_pass_seeds": 0,
+            "numeric_update_qualified_all": true,
+            "mean_spillover_squared_reduction": null
+          }
+        }
+      ],
+      "original_new_optimization": false,
+      "preservation_files": []
+    },
+    {
+      "id": "update_budget_v1",
+      "kind": "actual_learning",
+      "completion_tag": "update-budget-v1",
+      "completion_commit": "ae3818576f9e3cdc4adcb26164484ff42186c179",
+      "source_commit": "fc47813f1a18ec762f737a1e035647ff40509646",
+      "registration": "results/registration_update_budget_v1.json",
+      "summary": "results/update_budget_v1/summary.json",
+      "verification": "results/update_budget_v1/verification.json",
+      "archive": "results/update_budget_archive_validation.json",
+      "protocol": "docs/update-budget-protocol.md",
+      "reproduction": "docs/update-budget-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17201,
+          17202,
+          17203,
+          17204,
+          17205,
+          17206,
+          17207,
+          17208,
+          17209,
+          17210
+        ],
+        "training_trials": 400,
+        "parent_learning_result": null
+      },
+      "result_dir": "results/update_budget_v1",
+      "publication_proof": "results/update_budget_publication_proof.json",
+      "artifact_hashes": "results/update_budget_v1/artifact_hashes.json",
+      "metadata": "results/update_budget_v1/metadata.json",
+      "findings": "docs/update-budget-findings.md",
+      "raw_files": [
+        "results/update_budget_v1/registration.json",
+        "results/update_budget_v1/metadata.json",
+        "results/update_budget_v1/arrays.npz",
+        "results/update_budget_v1/measurements.csv",
+        "results/update_budget_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/H_budget",
+          "expected": {
+            "supported": false,
+            "mean_effect": 0.07157582697619291,
+            "positive_seeds": 10,
+            "treated_acquisition_pass_seeds": 0,
+            "numeric_budget_qualified_all": true
+          }
+        }
+      ],
+      "original_new_optimization": false,
+      "preservation_files": []
+    },
+    {
+      "id": "spillover_tradeoff_v1",
+      "kind": "actual_learning",
+      "completion_tag": "spillover-tradeoff-v1",
+      "completion_commit": "a9a60a82f73310c983f64589e631b2b8a9e3a052",
+      "source_commit": "38a53fbd5096e277548e310d980fbc476ad5a383",
+      "registration": "results/registration_spillover_tradeoff_v1.json",
+      "summary": "results/spillover_tradeoff_v1/summary.json",
+      "verification": "results/spillover_tradeoff_v1/verification.json",
+      "archive": "results/spillover_archive_validation.json",
+      "protocol": "docs/spillover-tradeoff-protocol.md",
+      "reproduction": "docs/spillover-tradeoff-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17301,
+          17302,
+          17303,
+          17304,
+          17305,
+          17306,
+          17307,
+          17308,
+          17309,
+          17310
+        ],
+        "training_trials": 400,
+        "parent_learning_result": null
+      },
+      "result_dir": "results/spillover_tradeoff_v1",
+      "publication_proof": "results/spillover_tradeoff_publication_proof.json",
+      "artifact_hashes": "results/spillover_tradeoff_v1/artifact_hashes.json",
+      "metadata": "results/spillover_tradeoff_v1/metadata.json",
+      "findings": "docs/spillover-tradeoff-findings.md",
+      "raw_files": [
+        "results/spillover_tradeoff_v1/registration.json",
+        "results/spillover_tradeoff_v1/metadata.json",
+        "results/spillover_tradeoff_v1/arrays.npz",
+        "results/spillover_tradeoff_v1/measurements.csv",
+        "results/spillover_tradeoff_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/H_tradeoff",
+          "expected": {
+            "supported": false,
+            "primary_alpha": 0.5,
+            "endpoint_comparisons": {
+              "shared": {
+                "mean_effect": 0.04538539950930502,
+                "positive_seeds": 10,
+                "practical_advantage_pass": false
+              },
+              "isolated": {
+                "mean_effect": -0.020735901125033485,
+                "positive_seeds": 0,
+                "practical_advantage_pass": false
+              }
+            },
+            "numeric_spillover_qualified_all": true,
+            "requires_acquisition": false
+          }
+        },
+        {
+          "pointer": "/H_acquisition",
+          "expected": {
+            "supported": false,
+            "primary_alpha": 0.5,
+            "acquisition_pass_seeds": 0,
+            "numeric_spillover_qualified_all": true,
+            "requires_tradeoff_advantage": false
+          }
+        }
+      ],
+      "original_new_optimization": false,
+      "preservation_files": []
+    },
+    {
+      "id": "signed_spillover_v1",
+      "kind": "saved_record_analysis",
+      "completion_tag": "signed-spillover-v1",
+      "completion_commit": "4ee00454500b03e2ccae08ba22f2a6625526be83",
+      "source_commit": "fd2c1ace641621e58f6d20a7c0f2ff48e6f94631",
+      "registration": "results/registration_signed_spillover_v1.json",
+      "summary": "results/signed_spillover_v1/summary.json",
+      "verification": "results/signed_spillover_v1/verification.json",
+      "archive": "results/signed_spillover_archive_validation.json",
+      "protocol": "docs/signed-spillover-protocol.md",
+      "reproduction": "docs/signed-spillover-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17301,
+          17302,
+          17303,
+          17304,
+          17305,
+          17306,
+          17307,
+          17308,
+          17309,
+          17310
+        ],
+        "training_trials": 400,
+        "parent_learning_result": "results/spillover_tradeoff_v1"
+      },
+      "result_dir": "results/signed_spillover_v1",
+      "publication_proof": "results/signed_spillover_publication_proof.json",
+      "artifact_hashes": "results/signed_spillover_v1/artifact_hashes.json",
+      "metadata": "results/signed_spillover_v1/metadata.json",
+      "findings": "docs/signed-spillover-findings.md",
+      "raw_files": [
+        "results/signed_spillover_v1/registration.json",
+        "results/signed_spillover_v1/metadata.json",
+        "results/signed_spillover_v1/arrays.npz",
+        "results/signed_spillover_v1/measurements.csv",
+        "results/signed_spillover_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/validation/all_reconstruction_and_telescoping_checks_passed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/all_mass_balances_passed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/all_classification_counts_complete",
+          "expected": true
+        }
+      ],
+      "original_new_optimization": false,
+      "preservation_files": []
+    },
+    {
+      "id": "selective_spillover_v1",
+      "kind": "actual_learning",
+      "completion_tag": "selective-spillover-v1",
+      "completion_commit": "a19a2abafcdb0db4b1ebdcc4b7629d237d112c55",
+      "source_commit": "7f1f67aa1d2355cd00851cf1f9d7196198cf0c9a",
+      "registration": "results/registration_selective_spillover_v1.json",
+      "summary": "results/selective_spillover_v1/summary.json",
+      "verification": "results/selective_spillover_v1/verification.json",
+      "archive": "results/selective_spillover_archive_validation.json",
+      "protocol": "docs/selective-spillover-protocol.md",
+      "reproduction": "docs/selective-spillover-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17401,
+          17402,
+          17403,
+          17404,
+          17405,
+          17406,
+          17407,
+          17408,
+          17409,
+          17410
+        ],
+        "training_trials": 400,
+        "parent_learning_result": null
+      },
+      "result_dir": "results/selective_spillover_v1",
+      "publication_proof": "results/selective_spillover_publication_proof.json",
+      "artifact_hashes": "results/selective_spillover_v1/artifact_hashes.json",
+      "metadata": "results/selective_spillover_v1/metadata.json",
+      "findings": "docs/selective-spillover-findings.md",
+      "raw_files": [
+        "results/selective_spillover_v1/registration.json",
+        "results/selective_spillover_v1/metadata.json",
+        "results/selective_spillover_v1/arrays.npz",
+        "results/selective_spillover_v1/measurements.csv",
+        "results/selective_spillover_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/H_selective",
+          "expected": {
+            "supported": false,
+            "endpoint_comparisons": {
+              "shared": {
+                "mean_effect": 0.06547113927155898,
+                "positive_seeds": 10,
+                "practical_advantage_pass": true
+              },
+              "isolated": {
+                "mean_effect": 0.0032132092878687348,
+                "positive_seeds": 9,
+                "practical_advantage_pass": false
+              }
+            },
+            "all_numeric_and_information_gates_passed": true,
+            "requires_acquisition": false,
+            "oracle_can_replace_primary": false
+          }
+        },
+        {
+          "pointer": "/H_acquisition",
+          "expected": {
+            "supported": false,
+            "acquisition_pass_seeds": 0,
+            "all_numeric_and_information_gates_passed": true,
+            "requires_selective_advantage": false,
+            "oracle_can_replace_primary": false
+          }
+        }
+      ],
+      "original_new_optimization": false,
+      "preservation_files": []
+    },
+    {
+      "id": "normalization_loss_v1",
+      "kind": "saved_record_analysis",
+      "completion_tag": "normalization-loss-v1",
+      "completion_commit": "f1ada01a904283a1036b4dc77b10fb3882194750",
+      "source_commit": "d9152f2faeb4366ed349a9d23aac8167648def08",
+      "registration": "results/registration_normalization_loss_v1.json",
+      "summary": "results/normalization_loss_v1/summary.json",
+      "verification": "results/normalization_loss_v1/verification.json",
+      "archive": "results/normalization_loss_archive_validation.json",
+      "protocol": "docs/normalization-loss-protocol.md",
+      "reproduction": "docs/normalization-loss-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17401,
+          17402,
+          17403,
+          17404,
+          17405,
+          17406,
+          17407,
+          17408,
+          17409,
+          17410
+        ],
+        "training_trials": 400,
+        "parent_learning_result": "results/selective_spillover_v1"
+      },
+      "result_dir": "results/normalization_loss_v1",
+      "publication_proof": "results/normalization_loss_publication_proof.json",
+      "artifact_hashes": "results/normalization_loss_v1/artifact_hashes.json",
+      "metadata": "results/normalization_loss_v1/metadata.json",
+      "findings": "docs/normalization-loss-findings.md",
+      "raw_files": [
+        "results/normalization_loss_v1/registration.json",
+        "results/normalization_loss_v1/metadata.json",
+        "results/normalization_loss_v1/arrays.npz",
+        "results/normalization_loss_v1/measurements.csv",
+        "results/normalization_loss_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/validation/all_reconstruction_checks_passed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/all_stage_and_partition_balances_passed",
+          "expected": true
+        }
+      ],
+      "original_new_optimization": false,
+      "preservation_files": []
+    },
+    {
+      "id": "cone_frontier_v1",
+      "kind": "saved_record_analysis",
+      "completion_tag": "cone-frontier-v1",
+      "completion_commit": "56e1a31537083825e83d4402cfa9445e7e519b9b",
+      "source_commit": "70e13961dd17d6f5b70d75bace03c398ec1bc363",
+      "registration": "results/registration_cone_frontier_v1.json",
+      "summary": "results/cone_frontier_v1/summary.json",
+      "verification": "results/cone_frontier_v1/verification.json",
+      "archive": "results/cone_frontier_archive_validation.json",
+      "protocol": "docs/cone-frontier-protocol.md",
+      "reproduction": "docs/cone-frontier-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17401,
+          17402,
+          17403,
+          17404,
+          17405,
+          17406,
+          17407,
+          17408,
+          17409,
+          17410
+        ],
+        "training_trials": 400,
+        "parent_learning_result": "results/selective_spillover_v1"
+      },
+      "result_dir": "results/cone_frontier_v1",
+      "publication_proof": "results/cone_frontier_publication_proof.json",
+      "artifact_hashes": "results/cone_frontier_v1/artifact_hashes.json",
+      "metadata": "results/cone_frontier_v1/metadata.json",
+      "findings": "docs/cone-frontier-findings.md",
+      "raw_files": [
+        "results/cone_frontier_v1/registration.json",
+        "results/cone_frontier_v1/metadata.json",
+        "results/cone_frontier_v1/arrays.npz",
+        "results/cone_frontier_v1/measurements.csv",
+        "results/cone_frontier_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/validation/all_unit_caps_passed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/all_observed_and_oracle_constraints_passed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/all_case_certificates_passed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/all_phase_balances_passed",
+          "expected": true
+        }
+      ],
+      "original_new_optimization": true,
+      "preservation_files": []
+    },
+    {
+      "id": "balanced_learning_v1",
+      "kind": "actual_learning",
+      "completion_tag": "balanced-learning-v1",
+      "completion_commit": "b836a780b91d81425e534dad7284485f284799ce",
+      "source_commit": "f23a94725f5e76378e5dcc7a2c36552a309947b5",
+      "registration": "results/registration_balanced_learning_v1.json",
+      "summary": "results/balanced_learning_v1/summary.json",
+      "verification": "results/balanced_learning_v1/verification.json",
+      "archive": "results/balanced_learning_archive_validation.json",
+      "protocol": "docs/balanced-learning-protocol.md",
+      "reproduction": "docs/balanced-learning-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17501,
+          17502,
+          17503,
+          17504,
+          17505,
+          17506,
+          17507,
+          17508,
+          17509,
+          17510
+        ],
+        "training_trials": 400,
+        "parent_learning_result": null
+      },
+      "result_dir": "results/balanced_learning_v1",
+      "publication_proof": "results/balanced_learning_publication_proof.json",
+      "artifact_hashes": "results/balanced_learning_v1/artifact_hashes.json",
+      "metadata": "results/balanced_learning_v1/metadata.json",
+      "findings": "docs/balanced-learning-findings.md",
+      "raw_files": [
+        "results/balanced_learning_v1/registration.json",
+        "results/balanced_learning_v1/metadata.json",
+        "results/balanced_learning_v1/arrays.npz",
+        "results/balanced_learning_v1/measurements.csv",
+        "results/balanced_learning_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/H_gain",
+          "expected": {
+            "supported": false,
+            "endpoint_comparisons": {
+              "feedback_selective": {
+                "mean_effect": 0.0018710252240668468,
+                "positive_seeds": 5,
+                "practical_advantage_pass": false
+              },
+              "isolated": {
+                "mean_effect": 0.006715572422411775,
+                "positive_seeds": 10,
+                "practical_advantage_pass": false
+              }
+            },
+            "all_numeric_and_information_gates_passed": true,
+            "requires_acquisition": false
+          }
+        },
+        {
+          "pointer": "/H_acquisition",
+          "expected": {
+            "supported": false,
+            "acquisition_pass_seeds": 0,
+            "all_numeric_and_information_gates_passed": true,
+            "requires_gain": false
+          }
+        },
+        {
+          "pointer": "/H_unknown",
+          "expected": {
+            "supported": false,
+            "mean_balanced_minus_feedback_damage": 0.011364622409407766,
+            "nonworsening_seeds": 0,
+            "empirical_observed_sample_only": true,
+            "population_equivalence_claimed": false,
+            "fixed_400_trial_total_is_primary": true,
+            "all_numeric_and_information_gates_passed": true
+          }
+        }
+      ],
+      "original_new_optimization": true,
+      "preservation_files": []
+    },
+    {
+      "id": "balanced_pathways_v1",
+      "kind": "saved_record_analysis",
+      "completion_tag": "balanced-pathways-v1",
+      "completion_commit": "f291f1f22e7ce83a0c836924530ca93e9bc12d33",
+      "source_commit": "6c60a36e45bb4f0fff6c48f4c5df766b92489a69",
+      "registration": "results/registration_balanced_pathways_v1.json",
+      "summary": "results/balanced_pathways_v1/summary.json",
+      "verification": "results/balanced_pathways_v1/verification.json",
+      "archive": "results/balanced_pathways_archive_validation.json",
+      "protocol": "docs/balanced-pathways-protocol.md",
+      "reproduction": "docs/balanced-pathways-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17501,
+          17502,
+          17503,
+          17504,
+          17505,
+          17506,
+          17507,
+          17508,
+          17509,
+          17510
+        ],
+        "training_trials": 400,
+        "parent_learning_result": "results/balanced_learning_v1"
+      },
+      "result_dir": "results/balanced_pathways_v1",
+      "publication_proof": "results/balanced_pathways_publication_proof.json",
+      "artifact_hashes": "results/balanced_pathways_v1/artifact_hashes.json",
+      "metadata": "results/balanced_pathways_v1/metadata.json",
+      "findings": "docs/balanced-pathways-findings.md",
+      "raw_files": [
+        "results/balanced_pathways_v1/registration.json",
+        "results/balanced_pathways_v1/metadata.json",
+        "results/balanced_pathways_v1/arrays.npz",
+        "results/balanced_pathways_v1/measurements.csv",
+        "results/balanced_pathways_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/validation/all_exact_accounting_gates_passed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/last_discovery_trial_assigned_to_partial",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/zero_effects_and_roundoff_signs_preserved",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/both_Go_only_bridge_no_NoGo_zero_direction_ambiguity",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/full_known_objectives_compare_same_information_constraints",
+          "expected": true
+        }
+      ],
+      "original_new_optimization": false,
+      "preservation_files": []
+    },
+    {
+      "id": "gated_learning_v1",
+      "kind": "actual_learning",
+      "completion_tag": "gated-learning-v1",
+      "completion_commit": "b89e9f2baf1aed91b4451538c85ba3e9458df53b",
+      "source_commit": "6c3f709263c8fc7bea8ad52efbafca96afc5d188",
+      "registration": "results/registration_gated_learning_v1.json",
+      "summary": "results/gated_learning_v1/summary.json",
+      "verification": "results/gated_learning_v1/verification.json",
+      "archive": "results/gated_learning_archive_validation.json",
+      "protocol": "docs/gated-learning-protocol.md",
+      "reproduction": "docs/gated-learning-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17601,
+          17602,
+          17603,
+          17604,
+          17605,
+          17606,
+          17607,
+          17608,
+          17609,
+          17610
+        ],
+        "training_trials": 400,
+        "parent_learning_result": null
+      },
+      "result_dir": "results/gated_learning_v1",
+      "publication_proof": "results/gated_learning_publication_proof.json",
+      "artifact_hashes": "results/gated_learning_v1/artifact_hashes.json",
+      "metadata": "results/gated_learning_v1/metadata.json",
+      "findings": "docs/gated-learning-findings.md",
+      "raw_files": [
+        "results/gated_learning_v1/registration.json",
+        "results/gated_learning_v1/metadata.json",
+        "results/gated_learning_v1/arrays.npz",
+        "results/gated_learning_v1/measurements.csv",
+        "results/gated_learning_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/H_gain",
+          "expected": {
+            "supported": false,
+            "endpoint_comparisons": {
+              "balanced": {
+                "mean_effect": 0.0018647163414324819,
+                "positive_seeds": 9,
+                "practical_advantage_pass": false
+              },
+              "feedback_selective": {
+                "mean_effect": 0.004603776042436947,
+                "positive_seeds": 10,
+                "practical_advantage_pass": false
+              },
+              "isolated": {
+                "mean_effect": 0.006808307524882362,
+                "positive_seeds": 10,
+                "practical_advantage_pass": false
+              }
+            },
+            "all_numeric_and_information_gates_passed": true,
+            "requires_acquisition": false
+          }
+        },
+        {
+          "pointer": "/H_acquisition",
+          "expected": {
+            "supported": false,
+            "acquisition_pass_seeds": 0,
+            "all_numeric_and_information_gates_passed": true,
+            "requires_gain": false
+          }
+        },
+        {
+          "pointer": "/H_protection",
+          "expected": {
+            "supported": true,
+            "maximum_primary_seed_unknown_damage": 0.0,
+            "absolute_tolerance": 1e-08,
+            "comparisons": {
+              "balanced": {
+                "mean_effect": -0.05108806781749028,
+                "nonworsening_seeds": 10,
+                "all_seeds_nonworsening": true
+              },
+              "feedback_selective": {
+                "mean_effect": -0.038461854820264735,
+                "nonworsening_seeds": 10,
+                "all_seeds_nonworsening": true
+              }
+            },
+            "operational_protection_expected_by_design": true,
+            "novel_learning_mechanism_demonstrated": false,
+            "all_numeric_and_information_gates_passed": true
+          }
+        }
+      ],
+      "original_new_optimization": true,
+      "preservation_files": []
+    },
+    {
+      "id": "gated_pathways_v1",
+      "kind": "saved_record_analysis",
+      "completion_tag": "gated-pathways-v1",
+      "completion_commit": "e74604a67479299825e2ab5572fd3efd8f9970d6",
+      "source_commit": "856963ed7b3699f34d392ffc93a842507319a95a",
+      "registration": "results/registration_gated_pathways_v1.json",
+      "summary": "results/gated_pathways_v1/summary.json",
+      "verification": "results/gated_pathways_v1/verification.json",
+      "archive": "results/gated_pathways_archive_validation.json",
+      "protocol": "docs/gated-pathways-protocol.md",
+      "reproduction": "docs/gated-pathways-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17601,
+          17602,
+          17603,
+          17604,
+          17605,
+          17606,
+          17607,
+          17608,
+          17609,
+          17610
+        ],
+        "training_trials": 400,
+        "parent_learning_result": "results/gated_learning_v1"
+      },
+      "result_dir": "results/gated_pathways_v1",
+      "publication_proof": "results/gated_pathways_publication_proof.json",
+      "artifact_hashes": "results/gated_pathways_v1/artifact_hashes.json",
+      "metadata": "results/gated_pathways_v1/metadata.json",
+      "findings": "docs/gated-pathways-findings.md",
+      "raw_files": [
+        "results/gated_pathways_v1/registration.json",
+        "results/gated_pathways_v1/metadata.json",
+        "results/gated_pathways_v1/arrays.npz",
+        "results/gated_pathways_v1/measurements.csv",
+        "results/gated_pathways_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/validation/all_exact_accounting_gates_passed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/common_reference_phase_uses_prefeedback_memory",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/last_discovery_trial_assigned_to_pre",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/each_method_categories_use_own_observations",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/zero_effects_and_roundoff_signs_preserved",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/no_counterfactual_policy_or_direction_evaluated",
+          "expected": true
+        }
+      ],
+      "original_new_optimization": false,
+      "preservation_files": []
+    },
+    {
+      "id": "gated_factors_v1",
+      "kind": "saved_record_analysis",
+      "completion_tag": "gated-factors-v1",
+      "completion_commit": "d94922361e8a17e156bed0d5c4f240750f75f5ef",
+      "source_commit": "6ee94716af68f22c9feef3b1e3b7085e57b31109",
+      "registration": "results/registration_gated_factors_v1.json",
+      "summary": "results/gated_factors_v1/summary.json",
+      "verification": "results/gated_factors_v1/verification.json",
+      "archive": "results/gated_factors_archive_validation.json",
+      "protocol": "docs/gated-factors-protocol.md",
+      "reproduction": "docs/gated-factors-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17601,
+          17602,
+          17603,
+          17604,
+          17605,
+          17606,
+          17607,
+          17608,
+          17609,
+          17610
+        ],
+        "training_trials": 400,
+        "parent_learning_result": "results/gated_learning_v1"
+      },
+      "result_dir": "results/gated_factors_v1",
+      "publication_proof": "results/gated_factors_publication_proof.json",
+      "artifact_hashes": "results/gated_factors_v1/artifact_hashes.json",
+      "metadata": "results/gated_factors_v1/metadata.json",
+      "findings": "docs/gated-factors-findings.md",
+      "raw_files": [
+        "results/gated_factors_v1/registration.json",
+        "results/gated_factors_v1/metadata.json",
+        "results/gated_factors_v1/arrays.npz",
+        "results/gated_factors_v1/measurements.csv",
+        "results/gated_factors_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/validation/all_exact_accounting_gates_passed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/common_post_uses_prefeedback_memory",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/only_actual_both_Go_crossed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/own_other_partition",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/all_action_cases_retained",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/tiny_signs_preserved",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/same_recorded_fact_corners_match",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/no_future_policy_or_new_training",
+          "expected": true
+        }
+      ],
+      "original_new_optimization": false,
+      "preservation_files": []
+    },
+    {
+      "id": "self_blend_learning_v1",
+      "kind": "actual_learning",
+      "completion_tag": "self-blend-learning-v1",
+      "completion_commit": "0d1a7abaf35e564eb397a52bb9f44a4f1b723907",
+      "source_commit": "7507ba8321b556652d3f2fd33b0b4dc7d3798e6a",
+      "registration": "results/registration_self_blend_learning_v1.json",
+      "summary": "results/self_blend_learning_v1/summary.json",
+      "verification": "results/self_blend_learning_v1/verification.json",
+      "archive": "results/self_blend_archive_validation.json",
+      "protocol": "docs/self-blend-learning-protocol.md",
+      "reproduction": "docs/self-blend-learning-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17701,
+          17702,
+          17703,
+          17704,
+          17705,
+          17706,
+          17707,
+          17708,
+          17709,
+          17710
+        ],
+        "training_trials": 400,
+        "parent_learning_result": null
+      },
+      "result_dir": "results/self_blend_learning_v1",
+      "publication_proof": "results/self_blend_learning_publication_proof.json",
+      "artifact_hashes": "results/self_blend_learning_v1/artifact_hashes.json",
+      "metadata": "results/self_blend_learning_v1/metadata.json",
+      "findings": "docs/self-blend-learning-findings.md",
+      "raw_files": [
+        "results/self_blend_learning_v1/registration.json",
+        "results/self_blend_learning_v1/metadata.json",
+        "results/self_blend_learning_v1/arrays.npz",
+        "results/self_blend_learning_v1/measurements.csv",
+        "results/self_blend_learning_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/H_gain",
+          "expected": {
+            "supported": false,
+            "endpoint_comparisons": {
+              "gated_balanced": {
+                "mean_effect": -0.0043857329099483144,
+                "positive_seeds": 1,
+                "practical_advantage_pass": false
+              },
+              "balanced": {
+                "mean_effect": -0.0026480081884590057,
+                "positive_seeds": 3,
+                "practical_advantage_pass": false
+              },
+              "isolated": {
+                "mean_effect": 0.0029544817620496765,
+                "positive_seeds": 10,
+                "practical_advantage_pass": false
+              }
+            },
+            "all_numeric_and_information_gates_passed": true,
+            "requires_acquisition": false
+          }
+        },
+        {
+          "pointer": "/H_acquisition",
+          "expected": {
+            "supported": false,
+            "acquisition_pass_seeds": 0,
+            "all_numeric_and_information_gates_passed": true,
+            "requires_gain": false
+          }
+        },
+        {
+          "pointer": "/H_protection",
+          "expected": {
+            "supported": true,
+            "maximum_primary_seed_unknown_damage": 0.0,
+            "absolute_tolerance": 1e-08,
+            "comparisons": {
+              "gated_balanced": {
+                "mean_effect": 0.0,
+                "nonworsening_seeds": 10,
+                "all_seeds_nonworsening": true
+              },
+              "isolated": {
+                "mean_effect": 0.0,
+                "nonworsening_seeds": 10,
+                "all_seeds_nonworsening": true
+              }
+            },
+            "operational_protection_expected_by_design": true,
+            "novel_learning_mechanism_demonstrated": false,
+            "all_numeric_and_information_gates_passed": true
+          }
+        }
+      ],
+      "original_new_optimization": true,
+      "preservation_files": []
+    },
+    {
+      "id": "self_blend_factors_v1",
+      "kind": "saved_record_analysis",
+      "completion_tag": "self-blend-factors-v1",
+      "completion_commit": "2715f1eada36207ce77709f08874688b1425d676",
+      "source_commit": "a050fda72e31683961872c8d6c2c7d197d4face3",
+      "registration": "results/registration_self_blend_factors_v1.json",
+      "summary": "results/self_blend_factors_v1/summary.json",
+      "verification": "results/self_blend_factors_v1/verification.json",
+      "archive": "results/self_blend_factors_archive_validation.json",
+      "protocol": "docs/self-blend-factors-protocol.md",
+      "reproduction": "docs/self-blend-factors-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17701,
+          17702,
+          17703,
+          17704,
+          17705,
+          17706,
+          17707,
+          17708,
+          17709,
+          17710
+        ],
+        "training_trials": 400,
+        "parent_learning_result": "results/self_blend_learning_v1"
+      },
+      "result_dir": "results/self_blend_factors_v1",
+      "publication_proof": "results/self_blend_factors_publication_proof.json",
+      "artifact_hashes": "results/self_blend_factors_v1/artifact_hashes.json",
+      "metadata": "results/self_blend_factors_v1/metadata.json",
+      "findings": "docs/self-blend-factors-findings.md",
+      "raw_files": [
+        "results/self_blend_factors_v1/registration.json",
+        "results/self_blend_factors_v1/metadata.json",
+        "results/self_blend_factors_v1/arrays.npz",
+        "results/self_blend_factors_v1/measurements.csv",
+        "results/self_blend_factors_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/validation/all_exact_accounting_gates_passed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/common_post_uses_prefeedback_memory",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/only_actual_both_Go_crossed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/own_other_partition",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/all_action_cases_retained",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/tiny_signs_preserved",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/same_recorded_fact_corners_match",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/no_future_policy_or_new_training",
+          "expected": true
+        }
+      ],
+      "original_new_optimization": false,
+      "preservation_files": []
+    },
+    {
+      "id": "probability_alignment_v1",
+      "kind": "saved_record_analysis",
+      "completion_tag": "probability-alignment-v1",
+      "completion_commit": "9159aa764d44183c21468974ba3b0f208d676731",
+      "source_commit": "104d4a2038ae33cea0ae774d896380353af8b7dc",
+      "registration": "results/registration_probability_alignment_v1.json",
+      "summary": "results/probability_alignment_v1/summary.json",
+      "verification": "results/probability_alignment_v1/verification.json",
+      "archive": "results/probability_alignment_archive_validation.json",
+      "protocol": "docs/probability-alignment-protocol.md",
+      "reproduction": "docs/probability-alignment-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17701,
+          17702,
+          17703,
+          17704,
+          17705,
+          17706,
+          17707,
+          17708,
+          17709,
+          17710
+        ],
+        "training_trials": 400,
+        "parent_learning_result": "results/self_blend_learning_v1"
+      },
+      "result_dir": "results/probability_alignment_v1",
+      "publication_proof": "results/probability_alignment_publication_proof.json",
+      "artifact_hashes": "results/probability_alignment_v1/artifact_hashes.json",
+      "metadata": "results/probability_alignment_v1/metadata.json",
+      "findings": "docs/probability-alignment-findings.md",
+      "raw_files": [
+        "results/probability_alignment_v1/registration.json",
+        "results/probability_alignment_v1/metadata.json",
+        "results/probability_alignment_v1/arrays.npz",
+        "results/probability_alignment_v1/measurements.csv",
+        "results/probability_alignment_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/validation/all_numeric_information_and_support_checks_passed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/new_objectives_use_own_observed_signs_only",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/same_factual_state_action_reward_and_scalar",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/all_eligible_logits_strictly_inside_clipping_domain",
+          "expected": true
+        }
+      ],
+      "original_new_optimization": true,
+      "preservation_files": []
+    },
+    {
+      "id": "objective_learning_v1",
+      "kind": "actual_learning",
+      "completion_tag": "objective-learning-v1",
+      "completion_commit": "b96a6c9d88a9f83cbe4e093272eea0ca77f245fe",
+      "source_commit": "adeed238058cfb9fb9d2e186846d310bf1f0c296",
+      "registration": "results/registration_objective_learning_v1.json",
+      "summary": "results/objective_learning_v1/summary.json",
+      "verification": "results/objective_learning_v1/verification.json",
+      "archive": "results/objective_learning_archive_validation.json",
+      "protocol": "docs/objective-learning-protocol.md",
+      "reproduction": "docs/objective-learning-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17801,
+          17802,
+          17803,
+          17804,
+          17805,
+          17806,
+          17807,
+          17808,
+          17809,
+          17810
+        ],
+        "training_trials": 400,
+        "parent_learning_result": null
+      },
+      "result_dir": "results/objective_learning_v1",
+      "publication_proof": "results/objective_learning_publication_proof.json",
+      "artifact_hashes": "results/objective_learning_v1/artifact_hashes.json",
+      "metadata": "results/objective_learning_v1/metadata.json",
+      "findings": "docs/objective-learning-findings.md",
+      "raw_files": [
+        "results/objective_learning_v1/registration.json",
+        "results/objective_learning_v1/metadata.json",
+        "results/objective_learning_v1/arrays.npz",
+        "results/objective_learning_v1/measurements.csv.gz",
+        "results/objective_learning_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/H_gain",
+          "expected": {
+            "gated_uniform": {
+              "supported": false,
+              "endpoint_comparisons": {
+                "gated_balanced": {
+                  "mean_effect": -0.0018705134196065677,
+                  "positive_seeds": 2,
+                  "practical_advantage_pass": false
+                },
+                "isolated": {
+                  "mean_effect": 0.006338476769223856,
+                  "positive_seeds": 10,
+                  "practical_advantage_pass": false
+                },
+                "gated_self_blend": {
+                  "mean_effect": 0.0026083562276982275,
+                  "positive_seeds": 9,
+                  "practical_advantage_pass": false
+                }
+              },
+              "all_numeric_and_information_gates_passed": true,
+              "requires_acquisition": false
+            },
+            "gated_probability": {
+              "supported": false,
+              "endpoint_comparisons": {
+                "gated_balanced": {
+                  "mean_effect": 0.0006817172395877757,
+                  "positive_seeds": 8,
+                  "practical_advantage_pass": false
+                },
+                "isolated": {
+                  "mean_effect": 0.008890707428418198,
+                  "positive_seeds": 10,
+                  "practical_advantage_pass": false
+                },
+                "gated_self_blend": {
+                  "mean_effect": 0.005160586886892571,
+                  "positive_seeds": 10,
+                  "practical_advantage_pass": false
+                }
+              },
+              "all_numeric_and_information_gates_passed": true,
+              "requires_acquisition": false
+            }
+          }
+        },
+        {
+          "pointer": "/H_acquisition",
+          "expected": {
+            "gated_uniform": {
+              "supported": false,
+              "acquisition_pass_seeds": 0,
+              "all_numeric_and_information_gates_passed": true,
+              "requires_gain": false
+            },
+            "gated_probability": {
+              "supported": false,
+              "acquisition_pass_seeds": 0,
+              "all_numeric_and_information_gates_passed": true,
+              "requires_gain": false
+            }
+          }
+        },
+        {
+          "pointer": "/H_protection",
+          "expected": {
+            "gated_uniform": {
+              "supported": true,
+              "maximum_primary_seed_unknown_damage": 0.0,
+              "absolute_tolerance": 1e-08,
+              "comparisons": {
+                "gated_balanced": {
+                  "mean_effect": 0.0,
+                  "nonworsening_seeds": 10,
+                  "all_seeds_nonworsening": true
+                },
+                "isolated": {
+                  "mean_effect": 0.0,
+                  "nonworsening_seeds": 10,
+                  "all_seeds_nonworsening": true
+                }
+              },
+              "operational_protection_expected_by_design": true,
+              "novel_learning_mechanism_demonstrated": false,
+              "all_numeric_and_information_gates_passed": true
+            },
+            "gated_probability": {
+              "supported": true,
+              "maximum_primary_seed_unknown_damage": 0.0,
+              "absolute_tolerance": 1e-08,
+              "comparisons": {
+                "gated_balanced": {
+                  "mean_effect": 0.0,
+                  "nonworsening_seeds": 10,
+                  "all_seeds_nonworsening": true
+                },
+                "isolated": {
+                  "mean_effect": 0.0,
+                  "nonworsening_seeds": 10,
+                  "all_seeds_nonworsening": true
+                }
+              },
+              "operational_protection_expected_by_design": true,
+              "novel_learning_mechanism_demonstrated": false,
+              "all_numeric_and_information_gates_passed": true
+            }
+          }
+        },
+        {
+          "pointer": "/H_state",
+          "expected": {
+            "supported": false,
+            "comparison": "gated_probability_minus_gated_uniform",
+            "mean_effect": 0.002552230659194343,
+            "positive_seeds": 10,
+            "all_numeric_and_information_gates_passed": true,
+            "requires_acquisition": false
+          }
+        }
+      ],
+      "original_new_optimization": true,
+      "preservation_files": []
+    },
+    {
+      "id": "objective_pathways_v1",
+      "kind": "saved_record_analysis",
+      "completion_tag": "objective-pathways-v1",
+      "completion_commit": "beec7eb421b4574231f74ea0b2ede4dbc99e1ecc",
+      "source_commit": "3783491b82f61f1d956756b356e09cbae1dcbd58",
+      "registration": "results/registration_objective_pathways_v1.json",
+      "summary": "results/objective_pathways_v1/summary.json",
+      "verification": "results/objective_pathways_v1/verification.json",
+      "archive": "results/objective_pathways_archive_validation.json",
+      "protocol": "docs/objective-pathways-protocol.md",
+      "reproduction": "docs/objective-pathways-reproduction.md",
+      "cohort": {
+        "model_seeds": [
+          17801,
+          17802,
+          17803,
+          17804,
+          17805,
+          17806,
+          17807,
+          17808,
+          17809,
+          17810
+        ],
+        "training_trials": 400,
+        "parent_learning_result": "results/objective_learning_v1"
+      },
+      "result_dir": "results/objective_pathways_v1",
+      "publication_proof": "results/objective_pathways_publication_proof.json",
+      "artifact_hashes": "results/objective_pathways_v1/artifact_hashes.json",
+      "metadata": "results/objective_pathways_v1/metadata.json",
+      "findings": "docs/objective-pathways-findings.md",
+      "raw_files": [
+        "results/objective_pathways_v1/registration.json",
+        "results/objective_pathways_v1/metadata.json",
+        "results/objective_pathways_v1/arrays.npz",
+        "results/objective_pathways_v1/measurements.csv",
+        "results/objective_pathways_v1/summary.json"
+      ],
+      "hypothesis_observations": [
+        {
+          "pointer": "/validation/all_exact_accounting_gates_passed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/same_prefeedback_full_gate_and_prefix_checked",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/only_actual_both_Go_crossed",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/one_sided_actual_choices_retained",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/recorded_common_uniform_and_own_probabilities_checked",
+          "expected": true
+        },
+        {
+          "pointer": "/validation/both_Go_rewards_identical_and_scalar_difference_from_probability",
+          "expected": true
+        }
+      ],
+      "original_new_optimization": false,
+      "preservation_files": [
+        "results/objective_pathways_presentation_attempt01.json",
+        "results/objective_pathways_presentation_attempt01.zip",
+        "results/objective_pathways_presentation_consumer_attempt01.json",
+        "results/objective_pathways_presentation_consumer_attempt01.zip",
+        "results/objective_pathways_finalization_style_attempt01.json",
+        "results/objective_pathways_finalization_style_attempt01.zip"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "update_separation_with_extra_movement",
+      "question": 2,
+      "verdict": "supported",
+      "level": 2,
+      "statement": "원 입력에서 다른 연습 입력으로의 출력 갱신을 계산적으로 분리한 조건은 원 공유 조건보다 높았고 사전 습득을 통과했다.",
+      "limit": "자기 점수 수정 폭을 맞춘 투영이며 더 큰 전체 가중치 이동과 추가 고정 계산을 썼다. 네 연습 문자열의 결과이고 생물학적 내부 가소성·일반화의 증거가 아니다.",
+      "evidence": [
+        {
+          "file": "results/representation_update_v1/summary.json",
+          "pointer": "/H_update",
+          "expected": {
+            "supported": true,
+            "mean_effect": 0.36246854976211856,
+            "positive_seeds": 10,
+            "treated_acquisition_pass_seeds": 10,
+            "numeric_update_qualified_all": true,
+            "mean_spillover_squared_reduction": 2.693120842211743
+          }
+        },
+        {
+          "file": "results/representation_update_v1/summary.json",
+          "pointer": "/families/0/mean_final_expected_accuracy",
+          "expected": 0.5028849410756661
+        },
+        {
+          "file": "results/representation_update_v1/summary.json",
+          "pointer": "/families/1/mean_final_expected_accuracy",
+          "expected": 0.8653534908377847
+        },
+        {
+          "file": "results/representation_update_v1/summary.json",
+          "pointer": "/families/1/acquisition_pass_seeds",
+          "expected": 10
+        }
+      ]
+    },
+    {
+      "id": "identity_label_alone",
+      "question": 1,
+      "verdict": "not_supported",
+      "level": 2,
+      "statement": "입력 이름표를 공급하는 것만으로 사전 학습 개선·습득 기준을 충족하지 못했다.",
+      "limit": "이름표는 공급된 암기 표현이며 모든 표현의 효과 부재를 입증하지 않는다.",
+      "evidence": [
+        {
+          "file": "results/representation_update_v1/summary.json",
+          "pointer": "/H_representation",
+          "expected": {
+            "supported": false,
+            "mean_effect": 0.04012593982900708,
+            "positive_seeds": 10,
+            "treated_acquisition_pass_seeds": 0,
+            "numeric_update_qualified_all": true,
+            "mean_spillover_squared_reduction": null
+          }
+        },
+        {
+          "file": "results/representation_update_v1/summary.json",
+          "pointer": "/families/2/mean_final_expected_accuracy",
+          "expected": 0.5430108809046732
+        },
+        {
+          "file": "results/representation_update_v1/summary.json",
+          "pointer": "/families/2/acquisition_pass_seeds",
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "id": "same_movement_budget",
+      "question": 2,
+      "verdict": "not_supported",
+      "level": 2,
+      "statement": "같은 시행당 출력 이동량 상한의 제한 투영은 충분한 습득 기준에 도달하지 못했다.",
+      "limit": "더 큰 이동을 허용한 성공과 같은 자원이라고 읽지 않는다. 같은 상한과 실제 총 이동량 동일성은 다르다.",
+      "evidence": [
+        {
+          "file": "results/update_budget_v1/summary.json",
+          "pointer": "/H_budget",
+          "expected": {
+            "supported": false,
+            "mean_effect": 0.07157582697619291,
+            "positive_seeds": 10,
+            "treated_acquisition_pass_seeds": 0,
+            "numeric_budget_qualified_all": true
+          }
+        },
+        {
+          "file": "results/update_budget_v1/summary.json",
+          "pointer": "/families/1/mean_final_expected_accuracy",
+          "expected": 0.8646438246707712
+        },
+        {
+          "file": "results/update_budget_v1/summary.json",
+          "pointer": "/families/1/acquisition_pass_seeds",
+          "expected": 10
+        },
+        {
+          "file": "results/update_budget_v1/summary.json",
+          "pointer": "/families/2/mean_final_expected_accuracy",
+          "expected": 0.5746739616923948
+        },
+        {
+          "file": "results/update_budget_v1/summary.json",
+          "pointer": "/families/2/acquisition_pass_seeds",
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "id": "partial_spillover_tradeoff",
+      "question": 2,
+      "verdict": "not_supported",
+      "level": 2,
+      "statement": "사전 가운데 절충은 두 끝점보다 실용적으로 우수하다는 기준과 충분한 습득 기준을 통과하지 못했다.",
+      "limit": "고정 비율·새 코호트의 결과다. 성공 비율이나 시드를 사후 탐색하지 않았다.",
+      "evidence": [
+        {
+          "file": "results/spillover_tradeoff_v1/summary.json",
+          "pointer": "/H_tradeoff",
+          "expected": {
+            "supported": false,
+            "primary_alpha": 0.5,
+            "endpoint_comparisons": {
+              "shared": {
+                "mean_effect": 0.04538539950930502,
+                "positive_seeds": 10,
+                "practical_advantage_pass": false
+              },
+              "isolated": {
+                "mean_effect": -0.020735901125033485,
+                "positive_seeds": 0,
+                "practical_advantage_pass": false
+              }
+            },
+            "numeric_spillover_qualified_all": true,
+            "requires_acquisition": false
+          }
+        },
+        {
+          "file": "results/spillover_tradeoff_v1/summary.json",
+          "pointer": "/H_acquisition",
+          "expected": {
+            "supported": false,
+            "primary_alpha": 0.5,
+            "acquisition_pass_seeds": 0,
+            "numeric_spillover_qualified_all": true,
+            "requires_tradeoff_advantage": false
+          }
+        },
+        {
+          "file": "results/spillover_tradeoff_v1/summary.json",
+          "pointer": "/families/2/mean_final_expected_accuracy",
+          "expected": 0.5484518720705218
+        }
+      ]
+    },
+    {
+      "id": "signed_spillover_accounting",
+      "question": 2,
+      "verdict": "descriptive",
+      "level": 0,
+      "statement": "저장된 변화에서 자기 수정·같은 정답 입력 도움·반대 정답 입력 방해를 따로 기록하고 최종 변화와 대조했다.",
+      "limit": "정확한 누적 장부이며 어느 갱신을 없앤 새 학습 성적이나 유일한 인과 원인이 아니다.",
+      "evidence": [
+        {
+          "file": "results/signed_spillover_v1/summary.json",
+          "pointer": "/validation",
+          "expected": {
+            "residual_axis": [
+              "static_M",
+              "trial_g",
+              "trial_p",
+              "trial_own_score",
+              "trial_other_score_l2",
+              "trial_head_step_l2",
+              "checkpoint_head",
+              "checkpoint_logits",
+              "checkpoint_probabilities",
+              "margin_telescoping",
+              "probability_telescoping"
+            ],
+            "max_residual_by_axis": [
+              0.0,
+              0.0,
+              7.771561172376096e-16,
+              2.92300905702092e-16,
+              4.13048032649571e-16,
+              4.579669976578771e-16,
+              0.0,
+              2.7755575615628914e-15,
+              6.661338147750939e-16,
+              2.7755575615628914e-15,
+              6.661338147750939e-16
+            ],
+            "all_reconstruction_and_telescoping_checks_passed": true,
+            "all_mass_balances_passed": true,
+            "all_classification_counts_complete": true
+          }
+        },
+        {
+          "file": "results/signed_spillover_v1/summary.json",
+          "pointer": "/interpretation",
+          "expected": {
+            "prior_outcomes_known": true,
+            "confirmatory_behavioral_hypothesis": false,
+            "source_labels_used_in_analysis_only": true,
+            "pathwise_accounting_not_isolated_causal_effect": true,
+            "uniform_source_checkpoint_expectation_not_actual_next_schedule": true,
+            "probability_expectation_not_sigmoid_of_expected_margin": true,
+            "neutral_counts_do_not_zero_exact_masses": true,
+            "internal_synapses_fixed_in_parent": true,
+            "generalization_tested": false,
+            "new_human_experiment": false,
+            "shared_neural_mechanism_claim": false,
+            "education_effect_claim": false,
+            "output_cost_optimization_performed": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "observed_selective_suppression",
+      "question": 2,
+      "verdict": "not_supported",
+      "level": 2,
+      "statement": "실제 획득 보상으로 관측된 방해를 선택 억제한 주 조건은 고정 개선·충분한 습득 기준을 통과하지 못했다.",
+      "limit": "평가 정답을 사용하는 oracle와 보상 부호 기억의 정적 조회는 주 출력 선택 성능을 대신하지 않는다.",
+      "evidence": [
+        {
+          "file": "results/selective_spillover_v1/summary.json",
+          "pointer": "/H_selective",
+          "expected": {
+            "supported": false,
+            "endpoint_comparisons": {
+              "shared": {
+                "mean_effect": 0.06547113927155898,
+                "positive_seeds": 10,
+                "practical_advantage_pass": true
+              },
+              "isolated": {
+                "mean_effect": 0.0032132092878687348,
+                "positive_seeds": 9,
+                "practical_advantage_pass": false
+              }
+            },
+            "all_numeric_and_information_gates_passed": true,
+            "requires_acquisition": false,
+            "oracle_can_replace_primary": false
+          }
+        },
+        {
+          "file": "results/selective_spillover_v1/summary.json",
+          "pointer": "/H_acquisition",
+          "expected": {
+            "supported": false,
+            "acquisition_pass_seeds": 0,
+            "all_numeric_and_information_gates_passed": true,
+            "requires_selective_advantage": false,
+            "oracle_can_replace_primary": false
+          }
+        },
+        {
+          "file": "results/selective_spillover_v1/summary.json",
+          "pointer": "/families/3/mean_final_expected_accuracy",
+          "expected": 0.5677692589235284
+        },
+        {
+          "file": "results/selective_spillover_v1/summary.json",
+          "pointer": "/families/3/acquisition_pass_seeds",
+          "expected": 0
+        }
+      ]
+    },
+    {
+      "id": "normalization_weakens_remaining_effects",
+      "question": 2,
+      "verdict": "descriptive",
+      "level": 0,
+      "statement": "방해를 줄인 뒤 이동 길이를 제한하는 정규화가 자기 수정과 남겨 둔 도움의 실제 점수 효과도 약화시킨 장부를 보존한다.",
+      "limit": "같은 실제 계수로 계산한 영향 질량이며 정답률 손실이나 정규화 없는 새 학습의 성적이 아니다.",
+      "evidence": [
+        {
+          "file": "results/normalization_loss_v1/summary.json",
+          "pointer": "/validation",
+          "expected": {
+            "residual_axis": [
+              "gram",
+              "actual_influence",
+              "desired_influence",
+              "scaled_desired",
+              "reciprocal_scale",
+              "own_score",
+              "other_score",
+              "head_step",
+              "scalar",
+              "unit_direction",
+              "checkpoint_logits",
+              "stage_accounting"
+            ],
+            "max_residual_by_axis": [
+              0.0,
+              4.440892098500626e-16,
+              0.0,
+              2.3245294578089215e-15,
+              2.220446049250313e-16,
+              4.0245584642661925e-16,
+              4.387264367034004e-16,
+              5.204170427930421e-16,
+              0.0,
+              2.220446049250313e-16,
+              2.886579864025407e-15,
+              6.938893903907228e-18
+            ],
+            "all_reconstruction_checks_passed": true,
+            "all_stage_and_partition_balances_passed": true
+          }
+        },
+        {
+          "file": "results/normalization_loss_v1/summary.json",
+          "pointer": "/interpretation",
+          "expected": {
+            "prior_outcomes_known": true,
+            "confirmatory_behavioral_hypothesis": false,
+            "saved_scalar_reference_not_counterfactual_policy": true,
+            "score_loss_not_accuracy_loss": true,
+            "phase_is_descriptive_not_causal": true,
+            "true_labels_evaluator_only": true,
+            "unknown_category_overlaps": true,
+            "neutral_counts_do_not_zero_exact_masses": true,
+            "internal_synapses_fixed_in_parent": true,
+            "generalization_tested": false,
+            "new_human_experiment": false,
+            "shared_neural_mechanism_claim": false,
+            "education_effect_claim": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "safe_direction_geometry",
+      "question": 2,
+      "verdict": "descriptive",
+      "level": 0,
+      "statement": "관측 안전 조건과 같은 단위 이동 상한에서 다른 수정 방향의 점수 영향을 비교할 수 있었다.",
+      "limit": "저장 상태 방향 최적화는 실제 학습 성적이나 미래 최종 성적의 전역 최적성을 보장하지 않는다.",
+      "evidence": [
+        {
+          "file": "results/cone_frontier_v1/summary.json",
+          "pointer": "/validation",
+          "expected": {
+            "all_unit_caps_passed": true,
+            "all_observed_and_oracle_constraints_passed": true,
+            "all_case_certificates_passed": true,
+            "all_phase_balances_passed": true,
+            "max_certificate_residual": 1.7055801215803967e-14,
+            "max_step_bound_violation": 1.3877787807814457e-17
+          }
+        },
+        {
+          "file": "results/cone_frontier_v1/summary.json",
+          "pointer": "/interpretation",
+          "expected": {
+            "prior_outcomes_known": true,
+            "confirmatory_behavioral_hypothesis": false,
+            "same_saved_scalar_not_autonomous_policy": true,
+            "no_unknown_signs_in_observed_constraints": true,
+            "oracle_is_full_information_safety_reference": true,
+            "oracle_not_universal_observed_upper_bound": true,
+            "own_optimum_not_joint_improvement_guarantee": true,
+            "balanced_not_complete_Pareto_frontier": true,
+            "score_not_accuracy": true,
+            "unknown_harm_evaluator_only": true,
+            "unit_cap_not_equal_processing_cost": true,
+            "generalization_tested": false,
+            "new_human_experiment": false,
+            "shared_neural_mechanism_claim": false,
+            "education_effect_claim": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "balanced_actual_learning",
+      "question": 2,
+      "verdict": "not_supported",
+      "level": 2,
+      "statement": "균형 방향의 실제 학습은 실용 개선·충분한 습득·미관측 비악화의 세 기준을 충족하지 못했다.",
+      "limit": "주 조건의 작은 양수 평균을 성공으로 바꾸지 않으며 미관측은 보상 미관측 연습 입력이다.",
+      "evidence": [
+        {
+          "file": "results/balanced_learning_v1/summary.json",
+          "pointer": "/H_gain",
+          "expected": {
+            "supported": false,
+            "endpoint_comparisons": {
+              "feedback_selective": {
+                "mean_effect": 0.0018710252240668468,
+                "positive_seeds": 5,
+                "practical_advantage_pass": false
+              },
+              "isolated": {
+                "mean_effect": 0.006715572422411775,
+                "positive_seeds": 10,
+                "practical_advantage_pass": false
+              }
+            },
+            "all_numeric_and_information_gates_passed": true,
+            "requires_acquisition": false
+          }
+        },
+        {
+          "file": "results/balanced_learning_v1/summary.json",
+          "pointer": "/H_acquisition",
+          "expected": {
+            "supported": false,
+            "acquisition_pass_seeds": 0,
+            "all_numeric_and_information_gates_passed": true,
+            "requires_gain": false
+          }
+        },
+        {
+          "file": "results/balanced_learning_v1/summary.json",
+          "pointer": "/H_unknown",
+          "expected": {
+            "supported": false,
+            "mean_balanced_minus_feedback_damage": 0.011364622409407766,
+            "nonworsening_seeds": 0,
+            "empirical_observed_sample_only": true,
+            "population_equivalence_claimed": false,
+            "fixed_400_trial_total_is_primary": true,
+            "all_numeric_and_information_gates_passed": true
+          }
+        },
+        {
+          "file": "results/balanced_learning_v1/summary.json",
+          "pointer": "/families/3/mean_final_expected_accuracy",
+          "expected": 0.5927987701051496
+        }
+      ]
+    },
+    {
+      "id": "balanced_actual_pathways",
+      "question": 2,
+      "verdict": "descriptive",
+      "level": 0,
+      "statement": "균형 방식의 작은 최종 차이를 부분 관측·완전 관측 구간과 실제 선택·수정 효과로 나눈 장부를 보존한다.",
+      "limit": "원 상태 대입과 실제 경로를 구분한다. 새 학습이나 원인의 고유 비율을 주장하지 않는다.",
+      "evidence": [
+        {
+          "file": "results/balanced_pathways_v1/summary.json",
+          "pointer": "/validation",
+          "expected": {
+            "all_exact_accounting_gates_passed": true,
+            "residuals": {
+              "endpoint_telescoping": 7.771561172376096e-16,
+              "per_destination_probability_Shapley": 8.673617379884035e-19,
+              "per_destination_harm_Shapley": 8.673617379884035e-19,
+              "endpoint_phase_category_difference": 8.881784197001252e-16,
+              "endpoint_action_case_difference": 8.81239525796218e-16,
+              "unknown_membership_difference": 0.0,
+              "paired_Go_probability_bridge": 2.7755575615628914e-17,
+              "paired_Go_shared_unknown_harm_bridge": 6.938893903907228e-18
+            },
+            "last_discovery_trial_assigned_to_partial": true,
+            "zero_effects_and_roundoff_signs_preserved": true,
+            "both_Go_only_bridge_no_NoGo_zero_direction_ambiguity": true,
+            "full_known_objectives_compare_same_information_constraints": true
+          }
+        },
+        {
+          "file": "results/balanced_pathways_v1/summary.json",
+          "pointer": "/interpretation",
+          "expected": {
+            "retrospective_descriptive_only": true,
+            "parent_H_gain": false,
+            "parent_H_acquisition": false,
+            "parent_H_unknown": false,
+            "new_confirmatory_hypothesis": false,
+            "exact_path_accounting_not_unique_causal_explanation": true,
+            "crossed_one_step_cells_are_not_relearned_policy": true,
+            "crossed_directions_can_have_different_original_information": true,
+            "unknown_harm_bridge_intersection_mask_fixed_across_cells": true,
+            "same_realized_movement_budget_claimed": false,
+            "internal_synapses_and_probe_activity_fixed": true,
+            "observed_memory_is_separate_from_output_weights": true,
+            "novel_input_generalization_tested": false,
+            "new_human_experiment": false,
+            "shared_neural_mechanism_claim": false,
+            "education_effect_claim": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "early_isolation_gate",
+      "question": 4,
+      "verdict": "not_supported",
+      "level": 2,
+      "statement": "초반에 번짐을 막고 네 보상 부호 확인 뒤 균형 방향을 여는 조건은 충분한 습득·실용 개선을 통과하지 못했다.",
+      "limit": "보호 통과는 부분 관측 동안 다른 입력을 움직이지 않고 완전 관측 뒤 미관측 집합이 사라지는 설계상의 운영 검사다.",
+      "evidence": [
+        {
+          "file": "results/gated_learning_v1/summary.json",
+          "pointer": "/H_gain",
+          "expected": {
+            "supported": false,
+            "endpoint_comparisons": {
+              "balanced": {
+                "mean_effect": 0.0018647163414324819,
+                "positive_seeds": 9,
+                "practical_advantage_pass": false
+              },
+              "feedback_selective": {
+                "mean_effect": 0.004603776042436947,
+                "positive_seeds": 10,
+                "practical_advantage_pass": false
+              },
+              "isolated": {
+                "mean_effect": 0.006808307524882362,
+                "positive_seeds": 10,
+                "practical_advantage_pass": false
+              }
+            },
+            "all_numeric_and_information_gates_passed": true,
+            "requires_acquisition": false
+          }
+        },
+        {
+          "file": "results/gated_learning_v1/summary.json",
+          "pointer": "/H_acquisition",
+          "expected": {
+            "supported": false,
+            "acquisition_pass_seeds": 0,
+            "all_numeric_and_information_gates_passed": true,
+            "requires_gain": false
+          }
+        },
+        {
+          "file": "results/gated_learning_v1/summary.json",
+          "pointer": "/H_protection",
+          "expected": {
+            "supported": true,
+            "maximum_primary_seed_unknown_damage": 0.0,
+            "absolute_tolerance": 1e-08,
+            "comparisons": {
+              "balanced": {
+                "mean_effect": -0.05108806781749028,
+                "nonworsening_seeds": 10,
+                "all_seeds_nonworsening": true
+              },
+              "feedback_selective": {
+                "mean_effect": -0.038461854820264735,
+                "nonworsening_seeds": 10,
+                "all_seeds_nonworsening": true
+              }
+            },
+            "operational_protection_expected_by_design": true,
+            "novel_learning_mechanism_demonstrated": false,
+            "all_numeric_and_information_gates_passed": true
+          }
+        },
+        {
+          "file": "results/gated_learning_v1/summary.json",
+          "pointer": "/families/4/mean_final_expected_accuracy",
+          "expected": 0.5759520190768139
+        }
+      ]
+    },
+    {
+      "id": "gated_actual_pathways",
+      "question": 2,
+      "verdict": "descriptive",
+      "level": 0,
+      "statement": "전환 전 보호와 전환 뒤 자기 수정·도움 변화 및 실제 누적 비용을 따로 기록했다.",
+      "limit": "전환 시점의 공통 구간과 각 방법 자신의 관측·상태·선택을 같다고 가정하지 않는다.",
+      "evidence": [
+        {
+          "file": "results/gated_pathways_v1/summary.json",
+          "pointer": "/validation",
+          "expected": {
+            "all_exact_accounting_gates_passed": true,
+            "residuals": {
+              "endpoint_telescoping": 8.881784197001252e-16,
+              "positive_negative_identity": 3.3306690738754696e-16,
+              "phase_category_partition": 1.5265566588595902e-16,
+              "contrast_endpoint": 9.992007221626409e-16,
+              "phase_cost_path": 1.2434497875801753e-14,
+              "phase_cost_energy": 1.1102230246251565e-15
+            },
+            "common_reference_phase_uses_prefeedback_memory": true,
+            "last_discovery_trial_assigned_to_pre": true,
+            "each_method_categories_use_own_observations": true,
+            "zero_effects_and_roundoff_signs_preserved": true,
+            "no_counterfactual_policy_or_direction_evaluated": true
+          }
+        },
+        {
+          "file": "results/gated_pathways_v1/summary.json",
+          "pointer": "/interpretation",
+          "expected": {
+            "retrospective_descriptive_only": true,
+            "parent_H_gain": false,
+            "parent_H_acquisition": false,
+            "parent_H_protection": true,
+            "new_confirmatory_hypothesis": false,
+            "exact_path_accounting_not_unique_causal_explanation": true,
+            "reference_gate_is_common_time_split_not_all_methods_knowledge": true,
+            "same_realized_movement_budget_claimed": false,
+            "internal_synapses_and_probe_activity_fixed": true,
+            "observed_memory_is_separate_from_output_weights": true,
+            "novel_input_generalization_tested": false,
+            "new_human_experiment": false,
+            "shared_neural_mechanism_claim": false,
+            "education_effect_claim": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "gated_state_size_direction",
+      "question": 2,
+      "verdict": "descriptive",
+      "level": 0,
+      "statement": "양쪽 실제 수정에서 상태·실제 계수·방향의 대칭 배분과 한쪽만 고친 나머지로 후반 차이를 복원했다.",
+      "limit": "혼합 단일 수정 셀은 재학습한 정책이나 유일한 인과 개입이 아니다.",
+      "evidence": [
+        {
+          "file": "results/gated_factors_v1/summary.json",
+          "pointer": "/validation",
+          "expected": {
+            "all_exact_accounting_gates_passed": true,
+            "residuals": {
+              "factual_parent_effects": 1.7468665403086447e-15,
+              "post_group_endpoint_reconstruction": 0.0,
+              "shapley_signed_efficiency": 3.469446951953614e-18,
+              "shapley_positive_efficiency": 3.469446951953614e-18,
+              "shapley_negative_efficiency": 3.469446951953614e-18,
+              "positive_negative_allocation_identity": 3.469446951953614e-18,
+              "post_component_reconstruction": 4.440892098500626e-16,
+              "zero_padded_ineligible": 0.0
+            },
+            "common_post_uses_prefeedback_memory": true,
+            "only_actual_both_Go_crossed": true,
+            "own_other_partition": true,
+            "all_action_cases_retained": true,
+            "tiny_signs_preserved": true,
+            "same_recorded_fact_corners_match": true,
+            "no_future_policy_or_new_training": true
+          }
+        },
+        {
+          "file": "results/gated_factors_v1/summary.json",
+          "pointer": "/families/0/means/component_endpoint_contributions",
+          "expected": [
+            [
+              -0.0005710834171478485,
+              -0.00019985568059563793,
+              -0.028731463208552847,
+              -0.0019296237687163528,
+              0.000821282206873035,
+              0.0
+            ],
+            [
+              -0.0003373077970431497,
+              7.332511909304471e-06,
+              0.03695754715147366,
+              0.0,
+              0.0007914795266821719,
+              0.0
+            ]
+          ]
+        },
+        {
+          "file": "results/gated_factors_v1/summary.json",
+          "pointer": "/interpretation",
+          "expected": {
+            "retrospective_descriptive_only": true,
+            "parent_H_gain": false,
+            "parent_H_acquisition": false,
+            "parent_H_protection": true,
+            "new_confirmatory_hypothesis": false,
+            "accounting_allocation_not_unique_causal_explanation": true,
+            "mixed_one_step_cells_not_relearned_policy": true,
+            "unpaired_actions_not_assigned_to_zero_direction": true,
+            "same_realized_movement_budget_claimed": false,
+            "internal_synapses_and_probe_activity_fixed": true,
+            "observed_memory_is_separate_from_output_weights": true,
+            "novel_input_generalization_tested": false,
+            "new_human_experiment": false,
+            "shared_neural_mechanism_claim": false,
+            "education_effect_claim": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "self_priority_actual_learning",
+      "question": 2,
+      "verdict": "not_supported",
+      "level": 2,
+      "statement": "자기 수정을 우선하는 고정 혼합은 기존 전환 균형보다 주 평균이 낮았고 개선·충분한 습득은 미지지였다.",
+      "limit": "같은 새 코호트 내 비교이며 다른 실험 코호트와 성적 순위를 합치지 않는다. 보호는 설계상 운영 검사다.",
+      "evidence": [
+        {
+          "file": "results/self_blend_learning_v1/summary.json",
+          "pointer": "/H_gain",
+          "expected": {
+            "supported": false,
+            "endpoint_comparisons": {
+              "gated_balanced": {
+                "mean_effect": -0.0043857329099483144,
+                "positive_seeds": 1,
+                "practical_advantage_pass": false
+              },
+              "balanced": {
+                "mean_effect": -0.0026480081884590057,
+                "positive_seeds": 3,
+                "practical_advantage_pass": false
+              },
+              "isolated": {
+                "mean_effect": 0.0029544817620496765,
+                "positive_seeds": 10,
+                "practical_advantage_pass": false
+              }
+            },
+            "all_numeric_and_information_gates_passed": true,
+            "requires_acquisition": false
+          }
+        },
+        {
+          "file": "results/self_blend_learning_v1/summary.json",
+          "pointer": "/H_acquisition",
+          "expected": {
+            "supported": false,
+            "acquisition_pass_seeds": 0,
+            "all_numeric_and_information_gates_passed": true,
+            "requires_gain": false
+          }
+        },
+        {
+          "file": "results/self_blend_learning_v1/summary.json",
+          "pointer": "/H_protection",
+          "expected": {
+            "supported": true,
+            "maximum_primary_seed_unknown_damage": 0.0,
+            "absolute_tolerance": 1e-08,
+            "comparisons": {
+              "gated_balanced": {
+                "mean_effect": 0.0,
+                "nonworsening_seeds": 10,
+                "all_seeds_nonworsening": true
+              },
+              "isolated": {
+                "mean_effect": 0.0,
+                "nonworsening_seeds": 10,
+                "all_seeds_nonworsening": true
+              }
+            },
+            "operational_protection_expected_by_design": true,
+            "novel_learning_mechanism_demonstrated": false,
+            "all_numeric_and_information_gates_passed": true
+          }
+        },
+        {
+          "file": "results/self_blend_learning_v1/summary.json",
+          "pointer": "/families/4/mean_final_expected_accuracy",
+          "expected": 0.5768724084106928
+        },
+        {
+          "file": "results/self_blend_learning_v1/summary.json",
+          "pointer": "/families/5/mean_final_expected_accuracy",
+          "expected": 0.5724866755007445
+        }
+      ]
+    },
+    {
+      "id": "self_priority_help_loss",
+      "question": 2,
+      "verdict": "descriptive",
+      "level": 0,
+      "statement": "자기 수정 회복과 다른 문제 도움 감소를 실제 크기·상태·방향 및 정규화된 혼합 재료로 나누어 보존했다.",
+      "limit": "정답률 보존 비율·새 학습 성적·고유한 원인 비율이 아니다.",
+      "evidence": [
+        {
+          "file": "results/self_blend_factors_v1/summary.json",
+          "pointer": "/validation",
+          "expected": {
+            "all_exact_accounting_gates_passed": true,
+            "residuals": {
+              "prior_primary_post_bookkeeping": 9.298117831235686e-16,
+              "saved_unit_mixture_geometry": 1.9392994997399807e-15,
+              "factual_parent_effects": 1.7925814179770492e-15,
+              "post_group_endpoint_reconstruction": 1.3183898417423734e-15,
+              "shapley_signed_efficiency": 3.469446951953614e-18,
+              "shapley_positive_efficiency": 3.469446951953614e-18,
+              "shapley_negative_efficiency": 3.469446951953614e-18,
+              "positive_negative_allocation_identity": 3.469446951953614e-18,
+              "post_component_reconstruction": 4.440892098500626e-16,
+              "zero_padded_ineligible": 0.0
+            },
+            "common_post_uses_prefeedback_memory": true,
+            "only_actual_both_Go_crossed": true,
+            "own_other_partition": true,
+            "all_action_cases_retained": true,
+            "tiny_signs_preserved": true,
+            "same_recorded_fact_corners_match": true,
+            "no_future_policy_or_new_training": true
+          }
+        },
+        {
+          "file": "results/self_blend_factors_v1/summary.json",
+          "pointer": "/families/0/means/component_endpoint_contributions",
+          "expected": [
+            [
+              0.00040985025249831025,
+              0.0001661279572841186,
+              0.02261946445381665,
+              -0.0006950449131485709,
+              0.0012407292196135635,
+              0.0
+            ],
+            [
+              0.00029761352156798375,
+              1.606739864701059e-06,
+              -0.027631946366678317,
+              -0.0009255335065022033,
+              0.0001313997317352114,
+              0.0
+            ]
+          ]
+        },
+        {
+          "file": "results/self_blend_factors_v1/summary.json",
+          "pointer": "/interpretation",
+          "expected": {
+            "retrospective_descriptive_only": true,
+            "parent_H_gain": false,
+            "parent_H_acquisition": false,
+            "parent_H_protection": true,
+            "new_confirmatory_hypothesis": false,
+            "accounting_allocation_not_unique_causal_explanation": true,
+            "mixed_one_step_cells_not_relearned_policy": true,
+            "unpaired_actions_not_assigned_to_zero_direction": true,
+            "same_realized_movement_budget_claimed": false,
+            "internal_synapses_and_probe_activity_fixed": true,
+            "observed_memory_is_separate_from_output_weights": true,
+            "novel_input_generalization_tested": false,
+            "new_human_experiment": false,
+            "shared_neural_mechanism_claim": false,
+            "education_effect_claim": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "fixed_state_probability_alignment",
+      "question": 2,
+      "verdict": "descriptive",
+      "level": 0,
+      "statement": "전체 목적 U와 현재 확률 목적 P는 동일한 저장 상태의 단일 수정에서 작은 차이를 보였다.",
+      "limit": "당시 새 방향 최적화가 있었지만 새로운 학습 경로는 0회다. 고정 상태의 이득을 미래 최종 성적에 더하지 않는다.",
+      "evidence": [
+        {
+          "file": "results/probability_alignment_v1/summary.json",
+          "pointer": "/finite_alignment_summary",
+          "expected": {
+            "mean_exact_P_minus_U_per_update": 3.8933151170545127e-07,
+            "positive_seed_means": 9,
+            "pooled_positive_trials": 1548,
+            "pooled_negative_trials": 72,
+            "pooled_zero_trials": 345,
+            "pooled_negative_beyond_tolerance_trials": 0,
+            "worst_Q_difference": -1.4814359461379212e-10,
+            "new_learned_performance_claim": false
+          }
+        },
+        {
+          "file": "results/probability_alignment_v1/summary.json",
+          "pointer": "/counts/new_optimization_calls",
+          "expected": 11949
+        },
+        {
+          "file": "results/probability_alignment_v1/summary.json",
+          "pointer": "/counts/new_training_trials",
+          "expected": 0
+        },
+        {
+          "file": "results/probability_alignment_v1/summary.json",
+          "pointer": "/interpretation",
+          "expected": {
+            "retrospective_descriptive_only": true,
+            "new_confirmatory_hypothesis": false,
+            "tangent_global_maximum_is_expected_integrity_property": true,
+            "finite_probability_global_optimum_claimed": false,
+            "summed_fixed_state_gains_predict_new_trajectory": false,
+            "actual_future_policy_relearned": false,
+            "state_weighting_effect_separated_from_uniform_objective_control": true,
+            "processing_cost_equalized": false,
+            "parent_H_gain": false,
+            "parent_H_acquisition": false,
+            "parent_H_protection": true,
+            "novel_input_generalization_tested": false,
+            "new_human_experiment": false,
+            "shared_neural_mechanism_claim": false,
+            "education_effect_claim": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "uniform_probability_actual_learning",
+      "question": 2,
+      "verdict": "not_supported",
+      "level": 2,
+      "statement": "U/P를 각자의 실제 현재 상태·선택·보상 경로에 적용했지만 실용 개선·충분한 습득·P의 실용 추가효과는 미지지였다.",
+      "limit": "작은 수치 차이와 사전 성공 기준을 구분한다. 같은 수정 상한이며 실제 총 이동과 계산 비용은 다르다.",
+      "evidence": [
+        {
+          "file": "results/objective_learning_v1/summary.json",
+          "pointer": "/H_gain",
+          "expected": {
+            "gated_uniform": {
+              "supported": false,
+              "endpoint_comparisons": {
+                "gated_balanced": {
+                  "mean_effect": -0.0018705134196065677,
+                  "positive_seeds": 2,
+                  "practical_advantage_pass": false
+                },
+                "isolated": {
+                  "mean_effect": 0.006338476769223856,
+                  "positive_seeds": 10,
+                  "practical_advantage_pass": false
+                },
+                "gated_self_blend": {
+                  "mean_effect": 0.0026083562276982275,
+                  "positive_seeds": 9,
+                  "practical_advantage_pass": false
+                }
+              },
+              "all_numeric_and_information_gates_passed": true,
+              "requires_acquisition": false
+            },
+            "gated_probability": {
+              "supported": false,
+              "endpoint_comparisons": {
+                "gated_balanced": {
+                  "mean_effect": 0.0006817172395877757,
+                  "positive_seeds": 8,
+                  "practical_advantage_pass": false
+                },
+                "isolated": {
+                  "mean_effect": 0.008890707428418198,
+                  "positive_seeds": 10,
+                  "practical_advantage_pass": false
+                },
+                "gated_self_blend": {
+                  "mean_effect": 0.005160586886892571,
+                  "positive_seeds": 10,
+                  "practical_advantage_pass": false
+                }
+              },
+              "all_numeric_and_information_gates_passed": true,
+              "requires_acquisition": false
+            }
+          }
+        },
+        {
+          "file": "results/objective_learning_v1/summary.json",
+          "pointer": "/H_acquisition",
+          "expected": {
+            "gated_uniform": {
+              "supported": false,
+              "acquisition_pass_seeds": 0,
+              "all_numeric_and_information_gates_passed": true,
+              "requires_gain": false
+            },
+            "gated_probability": {
+              "supported": false,
+              "acquisition_pass_seeds": 0,
+              "all_numeric_and_information_gates_passed": true,
+              "requires_gain": false
+            }
+          }
+        },
+        {
+          "file": "results/objective_learning_v1/summary.json",
+          "pointer": "/H_state",
+          "expected": {
+            "supported": false,
+            "comparison": "gated_probability_minus_gated_uniform",
+            "mean_effect": 0.002552230659194343,
+            "positive_seeds": 10,
+            "all_numeric_and_information_gates_passed": true,
+            "requires_acquisition": false
+          }
+        },
+        {
+          "file": "results/objective_learning_v1/summary.json",
+          "pointer": "/families/4/mean_final_expected_accuracy",
+          "expected": 0.5845420564847277
+        },
+        {
+          "file": "results/objective_learning_v1/summary.json",
+          "pointer": "/families/6/mean_final_expected_accuracy",
+          "expected": 0.5826715430651213
+        },
+        {
+          "file": "results/objective_learning_v1/summary.json",
+          "pointer": "/families/7/mean_final_expected_accuracy",
+          "expected": 0.5852237737243156
+        }
+      ]
+    },
+    {
+      "id": "unknown_training_input_operational_protection",
+      "question": 4,
+      "verdict": "supported",
+      "level": 2,
+      "statement": "U/P의 아직 보상을 모르는 다른 연습 입력의 운영상 보호 기준은 통과했다.",
+      "limit": "새 입력 일반화나 새 보호 기작이 아니다. 초반 분리와 완전 관측 뒤 미관측 집합 부재의 설계상 기대를 확인했다.",
+      "evidence": [
+        {
+          "file": "results/objective_learning_v1/summary.json",
+          "pointer": "/H_protection",
+          "expected": {
+            "gated_uniform": {
+              "supported": true,
+              "maximum_primary_seed_unknown_damage": 0.0,
+              "absolute_tolerance": 1e-08,
+              "comparisons": {
+                "gated_balanced": {
+                  "mean_effect": 0.0,
+                  "nonworsening_seeds": 10,
+                  "all_seeds_nonworsening": true
+                },
+                "isolated": {
+                  "mean_effect": 0.0,
+                  "nonworsening_seeds": 10,
+                  "all_seeds_nonworsening": true
+                }
+              },
+              "operational_protection_expected_by_design": true,
+              "novel_learning_mechanism_demonstrated": false,
+              "all_numeric_and_information_gates_passed": true
+            },
+            "gated_probability": {
+              "supported": true,
+              "maximum_primary_seed_unknown_damage": 0.0,
+              "absolute_tolerance": 1e-08,
+              "comparisons": {
+                "gated_balanced": {
+                  "mean_effect": 0.0,
+                  "nonworsening_seeds": 10,
+                  "all_seeds_nonworsening": true
+                },
+                "isolated": {
+                  "mean_effect": 0.0,
+                  "nonworsening_seeds": 10,
+                  "all_seeds_nonworsening": true
+                }
+              },
+              "operational_protection_expected_by_design": true,
+              "novel_learning_mechanism_demonstrated": false,
+              "all_numeric_and_information_gates_passed": true
+            }
+          }
+        },
+        {
+          "file": "results/objective_learning_v1/summary.json",
+          "pointer": "/interpretation/unknown_means_reward_unobserved_not_novel_input",
+          "expected": true
+        },
+        {
+          "file": "results/objective_learning_v1/summary.json",
+          "pointer": "/interpretation/generalization_tested",
+          "expected": false
+        }
+      ]
+    },
+    {
+      "id": "objective_actual_path_decomposition",
+      "question": 2,
+      "verdict": "descriptive",
+      "level": 0,
+      "statement": "U/P의 최종 차이를 상태·실제 크기·방향과 한쪽만 실제 선택·보상을 받은 경로로 정확히 나누었다.",
+      "limit": "방향 전체가 손해였다고 단순화하지 않으며 음수 상태 몫을 더 나쁜 정답 확률로 읽지 않는다. 대칭 장부는 유일한 인과 원인이 아니다.",
+      "evidence": [
+        {
+          "file": "results/objective_pathways_v1/summary.json",
+          "pointer": "/validation",
+          "expected": {
+            "all_exact_accounting_gates_passed": true,
+            "residuals": {
+              "factual_parent_reconstruction": 2.1316282072803006e-14,
+              "complete_endpoint_accounting": 1.0547118733938987e-15,
+              "all_path_telescoping": 2.7755575615628914e-15,
+              "shapley_efficiency": 1.3010426069826053e-18,
+              "signed_positive_negative_identity": 8.673617379884035e-19,
+              "ineligible_zero_padding": 0.0
+            },
+            "same_prefeedback_full_gate_and_prefix_checked": true,
+            "only_actual_both_Go_crossed": true,
+            "one_sided_actual_choices_retained": true,
+            "recorded_common_uniform_and_own_probabilities_checked": true,
+            "both_Go_rewards_identical_and_scalar_difference_from_probability": true
+          }
+        },
+        {
+          "file": "results/objective_pathways_v1/summary.json",
+          "pointer": "/families/0/means/component_endpoint_contributions",
+          "expected": [
+            [
+              -0.0007864040508569701,
+              -0.000392946493730736,
+              -0.01895876307140617,
+              -0.002004548328618086,
+              0.0003936782072424774,
+              0.0
+            ],
+            [
+              -0.002044308406843389,
+              7.592041066591018e-05,
+              0.02140576573463236,
+              -0.0006547340501382532,
+              0.0010958266294462352,
+              0.0
+            ]
+          ]
+        },
+        {
+          "file": "results/objective_pathways_v1/summary.json",
+          "pointer": "/families/1/means/component_endpoint_contributions",
+          "expected": [
+            [
+              -0.0004244425631897894,
+              -0.00020571802805653222,
+              -0.018537747157984303,
+              -0.0014950361952192168,
+              0.0003758465472107564,
+              0.0
+            ],
+            [
+              -0.000879848076681495,
+              1.4204888646846414e-05,
+              0.021495236232894475,
+              -0.0006297593921323633,
+              0.0009689809840995114,
+              0.0
+            ]
+          ]
+        },
+        {
+          "file": "results/objective_pathways_v1/summary.json",
+          "pointer": "/families/2/means/component_endpoint_contributions",
+          "expected": [
+            [
+              0.00018207786658622514,
+              4.9382233253797654e-05,
+              0.001167263732031292,
+              -0.00014956372911027887,
+              0.00021272623736936502,
+              0.0
+            ],
+            [
+              0.0007898266157014497,
+              4.755431131486451e-05,
+              -6.073193743546491e-05,
+              -0.0001933198242940068,
+              0.0005070151537772654,
+              0.0
+            ]
+          ]
+        },
+        {
+          "file": "results/objective_pathways_v1/summary.json",
+          "pointer": "/interpretation",
+          "expected": {
+            "retrospective_descriptive_only": true,
+            "new_confirmatory_hypothesis": false,
+            "accounting_allocation_not_unique_causal_explanation": true,
+            "mixed_cells_not_relearned_policy": true,
+            "NoGo_potential_rewards_or_directions_not_generated": true,
+            "same_realized_movement_budget_claimed": false,
+            "parent_U_gain": false,
+            "parent_P_gain": false,
+            "parent_U_acquisition": false,
+            "parent_P_acquisition": false,
+            "parent_U_protection": true,
+            "parent_P_protection": true,
+            "parent_state_gain": false,
+            "novel_input_generalization_tested": false,
+            "new_human_experiment": false,
+            "shared_neural_mechanism_claim": false,
+            "education_effect_claim": false
+          }
+        }
+      ]
+    },
+    {
+      "id": "human_similarity_retained",
+      "question": 5,
+      "verdict": "not_supported",
+      "level": 4,
+      "statement": "기존 공개 인간 조개 과제의 직접 비교에서 등록한 주 행동 유사성과 종합 예측 기준은 미지지였다.",
+      "limit": "한 공개 과제·모델의 결과이며 모든 인간/초파리 공통 원리의 부재가 아니다. 이번 후속에 새 인간 비교는 없다.",
+      "evidence": [
+        {
+          "file": "results/human_shell_rng_v2/summary.json",
+          "pointer": "/H_similarity/supported",
+          "expected": false
+        },
+        {
+          "file": "results/human_shell_rng_v2/summary.json",
+          "pointer": "/H_prediction/supported",
+          "expected": false
+        },
+        {
+          "file": "results/human_shell_rng_v2/summary.json",
+          "pointer": "/mechanism_claim",
+          "expected": false
+        },
+        {
+          "file": "results/human_shell_rng_v2/summary.json",
+          "pointer": "/educational_claim",
+          "expected": false
+        }
+      ]
+    },
+    {
+      "id": "pattern_generalization_gate_retained",
+      "question": 3,
+      "verdict": "not_assessable",
+      "level": 3,
+      "statement": "원 패턴 주 모델은 습득 자격 미달로 새 입력 일반화 판정이 보류된 상태를 유지한다.",
+      "limit": "네 연습 문자열의 후속 출력 학습을 새 기호·배치·길이의 일반화로 대체하지 않는다.",
+      "evidence": [
+        {
+          "file": "results/pattern_rule_v1/summary.json",
+          "pointer": "/H_acquisition/supported",
+          "expected": false
+        },
+        {
+          "file": "results/pattern_rule_v1/summary.json",
+          "pointer": "/H_generalization",
+          "expected": [
+            {
+              "set": "new_alphabet",
+              "joint_acquisition_and_ood_pass_seeds": 0,
+              "supported": false,
+              "status": "not_assessable_without_acquisition"
+            },
+            {
+              "set": "new_alphabet_phase",
+              "joint_acquisition_and_ood_pass_seeds": 0,
+              "supported": false,
+              "status": "not_assessable_without_acquisition"
+            },
+            {
+              "set": "new_length",
+              "joint_acquisition_and_ood_pass_seeds": 0,
+              "supported": false,
+              "status": "not_assessable_without_acquisition"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interference_order_gate_retained",
+      "question": 4,
+      "verdict": "not_assessable",
+      "level": 2,
+      "statement": "기존 맥락별 과제의 개별·공동 습득 자격 미달로 간섭·순서의 확증 판정은 보류다.",
+      "limit": "학습하지 못한 과제의 차이를 학습 뒤 간섭이나 순서 효과로 다시 이름 붙이지 않는다.",
+      "evidence": [
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/qualification_supported",
+          "expected": false
+        },
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/H_interference/status",
+          "expected": "not_assessable"
+        },
+        {
+          "file": "results/interference_order_v1/summary.json",
+          "pointer": "/H_order/status",
+          "expected": "not_assessable"
+        }
+      ]
+    },
+    {
+      "id": "drosomem_independent_history",
+      "question": 3,
+      "verdict": "not_supported",
+      "level": 0,
+      "statement": "독립 완료 프로젝트 DrosoMem의 M11 습득·전이 미달과 원 저장소 불변을 보존한다.",
+      "limit": "고정 원 요약의 출처 감사를 계승하며 새 재실행이나 그 프로젝트의 결과 수정이 아니다.",
+      "evidence": [
+        {
+          "file": "docs/drosomem-audit.json",
+          "pointer": "/repository/commit",
+          "expected": "7fb156c193c7a499fc2266a164b705729abbab21"
+        },
+        {
+          "file": "docs/drosomem-audit.json",
+          "pointer": "/repository/upstream_modified",
+          "expected": false
+        },
+        {
+          "file": "docs/drosomem-audit.json",
+          "pointer": "/M11_archived_summary/content/primary_pass",
+          "expected": false
+        }
+      ]
+    },
+    {
+      "id": "shared_mechanism_and_education_untested",
+      "question": 5,
+      "verdict": "untested",
+      "level": 5,
+      "statement": "공통 신경 기작과 인간 고등 수학교육 효과는 검증하지 않았으며 이번 종합도 그 주장을 추가하지 않는다.",
+      "limit": "행동 유사성이 양성이어도 같은 기작을 자동 결론 낼 수 없다. 이번 공개 과제의 직접 유사성도 미지지다.",
+      "evidence": [
+        {
+          "file": "results/human_shell_rng_v2/summary.json",
+          "pointer": "/mechanism_claim",
+          "expected": false
+        },
+        {
+          "file": "results/human_shell_rng_v2/summary.json",
+          "pointer": "/educational_claim",
+          "expected": false
+        }
+      ]
+    }
+  ],
+  "retained_anchors": [
+    {
+      "id": "original_phase5",
+      "summary": "results/phase5_synthesis_v1/summary.json",
+      "verification": "results/phase5_synthesis_v1/verification.json",
+      "paths": [
+        "docs/phase5-final-report.md",
+        "docs/phase5-evidence-appendix.md",
+        "docs/phase5-reproduction.md",
+        "results/phase5_synthesis_archive_validation.json"
+      ]
+    },
+    {
+      "id": "drosomem",
+      "summary": "docs/drosomem-audit.json",
+      "verification": null,
+      "paths": [
+        "docs/drosomem-audit.md",
+        "data/flywire_783_mb_left_kc512_s701/provenance.json"
+      ]
+    },
+    {
+      "id": "human_comparison",
+      "summary": "results/human_shell_rng_v2/summary.json",
+      "verification": "results/human_shell_rng_v2/verification.json",
+      "paths": [
+        "docs/human-shell-findings.md",
+        "docs/human-shell-rng-design-note.md",
+        "docs/human-shell-reproduction.md",
+        "results/human_shell_comparison_archive_validation.json"
+      ]
+    },
+    {
+      "id": "pattern",
+      "summary": "results/pattern_rule_v1/summary.json",
+      "verification": "results/pattern_rule_v1/verification.json",
+      "paths": [
+        "docs/pattern-rule-findings.md",
+        "docs/pattern-rule-protocol.md"
+      ]
+    },
+    {
+      "id": "interference_order",
+      "summary": "results/interference_order_v1/summary.json",
+      "verification": "results/interference_order_v1/verification.json",
+      "paths": [
+        "docs/interference-order-findings.md",
+        "docs/interference-order-protocol.md"
+      ]
+    },
+    {
+      "id": "biological_literature_limits",
+      "summary": null,
+      "verification": null,
+      "paths": [
+        "docs/literature-review.md",
+        "docs/human-learning-comparison.md",
+        "LIMITATIONS.md"
+      ]
+    }
+  ]
+}
