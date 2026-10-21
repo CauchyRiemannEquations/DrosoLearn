@@ -1,0 +1,27 @@
+{
+  "status": "preserved_exact_report_EOF_style_notice",
+  "checked_at_utc": "2026-10-21T03:03:27.000579+00:00",
+  "archive": "results/objective_pathways_finalization_style_attempt01.zip",
+  "archive_sha256": "a3f0c8b310d1d40c176e866f0c87abf01baa2d93f97ac52f71571b800ab8155a",
+  "member_sha256": {
+    "docs/objective-pathways-findings.md": "f3e6162dc88babcf56a54d844715669b111b63de7704144c413f521790f110e2",
+    "seal_objective_pathways_completion.py": "d9b11c7bdd1897875fe9564e2c14818a67bbc4420ca07afdd620a3514c7e7b76",
+    "reproduced_read_only_strict_diff_stdout.txt": "fae56f61f63c5107114c5de9109b9b73ba1e0eaf81b601ace82533d4efad7104",
+    "reproduced_read_only_strict_diff_stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "first_tool_notice_transcription.txt": "82e6fe8d05bbe742fb864d889ccba630979fca61b0c9fcbb2fb3f17dcff22fa0"
+  },
+  "document": "docs/objective-pathways-findings.md",
+  "document_sha256": "f3e6162dc88babcf56a54d844715669b111b63de7704144c413f521790f110e2",
+  "existing_passed_archive_sha256": "3c5eb2802ab2aac15aa75accdec758bf381dffbfb4d89262cd5598b143556fa8",
+  "existing_passed_presentation_QA_sha256": "87370bd788c68196803c63687b490bd7472b2ffdc47865c06728f79f689e8eaa",
+  "strict_notice": "docs/objective-pathways-findings.md:139: new blank line at EOF.",
+  "strict_git_exit_code": 2,
+  "first_helper_exit_code": 1,
+  "actual_trailing_LF_bytes": 2,
+  "document_bytes_removed_or_modified": 0,
+  "reason": "Keep the exact already independently checked and archive-sealed report bytes. Permit only this one trailing blank EOF line; scientific gates, source/config/input/result bytes and every other staged path remain unchanged and fully checked.",
+  "all_other_staged_paths_must_pass_same_strict_whitespace_check": true,
+  "any_scientific_integrity_or_acquisition_gate_waived": false,
+  "new_scientific_work_calls": 0,
+  "first_original_tool_notice_transcribed_and_separate_exact_read_only_reproduction_captured": true
+}

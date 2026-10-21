@@ -1,5 +1,8 @@
 # DrosoLearn
 
+최신 완료: [U/P의 방향·크기·선택/보상 경로 분석](docs/objective-pathways-findings.md). 저장 192,000기록의 최종 차이를 정확히 나누고 16배열·2,160행·34,560선택/보상 칸을 독립 검산했다. 새 학습·난수·최적화 0회, 291검사 통과. 원 Phase5는 이미 완료됐고 후속 종합 한 묶음으로 현재 범위를 마무리할 수 있다. [재현](docs/objective-pathways-reproduction.md), 태그 `objective-pathways-v1`.
+
+
 최신 완료: [전체 목표 U·현재 확률 P 실제 학습](docs/objective-learning-findings.md). 주 조건 U 58.2672%·P 58.5224%·기존 gated B 58.4542%. 개선·충분한 습득·상태 가중 추가 효과는 미지지, 미관측 보호는 두 방식 모두 통과했다. 같은 수정량 상한이며 실제 누적·계산 비용은 다르다. 385검사·192,000시행/215배열 독립 재생. [재현](docs/objective-learning-reproduction.md), 태그 `objective-learning-v1`.
 
 최신 완료: [수정 목표와 실제 정답 확률 정렬 분석](docs/probability-alignment-findings.md). 같은 저장 상태의 한 번 수정에서 U−B +0.00120739%p, P−U +0.0000389332%p. 새 학습 성적이 아닌 고정 상태 비교다. 261검사·27배열 독립 검산, 새 방향 최적화11,949회·새 학습0회. [재현](docs/probability-alignment-reproduction.md), 태그 `probability-alignment-v1`.

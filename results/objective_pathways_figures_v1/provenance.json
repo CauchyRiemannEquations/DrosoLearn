@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "rendered_at_utc": "2026-10-21T02:54:31.342490+00:00",
+  "source_sha256": {
+    "results/objective_pathways_v1/summary.json": "86a1b02af51060d495f2ecc9e8b4c07ce91ad01ec8b557baa79ed34629b2ad00",
+    "results/objective_pathways_v1/verification.json": "92ab640a5428afb88960e1c5e547f0bee9df0b6dd746b6d4351bcf1733b56872",
+    "results/objective_pathways_v1/arrays.npz": "deab1630cb07bcc297e4e3d19d34a7e75762b675e9c324511ba68edb111942a9",
+    "scripts/render_objective_pathways.py": "114146ef425ddbb9cf60941c249ae4a4c16e9682a64abf0f9a02a586d44bfacd"
+  },
+  "artifact_sha256": {
+    "all-contrasts.png": "b058123b1feb5715032582960c425783d4cbd197e2ab1f279cb6d76a6b2aba93",
+    "choice-reward-paths.png": "ec9bbcb3b2249b3d395f9948c128d867013c47189001836266ac4cb5eb3b7bf9",
+    "factor-accounting.png": "260e0b0fb94c64bf7bc19ba7db2da240c8eb7b3d9e12c6b4db96083520b7c6a8",
+    "plotted_values.json": "942194bb3bc7cc6c219687df994a1f83813c3ea8e9ae201b26408c7df8d4e5f0"
+  },
+  "new_learning_or_solver_calls": 0,
+  "primary_real_raw_only_for_factor_and_reward_figures": true
+}

@@ -11,7 +11,7 @@
   "spacing_diagnostic_source_commit": "d4cbe9542c8ec5846b4a877ee36deb47e456ea20",
   "linearity_diagnostic_source_commit": "30323325bc2dc2b8825be7be5cadee153dce8add",
   "reward_linear_diagnostic_source_commit": "cc836c61055ca32a5205f8685a5a4171c43b77e7",
-  "current_diagnostic_source_commit": "adeed238058cfb9fb9d2e186846d310bf1f0c296",
+  "current_diagnostic_source_commit": "3783491b82f61f1d956756b356e09cbae1dcbd58",
   "study_tags": {
     "smoke_v1": "v0.1.0-smoke",
     "reversal_v1": "study-reversal-v1",
@@ -57,9 +57,10 @@
     "self_blend_learning_v1": "self-blend-learning-v1",
     "self_blend_factors_v1": "self-blend-factors-v1",
     "probability_alignment_v1": "probability-alignment-v1",
-    "objective_learning_v1": "objective-learning-v1"
+    "objective_learning_v1": "objective-learning-v1",
+    "objective_pathways_v1": "objective-pathways-v1"
   },
-  "current_diagnostic": "objective_learning_v1",
+  "current_diagnostic": "objective_pathways_v1",
   "bandit_reversal_diagnostic_source_commit": "fceca94dc6e8137085112ad3a5b75a3cf3894e50",
   "current_data_readiness_audit": "human_task_structure_v1",
   "human_trial_data_audit_source_commit": "c8b0e0b97133d105d07c28aca116974100ddf6d3",
@@ -98,12 +99,12 @@
     "meaningful_changes_only": true,
     "status": "PAUSED",
     "user_requested_stop": false,
-    "verified_at_utc": "2026-10-20T23:40:35.004543+00:00",
+    "verified_at_utc": "2026-10-21T02:52:18.032083+00:00",
     "single_task_resumed_by_user": true,
     "automatic_continuation_enabled": false,
     "continuous_through_phase4_requested_by_user": true,
-    "pause_reason": "User-requested fixed prospective U/P actual learning comparison completed; no automatic continuation or seed/budget search",
-    "single_task_completed_at_utc": "2026-10-20T23:37:42.892471+00:00",
+    "pause_reason": "Single requested saved-record objective pathway accounting completed; bounded followup closure possible without further learning search",
+    "single_task_completed_at_utc": "2026-10-21T02:50:36.009950+00:00",
     "single_task_completed": true
   },
   "learning_ablation_source_commit": "ddae9da05f9e7debbc406433912a62eab55aa423",
@@ -112,15 +113,15 @@
   "learning_ablation_actual_choice_feedback_trials": 80000,
   "learning_ablation_head_update_calls": 48000,
   "learning_ablation_internal_update_calls": 36000,
-  "current_findings_document": "docs/objective-learning-findings.md",
+  "current_findings_document": "docs/objective-pathways-findings.md",
   "learning_ablation_documentation_correction": "results/learning_ablation_documentation_correction_v1.json",
   "state_decomposition_source_commit": "afdfe3dcb3e6fd18a659cc7e5ca13b8926d759f3",
   "state_decomposition_cases": 204800,
   "state_decomposition_crossed_policy_values": 819200,
   "state_decomposition_additional_learning_updates": 0,
-  "continuation_scope": "single_user_requested_actual_uniform_and_current_probability_objective_learning_completed",
+  "continuation_scope": "single_user_requested_saved_objective_pathways_completed",
   "conditional_transition_source_commit": "ed9aa5fbf1128c2b8d502650e26cb6a78aac9589",
-  "current_phase": "post_phase5_objective_learning_completed",
+  "current_phase": "post_phase5_objective_pathways_completed",
   "conditional_transition_streams": 265,
   "conditional_transition_trials": 217000,
   "conditional_transition_candidate_pairs": 216735,
@@ -141,11 +142,10 @@
   "time_mixture_complete_possible_paths": 524288,
   "new_phase4_unique_passed_tests": 255,
   "next_research_prerequisites": [
-    "Retain separate U/P practical-gain, sufficient-acquisition, expected unknown-protection and state-weighting decisions; numerical gains alone do not open generalization gates.",
-    "Compare the new policies using their actual saved trajectories; effects include changed state, signed update, choices and rewards rather than a fixed-state direction substitution.",
-    "Same maximum single step and 400-trial ceilings do not equal realized movement or U/P processing costs; retain each source-cache/fresh-state solver count.",
-    "Unknown refers to feedback-unobserved other training inputs, not unseen inputs. Expected early-isolation protection is not a new biological mechanism.",
-    "Any next diagnostic or intervention requires a new fixed protocol and paths, with source/input publication before new arithmetic or cohort work; preserve original Phase5/human negatives/closed task-specific transfer and interference/order gates."
+    "Preserve original Phase5 and all post-Phase5 failures; a separate second synthesis may close the bounded followup scope.",
+    "Current decomposition is an exact descriptive allocation, not a unique causal intervention or relearned mixed policy.",
+    "Retain closed task-specific generalization/interference/order qualifications and human negative comparisons.",
+    "No automatic further training, optimization, seed changes or expansion to biological/human claims."
   ],
   "level4_similarity_supported": false,
   "current_human_comparison": "human_shell_rng_v2",
@@ -1024,5 +1024,93 @@
   "objective_learning_generalization_tested": false,
   "objective_learning_human_similarity_tested": false,
   "objective_learning_measurement_storage": "lossless_deterministic_gzip_csv_crlf",
-  "objective_learning_all_numeric_gates_passed": true
+  "objective_learning_all_numeric_gates_passed": true,
+  "objective_pathways_completed": true,
+  "objective_pathways_source_commit": "3783491b82f61f1d956756b356e09cbae1dcbd58",
+  "objective_pathways_registration_publication_commit": "0d2bead26dc838200bca0cbf4dede2f2c0b15765",
+  "objective_pathways_counts": {
+    "analyzed_parent_trial_records": 192000,
+    "analyzed_destination_effects": 768000,
+    "reference_gate_paths": 60,
+    "comparison_paths": 180,
+    "paired_trial_records": 72000,
+    "paired_post_trial_records": 69642,
+    "eligible_both_Go_trials": 34573,
+    "corner_destination_effects": 1106336,
+    "numeric_arrays": 16,
+    "measurement_records": 2160,
+    "actual_path_strata": 34560,
+    "new_training_trials": 0,
+    "new_head_update_calls": 0,
+    "new_internal_update_calls": 0,
+    "new_value_update_calls": 0,
+    "new_random_draws": 0,
+    "fresh_model_constructions": 0,
+    "new_optimization_calls": 0
+  },
+  "objective_pathways_unique_passed_tests": 291,
+  "objective_pathways_new_unique_passed_tests": 176,
+  "objective_pathways_related_regression_passed_tests": 115,
+  "objective_pathways_all_accounting_checks_passed": true,
+  "objective_pathways_findings": "docs/objective-pathways-findings.md",
+  "objective_pathways_reproduction": "docs/objective-pathways-reproduction.md",
+  "objective_pathways_primary_components": [
+    [
+      [
+        -0.0007864040508569701,
+        -0.000392946493730736,
+        -0.01895876307140617,
+        -0.002004548328618086,
+        0.0003936782072424774,
+        0.0
+      ],
+      [
+        -0.002044308406843389,
+        7.592041066591018e-05,
+        0.02140576573463236,
+        -0.0006547340501382532,
+        0.0010958266294462352,
+        0.0
+      ]
+    ],
+    [
+      [
+        -0.0004244425631897894,
+        -0.00020571802805653222,
+        -0.018537747157984303,
+        -0.0014950361952192168,
+        0.0003758465472107564,
+        0.0
+      ],
+      [
+        -0.000879848076681495,
+        1.4204888646846414e-05,
+        0.021495236232894475,
+        -0.0006297593921323633,
+        0.0009689809840995114,
+        0.0
+      ]
+    ],
+    [
+      [
+        0.00018207786658622514,
+        4.9382233253797654e-05,
+        0.001167263732031292,
+        -0.00014956372911027887,
+        0.00021272623736936502,
+        0.0
+      ],
+      [
+        0.0007898266157014497,
+        4.755431131486451e-05,
+        -6.073193743546491e-05,
+        -0.0001933198242940068,
+        0.0005070151537772654,
+        0.0
+      ]
+    ]
+  ],
+  "objective_pathways_allocation_is_unique_cause": false,
+  "objective_pathways_generalization_tested": false,
+  "remaining_bounded_followup_closure": "Separate second evidence synthesis and final reproducibility/archive audit; no further successful-learning experiment required to close current scope"
 }

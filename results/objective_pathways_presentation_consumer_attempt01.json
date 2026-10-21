@@ -1,0 +1,16 @@
+{
+  "status": "preserved_presentation_QA_consumer_attempt",
+  "checked_at_utc": "2026-10-21T02:58:32.739297+00:00",
+  "archive": "results/objective_pathways_presentation_consumer_attempt01.zip",
+  "archive_sha256": "5a5645e29d6d3d065d0906a5016bfed9f271da6f5e1228c7d9b0e2023efb6ce2",
+  "member_sha256": {
+    "qa_objective_pathways_presentation_attempt01.py": "a0b56949b0cb2a482382f1d0367e308d59d28d741e3d96d1d9ef110435218f27",
+    "objective_pathways_QA_consumer_attempt01.json": "bfba8d5ed58d6d9822fb40edf856c6309ce245d5da61a19689adb043bc263d19"
+  },
+  "original_consumer_exit_code": 1,
+  "all_numeric_checks_passed_before_consumer_failure": true,
+  "reason": "Final scratch presentation consumer required literal objective_pathways_v1 in indexes whose valid findings/reproduction links use hyphens; original assertion and consumer retained.",
+  "corrected_clause": "Require actual objective-pathways-findings.md links in README/roadmap and use the existing publication-proof remote_bytes_match/private contract rather than an absent status field.",
+  "actual_data_numeric_outputs_documents_or_frozen25_science_changed": false,
+  "new_learning_RNG_graph_optimization_or_scientific_replay_calls": 0
+}

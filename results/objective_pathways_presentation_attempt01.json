@@ -1,0 +1,17 @@
+{
+  "status": "preserved_presentation_draft",
+  "checked_at_utc": "2026-10-21T02:54:29.659748+00:00",
+  "reason": "Initial reward chart legend partly covered the top of the P positive-reward bar; increase left-axis vertical space to 140.",
+  "archive": "results/objective_pathways_presentation_attempt01.zip",
+  "archive_sha256": "0c631c8fcb1826d1fb33d7eefbfd9c5f88963814cea2307cf54259d7cc292a43",
+  "member_sha256": {
+    "results/objective_pathways_figures_v1/all-contrasts.png": "b058123b1feb5715032582960c425783d4cbd197e2ab1f279cb6d76a6b2aba93",
+    "results/objective_pathways_figures_v1/choice-reward-paths.png": "48c090b95760ab41880f8e446e38029b746b495b58223c75d251629334719732",
+    "results/objective_pathways_figures_v1/factor-accounting.png": "260e0b0fb94c64bf7bc19ba7db2da240c8eb7b3d9e12c6b4db96083520b7c6a8",
+    "results/objective_pathways_figures_v1/plotted_values.json": "942194bb3bc7cc6c219687df994a1f83813c3ea8e9ae201b26408c7df8d4e5f0",
+    "results/objective_pathways_figures_v1/provenance.json": "b57617382ca6cf24fdbb7de2c6a7b50a0da390b492e103e7d70692782f908645",
+    "scripts/render_objective_pathways.py": "854294d2d02b37124e8114163f537071b6147c1915d46a0aa205e717bd149fdc"
+  },
+  "frozen_science_sources_config_inputs_results_or_success_criteria_changed": false,
+  "new_training_rng_graph_optimization_or_scientific_replay_calls": 0
+}

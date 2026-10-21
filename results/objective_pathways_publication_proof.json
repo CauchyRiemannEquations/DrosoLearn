@@ -1,0 +1,11 @@
+{
+  "study_id": "objective_pathways_v1",
+  "registration_sha256": "2621e15e31907a6d414f92cc7830944e3470d9f77128a22902413c69a8f3926a",
+  "source_commit": "3783491b82f61f1d956756b356e09cbae1dcbd58",
+  "published_commit": "0d2bead26dc838200bca0cbf4dede2f2c0b15765",
+  "remote_bytes_match": true,
+  "checked_at_utc": "2026-10-21T02:49:26.041949+00:00",
+  "visibility": "private",
+  "url": "https://github.com/CauchyRiemannEquations/DrosoLearn/blob/0d2bead26dc838200bca0cbf4dede2f2c0b15765/results/registration_objective_pathways_v1.json",
+  "method": "Authenticated private remote main and literal decoded registration bytes checked before first new descriptive saved-record aggregation; no new graph, RNG, optimizer or learning; no secrets logged"
+}
