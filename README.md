@@ -1,5 +1,12 @@
 # DrosoLearn
 
+**프로젝트 완료 — 현재 승인된 로컬 계산 연구 범위.** 후속17개 등록의 결과·한계·재현 확인을 마쳤다. 기존 첫 Phase5와 모든 원 결과/실패를 보존했다. 새 학습·효과 검정0회이며 자동 반복은 중지(PAUSED)다. 양성 인간 유사성·공통 신경 기작·교육 효과를 입증한 완료가 아니다.
+
+[쉽게 읽는 결론](docs/followup-closure-plain-language.md) · [최종 후속 종합](docs/followup-closure-final-report.md) · [24개 주장/원값](docs/followup-closure-evidence-appendix.md) · [한계](docs/followup-closure-limitations.md) · [재현](docs/followup-closure-reproduction.md)
+
+완료 태그: `followup-closure-v1`, `drosolearn-bounded-complete-v1`. 아래 기록은 각 연구 당시의 이력이다.
+
+
 최신 완료: [U/P의 방향·크기·선택/보상 경로 분석](docs/objective-pathways-findings.md). 저장 192,000기록의 최종 차이를 정확히 나누고 16배열·2,160행·34,560선택/보상 칸을 독립 검산했다. 새 학습·난수·최적화 0회, 291검사 통과. 원 Phase5는 이미 완료됐고 후속 종합 한 묶음으로 현재 범위를 마무리할 수 있다. [재현](docs/objective-pathways-reproduction.md), 태그 `objective-pathways-v1`.
 
 

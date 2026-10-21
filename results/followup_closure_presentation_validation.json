@@ -1,0 +1,2078 @@
+{
+  "status": "passed",
+  "study_id": "followup_closure_v1",
+  "checked_at_utc": "2026-10-21T04:27:31.925499+00:00",
+  "document_sha256": {
+    "README.md": "77a2fc7a897a969a8de4845f812d15b3464a3fade495edfd279d85730bebb489",
+    "docs/followup-closure-evidence-appendix.md": "3c8fc7981d89fe3a19bbb75e6d92ef0a85cdb2892076f5a89e9a4533ca47d3f8",
+    "docs/followup-closure-final-report.md": "acbfd8b1c4e59e9aa43f1dcbc00d9debaf23b5bfc43636d0c4e583f210eeee74",
+    "docs/followup-closure-limitations.md": "bc963da7d6ee73a12e4bdb30f106ecdd3feda75600ee094ed549f4eaba24b63a",
+    "docs/followup-closure-plain-language.md": "54099d624f1ecd0ed2164937c865b0f5dce028b227dce58fd6b1daa1b4c423a4",
+    "docs/followup-closure-reproduction.md": "8e49bf17310d2cbbf05a3b825345d68a7950987c0a54c75ee93510657117227f",
+    "docs/repository-status.json": "39bec4e40f68ba6ea570ee4874040904061d843209092b88823c3285776e8f72",
+    "docs/research-roadmap.md": "3950ecd8aebb254f834bcdae9da14e0d6ff8e7cb746a4faa75ac5c9246aea31b"
+  },
+  "additional_file_sha256": {
+    "configs/followup_closure_consumer_v2.json": "360a4825eb0bcd66012b7c77b75d6b73f17918ad0eeaa217de4f7c8fda300819",
+    "configs/followup_closure_evidence_v1.json": "f8522f4d545b449b6d12447d096021aff8c701f8131566b66e5625e3b8068f7d",
+    "configs/followup_closure_v1.json": "3d4a676122af031c99df3698ec718fb7b3e6ab39efbda1273e1a3c96177bf6e0",
+    "configs/objective_pathways_v1.json": "643d8a770f519d687863d5f1a1497e614041045e7708b9da8f995681e3365320",
+    "docs/followup-closure-consumer-v2-protocol.md": "987f60e281ff8af4adeda89ece43bc1d69ad930f047c87d35bc95d642285ff39",
+    "docs/followup-closure-protocol.md": "beb110fe4ed29671a44426fbaef82a02005119842680ff192b03015d8b1d7854",
+    "docs/objective-pathways-protocol.md": "35a324edab0571ff9ddb304763562b015402630295c01f220e8e4cde60aa121a",
+    "pyproject.toml": "15e155994c7fe43b11e61973c2a03b3222106c19f2568770cfabc2ceadc4489a",
+    "requirements-lock.txt": "f7d5ce785eb4d4b98cd184383813c234a7de5a1e2f1be763be616041036e3867",
+    "results/followup_closure_baseline_preservation.json": "bb66aa403169e159cb2c4aeb780b3f6ce1492a04ba1f6e1d1a9a9670e45856df",
+    "results/followup_closure_consumer_v2/verification.json": "35448f3e7a9a94d9e8bae5763567573d0300d6995fba5d98d3eb755156e81d45",
+    "results/followup_closure_consumer_v2_prefreeze_tests/final.xml": "58c000de550f0fba64731e4bb015cd526449a966249636d019987473367094ee",
+    "results/followup_closure_consumer_v2_prefreeze_validation.json": "9a6f0d4ff89205ec20b7ec0486e28c41ad93d50c2e711a8de88f3140c3342052",
+    "results/followup_closure_consumer_v2_publication_proof.json": "6d668a3ee9d3b748c17b102ff1e7e0281ee010e0fd139fb7b98b07d1a5788775",
+    "results/followup_closure_prefreeze_tests/followup_closure_prefreeze_final.xml": "cc61df43e4aac26d1603f266139f1ca6d4b46502aac7e8eefd6c09d777bae46f",
+    "results/followup_closure_prefreeze_validation.json": "376f58999cddd0482f8809b320cd4bfcb4189dacfcf1f1e0d033faac804952b7",
+    "results/followup_closure_publication_proof.json": "462c0fdc56028d477d291008d38a006a82bd83782bd447523d587746914df8cd",
+    "results/followup_closure_reproduction_v1/invocation.json": "67ccd9d9d2612588042a34f9a1debc25a7730042f4ddda200441b67b68b1456e",
+    "results/followup_closure_reproduction_v1/objective_pathways_reverification.json": "a2437f055fe69962007e54383aeda1fda02f3ffee546b0b1858995cca5d500f8",
+    "results/followup_closure_v1/arrays.npz": "af0634459dea796e32fbd03bb9784476317511dc3809a6ffb619899dea6b08cd",
+    "results/followup_closure_v1/artifact_hashes.json": "6db703716e47af70486f07f3aede4f525cb66bd4175f403594f13a9d73b592db",
+    "results/followup_closure_v1/measurements.csv": "529812358a347648f3bfb65483d32d1b47ed60c97830c746c78d047122245356",
+    "results/followup_closure_v1/metadata.json": "b235a67b0d4c812e8cc1176d490dfc01a8fde8f0ba1f28b1b642a5680b1ccf18",
+    "results/followup_closure_v1/registration.json": "be38caae22634f5b096b50d0ceb4d5f0f5a9a09d476aa484128fce282569f188",
+    "results/followup_closure_v1/summary.json": "5e7ffbb036b2ed56cf73a329d616e10680a5cee76d5fc576c8950b7dff8032ff",
+    "results/followup_closure_verification_attempt01.json": "911d07e714811ac2df4b3f04f71a10546b2349864a89ded8b8a8b01c7e7b4fa5",
+    "results/followup_closure_verification_attempt01.zip": "6c379d4522eb5b811fc6eb619da6afa440cab691e01e8e5a19fb2f838f9f6ba0",
+    "results/human_shell_rng_v2/artifact_hashes.json": "955f2cefde9ef1ca895286a1e3d6ef9f820145788e93abb72576c4412a566d35",
+    "results/human_shell_rng_v2/metadata.json": "0fb5341794b6cdab8aad5a20b5162c122fdf95bcb4d00522107091781492f521",
+    "results/human_shell_rng_v2/registration.json": "7b85b27906ef216ad44976860991e6fa4f7a06a4b2b4adad48257596a91208ae",
+    "results/human_shell_rng_v2/summary.json": "042518425a54e558b1fc99298f9f7f1ca98a734d85f6efdc3931994f5985b838",
+    "results/human_shell_rng_v2/verification.json": "48e4a9240d7cb8f0bc8c4f2a36fde83eecd254032f0671d10b1b786f82ab97ab",
+    "results/registration_followup_closure_consumer_v2.json": "7f83cce37247d308c8c447d6c8bd6de7393ddc95d59aa9b8d0e65eb9bb8778ec",
+    "results/registration_followup_closure_v1.json": "be38caae22634f5b096b50d0ceb4d5f0f5a9a09d476aa484128fce282569f188",
+    "scripts/check_followup_closure_archive.py": "54c8104bcb31d2c6b68a31200053490dff40b35cfb9199f465220338630f249d",
+    "scripts/run_followup_closure.py": "d6e001496191c6581d093cd53212e9e7e11ac68958af2e58722039103827595e",
+    "scripts/run_objective_pathways.py": "f4c2af7aa753d9695bf78b53cf9c2446fc520e9a74f00de3efec002b9c84eba5",
+    "scripts/verify_followup_closure.py": "30c554990bf55db48ad4d7b05419711108a71f7c45ef14700aeb4af51df0065f",
+    "scripts/verify_followup_closure_consumer_v2.py": "b451b14f0950227b95907a30295eb0af6b13d31409571ebd5ba3203be92b3604",
+    "scripts/verify_human_shell.py": "c97bcd08a9c914e1c0c5266cf77adb52e70ed3e2e38585c979619c6c950a0a6f",
+    "scripts/verify_human_shell_rng.py": "de792b33aecc7a306143c1433a03f525a6e4a65b0e1ba2b160fe45d42c7f6d38",
+    "scripts/verify_objective_pathways.py": "b119f7bc726ede7502b9a0beb9ed6f875da1fe4032843c704e0bb60c4bc90490",
+    "src/drosolearn/__init__.py": "72a953b53092eac31cce4cd3210be67317a08183209d0ce622018841e2429d9f",
+    "src/drosolearn/balanced_envelope.py": "9ce6c4b99154af6d44e09b1aa4eaf046e40dd60207adbaab51fa11279085af40",
+    "src/drosolearn/closure_envelope.py": "1d032151825538310dc561ca1af3ccfc85e3a0c53d95f7aff56085d4f258c913",
+    "src/drosolearn/cone_envelope.py": "38a4072690b00f0387f14648843517df7ccf074a3989c3ec8d950e3cc84cef9c",
+    "src/drosolearn/followup_closure.py": "619a9013040f0be707e3901a28aaef43e16caba3c867c56cc56b76b7dd8f5e2b",
+    "src/drosolearn/gated_envelope.py": "e1d32225f67c174c2e8027b27ceeb322db32cfc9e57261740e2a6516a56e57ea",
+    "src/drosolearn/gated_factors_envelope.py": "6e88df46ba3ab955bf1a5624ee1d7d3697acdeec7953260ab00a4c24e27c5345",
+    "src/drosolearn/gated_pathways_envelope.py": "cedfb18cd74caab54d71dd4ef57884155fbe603f8304a3c46a7dc3399d741269",
+    "src/drosolearn/normalization_envelope.py": "482bc8839c0f435f10776a534601f871014d37a82384d0973f33a191b854a55d",
+    "src/drosolearn/objective_envelope.py": "2a5837a68a98143b744296ca53bf2dfd9bb1584d7881acb30bcc41be733755c9",
+    "src/drosolearn/objective_pathways.py": "fb1269134225541e9d6aacc18850dc8924b18ce3e269c3f5e6cdc554aadbdcff",
+    "src/drosolearn/objective_pathways_envelope.py": "948b15814240d063e1b197c119b4a570a4701e5537c0f9a526a8b14db75136fa",
+    "src/drosolearn/pathways_envelope.py": "3cb56134fa85d92c56f3e1d2a55ad86582d279432b107c35cc9452570f35dcd5",
+    "src/drosolearn/probability_envelope.py": "cf8c8d57f081fe646401afaa406de36603440dbbd58d86343b7ba0431d8a4186",
+    "src/drosolearn/representation_envelope.py": "aeffdae42e50e8f2534a24afdc6854ba967e1513a2ebc2ac8851d8e169c6b51b",
+    "src/drosolearn/selective_envelope.py": "72597a9ca74a33d3aa1f43f0c432c8310eb32812e7ef0ad8005e0c386e0135f1",
+    "src/drosolearn/self_blend_envelope.py": "875f7e7ed20786f1d10da664b0eb4fba5559cca82d9bca70d5c6b94f696a4ef8",
+    "src/drosolearn/self_blend_factors_envelope.py": "9d89ab835fdab8675ff158b9591de2eb0a0848ab8dc51a61558798b7cf8d3fad",
+    "tests/test_followup_closure.py": "9f8d20742a0efd3ebfdeba5e896f57ddd108d0bb33976c77afb17458b86bbd05",
+    "tests/test_followup_closure_consumer_v2.py": "c78250fa7d1dfd6cf3709cf92b1afdfb063bb544d7b89a7584b52e630b595760",
+    "tests/test_followup_closure_envelope.py": "adcffb3d24eb5af041d780e967af71adfc06568a4e7cb11773dea13ce7302032",
+    "tests/test_followup_closure_verify.py": "4121f954e5c411f0e02e155dd2090cf6e98f61bfd8fad4652b9ad564faed5d0d",
+    "tests/test_objective_pathways.py": "61418d89cf1f9b45748f7d38e4bedf404c5ead1fe4f8707977942c4817812153",
+    "tests/test_objective_pathways_envelope.py": "196f278151755aea18da946777d0e8ccd0c3eef3365934685baeca5d9e467925",
+    "tests/test_objective_pathways_verify.py": "b1ee229b391a6dcea162e85b3bde99d2d464d58d0b6207e22a1331d3d5f3ae55"
+  },
+  "local_markdown_links_checked": 493,
+  "local_markdown_links": [
+    {
+      "document": "README.md",
+      "target": "docs/followup-closure-plain-language.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/followup-closure-final-report.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/followup-closure-evidence-appendix.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/followup-closure-limitations.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/followup-closure-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/objective-pathways-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/objective-pathways-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/objective-learning-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/objective-learning-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/probability-alignment-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/probability-alignment-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/self-blend-factors-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/self-blend-factors-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/self-blend-learning-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/self-blend-learning-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/gated-factors-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/gated-factors-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/gated-factors-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/gated-pathways-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/gated-pathways-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/gated-pathways-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/gated-learning-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/gated-learning-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/gated-learning-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/balanced-pathways-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/balanced-pathways-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/balanced-pathways-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/balanced-learning-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/balanced-learning-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/balanced-learning-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/cone-frontier-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/cone-frontier-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/cone-frontier-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/normalization-loss-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/normalization-loss-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/normalization-loss-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/selective-spillover-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/selective-spillover-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/selective-spillover-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/signed-spillover-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/signed-spillover-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/signed-spillover-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/spillover-tradeoff-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/spillover-tradeoff-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/spillover-tradeoff-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/update-budget-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/update-budget-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/update-budget-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/representation-update-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/representation-update-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/representation-update-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/phase5-final-report.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/phase5-evidence-appendix.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/phase5-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "results/smoke_v1/report.md"
+    },
+    {
+      "document": "README.md",
+      "target": "results/smoke_v1/verification.json"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/initial-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/reversal-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "results/reversal_v1/report.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/reversal-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-data-readiness.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/encoding-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/encoding-background.md"
+    },
+    {
+      "document": "README.md",
+      "target": "results/encoding_v1/report.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/encoding-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/spacing-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/spacing-background.md"
+    },
+    {
+      "document": "README.md",
+      "target": "results/spacing_v1/report.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/spacing-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/linearity-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/linearity-background.md"
+    },
+    {
+      "document": "README.md",
+      "target": "results/linearity_v1/report.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/linearity-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/reward-linear-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/reward-linear-background.md"
+    },
+    {
+      "document": "README.md",
+      "target": "results/reward_linear_v1/report.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/reward-linear-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/bandit-reversal-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/bandit-reversal-background.md"
+    },
+    {
+      "document": "README.md",
+      "target": "results/bandit_reversal_v1/report.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/bandit-reversal-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/head-attenuation-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/head-attenuation-background.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/head-attenuation-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-trial-data-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-trial-data-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-trial-data-sources.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-trial-linkage-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-trial-linkage-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-trial-linkage-source-review.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-trial-permissions-followup.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-data-continuation-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-semantics-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-semantics-source-review.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-osf-origin-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-osf-origin-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "configs/human_osf_origin_manifest.json"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/research-question.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/drosomem-audit.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/literature-review.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/technical-design.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/experimental-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/research-roadmap.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-learning-comparison.md"
+    },
+    {
+      "document": "README.md",
+      "target": "LIMITATIONS.md"
+    },
+    {
+      "document": "README.md",
+      "target": "data/source-manifest.json"
+    },
+    {
+      "document": "README.md",
+      "target": "data/LICENSE.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/repository-creation.md"
+    },
+    {
+      "document": "README.md",
+      "target": "LICENSE"
+    },
+    {
+      "document": "README.md",
+      "target": "data/human/stolz_2022_openneuro/ATTRIBUTION.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/learning-measurement-continuation-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-task-structure-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/feedback-transition-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "results/feedback_transition_v1/metrics.json"
+    },
+    {
+      "document": "README.md",
+      "target": "results/feedback_transition_v1/verification.json"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/stochastic-feedback-continuation-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/metric-calibration-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/stochastic-feedback-linear-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/stochastic-feedback-network-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/learning-ablation-findings-v2.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/learning-ablation-findings-v2.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/learning-ablation-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "results/registration_learning_ablation_v1.json"
+    },
+    {
+      "document": "README.md",
+      "target": "results/learning_ablation_v1/verification.json"
+    },
+    {
+      "document": "README.md",
+      "target": "results/learning_ablation_archive_validation.json"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/state-decomposition-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/conditional-transition-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/time-mixture-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/phase4-synthesis.md"
+    },
+    {
+      "document": "README.md",
+      "target": "results/time_mixture_v1/verification.json"
+    },
+    {
+      "document": "README.md",
+      "target": "results/phase4_synthesis_v1/verification.json"
+    },
+    {
+      "document": "README.md",
+      "target": "results/phase4_synthesis_archive_validation.json"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/phase4-synthesis-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-shell-findings.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-shell-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-shell-rng-protocol.md"
+    },
+    {
+      "document": "README.md",
+      "target": "results/human_shell_rng_v2/verification.json"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-shell-data-processing-note.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/human-shell-reproduction.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/phase5-final-report.md"
+    },
+    {
+      "document": "README.md",
+      "target": "docs/phase5-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/representation_update_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/representation_update_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/representation_update_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/representation_update_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/representation_update_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/representation_update_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/representation_update_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/update_budget_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/update_budget_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/update_budget_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/update_budget_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/update_budget_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/spillover_tradeoff_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/spillover_tradeoff_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/spillover_tradeoff_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/signed_spillover_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/signed_spillover_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/selective_spillover_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/selective_spillover_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/selective_spillover_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/selective_spillover_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/normalization_loss_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/normalization_loss_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/cone_frontier_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/cone_frontier_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/balanced_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/balanced_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/balanced_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/balanced_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/balanced_pathways_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/balanced_pathways_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_pathways_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_pathways_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_factors_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_factors_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_factors_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_factors_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_factors_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_factors_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/probability_alignment_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/probability_alignment_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/probability_alignment_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/probability_alignment_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_pathways_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_pathways_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_pathways_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_pathways_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_pathways_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/human_shell_rng_v2/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/human_shell_rng_v2/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/human_shell_rng_v2/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/human_shell_rng_v2/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/pattern_rule_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/pattern_rule_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/interference_order_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/interference_order_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/interference_order_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/drosomem-audit.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/drosomem-audit.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/drosomem-audit.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/human_shell_rng_v2/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/human_shell_rng_v2/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_representation_update_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/representation_update_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/representation_update_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/representation_update_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/representation-update-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_update_budget_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/update_budget_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/update_budget_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/update_budget_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/update-budget-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_spillover_tradeoff_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/spillover_tradeoff_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/spillover_tradeoff_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/spillover_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/spillover-tradeoff-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_signed_spillover_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/signed_spillover_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/signed_spillover_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/signed_spillover_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/signed-spillover-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_selective_spillover_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/selective_spillover_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/selective_spillover_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/selective_spillover_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/selective-spillover-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_normalization_loss_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/normalization_loss_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/normalization_loss_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/normalization_loss_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/normalization-loss-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_cone_frontier_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/cone_frontier_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/cone_frontier_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/cone_frontier_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/cone-frontier-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_balanced_learning_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/balanced_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/balanced_learning_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/balanced_learning_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/balanced-learning-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_balanced_pathways_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/balanced_pathways_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/balanced_pathways_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/balanced_pathways_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/balanced-pathways-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_gated_learning_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_learning_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_learning_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/gated-learning-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_gated_pathways_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_pathways_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_pathways_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_pathways_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/gated-pathways-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_gated_factors_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_factors_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_factors_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/gated_factors_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/gated-factors-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_self_blend_learning_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_learning_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/self-blend-learning-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_self_blend_factors_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_factors_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_factors_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/self_blend_factors_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/self-blend-factors-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_probability_alignment_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/probability_alignment_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/probability_alignment_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/probability_alignment_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/probability-alignment-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_objective_learning_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_learning_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_learning_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_learning_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/objective-learning-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/registration_objective_pathways_v1.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_pathways_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_pathways_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/objective_pathways_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/objective-pathways-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/phase5_synthesis_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/phase5_synthesis_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/phase5-final-report.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/phase5-evidence-appendix.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/phase5-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/phase5_synthesis_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/drosomem-audit.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/drosomem-audit.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../data/flywire_783_mb_left_kc512_s701/provenance.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/human_shell_rng_v2/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/human_shell_rng_v2/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/human-shell-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/human-shell-rng-design-note.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/human-shell-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/human_shell_comparison_archive_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/pattern_rule_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/pattern_rule_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/pattern-rule-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/pattern-rule-protocol.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/interference_order_v1/summary.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../results/interference_order_v1/verification.json"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/interference-order-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/interference-order-protocol.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/literature-review.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../docs/human-learning-comparison.md"
+    },
+    {
+      "document": "docs/followup-closure-evidence-appendix.md",
+      "target": "../LIMITATIONS.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "followup-closure-plain-language.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "followup-closure-evidence-appendix.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "followup-closure-limitations.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "followup-closure-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "phase5-final-report.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "../LIMITATIONS.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "representation-update-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "update-budget-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "gated-learning-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "selective-spillover-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "probability-alignment-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "objective-learning-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "objective-pathways-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "phase5-final-report.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "human-shell-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "pattern-rule-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "interference-order-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "representation-update-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "update-budget-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "spillover-tradeoff-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "signed-spillover-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "selective-spillover-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "normalization-loss-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "cone-frontier-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "balanced-learning-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "balanced-pathways-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "gated-learning-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "gated-pathways-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "gated-factors-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "self-blend-learning-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "self-blend-factors-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "probability-alignment-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "objective-learning-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "objective-pathways-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "followup-closure-evidence-appendix.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "literature-review.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "drosomem-audit.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "followup-closure-consumer-v2-protocol.md"
+    },
+    {
+      "document": "docs/followup-closure-final-report.md",
+      "target": "followup-closure-reproduction.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "phase5-final-report.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "../LIMITATIONS.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "representation-update-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "learning-ablation-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "human-shell-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "drosomem-audit.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "literature-review.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "update-budget-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "normalization-loss-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "probability-alignment-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "objective-learning-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "objective-pathways-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "pattern-rule-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "interference-order-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-limitations.md",
+      "target": "followup-closure-plain-language.md"
+    },
+    {
+      "document": "docs/followup-closure-plain-language.md",
+      "target": "phase5-final-report.md"
+    },
+    {
+      "document": "docs/followup-closure-plain-language.md",
+      "target": "representation-update-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-plain-language.md",
+      "target": "update-budget-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-plain-language.md",
+      "target": "gated-learning-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-plain-language.md",
+      "target": "objective-learning-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-plain-language.md",
+      "target": "objective-pathways-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-plain-language.md",
+      "target": "human-shell-findings.md"
+    },
+    {
+      "document": "docs/followup-closure-plain-language.md",
+      "target": "followup-closure-limitations.md"
+    },
+    {
+      "document": "docs/followup-closure-plain-language.md",
+      "target": "phase5-final-report.md"
+    },
+    {
+      "document": "docs/followup-closure-reproduction.md",
+      "target": "../results/registration_followup_closure_consumer_v2.json"
+    },
+    {
+      "document": "docs/followup-closure-reproduction.md",
+      "target": "../results/followup_closure_consumer_v2_publication_proof.json"
+    },
+    {
+      "document": "docs/followup-closure-reproduction.md",
+      "target": "../results/followup_closure_consumer_v2_prefreeze_validation.json"
+    },
+    {
+      "document": "docs/followup-closure-reproduction.md",
+      "target": "followup-closure-final-report.md"
+    },
+    {
+      "document": "docs/followup-closure-reproduction.md",
+      "target": "followup-closure-evidence-appendix.md"
+    },
+    {
+      "document": "docs/followup-closure-reproduction.md",
+      "target": "followup-closure-limitations.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "followup-closure-plain-language.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "followup-closure-final-report.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "followup-closure-evidence-appendix.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "followup-closure-limitations.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "followup-closure-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "gated-factors-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "gated-factors-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "gated-factors-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "gated-pathways-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "gated-pathways-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "gated-pathways-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "gated-learning-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "gated-learning-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "gated-learning-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "balanced-pathways-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "balanced-pathways-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "balanced-pathways-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "balanced-learning-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "balanced-learning-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "balanced-learning-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "cone-frontier-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "cone-frontier-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "cone-frontier-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "normalization-loss-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "normalization-loss-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "normalization-loss-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "selective-spillover-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "selective-spillover-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "selective-spillover-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "signed-spillover-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "signed-spillover-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "signed-spillover-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "spillover-tradeoff-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "spillover-tradeoff-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "spillover-tradeoff-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "update-budget-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "update-budget-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "update-budget-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "representation-update-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "representation-update-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "representation-update-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "phase5-final-report.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "phase5-evidence-appendix.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "reversal-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "human-data-readiness.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "encoding-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "encoding-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "../results/encoding_v1/report.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "spacing-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "spacing-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "linearity-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "linearity-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "reward-linear-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "reward-linear-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "bandit-reversal-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "bandit-reversal-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "head-attenuation-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "head-attenuation-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "human-trial-data-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "human-trial-data-sources.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "human-trial-data-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "human-trial-linkage-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "human-trial-linkage-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "human-data-continuation-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "learning-measurement-continuation-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "stochastic-feedback-continuation-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "learning-ablation-findings-v2.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "state-decomposition-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "phase4-synthesis.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "human-shell-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "conditional-transition-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "time-mixture-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "phase4-synthesis-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "human-shell-data-processing-note.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "human-shell-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "phase5-final-report.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "phase5-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "self-blend-learning-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "self-blend-learning-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "self-blend-learning-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "self-blend-factors-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "self-blend-factors-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "self-blend-factors-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "probability-alignment-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "probability-alignment-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "probability-alignment-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "objective-learning-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "objective-learning-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "objective-learning-reproduction.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "objective-pathways-findings.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "objective-pathways-protocol.md"
+    },
+    {
+      "document": "docs/research-roadmap.md",
+      "target": "objective-pathways-reproduction.md"
+    }
+  ],
+  "claim_sections_checked": 24,
+  "literal_evidence_references_checked": 80,
+  "historical_decision_objects_checked": 66,
+  "followup_versions_checked": 17,
+  "final_table_same_cohort_values_checked_against_parent_summary": {
+    "gated_balanced": "58.4542%",
+    "gated_uniform": "58.2672%",
+    "gated_probability": "58.5224%"
+  },
+  "initial_passed_tests": 267,
+  "additional_consumer_passed_tests": 84,
+  "initial_independent_consumer_failure_preserved": true,
+  "original_summary_schema_and_scientific_thresholds_unchanged": true,
+  "old_source_data_results_failures_and_first_phase5_preserved": true,
+  "old_test_counts_not_summed_as_independent": true,
+  "new_training_rng_graph_optimization_effect_human_calls": 0,
+  "no_new_positive_generalization_human_mechanism_or_education_claim": true,
+  "bounded_completion_and_no_automatic_queued_work": true,
+  "method": "Local links, exact original literals and study versions, displayed parent table, EOF/trailing whitespace, immutable evidence hashes, and Korean interpretation review. Saved evidence only; no new effect statistics."
+}
