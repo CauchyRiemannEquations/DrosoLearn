@@ -1,0 +1,137 @@
+{
+  "study_id": "objective_pathways_v1",
+  "scope": "retrospective_descriptive_objective_pathways",
+  "module": "drosolearn.objective_pathways",
+  "protocol": "docs/objective-pathways-protocol.md",
+  "learning_result": "results/objective_learning_v1",
+  "baseline_tag": "objective-learning-v1",
+  "baseline_commit": "b96a6c9d88a9f83cbe4e093272eea0ca77f245fe",
+  "topologies": [
+    "real",
+    "rewired",
+    "ann"
+  ],
+  "representations": [
+    "raw",
+    "identity"
+  ],
+  "methods": [
+    "shared",
+    "isolated",
+    "feedback_selective",
+    "balanced",
+    "gated_balanced",
+    "gated_self_blend",
+    "gated_uniform",
+    "gated_probability"
+  ],
+  "comparisons": [
+    [
+      "gated_uniform",
+      "gated_balanced"
+    ],
+    [
+      "gated_probability",
+      "gated_balanced"
+    ],
+    [
+      "gated_probability",
+      "gated_uniform"
+    ]
+  ],
+  "model_seeds": [
+    17801,
+    17802,
+    17803,
+    17804,
+    17805,
+    17806,
+    17807,
+    17808,
+    17809,
+    17810
+  ],
+  "training_trials": 400,
+  "numeric_tolerance": 1e-08,
+  "phase_definition": "all_three_gated_known_before_count_equals_four",
+  "bridge_eligibility": "common_post_and_both_actual_Go",
+  "bridge_bits": [
+    "state",
+    "scalar",
+    "direction"
+  ],
+  "bridge_allocation": "three_factor_symmetric_Shapley_exact_sigmoid",
+  "destination_groups": [
+    "own",
+    "other"
+  ],
+  "choice_reward_phases": [
+    "all",
+    "pre",
+    "post"
+  ],
+  "choice_reward_actions": [
+    0,
+    1
+  ],
+  "choice_reward_values": [
+    -1,
+    0,
+    1
+  ],
+  "new_confirmatory_hypothesis": false,
+  "external_manifest": null,
+  "source_files": [
+    "configs/objective_pathways_v1.json",
+    "docs/objective-pathways-protocol.md",
+    "pyproject.toml",
+    "requirements-lock.txt",
+    "scripts/run_objective_pathways.py",
+    "scripts/verify_objective_pathways.py",
+    "src/drosolearn/__init__.py",
+    "src/drosolearn/balanced_envelope.py",
+    "src/drosolearn/cone_envelope.py",
+    "src/drosolearn/gated_envelope.py",
+    "src/drosolearn/gated_factors_envelope.py",
+    "src/drosolearn/gated_pathways_envelope.py",
+    "src/drosolearn/normalization_envelope.py",
+    "src/drosolearn/objective_envelope.py",
+    "src/drosolearn/objective_pathways.py",
+    "src/drosolearn/objective_pathways_envelope.py",
+    "src/drosolearn/pathways_envelope.py",
+    "src/drosolearn/probability_envelope.py",
+    "src/drosolearn/representation_envelope.py",
+    "src/drosolearn/selective_envelope.py",
+    "src/drosolearn/self_blend_envelope.py",
+    "src/drosolearn/self_blend_factors_envelope.py",
+    "tests/test_objective_pathways.py",
+    "tests/test_objective_pathways_envelope.py",
+    "tests/test_objective_pathways_verify.py"
+  ],
+  "parent_files": [
+    "results/objective_learning_archive_validation.json",
+    "results/objective_learning_baseline_preservation.json",
+    "results/objective_learning_figures_v1/plotted_values.json",
+    "results/objective_learning_figures_v1/provenance.json",
+    "results/objective_learning_prefreeze_tests/objective_learning_prefreeze_final.xml",
+    "results/objective_learning_prefreeze_validation.json",
+    "results/objective_learning_presentation_validation.json",
+    "results/objective_learning_publication_proof.json",
+    "results/objective_learning_v1/arrays.npz",
+    "results/objective_learning_v1/artifact_hashes.json",
+    "results/objective_learning_v1/measurements.csv.gz",
+    "results/objective_learning_v1/metadata.json",
+    "results/objective_learning_v1/registration.json",
+    "results/objective_learning_v1/summary.json",
+    "results/objective_learning_v1/verification.json",
+    "results/registration_objective_learning_v1.json"
+  ],
+  "interpretation": {
+    "new_human_experiment": false,
+    "shared_neural_mechanism_claim": false,
+    "education_effect_claim": false,
+    "new_training": false,
+    "new_seed_draws": false,
+    "new_effect_hypothesis_test": false
+  }
+}

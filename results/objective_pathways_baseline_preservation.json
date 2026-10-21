@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-21T02:40:25.869758+00:00",
+  "verified_at_utc": "2026-10-21T02:42:39.174050+00:00",
+  "baseline_tag": "objective-learning-v1",
+  "baseline_commit": "b96a6c9d88a9f83cbe4e093272eea0ca77f245fe",
+  "hash_compared_files": 19167,
+  "hash_compared_bytes": 2490494413,
+  "allowed_evolving_indexes": [
+    "README.md",
+    "docs/repository-status.json",
+    "docs/research-roadmap.md"
+  ],
+  "all_old_files_Git_blob_hash_preserved_except_three_indexes": true,
+  "method": "Git SHA1 blob header plus raw current bytes for every prior tracked file; cryptographic hash comparison, not a repeated literal-byte comparison.",
+  "prior_baseline_receipt_preserved": "results/objective_learning_baseline_preservation.json",
+  "new_learning_calls": 0
+}
