@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "started_at_utc": "2026-10-21T03:59:39.528675+00:00",
+  "source_git_commit": "2b9cef9fb475846b71cc63ea0629ce4e36b790ac",
+  "registration_sha256": "be38caae22634f5b096b50d0ceb4d5f0f5a9a09d476aa484128fce282569f188",
+  "command_argv": [
+    "C:\\Users\\USER\\Documents\\Codex\\2026-10-14\\codex-drosolearn-0-drosolearn-exploring-the\\work\\venv\\Scripts\\python.exe",
+    "scripts/verify_objective_pathways.py",
+    "--config",
+    "configs/objective_pathways_v1.json",
+    "--registration",
+    "results/registration_objective_pathways_v1.json",
+    "--result-dir",
+    "results/objective_pathways_v1",
+    "--publication-proof",
+    "results/objective_pathways_publication_proof.json",
+    "--out",
+    "results/followup_closure_reproduction_v1/objective_pathways_reverification.json"
+  ],
+  "script_sha256": "b119f7bc726ede7502b9a0beb9ed6f875da1fe4032843c704e0bb60c4bc90490",
+  "source_and_all_parent_bytes_checked_before_invocation": true,
+  "new_learning_cohort_rng_graph_optimization_or_human_calls": 0,
+  "output_sha256": "a2437f055fe69962007e54383aeda1fda02f3ffee546b0b1858995cca5d500f8",
+  "completed_at_utc": "2026-10-21T04:00:25.338379+00:00"
+}

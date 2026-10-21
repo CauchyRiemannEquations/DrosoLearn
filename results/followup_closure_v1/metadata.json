@@ -1,0 +1,34 @@
+{
+  "study_id": "followup_closure_v1",
+  "status": "completed",
+  "started_at_utc": "2026-10-21T04:00:46.936592+00:00",
+  "source_git_commit": "2b9cef9fb475846b71cc63ea0629ce4e36b790ac",
+  "registration_sha256": "be38caae22634f5b096b50d0ceb4d5f0f5a9a09d476aa484128fce282569f188",
+  "config_sha256": "3d4a676122af031c99df3698ec718fb7b3e6ab39efbda1273e1a3c96177bf6e0",
+  "publication_proof": "results/followup_closure_publication_proof.json",
+  "publication_proof_sha256": "462c0fdc56028d477d291008d38a006a82bd83782bd447523d587746914df8cd",
+  "analysis_only": true,
+  "new_training_rng_graph_optimizer_human_effect_calls": 0,
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.2.6"
+  },
+  "counts": {
+    "studies": 17,
+    "claims": 24,
+    "literal_observations": 80,
+    "actual_learning_registrations": 8,
+    "saved_record_registrations": 9,
+    "numeric_arrays": 2,
+    "measurement_records": 24,
+    "new_training_trials": 0,
+    "new_model_graph_rng_optimization_calls": 0,
+    "new_effect_tests": 0,
+    "new_human_experiments": 0,
+    "past_full_science_reruns": 0,
+    "saved_record_independent_rechecks": 1
+  },
+  "numeric_arrays": 2,
+  "measurement_records": 24,
+  "completed_at_utc": "2026-10-21T04:01:25.871798+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "study_id": "objective_pathways_v1",
+  "verified_at_utc": "2026-10-21T04:00:25.230015+00:00",
+  "registration_sha256": "2621e15e31907a6d414f92cc7830944e3470d9f77128a22902413c69a8f3926a",
+  "summary_sha256": "86a1b02af51060d495f2ecc9e8b4c07ce91ad01ec8b557baa79ed34629b2ad00",
+  "scientific_producer_imported": false,
+  "new_helper_imported": false,
+  "counts": {
+    "arrays": 16,
+    "parent_trial_records_checked": 192000,
+    "destination_effects_checked": 768000,
+    "measurement_records_checked": 2160,
+    "actual_paths_checked": 480,
+    "source_action_reward_strata_checked": 34560,
+    "factual_head_prefixes_and_parent_effects_checked": true,
+    "actual_saved_uniform_threshold_choices_checked": true,
+    "only_actually_obtained_rewards_and_memory_checked": true,
+    "signed_scalar_probability_identity_checked": true,
+    "same_prefeedback_gate_and_exact_prefix_checked": true,
+    "only_post_both_actual_Go_eight_corners_checked": true,
+    "state_scalar_direction_symmetric_allocations_checked": true,
+    "signed_positive_and_negative_mass_allocations_checked": true,
+    "own_other_and_all_unpaired_actual_actions_accounted": true,
+    "all_paths_strata_costs_unknown_damage_and_endpoints_checked": true,
+    "factual_diagnostics_and_nullable_means_checked": true,
+    "no_rng_model_graph_solver_or_future_policy_calls": true,
+    "new_training_trials": 0,
+    "new_random_draws": 0,
+    "new_optimization_calls": 0
+  }
+}
